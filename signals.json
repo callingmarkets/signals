@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-26T03:06:39.500084Z",
+  "generated": "2026-03-26T03:13:28.321323Z",
   "signals": [
     {
       "ticker": "SPY",
@@ -7,16 +7,13 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "N/A",
-          "bars": 1
+          "signal": "SELL"
         },
         "weekly": {
-          "signal": "N/A",
-          "bars": 0
+          "signal": "SELL"
         },
         "monthly": {
-          "signal": "N/A",
-          "bars": 0
+          "signal": "SELL"
         }
       }
     },
@@ -26,16 +23,13 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "N/A",
-          "bars": 1
+          "signal": "SELL"
         },
         "weekly": {
-          "signal": "N/A",
-          "bars": 0
+          "signal": "SELL"
         },
         "monthly": {
-          "signal": "N/A",
-          "bars": 0
+          "signal": "SELL"
         }
       }
     },
@@ -45,16 +39,13 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "N/A",
-          "bars": 1
+          "signal": "SELL"
         },
         "weekly": {
-          "signal": "N/A",
-          "bars": 0
+          "signal": "SELL"
         },
         "monthly": {
-          "signal": "N/A",
-          "bars": 0
+          "signal": "SELL"
         }
       }
     },
@@ -64,16 +55,14 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "N/A",
-          "bars": 1
+          "signal": "SELL"
         },
         "weekly": {
-          "signal": "N/A",
-          "bars": 0
+          "signal": "SELL"
         },
         "monthly": {
           "signal": "N/A",
-          "bars": 0
+          "bars": 63
         }
       }
     },
@@ -83,16 +72,14 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "N/A",
-          "bars": 1
+          "signal": "SELL"
         },
         "weekly": {
-          "signal": "N/A",
-          "bars": 0
+          "signal": "SELL"
         },
         "monthly": {
           "signal": "N/A",
-          "bars": 0
+          "bars": 63
         }
       }
     },
@@ -102,16 +89,13 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "N/A",
-          "bars": 1
+          "signal": "SELL"
         },
         "weekly": {
-          "signal": "N/A",
-          "bars": 0
+          "signal": "SELL"
         },
         "monthly": {
-          "signal": "N/A",
-          "bars": 0
+          "signal": "SELL"
         }
       }
     },
@@ -121,16 +105,13 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "N/A",
-          "bars": 1
+          "signal": "SELL"
         },
         "weekly": {
-          "signal": "N/A",
-          "bars": 0
+          "signal": "SELL"
         },
         "monthly": {
-          "signal": "N/A",
-          "bars": 0
+          "signal": "SELL"
         }
       }
     },
@@ -140,16 +121,13 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "N/A",
-          "bars": 1
+          "signal": "SELL"
         },
         "weekly": {
-          "signal": "N/A",
-          "bars": 0
+          "signal": "SELL"
         },
         "monthly": {
-          "signal": "N/A",
-          "bars": 0
+          "signal": "SELL"
         }
       }
     },
@@ -159,16 +137,13 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "N/A",
-          "bars": 1
+          "signal": "SELL"
         },
         "weekly": {
-          "signal": "N/A",
-          "bars": 0
+          "signal": "SELL"
         },
         "monthly": {
-          "signal": "N/A",
-          "bars": 0
+          "signal": "SELL"
         }
       }
     }
