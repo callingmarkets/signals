@@ -41,6 +41,7 @@ MACD_SIG   = 9
 ADX_LEN    = 14
 ADX_THRESH = 20
 
+# Fetch enough history for each timeframe
 START_DATES = {
     "1Day":   (datetime.utcnow() - timedelta(days=500)).strftime("%Y-%m-%d"),
     "1Week":  (datetime.utcnow() - timedelta(weeks=350)).strftime("%Y-%m-%d"),
@@ -54,22 +55,37 @@ def get_headers():
         "APCA-API-SECRET-KEY": ALPACA_SECRET_KEY,
     }
 
-def fetch_bars(symbol: str, timeframe: str, limit: int = 300) -> pd.DataFrame:
+def fetch_bars(symbol: str, timeframe: str) -> pd.DataFrame:
+    """Fetch all bars from start date using pagination."""
     is_crypto = "/" in symbol
-    url    = CRYPTO_URL if is_crypto else STOCKS_URL
+    url = CRYPTO_URL if is_crypto else STOCKS_URL
+
     params = {
         "symbols":   symbol,
         "timeframe": timeframe,
         "start":     START_DATES[timeframe],
-        "limit":     limit,
+        "limit":     1000,
         "sort":      "asc",
     }
-    r = requests.get(url, headers=get_headers(), params=params)
-    r.raise_for_status()
-    bars_raw = r.json().get("bars", {}).get(symbol, [])
-    if not bars_raw:
+
+    all_bars = []
+    while True:
+        r = requests.get(url, headers=get_headers(), params=params)
+        r.raise_for_status()
+        data     = r.json()
+        bars_raw = data.get("bars", {}).get(symbol, [])
+        all_bars.extend(bars_raw)
+
+        # Alpaca paginates via next_page_token
+        next_token = data.get("next_page_token")
+        if not next_token:
+            break
+        params["page_token"] = next_token
+
+    if not all_bars:
         return pd.DataFrame()
-    df = pd.DataFrame(bars_raw)
+
+    df = pd.DataFrame(all_bars)
     df["t"] = pd.to_datetime(df["t"])
     df.set_index("t", inplace=True)
     df.rename(columns={"o": "open", "h": "high", "l": "low", "c": "close", "v": "volume"}, inplace=True)
@@ -124,24 +140,24 @@ def compute_signal(df: pd.DataFrame, label: str = "", symbol: str = "") -> dict:
     macd_line, signal_line = calc_macd(src, MACD_FAST, MACD_SLOW, MACD_SIG)
     adx                    = calc_adx(df, ADX_LEN)
 
-    # Debug: print last 3 bars of key values for SPY
+    # Debug last 3 bars for SPY
     if symbol == "SPY":
-        print(f"    [{label}] Last 3 bars:")
+        print(f"    [{label}] Last bar: {df.index[-1].date()}  ADX={adx.iloc[-1]:.1f}")
         for i in [-3, -2, -1]:
-            bull1 = ema20.iloc[i] > ema55.iloc[i]
-            bull2 = rsi14.iloc[i] > rsi_ma.iloc[i]
-            bull3 = macd_line.iloc[i] > signal_line.iloc[i]
-            score = bull1 + bull2 + bull3
-            print(f"      {df.index[i].date()}  EMA={bull1} RSI={bull2} MACD={bull3} "
+            b1 = ema20.iloc[i] > ema55.iloc[i]
+            b2 = rsi14.iloc[i] > rsi_ma.iloc[i]
+            b3 = macd_line.iloc[i] > signal_line.iloc[i]
+            score = int(b1) + int(b2) + int(b3)
+            print(f"      {df.index[i].date()}  EMA={b1} RSI={b2} MACD={b3} "
                   f"score={score} ADX={adx.iloc[i]:.1f} trending={adx.iloc[i]>=ADX_THRESH}")
 
     # Pine Script logic: hold last signal when ADX below threshold
     is_buy = False
     for i in range(len(df)):
-        bull1 = ema20.iloc[i]     > ema55.iloc[i]
-        bull2 = rsi14.iloc[i]     > rsi_ma.iloc[i]
-        bull3 = macd_line.iloc[i] > signal_line.iloc[i]
-        raw   = (bull1 + bull2 + bull3) >= 2
+        b1  = ema20.iloc[i]     > ema55.iloc[i]
+        b2  = rsi14.iloc[i]     > rsi_ma.iloc[i]
+        b3  = macd_line.iloc[i] > signal_line.iloc[i]
+        raw = (int(b1) + int(b2) + int(b3)) >= 2
         if adx.iloc[i] >= ADX_THRESH:
             is_buy = raw
 
@@ -167,9 +183,9 @@ def run():
         }
         for label, alpaca_tf in tf_map.items():
             try:
-                df  = fetch_bars(symbol, alpaca_tf, limit=300)
+                df  = fetch_bars(symbol, alpaca_tf)
                 sig = compute_signal(df, label, symbol)
-                print(f"  {symbol:10s} {label:8s} bars={len(df):3d}  signal={sig['signal']}")
+                print(f"  {symbol:10s} {label:8s} bars={len(df):4d}  signal={sig['signal']}")
             except Exception as e:
                 sig = {"signal": "ERR", "error": str(e)}
                 print(f"  WARNING {symbol} {label}: {e}")
