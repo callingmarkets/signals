@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-26T23:08:51.003951Z",
+  "generated": "2026-03-26T23:19:40.614502Z",
   "signals": [
     {
       "ticker": "SPY",
@@ -26,7 +26,7 @@
           "signal": "SELL"
         },
         "weekly": {
-          "signal": "BUY"
+          "signal": "SELL"
         },
         "monthly": {
           "signal": "SELL"
@@ -71,7 +71,7 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY"
+          "signal": "SELL"
         },
         "weekly": {
           "signal": "SELL"
@@ -109,7 +109,7 @@
           "signal": "SELL"
         },
         "monthly": {
-          "signal": "SELL"
+          "signal": "BUY"
         }
       }
     },
@@ -135,10 +135,10 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY"
+          "signal": "SELL"
         },
         "weekly": {
-          "signal": "BUY"
+          "signal": "SELL"
         },
         "monthly": {
           "signal": "BUY"
