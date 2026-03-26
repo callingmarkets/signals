@@ -39,7 +39,8 @@ RSI_MA_LEN = 14
 MACD_FAST  = 12
 MACD_SLOW  = 26
 MACD_SIG   = 9
-ADX_LEN    = 14
+ADX_LEN    = 14  # adxlen — smoothing
+DI_LEN     = 14  # dilen  — DI length
 ADX_THRESH = 20
 
 START_DATES = {
@@ -88,26 +89,24 @@ def fetch_bars(symbol: str, timeframe: str) -> pd.DataFrame:
 
 # ── INDICATOR MATH ─────────────────────────────────────────────────────────────
 def calc_ema(series: pd.Series, length: int) -> pd.Series:
-    """Pine Script ta.ema() — standard EMA, alpha = 2/(length+1)."""
+    """Pine ta.ema() — alpha = 2/(length+1)."""
     return series.ewm(span=length, adjust=False).mean()
 
 def calc_rma(series: pd.Series, length: int) -> pd.Series:
     """
-    Pine Script ta.rma() — Wilder's Moving Average.
-    Initialization: first value = SMA of first `length` bars.
-    Then: rma = alpha * src + (1 - alpha) * prev_rma  where alpha = 1/length.
-    This matches Pine exactly, unlike ewm(alpha=1/N) which initializes differently.
+    Pine ta.rma() — Wilder's MA with SMA seed.
+    First value = SMA of first `length` non-NaN bars, then:
+    rma[i] = alpha * src[i] + (1 - alpha) * rma[i-1]  where alpha = 1/length
     """
     alpha  = 1.0 / length
     values = series.values.astype(float)
     result = np.full(len(values), np.nan)
 
-    # Find first bar with enough non-NaN history for SMA seed
+    # Find first valid window for SMA seed
     for i in range(length - 1, len(values)):
         window = values[i - length + 1 : i + 1]
         if not np.any(np.isnan(window)):
-            result[i] = np.mean(window)   # SMA seed
-            # Walk forward from here
+            result[i] = np.mean(window)
             for j in range(i + 1, len(values)):
                 if np.isnan(values[j]):
                     result[j] = result[j - 1]
@@ -118,7 +117,7 @@ def calc_rma(series: pd.Series, length: int) -> pd.Series:
     return pd.Series(result, index=series.index)
 
 def calc_rsi(series: pd.Series, length: int) -> pd.Series:
-    """Pine Script ta.rsi() — uses RMA for gain/loss smoothing."""
+    """Pine ta.rsi() — uses RMA for gain/loss."""
     delta = series.diff()
     gain  = delta.clip(lower=0)
     loss  = (-delta).clip(lower=0)
@@ -128,42 +127,67 @@ def calc_rsi(series: pd.Series, length: int) -> pd.Series:
     return 100 - (100 / (1 + rs))
 
 def calc_macd(series: pd.Series, fast: int, slow: int, sig: int):
-    """Pine Script ta.macd() — all EMA."""
+    """Pine ta.macd() — all EMA."""
     macd_line   = calc_ema(series, fast) - calc_ema(series, slow)
     signal_line = calc_ema(macd_line, sig)
     return macd_line, signal_line
 
-def calc_adx(df: pd.DataFrame, length: int) -> pd.Series:
+def calc_adx(df: pd.DataFrame, dilen: int, adxlen: int) -> pd.Series:
     """
-    Pine Script ta.dmi() — uses RMA with SMA seed for TR, DM+, DM-.
-    This is the critical fix: Pine seeds RMA with SMA, not the first value.
+    Matches Pine Script official ADX indicator exactly:
+
+    dirmov(len) =>
+        up   = ta.change(high)
+        down = -ta.change(low)
+        plusDM  = na(up)   ? na : (up > down   and up > 0   ? up   : 0)
+        minusDM = na(down) ? na : (down > up   and down > 0 ? down : 0)
+        truerange = ta.rma(ta.tr, len)
+        plus  = fixnan(100 * ta.rma(plusDM,  len) / truerange)
+        minus = fixnan(100 * ta.rma(minusDM, len) / truerange)
+
+    adx(dilen, adxlen) =>
+        [plus, minus] = dirmov(dilen)
+        sum = plus + minus
+        100 * ta.rma(abs(plus - minus) / (sum == 0 ? 1 : sum), adxlen)
     """
     high  = df["high"]
     low   = df["low"]
     close = df["close"]
 
-    # True Range
+    # ta.change(high) and -ta.change(low)
+    up   = high.diff()
+    down = -low.diff()
+
+    # plusDM: na if up is na, else up if up > down and up > 0, else 0
+    plus_dm  = np.where(up.isna(),   np.nan,
+               np.where((up > down) & (up > 0),   up,   0.0))
+    minus_dm = np.where(down.isna(), np.nan,
+               np.where((down > up) & (down > 0), down, 0.0))
+
+    plus_dm  = pd.Series(plus_dm,  index=df.index)
+    minus_dm = pd.Series(minus_dm, index=df.index)
+
+    # ta.tr — True Range
     tr = pd.concat([
         high - low,
         (high - close.shift(1)).abs(),
         (low  - close.shift(1)).abs()
     ], axis=1).max(axis=1)
 
-    # Directional Movement
-    dm_plus  = (high - high.shift(1)).clip(lower=0)
-    dm_minus = (low.shift(1) - low).clip(lower=0)
-    dm_plus  = dm_plus.where(dm_plus > dm_minus, 0.0)
-    dm_minus = dm_minus.where(dm_minus > dm_plus, 0.0)
+    # ta.rma on TR, plusDM, minusDM
+    truerange = calc_rma(tr,       dilen)
+    rma_plus  = calc_rma(plus_dm,  dilen)
+    rma_minus = calc_rma(minus_dm, dilen)
 
-    # Wilder RMA with correct SMA initialization
-    atr       = calc_rma(tr,       length)
-    sdm_plus  = calc_rma(dm_plus,  length)
-    sdm_minus = calc_rma(dm_minus, length)
+    # DI+ and DI- with fixnan (forward-fill NaNs)
+    di_plus  = (100 * rma_plus  / truerange).ffill()
+    di_minus = (100 * rma_minus / truerange).ffill()
 
-    di_plus  = 100 * sdm_plus  / atr
-    di_minus = 100 * sdm_minus / atr
-    dx       = 100 * (di_plus - di_minus).abs() / (di_plus + di_minus)
-    adx      = calc_rma(dx, length)
+    # ADX
+    di_sum = di_plus + di_minus
+    dx     = (di_plus - di_minus).abs() / di_sum.where(di_sum != 0, 1)
+    adx    = 100 * calc_rma(dx, adxlen)
+
     return adx
 
 def compute_signal(df: pd.DataFrame, label: str = "", symbol: str = "") -> dict:
@@ -176,7 +200,7 @@ def compute_signal(df: pd.DataFrame, label: str = "", symbol: str = "") -> dict:
     rsi14                  = calc_rsi(src, RSI_LEN)
     rsi_ma                 = calc_ema(rsi14, RSI_MA_LEN)
     macd_line, signal_line = calc_macd(src, MACD_FAST, MACD_SLOW, MACD_SIG)
-    adx                    = calc_adx(df, ADX_LEN)
+    adx                    = calc_adx(df, DI_LEN, ADX_LEN)
 
     # Debug last 3 bars for SPY
     if symbol == "SPY":
@@ -196,7 +220,8 @@ def compute_signal(df: pd.DataFrame, label: str = "", symbol: str = "") -> dict:
         b2  = rsi14.iloc[i]     > rsi_ma.iloc[i]
         b3  = macd_line.iloc[i] > signal_line.iloc[i]
         raw = (int(b1) + int(b2) + int(b3)) >= 2
-        if not np.isnan(adx.iloc[i]) and adx.iloc[i] >= ADX_THRESH:
+        adx_val = adx.iloc[i]
+        if not np.isnan(adx_val) and adx_val >= ADX_THRESH:
             is_buy = raw
 
     return {"signal": "BUY" if is_buy else "SELL"}
