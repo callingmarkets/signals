@@ -13,11 +13,13 @@ import pandas as pd
 # ── API KEYS (loaded from GitHub Secrets — never hardcode these) ───────────────
 ALPACA_API_KEY    = os.environ["ALPACA_API_KEY"]
 ALPACA_SECRET_KEY = os.environ["ALPACA_SECRET_KEY"]
-BASE_URL          = "https://data.alpaca.markets/v2"
+
+STOCKS_URL = "https://data.alpaca.markets/v2/stocks/bars"
+CRYPTO_URL = "https://data.alpaca.markets/v1beta3/crypto/us/bars"
 
 # ── TICKERS ────────────────────────────────────────────────────────────────────
-# Add or remove tickers here. Format: ("SYMBOL", "Sector")
-# Crypto symbols must include /USD (e.g. "BTC/USD")
+# Format: ("SYMBOL", "Sector")
+# Crypto symbols use BTC/USD format
 TICKERS = [
     ("SPY",     "ETF"),
     ("QQQ",     "ETF"),
@@ -49,26 +51,31 @@ def get_headers():
     }
 
 def fetch_bars(symbol: str, timeframe: str, limit: int = 300) -> pd.DataFrame:
-    is_crypto  = "/" in symbol
-    # Alpaca crypto API uses BTCUSD format (no slash)
-    api_symbol = symbol.replace("/", "") if is_crypto else symbol
-    endpoint   = "crypto/bars" if is_crypto else "stocks/bars"
+    is_crypto = "/" in symbol
 
-    params = {
-        "symbols":   api_symbol,
-        "timeframe": timeframe,
-        "limit":     limit,
-        "sort":      "asc",
-    }
-    # Stocks: use IEX free feed — no paid subscription required
-    if not is_crypto:
-        params["feed"] = "iex"
+    if is_crypto:
+        # Crypto: v1beta3 endpoint, symbol stays as BTC/USD
+        params = {
+            "symbols":   symbol,
+            "timeframe": timeframe,
+            "limit":     limit,
+            "sort":      "asc",
+        }
+        r = requests.get(CRYPTO_URL, headers=get_headers(), params=params)
+        r.raise_for_status()
+        bars_raw = r.json().get("bars", {}).get(symbol, [])
+    else:
+        # Stocks: v2 endpoint, no feed param (uses default SIP data)
+        params = {
+            "symbols":   symbol,
+            "timeframe": timeframe,
+            "limit":     limit,
+            "sort":      "asc",
+        }
+        r = requests.get(STOCKS_URL, headers=get_headers(), params=params)
+        r.raise_for_status()
+        bars_raw = r.json().get("bars", {}).get(symbol, [])
 
-    r = requests.get(f"{BASE_URL}/{endpoint}", headers=get_headers(), params=params)
-    r.raise_for_status()
-    data = r.json()
-
-    bars_raw = data.get("bars", {}).get(api_symbol, [])
     if not bars_raw:
         return pd.DataFrame()
 
@@ -119,7 +126,7 @@ def calc_adx(df, length):
 
 def compute_signal(df: pd.DataFrame) -> dict:
     if df.empty or len(df) < EMA_SLOW + 10:
-        return {"signal": "N/A"}
+        return {"signal": "N/A", "bars": len(df) if not df.empty else 0}
 
     src                    = df["close"]
     ema20                  = calc_ema(src, EMA_FAST)
@@ -132,9 +139,9 @@ def compute_signal(df: pd.DataFrame) -> dict:
     # Replicate Pine Script: hold last signal when ADX drops below threshold
     is_buy = False
     for i in range(len(df)):
-        bull1 = ema20.iloc[i]      > ema55.iloc[i]
-        bull2 = rsi14.iloc[i]      > rsi_ma.iloc[i]
-        bull3 = macd_line.iloc[i]  > signal_line.iloc[i]
+        bull1 = ema20.iloc[i]     > ema55.iloc[i]
+        bull2 = rsi14.iloc[i]     > rsi_ma.iloc[i]
+        bull3 = macd_line.iloc[i] > signal_line.iloc[i]
         raw   = (bull1 + bull2 + bull3) >= 2
         if adx.iloc[i] >= ADX_THRESH:
             is_buy = raw
@@ -163,15 +170,13 @@ def run():
             try:
                 df  = fetch_bars(symbol, alpaca_tf, limit=300)
                 sig = compute_signal(df)
+                print(f"  {symbol:10s} {label:8s} bars={len(df):3d}  signal={sig['signal']}")
             except Exception as e:
                 sig = {"signal": "ERR", "error": str(e)}
                 print(f"  WARNING {symbol} {label}: {e}")
             row["timeframes"][label] = sig
 
         results.append(row)
-        print(f"  {symbol:10s}  D={row['timeframes']['daily']['signal']:4s}  "
-              f"W={row['timeframes']['weekly']['signal']:4s}  "
-              f"M={row['timeframes']['monthly']['signal']}")
 
     output = {
         "generated": datetime.utcnow().isoformat() + "Z",
