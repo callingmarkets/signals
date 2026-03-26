@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-26T02:43:50.001688Z",
+  "generated": "2026-03-26T03:01:28.915015Z",
   "signals": [
     {
       "ticker": "SPY",
@@ -56,15 +56,15 @@
       "timeframes": {
         "daily": {
           "signal": "ERR",
-          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=BTC%2FUSD&timeframe=1Day&limit=300&sort=asc"
+          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=BTCUSD&timeframe=1Day&limit=300&sort=asc"
         },
         "weekly": {
           "signal": "ERR",
-          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=BTC%2FUSD&timeframe=1Week&limit=300&sort=asc"
+          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=BTCUSD&timeframe=1Week&limit=300&sort=asc"
         },
         "monthly": {
           "signal": "ERR",
-          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=BTC%2FUSD&timeframe=1Month&limit=300&sort=asc"
+          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=BTCUSD&timeframe=1Month&limit=300&sort=asc"
         }
       }
     },
@@ -75,15 +75,15 @@
       "timeframes": {
         "daily": {
           "signal": "ERR",
-          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=ETH%2FUSD&timeframe=1Day&limit=300&sort=asc"
+          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=ETHUSD&timeframe=1Day&limit=300&sort=asc"
         },
         "weekly": {
           "signal": "ERR",
-          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=ETH%2FUSD&timeframe=1Week&limit=300&sort=asc"
+          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=ETHUSD&timeframe=1Week&limit=300&sort=asc"
         },
         "monthly": {
           "signal": "ERR",
-          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=ETH%2FUSD&timeframe=1Month&limit=300&sort=asc"
+          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=ETHUSD&timeframe=1Month&limit=300&sort=asc"
         }
       }
     },
