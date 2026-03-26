@@ -6,7 +6,7 @@ Outputs signals.json, which is served directly from this GitHub repo.
 
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 import requests
 import pandas as pd
 
@@ -19,7 +19,6 @@ CRYPTO_URL = "https://data.alpaca.markets/v1beta3/crypto/us/bars"
 
 # ── TICKERS ────────────────────────────────────────────────────────────────────
 # Format: ("SYMBOL", "Sector")
-# Crypto symbols use BTC/USD format
 TICKERS = [
     ("SPY",     "ETF"),
     ("QQQ",     "ETF"),
@@ -43,6 +42,13 @@ MACD_SIG   = 9
 ADX_LEN    = 14
 ADX_THRESH = 20
 
+# How far back to fetch per timeframe (enough to cover 300 bars)
+START_DATES = {
+    "1Day":   (datetime.utcnow() - timedelta(days=500)).strftime("%Y-%m-%d"),
+    "1Week":  (datetime.utcnow() - timedelta(weeks=350)).strftime("%Y-%m-%d"),
+    "1Month": (datetime.utcnow() - timedelta(days=365*30)).strftime("%Y-%m-%d"),
+}
+
 # ── HELPERS ────────────────────────────────────────────────────────────────────
 def get_headers():
     return {
@@ -54,10 +60,10 @@ def fetch_bars(symbol: str, timeframe: str, limit: int = 300) -> pd.DataFrame:
     is_crypto = "/" in symbol
 
     if is_crypto:
-        # Crypto: v1beta3 endpoint, symbol stays as BTC/USD
         params = {
             "symbols":   symbol,
             "timeframe": timeframe,
+            "start":     START_DATES[timeframe],
             "limit":     limit,
             "sort":      "asc",
         }
@@ -65,10 +71,10 @@ def fetch_bars(symbol: str, timeframe: str, limit: int = 300) -> pd.DataFrame:
         r.raise_for_status()
         bars_raw = r.json().get("bars", {}).get(symbol, [])
     else:
-        # Stocks: v2 endpoint, no feed param (uses default SIP data)
         params = {
             "symbols":   symbol,
             "timeframe": timeframe,
+            "start":     START_DATES[timeframe],
             "limit":     limit,
             "sort":      "asc",
         }
@@ -136,7 +142,6 @@ def compute_signal(df: pd.DataFrame) -> dict:
     macd_line, signal_line = calc_macd(src, MACD_FAST, MACD_SLOW, MACD_SIG)
     adx                    = calc_adx(df, ADX_LEN)
 
-    # Replicate Pine Script: hold last signal when ADX drops below threshold
     is_buy = False
     for i in range(len(df)):
         bull1 = ema20.iloc[i]     > ema55.iloc[i]
