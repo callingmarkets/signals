@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-26T03:13:28.321323Z",
+  "generated": "2026-03-26T03:23:10.391586Z",
   "signals": [
     {
       "ticker": "SPY",
@@ -61,8 +61,7 @@
           "signal": "SELL"
         },
         "monthly": {
-          "signal": "N/A",
-          "bars": 63
+          "signal": "N/A"
         }
       }
     },
@@ -78,8 +77,7 @@
           "signal": "SELL"
         },
         "monthly": {
-          "signal": "N/A",
-          "bars": 63
+          "signal": "N/A"
         }
       }
     },
