@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 import requests
 import pandas as pd
 
-# ── API KEYS (loaded from GitHub Secrets — never hardcode these) ───────────────
+# ── API KEYS ───────────────────────────────────────────────────────────────────
 ALPACA_API_KEY    = os.environ["ALPACA_API_KEY"]
 ALPACA_SECRET_KEY = os.environ["ALPACA_SECRET_KEY"]
 
@@ -18,7 +18,6 @@ STOCKS_URL = "https://data.alpaca.markets/v2/stocks/bars"
 CRYPTO_URL = "https://data.alpaca.markets/v1beta3/crypto/us/bars"
 
 # ── TICKERS ────────────────────────────────────────────────────────────────────
-# Format: ("SYMBOL", "Sector")
 TICKERS = [
     ("SPY",     "ETF"),
     ("QQQ",     "ETF"),
@@ -31,7 +30,7 @@ TICKERS = [
     ("AMZN",    "Consumer"),
 ]
 
-# ── INDICATOR PARAMS (must match your Pine Script) ─────────────────────────────
+# ── INDICATOR PARAMS ───────────────────────────────────────────────────────────
 EMA_FAST   = 20
 EMA_SLOW   = 55
 RSI_LEN    = 14
@@ -42,7 +41,6 @@ MACD_SIG   = 9
 ADX_LEN    = 14
 ADX_THRESH = 20
 
-# How far back to fetch per timeframe (enough to cover 300 bars)
 START_DATES = {
     "1Day":   (datetime.utcnow() - timedelta(days=500)).strftime("%Y-%m-%d"),
     "1Week":  (datetime.utcnow() - timedelta(weeks=350)).strftime("%Y-%m-%d"),
@@ -58,33 +56,19 @@ def get_headers():
 
 def fetch_bars(symbol: str, timeframe: str, limit: int = 300) -> pd.DataFrame:
     is_crypto = "/" in symbol
-
-    if is_crypto:
-        params = {
-            "symbols":   symbol,
-            "timeframe": timeframe,
-            "start":     START_DATES[timeframe],
-            "limit":     limit,
-            "sort":      "asc",
-        }
-        r = requests.get(CRYPTO_URL, headers=get_headers(), params=params)
-        r.raise_for_status()
-        bars_raw = r.json().get("bars", {}).get(symbol, [])
-    else:
-        params = {
-            "symbols":   symbol,
-            "timeframe": timeframe,
-            "start":     START_DATES[timeframe],
-            "limit":     limit,
-            "sort":      "asc",
-        }
-        r = requests.get(STOCKS_URL, headers=get_headers(), params=params)
-        r.raise_for_status()
-        bars_raw = r.json().get("bars", {}).get(symbol, [])
-
+    url    = CRYPTO_URL if is_crypto else STOCKS_URL
+    params = {
+        "symbols":   symbol,
+        "timeframe": timeframe,
+        "start":     START_DATES[timeframe],
+        "limit":     limit,
+        "sort":      "asc",
+    }
+    r = requests.get(url, headers=get_headers(), params=params)
+    r.raise_for_status()
+    bars_raw = r.json().get("bars", {}).get(symbol, [])
     if not bars_raw:
         return pd.DataFrame()
-
     df = pd.DataFrame(bars_raw)
     df["t"] = pd.to_datetime(df["t"])
     df.set_index("t", inplace=True)
@@ -116,12 +100,10 @@ def calc_adx(df, length):
         (high - close.shift(1)).abs(),
         (low  - close.shift(1)).abs()
     ], axis=1).max(axis=1)
-
     dm_plus  = (high - high.shift(1)).clip(lower=0)
     dm_minus = (low.shift(1) - low).clip(lower=0)
     dm_plus  = dm_plus.where(dm_plus > dm_minus, 0)
     dm_minus = dm_minus.where(dm_minus > dm_plus, 0)
-
     alpha    = 1 / length
     atr      = tr.ewm(alpha=alpha, adjust=False).mean()
     di_plus  = 100 * dm_plus.ewm(alpha=alpha, adjust=False).mean() / atr
@@ -130,9 +112,9 @@ def calc_adx(df, length):
     adx      = dx.ewm(alpha=alpha, adjust=False).mean()
     return adx
 
-def compute_signal(df: pd.DataFrame) -> dict:
+def compute_signal(df: pd.DataFrame, label: str = "", symbol: str = "") -> dict:
     if df.empty or len(df) < EMA_SLOW + 10:
-        return {"signal": "N/A", "bars": len(df) if not df.empty else 0}
+        return {"signal": "N/A"}
 
     src                    = df["close"]
     ema20                  = calc_ema(src, EMA_FAST)
@@ -142,6 +124,18 @@ def compute_signal(df: pd.DataFrame) -> dict:
     macd_line, signal_line = calc_macd(src, MACD_FAST, MACD_SLOW, MACD_SIG)
     adx                    = calc_adx(df, ADX_LEN)
 
+    # Debug: print last 3 bars of key values for SPY
+    if symbol == "SPY":
+        print(f"    [{label}] Last 3 bars:")
+        for i in [-3, -2, -1]:
+            bull1 = ema20.iloc[i] > ema55.iloc[i]
+            bull2 = rsi14.iloc[i] > rsi_ma.iloc[i]
+            bull3 = macd_line.iloc[i] > signal_line.iloc[i]
+            score = bull1 + bull2 + bull3
+            print(f"      {df.index[i].date()}  EMA={bull1} RSI={bull2} MACD={bull3} "
+                  f"score={score} ADX={adx.iloc[i]:.1f} trending={adx.iloc[i]>=ADX_THRESH}")
+
+    # Pine Script logic: hold last signal when ADX below threshold
     is_buy = False
     for i in range(len(df)):
         bull1 = ema20.iloc[i]     > ema55.iloc[i]
@@ -174,7 +168,7 @@ def run():
         for label, alpaca_tf in tf_map.items():
             try:
                 df  = fetch_bars(symbol, alpaca_tf, limit=300)
-                sig = compute_signal(df)
+                sig = compute_signal(df, label, symbol)
                 print(f"  {symbol:10s} {label:8s} bars={len(df):3d}  signal={sig['signal']}")
             except Exception as e:
                 sig = {"signal": "ERR", "error": str(e)}
