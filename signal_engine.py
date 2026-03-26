@@ -8,6 +8,7 @@ import json
 import os
 from datetime import datetime, timedelta
 import requests
+import numpy as np
 import pandas as pd
 
 # ── API KEYS ───────────────────────────────────────────────────────────────────
@@ -55,7 +56,6 @@ def get_headers():
     }
 
 def fetch_bars(symbol: str, timeframe: str) -> pd.DataFrame:
-    """Fetch all bars from start date using pagination."""
     is_crypto = "/" in symbol
     url = CRYPTO_URL if is_crypto else STOCKS_URL
     params = {
@@ -87,17 +87,38 @@ def fetch_bars(symbol: str, timeframe: str) -> pd.DataFrame:
     return df[["open", "high", "low", "close", "volume"]]
 
 # ── INDICATOR MATH ─────────────────────────────────────────────────────────────
-def calc_ema(series, length):
-    """Standard EMA — matches Pine Script ta.ema()"""
+def calc_ema(series: pd.Series, length: int) -> pd.Series:
+    """Pine Script ta.ema() — standard EMA, alpha = 2/(length+1)."""
     return series.ewm(span=length, adjust=False).mean()
 
-def calc_rma(series, length):
-    """Wilder's RMA — matches Pine Script ta.rma(), used inside ta.rsi() and ta.dmi()
-    Alpha = 1/length instead of 2/(length+1) for standard EMA."""
-    return series.ewm(alpha=1.0/length, adjust=False).mean()
+def calc_rma(series: pd.Series, length: int) -> pd.Series:
+    """
+    Pine Script ta.rma() — Wilder's Moving Average.
+    Initialization: first value = SMA of first `length` bars.
+    Then: rma = alpha * src + (1 - alpha) * prev_rma  where alpha = 1/length.
+    This matches Pine exactly, unlike ewm(alpha=1/N) which initializes differently.
+    """
+    alpha  = 1.0 / length
+    values = series.values.astype(float)
+    result = np.full(len(values), np.nan)
 
-def calc_rsi(series, length):
-    """Matches Pine Script ta.rsi() exactly — uses Wilder's RMA internally."""
+    # Find first bar with enough non-NaN history for SMA seed
+    for i in range(length - 1, len(values)):
+        window = values[i - length + 1 : i + 1]
+        if not np.any(np.isnan(window)):
+            result[i] = np.mean(window)   # SMA seed
+            # Walk forward from here
+            for j in range(i + 1, len(values)):
+                if np.isnan(values[j]):
+                    result[j] = result[j - 1]
+                else:
+                    result[j] = alpha * values[j] + (1 - alpha) * result[j - 1]
+            break
+
+    return pd.Series(result, index=series.index)
+
+def calc_rsi(series: pd.Series, length: int) -> pd.Series:
+    """Pine Script ta.rsi() — uses RMA for gain/loss smoothing."""
     delta = series.diff()
     gain  = delta.clip(lower=0)
     loss  = (-delta).clip(lower=0)
@@ -106,14 +127,17 @@ def calc_rsi(series, length):
     rs    = avg_g / avg_l
     return 100 - (100 / (1 + rs))
 
-def calc_macd(series, fast, slow, sig):
-    """Matches Pine Script ta.macd() — uses standard EMA throughout."""
+def calc_macd(series: pd.Series, fast: int, slow: int, sig: int):
+    """Pine Script ta.macd() — all EMA."""
     macd_line   = calc_ema(series, fast) - calc_ema(series, slow)
     signal_line = calc_ema(macd_line, sig)
     return macd_line, signal_line
 
-def calc_adx(df, length):
-    """Matches Pine Script ta.dmi() — uses Wilder's RMA for smoothing."""
+def calc_adx(df: pd.DataFrame, length: int) -> pd.Series:
+    """
+    Pine Script ta.dmi() — uses RMA with SMA seed for TR, DM+, DM-.
+    This is the critical fix: Pine seeds RMA with SMA, not the first value.
+    """
     high  = df["high"]
     low   = df["low"]
     close = df["close"]
@@ -125,16 +149,16 @@ def calc_adx(df, length):
         (low  - close.shift(1)).abs()
     ], axis=1).max(axis=1)
 
-    # Directional Movement — Pine zeroes out when opposite DM is larger
+    # Directional Movement
     dm_plus  = (high - high.shift(1)).clip(lower=0)
     dm_minus = (low.shift(1) - low).clip(lower=0)
     dm_plus  = dm_plus.where(dm_plus > dm_minus, 0.0)
     dm_minus = dm_minus.where(dm_minus > dm_plus, 0.0)
 
-    # Wilder smoothing (RMA) — critical difference vs EMA
-    atr      = calc_rma(tr,       length)
-    sdm_plus = calc_rma(dm_plus,  length)
-    sdm_minus= calc_rma(dm_minus, length)
+    # Wilder RMA with correct SMA initialization
+    atr       = calc_rma(tr,       length)
+    sdm_plus  = calc_rma(dm_plus,  length)
+    sdm_minus = calc_rma(dm_minus, length)
 
     di_plus  = 100 * sdm_plus  / atr
     di_minus = 100 * sdm_minus / atr
@@ -163,7 +187,7 @@ def compute_signal(df: pd.DataFrame, label: str = "", symbol: str = "") -> dict:
             b3    = macd_line.iloc[i] > signal_line.iloc[i]
             score = int(b1) + int(b2) + int(b3)
             print(f"      {df.index[i].date()}  EMA={b1} RSI={b2} MACD={b3} "
-                  f"score={score} ADX={adx.iloc[i]:.1f} trending={adx.iloc[i]>=ADX_THRESH}")
+                  f"score={score} ADX={adx.iloc[i]:.2f} trending={adx.iloc[i]>=ADX_THRESH}")
 
     # Pine Script: hold last valid signal when ADX < threshold
     is_buy = False
@@ -172,7 +196,7 @@ def compute_signal(df: pd.DataFrame, label: str = "", symbol: str = "") -> dict:
         b2  = rsi14.iloc[i]     > rsi_ma.iloc[i]
         b3  = macd_line.iloc[i] > signal_line.iloc[i]
         raw = (int(b1) + int(b2) + int(b3)) >= 2
-        if adx.iloc[i] >= ADX_THRESH:
+        if not np.isnan(adx.iloc[i]) and adx.iloc[i] >= ADX_THRESH:
             is_buy = raw
 
     return {"signal": "BUY" if is_buy else "SELL"}
