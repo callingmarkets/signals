@@ -1,0 +1,155 @@
+{
+  "generated": "2026-03-26T02:43:50.001688Z",
+  "signals": [
+    {
+      "ticker": "SPY",
+      "sector": "ETF",
+      "updated": "Mar 26, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "N/A"
+        },
+        "weekly": {
+          "signal": "N/A"
+        },
+        "monthly": {
+          "signal": "N/A"
+        }
+      }
+    },
+    {
+      "ticker": "QQQ",
+      "sector": "ETF",
+      "updated": "Mar 26, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "N/A"
+        },
+        "weekly": {
+          "signal": "N/A"
+        },
+        "monthly": {
+          "signal": "N/A"
+        }
+      }
+    },
+    {
+      "ticker": "GLD",
+      "sector": "Commodity",
+      "updated": "Mar 26, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "N/A"
+        },
+        "weekly": {
+          "signal": "N/A"
+        },
+        "monthly": {
+          "signal": "N/A"
+        }
+      }
+    },
+    {
+      "ticker": "BTC/USD",
+      "sector": "Crypto",
+      "updated": "Mar 26, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "ERR",
+          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=BTC%2FUSD&timeframe=1Day&limit=300&sort=asc"
+        },
+        "weekly": {
+          "signal": "ERR",
+          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=BTC%2FUSD&timeframe=1Week&limit=300&sort=asc"
+        },
+        "monthly": {
+          "signal": "ERR",
+          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=BTC%2FUSD&timeframe=1Month&limit=300&sort=asc"
+        }
+      }
+    },
+    {
+      "ticker": "ETH/USD",
+      "sector": "Crypto",
+      "updated": "Mar 26, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "ERR",
+          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=ETH%2FUSD&timeframe=1Day&limit=300&sort=asc"
+        },
+        "weekly": {
+          "signal": "ERR",
+          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=ETH%2FUSD&timeframe=1Week&limit=300&sort=asc"
+        },
+        "monthly": {
+          "signal": "ERR",
+          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=ETH%2FUSD&timeframe=1Month&limit=300&sort=asc"
+        }
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "sector": "Technology",
+      "updated": "Mar 26, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "N/A"
+        },
+        "weekly": {
+          "signal": "N/A"
+        },
+        "monthly": {
+          "signal": "N/A"
+        }
+      }
+    },
+    {
+      "ticker": "AAPL",
+      "sector": "Technology",
+      "updated": "Mar 26, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "N/A"
+        },
+        "weekly": {
+          "signal": "N/A"
+        },
+        "monthly": {
+          "signal": "N/A"
+        }
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "sector": "Technology",
+      "updated": "Mar 26, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "N/A"
+        },
+        "weekly": {
+          "signal": "N/A"
+        },
+        "monthly": {
+          "signal": "N/A"
+        }
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "sector": "Consumer",
+      "updated": "Mar 26, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "N/A"
+        },
+        "weekly": {
+          "signal": "N/A"
+        },
+        "monthly": {
+          "signal": "N/A"
+        }
+      }
+    }
+  ]
+}
