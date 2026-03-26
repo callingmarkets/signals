@@ -49,21 +49,26 @@ def get_headers():
     }
 
 def fetch_bars(symbol: str, timeframe: str, limit: int = 300) -> pd.DataFrame:
-    is_crypto = "/" in symbol
-    endpoint  = "crypto/bars" if is_crypto else "stocks/bars"
+    is_crypto  = "/" in symbol
+    # Alpaca crypto API uses BTCUSD format (no slash)
+    api_symbol = symbol.replace("/", "") if is_crypto else symbol
+    endpoint   = "crypto/bars" if is_crypto else "stocks/bars"
 
     params = {
-        "symbols": symbol,
+        "symbols":   api_symbol,
         "timeframe": timeframe,
-        "limit": limit,
-        "sort": "asc",
+        "limit":     limit,
+        "sort":      "asc",
     }
+    # Stocks: use IEX free feed — no paid subscription required
+    if not is_crypto:
+        params["feed"] = "iex"
 
     r = requests.get(f"{BASE_URL}/{endpoint}", headers=get_headers(), params=params)
     r.raise_for_status()
     data = r.json()
 
-    bars_raw = data.get("bars", {}).get(symbol, [])
+    bars_raw = data.get("bars", {}).get(api_symbol, [])
     if not bars_raw:
         return pd.DataFrame()
 
@@ -87,7 +92,7 @@ def calc_rsi(series, length):
     return 100 - (100 / (1 + rs))
 
 def calc_macd(series, fast, slow, sig):
-    macd_line  = calc_ema(series, fast) - calc_ema(series, slow)
+    macd_line   = calc_ema(series, fast) - calc_ema(series, slow)
     signal_line = calc_ema(macd_line, sig)
     return macd_line, signal_line
 
@@ -116,20 +121,20 @@ def compute_signal(df: pd.DataFrame) -> dict:
     if df.empty or len(df) < EMA_SLOW + 10:
         return {"signal": "N/A"}
 
-    src        = df["close"]
-    ema20      = calc_ema(src, EMA_FAST)
-    ema55      = calc_ema(src, EMA_SLOW)
-    rsi14      = calc_rsi(src, RSI_LEN)
-    rsi_ma     = calc_ema(rsi14, RSI_MA_LEN)
+    src                    = df["close"]
+    ema20                  = calc_ema(src, EMA_FAST)
+    ema55                  = calc_ema(src, EMA_SLOW)
+    rsi14                  = calc_rsi(src, RSI_LEN)
+    rsi_ma                 = calc_ema(rsi14, RSI_MA_LEN)
     macd_line, signal_line = calc_macd(src, MACD_FAST, MACD_SLOW, MACD_SIG)
-    adx        = calc_adx(df, ADX_LEN)
+    adx                    = calc_adx(df, ADX_LEN)
 
     # Replicate Pine Script: hold last signal when ADX drops below threshold
     is_buy = False
     for i in range(len(df)):
-        bull1 = ema20.iloc[i]   > ema55.iloc[i]
-        bull2 = rsi14.iloc[i]   > rsi_ma.iloc[i]
-        bull3 = macd_line.iloc[i] > signal_line.iloc[i]
+        bull1 = ema20.iloc[i]      > ema55.iloc[i]
+        bull2 = rsi14.iloc[i]      > rsi_ma.iloc[i]
+        bull3 = macd_line.iloc[i]  > signal_line.iloc[i]
         raw   = (bull1 + bull2 + bull3) >= 2
         if adx.iloc[i] >= ADX_THRESH:
             is_buy = raw
@@ -160,7 +165,7 @@ def run():
                 sig = compute_signal(df)
             except Exception as e:
                 sig = {"signal": "ERR", "error": str(e)}
-                print(f"  ⚠ {symbol} {label}: {e}")
+                print(f"  WARNING {symbol} {label}: {e}")
             row["timeframes"][label] = sig
 
         results.append(row)
@@ -176,7 +181,7 @@ def run():
     with open("signals.json", "w") as f:
         json.dump(output, f, indent=2)
 
-    print(f"\n✓ signals.json written — {len(results)} tickers")
+    print(f"\nDone — signals.json written with {len(results)} tickers")
 
 if __name__ == "__main__":
     print("CallingMarkets Signal Engine\n")
