@@ -1,9 +1,10 @@
 {
-  "generated": "2026-03-26T23:19:40.614502Z",
+  "generated": "2026-03-26T23:50:37.196802Z",
   "signals": [
     {
       "ticker": "SPY",
       "sector": "ETF",
+      "price": 645.58,
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
@@ -20,6 +21,7 @@
     {
       "ticker": "QQQ",
       "sector": "ETF",
+      "price": 575.43,
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
@@ -36,6 +38,7 @@
     {
       "ticker": "GLD",
       "sector": "Commodity",
+      "price": 400.35,
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
@@ -52,6 +55,7 @@
     {
       "ticker": "BTC/USD",
       "sector": "Crypto",
+      "price": null,
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
@@ -68,6 +72,7 @@
     {
       "ticker": "ETH/USD",
       "sector": "Crypto",
+      "price": null,
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
@@ -84,6 +89,7 @@
     {
       "ticker": "NVDA",
       "sector": "Technology",
+      "price": null,
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
@@ -100,6 +106,7 @@
     {
       "ticker": "AAPL",
       "sector": "Technology",
+      "price": null,
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
@@ -116,6 +123,7 @@
     {
       "ticker": "TSLA",
       "sector": "Technology",
+      "price": 374.03,
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
@@ -132,6 +140,7 @@
     {
       "ticker": "AMZN",
       "sector": "Consumer",
+      "price": null,
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
