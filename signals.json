@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-26T03:01:28.915015Z",
+  "generated": "2026-03-26T03:06:39.500084Z",
   "signals": [
     {
       "ticker": "SPY",
@@ -7,13 +7,16 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "N/A"
+          "signal": "N/A",
+          "bars": 1
         },
         "weekly": {
-          "signal": "N/A"
+          "signal": "N/A",
+          "bars": 0
         },
         "monthly": {
-          "signal": "N/A"
+          "signal": "N/A",
+          "bars": 0
         }
       }
     },
@@ -23,13 +26,16 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "N/A"
+          "signal": "N/A",
+          "bars": 1
         },
         "weekly": {
-          "signal": "N/A"
+          "signal": "N/A",
+          "bars": 0
         },
         "monthly": {
-          "signal": "N/A"
+          "signal": "N/A",
+          "bars": 0
         }
       }
     },
@@ -39,13 +45,16 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "N/A"
+          "signal": "N/A",
+          "bars": 1
         },
         "weekly": {
-          "signal": "N/A"
+          "signal": "N/A",
+          "bars": 0
         },
         "monthly": {
-          "signal": "N/A"
+          "signal": "N/A",
+          "bars": 0
         }
       }
     },
@@ -55,16 +64,16 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "ERR",
-          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=BTCUSD&timeframe=1Day&limit=300&sort=asc"
+          "signal": "N/A",
+          "bars": 1
         },
         "weekly": {
-          "signal": "ERR",
-          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=BTCUSD&timeframe=1Week&limit=300&sort=asc"
+          "signal": "N/A",
+          "bars": 0
         },
         "monthly": {
-          "signal": "ERR",
-          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=BTCUSD&timeframe=1Month&limit=300&sort=asc"
+          "signal": "N/A",
+          "bars": 0
         }
       }
     },
@@ -74,16 +83,16 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "ERR",
-          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=ETHUSD&timeframe=1Day&limit=300&sort=asc"
+          "signal": "N/A",
+          "bars": 1
         },
         "weekly": {
-          "signal": "ERR",
-          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=ETHUSD&timeframe=1Week&limit=300&sort=asc"
+          "signal": "N/A",
+          "bars": 0
         },
         "monthly": {
-          "signal": "ERR",
-          "error": "404 Client Error: Not Found for url: https://data.alpaca.markets/v2/crypto/bars?symbols=ETHUSD&timeframe=1Month&limit=300&sort=asc"
+          "signal": "N/A",
+          "bars": 0
         }
       }
     },
@@ -93,13 +102,16 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "N/A"
+          "signal": "N/A",
+          "bars": 1
         },
         "weekly": {
-          "signal": "N/A"
+          "signal": "N/A",
+          "bars": 0
         },
         "monthly": {
-          "signal": "N/A"
+          "signal": "N/A",
+          "bars": 0
         }
       }
     },
@@ -109,13 +121,16 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "N/A"
+          "signal": "N/A",
+          "bars": 1
         },
         "weekly": {
-          "signal": "N/A"
+          "signal": "N/A",
+          "bars": 0
         },
         "monthly": {
-          "signal": "N/A"
+          "signal": "N/A",
+          "bars": 0
         }
       }
     },
@@ -125,13 +140,16 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "N/A"
+          "signal": "N/A",
+          "bars": 1
         },
         "weekly": {
-          "signal": "N/A"
+          "signal": "N/A",
+          "bars": 0
         },
         "monthly": {
-          "signal": "N/A"
+          "signal": "N/A",
+          "bars": 0
         }
       }
     },
@@ -141,13 +159,16 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "N/A"
+          "signal": "N/A",
+          "bars": 1
         },
         "weekly": {
-          "signal": "N/A"
+          "signal": "N/A",
+          "bars": 0
         },
         "monthly": {
-          "signal": "N/A"
+          "signal": "N/A",
+          "bars": 0
         }
       }
     }
