@@ -41,7 +41,6 @@ MACD_SIG   = 9
 ADX_LEN    = 14
 ADX_THRESH = 20
 
-# Fetch enough history for each timeframe
 START_DATES = {
     "1Day":   (datetime.utcnow() - timedelta(days=500)).strftime("%Y-%m-%d"),
     "1Week":  (datetime.utcnow() - timedelta(weeks=350)).strftime("%Y-%m-%d"),
@@ -59,7 +58,6 @@ def fetch_bars(symbol: str, timeframe: str) -> pd.DataFrame:
     """Fetch all bars from start date using pagination."""
     is_crypto = "/" in symbol
     url = CRYPTO_URL if is_crypto else STOCKS_URL
-
     params = {
         "symbols":   symbol,
         "timeframe": timeframe,
@@ -67,7 +65,6 @@ def fetch_bars(symbol: str, timeframe: str) -> pd.DataFrame:
         "limit":     1000,
         "sort":      "asc",
     }
-
     all_bars = []
     while True:
         r = requests.get(url, headers=get_headers(), params=params)
@@ -75,8 +72,6 @@ def fetch_bars(symbol: str, timeframe: str) -> pd.DataFrame:
         data     = r.json()
         bars_raw = data.get("bars", {}).get(symbol, [])
         all_bars.extend(bars_raw)
-
-        # Alpaca paginates via next_page_token
         next_token = data.get("next_page_token")
         if not next_token:
             break
@@ -93,39 +88,58 @@ def fetch_bars(symbol: str, timeframe: str) -> pd.DataFrame:
 
 # ── INDICATOR MATH ─────────────────────────────────────────────────────────────
 def calc_ema(series, length):
+    """Standard EMA — matches Pine Script ta.ema()"""
     return series.ewm(span=length, adjust=False).mean()
 
+def calc_rma(series, length):
+    """Wilder's RMA — matches Pine Script ta.rma(), used inside ta.rsi() and ta.dmi()
+    Alpha = 1/length instead of 2/(length+1) for standard EMA."""
+    return series.ewm(alpha=1.0/length, adjust=False).mean()
+
 def calc_rsi(series, length):
+    """Matches Pine Script ta.rsi() exactly — uses Wilder's RMA internally."""
     delta = series.diff()
     gain  = delta.clip(lower=0)
-    loss  = -delta.clip(upper=0)
-    avg_g = gain.ewm(alpha=1/length, min_periods=length, adjust=False).mean()
-    avg_l = loss.ewm(alpha=1/length, min_periods=length, adjust=False).mean()
+    loss  = (-delta).clip(lower=0)
+    avg_g = calc_rma(gain, length)
+    avg_l = calc_rma(loss, length)
     rs    = avg_g / avg_l
     return 100 - (100 / (1 + rs))
 
 def calc_macd(series, fast, slow, sig):
+    """Matches Pine Script ta.macd() — uses standard EMA throughout."""
     macd_line   = calc_ema(series, fast) - calc_ema(series, slow)
     signal_line = calc_ema(macd_line, sig)
     return macd_line, signal_line
 
 def calc_adx(df, length):
-    high, low, close = df["high"], df["low"], df["close"]
+    """Matches Pine Script ta.dmi() — uses Wilder's RMA for smoothing."""
+    high  = df["high"]
+    low   = df["low"]
+    close = df["close"]
+
+    # True Range
     tr = pd.concat([
         high - low,
         (high - close.shift(1)).abs(),
         (low  - close.shift(1)).abs()
     ], axis=1).max(axis=1)
+
+    # Directional Movement — Pine zeroes out when opposite DM is larger
     dm_plus  = (high - high.shift(1)).clip(lower=0)
     dm_minus = (low.shift(1) - low).clip(lower=0)
-    dm_plus  = dm_plus.where(dm_plus > dm_minus, 0)
-    dm_minus = dm_minus.where(dm_minus > dm_plus, 0)
-    alpha    = 1 / length
-    atr      = tr.ewm(alpha=alpha, adjust=False).mean()
-    di_plus  = 100 * dm_plus.ewm(alpha=alpha, adjust=False).mean() / atr
-    di_minus = 100 * dm_minus.ewm(alpha=alpha, adjust=False).mean() / atr
+    dm_plus  = dm_plus.where(dm_plus > dm_minus, 0.0)
+    dm_minus = dm_minus.where(dm_minus > dm_plus, 0.0)
+
+    # Wilder smoothing (RMA) — critical difference vs EMA
+    atr      = calc_rma(tr,       length)
+    sdm_plus = calc_rma(dm_plus,  length)
+    sdm_minus= calc_rma(dm_minus, length)
+
+    di_plus  = 100 * sdm_plus  / atr
+    di_minus = 100 * sdm_minus / atr
     dx       = 100 * (di_plus - di_minus).abs() / (di_plus + di_minus)
-    adx      = dx.ewm(alpha=alpha, adjust=False).mean()
+    adx      = calc_rma(dx, length)
     return adx
 
 def compute_signal(df: pd.DataFrame, label: str = "", symbol: str = "") -> dict:
@@ -142,16 +156,16 @@ def compute_signal(df: pd.DataFrame, label: str = "", symbol: str = "") -> dict:
 
     # Debug last 3 bars for SPY
     if symbol == "SPY":
-        print(f"    [{label}] Last bar: {df.index[-1].date()}  ADX={adx.iloc[-1]:.1f}")
+        print(f"    [{label}] Last bar: {df.index[-1].date()}")
         for i in [-3, -2, -1]:
-            b1 = ema20.iloc[i] > ema55.iloc[i]
-            b2 = rsi14.iloc[i] > rsi_ma.iloc[i]
-            b3 = macd_line.iloc[i] > signal_line.iloc[i]
+            b1    = ema20.iloc[i] > ema55.iloc[i]
+            b2    = rsi14.iloc[i] > rsi_ma.iloc[i]
+            b3    = macd_line.iloc[i] > signal_line.iloc[i]
             score = int(b1) + int(b2) + int(b3)
             print(f"      {df.index[i].date()}  EMA={b1} RSI={b2} MACD={b3} "
                   f"score={score} ADX={adx.iloc[i]:.1f} trending={adx.iloc[i]>=ADX_THRESH}")
 
-    # Pine Script logic: hold last signal when ADX below threshold
+    # Pine Script: hold last valid signal when ADX < threshold
     is_buy = False
     for i in range(len(df)):
         b1  = ema20.iloc[i]     > ema55.iloc[i]
