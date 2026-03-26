@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-26T03:26:10.911421Z",
+  "generated": "2026-03-26T21:57:04.173076Z",
   "signals": [
     {
       "ticker": "SPY",
@@ -13,7 +13,7 @@
           "signal": "SELL"
         },
         "monthly": {
-          "signal": "BUY"
+          "signal": "SELL"
         }
       }
     },
@@ -29,7 +29,7 @@
           "signal": "BUY"
         },
         "monthly": {
-          "signal": "BUY"
+          "signal": "SELL"
         }
       }
     },
@@ -87,7 +87,7 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY"
+          "signal": "SELL"
         },
         "weekly": {
           "signal": "SELL"
