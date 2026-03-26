@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-26T03:23:10.391586Z",
+  "generated": "2026-03-26T03:26:10.911421Z",
   "signals": [
     {
       "ticker": "SPY",
@@ -13,7 +13,7 @@
           "signal": "SELL"
         },
         "monthly": {
-          "signal": "SELL"
+          "signal": "BUY"
         }
       }
     },
@@ -26,10 +26,10 @@
           "signal": "SELL"
         },
         "weekly": {
-          "signal": "SELL"
+          "signal": "BUY"
         },
         "monthly": {
-          "signal": "SELL"
+          "signal": "BUY"
         }
       }
     },
@@ -45,7 +45,7 @@
           "signal": "SELL"
         },
         "monthly": {
-          "signal": "SELL"
+          "signal": "BUY"
         }
       }
     },
@@ -71,7 +71,7 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL"
+          "signal": "BUY"
         },
         "weekly": {
           "signal": "SELL"
@@ -87,7 +87,7 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL"
+          "signal": "BUY"
         },
         "weekly": {
           "signal": "SELL"
@@ -135,13 +135,13 @@
       "updated": "Mar 26, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL"
+          "signal": "BUY"
         },
         "weekly": {
-          "signal": "SELL"
+          "signal": "BUY"
         },
         "monthly": {
-          "signal": "SELL"
+          "signal": "BUY"
         }
       }
     }
