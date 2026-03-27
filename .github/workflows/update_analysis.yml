@@ -1,0 +1,39 @@
+name: Weekly Analysis
+
+on:
+  schedule:
+    # Every Monday at 12:00 PM UTC (8:00 AM ET) — after markets open
+    - cron: "0 12 * * 1"
+
+  # Run manually from the Actions tab anytime
+  workflow_dispatch:
+
+jobs:
+  generate-analysis:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate analysis
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NEWSAPI_KEY:       ${{ secrets.NEWSAPI_KEY }}
+        run: python analysis_engine.py
+
+      - name: Commit analysis.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add analysis.json
+          git diff --staged --quiet || git commit -m "Weekly analysis $(date -u '+%Y-%m-%d')"
+          git push
