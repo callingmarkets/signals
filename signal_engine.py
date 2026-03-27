@@ -2,7 +2,7 @@
 CallingMarkets Signal Engine
 Matches CallingMarkets Indicator 2 (Pine Script v5) exactly.
 Signal = BUY if 2 or more of: EMA20 > EMA55, RSI14 > RSI_EMA14, MACD > Signal
-No ADX filter. Includes latest price fetch.
+Price: uses latest quote (bid/ask midpoint), falls back to last daily close.
 """
 
 import json
@@ -19,7 +19,7 @@ ALPACA_SECRET_KEY = os.environ["ALPACA_SECRET_KEY"]
 STOCKS_URL       = "https://data.alpaca.markets/v2/stocks/bars"
 CRYPTO_URL       = "https://data.alpaca.markets/v1beta3/crypto/us/bars"
 STOCKS_QUOTE_URL = "https://data.alpaca.markets/v2/stocks/quotes/latest"
-CRYPTO_QUOTE_URL = "https://data.alpaca.markets/v1beta3/crypto/us/quotes/latest"
+CRYPTO_TRADE_URL = "https://data.alpaca.markets/v1beta3/crypto/us/latest/trades"
 
 # ── TICKERS ────────────────────────────────────────────────────────────────────
 TICKERS = [
@@ -58,43 +58,48 @@ def get_headers():
 
 def fetch_latest_prices(symbols: list) -> dict:
     """
-    Fetch latest ask price for all tickers in one batch call each for stocks and crypto.
-    Returns dict of {symbol: price}.
+    Fetch latest price for all tickers.
+    Stocks: latest quote (bid/ask midpoint).
+    Crypto: latest trade price.
     """
     prices = {}
     stocks  = [s for s in symbols if "/" not in s]
     cryptos = [s for s in symbols if "/" in s]
 
+    # Stocks — latest quote
     if stocks:
         try:
             r = requests.get(STOCKS_QUOTE_URL, headers=get_headers(),
-                             params={"symbols": ",".join(stocks)})
+                             params={"symbols": ",".join(stocks)}, timeout=10)
             r.raise_for_status()
             for sym, data in r.json().get("quotes", {}).items():
-                # Use midpoint of bid/ask, fall back to ask price
                 bid = data.get("bp", 0)
                 ask = data.get("ap", 0)
                 if bid and ask:
                     prices[sym] = round((bid + ask) / 2, 2)
                 elif ask:
                     prices[sym] = round(ask, 2)
+                elif bid:
+                    prices[sym] = round(bid, 2)
+            print(f"  Stock quotes fetched: {list(prices.keys())}")
         except Exception as e:
             print(f"  WARNING stock quotes: {e}")
 
+    # Crypto — latest trade price
     if cryptos:
         try:
-            r = requests.get(CRYPTO_QUOTE_URL, headers=get_headers(),
-                             params={"symbols": ",".join(cryptos)})
+            r = requests.get(CRYPTO_TRADE_URL, headers=get_headers(),
+                             params={"symbols": ",".join(cryptos)}, timeout=10)
             r.raise_for_status()
-            for sym, data in r.json().get("quotes", {}).items():
-                bid = data.get("bp", 0)
-                ask = data.get("ap", 0)
-                if bid and ask:
-                    prices[sym] = round((bid + ask) / 2, 2)
-                elif ask:
-                    prices[sym] = round(ask, 2)
+            data = r.json()
+            # Response format: {"trades": {"BTC/USD": {"p": 87000, ...}}}
+            for sym, trade in data.get("trades", {}).items():
+                price = trade.get("p")
+                if price:
+                    prices[sym] = round(float(price), 2)
+            print(f"  Crypto trades fetched: {[s for s in cryptos if s in prices]}")
         except Exception as e:
-            print(f"  WARNING crypto quotes: {e}")
+            print(f"  WARNING crypto trades: {e}")
 
     return prices
 
@@ -110,7 +115,7 @@ def fetch_bars(symbol: str, timeframe: str) -> pd.DataFrame:
     }
     all_bars = []
     while True:
-        r = requests.get(url, headers=get_headers(), params=params)
+        r = requests.get(url, headers=get_headers(), params=params, timeout=15)
         r.raise_for_status()
         data     = r.json()
         bars_raw = data.get("bars", {}).get(symbol, [])
@@ -163,7 +168,7 @@ def calc_macd(series: pd.Series, fast: int, slow: int, sig: int):
 # ── SIGNAL LOGIC ───────────────────────────────────────────────────────────────
 def compute_signal(df: pd.DataFrame) -> dict:
     if df.empty or len(df) < EMA_SLOW + 10:
-        return {"signal": "N/A"}
+        return {"signal": "N/A", "last_close": None}
 
     src                    = df["close"]
     ema20                  = calc_ema(src, EMA_FAST)
@@ -177,7 +182,10 @@ def compute_signal(df: pd.DataFrame) -> dict:
     bull3  = bool(macd_line.iloc[-1] > signal_line.iloc[-1])
     is_buy = (int(bull1) + int(bull2) + int(bull3)) >= 2
 
-    return {"signal": "BUY" if is_buy else "SELL"}
+    return {
+        "signal":     "BUY" if is_buy else "SELL",
+        "last_close": round(float(src.iloc[-1]), 2),
+    }
 
 # ── MAIN ───────────────────────────────────────────────────────────────────────
 def run():
@@ -190,28 +198,36 @@ def run():
     today   = datetime.utcnow().strftime("%b %-d, %Y")
     symbols = [s for s, _ in TICKERS]
 
-    # Fetch all latest prices in one batch
     print("Fetching latest prices…")
     prices = fetch_latest_prices(symbols)
 
     results = []
     for symbol, sector in TICKERS:
         row = {
-            "ticker":     symbol,
-            "sector":     sector,
-            "price":      prices.get(symbol, None),
-            "updated":    today,
+            "ticker":  symbol,
+            "sector":  sector,
+            "updated": today,
             "timeframes": {},
         }
+
+        daily_close = None
         for label, alpaca_tf in tf_map.items():
             try:
                 df  = fetch_bars(symbol, alpaca_tf)
                 sig = compute_signal(df)
+                # Capture daily close as price fallback
+                if label == "daily" and sig.get("last_close"):
+                    daily_close = sig["last_close"]
+                # Strip last_close from stored signal (keep json clean)
+                sig.pop("last_close", None)
                 print(f"  {symbol:10s} {label:8s} bars={len(df):4d}  signal={sig['signal']}")
             except Exception as e:
                 sig = {"signal": "ERR", "error": str(e)}
                 print(f"  WARNING {symbol} {label}: {e}")
             row["timeframes"][label] = sig
+
+        # Price: prefer live quote, fall back to last daily close
+        row["price"] = prices.get(symbol) or daily_close
 
         results.append(row)
 
@@ -224,6 +240,7 @@ def run():
         json.dump(output, f, indent=2)
 
     print(f"\nDone — signals.json written with {len(results)} tickers")
+    print("Prices:", {r["ticker"]: r["price"] for r in results})
 
 if __name__ == "__main__":
     print("CallingMarkets Signal Engine\n")
