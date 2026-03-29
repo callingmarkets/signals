@@ -259,8 +259,38 @@ def upload_image_to_wordpress(photo: dict, article_title: str) -> int | None:
         print(f"  Image upload error: {e}")
         return None
 
+def get_or_create_category(name: str) -> int | None:
+    """Get the ID of a WordPress category by name, creating it if it doesn't exist."""
+    try:
+        # Search for existing category
+        r = requests.get(f"{WP_URL}/wp-json/wp/v2/categories",
+            headers=wp_auth(),
+            params={"search": name, "per_page": 10},
+            timeout=10,
+        )
+        r.raise_for_status()
+        results = r.json()
+        for cat in results:
+            if cat["name"].lower() == name.lower():
+                print(f"  Found category '{name}' with ID {cat['id']}")
+                return cat["id"]
+
+        # Create it if not found
+        r = requests.post(f"{WP_URL}/wp-json/wp/v2/categories",
+            headers={**wp_auth(), "Content-Type": "application/json"},
+            json={"name": name},
+            timeout=10,
+        )
+        r.raise_for_status()
+        cat_id = r.json()["id"]
+        print(f"  Created category '{name}' with ID {cat_id}")
+        return cat_id
+    except Exception as e:
+        print(f"  Category error: {e}")
+        return None
+
 def publish_to_wordpress(article: dict, media_id: int | None, photo: dict | None) -> str:
-    """Create a draft post in WordPress."""
+    """Publish post live to WordPress under the News category."""
 
     # Add photo credit to end of content if we have a photo
     content = article["content"]
@@ -270,12 +300,16 @@ def publish_to_wordpress(article: dict, media_id: int | None, photo: dict | None
                   f'{photo["photographer"]}</a> / Unsplash</p>')
         content += credit
 
+    # Get or create the News category
+    news_cat_id = get_or_create_category("News")
+    categories  = [news_cat_id] if news_cat_id else []
+
     post_data = {
         "title":         article["title"],
         "content":       content,
         "excerpt":       article.get("excerpt", ""),
-        "status":        "draft",          # Save as draft for review
-        "categories":    [],               # Add category IDs here if needed
+        "status":        "publish",        # Auto-publish live
+        "categories":    categories,
         "tags":          [],               # Tags added by name below
         "comment_status": "open",
     }
@@ -376,7 +410,7 @@ def run():
     post_url = publish_to_wordpress(article, media_id, photo)
     print(f"  Draft saved: {post_url}")
 
-    print(f"\n✓ Done — review your draft at {WP_URL}/wp-admin/edit.php")
+    print(f"\n✓ Done — article published live at {post_url}")
 
 if __name__ == "__main__":
     run()
