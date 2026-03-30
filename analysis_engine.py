@@ -172,6 +172,59 @@ INSTRUCTIONS:
 - Do NOT include disclaimers or mention that this is AI-generated.
 - Length: 2 concise paragraphs, approximately 120-180 words total."""
 
+def generate_takeaways(analyses: list) -> list:
+    """Generate 4-6 key takeaways summarizing the week across all sectors."""
+    # Build a compact summary of all sector biases
+    bullish = [a["sector"] for a in analyses if a["bias"] == "Bullish"]
+    bearish = [a["sector"] for a in analyses if a["bias"] == "Bearish"]
+    mixed   = [a["sector"] for a in analyses if a["bias"] == "Mixed"]
+
+    today = datetime.utcnow().strftime("%B %d, %Y")
+
+    prompt = f"""You are writing the weekly market summary for CallingMarkets, a momentum signals publication.
+
+Date: {today}
+
+SECTOR BIAS SUMMARY:
+Bullish ({len(bullish)}): {", ".join(bullish[:8]) if bullish else "None"}
+Mixed ({len(mixed)}):   {", ".join(mixed[:8]) if mixed else "None"}
+Bearish ({len(bearish)}): {", ".join(bearish[:8]) if bearish else "None"}
+
+SECTOR SYNOPSES (sample):
+{chr(10).join([f"- {a['sector']}: {a['synopsis'][:200]}..." for a in analyses[:6]])}
+
+Write exactly 5 key takeaways that summarize the most important market themes this week.
+Each takeaway should be one concise sentence (max 20 words), actionable and specific.
+Focus on: overall market direction, sector rotation, notable divergences, what traders should watch.
+
+Respond ONLY with a JSON array of 5 strings:
+["takeaway 1", "takeaway 2", "takeaway 3", "takeaway 4", "takeaway 5"]"""
+
+    try:
+        r = requests.post(ANTHROPIC_URL,
+            headers={
+                "x-api-key": ANTHROPIC_API_KEY,
+                "anthropic-version": "2023-06-01",
+                "content-type": "application/json",
+            },
+            json={
+                "model":      "claude-opus-4-5",
+                "max_tokens": 400,
+                "messages":   [{"role": "user", "content": prompt}],
+            },
+            timeout=30,
+        )
+        r.raise_for_status()
+        text = r.json()["content"][0]["text"].strip()
+        import re
+        match = re.search(r'\[.*\]', text, re.DOTALL)
+        if match:
+            return json.loads(match.group())
+    except Exception as e:
+        print(f"  Takeaways error: {e}")
+
+    return []
+
 # ── MAIN ───────────────────────────────────────────────────────────────────────
 def run():
     # Load signals.json
@@ -230,9 +283,14 @@ def run():
 
         print(f"    Bias: {bias} | Done")
 
+    # Generate overall market takeaways
+    print("\nGenerating key takeaways…")
+    takeaways = generate_takeaways(analyses)
+
     output = {
         "generated": datetime.utcnow().isoformat() + "Z",
         "week_of":   datetime.utcnow().strftime("%B %d, %Y"),
+        "takeaways": takeaways,
         "sectors":   analyses,
     }
 
