@@ -1,7 +1,7 @@
 """
 One-time backfill script.
-Forces previous = opposite of current for ALL tickers/timeframes.
-Run once, then the rolling logic in signal_engine.py takes over.
+Sets previous = current for all tickers/timeframes as a clean baseline.
+Future real flips will update previous naturally via signal_engine.py.
 """
 
 import json
@@ -14,10 +14,10 @@ for row in data["signals"]:
     for label in ["daily", "weekly", "monthly"]:
         tf = row["timeframes"].get(label, {})
         if tf.get("signal") in ("BUY", "SELL"):
-            tf["previous"] = "SELL" if tf["signal"] == "BUY" else "BUY"
+            tf["previous"] = tf["signal"]
             updated += 1
 
 with open("signals.json", "w") as f:
     json.dump(data, f, indent=2)
 
-print(f"Backfilled {updated} signals with opposite previous.")
+print(f"Backfilled {updated} signals — previous set to match current.")
