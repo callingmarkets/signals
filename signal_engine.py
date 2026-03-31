@@ -418,9 +418,19 @@ def run():
     today   = datetime.utcnow().strftime("%b %-d, %Y")
     symbols = [s for s, _ in TICKERS]
 
-    # Load existing signals.json to carry forward rolling previous signal state
-    # Logic: if new signal != current signal → current becomes previous, new becomes current
-    #        if new signal == current signal → keep both current and previous unchanged
+    # Determine which timeframes should update their previous signal today
+    # Daily:   always update previous (runs every weekday)
+    # Weekly:  only update previous on Monday (last week's candle just closed)
+    # Monthly: only update previous on the 1st (last month's candle just closed)
+    now = datetime.utcnow()
+    update_previous = {
+        "daily":   True,
+        "weekly":  now.weekday() == 0,   # Monday = 0
+        "monthly": now.day == 1,
+    }
+    print(f"Update previous — Daily: {update_previous['daily']} | Weekly: {update_previous['weekly']} | Monthly: {update_previous['monthly']}")
+
+    # Load existing signals.json to carry forward state
     prev_state = {}
     try:
         with open("signals.json", "r") as f:
@@ -458,17 +468,20 @@ def run():
                     daily_close = sig["last_close"]
                 sig.pop("last_close", None)
                 # Add previous signal
-                # Rolling previous logic:
-                # If signal changed → old current becomes new previous
-                # If signal unchanged → keep existing previous frozen
+                # Previous signal logic per timeframe:
+                # Daily   → always update: previous = what yesterday's signal was
+                # Weekly  → only update on Monday: previous = last week's completed signal
+                # Monthly → only update on 1st: previous = last month's completed signal
                 last = prev_state.get(symbol, {}).get(label, {})
                 last_signal   = last.get("signal")
                 last_previous = last.get("previous")
 
-                if last_signal and sig["signal"] != last_signal:
-                    sig["previous"] = last_signal   # flipped — record last regime
+                if update_previous[label]:
+                    # Time to rotate: current becomes previous, new signal becomes current
+                    sig["previous"] = last_signal if last_signal else last_previous
                 else:
-                    sig["previous"] = last_previous  # unchanged — keep previous frozen
+                    # Not time to update this timeframe's previous — keep it frozen
+                    sig["previous"] = last_previous
 
                 print(f"  {symbol:10s} {label:8s} bars={len(df):4d}  signal={sig['signal']}  prev={sig['previous']}")
             except Exception as e:
