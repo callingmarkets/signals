@@ -418,17 +418,22 @@ def run():
     today   = datetime.utcnow().strftime("%b %-d, %Y")
     symbols = [s for s, _ in TICKERS]
 
-    # Load existing signals.json — current signal becomes previous on next run
-    prev_signals = {}
+    # Load existing signals.json to carry forward rolling previous signal state
+    # Logic: if new signal != current signal → current becomes previous, new becomes current
+    #        if new signal == current signal → keep both current and previous unchanged
+    prev_state = {}
     try:
         with open("signals.json", "r") as f:
             prev_data = json.load(f)
         for row in prev_data.get("signals", []):
-            prev_signals[row["ticker"]] = {
-                label: row["timeframes"].get(label, {}).get("signal")
+            prev_state[row["ticker"]] = {
+                label: {
+                    "signal":   row["timeframes"].get(label, {}).get("signal"),
+                    "previous": row["timeframes"].get(label, {}).get("previous"),
+                }
                 for label in ["daily", "weekly", "monthly"]
             }
-        print(f"Loaded previous signals for {len(prev_signals)} tickers")
+        print(f"Loaded previous state for {len(prev_state)} tickers")
     except FileNotFoundError:
         print("No previous signals.json found — first run")
 
@@ -453,8 +458,17 @@ def run():
                     daily_close = sig["last_close"]
                 sig.pop("last_close", None)
                 # Add previous signal
-                # Previous = whatever the current signal was on the last run
-                sig["previous"] = prev_signals.get(symbol, {}).get(label)
+                # Rolling previous logic:
+                # If signal changed → old current becomes new previous
+                # If signal unchanged → keep existing previous frozen
+                last = prev_state.get(symbol, {}).get(label, {})
+                last_signal   = last.get("signal")
+                last_previous = last.get("previous")
+
+                if last_signal and sig["signal"] != last_signal:
+                    sig["previous"] = last_signal   # flipped — record last regime
+                else:
+                    sig["previous"] = last_previous  # unchanged — keep previous frozen
 
                 print(f"  {symbol:10s} {label:8s} bars={len(df):4d}  signal={sig['signal']}  prev={sig['previous']}")
             except Exception as e:
