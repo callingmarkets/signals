@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-31T15:28:48.418606Z",
+  "generated": "2026-03-31T15:55:00.995792Z",
   "signals": [
     {
       "ticker": "SPY",
@@ -8,7 +8,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -19,7 +19,7 @@
           "previous": "BUY"
         }
       },
-      "price": 641.85
+      "price": 641.08
     },
     {
       "ticker": "QQQ",
@@ -28,7 +28,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -39,7 +39,7 @@
           "previous": "BUY"
         }
       },
-      "price": 568.0
+      "price": 567.27
     },
     {
       "ticker": "IWM",
@@ -48,7 +48,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -59,7 +59,7 @@
           "previous": "SELL"
         }
       },
-      "price": 244.27
+      "price": 243.75
     },
     {
       "ticker": "DIA",
@@ -68,7 +68,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -79,7 +79,7 @@
           "previous": "SELL"
         }
       },
-      "price": 457.69
+      "price": 456.88
     },
     {
       "ticker": "MDY",
@@ -88,7 +88,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -99,7 +99,7 @@
           "previous": "SELL"
         }
       },
-      "price": 608.71
+      "price": 608.12
     },
     {
       "ticker": "VTI",
@@ -108,7 +108,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -119,7 +119,7 @@
           "previous": "BUY"
         }
       },
-      "price": 316.75
+      "price": 316.32
     },
     {
       "ticker": "VOO",
@@ -128,7 +128,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -139,7 +139,7 @@
           "previous": "BUY"
         }
       },
-      "price": 589.99
+      "price": 589.29
     },
     {
       "ticker": "RSP",
@@ -148,7 +148,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -159,7 +159,7 @@
           "previous": "SELL"
         }
       },
-      "price": 190.01
+      "price": 189.74
     },
     {
       "ticker": "XLK",
@@ -168,7 +168,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -179,7 +179,7 @@
           "previous": "BUY"
         }
       },
-      "price": 130.16
+      "price": 129.8
     },
     {
       "ticker": "XLF",
@@ -188,7 +188,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -199,7 +199,7 @@
           "previous": "BUY"
         }
       },
-      "price": 48.83
+      "price": 48.8
     },
     {
       "ticker": "XLE",
@@ -208,7 +208,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -219,7 +219,7 @@
           "previous": "BUY"
         }
       },
-      "price": 62.42
+      "price": 62.53
     },
     {
       "ticker": "XLV",
@@ -228,7 +228,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -239,7 +239,7 @@
           "previous": "SELL"
         }
       },
-      "price": 145.51
+      "price": 145.34
     },
     {
       "ticker": "XLI",
@@ -248,7 +248,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -259,7 +259,7 @@
           "previous": "SELL"
         }
       },
-      "price": 159.49
+      "price": 159.05
     },
     {
       "ticker": "XLB",
@@ -268,7 +268,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -279,7 +279,7 @@
           "previous": "BUY"
         }
       },
-      "price": 49.61
+      "price": 49.47
     },
     {
       "ticker": "XLU",
@@ -288,7 +288,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -299,7 +299,7 @@
           "previous": "BUY"
         }
       },
-      "price": 45.41
+      "price": 45.47
     },
     {
       "ticker": "XLRE",
@@ -308,7 +308,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -319,7 +319,7 @@
           "previous": "BUY"
         }
       },
-      "price": 40.62
+      "price": 40.75
     },
     {
       "ticker": "XLP",
@@ -328,7 +328,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -339,7 +339,7 @@
           "previous": "SELL"
         }
       },
-      "price": 81.53
+      "price": 81.48
     },
     {
       "ticker": "XLY",
@@ -348,7 +348,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -359,7 +359,7 @@
           "previous": "BUY"
         }
       },
-      "price": 107.65
+      "price": 107.45
     },
     {
       "ticker": "XLC",
@@ -368,7 +368,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -379,7 +379,7 @@
           "previous": "BUY"
         }
       },
-      "price": 109.4
+      "price": 109.47
     },
     {
       "ticker": "XBI",
@@ -388,7 +388,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -399,7 +399,7 @@
           "previous": "SELL"
         }
       },
-      "price": 126.17
+      "price": 125.84
     },
     {
       "ticker": "SMH",
@@ -408,7 +408,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -419,7 +419,7 @@
           "previous": "SELL"
         }
       },
-      "price": 373.23
+      "price": 372.02
     },
     {
       "ticker": "SOXX",
@@ -428,7 +428,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -439,7 +439,7 @@
           "previous": "SELL"
         }
       },
-      "price": 319.52
+      "price": 318.19
     },
     {
       "ticker": "ARKK",
@@ -448,7 +448,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -459,7 +459,7 @@
           "previous": "SELL"
         }
       },
-      "price": 65.88
+      "price": 65.6
     },
     {
       "ticker": "ARKG",
@@ -468,7 +468,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -479,7 +479,7 @@
           "previous": "BUY"
         }
       },
-      "price": 25.95
+      "price": 25.77
     },
     {
       "ticker": "FINX",
@@ -488,7 +488,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -499,7 +499,7 @@
           "previous": "BUY"
         }
       },
-      "price": 22.67
+      "price": 22.54
     },
     {
       "ticker": "CIBR",
@@ -508,7 +508,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -519,7 +519,7 @@
           "previous": "BUY"
         }
       },
-      "price": 61.88
+      "price": 61.83
     },
     {
       "ticker": "HACK",
@@ -528,7 +528,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -539,7 +539,7 @@
           "previous": "BUY"
         }
       },
-      "price": 73.55
+      "price": 73.6
     },
     {
       "ticker": "ROBO",
@@ -548,7 +548,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -568,7 +568,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -579,7 +579,7 @@
           "previous": "SELL"
         }
       },
-      "price": 32.55
+      "price": 32.47
     },
     {
       "ticker": "EFA",
@@ -588,7 +588,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -599,7 +599,7 @@
           "previous": "SELL"
         }
       },
-      "price": 95.59
+      "price": 95.37
     },
     {
       "ticker": "EEM",
@@ -608,7 +608,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -619,7 +619,7 @@
           "previous": "SELL"
         }
       },
-      "price": 55.45
+      "price": 55.3
     },
     {
       "ticker": "VEA",
@@ -628,7 +628,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -639,7 +639,7 @@
           "previous": "SELL"
         }
       },
-      "price": 62.94
+      "price": 62.78
     },
     {
       "ticker": "VWO",
@@ -648,7 +648,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -659,7 +659,7 @@
           "previous": "SELL"
         }
       },
-      "price": 53.05
+      "price": 52.97
     },
     {
       "ticker": "FXI",
@@ -668,7 +668,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -679,7 +679,7 @@
           "previous": "BUY"
         }
       },
-      "price": 35.34
+      "price": 35.28
     },
     {
       "ticker": "MCHI",
@@ -688,7 +688,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -699,7 +699,7 @@
           "previous": "SELL"
         }
       },
-      "price": 55.39
+      "price": 55.3
     },
     {
       "ticker": "EWJ",
@@ -708,7 +708,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -719,7 +719,7 @@
           "previous": "SELL"
         }
       },
-      "price": 82.68
+      "price": 82.52
     },
     {
       "ticker": "EWZ",
@@ -728,7 +728,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -739,7 +739,7 @@
           "previous": "SELL"
         }
       },
-      "price": 37.61
+      "price": 37.64
     },
     {
       "ticker": "INDA",
@@ -748,7 +748,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -759,7 +759,7 @@
           "previous": "BUY"
         }
       },
-      "price": 46.06
+      "price": 45.97
     },
     {
       "ticker": "EWG",
@@ -768,7 +768,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -779,7 +779,7 @@
           "previous": "BUY"
         }
       },
-      "price": 39.06
+      "price": 38.95
     },
     {
       "ticker": "EWU",
@@ -788,7 +788,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -799,7 +799,7 @@
           "previous": "SELL"
         }
       },
-      "price": 45.16
+      "price": 44.98
     },
     {
       "ticker": "EWC",
@@ -808,7 +808,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -819,7 +819,7 @@
           "previous": "SELL"
         }
       },
-      "price": 54.16
+      "price": 54.14
     },
     {
       "ticker": "EWA",
@@ -828,7 +828,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -839,7 +839,7 @@
           "previous": "SELL"
         }
       },
-      "price": 27.46
+      "price": 27.39
     },
     {
       "ticker": "EWY",
@@ -848,7 +848,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -859,7 +859,7 @@
           "previous": "SELL"
         }
       },
-      "price": 117.52
+      "price": 116.51
     },
     {
       "ticker": "EWT",
@@ -868,7 +868,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -879,7 +879,7 @@
           "previous": "SELL"
         }
       },
-      "price": 69.03
+      "price": 68.88
     },
     {
       "ticker": "TLT",
@@ -888,7 +888,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -899,7 +899,7 @@
           "previous": "BUY"
         }
       },
-      "price": 86.68
+      "price": 86.72
     },
     {
       "ticker": "IEF",
@@ -908,7 +908,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -919,7 +919,7 @@
           "previous": "BUY"
         }
       },
-      "price": 95.44
+      "price": 95.41
     },
     {
       "ticker": "SHY",
@@ -928,7 +928,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -948,7 +948,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -968,7 +968,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -979,7 +979,7 @@
           "previous": "BUY"
         }
       },
-      "price": 99.25
+      "price": 99.23
     },
     {
       "ticker": "HYG",
@@ -988,7 +988,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -999,7 +999,7 @@
           "previous": "BUY"
         }
       },
-      "price": 79.31
+      "price": 79.27
     },
     {
       "ticker": "JNK",
@@ -1008,7 +1008,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1019,7 +1019,7 @@
           "previous": "BUY"
         }
       },
-      "price": 95.4
+      "price": 95.32
     },
     {
       "ticker": "LQD",
@@ -1028,7 +1028,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1039,7 +1039,7 @@
           "previous": "BUY"
         }
       },
-      "price": 108.74
+      "price": 108.72
     },
     {
       "ticker": "EMB",
@@ -1048,7 +1048,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1068,7 +1068,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1079,7 +1079,7 @@
           "previous": "BUY"
         }
       },
-      "price": 110.48
+      "price": 110.47
     },
     {
       "ticker": "MUB",
@@ -1088,7 +1088,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1099,7 +1099,7 @@
           "previous": "BUY"
         }
       },
-      "price": 106.27
+      "price": 106.23
     },
     {
       "ticker": "GLD",
@@ -1108,7 +1108,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1119,7 +1119,7 @@
           "previous": "SELL"
         }
       },
-      "price": 424.31
+      "price": 424.49
     },
     {
       "ticker": "IAU",
@@ -1128,7 +1128,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1139,7 +1139,7 @@
           "previous": "SELL"
         }
       },
-      "price": 86.94
+      "price": 86.97
     },
     {
       "ticker": "SLV",
@@ -1148,7 +1148,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1159,7 +1159,7 @@
           "previous": "SELL"
         }
       },
-      "price": 66.89
+      "price": 66.96
     },
     {
       "ticker": "PPLT",
@@ -1168,7 +1168,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1179,7 +1179,7 @@
           "previous": "SELL"
         }
       },
-      "price": 175.99
+      "price": 175.61
     },
     {
       "ticker": "USO",
@@ -1188,7 +1188,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -1199,7 +1199,7 @@
           "previous": "SELL"
         }
       },
-      "price": 129.56
+      "price": 127.66
     },
     {
       "ticker": "BNO",
@@ -1208,7 +1208,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -1219,7 +1219,7 @@
           "previous": "SELL"
         }
       },
-      "price": 53.45
+      "price": 53.3
     },
     {
       "ticker": "UNG",
@@ -1228,7 +1228,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1239,7 +1239,7 @@
           "previous": "BUY"
         }
       },
-      "price": 11.75
+      "price": 11.77
     },
     {
       "ticker": "DBA",
@@ -1248,7 +1248,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -1259,7 +1259,7 @@
           "previous": "SELL"
         }
       },
-      "price": 27.23
+      "price": 27.24
     },
     {
       "ticker": "CORN",
@@ -1268,7 +1268,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1279,7 +1279,7 @@
           "previous": "SELL"
         }
       },
-      "price": 18.22
+      "price": 18.24
     },
     {
       "ticker": "WEAT",
@@ -1288,7 +1288,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -1299,7 +1299,7 @@
           "previous": "SELL"
         }
       },
-      "price": 23.62
+      "price": 23.65
     },
     {
       "ticker": "SOYB",
@@ -1308,7 +1308,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -1319,7 +1319,7 @@
           "previous": "SELL"
         }
       },
-      "price": 24.19
+      "price": 24.16
     },
     {
       "ticker": "PDBC",
@@ -1328,7 +1328,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -1348,7 +1348,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -1359,7 +1359,7 @@
           "previous": "SELL"
         }
       },
-      "price": 48.33
+      "price": 48.35
     },
     {
       "ticker": "GDX",
@@ -1368,7 +1368,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1379,7 +1379,7 @@
           "previous": "SELL"
         }
       },
-      "price": 90.0
+      "price": 89.74
     },
     {
       "ticker": "GDXJ",
@@ -1388,7 +1388,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1399,7 +1399,7 @@
           "previous": "SELL"
         }
       },
-      "price": 117.0
+      "price": 116.8
     },
     {
       "ticker": "COPX",
@@ -1408,7 +1408,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1419,7 +1419,7 @@
           "previous": "SELL"
         }
       },
-      "price": 73.9
+      "price": 73.63
     },
     {
       "ticker": "URA",
@@ -1428,7 +1428,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1439,7 +1439,7 @@
           "previous": "SELL"
         }
       },
-      "price": 46.28
+      "price": 47.31
     },
     {
       "ticker": "VXX",
@@ -1448,7 +1448,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -1459,7 +1459,7 @@
           "previous": "SELL"
         }
       },
-      "price": 37.3
+      "price": 37.38
     },
     {
       "ticker": "UVXY",
@@ -1468,7 +1468,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -1479,7 +1479,7 @@
           "previous": "SELL"
         }
       },
-      "price": 56.43
+      "price": 56.59
     },
     {
       "ticker": "SVXY",
@@ -1488,7 +1488,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1499,7 +1499,7 @@
           "previous": "BUY"
         }
       },
-      "price": 44.75
+      "price": 44.71
     },
     {
       "ticker": "IBIT",
@@ -1508,46 +1508,6 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": "BUY"
-        },
-        "monthly": {
-          "signal": "N/A",
-          "previous": "N/A"
-        }
-      },
-      "price": 38.09
-    },
-    {
-      "ticker": "FBTC",
-      "sector": "ETF - Bitcoin",
-      "updated": "Mar 31, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "BUY"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": "BUY"
-        },
-        "monthly": {
-          "signal": "N/A",
-          "previous": "N/A"
-        }
-      },
-      "price": 58.53
-    },
-    {
-      "ticker": "ETHA",
-      "sector": "ETF - Ethereum",
-      "updated": "Mar 31, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -1559,7 +1519,47 @@
           "previous": "N/A"
         }
       },
-      "price": 15.64
+      "price": 37.97
+    },
+    {
+      "ticker": "FBTC",
+      "sector": "ETF - Bitcoin",
+      "updated": "Mar 31, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": "BUY"
+        },
+        "monthly": {
+          "signal": "N/A",
+          "previous": "N/A"
+        }
+      },
+      "price": 58.34
+    },
+    {
+      "ticker": "ETHA",
+      "sector": "ETF - Ethereum",
+      "updated": "Mar 31, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "BUY"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": "BUY"
+        },
+        "monthly": {
+          "signal": "N/A",
+          "previous": "N/A"
+        }
+      },
+      "price": 15.57
     },
     {
       "ticker": "BTC/USD",
@@ -1568,7 +1568,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1579,7 +1579,7 @@
           "previous": "N/A"
         }
       },
-      "price": 67188.5
+      "price": 66949.55
     },
     {
       "ticker": "ETH/USD",
@@ -1588,7 +1588,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1599,7 +1599,7 @@
           "previous": "N/A"
         }
       },
-      "price": 2073.26
+      "price": 2062.05
     },
     {
       "ticker": "SOL/USD",
@@ -1608,7 +1608,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1619,7 +1619,7 @@
           "previous": "N/A"
         }
       },
-      "price": 81.52
+      "price": 81.21
     },
     {
       "ticker": "XRP/USD",
@@ -1628,7 +1628,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1639,7 +1639,7 @@
           "previous": "N/A"
         }
       },
-      "price": 1.33
+      "price": 1.32
     },
     {
       "ticker": "DOGE/USD",
@@ -1648,7 +1648,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1668,7 +1668,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1679,7 +1679,7 @@
           "previous": "N/A"
         }
       },
-      "price": 8.78
+      "price": 8.81
     },
     {
       "ticker": "LINK/USD",
@@ -1688,7 +1688,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1699,7 +1699,7 @@
           "previous": "N/A"
         }
       },
-      "price": 8.71
+      "price": 8.68
     },
     {
       "ticker": "UNI/USD",
@@ -1708,10 +1708,10 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "SELL"
         },
         "monthly": {
@@ -1719,7 +1719,7 @@
           "previous": "N/A"
         }
       },
-      "price": 3.55
+      "price": 3.53
     },
     {
       "ticker": "AAVE/USD",
@@ -1728,7 +1728,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1748,7 +1748,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1759,7 +1759,7 @@
           "previous": "ERR"
         }
       },
-      "price": 53.57
+      "price": 53.72
     },
     {
       "ticker": "AAPL",
@@ -1768,7 +1768,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1779,7 +1779,7 @@
           "previous": "SELL"
         }
       },
-      "price": 249.37
+      "price": 249.49
     },
     {
       "ticker": "MSFT",
@@ -1788,7 +1788,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1799,7 +1799,7 @@
           "previous": "BUY"
         }
       },
-      "price": 366.82
+      "price": 366.84
     },
     {
       "ticker": "NVDA",
@@ -1808,7 +1808,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1819,7 +1819,7 @@
           "previous": "BUY"
         }
       },
-      "price": 170.68
+      "price": 170.28
     },
     {
       "ticker": "GOOGL",
@@ -1828,7 +1828,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1839,7 +1839,7 @@
           "previous": "SELL"
         }
       },
-      "price": 282.2
+      "price": 281.7
     },
     {
       "ticker": "META",
@@ -1848,7 +1848,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1859,7 +1859,7 @@
           "previous": "BUY"
         }
       },
-      "price": 557.65
+      "price": 559.12
     },
     {
       "ticker": "AMZN",
@@ -1868,7 +1868,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1879,7 +1879,7 @@
           "previous": "SELL"
         }
       },
-      "price": 206.38
+      "price": 206.13
     },
     {
       "ticker": "TSLA",
@@ -1888,7 +1888,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1899,7 +1899,7 @@
           "previous": "BUY"
         }
       },
-      "price": 365.15
+      "price": 364.86
     },
     {
       "ticker": "AVGO",
@@ -1908,7 +1908,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1919,7 +1919,7 @@
           "previous": "BUY"
         }
       },
-      "price": 302.56
+      "price": 295.52
     },
     {
       "ticker": "ORCL",
@@ -1928,7 +1928,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1939,7 +1939,7 @@
           "previous": "BUY"
         }
       },
-      "price": 140.01
+      "price": 139.22
     },
     {
       "ticker": "CRM",
@@ -1948,7 +1948,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1959,7 +1959,7 @@
           "previous": "BUY"
         }
       },
-      "price": 181.35
+      "price": 187.17
     },
     {
       "ticker": "AMD",
@@ -1968,7 +1968,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1979,7 +1979,7 @@
           "previous": "SELL"
         }
       },
-      "price": 198.78
+      "price": 198.55
     },
     {
       "ticker": "INTC",
@@ -1988,7 +1988,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1999,7 +1999,7 @@
           "previous": "SELL"
         }
       },
-      "price": 42.55
+      "price": 42.59
     },
     {
       "ticker": "QCOM",
@@ -2008,7 +2008,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2019,7 +2019,7 @@
           "previous": "BUY"
         }
       },
-      "price": 124.66
+      "price": 127.13
     },
     {
       "ticker": "TXN",
@@ -2028,7 +2028,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2039,7 +2039,7 @@
           "previous": "SELL"
         }
       },
-      "price": 195.87
+      "price": 190.42
     },
     {
       "ticker": "MU",
@@ -2048,7 +2048,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2068,7 +2068,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2079,7 +2079,7 @@
           "previous": "SELL"
         }
       },
-      "price": 330.94
+      "price": 329.55
     },
     {
       "ticker": "LRCX",
@@ -2088,7 +2088,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2099,7 +2099,7 @@
           "previous": "SELL"
         }
       },
-      "price": 206.69
+      "price": 205.62
     },
     {
       "ticker": "KLAC",
@@ -2108,7 +2108,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2119,7 +2119,7 @@
           "previous": "SELL"
         }
       },
-      "price": 1385.58
+      "price": 1423.83
     },
     {
       "ticker": "MRVL",
@@ -2128,7 +2128,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -2139,7 +2139,7 @@
           "previous": "SELL"
         }
       },
-      "price": 96.53
+      "price": 95.0
     },
     {
       "ticker": "SNOW",
@@ -2148,7 +2148,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2159,7 +2159,7 @@
           "previous": "BUY"
         }
       },
-      "price": 151.08
+      "price": 152.84
     },
     {
       "ticker": "PLTR",
@@ -2168,7 +2168,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2179,7 +2179,7 @@
           "previous": "BUY"
         }
       },
-      "price": 146.34
+      "price": 142.62
     },
     {
       "ticker": "CRWD",
@@ -2188,7 +2188,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2208,7 +2208,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2219,7 +2219,7 @@
           "previous": "BUY"
         }
       },
-      "price": 156.79
+      "price": 156.94
     },
     {
       "ticker": "ZS",
@@ -2228,7 +2228,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2239,7 +2239,7 @@
           "previous": "BUY"
         }
       },
-      "price": 138.87
+      "price": 139
     },
     {
       "ticker": "NET",
@@ -2248,7 +2248,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -2259,7 +2259,7 @@
           "previous": "BUY"
         }
       },
-      "price": 193.11
+      "price": 204.11
     },
     {
       "ticker": "DDOG",
@@ -2268,7 +2268,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2279,7 +2279,7 @@
           "previous": "BUY"
         }
       },
-      "price": 120.0
+      "price": 119.65
     },
     {
       "ticker": "MDB",
@@ -2288,7 +2288,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2299,7 +2299,7 @@
           "previous": "SELL"
         }
       },
-      "price": 247.06
+      "price": 247.09
     },
     {
       "ticker": "ADBE",
@@ -2308,7 +2308,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2328,7 +2328,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2339,7 +2339,7 @@
           "previous": "BUY"
         }
       },
-      "price": 105.22
+      "price": 104.64
     },
     {
       "ticker": "INTU",
@@ -2348,7 +2348,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2359,7 +2359,7 @@
           "previous": "BUY"
         }
       },
-      "price": 424.13
+      "price": 430.3
     },
     {
       "ticker": "WDAY",
@@ -2368,7 +2368,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2379,7 +2379,7 @@
           "previous": "BUY"
         }
       },
-      "price": 126.36
+      "price": 129.86
     },
     {
       "ticker": "SHOP",
@@ -2388,7 +2388,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2399,7 +2399,7 @@
           "previous": "BUY"
         }
       },
-      "price": 114.91
+      "price": 107.66
     },
     {
       "ticker": "UBER",
@@ -2408,7 +2408,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2419,7 +2419,7 @@
           "previous": "BUY"
         }
       },
-      "price": 70.97
+      "price": 70.92
     },
     {
       "ticker": "LYFT",
@@ -2428,7 +2428,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2439,7 +2439,7 @@
           "previous": "BUY"
         }
       },
-      "price": 12.89
+      "price": 12.86
     },
     {
       "ticker": "ABNB",
@@ -2448,7 +2448,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2459,7 +2459,7 @@
           "previous": "ERR"
         }
       },
-      "price": 122.1
+      "price": 125.24
     },
     {
       "ticker": "COIN",
@@ -2468,7 +2468,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2479,7 +2479,7 @@
           "previous": "ERR"
         }
       },
-      "price": 166.81
+      "price": 166.64
     },
     {
       "ticker": "HOOD",
@@ -2488,7 +2488,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2499,7 +2499,7 @@
           "previous": "ERR"
         }
       },
-      "price": 66.54
+      "price": 66.18
     },
     {
       "ticker": "APP",
@@ -2508,7 +2508,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2519,7 +2519,7 @@
           "previous": "ERR"
         }
       },
-      "price": 389.0
+      "price": 398.24
     },
     {
       "ticker": "RBLX",
@@ -2528,7 +2528,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2539,7 +2539,7 @@
           "previous": "ERR"
         }
       },
-      "price": 55.53
+      "price": 56.73
     },
     {
       "ticker": "U",
@@ -2548,7 +2548,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2559,7 +2559,7 @@
           "previous": "BUY"
         }
       },
-      "price": 21.77
+      "price": 21.69
     },
     {
       "ticker": "JPM",
@@ -2568,7 +2568,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2579,7 +2579,7 @@
           "previous": "BUY"
         }
       },
-      "price": 288.05
+      "price": 281.01
     },
     {
       "ticker": "BAC",
@@ -2588,7 +2588,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2608,7 +2608,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2628,7 +2628,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2639,7 +2639,7 @@
           "previous": "SELL"
         }
       },
-      "price": 159.06
+      "price": 162.64
     },
     {
       "ticker": "WFC",
@@ -2648,7 +2648,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2659,7 +2659,7 @@
           "previous": "BUY"
         }
       },
-      "price": 78.3
+      "price": 78.23
     },
     {
       "ticker": "C",
@@ -2668,7 +2668,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2679,7 +2679,7 @@
           "previous": "SELL"
         }
       },
-      "price": 109.4
+      "price": 112.56
     },
     {
       "ticker": "BX",
@@ -2688,7 +2688,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2699,7 +2699,7 @@
           "previous": "BUY"
         }
       },
-      "price": 112.84
+      "price": 114.81
     },
     {
       "ticker": "KKR",
@@ -2708,7 +2708,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2719,7 +2719,7 @@
           "previous": "BUY"
         }
       },
-      "price": 91.15
+      "price": 91.19
     },
     {
       "ticker": "APO",
@@ -2728,7 +2728,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2739,7 +2739,7 @@
           "previous": "BUY"
         }
       },
-      "price": 110.5
+      "price": 107.19
     },
     {
       "ticker": "BLK",
@@ -2748,7 +2748,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2759,7 +2759,7 @@
           "previous": "BUY"
         }
       },
-      "price": 947.56
+      "price": 948.17
     },
     {
       "ticker": "SCHW",
@@ -2768,7 +2768,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2779,7 +2779,7 @@
           "previous": "SELL"
         }
       },
-      "price": 92.78
+      "price": 92.75
     },
     {
       "ticker": "V",
@@ -2788,7 +2788,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2799,7 +2799,7 @@
           "previous": "BUY"
         }
       },
-      "price": 296.1
+      "price": 298.6
     },
     {
       "ticker": "MA",
@@ -2808,7 +2808,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2828,7 +2828,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2839,7 +2839,7 @@
           "previous": "BUY"
         }
       },
-      "price": 306.41
+      "price": 300.04
     },
     {
       "ticker": "PYPL",
@@ -2848,7 +2848,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2859,7 +2859,7 @@
           "previous": "BUY"
         }
       },
-      "price": 45.02
+      "price": 45.0
     },
     {
       "ticker": "SQ",
@@ -2868,7 +2868,7 @@
       "timeframes": {
         "daily": {
           "signal": "N/A",
-          "previous": "ERR"
+          "previous": "N/A"
         },
         "weekly": {
           "signal": "BUY",
@@ -2888,7 +2888,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2899,7 +2899,7 @@
           "previous": "ERR"
         }
       },
-      "price": 14.0
+      "price": 13.98
     },
     {
       "ticker": "SOFI",
@@ -2908,7 +2908,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2919,7 +2919,7 @@
           "previous": "BUY"
         }
       },
-      "price": 15.57
+      "price": 15.45
     },
     {
       "ticker": "UNH",
@@ -2928,7 +2928,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2939,7 +2939,7 @@
           "previous": "BUY"
         }
       },
-      "price": 268.57
+      "price": 259.75
     },
     {
       "ticker": "JNJ",
@@ -2948,7 +2948,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2959,7 +2959,7 @@
           "previous": "SELL"
         }
       },
-      "price": 243.14
+      "price": 236.77
     },
     {
       "ticker": "LLY",
@@ -2968,7 +2968,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2979,7 +2979,7 @@
           "previous": "SELL"
         }
       },
-      "price": 913.01
+      "price": 912.66
     },
     {
       "ticker": "ABBV",
@@ -2988,7 +2988,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2999,7 +2999,7 @@
           "previous": "SELL"
         }
       },
-      "price": 216.7
+      "price": 221.15
     },
     {
       "ticker": "MRK",
@@ -3008,7 +3008,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3019,7 +3019,7 @@
           "previous": "SELL"
         }
       },
-      "price": 120.74
+      "price": 117.95
     },
     {
       "ticker": "PFE",
@@ -3028,7 +3028,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3039,7 +3039,7 @@
           "previous": "SELL"
         }
       },
-      "price": 27.94
+      "price": 27.88
     },
     {
       "ticker": "AMGN",
@@ -3048,7 +3048,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3059,7 +3059,7 @@
           "previous": "SELL"
         }
       },
-      "price": 343.42
+      "price": 351.94
     },
     {
       "ticker": "GILD",
@@ -3068,7 +3068,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3088,7 +3088,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3099,7 +3099,7 @@
           "previous": "SELL"
         }
       },
-      "price": 177.09
+      "price": 252.5
     },
     {
       "ticker": "REGN",
@@ -3108,7 +3108,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3119,7 +3119,7 @@
           "previous": "SELL"
         }
       },
-      "price": 934.85
+      "price": 773.46
     },
     {
       "ticker": "VRTX",
@@ -3128,7 +3128,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3139,7 +3139,7 @@
           "previous": "BUY"
         }
       },
-      "price": 445.39
+      "price": 444.14
     },
     {
       "ticker": "ISRG",
@@ -3148,7 +3148,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3159,7 +3159,7 @@
           "previous": "BUY"
         }
       },
-      "price": 476.91
+      "price": 477.06
     },
     {
       "ticker": "BSX",
@@ -3168,7 +3168,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3179,7 +3179,7 @@
           "previous": "BUY"
         }
       },
-      "price": 62.5
+      "price": 62.2
     },
     {
       "ticker": "MDT",
@@ -3188,7 +3188,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3199,7 +3199,7 @@
           "previous": "SELL"
         }
       },
-      "price": 83.56
+      "price": 85.53
     },
     {
       "ticker": "CVS",
@@ -3208,7 +3208,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3219,7 +3219,7 @@
           "previous": "BUY"
         }
       },
-      "price": 71.19
+      "price": 71.31
     },
     {
       "ticker": "HUM",
@@ -3228,7 +3228,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3239,7 +3239,7 @@
           "previous": "BUY"
         }
       },
-      "price": 173.61
+      "price": 173.66
     },
     {
       "ticker": "XOM",
@@ -3248,7 +3248,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3259,7 +3259,7 @@
           "previous": "SELL"
         }
       },
-      "price": 172.89
+      "price": 173.67
     },
     {
       "ticker": "CVX",
@@ -3268,7 +3268,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3279,7 +3279,7 @@
           "previous": "SELL"
         }
       },
-      "price": 211.56
+      "price": 212.07
     },
     {
       "ticker": "COP",
@@ -3288,7 +3288,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3299,7 +3299,7 @@
           "previous": "SELL"
         }
       },
-      "price": 134.62
+      "price": 134.69
     },
     {
       "ticker": "EOG",
@@ -3308,7 +3308,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3328,7 +3328,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3339,7 +3339,7 @@
           "previous": "SELL"
         }
       },
-      "price": 52.73
+      "price": 52.62
     },
     {
       "ticker": "MPC",
@@ -3348,7 +3348,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3359,7 +3359,7 @@
           "previous": "SELL"
         }
       },
-      "price": 254.18
+      "price": 253.5
     },
     {
       "ticker": "PSX",
@@ -3368,7 +3368,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3379,7 +3379,7 @@
           "previous": "SELL"
         }
       },
-      "price": 185.39
+      "price": 185.8
     },
     {
       "ticker": "VLO",
@@ -3388,7 +3388,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3399,7 +3399,7 @@
           "previous": "SELL"
         }
       },
-      "price": 252.11
+      "price": 246.3
     },
     {
       "ticker": "HAL",
@@ -3408,7 +3408,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3419,7 +3419,7 @@
           "previous": "SELL"
         }
       },
-      "price": 40.09
+      "price": 40.02
     },
     {
       "ticker": "DVN",
@@ -3428,7 +3428,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3439,7 +3439,7 @@
           "previous": "SELL"
         }
       },
-      "price": 51.7
+      "price": 51.72
     },
     {
       "ticker": "OXY",
@@ -3448,7 +3448,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3459,7 +3459,7 @@
           "previous": "SELL"
         }
       },
-      "price": 66.97
+      "price": 67.36
     },
     {
       "ticker": "HES",
@@ -3468,7 +3468,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3488,7 +3488,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3499,7 +3499,7 @@
           "previous": "BUY"
         }
       },
-      "price": 995.0
+      "price": 999.13
     },
     {
       "ticker": "WMT",
@@ -3508,7 +3508,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3519,7 +3519,7 @@
           "previous": "SELL"
         }
       },
-      "price": 123.48
+      "price": 123.75
     },
     {
       "ticker": "TGT",
@@ -3528,7 +3528,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3539,7 +3539,7 @@
           "previous": "SELL"
         }
       },
-      "price": 122.66
+      "price": 123.12
     },
     {
       "ticker": "HD",
@@ -3548,7 +3548,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3559,7 +3559,7 @@
           "previous": "BUY"
         }
       },
-      "price": 325.58
+      "price": 324.9
     },
     {
       "ticker": "LOW",
@@ -3568,7 +3568,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3579,7 +3579,7 @@
           "previous": "BUY"
         }
       },
-      "price": 234.75
+      "price": 233.54
     },
     {
       "ticker": "MCD",
@@ -3588,7 +3588,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3599,7 +3599,7 @@
           "previous": "SELL"
         }
       },
-      "price": 314.35
+      "price": 318.41
     },
     {
       "ticker": "SBUX",
@@ -3608,7 +3608,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3619,7 +3619,7 @@
           "previous": "BUY"
         }
       },
-      "price": 88.36
+      "price": 86.42
     },
     {
       "ticker": "NKE",
@@ -3628,7 +3628,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3639,7 +3639,7 @@
           "previous": "BUY"
         }
       },
-      "price": 52.34
+      "price": 52.16
     },
     {
       "ticker": "LULU",
@@ -3648,7 +3648,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3659,7 +3659,7 @@
           "previous": "BUY"
         }
       },
-      "price": 151.01
+      "price": 154.8
     },
     {
       "ticker": "TJX",
@@ -3668,7 +3668,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3679,7 +3679,7 @@
           "previous": "SELL"
         }
       },
-      "price": 157.2
+      "price": 153.47
     },
     {
       "ticker": "BKNG",
@@ -3688,7 +3688,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3699,7 +3699,7 @@
           "previous": "BUY"
         }
       },
-      "price": 4035.15
+      "price": 4156.38
     },
     {
       "ticker": "MAR",
@@ -3708,7 +3708,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3719,7 +3719,7 @@
           "previous": "SELL"
         }
       },
-      "price": 321.82
+      "price": 332.13
     },
     {
       "ticker": "HLT",
@@ -3728,7 +3728,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3739,7 +3739,7 @@
           "previous": "SELL"
         }
       },
-      "price": 299.13
+      "price": 298.72
     },
     {
       "ticker": "DIS",
@@ -3748,7 +3748,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3759,7 +3759,7 @@
           "previous": "BUY"
         }
       },
-      "price": 94.81
+      "price": 95.02
     },
     {
       "ticker": "NFLX",
@@ -3768,7 +3768,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3779,7 +3779,7 @@
           "previous": "BUY"
         }
       },
-      "price": 94.93
+      "price": 95.09
     },
     {
       "ticker": "SPOT",
@@ -3788,7 +3788,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3799,7 +3799,7 @@
           "previous": "BUY"
         }
       },
-      "price": 516.5
+      "price": 481.72
     },
     {
       "ticker": "CAT",
@@ -3808,7 +3808,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3819,7 +3819,7 @@
           "previous": "SELL"
         }
       },
-      "price": 702.76
+      "price": 700.95
     },
     {
       "ticker": "DE",
@@ -3828,7 +3828,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -3839,7 +3839,7 @@
           "previous": "SELL"
         }
       },
-      "price": 558.95
+      "price": 557.36
     },
     {
       "ticker": "RTX",
@@ -3848,7 +3848,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3859,7 +3859,7 @@
           "previous": "SELL"
         }
       },
-      "price": 187.5
+      "price": 194.55
     },
     {
       "ticker": "LMT",
@@ -3868,7 +3868,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -3879,7 +3879,7 @@
           "previous": "SELL"
         }
       },
-      "price": 606.47
+      "price": 604.0
     },
     {
       "ticker": "NOC",
@@ -3888,7 +3888,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3899,7 +3899,7 @@
           "previous": "SELL"
         }
       },
-      "price": 680.56
+      "price": 678
     },
     {
       "ticker": "GE",
@@ -3908,7 +3908,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3919,7 +3919,7 @@
           "previous": "SELL"
         }
       },
-      "price": 287.04
+      "price": 280.26
     },
     {
       "ticker": "HON",
@@ -3928,7 +3928,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -3939,7 +3939,7 @@
           "previous": "SELL"
         }
       },
-      "price": 223.5
+      "price": 218.47
     },
     {
       "ticker": "BA",
@@ -3948,7 +3948,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3959,7 +3959,7 @@
           "previous": "SELL"
         }
       },
-      "price": 194.74
+      "price": 199.0
     },
     {
       "ticker": "UNP",
@@ -3968,7 +3968,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3979,7 +3979,7 @@
           "previous": "SELL"
         }
       },
-      "price": 245.22
+      "price": 238.5
     },
     {
       "ticker": "FDX",
@@ -3988,7 +3988,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3999,7 +3999,7 @@
           "previous": "SELL"
         }
       },
-      "price": 337.86
+      "price": 346.07
     },
     {
       "ticker": "UPS",
@@ -4008,7 +4008,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -4019,7 +4019,7 @@
           "previous": "SELL"
         }
       },
-      "price": 96.87
+      "price": 96.34
     },
     {
       "ticker": "WM",
@@ -4028,7 +4028,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -4039,7 +4039,7 @@
           "previous": "BUY"
         }
       },
-      "price": 230.06
+      "price": 230.01
     },
     {
       "ticker": "PLD",
@@ -4048,7 +4048,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4059,7 +4059,7 @@
           "previous": "SELL"
         }
       },
-      "price": 130.42
+      "price": 131.63
     },
     {
       "ticker": "AMT",
@@ -4068,7 +4068,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4079,7 +4079,7 @@
           "previous": "BUY"
         }
       },
-      "price": 172.44
+      "price": 167.19
     },
     {
       "ticker": "EQIX",
@@ -4088,7 +4088,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -4099,7 +4099,7 @@
           "previous": "SELL"
         }
       },
-      "price": 993.99
+      "price": 970.36
     },
     {
       "ticker": "SPG",
@@ -4108,7 +4108,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4119,7 +4119,7 @@
           "previous": "SELL"
         }
       },
-      "price": 189.29
+      "price": 184.92
     },
     {
       "ticker": "O",
@@ -4127,8 +4127,8 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "BUY"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4139,7 +4139,7 @@
           "previous": "SELL"
         }
       },
-      "price": 61.17
+      "price": 61.38
     },
     {
       "ticker": "WELL",
@@ -4148,7 +4148,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4159,7 +4159,7 @@
           "previous": "SELL"
         }
       },
-      "price": 196.88
+      "price": 201.23
     },
     {
       "ticker": "NEM",
@@ -4168,7 +4168,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4179,7 +4179,7 @@
           "previous": "SELL"
         }
       },
-      "price": 109.0
+      "price": 106.66
     },
     {
       "ticker": "FCX",
@@ -4188,7 +4188,7 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4199,7 +4199,7 @@
           "previous": "SELL"
         }
       },
-      "price": 57.3
+      "price": 56.91
     },
     {
       "ticker": "AA",
@@ -4208,7 +4208,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -4219,7 +4219,7 @@
           "previous": "SELL"
         }
       },
-      "price": 66.38
+      "price": 64.58
     },
     {
       "ticker": "NUE",
@@ -4228,7 +4228,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -4239,7 +4239,7 @@
           "previous": "SELL"
         }
       },
-      "price": 166.47
+      "price": 166.33
     },
     {
       "ticker": "LIN",
@@ -4248,7 +4248,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -4259,7 +4259,7 @@
           "previous": "SELL"
         }
       },
-      "price": 497.41
+      "price": 497.91
     },
     {
       "ticker": "APD",
@@ -4268,7 +4268,7 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -4279,7 +4279,7 @@
           "previous": "SELL"
         }
       },
-      "price": 293.44
+      "price": 293.36
     }
   ]
 }
