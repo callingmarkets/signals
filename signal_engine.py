@@ -418,6 +418,20 @@ def run():
     today   = datetime.utcnow().strftime("%b %-d, %Y")
     symbols = [s for s, _ in TICKERS]
 
+    # Load existing signals.json — current signal becomes previous on next run
+    prev_signals = {}
+    try:
+        with open("signals.json", "r") as f:
+            prev_data = json.load(f)
+        for row in prev_data.get("signals", []):
+            prev_signals[row["ticker"]] = {
+                label: row["timeframes"].get(label, {}).get("signal")
+                for label in ["daily", "weekly", "monthly"]
+            }
+        print(f"Loaded previous signals for {len(prev_signals)} tickers")
+    except FileNotFoundError:
+        print("No previous signals.json found — first run")
+
     print("Fetching latest prices…")
     prices = fetch_latest_prices(symbols)
 
@@ -435,20 +449,20 @@ def run():
             try:
                 df  = fetch_bars(symbol, alpaca_tf)
                 sig = compute_signal(df)
-                # Capture daily close as price fallback
                 if label == "daily" and sig.get("last_close"):
                     daily_close = sig["last_close"]
-                # Strip last_close from stored signal (keep json clean)
                 sig.pop("last_close", None)
-                print(f"  {symbol:10s} {label:8s} bars={len(df):4d}  signal={sig['signal']}")
+                # Add previous signal
+                # Previous = whatever the current signal was on the last run
+                sig["previous"] = prev_signals.get(symbol, {}).get(label)
+
+                print(f"  {symbol:10s} {label:8s} bars={len(df):4d}  signal={sig['signal']}  prev={sig['previous']}")
             except Exception as e:
-                sig = {"signal": "ERR", "error": str(e)}
+                sig = {"signal": "ERR", "previous": None, "error": str(e)}
                 print(f"  WARNING {symbol} {label}: {e}")
             row["timeframes"][label] = sig
 
-        # Price: prefer live quote, fall back to last daily close
         row["price"] = prices.get(symbol) or daily_close
-
         results.append(row)
 
     output = {
