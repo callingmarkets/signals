@@ -12,11 +12,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 641.08
@@ -32,11 +32,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 567.27
@@ -52,11 +52,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 243.75
@@ -72,11 +72,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 456.88
@@ -92,11 +92,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 608.12
@@ -112,11 +112,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 316.32
@@ -132,11 +132,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 589.29
@@ -152,11 +152,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 189.74
@@ -172,11 +172,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 129.8
@@ -192,11 +192,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 48.8
@@ -212,11 +212,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 62.53
@@ -232,11 +232,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 145.34
@@ -252,11 +252,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 159.05
@@ -272,11 +272,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 49.47
@@ -292,11 +292,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 45.47
@@ -312,11 +312,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 40.75
@@ -332,11 +332,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 81.48
@@ -352,11 +352,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 107.45
@@ -372,11 +372,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 109.47
@@ -392,11 +392,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 125.84
@@ -412,11 +412,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 372.02
@@ -432,11 +432,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 318.19
@@ -452,11 +452,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 65.6
@@ -472,11 +472,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 25.77
@@ -492,11 +492,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 22.54
@@ -512,11 +512,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 61.83
@@ -532,11 +532,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 73.6
@@ -552,11 +552,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 66.88
@@ -572,11 +572,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 32.47
@@ -592,11 +592,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 95.37
@@ -612,11 +612,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 55.3
@@ -632,11 +632,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 62.78
@@ -652,11 +652,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 52.97
@@ -672,11 +672,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 35.28
@@ -692,11 +692,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 55.3
@@ -712,11 +712,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 82.52
@@ -732,11 +732,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 37.64
@@ -752,11 +752,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 45.97
@@ -772,11 +772,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 38.95
@@ -792,11 +792,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 44.98
@@ -812,11 +812,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 54.14
@@ -832,11 +832,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 27.39
@@ -852,11 +852,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 116.51
@@ -872,11 +872,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 68.88
@@ -892,11 +892,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 86.72
@@ -912,11 +912,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 95.41
@@ -932,11 +932,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 82.56
@@ -952,11 +952,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 73.62
@@ -972,11 +972,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 99.23
@@ -992,11 +992,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 79.27
@@ -1012,11 +1012,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 95.32
@@ -1032,11 +1032,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 108.72
@@ -1052,11 +1052,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 93.62
@@ -1072,11 +1072,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 110.47
@@ -1092,11 +1092,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 106.23
@@ -1112,11 +1112,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 424.49
@@ -1132,11 +1132,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 86.97
@@ -1152,11 +1152,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 66.96
@@ -1172,11 +1172,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 175.61
@@ -1192,11 +1192,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 127.66
@@ -1212,11 +1212,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 53.3
@@ -1232,11 +1232,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 11.77
@@ -1252,11 +1252,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 27.24
@@ -1272,11 +1272,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 18.24
@@ -1292,11 +1292,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 23.65
@@ -1312,11 +1312,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 24.16
@@ -1332,11 +1332,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 17.48
@@ -1352,11 +1352,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 48.35
@@ -1372,11 +1372,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 89.74
@@ -1392,11 +1392,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 116.8
@@ -1412,11 +1412,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 73.63
@@ -1432,11 +1432,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 47.31
@@ -1452,11 +1452,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 37.38
@@ -1472,11 +1472,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 56.59
@@ -1492,11 +1492,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 44.71
@@ -1512,7 +1512,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "N/A",
@@ -1532,7 +1532,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "N/A",
@@ -1548,11 +1548,11 @@
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "N/A",
@@ -1572,7 +1572,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "N/A",
@@ -1592,7 +1592,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "N/A",
@@ -1612,7 +1612,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "N/A",
@@ -1632,7 +1632,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "N/A",
@@ -1652,7 +1652,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "N/A",
@@ -1672,7 +1672,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "N/A",
@@ -1692,7 +1692,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "N/A",
@@ -1732,7 +1732,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "N/A",
@@ -1752,7 +1752,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "N/A",
@@ -1772,11 +1772,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 249.49
@@ -1792,11 +1792,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 366.84
@@ -1812,11 +1812,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 170.28
@@ -1832,11 +1832,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 281.7
@@ -1852,11 +1852,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 559.12
@@ -1872,11 +1872,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 206.13
@@ -1892,11 +1892,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 364.86
@@ -1912,11 +1912,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 295.52
@@ -1932,11 +1932,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 139.22
@@ -1952,11 +1952,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 187.17
@@ -1972,11 +1972,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 198.55
@@ -1992,11 +1992,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 42.59
@@ -2012,11 +2012,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 127.13
@@ -2032,11 +2032,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 190.42
@@ -2052,11 +2052,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 326.71
@@ -2072,11 +2072,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 329.55
@@ -2092,11 +2092,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 205.62
@@ -2112,11 +2112,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 1423.83
@@ -2132,11 +2132,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 95.0
@@ -2152,11 +2152,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 152.84
@@ -2172,11 +2172,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 142.62
@@ -2192,11 +2192,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 384.06
@@ -2212,11 +2212,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 156.94
@@ -2232,11 +2232,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 139
@@ -2252,11 +2252,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 204.11
@@ -2272,11 +2272,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 119.65
@@ -2292,11 +2292,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 247.09
@@ -2312,11 +2312,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 241.5
@@ -2332,11 +2332,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 104.64
@@ -2352,11 +2352,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 430.3
@@ -2372,11 +2372,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 129.86
@@ -2392,11 +2392,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 107.66
@@ -2412,11 +2412,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 70.92
@@ -2432,11 +2432,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 12.86
@@ -2452,7 +2452,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "N/A",
@@ -2472,7 +2472,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "N/A",
@@ -2492,7 +2492,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "N/A",
@@ -2512,7 +2512,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "N/A",
@@ -2532,7 +2532,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "N/A",
@@ -2552,11 +2552,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 21.69
@@ -2572,11 +2572,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 281.01
@@ -2592,11 +2592,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 47.8
@@ -2612,11 +2612,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 929.0
@@ -2632,11 +2632,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 162.64
@@ -2652,11 +2652,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 78.23
@@ -2672,11 +2672,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 112.56
@@ -2692,11 +2692,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 114.81
@@ -2712,11 +2712,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 91.19
@@ -2732,11 +2732,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 107.19
@@ -2752,11 +2752,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 948.17
@@ -2772,11 +2772,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 92.75
@@ -2792,11 +2792,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 298.6
@@ -2812,11 +2812,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 498.05
@@ -2832,11 +2832,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 300.04
@@ -2852,11 +2852,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 45.0
@@ -2872,11 +2872,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 86.92
@@ -2892,7 +2892,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "N/A",
@@ -2912,11 +2912,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 15.45
@@ -2932,11 +2932,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 259.75
@@ -2952,11 +2952,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 236.77
@@ -2972,11 +2972,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 912.66
@@ -2992,11 +2992,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 221.15
@@ -3012,11 +3012,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 117.95
@@ -3032,11 +3032,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 27.88
@@ -3052,11 +3052,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 351.94
@@ -3072,11 +3072,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 138.47
@@ -3092,11 +3092,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 252.5
@@ -3112,11 +3112,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 773.46
@@ -3132,11 +3132,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 444.14
@@ -3152,11 +3152,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 477.06
@@ -3172,11 +3172,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 62.2
@@ -3192,11 +3192,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 85.53
@@ -3212,11 +3212,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 71.31
@@ -3232,11 +3232,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 173.66
@@ -3252,11 +3252,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 173.67
@@ -3272,11 +3272,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 212.07
@@ -3292,11 +3292,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 134.69
@@ -3312,11 +3312,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 149.13
@@ -3332,11 +3332,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 52.62
@@ -3352,11 +3352,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 253.5
@@ -3372,11 +3372,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 185.8
@@ -3392,11 +3392,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 246.3
@@ -3412,11 +3412,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 40.02
@@ -3432,11 +3432,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 51.72
@@ -3452,11 +3452,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 67.36
@@ -3472,11 +3472,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 148.97
@@ -3492,11 +3492,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 999.13
@@ -3512,11 +3512,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 123.75
@@ -3532,11 +3532,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 123.12
@@ -3552,11 +3552,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 324.9
@@ -3572,11 +3572,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 233.54
@@ -3592,11 +3592,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 318.41
@@ -3612,11 +3612,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 86.42
@@ -3632,11 +3632,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 52.16
@@ -3652,11 +3652,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 154.8
@@ -3672,11 +3672,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 153.47
@@ -3692,11 +3692,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 4156.38
@@ -3712,11 +3712,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 332.13
@@ -3732,11 +3732,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 298.72
@@ -3752,11 +3752,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 95.02
@@ -3772,11 +3772,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 95.09
@@ -3792,11 +3792,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 481.72
@@ -3812,11 +3812,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 700.95
@@ -3832,11 +3832,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 557.36
@@ -3852,11 +3852,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 194.55
@@ -3872,11 +3872,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 604.0
@@ -3892,11 +3892,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 678
@@ -3912,11 +3912,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 280.26
@@ -3932,11 +3932,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 218.47
@@ -3952,11 +3952,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 199.0
@@ -3972,11 +3972,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 238.5
@@ -3992,11 +3992,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 346.07
@@ -4012,11 +4012,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 96.34
@@ -4032,11 +4032,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 230.01
@@ -4052,11 +4052,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 131.63
@@ -4072,11 +4072,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         }
       },
       "price": 167.19
@@ -4092,11 +4092,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 970.36
@@ -4112,11 +4112,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 184.92
@@ -4128,15 +4128,15 @@
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 61.38
@@ -4152,11 +4152,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 201.23
@@ -4172,11 +4172,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 106.66
@@ -4192,11 +4192,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 56.91
@@ -4212,11 +4212,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 64.58
@@ -4232,11 +4232,11 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 166.33
@@ -4252,11 +4252,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 497.91
@@ -4272,11 +4272,11 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         }
       },
       "price": 293.36
