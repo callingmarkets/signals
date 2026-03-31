@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-31T02:57:09.733841Z",
+  "generated": "2026-03-31T15:28:48.418606Z",
   "signals": [
     {
       "ticker": "SPY",
@@ -19,7 +19,7 @@
           "previous": "SELL"
         }
       },
-      "price": 614.48
+      "price": 641.85
     },
     {
       "ticker": "QQQ",
@@ -39,7 +39,7 @@
           "previous": "SELL"
         }
       },
-      "price": 557.51
+      "price": 568.0
     },
     {
       "ticker": "IWM",
@@ -59,7 +59,7 @@
           "previous": "BUY"
         }
       },
-      "price": 239.38
+      "price": 244.27
     },
     {
       "ticker": "DIA",
@@ -75,11 +75,11 @@
           "previous": "SELL"
         },
         "monthly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         }
       },
-      "price": 451.03
+      "price": 457.69
     },
     {
       "ticker": "MDY",
@@ -99,7 +99,7 @@
           "previous": "BUY"
         }
       },
-      "price": 599.82
+      "price": 608.71
     },
     {
       "ticker": "VTI",
@@ -119,7 +119,7 @@
           "previous": "SELL"
         }
       },
-      "price": 303.18
+      "price": 316.75
     },
     {
       "ticker": "VOO",
@@ -139,7 +139,7 @@
           "previous": "SELL"
         }
       },
-      "price": 564.85
+      "price": 589.99
     },
     {
       "ticker": "RSP",
@@ -159,7 +159,7 @@
           "previous": "BUY"
         }
       },
-      "price": 188.21
+      "price": 190.01
     },
     {
       "ticker": "XLK",
@@ -179,7 +179,7 @@
           "previous": "SELL"
         }
       },
-      "price": 123.32
+      "price": 130.16
     },
     {
       "ticker": "XLF",
@@ -187,7 +187,7 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -199,7 +199,7 @@
           "previous": "SELL"
         }
       },
-      "price": 48.27
+      "price": 48.83
     },
     {
       "ticker": "XLE",
@@ -219,7 +219,7 @@
           "previous": "SELL"
         }
       },
-      "price": 61.95
+      "price": 62.42
     },
     {
       "ticker": "XLV",
@@ -239,7 +239,7 @@
           "previous": "BUY"
         }
       },
-      "price": 144.25
+      "price": 145.51
     },
     {
       "ticker": "XLI",
@@ -259,7 +259,7 @@
           "previous": "BUY"
         }
       },
-      "price": 156.59
+      "price": 159.49
     },
     {
       "ticker": "XLB",
@@ -279,7 +279,7 @@
           "previous": "SELL"
         }
       },
-      "price": 49.21
+      "price": 49.61
     },
     {
       "ticker": "XLU",
@@ -299,7 +299,7 @@
           "previous": "SELL"
         }
       },
-      "price": 45.23
+      "price": 45.41
     },
     {
       "ticker": "XLRE",
@@ -319,7 +319,7 @@
           "previous": "SELL"
         }
       },
-      "price": 40.24
+      "price": 40.62
     },
     {
       "ticker": "XLP",
@@ -339,7 +339,7 @@
           "previous": "BUY"
         }
       },
-      "price": 79.35
+      "price": 81.53
     },
     {
       "ticker": "XLY",
@@ -359,7 +359,7 @@
           "previous": "SELL"
         }
       },
-      "price": 102.14
+      "price": 107.65
     },
     {
       "ticker": "XLC",
@@ -379,7 +379,7 @@
           "previous": "SELL"
         }
       },
-      "price": 108.37
+      "price": 109.4
     },
     {
       "ticker": "XBI",
@@ -387,7 +387,7 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -399,7 +399,7 @@
           "previous": "BUY"
         }
       },
-      "price": 118.94
+      "price": 126.17
     },
     {
       "ticker": "SMH",
@@ -419,7 +419,7 @@
           "previous": "BUY"
         }
       },
-      "price": 351.16
+      "price": 373.23
     },
     {
       "ticker": "SOXX",
@@ -439,7 +439,7 @@
           "previous": "BUY"
         }
       },
-      "price": 309.3
+      "price": 319.52
     },
     {
       "ticker": "ARKK",
@@ -459,7 +459,7 @@
           "previous": "BUY"
         }
       },
-      "price": 63.4
+      "price": 65.88
     },
     {
       "ticker": "ARKG",
@@ -479,7 +479,7 @@
           "previous": "SELL"
         }
       },
-      "price": 24.93
+      "price": 25.95
     },
     {
       "ticker": "FINX",
@@ -499,7 +499,7 @@
           "previous": "SELL"
         }
       },
-      "price": 22.3
+      "price": 22.67
     },
     {
       "ticker": "CIBR",
@@ -519,7 +519,7 @@
           "previous": "SELL"
         }
       },
-      "price": 58.92
+      "price": 61.88
     },
     {
       "ticker": "HACK",
@@ -539,7 +539,7 @@
           "previous": "SELL"
         }
       },
-      "price": 72.41
+      "price": 73.55
     },
     {
       "ticker": "ROBO",
@@ -559,7 +559,7 @@
           "previous": "BUY"
         }
       },
-      "price": 65.38
+      "price": 66.88
     },
     {
       "ticker": "BOTZ",
@@ -579,7 +579,7 @@
           "previous": "BUY"
         }
       },
-      "price": 31.22
+      "price": 32.55
     },
     {
       "ticker": "EFA",
@@ -599,7 +599,7 @@
           "previous": "BUY"
         }
       },
-      "price": 93.92
+      "price": 95.59
     },
     {
       "ticker": "EEM",
@@ -619,7 +619,7 @@
           "previous": "BUY"
         }
       },
-      "price": 54.8
+      "price": 55.45
     },
     {
       "ticker": "VEA",
@@ -639,7 +639,7 @@
           "previous": "BUY"
         }
       },
-      "price": 61.96
+      "price": 62.94
     },
     {
       "ticker": "VWO",
@@ -659,7 +659,7 @@
           "previous": "BUY"
         }
       },
-      "price": 52.38
+      "price": 53.05
     },
     {
       "ticker": "FXI",
@@ -679,7 +679,7 @@
           "previous": "SELL"
         }
       },
-      "price": 34.98
+      "price": 35.34
     },
     {
       "ticker": "MCHI",
@@ -699,7 +699,7 @@
           "previous": "BUY"
         }
       },
-      "price": 54.95
+      "price": 55.39
     },
     {
       "ticker": "EWJ",
@@ -719,7 +719,7 @@
           "previous": "BUY"
         }
       },
-      "price": 81.53
+      "price": 82.68
     },
     {
       "ticker": "EWZ",
@@ -739,7 +739,7 @@
           "previous": "BUY"
         }
       },
-      "price": 36.77
+      "price": 37.61
     },
     {
       "ticker": "INDA",
@@ -759,7 +759,7 @@
           "previous": "SELL"
         }
       },
-      "price": 44.05
+      "price": 46.06
     },
     {
       "ticker": "EWG",
@@ -779,7 +779,7 @@
           "previous": "SELL"
         }
       },
-      "price": 38.38
+      "price": 39.06
     },
     {
       "ticker": "EWU",
@@ -799,7 +799,7 @@
           "previous": "BUY"
         }
       },
-      "price": 44.49
+      "price": 45.16
     },
     {
       "ticker": "EWC",
@@ -819,7 +819,7 @@
           "previous": "BUY"
         }
       },
-      "price": 53.51
+      "price": 54.16
     },
     {
       "ticker": "EWA",
@@ -839,7 +839,7 @@
           "previous": "BUY"
         }
       },
-      "price": 27.15
+      "price": 27.46
     },
     {
       "ticker": "EWY",
@@ -859,7 +859,7 @@
           "previous": "BUY"
         }
       },
-      "price": 116.44
+      "price": 117.52
     },
     {
       "ticker": "EWT",
@@ -879,7 +879,7 @@
           "previous": "BUY"
         }
       },
-      "price": 69.52
+      "price": 69.03
     },
     {
       "ticker": "TLT",
@@ -899,7 +899,7 @@
           "previous": "SELL"
         }
       },
-      "price": 86.61
+      "price": 86.68
     },
     {
       "ticker": "IEF",
@@ -919,7 +919,7 @@
           "previous": "SELL"
         }
       },
-      "price": 95.19
+      "price": 95.44
     },
     {
       "ticker": "SHY",
@@ -927,7 +927,7 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -939,7 +939,7 @@
           "previous": "SELL"
         }
       },
-      "price": 82.5
+      "price": 82.56
     },
     {
       "ticker": "BND",
@@ -959,7 +959,7 @@
           "previous": "SELL"
         }
       },
-      "price": 73.46
+      "price": 73.62
     },
     {
       "ticker": "AGG",
@@ -979,7 +979,7 @@
           "previous": "SELL"
         }
       },
-      "price": 99.05
+      "price": 99.25
     },
     {
       "ticker": "HYG",
@@ -999,7 +999,7 @@
           "previous": "SELL"
         }
       },
-      "price": 78.94
+      "price": 79.31
     },
     {
       "ticker": "JNK",
@@ -1019,7 +1019,7 @@
           "previous": "SELL"
         }
       },
-      "price": 94.9
+      "price": 95.4
     },
     {
       "ticker": "LQD",
@@ -1039,7 +1039,7 @@
           "previous": "SELL"
         }
       },
-      "price": 105.12
+      "price": 108.74
     },
     {
       "ticker": "EMB",
@@ -1059,7 +1059,7 @@
           "previous": "SELL"
         }
       },
-      "price": 93.25
+      "price": 93.62
     },
     {
       "ticker": "TIP",
@@ -1079,7 +1079,7 @@
           "previous": "SELL"
         }
       },
-      "price": 110.23
+      "price": 110.48
     },
     {
       "ticker": "MUB",
@@ -1099,7 +1099,7 @@
           "previous": "SELL"
         }
       },
-      "price": 105.89
+      "price": 106.27
     },
     {
       "ticker": "GLD",
@@ -1119,7 +1119,7 @@
           "previous": "BUY"
         }
       },
-      "price": 414.71
+      "price": 424.31
     },
     {
       "ticker": "IAU",
@@ -1139,7 +1139,7 @@
           "previous": "BUY"
         }
       },
-      "price": 84.97
+      "price": 86.94
     },
     {
       "ticker": "SLV",
@@ -1159,7 +1159,7 @@
           "previous": "BUY"
         }
       },
-      "price": 63.49
+      "price": 66.89
     },
     {
       "ticker": "PPLT",
@@ -1179,7 +1179,7 @@
           "previous": "BUY"
         }
       },
-      "price": 171.29
+      "price": 175.99
     },
     {
       "ticker": "USO",
@@ -1199,7 +1199,7 @@
           "previous": "BUY"
         }
       },
-      "price": 129.47
+      "price": 129.56
     },
     {
       "ticker": "BNO",
@@ -1219,7 +1219,7 @@
           "previous": "BUY"
         }
       },
-      "price": 53.88
+      "price": 53.45
     },
     {
       "ticker": "UNG",
@@ -1239,7 +1239,7 @@
           "previous": "SELL"
         }
       },
-      "price": 11.67
+      "price": 11.75
     },
     {
       "ticker": "DBA",
@@ -1259,7 +1259,7 @@
           "previous": "BUY"
         }
       },
-      "price": 27.07
+      "price": 27.23
     },
     {
       "ticker": "CORN",
@@ -1271,7 +1271,7 @@
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "monthly": {
@@ -1279,7 +1279,7 @@
           "previous": "BUY"
         }
       },
-      "price": 18.32
+      "price": 18.22
     },
     {
       "ticker": "WEAT",
@@ -1291,7 +1291,7 @@
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "monthly": {
@@ -1299,7 +1299,7 @@
           "previous": "BUY"
         }
       },
-      "price": 23.28
+      "price": 23.62
     },
     {
       "ticker": "SOYB",
@@ -1319,7 +1319,7 @@
           "previous": "BUY"
         }
       },
-      "price": 24.2
+      "price": 24.19
     },
     {
       "ticker": "PDBC",
@@ -1339,7 +1339,7 @@
           "previous": "BUY"
         }
       },
-      "price": 17.47
+      "price": 17.48
     },
     {
       "ticker": "DJP",
@@ -1359,7 +1359,7 @@
           "previous": "BUY"
         }
       },
-      "price": 48.09
+      "price": 48.33
     },
     {
       "ticker": "GDX",
@@ -1379,7 +1379,7 @@
           "previous": "BUY"
         }
       },
-      "price": 85.74
+      "price": 90.0
     },
     {
       "ticker": "GDXJ",
@@ -1399,7 +1399,7 @@
           "previous": "BUY"
         }
       },
-      "price": 110.64
+      "price": 117.0
     },
     {
       "ticker": "COPX",
@@ -1419,7 +1419,7 @@
           "previous": "BUY"
         }
       },
-      "price": 70.71
+      "price": 73.9
     },
     {
       "ticker": "URA",
@@ -1439,7 +1439,7 @@
           "previous": "BUY"
         }
       },
-      "price": 43.72
+      "price": 46.28
     },
     {
       "ticker": "VXX",
@@ -1459,7 +1459,7 @@
           "previous": "BUY"
         }
       },
-      "price": 39.09
+      "price": 37.3
     },
     {
       "ticker": "UVXY",
@@ -1479,7 +1479,7 @@
           "previous": "BUY"
         }
       },
-      "price": 60.64
+      "price": 56.43
     },
     {
       "ticker": "SVXY",
@@ -1499,7 +1499,7 @@
           "previous": "SELL"
         }
       },
-      "price": 43.52
+      "price": 44.75
     },
     {
       "ticker": "IBIT",
@@ -1519,7 +1519,7 @@
           "previous": "N/A"
         }
       },
-      "price": 37.69
+      "price": 38.09
     },
     {
       "ticker": "FBTC",
@@ -1539,7 +1539,7 @@
           "previous": "N/A"
         }
       },
-      "price": 57.89
+      "price": 58.53
     },
     {
       "ticker": "ETHA",
@@ -1547,7 +1547,7 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -1559,7 +1559,7 @@
           "previous": "N/A"
         }
       },
-      "price": 15.27
+      "price": 15.64
     },
     {
       "ticker": "BTC/USD",
@@ -1579,7 +1579,7 @@
           "previous": "N/A"
         }
       },
-      "price": 68005.61
+      "price": 67188.5
     },
     {
       "ticker": "ETH/USD",
@@ -1619,7 +1619,7 @@
           "previous": "N/A"
         }
       },
-      "price": 84.03
+      "price": 81.52
     },
     {
       "ticker": "XRP/USD",
@@ -1671,15 +1671,15 @@
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "N/A",
           "previous": "N/A"
         }
       },
-      "price": 9.06
+      "price": 8.78
     },
     {
       "ticker": "LINK/USD",
@@ -1699,7 +1699,7 @@
           "previous": "N/A"
         }
       },
-      "price": 8.77
+      "price": 8.71
     },
     {
       "ticker": "UNI/USD",
@@ -1739,7 +1739,7 @@
           "previous": "N/A"
         }
       },
-      "price": 98.77
+      "price": 96.61
     },
     {
       "ticker": "LTC/USD",
@@ -1759,7 +1759,7 @@
           "previous": "ERR"
         }
       },
-      "price": 53.66
+      "price": 53.57
     },
     {
       "ticker": "AAPL",
@@ -1779,7 +1779,7 @@
           "previous": "ERR"
         }
       },
-      "price": 250.08
+      "price": 249.37
     },
     {
       "ticker": "MSFT",
@@ -1799,7 +1799,7 @@
           "previous": "SELL"
         }
       },
-      "price": 362.0
+      "price": 366.82
     },
     {
       "ticker": "NVDA",
@@ -1819,7 +1819,7 @@
           "previous": "ERR"
         }
       },
-      "price": 165.51
+      "price": 170.68
     },
     {
       "ticker": "GOOGL",
@@ -1839,7 +1839,7 @@
           "previous": "ERR"
         }
       },
-      "price": 276.69
+      "price": 282.2
     },
     {
       "ticker": "META",
@@ -1859,7 +1859,7 @@
           "previous": "ERR"
         }
       },
-      "price": 536.63
+      "price": 557.65
     },
     {
       "ticker": "AMZN",
@@ -1875,11 +1875,11 @@
           "previous": "ERR"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         }
       },
-      "price": 197.29
+      "price": 206.38
     },
     {
       "ticker": "TSLA",
@@ -1899,7 +1899,7 @@
           "previous": "ERR"
         }
       },
-      "price": 355.21
+      "price": 365.15
     },
     {
       "ticker": "AVGO",
@@ -1919,7 +1919,7 @@
           "previous": "ERR"
         }
       },
-      "price": 292.94
+      "price": 302.56
     },
     {
       "ticker": "ORCL",
@@ -1939,7 +1939,7 @@
           "previous": "ERR"
         }
       },
-      "price": 141.63
+      "price": 140.01
     },
     {
       "ticker": "CRM",
@@ -1959,7 +1959,7 @@
           "previous": "ERR"
         }
       },
-      "price": 184.31
+      "price": 181.35
     },
     {
       "ticker": "AMD",
@@ -1979,7 +1979,7 @@
           "previous": "BUY"
         }
       },
-      "price": 195.05
+      "price": 198.78
     },
     {
       "ticker": "INTC",
@@ -1999,7 +1999,7 @@
           "previous": "ERR"
         }
       },
-      "price": 38.98
+      "price": 42.55
     },
     {
       "ticker": "QCOM",
@@ -2019,7 +2019,7 @@
           "previous": "SELL"
         }
       },
-      "price": 126.37
+      "price": 124.66
     },
     {
       "ticker": "TXN",
@@ -2027,8 +2027,8 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2039,7 +2039,7 @@
           "previous": "ERR"
         }
       },
-      "price": 178.13
+      "price": 195.87
     },
     {
       "ticker": "MU",
@@ -2059,7 +2059,7 @@
           "previous": "ERR"
         }
       },
-      "price": 321.95
+      "price": 326.71
     },
     {
       "ticker": "AMAT",
@@ -2079,7 +2079,7 @@
           "previous": "ERR"
         }
       },
-      "price": 304.8
+      "price": 330.94
     },
     {
       "ticker": "LRCX",
@@ -2099,7 +2099,7 @@
           "previous": "ERR"
         }
       },
-      "price": 197.5
+      "price": 206.69
     },
     {
       "ticker": "KLAC",
@@ -2119,7 +2119,7 @@
           "previous": "ERR"
         }
       },
-      "price": 1317.19
+      "price": 1385.58
     },
     {
       "ticker": "MRVL",
@@ -2139,7 +2139,7 @@
           "previous": "ERR"
         }
       },
-      "price": 87.17
+      "price": 96.53
     },
     {
       "ticker": "SNOW",
@@ -2159,7 +2159,7 @@
           "previous": "SELL"
         }
       },
-      "price": 155.08
+      "price": 151.08
     },
     {
       "ticker": "PLTR",
@@ -2179,7 +2179,7 @@
           "previous": "ERR"
         }
       },
-      "price": 134.66
+      "price": 146.34
     },
     {
       "ticker": "CRWD",
@@ -2199,7 +2199,7 @@
           "previous": "SELL"
         }
       },
-      "price": 372.9
+      "price": 384.06
     },
     {
       "ticker": "PANW",
@@ -2219,7 +2219,7 @@
           "previous": "ERR"
         }
       },
-      "price": 155.47
+      "price": 156.79
     },
     {
       "ticker": "ZS",
@@ -2239,7 +2239,7 @@
           "previous": "ERR"
         }
       },
-      "price": 137.19
+      "price": 138.87
     },
     {
       "ticker": "NET",
@@ -2259,7 +2259,7 @@
           "previous": "ERR"
         }
       },
-      "price": 181.4
+      "price": 193.11
     },
     {
       "ticker": "DDOG",
@@ -2279,7 +2279,7 @@
           "previous": "ERR"
         }
       },
-      "price": 114.69
+      "price": 120.0
     },
     {
       "ticker": "MDB",
@@ -2299,7 +2299,7 @@
           "previous": "ERR"
         }
       },
-      "price": 234.97
+      "price": 247.06
     },
     {
       "ticker": "ADBE",
@@ -2319,7 +2319,7 @@
           "previous": "ERR"
         }
       },
-      "price": 241.63
+      "price": 241.5
     },
     {
       "ticker": "NOW",
@@ -2339,7 +2339,7 @@
           "previous": "SELL"
         }
       },
-      "price": 104.95
+      "price": 105.22
     },
     {
       "ticker": "INTU",
@@ -2359,7 +2359,7 @@
           "previous": "ERR"
         }
       },
-      "price": 425.08
+      "price": 424.13
     },
     {
       "ticker": "WDAY",
@@ -2379,7 +2379,7 @@
           "previous": "ERR"
         }
       },
-      "price": 128.73
+      "price": 126.36
     },
     {
       "ticker": "SHOP",
@@ -2399,7 +2399,7 @@
           "previous": "ERR"
         }
       },
-      "price": 95.17
+      "price": 114.91
     },
     {
       "ticker": "UBER",
@@ -2419,7 +2419,7 @@
           "previous": "SELL"
         }
       },
-      "price": 69.69
+      "price": 70.97
     },
     {
       "ticker": "LYFT",
@@ -2439,7 +2439,7 @@
           "previous": "ERR"
         }
       },
-      "price": 12.63
+      "price": 12.89
     },
     {
       "ticker": "ABNB",
@@ -2459,7 +2459,7 @@
           "previous": "ERR"
         }
       },
-      "price": 124.06
+      "price": 122.1
     },
     {
       "ticker": "COIN",
@@ -2479,7 +2479,7 @@
           "previous": "ERR"
         }
       },
-      "price": 159.64
+      "price": 166.81
     },
     {
       "ticker": "HOOD",
@@ -2499,7 +2499,7 @@
           "previous": "ERR"
         }
       },
-      "price": 64.14
+      "price": 66.54
     },
     {
       "ticker": "APP",
@@ -2519,7 +2519,7 @@
           "previous": "ERR"
         }
       },
-      "price": 369.98
+      "price": 389.0
     },
     {
       "ticker": "RBLX",
@@ -2539,7 +2539,7 @@
           "previous": "ERR"
         }
       },
-      "price": 51.8
+      "price": 55.53
     },
     {
       "ticker": "U",
@@ -2559,7 +2559,7 @@
           "previous": "SELL"
         }
       },
-      "price": 20.45
+      "price": 21.77
     },
     {
       "ticker": "JPM",
@@ -2567,8 +2567,8 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2579,7 +2579,7 @@
           "previous": "ERR"
         }
       },
-      "price": 270.39
+      "price": 288.05
     },
     {
       "ticker": "BAC",
@@ -2599,7 +2599,7 @@
           "previous": "ERR"
         }
       },
-      "price": 47.51
+      "price": 47.8
     },
     {
       "ticker": "GS",
@@ -2607,7 +2607,7 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -2619,7 +2619,7 @@
           "previous": "ERR"
         }
       },
-      "price": 430
+      "price": 929.0
     },
     {
       "ticker": "MS",
@@ -2627,8 +2627,8 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2639,7 +2639,7 @@
           "previous": "ERR"
         }
       },
-      "price": 156.5
+      "price": 159.06
     },
     {
       "ticker": "WFC",
@@ -2647,8 +2647,8 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2659,7 +2659,7 @@
           "previous": "ERR"
         }
       },
-      "price": 77.69
+      "price": 78.3
     },
     {
       "ticker": "C",
@@ -2667,8 +2667,8 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2679,7 +2679,7 @@
           "previous": "ERR"
         }
       },
-      "price": 107.4
+      "price": 109.4
     },
     {
       "ticker": "BX",
@@ -2699,7 +2699,7 @@
           "previous": "ERR"
         }
       },
-      "price": 105.41
+      "price": 112.84
     },
     {
       "ticker": "KKR",
@@ -2719,7 +2719,7 @@
           "previous": "ERR"
         }
       },
-      "price": 91.01
+      "price": 91.15
     },
     {
       "ticker": "APO",
@@ -2739,7 +2739,7 @@
           "previous": "SELL"
         }
       },
-      "price": 109.29
+      "price": 110.5
     },
     {
       "ticker": "BLK",
@@ -2747,8 +2747,8 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2759,7 +2759,7 @@
           "previous": "ERR"
         }
       },
-      "price": 943.68
+      "price": 947.56
     },
     {
       "ticker": "SCHW",
@@ -2779,7 +2779,7 @@
           "previous": "ERR"
         }
       },
-      "price": 88.12
+      "price": 92.78
     },
     {
       "ticker": "V",
@@ -2799,7 +2799,7 @@
           "previous": "ERR"
         }
       },
-      "price": 298.04
+      "price": 296.1
     },
     {
       "ticker": "MA",
@@ -2819,7 +2819,7 @@
           "previous": "SELL"
         }
       },
-      "price": 492.25
+      "price": 498.05
     },
     {
       "ticker": "AXP",
@@ -2839,7 +2839,7 @@
           "previous": "ERR"
         }
       },
-      "price": 284.83
+      "price": 306.41
     },
     {
       "ticker": "PYPL",
@@ -2859,7 +2859,7 @@
           "previous": "SELL"
         }
       },
-      "price": 44.59
+      "price": 45.02
     },
     {
       "ticker": "SQ",
@@ -2887,8 +2887,8 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2899,7 +2899,7 @@
           "previous": "ERR"
         }
       },
-      "price": 13.46
+      "price": 14.0
     },
     {
       "ticker": "SOFI",
@@ -2919,7 +2919,7 @@
           "previous": "ERR"
         }
       },
-      "price": 15.07
+      "price": 15.57
     },
     {
       "ticker": "UNH",
@@ -2939,7 +2939,7 @@
           "previous": "ERR"
         }
       },
-      "price": 257.0
+      "price": 268.57
     },
     {
       "ticker": "JNJ",
@@ -2959,7 +2959,7 @@
           "previous": "ERR"
         }
       },
-      "price": 229.19
+      "price": 243.14
     },
     {
       "ticker": "LLY",
@@ -2979,7 +2979,7 @@
           "previous": "ERR"
         }
       },
-      "price": 839.32
+      "price": 913.01
     },
     {
       "ticker": "ABBV",
@@ -2987,8 +2987,8 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2999,7 +2999,7 @@
           "previous": "BUY"
         }
       },
-      "price": 210.92
+      "price": 216.7
     },
     {
       "ticker": "MRK",
@@ -3019,7 +3019,7 @@
           "previous": "ERR"
         }
       },
-      "price": 119.25
+      "price": 120.74
     },
     {
       "ticker": "PFE",
@@ -3039,7 +3039,7 @@
           "previous": "ERR"
         }
       },
-      "price": 27.55
+      "price": 27.94
     },
     {
       "ticker": "AMGN",
@@ -3059,7 +3059,7 @@
           "previous": "ERR"
         }
       },
-      "price": 351.29
+      "price": 343.42
     },
     {
       "ticker": "GILD",
@@ -3067,8 +3067,8 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3079,7 +3079,7 @@
           "previous": "ERR"
         }
       },
-      "price": 135.19
+      "price": 138.47
     },
     {
       "ticker": "BIIB",
@@ -3087,8 +3087,8 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3099,7 +3099,7 @@
           "previous": "ERR"
         }
       },
-      "price": 187.57
+      "price": 177.09
     },
     {
       "ticker": "REGN",
@@ -3107,8 +3107,8 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3119,7 +3119,7 @@
           "previous": "ERR"
         }
       },
-      "price": 749.39
+      "price": 934.85
     },
     {
       "ticker": "VRTX",
@@ -3139,7 +3139,7 @@
           "previous": "ERR"
         }
       },
-      "price": 443.02
+      "price": 445.39
     },
     {
       "ticker": "ISRG",
@@ -3159,7 +3159,7 @@
           "previous": "ERR"
         }
       },
-      "price": 475.2
+      "price": 476.91
     },
     {
       "ticker": "BSX",
@@ -3179,7 +3179,7 @@
           "previous": "SELL"
         }
       },
-      "price": 63.03
+      "price": 62.5
     },
     {
       "ticker": "MDT",
@@ -3199,7 +3199,7 @@
           "previous": "ERR"
         }
       },
-      "price": 85.32
+      "price": 83.56
     },
     {
       "ticker": "CVS",
@@ -3219,7 +3219,7 @@
           "previous": "ERR"
         }
       },
-      "price": 69.86
+      "price": 71.19
     },
     {
       "ticker": "HUM",
@@ -3227,7 +3227,7 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -3239,7 +3239,7 @@
           "previous": "ERR"
         }
       },
-      "price": 165.59
+      "price": 173.61
     },
     {
       "ticker": "XOM",
@@ -3259,7 +3259,7 @@
           "previous": "ERR"
         }
       },
-      "price": 163.51
+      "price": 172.89
     },
     {
       "ticker": "CVX",
@@ -3279,7 +3279,7 @@
           "previous": "ERR"
         }
       },
-      "price": 202.11
+      "price": 211.56
     },
     {
       "ticker": "COP",
@@ -3299,7 +3299,7 @@
           "previous": "ERR"
         }
       },
-      "price": 133.28
+      "price": 134.62
     },
     {
       "ticker": "EOG",
@@ -3319,7 +3319,7 @@
           "previous": "BUY"
         }
       },
-      "price": 139.38
+      "price": 149.13
     },
     {
       "ticker": "SLB",
@@ -3339,7 +3339,7 @@
           "previous": "ERR"
         }
       },
-      "price": 51.97
+      "price": 52.73
     },
     {
       "ticker": "MPC",
@@ -3359,7 +3359,7 @@
           "previous": "ERR"
         }
       },
-      "price": 247.92
+      "price": 254.18
     },
     {
       "ticker": "PSX",
@@ -3379,7 +3379,7 @@
           "previous": "ERR"
         }
       },
-      "price": 186.05
+      "price": 185.39
     },
     {
       "ticker": "VLO",
@@ -3399,7 +3399,7 @@
           "previous": "ERR"
         }
       },
-      "price": 237.25
+      "price": 252.11
     },
     {
       "ticker": "HAL",
@@ -3419,7 +3419,7 @@
           "previous": "ERR"
         }
       },
-      "price": 37.87
+      "price": 40.09
     },
     {
       "ticker": "DVN",
@@ -3439,7 +3439,7 @@
           "previous": "ERR"
         }
       },
-      "price": 51.75
+      "price": 51.7
     },
     {
       "ticker": "OXY",
@@ -3459,7 +3459,7 @@
           "previous": "ERR"
         }
       },
-      "price": 66.37
+      "price": 66.97
     },
     {
       "ticker": "HES",
@@ -3499,7 +3499,7 @@
           "previous": "ERR"
         }
       },
-      "price": 994.72
+      "price": 995.0
     },
     {
       "ticker": "WMT",
@@ -3519,7 +3519,7 @@
           "previous": "ERR"
         }
       },
-      "price": 123.91
+      "price": 123.48
     },
     {
       "ticker": "TGT",
@@ -3539,7 +3539,7 @@
           "previous": "BUY"
         }
       },
-      "price": 118.4
+      "price": 122.66
     },
     {
       "ticker": "HD",
@@ -3559,7 +3559,7 @@
           "previous": "ERR"
         }
       },
-      "price": 306.37
+      "price": 325.58
     },
     {
       "ticker": "LOW",
@@ -3579,7 +3579,7 @@
           "previous": "SELL"
         }
       },
-      "price": 232.56
+      "price": 234.75
     },
     {
       "ticker": "MCD",
@@ -3599,7 +3599,7 @@
           "previous": "ERR"
         }
       },
-      "price": 291.17
+      "price": 314.35
     },
     {
       "ticker": "SBUX",
@@ -3619,7 +3619,7 @@
           "previous": "ERR"
         }
       },
-      "price": 83.37
+      "price": 88.36
     },
     {
       "ticker": "NKE",
@@ -3627,7 +3627,7 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -3639,7 +3639,7 @@
           "previous": "ERR"
         }
       },
-      "price": 51.55
+      "price": 52.34
     },
     {
       "ticker": "LULU",
@@ -3659,7 +3659,7 @@
           "previous": "ERR"
         }
       },
-      "price": 140.93
+      "price": 151.01
     },
     {
       "ticker": "TJX",
@@ -3667,8 +3667,8 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3679,7 +3679,7 @@
           "previous": "ERR"
         }
       },
-      "price": 156.03
+      "price": 157.2
     },
     {
       "ticker": "BKNG",
@@ -3699,7 +3699,7 @@
           "previous": "ERR"
         }
       },
-      "price": 3930.53
+      "price": 4035.15
     },
     {
       "ticker": "MAR",
@@ -3707,8 +3707,8 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3719,7 +3719,7 @@
           "previous": "BUY"
         }
       },
-      "price": 304
+      "price": 321.82
     },
     {
       "ticker": "HLT",
@@ -3739,7 +3739,7 @@
           "previous": "ERR"
         }
       },
-      "price": 295.8
+      "price": 299.13
     },
     {
       "ticker": "DIS",
@@ -3759,7 +3759,7 @@
           "previous": "ERR"
         }
       },
-      "price": 94.94
+      "price": 94.81
     },
     {
       "ticker": "NFLX",
@@ -3767,7 +3767,7 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -3779,7 +3779,7 @@
           "previous": "ERR"
         }
       },
-      "price": 92.8
+      "price": 94.93
     },
     {
       "ticker": "SPOT",
@@ -3799,7 +3799,7 @@
           "previous": "ERR"
         }
       },
-      "price": 533.97
+      "price": 516.5
     },
     {
       "ticker": "CAT",
@@ -3819,7 +3819,7 @@
           "previous": "ERR"
         }
       },
-      "price": 694.01
+      "price": 702.76
     },
     {
       "ticker": "DE",
@@ -3839,7 +3839,7 @@
           "previous": "ERR"
         }
       },
-      "price": 554.16
+      "price": 558.95
     },
     {
       "ticker": "RTX",
@@ -3859,7 +3859,7 @@
           "previous": "BUY"
         }
       },
-      "price": 187.51
+      "price": 187.5
     },
     {
       "ticker": "LMT",
@@ -3871,15 +3871,15 @@
           "previous": "ERR"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
           "previous": "ERR"
         }
       },
-      "price": 598.5
+      "price": 606.47
     },
     {
       "ticker": "NOC",
@@ -3899,7 +3899,7 @@
           "previous": "BUY"
         }
       },
-      "price": 669.44
+      "price": 680.56
     },
     {
       "ticker": "GE",
@@ -3919,7 +3919,7 @@
           "previous": "ERR"
         }
       },
-      "price": 258.62
+      "price": 287.04
     },
     {
       "ticker": "HON",
@@ -3939,7 +3939,7 @@
           "previous": "ERR"
         }
       },
-      "price": 223.15
+      "price": 223.5
     },
     {
       "ticker": "BA",
@@ -3959,7 +3959,7 @@
           "previous": "ERR"
         }
       },
-      "price": 189.6
+      "price": 194.74
     },
     {
       "ticker": "UNP",
@@ -3979,7 +3979,7 @@
           "previous": "ERR"
         }
       },
-      "price": 225.95
+      "price": 245.22
     },
     {
       "ticker": "FDX",
@@ -3999,7 +3999,7 @@
           "previous": "ERR"
         }
       },
-      "price": 318.78
+      "price": 337.86
     },
     {
       "ticker": "UPS",
@@ -4007,8 +4007,8 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4019,7 +4019,7 @@
           "previous": "ERR"
         }
       },
-      "price": 90.71
+      "price": 96.87
     },
     {
       "ticker": "WM",
@@ -4039,7 +4039,7 @@
           "previous": "SELL"
         }
       },
-      "price": 232.39
+      "price": 230.06
     },
     {
       "ticker": "PLD",
@@ -4059,7 +4059,7 @@
           "previous": "ERR"
         }
       },
-      "price": 128.2
+      "price": 130.42
     },
     {
       "ticker": "AMT",
@@ -4079,7 +4079,7 @@
           "previous": "SELL"
         }
       },
-      "price": 158.13
+      "price": 172.44
     },
     {
       "ticker": "EQIX",
@@ -4087,8 +4087,8 @@
       "updated": "Mar 31, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -4099,7 +4099,7 @@
           "previous": "ERR"
         }
       },
-      "price": 963.07
+      "price": 993.99
     },
     {
       "ticker": "SPG",
@@ -4119,7 +4119,7 @@
           "previous": "BUY"
         }
       },
-      "price": 182.99
+      "price": 189.29
     },
     {
       "ticker": "O",
@@ -4139,7 +4139,7 @@
           "previous": "ERR"
         }
       },
-      "price": 61.08
+      "price": 61.17
     },
     {
       "ticker": "WELL",
@@ -4159,7 +4159,7 @@
           "previous": "ERR"
         }
       },
-      "price": 195.98
+      "price": 196.88
     },
     {
       "ticker": "NEM",
@@ -4179,7 +4179,7 @@
           "previous": "ERR"
         }
       },
-      "price": 103.19
+      "price": 109.0
     },
     {
       "ticker": "FCX",
@@ -4199,7 +4199,7 @@
           "previous": "ERR"
         }
       },
-      "price": 55.43
+      "price": 57.3
     },
     {
       "ticker": "AA",
@@ -4219,7 +4219,7 @@
           "previous": "ERR"
         }
       },
-      "price": 59.81
+      "price": 66.38
     },
     {
       "ticker": "NUE",
@@ -4239,7 +4239,7 @@
           "previous": "ERR"
         }
       },
-      "price": 164.84
+      "price": 166.47
     },
     {
       "ticker": "LIN",
@@ -4259,7 +4259,7 @@
           "previous": "ERR"
         }
       },
-      "price": 469.12
+      "price": 497.41
     },
     {
       "ticker": "APD",
@@ -4279,7 +4279,7 @@
           "previous": "ERR"
         }
       },
-      "price": 291.45
+      "price": 293.44
     }
   ]
 }
