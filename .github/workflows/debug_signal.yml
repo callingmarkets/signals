@@ -1,0 +1,26 @@
+name: Debug Signal
+on:
+  workflow_dispatch:
+    inputs:
+      ticker:
+        description: 'Ticker symbol (e.g. XLE)'
+        required: true
+        default: 'XLE'
+      timeframe:
+        description: 'Timeframe (1Day, 1Week, 1Month)'
+        required: true
+        default: '1Month'
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install requests numpy pandas
+      - env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: python signal_engine.py debug ${{ inputs.ticker }} ${{ inputs.timeframe }}
