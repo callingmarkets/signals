@@ -1,0 +1,36 @@
+name: Weekly Newsletter
+
+on:
+  workflow_run:
+    workflows: ["Weekly Analysis"]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      test_email:
+        description: 'Test mode — send only to this email (leave blank for full send)'
+        required: false
+        default: ''
+
+jobs:
+  send-newsletter:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Send newsletter
+        env:
+          WP_URL:            ${{ secrets.WP_URL }}
+          WP_USERNAME:       ${{ secrets.WP_USERNAME }}
+          WP_APP_PASSWORD:   ${{ secrets.WP_APP_PASSWORD }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          BREVO_API_KEY:     ${{ secrets.BREVO_API_KEY }}
+          TEST_EMAIL:        ${{ github.event.inputs.test_email }}
+        run: python newsletter_engine.py
