@@ -262,11 +262,27 @@ def run():
             print(f"    Claude ERROR: {e}")
             synopsis = "Analysis unavailable this week."
 
-        # Compute bias label
-        total       = len(tickers)
-        weekly_buy  = sum(1 for t in tickers if signals.get(t, {}).get("weekly") == "BUY")
-        pct         = weekly_buy / total if total else 0
-        bias        = "Bullish" if pct >= 0.6 else "Bearish" if pct <= 0.4 else "Mixed"
+        # Compute bias using monthly + weekly only (daily is noise)
+        # Bullish:      Monthly BUY  + Weekly BUY
+        # Distribution: Monthly BUY  + Weekly SELL  (trend up, momentum fading)
+        # Accumulation: Monthly SELL + Weekly BUY   (trend down, momentum recovering)
+        # Bearish:      Monthly SELL + Weekly SELL
+        total        = len(tickers)
+        weekly_buy   = sum(1 for t in tickers if signals.get(t, {}).get("weekly")  == "BUY")
+        monthly_buy  = sum(1 for t in tickers if signals.get(t, {}).get("monthly") == "BUY")
+        weekly_pct   = weekly_buy  / total if total else 0
+        monthly_pct  = monthly_buy / total if total else 0
+        monthly_bull = monthly_pct >= 0.55
+        weekly_bull  = weekly_pct  >= 0.55
+
+        if monthly_bull and weekly_bull:
+            bias = "Bullish"
+        elif monthly_bull and not weekly_bull:
+            bias = "Distribution"
+        elif not monthly_bull and weekly_bull:
+            bias = "Accumulation"
+        else:
+            bias = "Bearish"
 
         analyses.append({
             "sector":   sector,
