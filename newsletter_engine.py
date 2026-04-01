@@ -111,41 +111,48 @@ def generate_email(analysis, flips):
         if b: flip_summary.append(f"Weekly Bullish Flips: {', '.join(b)}")
         if r: flip_summary.append(f"Weekly Bearish Flips: {', '.join(r)}")
 
-    prompt = f"""You are writing the weekly CallingMarkets newsletter for the week of {week_of}.
+    # Limit synopses to 2 sentences each to keep email under Gmail's 102KB clip limit
+    sector_highlights = []
+    for s in sectors[:4]:
+        synopsis_short = ". ".join(s["synopsis"].split(".")[:2]).strip()
+        if not synopsis_short.endswith("."): synopsis_short += "."
+        sector_highlights.append(f"[{s['bias']}] {s['sector']}: {synopsis_short}")
 
-CallingMarkets uses a momentum signal system (EMA, RSI, MACD) across Daily, Weekly, and Monthly timeframes. 
-Sectors are classified as: Bullish (monthly+weekly buy), Distribution (monthly buy + weekly sell), 
-Accumulation (monthly sell + weekly buy), or Bearish (monthly+weekly sell).
+    prompt = f"""Write a weekly CallingMarkets newsletter for the week of {week_of}.
 
-Here is this week's data:
+CallingMarkets tracks momentum signals (EMA/RSI/MACD) across Daily, Weekly, Monthly timeframes.
+Bias classifications: Bullish (monthly+weekly BUY), Distribution (monthly BUY + weekly SELL), Accumulation (monthly SELL + weekly BUY), Bearish (monthly+weekly SELL).
 
-KEY TAKEAWAYS:
+DATA:
+
+TAKEAWAYS:
 {chr(10).join(f"- {t}" for t in takes)}
 
-SECTOR BIAS BREAKDOWN:
-- Bullish: {', '.join(bias_groups['Bullish']) or 'None'}
-- Distribution: {', '.join(bias_groups['Distribution']) or 'None'}
-- Accumulation: {', '.join(bias_groups['Accumulation']) or 'None'}
-- Bearish: {', '.join(bias_groups['Bearish']) or 'None'}
+SECTOR BIAS:
+- Bullish ({len(bias_groups['Bullish'])}): {', '.join(bias_groups['Bullish']) or 'None'}
+- Distribution ({len(bias_groups['Distribution'])}): {', '.join(bias_groups['Distribution']) or 'None'}
+- Accumulation ({len(bias_groups['Accumulation'])}): {', '.join(bias_groups['Accumulation']) or 'None'}
+- Bearish ({len(bias_groups['Bearish'])}): {', '.join(bias_groups['Bearish']) or 'None'}
 
-SIGNAL FLIPS THIS WEEK:
-{chr(10).join(flip_summary) or 'No significant flips this week'}
+FLIPS:
+{chr(10).join(flip_summary) or 'No significant flips'}
 
-SECTOR SYNOPSES (use these for the detailed section):
-{chr(10).join(f"[{s['bias']}] {s['sector']}: {s['synopsis'][:300]}" for s in sectors[:8])}
+SECTOR HIGHLIGHTS (use exactly these, keep each to 1-2 sentences):
+{chr(10).join(sector_highlights)}
 
-Write a complete, professional HTML email newsletter. Requirements:
-- Subject line suggestion at the top as: SUBJECT: <your subject>
-- Clean, minimal HTML email design with inline CSS
-- Max width 600px, white background, dark text
-- Brand colors: green #1d7a3a, red #c0392b, blue #0041FE
-- Sections: 1) Header with logo text "CallingMarkets" and week date, 2) Key Takeaways box with blue bullet dots, 
-  3) Market Bias Overview (4 columns: Bullish/Distribution/Accumulation/Bearish with counts and sector names),
-  4) Signal Flips section (bullish green, bearish red), 5) Top Sector Highlights (3-4 sectors with synopsis),
-  6) Footer with link to callingmarkets.ai and unsubscribe placeholder {{{{unsubscribe_url}}}}
-- Tone: professional, data-driven, confident. No fluff. Traders read this.
-- Total length: substantial but scannable. Use short paragraphs.
-- Return ONLY the HTML, nothing else."""
+Write a COMPLETE HTML email. Rules:
+- First line must be: SUBJECT: <subject line>
+- Inline CSS only, max-width 600px
+- Brand colors: green #1d7a3a, red #c0392b, amber #d97706, blue #1d4ed8, accent #0041FE
+- MUST include ALL these sections in order:
+  1. Header — dark blue (#0041FE) background, white "CallingMarkets" bold, week date subtitle
+  2. Key Takeaways — white box, blue left border, bullet points
+  3. Market Bias Overview — 4 side-by-side boxes (Bullish=green, Distribution=amber, Accumulation=blue, Bearish=red), show count + sector list, "+X more" if over 5
+  4. Signal Flips — two side-by-side boxes, green bullish left / red bearish right, ticker list
+  5. Sector Highlights — 3-4 sector cards, bias badge, 1-2 sentence synopsis
+  6. Footer — dark background, callingmarkets.ai link, "You're receiving this as a CallingMarkets subscriber", unsubscribe link placeholder: <a href="{{{{unsubscribe_url}}}}">Unsubscribe</a>
+- Keep total HTML under 80KB. Be concise in copy. No filler sentences.
+- Return ONLY the HTML. No markdown. No explanation."""
 
     res = requests.post(
         "https://api.anthropic.com/v1/messages",
