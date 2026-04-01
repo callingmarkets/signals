@@ -23,6 +23,11 @@ FROM_EMAIL      = "newsletter@callingmarkets.ai"
 FROM_NAME       = "Calling Markets"
 SUBJECT_PREFIX  = "Market Outlook"
 
+# ── Test mode ─────────────────────────────────────────────────────────────────
+TEST_EMAIL      = os.environ.get("TEST_EMAIL", "").strip()
+TEST_MODE       = bool(TEST_EMAIL)
+REPLY_TO_EMAIL  = FROM_EMAIL
+
 # ── Step 1: Fetch WordPress subscribers ───────────────────────────────────────
 def get_wp_users():
     if TEST_MODE:
