@@ -88,128 +88,204 @@ def get_flips(signals_data):
                 flips["bearish"][tf].append(ticker)
     return flips
 
-# ── Step 4: Generate email HTML via Claude ─────────────────────────────────────
-def generate_email(analysis, flips):
-    print("Generating email with Claude...")
+# ── Step 4: Claude generates CONTENT ONLY (not HTML) ─────────────────────────
+def generate_content(analysis, flips):
+    print("Generating content with Claude...")
 
     week_of  = analysis.get("week_of", "")
     takes    = analysis.get("takeaways", [])
     sectors  = analysis.get("sectors",  [])
 
-    # Build sector summary grouped by bias
     bias_groups = {"Bullish": [], "Distribution": [], "Accumulation": [], "Bearish": []}
     for s in sectors:
         bias = s.get("bias", "")
         if bias in bias_groups:
             bias_groups[bias].append(s["sector"])
 
-    # Build flip summary
     flip_summary = []
     for tf in ["weekly", "monthly"]:
-        b = flips["bullish"][tf][:5]
-        r = flips["bearish"][tf][:5]
-        if b: flip_summary.append(f"Weekly Bullish Flips: {', '.join(b)}")
-        if r: flip_summary.append(f"Weekly Bearish Flips: {', '.join(r)}")
+        b = flips["bullish"][tf][:6]
+        r = flips["bearish"][tf][:6]
+        if b: flip_summary.append(("bull", tf.upper(), ", ".join(b)))
+        if r: flip_summary.append(("bear", tf.upper(), ", ".join(r)))
 
-    # Trim synopses to 2 sentences to stay under Gmail 102KB clip limit
-    sector_highlights = []
-    for s in sectors[:4]:
-        synopsis_short = ". ".join(s["synopsis"].split(".")[:2]).strip()
-        if not synopsis_short.endswith("."): synopsis_short += "."
-        sector_highlights.append({"bias": s["bias"], "sector": s["sector"], "synopsis": synopsis_short})
+    # Pick one sector per bias for highlights
+    highlights = []
+    for bias in ["Bullish", "Distribution", "Accumulation", "Bearish"]:
+        match = next((s for s in sectors if s.get("bias") == bias), None)
+        if match:
+            synopsis = ". ".join(match["synopsis"].split(".")[:2]).strip()
+            if not synopsis.endswith("."): synopsis += "."
+            highlights.append({"bias": bias, "sector": match["sector"], "synopsis": synopsis})
 
-    prompt = f"""You are writing the weekly CallingMarkets newsletter for the week of {week_of}.
+    prompt = f"""You are writing content for the CallingMarkets weekly newsletter, week of {week_of}.
 
-CallingMarkets uses a momentum signal system (EMA, RSI, MACD) across Daily, Weekly, and Monthly timeframes.
-Sectors are classified as: Bullish (monthly+weekly buy), Distribution (monthly buy + weekly sell),
-Accumulation (monthly sell + weekly buy), or Bearish (monthly+weekly sell).
+Provide ONLY these content fields as a JSON object, nothing else:
 
-Here is this week's data:
+{{
+  "subject": "<compelling subject line under 60 chars>",
+  "takeaways": [
+    {{"bold": "<first 4-6 words>", "rest": "<rest of sentence>"}}
+    ... one object per takeaway
+  ],
+  "bullish_flips": "<comma separated tickers or 'None this week'>",
+  "bearish_flips": "<comma separated tickers or 'None this week'>",
+  "highlights": [
+    {{"bias": "<bias>", "sector": "<sector name>", "synopsis": "<1-2 sentence synopsis, punchy and data-driven>"}}
+    ... one per bias provided
+  ]
+}}
 
-KEY TAKEAWAYS:
-{chr(10).join(f"- {t}" for t in takes)}
+DATA:
+Takeaways: {takes}
+Bullish flips: {flips["bullish"]["weekly"][:6] + flips["bullish"]["monthly"][:3]}
+Bearish flips: {flips["bearish"]["weekly"][:6] + flips["bearish"]["monthly"][:3]}
+Highlights to write about:
+{chr(10).join(f'- [{h["bias"]}] {h["sector"]}: {h["synopsis"]}' for h in highlights)}
 
-SECTOR BIAS BREAKDOWN:
-- Bullish ({len(bias_groups["Bullish"])}): {", ".join(bias_groups["Bullish"]) or "None"}
-- Distribution ({len(bias_groups["Distribution"])}): {", ".join(bias_groups["Distribution"]) or "None"}
-- Accumulation ({len(bias_groups["Accumulation"])}): {", ".join(bias_groups["Accumulation"]) or "None"}
-- Bearish ({len(bias_groups["Bearish"])}): {", ".join(bias_groups["Bearish"]) or "None"}
-
-SIGNAL FLIPS THIS WEEK:
-{chr(10).join(flip_summary) or "No significant flips this week"}
-
-SECTOR HIGHLIGHTS (4 sectors, use exactly this data):
-{chr(10).join(f'[{s["bias"]}] {s["sector"]}: {s["synopsis"]}' for s in sector_highlights)}
-
-Write a complete, professional HTML email newsletter matching this EXACT design:
-
-DESIGN SPEC:
-- Subject line first line: SUBJECT: <subject>
-- Inline CSS only. Max-width 600px. White background #ffffff. Font: Arial, sans-serif.
-- Brand colors: accent blue #0041FE, green #1d7a3a, green-bg #eaf5ee, red #c0392b, red-bg #fdecea, amber #92620a, amber-bg #fef9ec, blue #1d4ed8, blue-bg #eff6ff
-
-SECTION 1 — HEADER:
-- Full-width block, background #0041FE
-- "CallingMarkets" in white, bold, 28px, centered
-- "Week of {week_of}" in white, 14px, centered, below title
-- Padding 32px 24px
-
-SECTION 2 — KEY TAKEAWAYS:
-- White card, 1px border #e5e7eb, border-radius 8px, padding 24px, margin 24px auto
-- "Key Takeaways" heading, 18px bold, color #111827, blue bottom border 2px #0041FE, padding-bottom 12px
-- Each takeaway as a list item with a filled blue circle bullet (#0041FE), 13px, line-height 1.6, color #374151
-- Bold the first 4-6 words of each takeaway
-
-SECTION 3 — MARKET BIAS OVERVIEW:
-- "Market Bias Overview" heading same style as above
-- 4 side-by-side boxes in a table (25% each), border-radius 8px, padding 12px
-- Bullish box: bg #eaf5ee, label "BULLISH" color #1d7a3a, count in large bold green
-- Distribution box: bg #fef9ec, label "DISTRIBUTION" color #92620a, count in large bold amber  
-- Accumulation box: bg #eff6ff, label "ACCUMULATION" color #1d4ed8, count in large bold blue
-- Bearish box: bg #fdecea, label "BEARISH" color #c0392b, count in large bold red
-- Show up to 5 sector names in small text (11px), then "+X more" if over 5
-
-SECTION 4 — SIGNAL FLIPS:
-- "Signal Flips This Week" heading same style
-- Two side-by-side boxes in a table (50% each)
-- Left box: bg #eaf5ee, "▲ WEEKLY BULLISH FLIPS" label in #1d7a3a, ticker list in bold #1d7a3a
-- Right box: bg #fdecea, "▼ WEEKLY BEARISH FLIPS" label in #c0392b, ticker list in bold #c0392b
-- If no flips: show "None this week" in muted text
-
-SECTION 5 — SECTOR HIGHLIGHTS:
-- "Sector Highlights" heading same style
-- 4 sector cards stacked vertically, each: white bg, 1px border #e5e7eb, border-radius 8px, padding 16px, margin-bottom 12px
-- Top row: sector name bold left, bias badge pill right (same colors as bias overview)
-- Synopsis text below: 13px, color #6b7280, line-height 1.6
-- This section is REQUIRED — do not omit it
-
-SECTION 6 — FOOTER:
-- Full-width block, background #111827, padding 24px, text-align center
-- "CallingMarkets" in white bold, link to https://callingmarkets.ai
-- "Momentum signals for smarter market decisions." in #9ca3af, 13px
-- "You're receiving this as a CallingMarkets subscriber." in #6b7280, 12px, margin-top 12px
-- Unsubscribe link: <a href="{{{{unsubscribe_url}}}}" style="color:#6b7280;font-size:12px;">Unsubscribe</a>
-
-IMPORTANT: Keep total HTML under 80KB. Return ONLY the HTML, no markdown, no explanation."""
+Return ONLY valid JSON. No markdown. No explanation."""
 
     res = requests.post(
         "https://api.anthropic.com/v1/messages",
         headers={"x-api-key": ANTHROPIC_KEY, "anthropic-version": "2023-06-01", "content-type": "application/json"},
-        json={"model": "claude-opus-4-5", "max_tokens": 4000, "messages": [{"role": "user", "content": prompt}]}
+        json={"model": "claude-opus-4-5", "max_tokens": 2000, "messages": [{"role": "user", "content": prompt}]}
     )
-    text = res.json()["content"][0]["text"].strip()
+    raw = res.json()["content"][0]["text"].strip()
+    # Strip markdown fences if present
+    raw = raw.replace("```json", "").replace("```", "").strip()
+    data = json.loads(raw)
 
-    # Extract subject line
-    subject = f"{SUBJECT_PREFIX} — Week of {week_of}"
-    if text.startswith("SUBJECT:"):
-        lines   = text.split("\n", 1)
-        subject = lines[0].replace("SUBJECT:", "").strip()
-        text    = lines[1].strip() if len(lines) > 1 else text
-
+    subject = data.get("subject", f"Market Outlook — Week of {week_of}")
     if TEST_MODE:
         subject = f"[TEST] {subject}"
+
+    # ── Build HTML from locked template ───────────────────────────────────────
+    week_of_a = analysis.get("week_of", "")
+
+    # Takeaways
+    takes_html = ""
+    for t in data.get("takeaways", []):
+        bold = t.get("bold", "")
+        rest = t.get("rest", "")
+        takes_html += f'''<tr><td style="padding:6px 0 6px 12px;font-size:13px;color:#374151;line-height:1.6;border-left:3px solid #0041FE;margin-bottom:8px;display:block;">
+          <strong>{bold}</strong> {rest}</td></tr>'''
+
+    # Bias columns
+    def bias_col(label, cls_color, bg, count, names):
+        shown = names[:5]
+        more  = len(names) - 5
+        items = "".join(f'<div style="font-size:11px;color:#374151;padding:2px 0;">{n}</div>' for n in shown)
+        if more > 0: items += f'<div style="font-size:11px;color:#9ca3af;">+{more} more</div>'
+        return f'''<td width="25%" style="padding:4px;">
+          <div style="background:{bg};border-radius:8px;padding:12px;text-align:center;">
+            <div style="font-size:22px;font-weight:700;color:{cls_color};">{count}</div>
+            <div style="font-size:9px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:{cls_color};margin-bottom:8px;">{label}</div>
+            {items}
+          </div></td>'''
+
+    bias_html = (
+        bias_col("Bullish",      "#1d7a3a", "#eaf5ee", len(bias_groups["Bullish"]),      bias_groups["Bullish"])     +
+        bias_col("Distribution", "#92620a", "#fef9ec", len(bias_groups["Distribution"]), bias_groups["Distribution"]) +
+        bias_col("Accumulation", "#1d4ed8", "#eff6ff", len(bias_groups["Accumulation"]), bias_groups["Accumulation"]) +
+        bias_col("Bearish",      "#c0392b", "#fdecea", len(bias_groups["Bearish"]),      bias_groups["Bearish"])
+    )
+
+    # Flips
+    bull_flips = data.get("bullish_flips", "None this week")
+    bear_flips = data.get("bearish_flips", "None this week")
+
+    # Highlights
+    bias_badge_style = {
+        "Bullish":      "background:#eaf5ee;color:#1d7a3a;",
+        "Distribution": "background:#fef9ec;color:#92620a;",
+        "Accumulation": "background:#eff6ff;color:#1d4ed8;",
+        "Bearish":      "background:#fdecea;color:#c0392b;",
+    }
+    highlights_html = ""
+    for h in data.get("highlights", []):
+        badge = bias_badge_style.get(h["bias"], "background:#f3f4f6;color:#374151;")
+        highlights_html += f'''
+        <tr><td style="padding:0 0 12px 0;">
+          <div style="background:#ffffff;border:1px solid #e5e7eb;border-radius:8px;padding:16px;">
+            <table width="100%" cellpadding="0" cellspacing="0"><tr>
+              <td style="font-size:14px;font-weight:700;color:#111827;">{h["sector"]}</td>
+              <td align="right"><span style="font-size:10px;font-weight:700;padding:3px 10px;border-radius:20px;{badge}">{h["bias"]}</span></td>
+            </tr></table>
+            <p style="margin:10px 0 0;font-size:13px;color:#6b7280;line-height:1.6;">{h["synopsis"]}</p>
+          </div>
+        </td></tr>'''
+
+    html = f'''<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body style="margin:0;padding:0;background:#f3f4f6;font-family:Arial,sans-serif;">
+<table width="100%" cellpadding="0" cellspacing="0" style="background:#f3f4f6;padding:24px 0;">
+<tr><td align="center">
+<table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;">
+
+  <!-- HEADER -->
+  <tr><td style="background:#0041FE;padding:32px 24px;text-align:center;border-radius:8px 8px 0 0;">
+    <div style="font-size:28px;font-weight:700;color:#ffffff;letter-spacing:-0.5px;">CallingMarkets</div>
+    <div style="font-size:14px;color:rgba(255,255,255,0.85);margin-top:6px;">Week of {week_of_a}</div>
+  </td></tr>
+
+  <!-- BODY -->
+  <tr><td style="background:#ffffff;padding:28px 24px;">
+
+    <!-- Key Takeaways -->
+    <div style="font-size:18px;font-weight:700;color:#111827;padding-bottom:12px;border-bottom:2px solid #0041FE;margin-bottom:16px;">Key Takeaways</div>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+      {takes_html}
+    </table>
+
+    <!-- Market Bias Overview -->
+    <div style="font-size:18px;font-weight:700;color:#111827;padding-bottom:12px;border-bottom:2px solid #0041FE;margin-bottom:16px;">Market Bias Overview</div>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+      <tr>{bias_html}</tr>
+    </table>
+
+    <!-- Signal Flips -->
+    <div style="font-size:18px;font-weight:700;color:#111827;padding-bottom:12px;border-bottom:2px solid #0041FE;margin-bottom:16px;">Signal Flips This Week</div>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+      <tr>
+        <td width="50%" style="padding-right:6px;">
+          <div style="background:#eaf5ee;border-radius:8px;padding:16px;">
+            <div style="font-size:10px;font-weight:700;letter-spacing:0.08em;color:#1d7a3a;margin-bottom:8px;">▲ WEEKLY BULLISH FLIPS</div>
+            <div style="font-size:13px;font-weight:700;color:#1d7a3a;">{bull_flips}</div>
+          </div>
+        </td>
+        <td width="50%" style="padding-left:6px;">
+          <div style="background:#fdecea;border-radius:8px;padding:16px;">
+            <div style="font-size:10px;font-weight:700;letter-spacing:0.08em;color:#c0392b;margin-bottom:8px;">▼ WEEKLY BEARISH FLIPS</div>
+            <div style="font-size:13px;font-weight:700;color:#c0392b;">{bear_flips}</div>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Sector Highlights -->
+    <div style="font-size:18px;font-weight:700;color:#111827;padding-bottom:12px;border-bottom:2px solid #0041FE;margin-bottom:16px;">Sector Highlights</div>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:8px;">
+      {highlights_html}
+    </table>
+
+  </td></tr>
+
+  <!-- FOOTER -->
+  <tr><td style="background:#111827;padding:24px;text-align:center;border-radius:0 0 8px 8px;">
+    <a href="https://callingmarkets.ai" style="font-size:16px;font-weight:700;color:#ffffff;text-decoration:none;">CallingMarkets</a>
+    <div style="font-size:13px;color:#9ca3af;margin-top:6px;">Momentum signals for smarter market decisions.</div>
+    <div style="margin-top:16px;font-size:12px;color:#6b7280;">You're receiving this as a CallingMarkets subscriber.</div>
+    <div style="margin-top:6px;"><a href="{{unsubscribe_url}}" style="font-size:12px;color:#6b7280;">Unsubscribe</a></div>
+  </td></tr>
+
+</table>
+</td></tr></table>
+</body></html>'''
+
     print(f"  Subject: {subject}")
-    return subject, text
+    print(f"  HTML size: {len(html.encode())/1024:.1f}KB")
+    return subject, html
+
 
 # ── Step 5: Send via Brevo ─────────────────────────────────────────────────────
 def send_newsletter(users, subject, html_body):
@@ -258,7 +334,7 @@ def run():
 
     analysis, signals   = load_data()
     flips               = get_flips(signals)
-    subject, html_body  = generate_email(analysis, flips)
+    subject, html_body  = generate_content(analysis, flips)
     sent, errors        = send_newsletter(users, subject, html_body)
 
     print(f"\nNewsletter complete. {sent} sent, {errors} errors.")
