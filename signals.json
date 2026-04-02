@@ -1,13 +1,13 @@
 {
-  "generated": "2026-03-31T22:55:57.119131Z",
+  "generated": "2026-04-02T15:36:14.462939Z",
   "signals": [
     {
       "ticker": "SPY",
       "sector": "ETF - US Market",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -19,12 +19,12 @@
           "previous": "SELL"
         }
       },
-      "price": 645.42
+      "price": 654.92
     },
     {
       "ticker": "QQQ",
       "sector": "ETF - US Market",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -39,15 +39,15 @@
           "previous": "SELL"
         }
       },
-      "price": 577.05
+      "price": 583.61
     },
     {
       "ticker": "IWM",
       "sector": "ETF - US Market",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -59,15 +59,15 @@
           "previous": "BUY"
         }
       },
-      "price": 240.65
+      "price": 250.88
     },
     {
       "ticker": "DIA",
       "sector": "ETF - US Market",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -75,19 +75,19 @@
           "previous": "SELL"
         },
         "monthly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         }
       },
-      "price": 461.56
+      "price": 464.95
     },
     {
       "ticker": "MDY",
       "sector": "ETF - US Market",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -99,15 +99,15 @@
           "previous": "BUY"
         }
       },
-      "price": 616.82
+      "price": 621.31
     },
     {
       "ticker": "VTI",
       "sector": "ETF - US Market",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -115,19 +115,19 @@
           "previous": "SELL"
         },
         "monthly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "SELL"
         }
       },
-      "price": 318.54
+      "price": 323.31
     },
     {
       "ticker": "VOO",
       "sector": "ETF - US Market",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -139,15 +139,15 @@
           "previous": "SELL"
         }
       },
-      "price": 593.35
+      "price": 601.95
     },
     {
       "ticker": "RSP",
       "sector": "ETF - US Market",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -159,15 +159,15 @@
           "previous": "BUY"
         }
       },
-      "price": 191.18
+      "price": 192.94
     },
     {
       "ticker": "XLK",
       "sector": "ETF - Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -179,12 +179,12 @@
           "previous": "SELL"
         }
       },
-      "price": 129.17
+      "price": 135.35
     },
     {
       "ticker": "XLF",
       "sector": "ETF - Financials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -199,15 +199,15 @@
           "previous": "SELL"
         }
       },
-      "price": 49.2
+      "price": 49.48
     },
     {
       "ticker": "XLE",
       "sector": "ETF - Energy",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -219,15 +219,15 @@
           "previous": "SELL"
         }
       },
-      "price": 60.87
+      "price": 59.33
     },
     {
       "ticker": "XLV",
       "sector": "ETF - Healthcare",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -239,12 +239,12 @@
           "previous": "BUY"
         }
       },
-      "price": 141.91
+      "price": 147.37
     },
     {
       "ticker": "XLI",
       "sector": "ETF - Industrials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -259,12 +259,12 @@
           "previous": "BUY"
         }
       },
-      "price": 161.98
+      "price": 164.1
     },
     {
       "ticker": "XLB",
       "sector": "ETF - Materials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -279,15 +279,15 @@
           "previous": "SELL"
         }
       },
-      "price": 48.46
+      "price": 50.36
     },
     {
       "ticker": "XLU",
       "sector": "ETF - Utilities",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -299,12 +299,12 @@
           "previous": "SELL"
         }
       },
-      "price": 45.66
+      "price": 46.31
     },
     {
       "ticker": "XLRE",
       "sector": "ETF - Real Estate",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -319,12 +319,12 @@
           "previous": "SELL"
         }
       },
-      "price": 39.72
+      "price": 41.41
     },
     {
       "ticker": "XLP",
       "sector": "ETF - Staples",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -339,15 +339,15 @@
           "previous": "BUY"
         }
       },
-      "price": 81.38
+      "price": 81.62
     },
     {
       "ticker": "XLY",
       "sector": "ETF - Consumer",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -359,12 +359,12 @@
           "previous": "SELL"
         }
       },
-      "price": 108.84
+      "price": 108.58
     },
     {
       "ticker": "XLC",
       "sector": "ETF - Communications",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -379,12 +379,12 @@
           "previous": "SELL"
         }
       },
-      "price": 110.32
+      "price": 111.52
     },
     {
       "ticker": "XBI",
       "sector": "ETF - Biotech",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -399,12 +399,12 @@
           "previous": "BUY"
         }
       },
-      "price": 127.38
+      "price": 128.52
     },
     {
       "ticker": "SMH",
       "sector": "ETF - Semiconductors",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -419,15 +419,15 @@
           "previous": "BUY"
         }
       },
-      "price": 380.13
+      "price": 390.87
     },
     {
       "ticker": "SOXX",
       "sector": "ETF - Semiconductors",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -439,12 +439,12 @@
           "previous": "BUY"
         }
       },
-      "price": 328.38
+      "price": 337.65
     },
     {
       "ticker": "ARKK",
       "sector": "ETF - Innovation",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -455,19 +455,19 @@
           "previous": "SELL"
         },
         "monthly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         }
       },
-      "price": 67.26
+      "price": 68.36
     },
     {
       "ticker": "ARKG",
       "sector": "ETF - Genomics",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -475,16 +475,16 @@
           "previous": "SELL"
         },
         "monthly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         }
       },
-      "price": 25.22
+      "price": 27.34
     },
     {
       "ticker": "FINX",
       "sector": "ETF - Fintech",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -499,15 +499,15 @@
           "previous": "SELL"
         }
       },
-      "price": 23.32
+      "price": 22.91
     },
     {
       "ticker": "CIBR",
       "sector": "ETF - Cybersecurity",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -519,12 +519,12 @@
           "previous": "SELL"
         }
       },
-      "price": 62.62
+      "price": 63.95
     },
     {
       "ticker": "HACK",
       "sector": "ETF - Cybersecurity",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -539,12 +539,12 @@
           "previous": "SELL"
         }
       },
-      "price": 74.94
+      "price": 77.06
     },
     {
       "ticker": "ROBO",
       "sector": "ETF - Robotics",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -559,12 +559,12 @@
           "previous": "BUY"
         }
       },
-      "price": 68.39
+      "price": 69.13
     },
     {
       "ticker": "BOTZ",
       "sector": "ETF - AI & Robotics",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -575,19 +575,19 @@
           "previous": "SELL"
         },
         "monthly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         }
       },
-      "price": 33.23
+      "price": 33.42
     },
     {
       "ticker": "EFA",
       "sector": "ETF - International",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -599,15 +599,15 @@
           "previous": "BUY"
         }
       },
-      "price": 97.23
+      "price": 97.9
     },
     {
       "ticker": "EEM",
       "sector": "ETF - Emerging Markets",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -619,15 +619,15 @@
           "previous": "BUY"
         }
       },
-      "price": 56.8
+      "price": 56.55
     },
     {
       "ticker": "VEA",
       "sector": "ETF - Developed Markets",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -639,15 +639,15 @@
           "previous": "BUY"
         }
       },
-      "price": 62.18
+      "price": 64.59
     },
     {
       "ticker": "VWO",
       "sector": "ETF - Emerging Markets",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -659,35 +659,35 @@
           "previous": "BUY"
         }
       },
-      "price": 51.41
+      "price": 53.75
     },
     {
       "ticker": "FXI",
       "sector": "ETF - China",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "monthly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "SELL"
         }
       },
-      "price": 35.95
+      "price": 35.44
     },
     {
       "ticker": "MCHI",
       "sector": "ETF - China",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -695,19 +695,19 @@
           "previous": "SELL"
         },
         "monthly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         }
       },
-      "price": 56.2
+      "price": 55.7
     },
     {
       "ticker": "EWJ",
       "sector": "ETF - Japan",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -719,12 +719,12 @@
           "previous": "BUY"
         }
       },
-      "price": 84.1
+      "price": 85.16
     },
     {
       "ticker": "EWZ",
       "sector": "ETF - Brazil",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -739,15 +739,15 @@
           "previous": "BUY"
         }
       },
-      "price": 38.31
+      "price": 38.59
     },
     {
       "ticker": "INDA",
       "sector": "ETF - India",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -759,15 +759,15 @@
           "previous": "SELL"
         }
       },
-      "price": 44.99
+      "price": 46.66
     },
     {
       "ticker": "EWG",
       "sector": "ETF - Germany",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -779,15 +779,15 @@
           "previous": "SELL"
         }
       },
-      "price": 38.15
+      "price": 39.84
     },
     {
       "ticker": "EWU",
       "sector": "ETF - UK",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -799,15 +799,15 @@
           "previous": "BUY"
         }
       },
-      "price": 45.32
+      "price": 46.25
     },
     {
       "ticker": "EWC",
       "sector": "ETF - Canada",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -819,12 +819,12 @@
           "previous": "BUY"
         }
       },
-      "price": 53.81
+      "price": 55.25
     },
     {
       "ticker": "EWA",
       "sector": "ETF - Australia",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -839,12 +839,12 @@
           "previous": "BUY"
         }
       },
-      "price": 27.76
+      "price": 28.11
     },
     {
       "ticker": "EWY",
       "sector": "ETF - South Korea",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -859,16 +859,16 @@
           "previous": "BUY"
         }
       },
-      "price": 122.28
+      "price": 122.84
     },
     {
       "ticker": "EWT",
       "sector": "ETF - Taiwan",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -879,15 +879,15 @@
           "previous": "BUY"
         }
       },
-      "price": 70.53
+      "price": 70.54
     },
     {
       "ticker": "TLT",
       "sector": "ETF - Bonds",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -899,12 +899,12 @@
           "previous": "SELL"
         }
       },
-      "price": 86.67
+      "price": 86.75
     },
     {
       "ticker": "IEF",
       "sector": "ETF - Bonds",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -919,12 +919,12 @@
           "previous": "SELL"
         }
       },
-      "price": 95.47
+      "price": 95.3
     },
     {
       "ticker": "SHY",
       "sector": "ETF - Bonds",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -939,15 +939,15 @@
           "previous": "SELL"
         }
       },
-      "price": 82.57
+      "price": 82.37
     },
     {
       "ticker": "BND",
       "sector": "ETF - Bonds",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -959,15 +959,15 @@
           "previous": "SELL"
         }
       },
-      "price": 73.65
+      "price": 73.59
     },
     {
       "ticker": "AGG",
       "sector": "ETF - Bonds",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -979,16 +979,16 @@
           "previous": "SELL"
         }
       },
-      "price": 99.33
+      "price": 99.23
     },
     {
       "ticker": "HYG",
       "sector": "ETF - High Yield",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -999,16 +999,16 @@
           "previous": "SELL"
         }
       },
-      "price": 79.46
+      "price": 79.56
     },
     {
       "ticker": "JNK",
       "sector": "ETF - High Yield",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -1019,16 +1019,16 @@
           "previous": "SELL"
         }
       },
-      "price": 95.56
+      "price": 95.72
     },
     {
       "ticker": "LQD",
       "sector": "ETF - Corp Bonds",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -1039,15 +1039,15 @@
           "previous": "SELL"
         }
       },
-      "price": 108.95
+      "price": 109.09
     },
     {
       "ticker": "EMB",
       "sector": "ETF - EM Bonds",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -1059,12 +1059,12 @@
           "previous": "SELL"
         }
       },
-      "price": 93.5
+      "price": 94.03
     },
     {
       "ticker": "TIP",
       "sector": "ETF - TIPS",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1075,19 +1075,19 @@
           "previous": "SELL"
         },
         "monthly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         }
       },
-      "price": 110.37
+      "price": 110.69
     },
     {
       "ticker": "MUB",
       "sector": "ETF - Municipal",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -1099,15 +1099,15 @@
           "previous": "SELL"
         }
       },
-      "price": 102.91
+      "price": 106.38
     },
     {
       "ticker": "GLD",
       "sector": "Commodity",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -1119,15 +1119,15 @@
           "previous": "BUY"
         }
       },
-      "price": 430.4
+      "price": 429.16
     },
     {
       "ticker": "IAU",
       "sector": "Commodity",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -1139,15 +1139,15 @@
           "previous": "BUY"
         }
       },
-      "price": 88.17
+      "price": 87.91
     },
     {
       "ticker": "SLV",
       "sector": "Commodity",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -1159,15 +1159,15 @@
           "previous": "BUY"
         }
       },
-      "price": 68.12
+      "price": 65.34
     },
     {
       "ticker": "PPLT",
       "sector": "Commodity",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -1179,12 +1179,12 @@
           "previous": "BUY"
         }
       },
-      "price": 178.41
+      "price": 182.81
     },
     {
       "ticker": "USO",
       "sector": "Commodity",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1199,16 +1199,16 @@
           "previous": "BUY"
         }
       },
-      "price": 126.97
+      "price": 137.97
     },
     {
       "ticker": "BNO",
       "sector": "Commodity",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -1219,12 +1219,12 @@
           "previous": "BUY"
         }
       },
-      "price": 51.97
+      "price": 53.41
     },
     {
       "ticker": "UNG",
       "sector": "Commodity",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1239,12 +1239,12 @@
           "previous": "SELL"
         }
       },
-      "price": 11.69
+      "price": 11.36
     },
     {
       "ticker": "DBA",
       "sector": "Commodity",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1259,19 +1259,19 @@
           "previous": "BUY"
         }
       },
-      "price": 27.29
+      "price": 27.18
     },
     {
       "ticker": "CORN",
       "sector": "Commodity",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "SELL"
         },
         "monthly": {
@@ -1279,19 +1279,19 @@
           "previous": "BUY"
         }
       },
-      "price": 18.36
+      "price": 18.18
     },
     {
       "ticker": "WEAT",
       "sector": "Commodity",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "monthly": {
@@ -1299,12 +1299,12 @@
           "previous": "BUY"
         }
       },
-      "price": 23.58
+      "price": 22.93
     },
     {
       "ticker": "SOYB",
       "sector": "Commodity",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1319,12 +1319,12 @@
           "previous": "BUY"
         }
       },
-      "price": 24.42
+      "price": 24.38
     },
     {
       "ticker": "PDBC",
       "sector": "Commodity",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1339,12 +1339,12 @@
           "previous": "BUY"
         }
       },
-      "price": 17.26
+      "price": 17.38
     },
     {
       "ticker": "DJP",
       "sector": "Commodity",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1359,15 +1359,15 @@
           "previous": "BUY"
         }
       },
-      "price": 48.13
+      "price": 48.63
     },
     {
       "ticker": "GDX",
       "sector": "Commodity",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -1379,15 +1379,15 @@
           "previous": "BUY"
         }
       },
-      "price": 91.37
+      "price": 94.53
     },
     {
       "ticker": "GDXJ",
       "sector": "Commodity",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -1399,15 +1399,15 @@
           "previous": "BUY"
         }
       },
-      "price": 119.76
+      "price": 122.27
     },
     {
       "ticker": "COPX",
       "sector": "Commodity",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -1419,15 +1419,15 @@
           "previous": "BUY"
         }
       },
-      "price": 76.1
+      "price": 76.81
     },
     {
       "ticker": "URA",
       "sector": "Commodity",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -1439,15 +1439,15 @@
           "previous": "BUY"
         }
       },
-      "price": 48.45
+      "price": 48.58
     },
     {
       "ticker": "VXX",
       "sector": "ETF - Volatility",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -1455,19 +1455,19 @@
           "previous": "BUY"
         },
         "monthly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         }
       },
-      "price": 35.58
+      "price": 35.36
     },
     {
       "ticker": "UVXY",
       "sector": "ETF - Volatility",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -1479,72 +1479,12 @@
           "previous": "BUY"
         }
       },
-      "price": 50.7
+      "price": 51.18
     },
     {
       "ticker": "SVXY",
       "sector": "ETF - Volatility",
-      "updated": "Mar 31, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
-        }
-      },
-      "price": 45.62
-    },
-    {
-      "ticker": "IBIT",
-      "sector": "ETF - Bitcoin",
-      "updated": "Mar 31, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
-        },
-        "monthly": {
-          "signal": "N/A",
-          "previous": "N/A"
-        }
-      },
-      "price": 38.68
-    },
-    {
-      "ticker": "FBTC",
-      "sector": "ETF - Bitcoin",
-      "updated": "Mar 31, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
-        },
-        "monthly": {
-          "signal": "N/A",
-          "previous": "N/A"
-        }
-      },
-      "price": 59.08
-    },
-    {
-      "ticker": "ETHA",
-      "sector": "ETF - Ethereum",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1555,16 +1495,76 @@
           "previous": "SELL"
         },
         "monthly": {
+          "signal": "SELL",
+          "previous": "SELL"
+        }
+      },
+      "price": 45.83
+    },
+    {
+      "ticker": "IBIT",
+      "sector": "ETF - Bitcoin",
+      "updated": "Apr 2, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "monthly": {
           "signal": "N/A",
           "previous": "N/A"
         }
       },
-      "price": 15.89
+      "price": 37.86
+    },
+    {
+      "ticker": "FBTC",
+      "sector": "ETF - Bitcoin",
+      "updated": "Apr 2, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "monthly": {
+          "signal": "N/A",
+          "previous": "N/A"
+        }
+      },
+      "price": 58.18
+    },
+    {
+      "ticker": "ETHA",
+      "sector": "ETF - Ethereum",
+      "updated": "Apr 2, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "BUY"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "monthly": {
+          "signal": "N/A",
+          "previous": "N/A"
+        }
+      },
+      "price": 15.52
     },
     {
       "ticker": "BTC/USD",
       "sector": "Crypto",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1579,12 +1579,12 @@
           "previous": "N/A"
         }
       },
-      "price": 68099.2
+      "price": 66807.54
     },
     {
       "ticker": "ETH/USD",
       "sector": "Crypto",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1599,12 +1599,12 @@
           "previous": "N/A"
         }
       },
-      "price": 2095.8
+      "price": 2053.9
     },
     {
       "ticker": "SOL/USD",
       "sector": "Crypto",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1619,12 +1619,12 @@
           "previous": "N/A"
         }
       },
-      "price": 82.57
+      "price": 78.72
     },
     {
       "ticker": "XRP/USD",
       "sector": "Crypto",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1639,12 +1639,12 @@
           "previous": "N/A"
         }
       },
-      "price": 1.34
+      "price": 1.3
     },
     {
       "ticker": "DOGE/USD",
       "sector": "Crypto",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1664,7 +1664,7 @@
     {
       "ticker": "AVAX/USD",
       "sector": "Crypto",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1679,12 +1679,12 @@
           "previous": "N/A"
         }
       },
-      "price": 8.89
+      "price": 8.74
     },
     {
       "ticker": "LINK/USD",
       "sector": "Crypto",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1699,12 +1699,12 @@
           "previous": "N/A"
         }
       },
-      "price": 8.71
+      "price": 8.54
     },
     {
       "ticker": "UNI/USD",
       "sector": "Crypto",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1719,12 +1719,12 @@
           "previous": "N/A"
         }
       },
-      "price": 3.54
+      "price": 3.16
     },
     {
       "ticker": "AAVE/USD",
       "sector": "Crypto",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1739,12 +1739,12 @@
           "previous": "N/A"
         }
       },
-      "price": 97.7
+      "price": 94.44
     },
     {
       "ticker": "LTC/USD",
       "sector": "Crypto",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1759,16 +1759,16 @@
           "previous": "ERR"
         }
       },
-      "price": 54.03
+      "price": 51.85
     },
     {
       "ticker": "AAPL",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -1779,12 +1779,12 @@
           "previous": "BUY"
         }
       },
-      "price": 252.74
+      "price": 254.76
     },
     {
       "ticker": "MSFT",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1799,12 +1799,12 @@
           "previous": "SELL"
         }
       },
-      "price": 372.05
+      "price": 370.52
     },
     {
       "ticker": "NVDA",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1819,15 +1819,15 @@
           "previous": "SELL"
         }
       },
-      "price": 173.88
+      "price": 176.55
     },
     {
       "ticker": "GOOGL",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -1839,12 +1839,12 @@
           "previous": "BUY"
         }
       },
-      "price": 283.79
+      "price": 295.76
     },
     {
       "ticker": "META",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1859,15 +1859,15 @@
           "previous": "SELL"
         }
       },
-      "price": 566.71
+      "price": 569.0
     },
     {
       "ticker": "AMZN",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -1879,12 +1879,12 @@
           "previous": "BUY"
         }
       },
-      "price": 198.74
+      "price": 210.26
     },
     {
       "ticker": "TSLA",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1899,12 +1899,12 @@
           "previous": "SELL"
         }
       },
-      "price": 350.82
+      "price": 365.8
     },
     {
       "ticker": "AVGO",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1919,12 +1919,12 @@
           "previous": "SELL"
         }
       },
-      "price": 305.65
+      "price": 312.81
     },
     {
       "ticker": "ORCL",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1939,12 +1939,12 @@
           "previous": "SELL"
         }
       },
-      "price": 146.16
+      "price": 145.55
     },
     {
       "ticker": "CRM",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1959,19 +1959,19 @@
           "previous": "SELL"
         }
       },
-      "price": 185.32
+      "price": 190.69
     },
     {
       "ticker": "AMD",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "monthly": {
@@ -1979,19 +1979,19 @@
           "previous": "BUY"
         }
       },
-      "price": 192.14
+      "price": 214.18
     },
     {
       "ticker": "INTC",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "monthly": {
@@ -1999,16 +1999,16 @@
           "previous": "BUY"
         }
       },
-      "price": 41.58
+      "price": 49.58
     },
     {
       "ticker": "QCOM",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2019,12 +2019,12 @@
           "previous": "SELL"
         }
       },
-      "price": 121.5
+      "price": 122.56
     },
     {
       "ticker": "TXN",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2039,12 +2039,12 @@
           "previous": "BUY"
         }
       },
-      "price": 192.37
+      "price": 198.69
     },
     {
       "ticker": "MU",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2059,15 +2059,15 @@
           "previous": "BUY"
         }
       },
-      "price": 335.55
+      "price": 356.49
     },
     {
       "ticker": "AMAT",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -2079,12 +2079,12 @@
           "previous": "BUY"
         }
       },
-      "price": 336.1
+      "price": 350.66
     },
     {
       "ticker": "LRCX",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2099,15 +2099,15 @@
           "previous": "BUY"
         }
       },
-      "price": 212.31
+      "price": 223.63
     },
     {
       "ticker": "KLAC",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -2119,12 +2119,12 @@
           "previous": "BUY"
         }
       },
-      "price": 1453.95
+      "price": 1524.4
     },
     {
       "ticker": "MRVL",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2139,12 +2139,12 @@
           "previous": "BUY"
         }
       },
-      "price": 92.88
+      "price": 106.34
     },
     {
       "ticker": "SNOW",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2159,12 +2159,12 @@
           "previous": "SELL"
         }
       },
-      "price": 143.11
+      "price": 153.83
     },
     {
       "ticker": "PLTR",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2179,332 +2179,373 @@
           "previous": "SELL"
         }
       },
-      "price": 138.81
+      "price": 144.32
     },
     {
       "ticker": "CRWD",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=CRWD&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=CRWD&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "SELL",
           "previous": "SELL"
         }
       },
-      "price": 388.03
+      "price": 398.92
     },
     {
       "ticker": "PANW",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=PANW&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=PANW&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=PANW&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 159.02
+      "price": 159.8
     },
     {
       "ticker": "ZS",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=ZS&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=ZS&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=ZS&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 138
+      "price": 130
     },
     {
       "ticker": "NET",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NET&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NET&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 201.75
+      "price": 210.28
     },
     {
       "ticker": "DDOG",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=DDOG&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=DDOG&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "SELL",
           "previous": "SELL"
         }
       },
-      "price": 118.27
+      "price": 123.58
     },
     {
       "ticker": "MDB",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MDB&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MDB&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MDB&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 228.95
+      "price": 246.5
     },
     {
       "ticker": "ADBE",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=ADBE&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=ADBE&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "SELL",
           "previous": "SELL"
         }
       },
-      "price": 241.5
+      "price": 235.72
     },
     {
       "ticker": "NOW",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NOW&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NOW&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NOW&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 104
+      "price": 102.15
     },
     {
       "ticker": "INTU",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=INTU&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=INTU&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=INTU&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 423.74
+      "price": 428.3
     },
     {
       "ticker": "WDAY",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=WDAY&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=WDAY&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 129.9
+      "price": 131.12
     },
     {
       "ticker": "SHOP",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SHOP&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SHOP&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SHOP&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 118.38
+      "price": 126.54
     },
     {
       "ticker": "UBER",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=UBER&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=UBER&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=UBER&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 71.48
+      "price": 71.57
     },
     {
       "ticker": "LYFT",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LYFT&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LYFT&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 13.34
+      "price": 13.25
     },
     {
       "ticker": "ABNB",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=ABNB&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=ABNB&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "N/A",
-          "previous": "ERR"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=ABNB&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 118.21
+      "price": 125.66
     },
     {
       "ticker": "COIN",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=COIN&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "N/A",
-          "previous": "ERR"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=COIN&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 173.56
+      "price": 168.65
     },
     {
       "ticker": "HOOD",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HOOD&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HOOD&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "N/A",
-          "previous": "ERR"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HOOD&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 68.5
+      "price": 68.97
     },
     {
       "ticker": "APP",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2515,368 +2556,413 @@
           "previous": "SELL"
         },
         "monthly": {
-          "signal": "N/A",
-          "previous": "ERR"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=APP&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 376.07
+      "price": 401.38
     },
     {
       "ticker": "RBLX",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=RBLX&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "monthly": {
-          "signal": "N/A",
-          "previous": "ERR"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=RBLX&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 52.48
+      "price": 59.34
     },
     {
       "ticker": "U",
       "sector": "Technology",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=U&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=U&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=U&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 22.02
+      "price": 22.45
     },
     {
       "ticker": "JPM",
       "sector": "Financials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=JPM&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=JPM&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "SELL",
           "previous": "SELL"
         }
       },
-      "price": 293.96
+      "price": 284.8
     },
     {
       "ticker": "BAC",
       "sector": "Financials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BAC&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BAC&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BAC&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 48.61
+      "price": 49.17
     },
     {
       "ticker": "GS",
       "sector": "Financials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=GS&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=GS&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=GS&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 845.84
+      "price": 862.3
     },
     {
       "ticker": "MS",
       "sector": "Financials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MS&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MS&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 164.83
+      "price": 169.75
     },
     {
       "ticker": "WFC",
       "sector": "Financials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=WFC&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=WFC&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=WFC&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 79.48
+      "price": 80.3
     },
     {
       "ticker": "C",
       "sector": "Financials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=C&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=C&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 107.54
+      "price": 114.49
     },
     {
       "ticker": "BX",
       "sector": "Financials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BX&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BX&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 115.28
+      "price": 111.63
     },
     {
       "ticker": "KKR",
       "sector": "Financials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=KKR&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=KKR&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=KKR&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 93.07
+      "price": 93.88
     },
     {
       "ticker": "APO",
       "sector": "Financials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=APO&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=APO&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 111.09
+      "price": 108.25
     },
     {
       "ticker": "BLK",
       "sector": "Financials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BLK&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BLK&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BLK&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 957.76
+      "price": 991.98
     },
     {
       "ticker": "SCHW",
       "sector": "Financials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SCHW&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SCHW&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 93.16
+      "price": 93.39
     },
     {
       "ticker": "V",
       "sector": "Financials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=V&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=V&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=V&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 302.36
+      "price": 298.01
     },
     {
       "ticker": "MA",
       "sector": "Financials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MA&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MA&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 471.1
+      "price": 494.46
     },
     {
       "ticker": "AXP",
       "sector": "Financials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=AXP&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=AXP&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "SELL",
           "previous": "SELL"
         }
       },
-      "price": 286.9
+      "price": 292.91
     },
     {
       "ticker": "PYPL",
       "sector": "Financials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=PYPL&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=PYPL&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=PYPL&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 42.41
+      "price": 45.08
     },
     {
       "ticker": "SQ",
       "sector": "Financials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "N/A",
           "previous": "N/A"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SQ&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SQ&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
       "price": 86.92
@@ -2884,147 +2970,165 @@
     {
       "ticker": "NU",
       "sector": "Financials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NU&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NU&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "N/A",
-          "previous": "ERR"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NU&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 13.68
+      "price": 14.32
     },
     {
       "ticker": "SOFI",
       "sector": "Financials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SOFI&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SOFI&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 15.87
+      "price": 15.64
     },
     {
       "ticker": "UNH",
       "sector": "Healthcare",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=UNH&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=UNH&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=UNH&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 268.64
+      "price": 276.66
     },
     {
       "ticker": "JNJ",
       "sector": "Healthcare",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=JNJ&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=JNJ&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 242.69
+      "price": 238.63
     },
     {
       "ticker": "LLY",
       "sector": "Healthcare",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LLY&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LLY&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LLY&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 912.25
+      "price": 922.6
     },
     {
       "ticker": "ABBV",
       "sector": "Healthcare",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=ABBV&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=ABBV&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 216.7
+      "price": 207.12
     },
     {
       "ticker": "MRK",
       "sector": "Healthcare",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MRK&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MRK&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MRK&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 114.51
+      "price": 117.42
     },
     {
       "ticker": "PFE",
       "sector": "Healthcare",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -3035,463 +3139,498 @@
           "previous": "BUY"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=PFE&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 27.94
+      "price": 28.56
     },
     {
       "ticker": "AMGN",
       "sector": "Healthcare",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=AMGN&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=AMGN&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "BUY",
           "previous": "BUY"
         }
       },
-      "price": 330.84
+      "price": 347.48
     },
     {
       "ticker": "GILD",
       "sector": "Healthcare",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=GILD&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=GILD&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=GILD&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 132.25
+      "price": 143.88
     },
     {
       "ticker": "BIIB",
       "sector": "Healthcare",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BIIB&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BIIB&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 252.5
+      "price": 176.79
     },
     {
       "ticker": "REGN",
       "sector": "Healthcare",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=REGN&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=REGN&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "BUY",
           "previous": "BUY"
         }
       },
-      "price": 936.54
+      "price": 923.5
     },
     {
       "ticker": "VRTX",
       "sector": "Healthcare",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=VRTX&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=VRTX&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=VRTX&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 446.61
+      "price": 441.89
     },
     {
       "ticker": "ISRG",
       "sector": "Healthcare",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=ISRG&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=ISRG&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "SELL",
           "previous": "SELL"
         }
       },
-      "price": 479.5
+      "price": 479.75
     },
     {
       "ticker": "BSX",
       "sector": "Healthcare",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BSX&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BSX&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BSX&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 62.06
+      "price": 63.09
     },
     {
       "ticker": "MDT",
       "sector": "Healthcare",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MDT&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MDT&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 85.53
+      "price": 86.42
     },
     {
       "ticker": "CVS",
       "sector": "Healthcare",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=CVS&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=CVS&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 71.89
+      "price": 74.86
     },
     {
       "ticker": "HUM",
       "sector": "Healthcare",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HUM&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HUM&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HUM&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 169.06
+      "price": 178.01
     },
     {
       "ticker": "XOM",
       "sector": "Energy",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=XOM&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=XOM&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 168.5
+      "price": 160.35
     },
     {
       "ticker": "CVX",
       "sector": "Energy",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=CVX&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=CVX&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=CVX&timeframe=1Month&start=1996-04-07&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=CVX&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 206.72
+      "price": 199.9
     },
     {
       "ticker": "COP",
       "sector": "Energy",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=COP&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=COP&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=COP&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 130.3
+      "price": 132.12
     },
     {
       "ticker": "EOG",
       "sector": "Energy",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=EOG&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=EOG&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": "BUY"
-        },
-        "monthly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=EOG&timeframe=1Month&start=1996-04-07&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=EOG&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
         }
       },
-      "price": 144.86
+      "price": 141.69
     },
     {
       "ticker": "SLB",
       "sector": "Energy",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SLB&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SLB&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SLB&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SLB&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 51.38
+      "price": 49.58
     },
     {
       "ticker": "MPC",
       "sector": "Energy",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
-        },
-        "weekly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MPC&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MPC&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
         },
         "monthly": {
           "signal": "BUY",
           "previous": "BUY"
         }
       },
-      "price": 243.43
+      "price": 243.36
     },
     {
       "ticker": "PSX",
       "sector": "Energy",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "ERR",
-          "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=PSX&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "signal": "SELL",
+          "previous": "ERR"
         },
         "weekly": {
-          "signal": "ERR",
-          "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=PSX&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "signal": "BUY",
+          "previous": null
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=PSX&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 182.64
+      "price": 176.07
     },
     {
       "ticker": "VLO",
       "sector": "Energy",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": "BUY"
-        },
-        "monthly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=VLO&timeframe=1Month&start=1996-04-07&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=VLO&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
+        },
+        "weekly": {
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=VLO&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
         }
       },
-      "price": 243.58
+      "price": 242.84
     },
     {
       "ticker": "HAL",
       "sector": "Energy",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HAL&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HAL&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HAL&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "BUY",
           "previous": "BUY"
         }
       },
-      "price": 37.24
+      "price": 38.43
     },
     {
       "ticker": "DVN",
       "sector": "Energy",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=DVN&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=DVN&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=DVN&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=DVN&timeframe=1Month&start=1996-04-07&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=DVN&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 47.72
+      "price": 49.18
     },
     {
       "ticker": "OXY",
       "sector": "Energy",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
-        },
-        "weekly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=OXY&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=OXY&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=OXY&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 64.68
+      "price": 63.02
     },
     {
       "ticker": "HES",
       "sector": "Energy",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HES&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HES&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": "BUY"
-        },
-        "monthly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HES&timeframe=1Month&start=1996-04-07&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HES&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
         }
       },
       "price": 148.97
@@ -3499,118 +3638,125 @@
     {
       "ticker": "COST",
       "sector": "Consumer",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=COST&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=COST&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=COST&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 998.73
+      "price": 984.0
     },
     {
       "ticker": "WMT",
       "sector": "Consumer",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=WMT&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=WMT&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "ERR",
-          "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=WMT&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "signal": "SELL",
+          "previous": null
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=WMT&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 117.04
+      "price": 125.02
     },
     {
       "ticker": "TGT",
       "sector": "Consumer",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=TGT&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=TGT&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=TGT&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=TGT&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=TGT&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 113.52
+      "price": 123.22
     },
     {
       "ticker": "HD",
       "sector": "Consumer",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HD&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HD&timeframe=1Month&start=1996-04-07&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HD&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 309.32
+      "price": 330.35
     },
     {
       "ticker": "LOW",
       "sector": "Consumer",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LOW&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LOW&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LOW&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LOW&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 236.26
+      "price": 230.61
     },
     {
       "ticker": "MCD",
       "sector": "Consumer",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MCD&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MCD&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "SELL",
@@ -3619,79 +3765,83 @@
         "monthly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MCD&timeframe=1Month&start=1996-04-07&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MCD&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 294.09
+      "price": 314.03
     },
     {
       "ticker": "SBUX",
       "sector": "Consumer",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SBUX&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SBUX&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SBUX&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SBUX&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 90.02
+      "price": 90.98
     },
     {
       "ticker": "NKE",
       "sector": "Consumer",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "ERR",
-          "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NKE&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "signal": "SELL",
+          "previous": "ERR"
         },
         "weekly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NKE&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NKE&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NKE&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 52.96
+      "price": 43.66
     },
     {
       "ticker": "LULU",
       "sector": "Consumer",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LULU&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LULU&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LULU&timeframe=1Month&start=1996-04-07&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LULU&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 151.01
+      "price": 156.66
     },
     {
       "ticker": "TJX",
       "sector": "Consumer",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -3700,41 +3850,43 @@
         "weekly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=TJX&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=TJX&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=TJX&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 151.58
+      "price": 157.0
     },
     {
       "ticker": "BKNG",
       "sector": "Consumer",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BKNG&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BKNG&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BKNG&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BKNG&timeframe=1Month&start=1996-04-07&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BKNG&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 4181.66
+      "price": 4164.8
     },
     {
       "ticker": "MAR",
       "sector": "Consumer",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -3743,88 +3895,91 @@
         "weekly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MAR&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MAR&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MAR&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 329.25
+      "price": 341.51
     },
     {
       "ticker": "HLT",
       "sector": "Consumer",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HLT&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HLT&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "monthly": {
-          "signal": "ERR",
-          "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HLT&timeframe=1Month&start=1996-04-07&limit=1000&sort=asc"
+          "signal": "BUY",
+          "previous": null
         }
       },
-      "price": 303.87
+      "price": 305.32
     },
     {
       "ticker": "DIS",
       "sector": "Consumer",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=DIS&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=DIS&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 96.13
+      "price": 96.84
     },
     {
       "ticker": "NFLX",
       "sector": "Consumer",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NFLX&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NFLX&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NFLX&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NFLX&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NFLX&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 95.13
+      "price": 97.45
     },
     {
       "ticker": "SPOT",
       "sector": "Consumer",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SPOT&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SPOT&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "SELL",
@@ -3833,41 +3988,43 @@
         "monthly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SPOT&timeframe=1Month&start=1996-04-07&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SPOT&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 538.77
+      "price": 532.78
     },
     {
       "ticker": "CAT",
       "sector": "Industrials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=CAT&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=CAT&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=CAT&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=CAT&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 711.55
+      "price": 724.35
     },
     {
       "ticker": "DE",
       "sector": "Industrials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=DE&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=DE&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "BUY",
@@ -3876,79 +4033,83 @@
         "monthly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=DE&timeframe=1Month&start=1996-04-07&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=DE&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 562.83
+      "price": 573.44
     },
     {
       "ticker": "RTX",
       "sector": "Industrials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=RTX&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=RTX&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=RTX&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=RTX&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 192.97
+      "price": 198.06
     },
     {
       "ticker": "LMT",
       "sector": "Industrials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LMT&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LMT&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "ERR",
-          "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LMT&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "signal": "BUY",
+          "previous": null
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LMT&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 602.1
+      "price": 632.59
     },
     {
       "ticker": "NOC",
       "sector": "Industrials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NOC&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NOC&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NOC&timeframe=1Month&start=1996-04-07&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NOC&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 681.53
+      "price": 706.69
     },
     {
       "ticker": "GE",
       "sector": "Industrials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3957,194 +4118,204 @@
         "weekly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=GE&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=GE&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=GE&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 283.12
+      "price": 287.28
     },
     {
       "ticker": "HON",
       "sector": "Industrials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HON&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HON&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HON&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HON&timeframe=1Month&start=1996-04-07&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HON&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 225.79
+      "price": 228.42
     },
     {
       "ticker": "BA",
       "sector": "Industrials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "ERR",
-          "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BA&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "signal": "SELL",
+          "previous": null
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BA&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 188.95
+      "price": 206.76
     },
     {
       "ticker": "UNP",
       "sector": "Industrials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=UNP&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=UNP&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=UNP&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=UNP&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 243.46
+      "price": 243.69
     },
     {
       "ticker": "FDX",
       "sector": "Industrials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "SELL"
-        },
-        "weekly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=FDX&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=FDX&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=FDX&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 350.3
+      "price": 370.79
     },
     {
       "ticker": "UPS",
       "sector": "Industrials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=UPS&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=UPS&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=UPS&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=UPS&timeframe=1Month&start=1996-04-07&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=UPS&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 97.38
+      "price": 98.75
     },
     {
       "ticker": "WM",
       "sector": "Industrials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=WM&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=WM&timeframe=1Month&start=1996-04-07&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=WM&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 229.68
+      "price": 233.98
     },
     {
       "ticker": "PLD",
       "sector": "Real Estate",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
-        },
-        "weekly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=PLD&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=PLD&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
         },
         "monthly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=PLD&timeframe=1Month&start=1996-04-07&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=PLD&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 131.73
+      "price": 134.24
     },
     {
       "ticker": "AMT",
       "sector": "Real Estate",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=AMT&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=AMT&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=AMT&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 171.73
+      "price": 175.94
     },
     {
       "ticker": "EQIX",
       "sector": "Real Estate",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=EQIX&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=EQIX&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "BUY",
@@ -4153,202 +4324,213 @@
         "monthly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=EQIX&timeframe=1Month&start=1996-04-07&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=EQIX&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 970.36
+      "price": 1025.54
     },
     {
       "ticker": "SPG",
       "sector": "Real Estate",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SPG&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SPG&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SPG&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SPG&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 185.98
+      "price": 193.0
     },
     {
       "ticker": "O",
       "sector": "Real Estate",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=O&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=O&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=O&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=O&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "BUY",
           "previous": "BUY"
         }
       },
-      "price": 58.04
+      "price": 62.52
     },
     {
       "ticker": "WELL",
       "sector": "Real Estate",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=WELL&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=WELL&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=WELL&timeframe=1Month&start=1996-04-07&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=WELL&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 198.46
+      "price": 201.79
     },
     {
       "ticker": "NEM",
       "sector": "Materials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NEM&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NEM&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "BUY",
           "previous": "BUY"
         }
       },
-      "price": 102.01
+      "price": 113.56
     },
     {
       "ticker": "FCX",
       "sector": "Materials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=FCX&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=FCX&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=FCX&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=FCX&timeframe=1Month&start=1996-04-07&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=FCX&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 58.36
+      "price": 60.97
     },
     {
       "ticker": "AA",
       "sector": "Materials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
-        },
-        "weekly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=AA&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=AA&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=AA&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 66.15
+      "price": 70.77
     },
     {
       "ticker": "NUE",
       "sector": "Materials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NUE&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NUE&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NUE&timeframe=1Week&start=2019-07-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NUE&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NUE&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 169.16
+      "price": 171.51
     },
     {
       "ticker": "LIN",
       "sector": "Materials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LIN&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LIN&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": "BUY"
-        },
-        "monthly": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LIN&timeframe=1Month&start=1996-04-07&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LIN&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
         }
       },
-      "price": 498.18
+      "price": 512.87
     },
     {
       "ticker": "APD",
       "sector": "Materials",
-      "updated": "Mar 31, 2026",
+      "updated": "Apr 2, 2026",
       "timeframes": {
         "daily": {
           "signal": "ERR",
           "previous": null,
-          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=APD&timeframe=1Day&start=2024-11-16&limit=1000&sort=asc"
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=APD&timeframe=1Day&start=2024-11-18&limit=1000&sort=asc"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=APD&timeframe=1Week&start=2019-07-18&limit=1000&sort=asc"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=APD&timeframe=1Month&start=1996-04-09&limit=1000&sort=asc"
         }
       },
-      "price": 290.36
+      "price": 295.82
     }
   ]
 }
