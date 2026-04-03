@@ -126,7 +126,7 @@ def generate_tweet(signals_data, analysis):
 
     today = datetime.now().strftime("%B %d, %Y")
 
-    prompt = f"""You write sharp, insightful market tweets for @CallingMarkets — a momentum signal platform tracking 214 tickers across stocks, ETFs, and crypto using EMA/RSI/MACD signals.
+    prompt = f"""You write sharp, opinionated market tweets for @CallingMarkets — a momentum signal platform tracking 214 tickers using EMA/RSI/MACD signals.
 
 Today is {today}.
 
@@ -137,13 +137,15 @@ SIGNAL DATA:
 - Bearish flips today: {[f[0] for f in bear_flips[:5]] or 'None'}
 
 Write ONE tweet (max 240 chars including the link). Rules:
-- Lead with the most interesting signal insight — flips, extremes, or notable bias
-- Use $ before tickers (e.g. $SPY, $GLD)
-- Use emojis sparingly — 1-2 max, only where they add meaning (🟢 buy, 🔴 sell, 📊 data)
+- Give ONE clear, actionable take — not a summary of data points
+- The take should tell traders what to DO or WATCH, not just what happened
+- Examples of good takes: "Energy is the only sector worth being long right now", "Momentum says stay defensive until weekly signals recover", "Gold miners just flipped — this is where capital is hiding"
+- Use $ before tickers sparingly — max 2 tickers per tweet
+- Use emojis sparingly — 1 max, only where meaningful
 - End with: {SITE_URL}
-- No hashtags — they look spammy
-- Tone: confident, data-driven, like a sharp trader talking to other traders
-- Do NOT start with "Today" or "The market"
+- No hashtags
+- Do NOT start with "Today" or "The market" or list multiple data points
+- Sound like a sharp trader with conviction, not a data terminal
 - Return ONLY the tweet text, nothing else"""
 
     res = requests.post(
