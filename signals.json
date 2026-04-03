@@ -1,10 +1,10 @@
 {
-  "generated": "2026-04-02T22:56:12.697034Z",
+  "generated": "2026-04-03T22:06:02.967826Z",
   "signals": [
     {
       "ticker": "SPY",
       "sector": "ETF - US Market",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -24,7 +24,7 @@
     {
       "ticker": "QQQ",
       "sector": "ETF - US Market",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -44,7 +44,7 @@
     {
       "ticker": "IWM",
       "sector": "ETF - US Market",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -64,7 +64,7 @@
     {
       "ticker": "DIA",
       "sector": "ETF - US Market",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -84,7 +84,7 @@
     {
       "ticker": "MDY",
       "sector": "ETF - US Market",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -104,7 +104,7 @@
     {
       "ticker": "VTI",
       "sector": "ETF - US Market",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -124,7 +124,7 @@
     {
       "ticker": "VOO",
       "sector": "ETF - US Market",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -144,7 +144,7 @@
     {
       "ticker": "RSP",
       "sector": "ETF - US Market",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -164,7 +164,7 @@
     {
       "ticker": "XLK",
       "sector": "ETF - Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -184,7 +184,7 @@
     {
       "ticker": "XLF",
       "sector": "ETF - Financials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -204,7 +204,7 @@
     {
       "ticker": "XLE",
       "sector": "ETF - Energy",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -224,7 +224,7 @@
     {
       "ticker": "XLV",
       "sector": "ETF - Healthcare",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -244,7 +244,7 @@
     {
       "ticker": "XLI",
       "sector": "ETF - Industrials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -264,7 +264,7 @@
     {
       "ticker": "XLB",
       "sector": "ETF - Materials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -284,7 +284,7 @@
     {
       "ticker": "XLU",
       "sector": "ETF - Utilities",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -304,7 +304,7 @@
     {
       "ticker": "XLRE",
       "sector": "ETF - Real Estate",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -324,7 +324,7 @@
     {
       "ticker": "XLP",
       "sector": "ETF - Staples",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -344,7 +344,7 @@
     {
       "ticker": "XLY",
       "sector": "ETF - Consumer",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -364,7 +364,7 @@
     {
       "ticker": "XLC",
       "sector": "ETF - Communications",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -384,7 +384,7 @@
     {
       "ticker": "XBI",
       "sector": "ETF - Biotech",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -404,11 +404,11 @@
     {
       "ticker": "SMH",
       "sector": "ETF - Semiconductors",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -424,7 +424,7 @@
     {
       "ticker": "SOXX",
       "sector": "ETF - Semiconductors",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -444,7 +444,7 @@
     {
       "ticker": "ARKK",
       "sector": "ETF - Innovation",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -464,7 +464,7 @@
     {
       "ticker": "ARKG",
       "sector": "ETF - Genomics",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -484,7 +484,7 @@
     {
       "ticker": "FINX",
       "sector": "ETF - Fintech",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -504,7 +504,7 @@
     {
       "ticker": "CIBR",
       "sector": "ETF - Cybersecurity",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -524,7 +524,7 @@
     {
       "ticker": "HACK",
       "sector": "ETF - Cybersecurity",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -544,7 +544,7 @@
     {
       "ticker": "ROBO",
       "sector": "ETF - Robotics",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -564,7 +564,7 @@
     {
       "ticker": "BOTZ",
       "sector": "ETF - AI & Robotics",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -584,7 +584,7 @@
     {
       "ticker": "EFA",
       "sector": "ETF - International",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -604,7 +604,7 @@
     {
       "ticker": "EEM",
       "sector": "ETF - Emerging Markets",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -624,7 +624,7 @@
     {
       "ticker": "VEA",
       "sector": "ETF - Developed Markets",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -644,7 +644,7 @@
     {
       "ticker": "VWO",
       "sector": "ETF - Emerging Markets",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -664,7 +664,7 @@
     {
       "ticker": "FXI",
       "sector": "ETF - China",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -684,7 +684,7 @@
     {
       "ticker": "MCHI",
       "sector": "ETF - China",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -704,7 +704,7 @@
     {
       "ticker": "EWJ",
       "sector": "ETF - Japan",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -724,7 +724,7 @@
     {
       "ticker": "EWZ",
       "sector": "ETF - Brazil",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -744,7 +744,7 @@
     {
       "ticker": "INDA",
       "sector": "ETF - India",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -764,7 +764,7 @@
     {
       "ticker": "EWG",
       "sector": "ETF - Germany",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -784,7 +784,7 @@
     {
       "ticker": "EWU",
       "sector": "ETF - UK",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -804,7 +804,7 @@
     {
       "ticker": "EWC",
       "sector": "ETF - Canada",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -824,7 +824,7 @@
     {
       "ticker": "EWA",
       "sector": "ETF - Australia",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -844,7 +844,7 @@
     {
       "ticker": "EWY",
       "sector": "ETF - South Korea",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -864,7 +864,7 @@
     {
       "ticker": "EWT",
       "sector": "ETF - Taiwan",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -884,7 +884,7 @@
     {
       "ticker": "TLT",
       "sector": "ETF - Bonds",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -904,7 +904,7 @@
     {
       "ticker": "IEF",
       "sector": "ETF - Bonds",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -924,7 +924,7 @@
     {
       "ticker": "SHY",
       "sector": "ETF - Bonds",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -944,7 +944,7 @@
     {
       "ticker": "BND",
       "sector": "ETF - Bonds",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -964,7 +964,7 @@
     {
       "ticker": "AGG",
       "sector": "ETF - Bonds",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -984,7 +984,7 @@
     {
       "ticker": "HYG",
       "sector": "ETF - High Yield",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1004,7 +1004,7 @@
     {
       "ticker": "JNK",
       "sector": "ETF - High Yield",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1024,7 +1024,7 @@
     {
       "ticker": "LQD",
       "sector": "ETF - Corp Bonds",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1044,7 +1044,7 @@
     {
       "ticker": "EMB",
       "sector": "ETF - EM Bonds",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1064,7 +1064,7 @@
     {
       "ticker": "TIP",
       "sector": "ETF - TIPS",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1084,7 +1084,7 @@
     {
       "ticker": "MUB",
       "sector": "ETF - Municipal",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1104,7 +1104,7 @@
     {
       "ticker": "GLD",
       "sector": "Commodity",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1124,7 +1124,7 @@
     {
       "ticker": "IAU",
       "sector": "Commodity",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1144,7 +1144,7 @@
     {
       "ticker": "SLV",
       "sector": "Commodity",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1164,7 +1164,7 @@
     {
       "ticker": "PPLT",
       "sector": "Commodity",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1184,7 +1184,7 @@
     {
       "ticker": "USO",
       "sector": "Commodity",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1204,7 +1204,7 @@
     {
       "ticker": "BNO",
       "sector": "Commodity",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1224,7 +1224,7 @@
     {
       "ticker": "UNG",
       "sector": "Commodity",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1244,7 +1244,7 @@
     {
       "ticker": "DBA",
       "sector": "Commodity",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1264,7 +1264,7 @@
     {
       "ticker": "CORN",
       "sector": "Commodity",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1284,7 +1284,7 @@
     {
       "ticker": "WEAT",
       "sector": "Commodity",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1304,7 +1304,7 @@
     {
       "ticker": "SOYB",
       "sector": "Commodity",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1324,7 +1324,7 @@
     {
       "ticker": "PDBC",
       "sector": "Commodity",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1344,7 +1344,7 @@
     {
       "ticker": "DJP",
       "sector": "Commodity",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1364,7 +1364,7 @@
     {
       "ticker": "GDX",
       "sector": "Commodity",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1384,7 +1384,7 @@
     {
       "ticker": "GDXJ",
       "sector": "Commodity",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1404,7 +1404,7 @@
     {
       "ticker": "COPX",
       "sector": "Commodity",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1424,7 +1424,7 @@
     {
       "ticker": "URA",
       "sector": "Commodity",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1444,7 +1444,7 @@
     {
       "ticker": "VXX",
       "sector": "ETF - Volatility",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1464,7 +1464,7 @@
     {
       "ticker": "UVXY",
       "sector": "ETF - Volatility",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1484,7 +1484,7 @@
     {
       "ticker": "SVXY",
       "sector": "ETF - Volatility",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1504,7 +1504,7 @@
     {
       "ticker": "IBIT",
       "sector": "ETF - Bitcoin",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1524,7 +1524,7 @@
     {
       "ticker": "FBTC",
       "sector": "ETF - Bitcoin",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1544,7 +1544,7 @@
     {
       "ticker": "ETHA",
       "sector": "ETF - Ethereum",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1564,7 +1564,7 @@
     {
       "ticker": "BTC/USD",
       "sector": "Crypto",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1579,12 +1579,12 @@
           "previous": "N/A"
         }
       },
-      "price": 67026.79
+      "price": 66938.65
     },
     {
       "ticker": "ETH/USD",
       "sector": "Crypto",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1599,12 +1599,12 @@
           "previous": "N/A"
         }
       },
-      "price": 2062.7
+      "price": 2059.97
     },
     {
       "ticker": "SOL/USD",
       "sector": "Crypto",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1619,12 +1619,12 @@
           "previous": "N/A"
         }
       },
-      "price": 79.11
+      "price": 80.61
     },
     {
       "ticker": "XRP/USD",
       "sector": "Crypto",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1639,15 +1639,15 @@
           "previous": "N/A"
         }
       },
-      "price": 1.31
+      "price": 1.32
     },
     {
       "ticker": "DOGE/USD",
       "sector": "Crypto",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -1664,14 +1664,14 @@
     {
       "ticker": "AVAX/USD",
       "sector": "Crypto",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "monthly": {
@@ -1679,12 +1679,12 @@
           "previous": "N/A"
         }
       },
-      "price": 8.63
+      "price": 8.93
     },
     {
       "ticker": "LINK/USD",
       "sector": "Crypto",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1699,12 +1699,12 @@
           "previous": "N/A"
         }
       },
-      "price": 8.64
+      "price": 8.69
     },
     {
       "ticker": "UNI/USD",
       "sector": "Crypto",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1719,12 +1719,12 @@
           "previous": "N/A"
         }
       },
-      "price": 3.15
+      "price": 3.17
     },
     {
       "ticker": "AAVE/USD",
       "sector": "Crypto",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1739,12 +1739,12 @@
           "previous": "N/A"
         }
       },
-      "price": 94.34
+      "price": 94.84
     },
     {
       "ticker": "LTC/USD",
       "sector": "Crypto",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1759,12 +1759,12 @@
           "previous": "ERR"
         }
       },
-      "price": 52.24
+      "price": 53.28
     },
     {
       "ticker": "AAPL",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1784,7 +1784,7 @@
     {
       "ticker": "MSFT",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1804,11 +1804,11 @@
     {
       "ticker": "NVDA",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -1824,7 +1824,7 @@
     {
       "ticker": "GOOGL",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1844,7 +1844,7 @@
     {
       "ticker": "META",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1864,7 +1864,7 @@
     {
       "ticker": "AMZN",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1884,7 +1884,7 @@
     {
       "ticker": "TSLA",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1904,7 +1904,7 @@
     {
       "ticker": "AVGO",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1924,7 +1924,7 @@
     {
       "ticker": "ORCL",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1944,11 +1944,11 @@
     {
       "ticker": "CRM",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -1964,7 +1964,7 @@
     {
       "ticker": "AMD",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1984,7 +1984,7 @@
     {
       "ticker": "INTC",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2004,7 +2004,7 @@
     {
       "ticker": "QCOM",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2024,7 +2024,7 @@
     {
       "ticker": "TXN",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2044,7 +2044,7 @@
     {
       "ticker": "MU",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2064,11 +2064,11 @@
     {
       "ticker": "AMAT",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2084,11 +2084,11 @@
     {
       "ticker": "LRCX",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2104,7 +2104,7 @@
     {
       "ticker": "KLAC",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2124,7 +2124,7 @@
     {
       "ticker": "MRVL",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2144,7 +2144,7 @@
     {
       "ticker": "SNOW",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2164,7 +2164,7 @@
     {
       "ticker": "PLTR",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2184,11 +2184,11 @@
     {
       "ticker": "CRWD",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2204,11 +2204,11 @@
     {
       "ticker": "PANW",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2224,11 +2224,11 @@
     {
       "ticker": "ZS",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2244,7 +2244,7 @@
     {
       "ticker": "NET",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2264,11 +2264,11 @@
     {
       "ticker": "DDOG",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2284,11 +2284,11 @@
     {
       "ticker": "MDB",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2304,11 +2304,11 @@
     {
       "ticker": "ADBE",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2324,11 +2324,11 @@
     {
       "ticker": "NOW",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2344,11 +2344,11 @@
     {
       "ticker": "INTU",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2364,7 +2364,7 @@
     {
       "ticker": "WDAY",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2384,11 +2384,11 @@
     {
       "ticker": "SHOP",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2404,11 +2404,11 @@
     {
       "ticker": "UBER",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2424,7 +2424,7 @@
     {
       "ticker": "LYFT",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2444,11 +2444,11 @@
     {
       "ticker": "ABNB",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2464,7 +2464,7 @@
     {
       "ticker": "COIN",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2484,11 +2484,11 @@
     {
       "ticker": "HOOD",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2504,7 +2504,7 @@
     {
       "ticker": "APP",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2524,11 +2524,11 @@
     {
       "ticker": "RBLX",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2544,11 +2544,11 @@
     {
       "ticker": "U",
       "sector": "Technology",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2564,11 +2564,11 @@
     {
       "ticker": "JPM",
       "sector": "Financials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2584,11 +2584,11 @@
     {
       "ticker": "BAC",
       "sector": "Financials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2604,11 +2604,11 @@
     {
       "ticker": "GS",
       "sector": "Financials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2624,7 +2624,7 @@
     {
       "ticker": "MS",
       "sector": "Financials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2644,11 +2644,11 @@
     {
       "ticker": "WFC",
       "sector": "Financials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2664,7 +2664,7 @@
     {
       "ticker": "C",
       "sector": "Financials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2684,11 +2684,11 @@
     {
       "ticker": "BX",
       "sector": "Financials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2704,11 +2704,11 @@
     {
       "ticker": "KKR",
       "sector": "Financials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2724,11 +2724,11 @@
     {
       "ticker": "APO",
       "sector": "Financials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2744,11 +2744,11 @@
     {
       "ticker": "BLK",
       "sector": "Financials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2764,7 +2764,7 @@
     {
       "ticker": "SCHW",
       "sector": "Financials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2784,11 +2784,11 @@
     {
       "ticker": "V",
       "sector": "Financials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2804,7 +2804,7 @@
     {
       "ticker": "MA",
       "sector": "Financials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2824,11 +2824,11 @@
     {
       "ticker": "AXP",
       "sector": "Financials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2844,11 +2844,11 @@
     {
       "ticker": "PYPL",
       "sector": "Financials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2864,7 +2864,7 @@
     {
       "ticker": "SQ",
       "sector": "Financials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "N/A",
@@ -2884,11 +2884,11 @@
     {
       "ticker": "NU",
       "sector": "Financials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2904,7 +2904,7 @@
     {
       "ticker": "SOFI",
       "sector": "Financials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2924,11 +2924,11 @@
     {
       "ticker": "UNH",
       "sector": "Healthcare",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2944,7 +2944,7 @@
     {
       "ticker": "JNJ",
       "sector": "Healthcare",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2964,11 +2964,11 @@
     {
       "ticker": "LLY",
       "sector": "Healthcare",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2984,11 +2984,11 @@
     {
       "ticker": "ABBV",
       "sector": "Healthcare",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3004,11 +3004,11 @@
     {
       "ticker": "MRK",
       "sector": "Healthcare",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3024,7 +3024,7 @@
     {
       "ticker": "PFE",
       "sector": "Healthcare",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -3044,11 +3044,11 @@
     {
       "ticker": "AMGN",
       "sector": "Healthcare",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3064,11 +3064,11 @@
     {
       "ticker": "GILD",
       "sector": "Healthcare",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3084,11 +3084,11 @@
     {
       "ticker": "BIIB",
       "sector": "Healthcare",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3104,11 +3104,11 @@
     {
       "ticker": "REGN",
       "sector": "Healthcare",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3124,11 +3124,11 @@
     {
       "ticker": "VRTX",
       "sector": "Healthcare",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3144,11 +3144,11 @@
     {
       "ticker": "ISRG",
       "sector": "Healthcare",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3164,11 +3164,11 @@
     {
       "ticker": "BSX",
       "sector": "Healthcare",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3184,11 +3184,11 @@
     {
       "ticker": "MDT",
       "sector": "Healthcare",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3204,11 +3204,11 @@
     {
       "ticker": "CVS",
       "sector": "Healthcare",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3224,11 +3224,11 @@
     {
       "ticker": "HUM",
       "sector": "Healthcare",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3244,7 +3244,7 @@
     {
       "ticker": "XOM",
       "sector": "Energy",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3264,11 +3264,11 @@
     {
       "ticker": "CVX",
       "sector": "Energy",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -3284,7 +3284,7 @@
     {
       "ticker": "COP",
       "sector": "Energy",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3304,11 +3304,11 @@
     {
       "ticker": "EOG",
       "sector": "Energy",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -3324,11 +3324,11 @@
     {
       "ticker": "SLB",
       "sector": "Energy",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3344,11 +3344,11 @@
     {
       "ticker": "MPC",
       "sector": "Energy",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -3364,7 +3364,7 @@
     {
       "ticker": "PSX",
       "sector": "Energy",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3384,11 +3384,11 @@
     {
       "ticker": "VLO",
       "sector": "Energy",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -3404,11 +3404,11 @@
     {
       "ticker": "HAL",
       "sector": "Energy",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3424,11 +3424,11 @@
     {
       "ticker": "DVN",
       "sector": "Energy",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -3444,11 +3444,11 @@
     {
       "ticker": "OXY",
       "sector": "Energy",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -3464,11 +3464,11 @@
     {
       "ticker": "HES",
       "sector": "Energy",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3484,11 +3484,11 @@
     {
       "ticker": "COST",
       "sector": "Consumer",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3504,11 +3504,11 @@
     {
       "ticker": "WMT",
       "sector": "Consumer",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3524,11 +3524,11 @@
     {
       "ticker": "TGT",
       "sector": "Consumer",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3544,11 +3544,11 @@
     {
       "ticker": "HD",
       "sector": "Consumer",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3564,11 +3564,11 @@
     {
       "ticker": "LOW",
       "sector": "Consumer",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3584,11 +3584,11 @@
     {
       "ticker": "MCD",
       "sector": "Consumer",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3604,11 +3604,11 @@
     {
       "ticker": "SBUX",
       "sector": "Consumer",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3624,7 +3624,7 @@
     {
       "ticker": "NKE",
       "sector": "Consumer",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3644,11 +3644,11 @@
     {
       "ticker": "LULU",
       "sector": "Consumer",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3664,7 +3664,7 @@
     {
       "ticker": "TJX",
       "sector": "Consumer",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -3684,11 +3684,11 @@
     {
       "ticker": "BKNG",
       "sector": "Consumer",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3704,7 +3704,7 @@
     {
       "ticker": "MAR",
       "sector": "Consumer",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -3724,11 +3724,11 @@
     {
       "ticker": "HLT",
       "sector": "Consumer",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3744,11 +3744,11 @@
     {
       "ticker": "DIS",
       "sector": "Consumer",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3764,11 +3764,11 @@
     {
       "ticker": "NFLX",
       "sector": "Consumer",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3784,11 +3784,11 @@
     {
       "ticker": "SPOT",
       "sector": "Consumer",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3804,11 +3804,11 @@
     {
       "ticker": "CAT",
       "sector": "Industrials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3824,11 +3824,11 @@
     {
       "ticker": "DE",
       "sector": "Industrials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3844,11 +3844,11 @@
     {
       "ticker": "RTX",
       "sector": "Industrials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3864,11 +3864,11 @@
     {
       "ticker": "LMT",
       "sector": "Industrials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3884,11 +3884,11 @@
     {
       "ticker": "NOC",
       "sector": "Industrials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3904,7 +3904,7 @@
     {
       "ticker": "GE",
       "sector": "Industrials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3924,11 +3924,11 @@
     {
       "ticker": "HON",
       "sector": "Industrials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3944,7 +3944,7 @@
     {
       "ticker": "BA",
       "sector": "Industrials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -3964,11 +3964,11 @@
     {
       "ticker": "UNP",
       "sector": "Industrials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3984,11 +3984,11 @@
     {
       "ticker": "FDX",
       "sector": "Industrials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -4004,11 +4004,11 @@
     {
       "ticker": "UPS",
       "sector": "Industrials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -4024,7 +4024,7 @@
     {
       "ticker": "WM",
       "sector": "Industrials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4044,11 +4044,11 @@
     {
       "ticker": "PLD",
       "sector": "Real Estate",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -4064,11 +4064,11 @@
     {
       "ticker": "AMT",
       "sector": "Real Estate",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4084,11 +4084,11 @@
     {
       "ticker": "EQIX",
       "sector": "Real Estate",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -4104,11 +4104,11 @@
     {
       "ticker": "SPG",
       "sector": "Real Estate",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -4124,11 +4124,11 @@
     {
       "ticker": "O",
       "sector": "Real Estate",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4144,11 +4144,11 @@
     {
       "ticker": "WELL",
       "sector": "Real Estate",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -4164,11 +4164,11 @@
     {
       "ticker": "NEM",
       "sector": "Materials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -4184,11 +4184,11 @@
     {
       "ticker": "FCX",
       "sector": "Materials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -4204,11 +4204,11 @@
     {
       "ticker": "AA",
       "sector": "Materials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -4224,11 +4224,11 @@
     {
       "ticker": "NUE",
       "sector": "Materials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -4244,11 +4244,11 @@
     {
       "ticker": "LIN",
       "sector": "Materials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -4264,11 +4264,11 @@
     {
       "ticker": "APD",
       "sector": "Materials",
-      "updated": "Apr 2, 2026",
+      "updated": "Apr 3, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
