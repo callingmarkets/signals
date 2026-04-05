@@ -1,0 +1,26 @@
+name: Trading Bot (Paper)
+
+on:
+  # Runs every Monday at 2:30pm UTC (10:30am ET — 30 min after market open)
+  schedule:
+    - cron: "30 14 * * 1"
+  workflow_dispatch: # manual trigger for testing
+
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run trading bot
+        env:
+          ALPACA_API_KEY:    ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: python trading_bot.py
