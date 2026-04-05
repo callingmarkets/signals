@@ -160,7 +160,8 @@ def run():
     for pos in positions:
         sym = pos["symbol"]
         if sym not in signals:
-            print(f"  {sym} — not in signals, holding")
+            print(f"  EXIT {sym} — not in our signal universe (unknown position)")
+            close_position(sym)
             continue
         row = signals[sym]
         should_sell, reason = should_exit(row, analysis)
@@ -218,10 +219,11 @@ def run():
         print("\n  No new entries — portfolio full or no qualifying signals")
     else:
         print(f"\n── PLACING {len(to_buy)} NEW ORDERS ──")
-        # Equal weight: split available cash evenly across all positions
-        total_positions  = open_count + len(to_buy)
-        per_position     = portfolio_value / total_positions if total_positions else 0
-        print(f"  Equal weight: ${per_position:,.0f} per position ({total_positions} total)")
+        # Equal weight: split available cash evenly across new positions only
+        # Use cash available minus a small buffer to avoid over-ordering
+        available_cash   = cash * 0.95  # 5% buffer
+        per_position     = available_cash / len(to_buy) if to_buy else 0
+        print(f"  Available cash: ${cash:,.0f} | Per position: ${per_position:,.0f} across {len(to_buy)} new orders")
 
         for c in to_buy:
             if per_position < 1:
