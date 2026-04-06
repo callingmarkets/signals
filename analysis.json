@@ -1,12 +1,12 @@
 {
-  "generated": "2026-04-01T04:05:23.978813Z",
-  "week_of": "April 01, 2026",
+  "generated": "2026-04-06T14:45:50.223133Z",
+  "week_of": "April 06, 2026",
   "takeaways": [
-    "Broad market sentiment skews heavily bearish with 23 sectors flashing sell signals versus only 3 bullish\u2014favor defensive positioning.",
-    "Crypto and Bitcoin ETFs show unanimous bearish readings at 0/10 buys\u2014avoid bottom-fishing and respect downtrend momentum.",
-    "Brazil ETFs and Energy stand out as rare bullish pockets\u2014consider as relative strength plays for long exposure.",
-    "Volatility ETFs flashing bullish signals suggest hedging demand is rising\u2014watch VIX products for protection or tactical trades.",
-    "Bond and corporate credit ETFs turning bearish signals potential risk-off rotation\u2014monitor fixed income for broader stress indicators."
+    "Broad market bearish with 25 of 29 sectors flashing sell signals\u2014favor capital preservation over aggressive positioning this week.",
+    "Biotech stands out as rare bullish bright spot with buy signals aligned across all timeframes\u2014watch for relative strength plays.",
+    "Tech and growth sectors including AI, Robotics, and Crypto show uniform bearish readings\u2014avoid bottom-fishing in momentum names.",
+    "Defensive rotation evident as TIPS flash bullish while bonds and consumer sectors weaken\u2014inflation hedges gaining favor.",
+    "Brazil and Energy offer contrarian bullish setups amid global weakness\u2014monitor for breakout confirmation before adding exposure."
   ],
   "sectors": [
     {
@@ -32,12 +32,12 @@
         "URA"
       ],
       "signals": {
-        "daily_buy": 4,
-        "weekly_buy": 8,
+        "daily_buy": 11,
+        "weekly_buy": 6,
         "monthly_buy": 16,
         "total": 17
       },
-      "synopsis": "# Commodity Sector Synopsis\n\n**Overall Bias: Bullish with Near-Term Consolidation**\n\nThe commodity sector maintains a structurally bullish posture, with monthly signals overwhelmingly positive at 16/17 BUY, though near-term momentum has softened considerably with daily readings at just 4/17 BUY. This timeframe divergence suggests the sector is digesting recent gains rather than reversing trend. Precious metals present the clearest example of this dynamic\u2014GLD, IAU, and SLV all show daily and weekly SELL signals against monthly BUY, reflecting the pullback from recent highs before gold rebounded following delayed U.S. military action against Iran. Wedding season demand in key Asian markets has provided additional support, with silver notably outperforming gold in recent sessions.\n\nAgricultural commodities stand out as the momentum leaders here. DBA and WEAT carry unanimous BUY signals across all three timeframes, indicating sustained trend strength worth monitoring. USO also warrants attention with full alignment across daily, weekly, and monthly BUY signals, suggesting crude oil momentum remains intact. UNG is the notable laggard, flashing SELL across all timeframes\u2014natural gas remains the one subsector to avoid until momentum stabilizes."
+      "synopsis": "# Commodity Sector Synopsis\n\n**Overall Bias: Bullish with Near-Term Caution**\n\nThe commodity sector presents a compelling structural bullish case, with monthly signals firing on 16 of 17 indicators, though near-term momentum shows notable divergence as daily and weekly readings come in considerably weaker at 11/17 and 6/17 respectively. This timeframe disconnect is most evident across precious metals\u2014GLD, IAU, SLV, and PPLT all show daily buying interest against weekly sell signals, suggesting a potential inflection point following what reports indicate was a sharp 15% March correction in gold and silver. Wedding season demand in key Asian markets appears to be providing a bid, though analysts remain cautious on the sustainability of the bounce given broader global uncertainty.\n\nEnergy names deserve particular attention here. USO stands out with aligned buy signals across all three timeframes, making it the cleanest momentum play in the complex, while UNG remains the clear laggard with sell signals across the board\u2014a name to avoid or potentially fade. DBA also merits watching as agricultural commodities show monthly strength beginning to filter into shorter timeframes, potentially setting up for broader participation if weekly signals confirm."
     },
     {
       "sector": "Consumer",
@@ -61,12 +61,12 @@
         "SPOT"
       ],
       "signals": {
-        "daily_buy": 4,
-        "weekly_buy": 1,
-        "monthly_buy": 5,
+        "daily_buy": 10,
+        "weekly_buy": 4,
+        "monthly_buy": 7,
         "total": 16
       },
-      "synopsis": "# Consumer Sector Synopsis\n\nThe Consumer sector presents a decidedly mixed picture this week, with momentum signals fragmented across timeframes\u2014just 4 of 16 names flashing daily BUY signals, a mere 1 of 16 on the weekly, and 5 of 16 monthly. This disjointed profile suggests a sector in transition rather than one with clear directional conviction. The notable divergence between shorter and longer timeframes points to near-term chop against a backdrop of selective longer-term strength in defensive consumer names.\n\nWorth watching closely: COST stands out with daily and weekly BUY signals despite monthly weakness, suggesting potential near-term momentum that hasn't yet confirmed on the larger trend\u2014a setup that warrants attention if weekly strength persists. TJX and MAR both show alignment between daily and monthly BUY signals, offering more constructive technical profiles. The Amazon versus Walmart debate heating up in financial media underscores the competitive tensions in retail, while geopolitical distractions from the Strait of Hormuz situation may temporarily mask underlying sector rotation. Home improvement names HD and LOW remain technically challenged, reflecting continued consumer discretionary headwinds."
+      "synopsis": "# Consumer Sector Synopsis\n\nThe Consumer sector presents a decidedly mixed picture this week, with daily signals showing modest strength at 10/16 BUY while weekly readings remain weak at just 4/16 BUY\u2014a classic divergence suggesting near-term bounces within a broader consolidation phase. The monthly 7/16 BUY offers lukewarm structural support, but headline risk looms large: Walmart's recession indicator hitting its highest level since the 2008 financial crisis warrants attention, even as February retail sales data came in solid. This tension between defensive rotation and discretionary weakness defines the current landscape.\n\nWithin the space, Costco and TJX stand out with rare triple-timeframe BUY alignment, reflecting investor preference for value-oriented retailers in an uncertain environment. Target also flashes strength across all three frames, potentially benefiting from the same trade-down dynamic. Conversely, Home Depot and McDonald's remain firmly in SELL territory across daily, weekly, and monthly signals\u2014suggesting structural headwinds that short-term rallies haven't resolved. We'd avoid chasing strength in names like Lululemon showing daily pops against weak weekly and monthly trends."
     },
     {
       "sector": "Crypto",
@@ -84,26 +84,26 @@
         "LTC/USD"
       ],
       "signals": {
-        "daily_buy": 0,
-        "weekly_buy": 0,
+        "daily_buy": 1,
+        "weekly_buy": 1,
         "monthly_buy": 0,
         "total": 10
       },
-      "synopsis": "# Crypto Sector Synopsis\n\nThe crypto sector flashes an unambiguous bearish signal this week, with a rare 0/10 buy reading across all timeframes and universal sell signals spanning the entire asset class. From majors like BTC and ETH to altcoins including SOL, AVAX, and LINK, there's simply nowhere to hide\u2014every tracked ticker registers sell on both daily and weekly charts. This synchronized weakness suggests we're in a broad-based risk-off regime rather than mere rotation, a view reinforced by headlines noting the market ended last week firmly in the red amid persistent volatility.\n\nAdding to near-term pressure, Friday's $16.4 billion options expiry in Bitcoin and Ethereum likely amplified directional moves and could leave positioning cleaner heading into Q2. ETH bears particular watching given tightening supply dynamics from elevated staking and exchange outflows\u2014fundamentals that may eventually clash with deteriorating technicals. BTC remains the bellwether for any sentiment shift, while SOL's sharp momentum reversal from recent highs makes it a useful gauge of risk appetite. Until buy signals emerge on at least the daily timeframe, defensive positioning remains prudent."
+      "synopsis": "# Crypto Sector Synopsis\n\n**Overall Bias: Bearish**\n\nThe crypto sector is flashing decisively bearish signals across all timeframes, with just 1-of-10 buy readings on both daily and weekly charts and a complete absence of monthly momentum support. The uniformity of sell signals across majors\u2014BTC, ETH, SOL, XRP, and LINK all printing sell on both daily and weekly\u2014suggests this isn't isolated weakness but rather broad-based risk-off sentiment. Headlines aren't helping: the $285 million Solana Drift Protocol exploit and renewed quantum computing concerns following Google's latest research paper have rattled confidence at precisely the wrong moment, with CoinDesk reporting the first major outflows in five weeks.\n\nTwo names warrant attention amid the wreckage. DOGE/USD shows a rare daily buy signal against its weekly sell, hinting at possible near-term mean reversion for nimble traders. AVAX/USD presents the inverse\u2014weekly buy against daily sell\u2014suggesting the pullback may offer accumulation opportunities if weekly support holds. Neither divergence overrides the sector's dominant bearish tone, but they represent the only pockets of potential relative strength in an otherwise inhospitable landscape."
     },
     {
       "sector": "ETF - AI & Robotics",
-      "bias": "Distribution",
+      "bias": "Bearish",
       "tickers": [
         "BOTZ"
       ],
       "signals": {
         "daily_buy": 0,
         "weekly_buy": 0,
-        "monthly_buy": 1,
+        "monthly_buy": 0,
         "total": 1
       },
-      "synopsis": "# AI & Robotics ETF Sector Synopsis\n\n**Overall Bias: Mixed with Near-Term Weakness**\n\nThe AI & Robotics sector presents a classic timeframe divergence this week, with monthly signals maintaining a bullish stance while daily and weekly momentum has rolled over into sell territory. This suggests the longer-term structural thesis remains intact, but near-term price action warrants caution. BOTZ exemplifies this tension perfectly\u2014the flagship robotics ETF shows selling pressure on shorter timeframes against a still-constructive monthly backdrop, making it one to watch for potential re-entry points should daily signals stabilize.\n\nRecent headlines underscore the sector's evolving narrative: PwC's Chief AI Officer flagging cost considerations in financial services adoption hints at a maturing market where ROI scrutiny is intensifying, potentially tempering the speculative fervor that characterized earlier rallies. Meanwhile, Intel's vPro expansion into local AI processing signals continued infrastructure buildout beneath the surface. For now, patient capital may find better entry points ahead, while momentum traders should respect the shorter-term weakness until daily signals confirm a turn."
+      "synopsis": "# AI & Robotics ETFs: Sector Synopsis\n\n**Overall Bias: Bearish**\n\nThe AI & Robotics space is flashing uniformly bearish signals across all timeframes, with zero buy indicators on daily, weekly, and monthly charts\u2014a rare alignment that suggests sustained downside pressure rather than a temporary pullback. BOTZ, the sector's bellwether, carries sell signals across the board, reflecting broader investor skepticism despite the relentless AI narrative in mainstream discourse. This technical weakness coincides with sobering headlines: a new report shows AI leading all categories for U.S. job cuts in March, potentially signaling that enterprise AI adoption is shifting from workforce expansion to replacement\u2014a dynamic that may dampen near-term capex enthusiasm.\n\nAdding competitive pressure to the mix, a Samsung and Arm-backed Korean startup has unveiled inference hardware claiming 75% lower acquisition costs versus Nvidia, threatening margin assumptions across the AI infrastructure stack. BOTZ remains the primary ticker to watch for signs of stabilization, though momentum traders should treat any bounces as counter-trend until weekly signals flip. The path of least resistance remains lower."
     },
     {
       "sector": "ETF - Australia",
@@ -117,21 +117,21 @@
         "monthly_buy": 1,
         "total": 1
       },
-      "synopsis": "# ETF - Australia: Sector Synopsis\n\n**Overall Bias: Mixed with Near-Term Weakness**\n\nThe Australia ETF sector presents a classic timeframe divergence that warrants careful positioning. While the monthly signal remains constructive with a 1/1 BUY reading, both daily and weekly momentum have rolled over to SELL, suggesting near-term headwinds against a still-intact longer-term trend. EWA, the primary vehicle for Australian equity exposure, mirrors this exact pattern\u2014monthly buyers are holding the line, but shorter-term traders are stepping aside amid elevated uncertainty.\n\nThe macro backdrop offers context for this caution. Recent headlines highlighting \"pressure points building on the global economy\" and the cascading effects of geopolitical conflict\u2014spanning oil, food, and broader markets\u2014have clearly weighed on risk sentiment toward export-sensitive economies like Australia. That said, the easing of the equity selloff and stabilizing oil prices noted in recent sessions could provide a near-term floor. EWA remains the ticker to watch here; a weekly signal flip back to BUY would suggest the correction has run its course and the monthly uptrend is reasserting itself."
+      "synopsis": "# ETF - Australia: Sector Synopsis\n\n**Overall Bias: Mixed with Near-Term Caution**\n\nThe Australian ETF space presents a classic timeframe divergence this week, with the monthly signal holding bullish while daily and weekly readings have flipped to sell\u2014suggesting the longer-term structural trend remains intact but near-term momentum is fading. EWA, the primary vehicle for Australia exposure, encapsulates this tension perfectly, trading under pressure on shorter timeframes despite maintaining its monthly buy signal. Headlines point to mounting macro headwinds: economists are openly discussing stagflation as a present reality rather than a risk, while rising fuel costs and construction sector stress add layers of concern for an economy already navigating global uncertainty.\n\nThe geopolitical backdrop offers a potential catalyst, with markets rallying on hopes of de-escalation in Iran\u2014a development that could ease energy pressures if sustained. For now, EWA remains the ticker to watch; patient investors may view the daily and weekly weakness as a potential accumulation opportunity within a still-constructive monthly framework, though confirmation of stabilization would strengthen the case considerably."
     },
     {
       "sector": "ETF - Biotech",
-      "bias": "Distribution",
+      "bias": "Bullish",
       "tickers": [
         "XBI"
       ],
       "signals": {
         "daily_buy": 1,
-        "weekly_buy": 0,
+        "weekly_buy": 1,
         "monthly_buy": 1,
         "total": 1
       },
-      "synopsis": "# Biotech Sector Synopsis\n\n**Overall Bias: Cautiously Bullish with Near-Term Uncertainty**\n\nThe biotech sector presents a mixed but constructively tilted picture heading into Q2, with daily and monthly signals aligned on the buy side while weekly momentum flashes caution. This timeframe divergence in XBI\u2014showing daily strength against weekly selling pressure but maintaining monthly bullish structure\u2014suggests we're likely in a consolidation phase within a broader uptrend rather than a definitive reversal. Investors should interpret this as a potential accumulation opportunity, though patience may be required before sustained directional moves materialize.\n\nOn the fundamental front, innovation continues to drive sector interest, with Neion Bio's emergence from stealth via a multi-product biosimilar partnership highlighting ongoing capital deployment into next-generation platforms. Meanwhile, the $1.59 billion PD-1 resistant head and neck cancer market analysis underscores durable growth tailwinds in oncology subsectors. **XBI** remains the primary vehicle to watch for broad sector exposure, while names leveraging AI infrastructure for drug discovery\u2014like those in the KALA BIO announcement\u2014merit attention as thematic plays gain traction with institutional allocators."
+      "synopsis": "# Biotech Sector Synopsis\n\n**Sector Bias: Bullish**\n\nThe biotech sector is flashing a uniformly bullish posture, with buy signals aligned across daily, weekly, and monthly timeframes\u2014a rare confluence that suggests sustained momentum rather than a short-lived bounce. XBI, the SPDR S&P Biotech ETF, mirrors this strength with triple-timeframe buy signals, indicating broad-based participation across small and mid-cap names. This alignment typically precedes periods of outperformance, particularly when macro headwinds subside.\n\nOn the fundamental side, the sector continues to draw attention from emerging therapeutic pipelines and AI-driven drug development platforms. KALA Bio's recent launch of its Bionic Intelligence Research Agent highlights the accelerating integration of AI infrastructure into biotech workflows, potentially compressing development timelines. Meanwhile, a $1.59 billion market opportunity in PD-1 resistant head and neck cancer underscores the lucrative runway for oncology-focused names. XBI remains the primary vehicle to watch for broad sector exposure, while investors should monitor names leveraging AI capabilities and oncology pipelines for alpha generation opportunities in the weeks ahead."
     },
     {
       "sector": "ETF - Bitcoin",
@@ -146,7 +146,7 @@
         "monthly_buy": 0,
         "total": 2
       },
-      "synopsis": "**Bitcoin ETF Sector Synopsis \u2013 April 1, 2026**\n\nThe Bitcoin ETF sector flashes a decisively bearish bias this week, with momentum signals uniformly negative across all timeframes\u2014daily, weekly, and monthly readings show zero buy signals among tracked instruments. This rare alignment of selling pressure across the board suggests institutional flows have turned defensive, with no meaningful divergence between short and intermediate-term trends to offer bulls a foothold. The broader crypto complex has been hammered alongside risk assets, as the Nasdaq's correction has dragged down crypto-linked equities in what CoinDesk characterized as a \"$17 trillion market rout.\" Bitcoin's slide below $68,500 amid persistent geopolitical uncertainty around Iran has only added fuel to the risk-off fire.\n\nBoth IBIT and FBTC are printing sell signals on daily and weekly charts, making them names to watch for any potential stabilization or continued deterioration. Morgan Stanley's imminent ETF launch, flagged by NYSE listing announcements, could inject fresh institutional interest\u2014though timing couldn't be worse given current sentiment. Until momentum indicators begin to turn, the path of least resistance remains lower."
+      "synopsis": "# ETF - Bitcoin: Sector Synopsis\n\n**Overall Bias: Bearish**\n\nBitcoin ETFs are flashing uniformly bearish signals across all timeframes, with both daily and weekly momentum indicators in sell territory and no monthly signals yet established for this relatively young product category. The absence of any bullish readings suggests institutional flows have turned decidedly negative, a picture consistent with headlines noting that \"Bitcoin, ether bounce is running low on fuel.\" Macro headwinds appear to be weighing heavily on risk assets, with Grayscale citing oil shock concerns and Iran war risk as factors keeping crypto investors sidelined.\n\nIBIT and FBTC, the two dominant spot bitcoin vehicles, are both registering sell signals on daily and weekly charts\u2014worth monitoring closely for any early signs of momentum stabilization. The pending Schwab spot trading launch in the first half of 2026 could eventually broaden retail access, but near-term price action suggests waiting for clearer technical improvement before positioning. Until macro uncertainty clears and momentum indicators begin to diverge positively, defensive positioning remains prudent."
     },
     {
       "sector": "ETF - Bonds",
@@ -159,12 +159,12 @@
         "AGG"
       ],
       "signals": {
-        "daily_buy": 1,
+        "daily_buy": 4,
         "weekly_buy": 0,
         "monthly_buy": 0,
         "total": 5
       },
-      "synopsis": "# ETF - Bonds: Sector Synopsis\n\n**Overall Bias: Bearish**\n\nThe bond complex remains under significant technical pressure, with momentum signals flashing overwhelmingly negative across all timeframes\u2014zero of five indicators registering buy signals on both weekly and monthly charts. This broad-based weakness suggests institutional flows continue to favor risk assets or cash alternatives over duration exposure, despite recent headlines from JPMorgan and Pimco warning that markets may be underestimating slowdown risks. The lone bright spot comes from the short end, where SHY has managed a daily buy signal, though this hasn't translated into higher timeframe support.\n\nTLT and IEF remain firmly in sell territory across all three timeframes, making them names to avoid or consider for tactical shorts until momentum shifts. The recent rally in Treasuries tied to renewed Fed rate cut speculation, as reported by Financial Post, has yet to register as a meaningful technical inflection. Traders should watch whether SHY's relative resilience signals a rotation toward safety at the short end, potentially foreshadowing broader duration appetite if macro concerns intensify through Q2."
+      "synopsis": "# ETF - Bonds: Sector Synopsis\n\n**Overall Bias: Bearish with Near-Term Bounce Potential**\n\nThe bond complex presents a stark divergence between timeframes, with daily signals flashing 4/5 BUY against uniformly bearish weekly and monthly readings at 0/5. This suggests we're witnessing a tactical relief rally within a broader structural downtrend rather than a genuine trend reversal. Headlines tell the story\u2014geopolitical tensions surrounding Iran have sent shockwaves through fixed income markets, while traders are now scrambling to price in potential Fed rate cuts in what Financial Post characterized as a notable \"about-face.\" The whiplash reflects a market caught between inflation fears and flight-to-safety impulses.\n\nTLT stands out as the clearest expression of this tension, posting a daily BUY while remaining firmly in SELL territory on higher timeframes\u2014watch for resistance near recent highs as a tell for whether this bounce has legs. BND and AGG are showing similar patterns, making them useful barometers for broad fixed income sentiment. Until weekly signals begin confirming the daily strength, treat current moves as counter-trend opportunities rather than durable positioning for longer-term allocations."
     },
     {
       "sector": "ETF - Brazil",
@@ -178,7 +178,7 @@
         "monthly_buy": 1,
         "total": 1
       },
-      "synopsis": "# Brazil ETF Sector Synopsis\n\n**Signal: Bullish Across All Timeframes**\n\nBrazilian equities are flashing a decisively bullish posture heading into April, with EWZ registering buy signals across daily, weekly, and monthly timeframes\u2014a rare alignment that suggests sustained momentum rather than a fleeting bounce. This technical strength is particularly noteworthy given the challenging global backdrop, as the ongoing conflict in Iran continues to ripple through commodity markets and risk sentiment worldwide. Brazil's position as a major commodity exporter and its relative insulation from direct geopolitical fallout appears to be attracting capital seeking emerging market exposure with less headline risk.\n\nEWZ remains the primary vehicle to watch here, with its triple-timeframe buy confluence offering a clean technical setup for momentum-oriented positioning. The absence of any divergence between shorter and longer-term signals reinforces conviction, though investors should remain cognizant that global economic concerns\u2014amplified by persistent war-related disruptions\u2014could introduce volatility. For now, the tape favors the bulls, but position sizing should respect the elevated macro uncertainty."
+      "synopsis": "# Brazil ETF Sector Synopsis\n\n**Overall Bias: Bullish**\n\nThe Brazilian equity space is flashing a rare trifecta of alignment, with buy signals firing across daily, weekly, and monthly timeframes\u2014a configuration that suggests sustained momentum rather than a fleeting bounce. EWZ, the benchmark iShares MSCI Brazil ETF, mirrors this strength uniformly across all periods, indicating that both tactical and structural flows are tilting favorably toward Brazilian assets. Notably absent is any timeframe divergence, which lends additional conviction to the current trend.\n\nThe broader macro backdrop appears supportive as global investors increasingly \"rethink American exceptionalism\" one year after the Trump tariff shock, with capital seeking diversification into emerging market alternatives. Brazil stands to benefit from this reallocation theme, particularly as geopolitical tensions elsewhere\u2014including renewed US-Iran friction\u2014remind allocators of concentration risk. EWZ remains the primary vehicle to watch here, offering the most liquid expression of this momentum. The absence of Brazil-specific negative catalysts in recent headlines suggests the path of least resistance remains higher for now."
     },
     {
       "sector": "ETF - Canada",
@@ -187,27 +187,27 @@
         "EWC"
       ],
       "signals": {
-        "daily_buy": 0,
+        "daily_buy": 1,
         "weekly_buy": 0,
         "monthly_buy": 1,
         "total": 1
       },
-      "synopsis": "# ETF - Canada Sector Synopsis\n\n**Overall Bias: Mixed with Near-Term Weakness**\n\nThe Canadian ETF space presents a classic timeframe divergence this week, with daily and weekly signals flashing SELL while the monthly trend remains constructive. This pattern suggests we're in a corrective phase within a broader uptrend\u2014a setup that often resolves with either a bounce off support or an acceleration lower if monthly momentum breaks. The macro backdrop isn't helping sentiment: JPMorgan and Pimco are warning that bond markets may be underpricing slowdown risk, while recession fears continue to build south of the border. Given Canada's economic sensitivity to U.S. demand, these concerns are weighing on broad Canadian exposure.\n\nEWC, the iShares MSCI Canada ETF, encapsulates the current tension perfectly\u2014shorter-term selling pressure against a still-intact monthly BUY signal. With G7 officials convening on Iran-related energy impacts, commodity-heavy Canadian equities could see volatility in either direction. Traders should watch for EWC to hold its monthly support levels; a breakdown there would shift the broader thesis from \"pullback\" to \"trend reversal.\""
+      "synopsis": "# ETF - Canada: Sector Synopsis\n\n**Overall Bias: Mixed with Bullish Undertones**\n\nThe Canadian ETF space presents a nuanced picture this week, with daily and monthly signals flashing buy while the weekly timeframe lags in sell territory. This divergence suggests we're potentially in a consolidation phase within a longer-term uptrend, though near-term volatility warrants caution. The macro backdrop remains choppy as G7 finance officials convene to assess Iran conflict spillover effects, while rising 2026 recession fears in the U.S. cast a shadow over Canada's trade-sensitive economy. Stock traders are increasingly betting that the rates market may be mispricing inflation risk\u2014a dynamic that could favor Canadian resource-heavy exposures if commodities catch a bid.\n\nEWC, the iShares MSCI Canada ETF, exemplifies this mixed momentum profile with its weekly sell signal sandwiched between bullish daily and monthly readings. This setup often precedes a resolution move, making EWC the clear ticker to monitor for directional confirmation. Traders should watch for weekly signal improvement as a potential entry catalyst, particularly if geopolitical tensions ease."
     },
     {
       "sector": "ETF - China",
-      "bias": "Distribution",
+      "bias": "Bearish",
       "tickers": [
         "FXI",
         "MCHI"
       ],
       "signals": {
-        "daily_buy": 1,
+        "daily_buy": 2,
         "weekly_buy": 0,
-        "monthly_buy": 2,
+        "monthly_buy": 0,
         "total": 2
       },
-      "synopsis": "# China ETFs: Mixed Signals with Longer-Term Bullish Undertow\n\nThe China ETF space presents a decidedly mixed picture this week, with short-term momentum struggling against a constructive longer-term backdrop. Monthly signals remain fully bullish at 2/2, but weekly readings have rolled over entirely while daily signals split down the middle. This timeframe divergence suggests the sector may be navigating a corrective phase within what could still be a broader uptrend\u2014though conviction remains muted given the conflicting data.\n\nGeopolitical headwinds are clearly weighing on risk appetite, with escalating US-Iran tensions dragging global markets lower for five consecutive weeks and creating spillover pressure on emerging market exposures. Meanwhile, structural narratives around China's AI-driven entrepreneurship boom, highlighted by Alibaba's push into one-person AI-enabled companies, offer a counterbalancing growth story. **FXI** warrants attention as it holds daily buy signals despite weekly weakness, potentially positioning for mean reversion. **MCHI** looks more vulnerable with both short-term timeframes flashing sell. Traders should watch for weekly signal stabilization before adding exposure."
+      "synopsis": "# ETF - China: Sector Synopsis\n\n**Overall Bias: Bearish with Near-Term Bounce Potential**\n\nChina ETFs present a decidedly mixed picture this week, with daily signals flashing BUY across the board while weekly and monthly timeframes remain firmly in SELL territory. This classic counter-trend bounce setup suggests we're seeing short-term relief within a broader downtrend rather than a structural shift in sentiment. The divergence is notable\u2014both FXI and MCHI have caught a bid on the daily charts, but the higher timeframe weakness indicates institutional flows haven't yet confirmed any meaningful reversal.\n\nGeopolitical crosscurrents are dominating the narrative, with escalating Middle East tensions rippling through Asian markets and oil price surges adding pressure to import-dependent Chinese equities. However, there are pockets of optimism: Hong Kong tech IPO activity is gaining momentum, with Manycore's upcoming listing potentially signaling renewed appetite for Chinese innovation plays. FXI and MCHI both warrant close monitoring here\u2014traders may find tactical opportunities on the long side, but position sizing should respect the bearish intermediate-term backdrop until weekly signals confirm a trend change."
     },
     {
       "sector": "ETF - Communications",
@@ -221,7 +221,7 @@
         "monthly_buy": 0,
         "total": 1
       },
-      "synopsis": "# Communications Sector Synopsis\n\n**Sector Bias: Bearish**\n\nThe Communications sector is flashing uniformly bearish signals across all timeframes, with zero buy readings on daily, weekly, and monthly charts\u2014a configuration that suggests sustained distribution rather than a temporary pullback. XLC, the sector's primary ETF, confirms this weakness with sell signals across the board, indicating that neither short-term traders nor longer-term position holders are finding reasons to accumulate. The absence of any timeframe divergence here is notable; there's no \"monthly still holding up\" narrative to lean on, which removes a typical bull case.\n\nRecent headlines underscore the challenging backdrop, with commentary framing internet infrastructure dynamics in near-adversarial terms and ongoing regulatory friction in European telecom towers adding to investor uncertainty. The quantum computing security concerns highlighted by \"Q-Day\" discussions may also be weighing on sentiment around network infrastructure names. XLC remains the primary vehicle to watch for any sentiment shift, though traders should note that a meaningful reversal would likely require at least daily signals to flip before considering re-engagement with this beleaguered space."
+      "synopsis": "# Communications Sector Synopsis\n\n**Overall Bias: Bearish**\n\nThe Communications sector is flashing uniformly bearish signals across all timeframes, with XLC registering SELL readings on daily, weekly, and monthly charts\u2014a rare alignment that suggests sustained downside pressure rather than a temporary pullback. This broad-based weakness indicates institutional positioning has shifted decisively defensive, and momentum traders should approach the space with caution until we see at least a daily timeframe stabilization.\n\nOn the news front, TransUnion's acquisition of RealNetworks' mobile division signals continued consolidation activity in the digital communications infrastructure space, though such corporate actions have done little to stem the sector's technical deterioration. Meanwhile, regulatory developments around open network ecosystems in the UK hint at potential policy headwinds for established players. **XLC** remains the primary vehicle to watch for any reversal signals, as it will likely lead any sector recovery. Until we see meaningful divergence\u2014perhaps a daily BUY against the prevailing weekly and monthly SELL backdrop\u2014the path of least resistance remains lower."
     },
     {
       "sector": "ETF - Consumer",
@@ -230,12 +230,12 @@
         "XLY"
       ],
       "signals": {
-        "daily_buy": 0,
+        "daily_buy": 1,
         "weekly_buy": 0,
         "monthly_buy": 0,
         "total": 1
       },
-      "synopsis": "# ETF - Consumer: Sector Synopsis\n\n**Overall Bias: Bearish**\n\nThe Consumer ETF space is flashing uniformly bearish signals across all timeframes, with XLY registering SELL readings on daily, weekly, and monthly charts\u2014a rare alignment that suggests sustained downward pressure rather than a temporary pullback. This triple-timeframe weakness indicates momentum traders should approach the sector with caution, as there's no evident support building at any level. The broader macro backdrop isn't helping matters either, with Goldman Sachs estimating that geopolitical tensions from the Iran conflict are costing the U.S. economy approximately 10,000 jobs monthly, directly pressuring consumer spending expectations.\n\nWorth watching is Target's recent 44% rally, which stands in notable contrast to the sector's overall weakness and raises questions about whether select names can decouple from broader momentum deterioration. Affirm also merits attention given the BNPL space's sensitivity to consumer credit conditions and discretionary spending trends. Until we see at least daily signals stabilize, the risk-reward calculus favors patience over aggression in this space."
+      "synopsis": "# Consumer Sector Synopsis\n\nThe Consumer discretionary sector presents a decidedly mixed picture this week, with short-term momentum diverging sharply from the intermediate and longer-term trends. Daily signals have flipped to a BUY stance, but both weekly and monthly timeframes remain in SELL territory, suggesting any near-term bounce may face structural headwinds. This timeframe divergence warrants caution\u2014what looks like an emerging rally could simply be a counter-trend move within a broader downtrend.\n\nContext matters here: February retail sales surprised to the upside with a 0.6% gain, demonstrating consumer resilience ahead of the Iran conflict escalation. However, gas prices breaching $4 for the first time since 2022 threaten to crimp discretionary spending power going forward. XLY remains the key bellwether to watch, currently showing that same daily-versus-weekly-monthly divergence that defines the sector. Target's 44% recovery offers a glimmer of hope for retail bulls, but we'd want to see weekly signals confirm before adding meaningful exposure. Patience seems prudent here."
     },
     {
       "sector": "ETF - Corp Bonds",
@@ -249,7 +249,7 @@
         "monthly_buy": 0,
         "total": 1
       },
-      "synopsis": "# Corporate Bonds ETF Sector Synopsis\n\n**Overall Bias: Bearish with Near-Term Stabilization Signals**\n\nThe corporate bond sector presents a cautious picture this week, with longer-term momentum firmly negative despite a nascent daily buy signal attempting to establish a floor. The timeframe divergence here is notable\u2014LQD flashing a daily buy against weekly and monthly sells suggests we may be witnessing an oversold bounce rather than a genuine trend reversal. This pattern warrants skepticism given the broader macro headwinds weighing on credit markets.\n\nContext from the tape reinforces the bearish thesis: headlines highlighting weaker demand for U.S. debt amid the $10 trillion rollover requirement and elevated funding costs tied to geopolitical tensions paint a challenging backdrop for corporate credit. ING's commentary on private credit competition and Iran-related risk premiums suggests spread pressure isn't abating soon. LQD remains the primary vehicle to watch\u2014its ability to sustain this daily signal through the weekly close could indicate whether buyers are genuinely stepping in or merely covering shorts. Patience is warranted here; the weight of evidence still favors defense."
+      "synopsis": "# ETF - Corp Bonds: Sector Synopsis\n\n**Overall Bias: Bearish with Short-Term Bounce Potential**\n\nCorporate bonds are flashing a cautious picture this week, with momentum decidedly negative on the weekly and monthly timeframes despite a fresh daily buy signal. This divergence suggests we may be witnessing a short-term relief rally within a broader downtrend rather than a genuine reversal. LQD, the benchmark investment-grade corporate bond ETF, encapsulates this tension perfectly\u2014daily momentum has turned constructive, but the weekly and monthly signals remain firmly in sell territory, indicating overhead resistance likely caps upside in the near term.\n\nThe macro backdrop adds complexity. With the VIX sitting at the 96.5th percentile, risk appetite remains fragile, and the 6.58% yield on USHY highlights the premium investors are demanding for credit exposure in this environment. Meanwhile, innovations like OpenEden's tokenized high-yield corporate bond product signal growing institutional interest in alternative fixed income access points. For now, LQD warrants close attention\u2014traders may find tactical opportunities on the daily timeframe, but longer-term positioning should await confirmation from weekly momentum improvement."
     },
     {
       "sector": "ETF - Cybersecurity",
@@ -259,12 +259,12 @@
         "HACK"
       ],
       "signals": {
-        "daily_buy": 0,
+        "daily_buy": 1,
         "weekly_buy": 0,
         "monthly_buy": 0,
         "total": 2
       },
-      "synopsis": "# Cybersecurity ETFs: Sector Synopsis\n\nThe cybersecurity sector is flashing decidedly bearish across all timeframes, with both CIBR and HACK registering sell signals on daily, weekly, and monthly charts\u2014a rare alignment that suggests sustained distribution rather than a temporary pullback. The lack of any bullish readings across our momentum framework indicates institutional capital continues to exit the space, and there's no meaningful divergence between timeframes to suggest a reversal is forming.\n\nRecent headlines underscore the headwinds facing the group. Reports that Anthropic is testing a powerful new AI model sent cybersecurity names lower on concerns that advanced AI could commoditize threat detection capabilities\u2014a narrative that's proving difficult for the sector to shake. Notably, Palo Alto Networks saw insider buying from CEO Nikesh Arora, his first purchase in years, which bears monitoring as a potential contrarian signal even as the broader tape remains weak. For now, CIBR and HACK remain avoid-or-fade candidates until momentum stabilizes; any bounce without improving signal confirmation should be treated skeptically."
+      "synopsis": "# Cybersecurity ETFs: Sector Synopsis\n\n**Overall Bias: Bearish**\n\nThe cybersecurity sector is flashing cautionary signals across the board, with weekly and monthly momentum uniformly negative and only a faint daily uptick preventing a complete washout. The 1/2 daily buy reading\u2014driven entirely by CIBR's short-term bounce\u2014does little to offset the broader structural weakness evident in longer timeframes. This divergence suggests any near-term strength may prove to be noise rather than the beginning of a sustained recovery. HACK remains in sell mode across all three timeframes, reflecting persistent distribution pressure in the space.\n\nRecent headlines offer a mixed backdrop: Palo Alto Networks saw shares jump after CEO Nikesh Arora made his first stock purchase in years\u2014a potentially bullish insider signal worth monitoring\u2014while CrowdStrike continues expanding its GovCloud platform, underscoring ongoing government demand. However, broader market volatility tied to crude oil surges and geopolitical headlines appears to be weighing on risk appetite. Traders should watch CIBR for confirmation of whether daily strength can translate into weekly improvement, while PANW's insider activity merits attention as a potential leading indicator for sector sentiment."
     },
     {
       "sector": "ETF - Developed Markets",
@@ -273,12 +273,12 @@
         "VEA"
       ],
       "signals": {
-        "daily_buy": 0,
+        "daily_buy": 1,
         "weekly_buy": 0,
         "monthly_buy": 1,
         "total": 1
       },
-      "synopsis": "# Developed Markets ETF: Sector Synopsis\n\n**Overall Bias: Mixed with Near-Term Caution**\n\nThe developed markets sector presents a classic timeframe divergence worth monitoring closely. While the monthly signal remains constructive at 1/1 BUY, both daily and weekly readings have flipped to 0/1 BUY, suggesting near-term momentum has stalled even as the broader trend holds. VEA, the bellwether Vanguard FTSE Developed Markets ETF, exemplifies this tension perfectly\u2014showing SELL signals on daily and weekly charts while maintaining its monthly BUY. This pattern often precedes either a healthy consolidation within an uptrend or the early stages of a more meaningful reversal.\n\nContext matters here. Headlines highlighting a potential energy crisis rivaling COVID's economic impact have clearly spooked shorter-term positioning, particularly given Europe's weight in developed market indices. Meanwhile, the stunning 171% return from Nippon India's Taiwan Equity Fund underscores how regional dispersion within developed Asia continues to reward selective exposure. VEA remains the primary ticker to watch for confirmation of whether this pullback finds footing or accelerates into something more consequential."
+      "synopsis": "# Developed Markets ETF Sector Synopsis\n\n**Overall Bias: Cautiously Bullish with Near-Term Crosscurrents**\n\nDeveloped markets are flashing a mixed but constructively tilted setup this week, with daily and monthly signals aligned on the buy side while weekly momentum remains in sell territory. This timeframe divergence suggests we're likely in a consolidation phase within a broader uptrend\u2014typical of markets digesting gains before the next directional move. Geopolitical tensions, particularly the ongoing Iran conflict highlighted in recent defense analysis, continue to inject volatility into European and Asian developed markets that carry meaningful energy import exposure.\n\n**VEA** stands out as the bellwether to watch here, perfectly encapsulating the cross-timeframe tension with its daily buy against weekly selling pressure while maintaining monthly structural strength. The exceptional performance of Taiwan-focused funds\u2014Nippon India Taiwan Equity posting 171%+ returns for FY26\u2014underscores how semiconductor and tech-heavy Asian developed markets remain momentum leaders within the broader space. Traders should monitor whether VEA's weekly signal flips to confirm a cleaner bullish alignment, which would strengthen conviction for adding exposure."
     },
     {
       "sector": "ETF - EM Bonds",
@@ -287,12 +287,12 @@
         "EMB"
       ],
       "signals": {
-        "daily_buy": 0,
+        "daily_buy": 1,
         "weekly_buy": 0,
         "monthly_buy": 0,
         "total": 1
       },
-      "synopsis": "# EM Bonds: Bearish Pressure Persists Across All Timeframes\n\nThe emerging market bond complex remains decisively bearish, with momentum signals flashing sell across daily, weekly, and monthly timeframes\u2014a rare alignment that suggests sustained structural weakness rather than a temporary pullback. EMB, the benchmark iShares J.P. Morgan USD Emerging Markets Bond ETF, continues to deteriorate with no signs of stabilization, reflecting persistent headwinds from dollar strength, elevated U.S. yields, and idiosyncratic credit concerns across developing economies.\n\nInterestingly, recent headlines note that contrarian players are beginning to circle EM debt, betting on eventual rate cuts to catalyze a reversal\u2014a setup worth monitoring but premature to act on given current signal readings. The broader Q1 theme of \"everything everywhere all at once\" volatility has pushed yield-seeking capital toward safer dividend strategies stateside, leaving EM bonds starved of inflows. EMB remains the primary vehicle to watch for any sentiment shift; until we see at least a weekly timeframe flip, the path of least resistance stays lower. Patience over conviction here."
+      "synopsis": "# EM Bonds: Bearish Bias Persists Despite Short-Term Bounce\n\nThe emerging market bond space maintains a decidedly bearish posture, with longer-term momentum clearly pointing lower even as daily signals flash a tentative buy. This timeframe divergence\u2014daily bullish against weekly and monthly sell signals\u2014suggests we're likely witnessing a counter-trend bounce rather than any meaningful reversal. The broader risk-off environment, highlighted by surging real interest rates pressuring carry trades and headlines noting Chinese government bonds emerging as a rare haven, underscores the challenging backdrop for EM debt exposure.\n\n**EMB** remains the primary vehicle to watch here, and its signal structure tells the story: short-term oversold conditions may offer tactical opportunities, but the weekly and monthly downtrends demand respect. With global markets grappling for direction amid cross-asset volatility\u2014as Business Insider's recent coverage aptly characterizes\u2014EM bonds face headwinds from both dollar strength and risk appetite compression. We'd wait for weekly signals to confirm before adding exposure; until then, this sector warrants defensive positioning."
     },
     {
       "sector": "ETF - Emerging Markets",
@@ -302,12 +302,12 @@
         "VWO"
       ],
       "signals": {
-        "daily_buy": 0,
+        "daily_buy": 2,
         "weekly_buy": 0,
         "monthly_buy": 2,
         "total": 2
       },
-      "synopsis": "# ETF - Emerging Markets: Weekly Sector Synopsis\n\n**Overall Bias: Mixed with Near-Term Caution**\n\nEmerging markets present a classic timeframe divergence this week, with monthly signals holding firm at 2/2 BUY while daily and weekly readings have flipped entirely to SELL across the board. This split suggests the longer-term structural case remains intact, but near-term momentum has clearly stalled\u2014potentially offering patient capital a chance to accumulate on weakness. Both EEM and VWO are mirroring this pattern precisely, with monthly uptrends still technically valid despite shorter-term deterioration.\n\nRecent commentary highlighting attractive valuations in emerging markets, contingent on oil price stability, aligns with this cautious optimism. Meanwhile, dollar dynamics remain a key variable\u2014one recent analysis points to cheaper-dollar beneficiaries as a tactical play, which historically favors EM exposure. For now, EEM and VWO warrant close monitoring as potential accumulation candidates should daily signals begin stabilizing. Traders should watch for any weekly signal improvement as confirmation that the pullback is finding footing within the broader monthly uptrend."
+      "synopsis": "# Emerging Markets ETF Sector Synopsis\n\nThe emerging markets space presents a decidedly mixed picture this week, with notable divergence across timeframes that warrants careful attention. While both daily and monthly signals flash bullish at 2/2 BUY, the weekly timeframe sits at 0/2 BUY\u2014a configuration that suggests near-term chop within what may still be a constructive longer-term trend. This push-pull dynamic is playing out against a backdrop of renewed geopolitical tension, with oil prices surging amid reports of continued U.S.-Iran hostilities, a development that typically weighs on energy-importing EM economies while offering selective tailwinds to exporters.\n\nBoth **EEM** and **VWO** mirror this conflicted signal structure, showing daily strength and monthly support but weekly weakness\u2014a setup that often resolves with volatility before directional clarity emerges. Notably, the rotation into Chinese government bonds as a perceived safe haven, per recent headlines, hints at defensive positioning within Asia that could cap near-term upside. Traders should watch for weekly signals to confirm before adding meaningful exposure, as the current divergence favors tactical positioning over aggressive commitment."
     },
     {
       "sector": "ETF - Energy",
@@ -316,12 +316,12 @@
         "XLE"
       ],
       "signals": {
-        "daily_buy": 1,
+        "daily_buy": 0,
         "weekly_buy": 1,
         "monthly_buy": 0,
         "total": 1
       },
-      "synopsis": "# Energy Sector Synopsis\n\n**Overall Bias: Mixed with Near-Term Strength**\n\nThe energy sector presents a bifurcated picture this week, with short-term momentum firmly bullish while longer-term trends flash caution. Daily and weekly signals are aligned in buy territory, but the monthly timeframe remains in sell mode\u2014a divergence that suggests we may be witnessing a tactical bounce within a broader consolidation or downtrend rather than a sustained reversal. This tension warrants careful position sizing for those looking to capitalize on near-term strength.\n\nGeopolitical catalysts are abundant, with Iran's threatened closure of the Strait of Hormuz injecting fresh supply-side anxiety into crude markets, while diplomatic signals urging Ukraine to curtail strikes on Russian oil infrastructure add another layer of uncertainty. XLE stands as the primary vehicle to watch here, perfectly encapsulating the timeframe divergence with daily and weekly buys against a monthly sell. Traders may find opportunity in the near-term momentum, but the monthly headwind suggests keeping tight stops and remaining nimble as April unfolds."
+      "synopsis": "# Energy Sector Synopsis\n\nThe energy sector presents a decidedly mixed picture this week, with conflicting signals across timeframes suggesting traders should approach with caution. While weekly momentum registers a buy signal, both daily and monthly readings lean bearish, creating a setup that favors short-term traders over position holders. This divergence\u2014weekly strength sandwiched between near-term and longer-term weakness\u2014often precedes choppy, range-bound price action rather than sustained directional moves.\n\nGeopolitical developments are injecting volatility into energy markets, with escalating tensions around Iran raising supply disruption concerns. Headlines suggesting the U.S. may pursue aggressive postures toward Iranian oil, combined with reports of potential shortages rippling through Pakistan's LNG markets, underscore just how fragile global energy supply chains remain. XLE mirrors the sector's indecision perfectly, flashing a weekly buy against daily and monthly sells\u2014a classic whipsaw setup that rewards nimble traders but punishes conviction plays. TotalEnergies (TTE) has garnered attention as a yield play worth monitoring, though broad sector exposure warrants patience until timeframe alignment improves."
     },
     {
       "sector": "ETF - Ethereum",
@@ -330,12 +330,12 @@
         "ETHA"
       ],
       "signals": {
-        "daily_buy": 1,
+        "daily_buy": 0,
         "weekly_buy": 0,
         "monthly_buy": 0,
         "total": 1
       },
-      "synopsis": "# Ethereum ETF Sector Synopsis\n\n**Overall Bias: Bearish with Near-Term Stabilization Attempts**\n\nThe Ethereum ETF space presents a decidedly cautious picture heading into Q2, with aggregate signals showing just 1-of-3 timeframes in buy territory. The daily BUY signal on ETHA suggests short-term buyers are attempting to establish a floor, but this stands in stark contrast to weekly SELL pressure and absent monthly confirmation\u2014a classic divergence pattern that often precedes continued volatility rather than sustainable recovery. This technical weakness aligns with broader crypto market stress, as the Nasdaq's slide into correction territory has dragged digital asset equities lower in what CoinDesk characterized as a \"$17 trillion market rout.\"\n\nETHA remains the primary vehicle to monitor here, though traders should note that Ethereum's fundamental picture shows some complexity. On-chain data points to tightening supply dynamics via elevated staking and exchange outflows, which could provide underlying support if risk appetite stabilizes. However, technical analysts suggest ETH needs multiple indicators to flip bullish before any meaningful rally toward $2,400 materializes. For now, momentum favors patience over aggression."
+      "synopsis": "# Ethereum ETF Sector Synopsis\n\n**Signal Bias: Bearish**\n\nThe Ethereum ETF space is flashing uniformly bearish signals this week, with daily and weekly timeframes both registering SELL across our momentum indicators\u2014a clear warning for trend-followers to remain cautious. The absence of any BUY signals across all three timeframes suggests the sector lacks meaningful upside conviction, even as broader crypto narratives attempt to stabilize. ETHA stands as the primary vehicle to monitor here, and its technical weakness warrants attention despite headlines suggesting potential tailwinds from geopolitical developments, including speculation that a resolution to the Iran conflict could ease risk-off sentiment.\n\nAdding complexity to the outlook, institutional accumulation continues beneath the surface\u2014Bitmine's $147 million ETH purchase marks its largest weekly buy of 2026, hinting that deep-pocketed players may be positioning for a reversal that momentum signals haven't yet confirmed. Meanwhile, quantum computing concerns resurfaced after Google's latest research paper, creating another overhang for crypto assets broadly. For now, ETHA remains the ticker to watch for any early signs of stabilization, but the weight of evidence favors patience over aggression."
     },
     {
       "sector": "ETF - Financials",
@@ -349,7 +349,7 @@
         "monthly_buy": 0,
         "total": 1
       },
-      "synopsis": "# Financials Sector Synopsis\n\n**Overall Bias: Bearish with Near-Term Bounce Potential**\n\nThe financials sector presents a decidedly cautious picture heading into Q2, with momentum signals flashing bearish on both weekly and monthly timeframes despite a lone daily buy signal. This classic divergence pattern\u2014where XLF shows a short-term BUY against intermediate and longer-term SELL signals\u2014typically suggests a counter-trend bounce within a broader downtrend rather than a sustainable reversal. Investors should approach any near-term strength as potential selling opportunity rather than fresh entry point.\n\nContext matters here: recent analyst warnings about a potential credit bubble forming beneath the AI investment frenzy raise legitimate concerns about bank balance sheet exposure, while the ongoing CBDC discussion highlighted by Cointelegraph suggests regulatory evolution that could pressure traditional banking margins. XLF remains the primary vehicle to watch, though the conflicting timeframe signals warrant tight risk management. FactSet (FDS) has drawn renewed attention as a potential relative strength play within the broader weakness, making it worth monitoring for any momentum shifts in the coming sessions."
+      "synopsis": "# Financials ETF Sector Synopsis\n\n**Overall Bias: Bearish with Near-Term Relief**\n\nThe Financials sector presents a cautionary picture this week, with momentum signals tilting decidedly negative across longer timeframes despite a daily buy signal emerging on XLF. This classic divergence\u2014daily strength against weekly and monthly selling pressure\u2014suggests we're likely witnessing a counter-trend bounce within a broader downtrend rather than a genuine reversal. Traders should approach any strength with skepticism until weekly signals confirm a shift in underlying momentum.\n\nOn the fundamental front, major banks continue positioning for emerging opportunities, with Jamie Dimon signaling JPMorgan's potential entry into prediction markets amid intensifying competition in alternative trading venues. Meanwhile, Coinbase securing conditional trust bank approval marks another step in crypto-traditional finance convergence\u2014a theme worth monitoring for spillover effects into legacy financials. **XLF** remains the primary vehicle to watch here; any failure to hold recent gains and flip weekly signals bullish would confirm the bearish thesis. Look for volume expansion on up days as a potential early tell of sentiment shifting."
     },
     {
       "sector": "ETF - Fintech",
@@ -363,21 +363,21 @@
         "monthly_buy": 0,
         "total": 1
       },
-      "synopsis": "# ETF - Fintech: Sector Synopsis\n\n**Bias: Bearish**\n\nThe fintech sector is flashing a decisive bearish posture heading into Q2, with momentum signals uniformly negative across all timeframes. FINX, the primary sector vehicle, registers SELL signals on daily, weekly, and monthly charts\u2014a rare alignment that suggests this isn't merely a pullback but a sustained trend of capital rotation away from fintech exposure. The absence of any bullish divergence between timeframes underscores the conviction behind this move, leaving little room for contrarian positioning at present.\n\nThat said, the fundamental narrative remains constructive longer-term, with industry focus shifting toward AI-powered fraud defense as the sector's defining investment thesis for 2026, while stablecoin infrastructure continues attracting institutional interest across emerging markets. QED Investors' renewed commitment to AI-led fintech and cross-border plays signals smart money is selectively positioning for the next cycle\u2014just not yet through broad ETF exposure. FINX remains the ticker to watch for any reversal signals, though patience appears warranted until weekly momentum shows signs of stabilization."
+      "synopsis": "# Fintech ETF Sector Synopsis\n\n**Signal Bias: Bearish**\n\nThe fintech space remains under clear distribution pressure with FINX flashing sell signals across all three timeframes\u2014a rare alignment that suggests institutional capital continues to exit the sector rather than accumulate on weakness. There's no divergence to offer bulls any near-term hope; daily, weekly, and monthly momentum all point in the same direction, indicating this isn't merely a short-term pullback but a more sustained trend requiring patience before re-entry.\n\nRecent headlines paint a mixed fundamental picture that may be contributing to the hesitancy. SoFi continues to face skepticism despite trading at levels some view as undervalued, while global fintech expansion stories\u2014like MTN spinning off its mobile money unit in Ghana and cross-border tokenization partnerships between Singapore and the UAE\u2014suggest the industry's growth thesis remains intact internationally. For now, however, price action trumps narrative. FINX is the primary vehicle to watch here, with any stabilization in weekly momentum being the first signal that selling exhaustion may be approaching."
     },
     {
       "sector": "ETF - Genomics",
-      "bias": "Bearish",
+      "bias": "Distribution",
       "tickers": [
         "ARKG"
       ],
       "signals": {
-        "daily_buy": 0,
+        "daily_buy": 1,
         "weekly_buy": 0,
-        "monthly_buy": 0,
+        "monthly_buy": 1,
         "total": 1
       },
-      "synopsis": "**ETF - Genomics: Bearish Across All Timeframes**\n\nThe genomics sector remains firmly in bearish territory, with momentum signals flashing sell across daily, weekly, and monthly timeframes\u2014a clean sweep that leaves little room for bullish interpretation. ARKG, the flagship genomics ETF, continues its struggle to find footing, reflecting broader headwinds facing the biotech innovation space. The absence of meaningful news catalysts this week underscores the sector's current limbo, caught between elevated interest rate sensitivity and a still-challenging funding environment for early-stage biotech ventures.\n\nWith no timeframe divergence to suggest an imminent reversal, ARKG warrants close monitoring as the primary barometer for sentiment shifts in this space. Traders should watch for any break above near-term resistance as a potential early signal of trend exhaustion, though conviction remains low until weekly or monthly signals begin to stabilize. For now, the path of least resistance points lower, and capital allocation here requires patience and a longer-term thesis rather than near-term momentum plays."
+      "synopsis": "**Genomics ETFs: Mixed Signals Warrant Cautious Optimism**\n\nThe genomics sector presents a nuanced picture this week, with momentum signals flashing a mixed-to-cautiously-bullish stance. Daily and monthly timeframes both register BUY signals, yet the weekly reading remains in SELL territory\u2014a classic setup that suggests near-term choppiness within what may be a broader bottoming process. This timeframe divergence merits attention: shorter-term strength emerging against weekly weakness often precedes a more sustained directional move, though confirmation remains pending.\n\nARKG, the sector's flagship ETF, exemplifies this tension perfectly, mirroring the sector-wide daily-buy/weekly-sell/monthly-buy configuration. The precision medicine software market continues gaining traction, with recent projections valuing the space at $2.82 billion through 2035\u2014a tailwind for genomics-adjacent holdings with AI and data analytics exposure. Investors should watch ARKG closely for a weekly signal flip, which would align all three timeframes and potentially catalyze renewed institutional interest. Until then, position sizing discipline remains prudent given the cross-current signals."
     },
     {
       "sector": "ETF - Germany",
@@ -386,12 +386,12 @@
         "EWG"
       ],
       "signals": {
-        "daily_buy": 0,
+        "daily_buy": 1,
         "weekly_buy": 0,
         "monthly_buy": 0,
         "total": 1
       },
-      "synopsis": "# ETF - Germany: Sector Synopsis\n\n**Overall Bias: Bearish**\n\nGerman equity exposure is flashing unambiguous weakness across all timeframes, with zero buy signals registering on daily, weekly, and monthly charts. EWG, the primary vehicle for Germany exposure, sits firmly in sell territory across the board\u2014a rare alignment that suggests sustained institutional distribution rather than a temporary pullback. There's no divergence to offer bulls any technical hope here; the trend is decisively negative from tactical to structural timeframes.\n\nThe macro backdrop explains much of this deterioration. Germany's export-heavy economy is caught in the crosshairs of the ongoing US-Iran conflict, with the nation likely among those suffering significant economic losses as global supply chains fracture and energy costs remain elevated. While Europe's pivot toward renewables and EVs may eventually benefit German industrial champions, near-term demand destruction is the dominant theme. EWG remains the ticker to watch\u2014and avoid\u2014until momentum evidence suggests otherwise. Patient capital should wait for at least weekly signals to stabilize before considering re-entry."
+      "synopsis": "# ETF - Germany: Sector Synopsis\n\n**Overall Bias: Bearish with Near-Term Bounce Potential**\n\nThe German ETF space presents a decidedly bearish posture, with momentum signals confirming strength only on the daily timeframe while weekly and monthly readings remain firmly in sell territory. This classic divergence pattern\u2014daily buying into a broader downtrend\u2014typically signals a counter-trend bounce rather than a sustainable reversal, warranting caution for position traders. The geopolitical backdrop isn't helping European risk assets either, as escalating U.S.-Iran tensions have triggered bond market volatility and renewed calls for geographic diversification away from concentrated U.S. exposure.\n\n**EWG**, the iShares MSCI Germany ETF, embodies this conflicted picture perfectly: the daily buy signal suggests short-term traders are nibbling, but the weekly and monthly sell signals indicate institutional flows remain defensive. With European markets historically sensitive to energy disruptions stemming from Middle East instability, the current Iran situation adds a layer of macro risk that could cap any near-term rallies. Tactical traders may find opportunity in the daily signal, but swing and position traders should wait for weekly confirmation before committing capital."
     },
     {
       "sector": "ETF - Healthcare",
@@ -400,12 +400,12 @@
         "XLV"
       ],
       "signals": {
-        "daily_buy": 0,
+        "daily_buy": 1,
         "weekly_buy": 0,
         "monthly_buy": 1,
         "total": 1
       },
-      "synopsis": "**Healthcare Sector: Mixed Signals with Timeframe Divergence**\n\nThe Healthcare sector presents a notably conflicted picture this week, with clear bearish momentum on shorter timeframes clashing against a still-intact monthly uptrend. XLV, the sector's bellwether ETF, is flashing SELL signals on both daily and weekly charts while maintaining its monthly BUY status\u2014a classic setup that often precedes either a buying opportunity on pullbacks or the early stages of a trend reversal. This divergence warrants caution rather than aggressive positioning in either direction.\n\nWhat's keeping longer-term bulls interested is the accelerating rotation into AI-powered biotech, with institutional capital reportedly flowing toward names leveraging artificial intelligence for drug discovery and clinical research. KALA BIO's launch of its Bionic Intelligence Research Agent highlights the real infrastructure being deployed in this space. For momentum traders, XLV remains the primary vehicle to watch for confirmation of direction\u2014a weekly close back above recent resistance could quickly flip the intermediate signal. Until then, the sector remains a hold-and-observe situation for disciplined capital."
+      "synopsis": "# Healthcare Sector Synopsis\n\nThe healthcare sector presents a cautiously constructive picture this week, with signals leaning bullish on the daily and monthly timeframes while the weekly remains in sell territory. This timeframe divergence warrants attention\u2014XLV specifically shows the same pattern, suggesting near-term choppiness within a broader uptrend. The mixed weekly signal indicates we may be working through a consolidation phase rather than witnessing a definitive directional move, making position sizing and entry timing particularly relevant for momentum-oriented strategies.\n\nNews flow continues to center on AI integration across the healthcare value chain, with headlines highlighting capital rotation into AI-powered biotech and new bioinformatics infrastructure coming online. This thematic tailwind provides fundamental support beneath the technical picture. XLV remains the primary vehicle to watch as the sector bellwether, while biotech-focused names leveraging AI capabilities could see outsized interest if the rotation narrative gains further traction. We'd look for weekly signals to flip constructive before adding conviction to new long exposure."
     },
     {
       "sector": "ETF - High Yield",
@@ -420,7 +420,7 @@
         "monthly_buy": 0,
         "total": 2
       },
-      "synopsis": "# ETF - High Yield: Sector Synopsis\n\n**Overall Bias: Bearish with Short-Term Bounce Attempt**\n\nThe high yield space presents a clear bearish structural picture, with longer-term momentum firmly negative despite a nascent daily uptick. Both HYG and JNK are flashing daily buy signals against a backdrop of weekly and monthly sells\u2014a classic counter-trend bounce pattern that often traps momentum chasers. This timeframe divergence warrants caution; the broader trend remains down until weekly signals confirm a shift. Recent headlines underscore the fundamental headwinds, with ING pointing to private credit stress and geopolitical risk as key drivers of widening funding costs, while European credit markets continue to sour amid ongoing energy security concerns.\n\nBoth HYG and JNK merit close monitoring here\u2014not as entries, but as bellwethers for risk appetite. The daily strength could extend if Treasury volatility subsides, but the weight of evidence suggests this is a relief rally within a deteriorating credit cycle. Institutional flows and spread behavior over the coming sessions will be telling; until weekly momentum turns, rallies are likely to be sold."
+      "synopsis": "# ETF - High Yield: Sector Synopsis\n\n**Overall Bias: Bearish with Near-Term Bounce Attempt**\n\nThe high-yield space presents a textured picture this week, with daily signals flashing BUY across the board while weekly and monthly momentum remains decisively negative\u2014a classic counter-trend bounce within a broader deteriorating trend. Both HYG and JNK are exhibiting identical signal profiles, suggesting this is a sector-wide phenomenon rather than idiosyncratic positioning. The macro backdrop remains challenging, with headlines highlighting credit stress from geopolitical tensions\u2014Trump's Iran confrontation triggering bond market volatility and European energy-dependent credits souring as conflict persists. Moody's recent downgrade of New Hampshire municipal debt to junk status underscores the expanding credit quality concerns that have kept institutional buyers cautious.\n\nFor tactical traders, HYG and JNK merit close attention as potential mean-reversion plays, though the weekly and monthly sell signals suggest any rally likely faces overhead resistance. The prudent approach here is to respect the longer-term bearish structure while acknowledging short-term oversold conditions may generate tradeable bounces. Size accordingly."
     },
     {
       "sector": "ETF - India",
@@ -429,12 +429,12 @@
         "INDA"
       ],
       "signals": {
-        "daily_buy": 0,
+        "daily_buy": 1,
         "weekly_buy": 0,
         "monthly_buy": 0,
         "total": 1
       },
-      "synopsis": "# ETF - India: Sector Synopsis\n\n**Overall Bias: Bearish**\n\nIndia-focused ETFs are flashing uniformly bearish signals across all timeframes, with the sector registering 0/1 BUY readings on daily, weekly, and monthly momentum indicators. The flagship INDA ETF confirms this weakness with SELL signals across the board, suggesting no meaningful divergence or near-term reversal setup worth positioning around. This rare alignment of negative momentum across all durations points to sustained distribution rather than a temporary pullback.\n\nThe macro backdrop offers little relief, as the prolonged conflict in Iran continues to ripple through global markets and emerging economies alike. Headlines warning of deepening economic pain and regional instability\u2014including Sri Lanka bracing for renewed crisis\u2014underscore the risk-off sentiment weighing on South Asian exposure broadly. While domestic narratives around retail participation and alternative investment flows remain constructive longer-term, they're insufficient to offset current headwinds. INDA remains the primary vehicle to monitor for any shift in trend, though momentum traders should remain sidelined until signals improve. Risk management is paramount here."
+      "synopsis": "# ETF - India: Sector Synopsis\n\n**Overall Bias: Bearish with Near-Term Bounce Potential**\n\nThe India ETF space presents a decidedly mixed picture this week, with longer-term momentum firmly negative while daily signals flash a tentative buy. This classic divergence\u2014daily strength against weekly and monthly weakness\u2014suggests we're likely witnessing a countertrend rally within a broader downtrend rather than a durable reversal. The fundamental backdrop remains challenging, with Oracle's announcement of 12,000 India layoffs serving as a sobering reminder of headwinds facing the country's crucial tech sector. Meanwhile, rising fuel price pressures and what The Times of India characterized as a \"not-so-happy new financial year\" underscore the macro concerns weighing on sentiment.\n\nINDA remains the primary vehicle to watch here, currently showing that same daily-versus-weekly/monthly divergence that defines the broader sector. Traders may find short-term opportunities playing the bounce, but position sizing should reflect the unfavorable intermediate-term setup. Until weekly momentum confirms a turn, rallies are sells for swing traders, not entries for trend followers."
     },
     {
       "sector": "ETF - Industrials",
@@ -448,21 +448,21 @@
         "monthly_buy": 1,
         "total": 1
       },
-      "synopsis": "# Industrials Sector Synopsis\n\nThe Industrials sector presents a distinctly mixed picture this week, with shorter-term momentum clearly negative while the longer-term structural trend remains intact. With zero buy signals across both daily and weekly timeframes but a supportive monthly signal, we're seeing classic consolidation behavior\u2014the kind of pullback that often occurs within broader uptrends. XLI encapsulates this divergence perfectly, flashing sell signals on daily and weekly charts while maintaining its monthly buy, suggesting patient investors may find opportunity as shorter-term weakness plays out.\n\nGeopolitical crosscurrents are reshaping industrial narratives in real time. Volkswagen's potential pivot to defense component production for Israel's Iron Dome system underscores how traditional automakers are diversifying amid shifting global priorities, while Germany's wavering commitment to green energy plans introduces policy uncertainty for infrastructure-related names. The $7 billion Halo Vista groundbreaking offers a counterweight, signaling continued appetite for large-scale development. Watch XLI for signs of daily stabilization, and monitor defense-adjacent industrials as geopolitical tensions sustain elevated spending commitments."
+      "synopsis": "# Industrials Sector Synopsis\n\n**Overall Bias: Mixed with Near-Term Weakness**\n\nThe Industrials sector presents a classic timeframe divergence this week, with short-term momentum deteriorating against a still-intact longer-term uptrend. Daily and weekly signals are flashing sell across the board, while monthly readings remain constructive\u2014a setup that often precedes either a buying opportunity on pullbacks or a deeper correction if monthly support gives way. XLI exemplifies this tension perfectly, with the benchmark ETF showing sell signals on both daily and weekly charts despite maintaining its monthly buy stance. This kind of multi-timeframe conflict typically warrants patience rather than aggressive positioning.\n\nOn the fundamental side, the groundbreaking of the $7 billion Halo Vista project signals continued infrastructure appetite, though labor availability concerns raised by Mike Rowe regarding trades shortages could pressure margins and timelines across the sector. Taiwan's push to integrate AI into traditional manufacturing offers a longer-term productivity tailwind worth monitoring. For now, XLI remains the primary vehicle to watch\u2014traders should look for daily stabilization before leaning into the monthly bullish bias."
     },
     {
       "sector": "ETF - Innovation",
-      "bias": "Distribution",
+      "bias": "Bearish",
       "tickers": [
         "ARKK"
       ],
       "signals": {
         "daily_buy": 0,
         "weekly_buy": 0,
-        "monthly_buy": 1,
+        "monthly_buy": 0,
         "total": 1
       },
-      "synopsis": "## ETF - Innovation: Sector Synopsis\n\nThe innovation ETF space presents a classic mixed picture this week, with short-term momentum decidedly negative while the longer-term structural bid remains intact. Daily and weekly signals are flashing zero buys across the board, yet the monthly timeframe maintains its bullish posture\u2014a divergence that suggests we're in a corrective phase within a broader uptrend rather than a fundamental breakdown. This kind of multi-timeframe disagreement often precedes either a meaningful bounce or an acceleration lower, making the next few sessions particularly telling.\n\nARKK remains the bellwether to watch, currently showing sell signals on both daily and weekly charts while holding its monthly buy\u2014a setup that patient swing traders may find attractive if support levels hold. Without fresh catalysts in the headlines, price action appears technically driven, with risk appetite for high-beta growth names clearly cooling in the near term. Traders should monitor whether daily momentum can stabilize before committing new capital; chasing the monthly signal without confirmation from shorter timeframes has historically been a frustrating exercise in this volatile corner of the market."
+      "synopsis": "## ETF - Innovation: Sector Synopsis\n\n**Overall Bias: Bearish**\n\nThe innovation ETF space remains firmly in bearish territory, with momentum signals showing a complete absence of buy signals across all timeframes\u2014daily, weekly, and monthly readings all sit at 0/1. This uniform weakness across the time horizon suggests sustained selling pressure rather than a temporary pullback, indicating that institutional flows continue to rotate away from high-growth, speculative holdings that define this corner of the market.\n\nARKK, the flagship Cathie Wood vehicle and bellwether for disruptive technology themes, confirms the broader malaise with sell signals stacked across every timeframe. The absence of even short-term buying interest suggests the fund hasn't found a floor that attracts dip buyers, a concerning signal for those watching for capitulation. Without fresh catalysts or a meaningful shift in rate expectations to support duration-sensitive growth names, this sector appears to be one worth avoiding until momentum stabilizes. Traders should monitor ARKK closely for any daily signal improvement as a potential early warning of sentiment shift."
     },
     {
       "sector": "ETF - International",
@@ -471,12 +471,12 @@
         "EFA"
       ],
       "signals": {
-        "daily_buy": 0,
+        "daily_buy": 1,
         "weekly_buy": 0,
         "monthly_buy": 1,
         "total": 1
       },
-      "synopsis": "# International ETFs: Sector Synopsis\n\n**Overall Bias: Mixed with Near-Term Weakness**\n\nThe international ETF space presents a classic timeframe divergence worth monitoring closely. While the monthly signal remains constructive at 1/1 BUY, both daily and weekly readings have flipped to 0/1 BUY, suggesting near-term momentum has stalled even as the longer-term structural trend holds. EFA, the bellwether for developed international markets, exemplifies this tension perfectly\u2014selling off on daily and weekly charts while maintaining its monthly buy signal. This pattern often precedes either a consolidation phase or a deeper pullback to test support levels.\n\nHeadlines this week underscore the crosscurrents facing global allocators. Concerns about a potential energy crisis rivaling COVID's economic impact are weighing on European-heavy exposures, while Asian markets show pockets of strength\u2014Nippon India Taiwan Equity Fund's extraordinary 171% FY26 return highlights the dispersion available for active positioning. EFA remains the primary vehicle to watch for any resolution of this daily-versus-monthly divergence, with price action over the next two weeks likely determining whether bulls or bears gain control."
+      "synopsis": "# International ETFs: Sector Synopsis\n\n**Overall Bias: Mixed with Cautious Optimism**\n\nInternational equities present a nuanced picture this week, with momentum signals split across timeframes\u2014daily and monthly readings flashing buy while weekly trends remain in sell territory. This divergence suggests the sector may be working through a consolidation phase following recent geopolitical disruptions. The US-Iran conflict has injected fresh volatility into global markets, prompting renewed calls for geographic diversification as domestic portfolios face concentrated risk. Notably, Q1 ETF inflows reached a robust $462 billion despite broader market weakness, indicating institutional appetite for international exposure remains intact.\n\nEFA, the flagship developed markets fund, perfectly encapsulates this mixed environment with its buy-sell-buy signal pattern across daily, weekly, and monthly charts. The weekly weakness warrants attention, but longer-term structure remains constructive. Adding context, Greece's anticipated return to MSCI developed market status by 2027 signals continued European index rebalancing opportunities ahead. Momentum traders should watch for weekly signals to confirm before adding meaningful exposure, while the monthly buy provides a supportive backdrop for patient positioning."
     },
     {
       "sector": "ETF - Japan",
@@ -485,12 +485,12 @@
         "EWJ"
       ],
       "signals": {
-        "daily_buy": 0,
+        "daily_buy": 1,
         "weekly_buy": 0,
         "monthly_buy": 1,
         "total": 1
       },
-      "synopsis": "## Japan ETF Sector Synopsis\n\n**Overall Bias: Mixed with Near-Term Weakness**\n\nThe Japan ETF sector presents a clear timeframe divergence that warrants careful attention. While the monthly signal remains constructive at 1/1 BUY, both daily and weekly readings have flipped to SELL, suggesting near-term momentum has deteriorated even as the longer-term structural trend holds. This setup often precedes either a buying opportunity on pullbacks or, if monthly signals follow lower, a more sustained correction. The flagship EWJ mirrors this exact pattern\u2014monthly buyers are still in control, but shorter timeframes are flashing caution.\n\nContext matters here: Japan's Nikkei has come under pressure amid mounting recession fears, while the Bank of Japan's recent rate-hike signals and intensified yen intervention threats are adding volatility to currency-sensitive plays. With benchmark JGB yields hitting 27-year highs and global risk sentiment whipsawing on Middle East conflict headlines, Japanese equities face crosscurrents. EWJ remains the primary vehicle to watch for signs of stabilization; a daily signal flip back to BUY would suggest the pullback is maturing."
+      "synopsis": "# ETF - Japan: Sector Synopsis\n\n**Overall Bias: Mixed with Cautious Undertone**\n\nJapan-focused ETFs present a conflicted picture this week, with daily and monthly signals both registering BUY while the weekly timeframe flashes SELL\u2014a divergence that warrants careful attention. This split suggests near-term momentum remains fragile even as longer-term structural positioning holds constructive. The headline ticker EWJ exemplifies this tension perfectly, with its weekly SELL signal acting as a potential warning flag amid otherwise supportive readings. Foreign selling of Japanese equities has surged to an 18-month high as Iran-related geopolitical risk weighs on sentiment, while the Nikkei has come under pressure from mounting recession fears and benchmark JGB yields hitting 27-year highs.\n\nAdding to the complexity, the Bank of Japan's renewed yen intervention threats and hints at potential rate hikes have injected fresh uncertainty into currency dynamics\u2014a critical variable for unhedged ETF holders. EWJ remains the primary vehicle to monitor, as its timeframe divergence may resolve either direction in coming sessions. Traders should watch whether daily momentum can stabilize weekly signals or if broader risk-off flows overwhelm technical support."
     },
     {
       "sector": "ETF - Materials",
@@ -504,7 +504,7 @@
         "monthly_buy": 0,
         "total": 1
       },
-      "synopsis": "# Materials Sector Synopsis\n\n**Overall Bias: Mixed with Near-Term Strength**\n\nThe Materials sector presents a nuanced picture heading into April, with short-term momentum diverging notably from the longer-term trend. Daily and weekly signals are flashing BUY across the board, yet the monthly timeframe remains in SELL territory\u2014a configuration that suggests tactical opportunity but warrants caution on sustained positioning. This divergence often emerges during counter-trend rallies within broader corrective phases, and traders should size accordingly.\n\nRecent headlines underscore the volatility plaguing commodity-linked equities, with mining shares experiencing significant swings through the March quarter and South African equities posting their worst monthly performance since 2008. Against this backdrop, **XLB** stands as the primary vehicle to monitor, currently riding daily and weekly strength despite its monthly SELL signal\u2014a classic setup for swing traders but a potential trap for longer-term allocators if macro headwinds persist. Corporate developments like Eldorado Gold's project alliance with G Mining Services hint at selective capital deployment among producers, worth tracking for potential relative strength plays within the space."
+      "synopsis": "# Materials Sector Synopsis\n\n**Overall Bias: Mixed with Near-Term Strength**\n\nThe Materials sector presents a bifurcated picture heading into the second week of April, with short-term momentum favoring bulls while longer-term structural concerns linger. Daily and weekly signals on XLB both flash BUY, yet the monthly timeframe remains in SELL territory\u2014a classic divergence that suggests we may be witnessing a counter-trend rally within a broader consolidation phase rather than the start of a sustained breakout. This tension warrants tactical positioning rather than committed directional bets.\n\nRecent headlines underscore the sector's evolving narrative around critical minerals, with the nickel-cobalt market reportedly racing toward a $35 billion-plus valuation amid intensifying supply chain concerns. The specter of rare earth and magnet shortages threatening tech sector stability adds a geopolitical premium to select names. XLB remains the primary vehicle to watch, though traders should monitor whether weekly strength can eventually flip that stubborn monthly signal. Until that confirmation materializes, expect choppy price action with resistance at recent highs proving formidable."
     },
     {
       "sector": "ETF - Municipal",
@@ -513,12 +513,12 @@
         "MUB"
       ],
       "signals": {
-        "daily_buy": 0,
+        "daily_buy": 1,
         "weekly_buy": 0,
         "monthly_buy": 0,
         "total": 1
       },
-      "synopsis": "## Municipal ETF Sector Synopsis\n\nThe municipal bond ETF space flashes a decidedly bearish bias this week, with momentum signals uniformly negative across all timeframes. The sector registers a rare 0/1 BUY reading on daily, weekly, and monthly charts\u2014a full alignment that suggests sustained selling pressure rather than a fleeting pullback. This lockstep deterioration across timeframes indicates institutional flows have turned decisively negative, likely reflecting broader concerns about duration risk and municipal credit conditions heading into the second quarter.\n\nMUB, the iShares National Muni Bond ETF and the sector's bellwether, carries SELL signals across all three timeframes, making it the primary vehicle to monitor for any signs of stabilization or further breakdown. With no significant news catalysts providing cover, the technical weakness appears to be driven by rate expectations and portfolio rebalancing rather than headline-driven selling. Traders looking for mean-reversion opportunities should wait for at least a daily signal flip before considering tactical entries; until then, the path of least resistance remains lower."
+      "synopsis": "## Municipal Bond ETFs: Sector Synopsis\n\n**Overall Bias: Bearish with Near-Term Stabilization Attempt**\n\nThe municipal bond ETF space remains firmly in bearish territory, with just 1 of 1 daily signals flashing BUY against unanimous weekly and monthly SELL readings\u2014a classic dead-cat bounce setup that warrants caution rather than conviction. This timeframe divergence suggests any near-term strength is likely corrective rather than trend-reversing, particularly as broader duration concerns continue to weigh on fixed income. The LA Department of Water and Power's recent market tap highlights the ongoing credit differentiation story, with investors now pricing wildfire legal exposure more aggressively into California municipal paper\u2014a dynamic that could create both risk and opportunity depending on one's risk tolerance.\n\nMUB, the sector's flagship ETF, exemplifies the current tension: daily momentum has turned constructive, but the weekly and monthly downtrends remain intact, suggesting rallies should be viewed as potential fade candidates. Traders looking for tactical entries might wait for weekly signals to confirm before adding meaningful exposure, as chasing short-term bounces in a structurally weak tape rarely rewards patience."
     },
     {
       "sector": "ETF - Real Estate",
@@ -532,7 +532,7 @@
         "monthly_buy": 0,
         "total": 1
       },
-      "synopsis": "# Real Estate Sector Synopsis\n\n**Overall Bias: Bearish**\n\nThe Real Estate sector enters April with uniformly negative momentum, registering sell signals across all three timeframes with a 0/1 BUY reading on daily, weekly, and monthly charts. This rare alignment of bearish conviction suggests sustained distribution rather than a temporary pullback, with XLRE flashing SELL across the board. The absence of any timeframe divergence\u2014no daily oversold bounce against monthly strength, for instance\u2014indicates institutional positioning remains decidedly risk-off for the space.\n\nRecent headlines paint a mixed fundamental picture, with experts noting that \"real estate premiumization\" continues as a structural trend even as price action tells a different story. Meanwhile, the proliferation of high-yield dividend stock coverage from financial media suggests investors may be rotating into income alternatives outside traditional REITs. XLRE remains the primary vehicle to watch for any momentum shift, though current signals warrant patience rather than bottom-fishing. Until we see at least a daily timeframe reversal, the path of least resistance points lower."
+      "synopsis": "## Real Estate ETF Sector Synopsis\n\n**Sector Bias: Bearish**\n\nThe real estate sector is flashing uniformly bearish signals across all timeframes, with zero buy indicators on daily, weekly, and monthly charts\u2014a configuration that warrants defensive positioning. XLRE, the sector's benchmark SPDR fund, confirms this weakness with sell signals across the board, suggesting sustained distribution rather than a temporary pullback. There's notably no divergence between timeframes to offer contrarians hope; the alignment points to consistent selling pressure that hasn't yet found a floor.\n\nRecent headlines offer some context for this defensive posture. While analysts note names like W.P. Carey appear fairly valued given steady deployment activity, \"fair value\" in a risk-off tape often translates to dead money. The Barchart coverage highlighting several real estate names hitting fresh 52-week lows underscores the sector's ongoing struggle. Traders should keep XLRE on the radar as the primary sentiment gauge, while WPC merits attention for any stabilization signs. Until we see at least daily signals flip constructive, real estate remains a sector to underweight."
     },
     {
       "sector": "ETF - Robotics",
@@ -546,7 +546,7 @@
         "monthly_buy": 1,
         "total": 1
       },
-      "synopsis": "# Robotics ETF Sector Synopsis\n\n**Signal Profile: Mixed with Near-Term Weakness**\n\nThe robotics sector presents a classic momentum divergence this week, with the monthly timeframe holding bullish while daily and weekly signals have rolled over to sell. This suggests the longer-term structural thesis remains intact, but near-term price action warrants caution. ROBO, the sector's flagship ETF, exemplifies this tension\u2014monthly buyers are still in control, yet shorter timeframes indicate distribution or consolidation is underway. Traders should consider this a period of tactical defensiveness rather than outright bearish positioning.\n\nGeopolitical crosscurrents continue shaping the landscape, with South Korea's M.AX Alliance pushing back against capital flows into Chinese robotics, potentially benefiting non-China exposed names. Meanwhile, Pudu Robotics' unveiling of its AI-native cleaning platform highlights the commercial acceleration happening at the application layer. ROBO remains the primary watch item given its benchmark status; patient investors may find the monthly support compelling, while swing traders should wait for daily momentum to stabilize before adding exposure."
+      "synopsis": "# Robotics ETF Sector Synopsis\n\nThe robotics sector presents a notably mixed picture this week, with longer-term structural strength clashing against near-term technical weakness. Monthly signals remain firmly bullish at 1/1, yet daily and weekly timeframes have both flipped to 0/1 BUY territory, suggesting the sector is working through a corrective phase within what remains a constructive longer-term trend. This timeframe divergence warrants a patient, selective approach rather than aggressive positioning.\n\nRecent headlines underscore why institutional money continues to view this space favorably despite short-term chop\u2014MarketsandMarkets projects the Physical AI market reaching $15.24 billion by 2032, while autonomous logistics applications continue reshaping supply chains globally. The flagship ROBO ETF exemplifies the current tension, holding monthly BUY status while daily and weekly signals flash SELL, indicating potential accumulation opportunities for longer-horizon investors willing to weather near-term volatility. Seyond's annual report highlighting an \"inflection point\" in Physical AI adoption suggests the fundamental thesis remains intact even as price action consolidates."
     },
     {
       "sector": "ETF - Semiconductors",
@@ -556,12 +556,12 @@
         "SOXX"
       ],
       "signals": {
-        "daily_buy": 0,
+        "daily_buy": 2,
         "weekly_buy": 0,
         "monthly_buy": 2,
         "total": 2
       },
-      "synopsis": "# Semiconductors ETF Sector Synopsis\n\nThe semiconductor sector presents a classic timeframe divergence this week, with short-term momentum decidedly bearish against a backdrop of intact monthly strength. Both SMH and SOXX are flashing SELL signals on daily and weekly charts while maintaining BUY signals on the monthly timeframe\u2014a setup that suggests near-term consolidation or pullback within a longer-term uptrend rather than a structural breakdown. This pattern often precedes either a buying opportunity for patient capital or a warning of deeper correction if monthly support fails to hold.\n\nHeadlines continue to underscore the sector's structural tailwinds, particularly TSMC's increasingly constrained 3nm capacity, which is now reportedly reserved for \"long-term, loyal\" customers\u2014a dynamic that reinforces pricing power across the supply chain. Meanwhile, Japan's Mitsubishi Electric, Toshiba, and Rohm are exploring a power semiconductor merger, potentially reshaping competitive dynamics in that subsector. SMH and SOXX remain the primary vehicles to watch; traders should monitor whether daily signals stabilize before assuming the monthly trend will reassert itself."
+      "synopsis": "# Semiconductors ETF Sector Synopsis\n\nThe semiconductor sector presents a **mixed-to-constructive** profile this week, with daily and monthly signals aligned bullish while weekly momentum remains in sell territory. This timeframe divergence suggests the sector may be working through near-term consolidation within a structurally intact longer-term uptrend\u2014a setup that often precedes continuation moves once weekly signals flip. Both **SMH** and **SOXX** display identical signal patterns, reinforcing that this is a sector-wide dynamic rather than an idiosyncratic divergence.\n\nFundamental catalysts remain supportive, with SEMI projecting double-digit growth in global 300mm fab equipment spending through 2027 and analysts flagging significant upside potential for names like Broadcom. Nvidia's $2 billion strategic bet on Marvell underscores the intensifying AI infrastructure buildout, though headlines warning of supply chain bottlenecks merit monitoring. **SMH** and **SOXX** are the primary vehicles to watch for momentum confirmation; a weekly signal flip to buy would strengthen conviction considerably. Patient positioning appears warranted as the weekly-monthly divergence resolves."
     },
     {
       "sector": "ETF - South Korea",
@@ -575,7 +575,7 @@
         "monthly_buy": 1,
         "total": 1
       },
-      "synopsis": "# South Korea ETF Sector Synopsis\n\n**Overall Bias: Mixed with Near-Term Weakness**\n\nThe South Korea ETF space presents a classic timeframe divergence worth monitoring closely. While the monthly signal remains constructive at 1/1 BUY, both daily and weekly readings have flipped to SELL, suggesting near-term momentum has deteriorated even as the longer-term structural trend holds. This pattern often precedes either a buying opportunity on pullbacks or a broader trend reversal\u2014context matters here.\n\nThat context is decidedly challenging. The ongoing conflict in Iran continues to hammer Asian markets caught between surging oil prices and dollar strength, with South Korea particularly exposed as a major energy importer. Headlines noting Korean retail investors \"doubling down\" amid the selloff suggest capitulation hasn't occurred, while the National Pension Service CEO's comments about potential won intervention signal authorities are growing uncomfortable with currency weakness. **EWY** remains the primary vehicle to watch\u2014its monthly BUY amid daily/weekly SELL creates a tactical setup for patient investors willing to wait for shorter timeframes to stabilize before adding exposure."
+      "synopsis": "# South Korea ETF Sector Synopsis\n\n**Overall Bias: Mixed with Near-Term Caution**\n\nThe South Korea ETF space presents a classic timeframe divergence this week, with short-term momentum deteriorating against a still-intact monthly uptrend. EWY, the primary vehicle for Korea exposure, is flashing sell signals on both daily and weekly charts while maintaining its monthly buy status\u2014a setup that often signals consolidation rather than outright reversal, though patience is warranted. The won's recent slide has drawn notable attention, with Korea's $1 trillion National Pension Service CEO suggesting potential intervention may be on the table, adding a currency risk dimension that dollar-denominated investors should monitor closely.\n\nGeopolitical tensions and oil's surge following renewed Iran concerns are weighing on risk appetite across Asian markets broadly, and export-sensitive Korea is no exception. EWY remains the ticker to watch here; a weekly close above recent support could validate the monthly trend's resilience, but until daily and weekly signals flip constructive, the risk-reward favors sidelined capital or reduced position sizing. The Coinone stake news suggests institutional interest in Korea's crypto infrastructure, a potential longer-term catalyst worth tracking."
     },
     {
       "sector": "ETF - Staples",
@@ -589,21 +589,21 @@
         "monthly_buy": 1,
         "total": 1
       },
-      "synopsis": "# Staples Sector Synopsis\n\n**Overall Bias: Mixed with Near-Term Weakness**\n\nThe Consumer Staples sector presents a classic timeframe divergence that warrants careful positioning. While the monthly signal remains constructive with a BUY reading, both daily and weekly momentum have rolled over to SELL, suggesting near-term headwinds despite the sector's longer-term structural support. XLP exemplifies this tension perfectly, maintaining its monthly uptrend even as shorter timeframes deteriorate\u2014a pattern that often precedes either a buying opportunity for patient capital or the early stages of a broader trend reversal.\n\nRecent headlines point to a sector navigating crosscurrents, with Dollar Tree's surprising pricing update highlighting ongoing margin pressures across retail, while earnings releases from Conagra and Lamb Weston will provide critical reads on packaged food demand trends. Notably, fund managers are increasingly positioning in defensive names amid broader market volatility, with one top-performing manager publicly favoring staples given expectations for \"material downside\" in the S&P 500. XLP remains the primary vehicle to watch here; a weekly close above recent resistance could signal the daily weakness is merely noise within a durable defensive rotation."
+      "synopsis": "# Staples Sector Synopsis\n\nThe Consumer Staples sector presents a distinctly mixed picture heading into the second week of April, with shorter-term momentum clearly negative while the monthly timeframe maintains its bullish posture. XLP, the sector's bellwether ETF, exemplifies this divergence perfectly\u2014flashing sell signals on both daily and weekly charts while holding its monthly buy signal. This timeframe conflict suggests we're likely in a corrective phase within a broader uptrend, though patience is warranted before adding exposure.\n\nEarnings season context matters here, with Colgate-Palmolive's Q1 report on deck and likely to set the tone for household products names. Meanwhile, the narrative around dividend-focused strategies continues gaining traction among income-oriented investors, which could provide a bid under quality staples names during pullbacks. Beyond XLP, watch Costco\u2014recently highlighted for its substantial intangible asset value\u2014and confectionery plays benefiting from what MarketBeat termed a \"spring sugar rush.\" The sector merits a watchlist position rather than aggressive accumulation until daily signals stabilize."
     },
     {
       "sector": "ETF - TIPS",
-      "bias": "Bearish",
+      "bias": "Bullish",
       "tickers": [
         "TIP"
       ],
       "signals": {
         "daily_buy": 0,
-        "weekly_buy": 0,
-        "monthly_buy": 0,
+        "weekly_buy": 1,
+        "monthly_buy": 1,
         "total": 1
       },
-      "synopsis": "# TIPS Sector Synopsis: April 1, 2026\n\n**Overall Bias: Bearish**\n\nTreasury Inflation-Protected Securities are flashing uniformly bearish signals across all timeframes, with the flagship TIP ETF registering SELL momentum on daily, weekly, and monthly charts\u2014a rare alignment that suggests sustained downward pressure rather than a short-term pullback. This broad-based weakness indicates institutional flows are rotating away from inflation hedges, potentially reflecting market expectations that inflation concerns have peaked or that real yields remain attractive enough to dampen TIPS appeal.\n\nThe geopolitical backdrop adds nuance to this read. With Iran conflict fallout already pressuring global growth expectations\u2014Westpac now projects New Zealand's GDP to contract in Q2\u2014one might expect inflation protection demand to hold. Yet the TIPS weakness suggests markets are pricing in deflationary growth risks over inflationary shocks. TIP remains the primary name to watch here; its technical breakdown across all three timeframes makes any bounce an opportunity for tactical shorts rather than a reason to accumulate. Until monthly momentum shifts, conviction stays firmly on the sidelines."
+      "synopsis": "## TIPS ETF Sector Synopsis\n\nThe Treasury Inflation-Protected Securities space presents a **mixed-to-bullish** picture this week, with longer-term momentum firmly positive while near-term signals flash caution. Weekly and monthly timeframes both register buy signals, suggesting the broader trend remains constructive, but the daily aggregate has flipped to neutral with zero buy signals\u2014a divergence worth monitoring closely. This short-term hesitation likely reflects recent volatility in real interest rates, which have surged notably according to market reports, creating headwinds for inflation-linked bonds that compete with higher-yielding alternatives.\n\n**TIP**, the flagship iShares TIPS ETF, exemplifies this tension perfectly\u2014daily signals have turned to sell even as weekly and monthly momentum holds firm. For position traders, this could represent a pullback opportunity within an intact uptrend, though tactical players may want to wait for daily momentum to stabilize before adding exposure. The real rates environment remains the critical variable; with mortgage expectations still elevated and no near-term relief in sight, TIPS holders should expect continued choppiness beneath the surface of an otherwise supportive intermediate-term setup."
     },
     {
       "sector": "ETF - Taiwan",
@@ -612,12 +612,12 @@
         "EWT"
       ],
       "signals": {
-        "daily_buy": 1,
+        "daily_buy": 0,
         "weekly_buy": 0,
         "monthly_buy": 1,
         "total": 1
       },
-      "synopsis": "# Taiwan ETF Sector Synopsis\n\n**Overall Bias: Cautiously Bullish with Near-Term Crosscurrents**\n\nThe Taiwan ETF space presents a mixed but constructively tilted picture this week, with daily and monthly signals both registering BUY while the weekly timeframe flashes SELL\u2014a classic consolidation pattern that often precedes directional resolution. This timeframe divergence in **EWT** warrants attention: the monthly structural bid remains intact, but the weekly weakness suggests intermediate choppiness as markets digest geopolitical uncertainty. Headlines surrounding the West Asia conflict and its implications for global semiconductor supply chains have cast a shadow over Taiwan-linked assets, with commentary noting that the AI investment thesis now faces \"polycrisis\" headwinds that weren't priced into the 2024-2025 rally.\n\n**EWT** remains the primary vehicle to watch here, as it captures broad exposure to Taiwan's tech-heavy equity market. The daily BUY signal amid macro turbulence hints at dip-buying interest emerging, though the weekly SELL cautions against aggressive positioning until we see cleaner alignment. Patience favors those waiting for weekly confirmation before adding exposure, but the monthly bid suggests deeper pullbacks may find structural support."
+      "synopsis": "# Taiwan ETF Sector Synopsis\n\n**Overall Bias: Mixed with Near-Term Caution**\n\nThe Taiwan ETF space presents a classic timeframe divergence that warrants careful positioning. While the monthly signal remains constructive with a BUY reading, both daily and weekly momentum have rolled over to SELL, suggesting near-term headwinds are building against the longer-term structural trend. EWT, the primary vehicle for Taiwan exposure, mirrors this exact pattern\u2014monthly strength intact but shorter timeframes deteriorating. This configuration often precedes either a buying opportunity on pullbacks or the early stages of a broader trend reversal.\n\nGeopolitical risk is clearly weighing on sentiment, with escalating US-Iran tensions sending shockwaves through Asian markets and oil prices surging. Taiwan's export-dependent economy and semiconductor supply chain remain vulnerable to broader regional instability, though NVIDIA's 3% rally on persistent AI demand offers a counterbalancing tailwind for Taiwan's chip sector. Traders should watch EWT closely around key support levels\u2014the monthly BUY provides a floor thesis, but chasing here ahead of weekly confirmation seems premature."
     },
     {
       "sector": "ETF - Technology",
@@ -626,12 +626,12 @@
         "XLK"
       ],
       "signals": {
-        "daily_buy": 0,
+        "daily_buy": 1,
         "weekly_buy": 0,
         "monthly_buy": 0,
         "total": 1
       },
-      "synopsis": "# Technology Sector Synopsis\n\n**Sector Bias: Bearish**\n\nThe technology sector is flashing unambiguous weakness heading into Q2, with XLK registering sell signals across all three timeframes\u2014a rare alignment that underscores the severity of the current downdraft. This broad-based deterioration leaves no timeframe divergence to offer bulls even a glimmer of near-term hope, suggesting momentum traders should remain defensive or positioned for further downside. The fade in mega-cap dominance, highlighted by recent coverage noting equal-weight ETFs outperforming the S&P 500 in 2026, reflects a market rotating away from the concentrated tech leadership that defined prior years.\n\n**XLK** remains the primary vehicle to watch, though its heavy weighting toward names like Nvidia\u2014which is drawing scrutiny over changed risk profiles for retirees and driving double-digit losses in concentrated funds like TOPT\u2014makes it particularly vulnerable. Data center demand continues to provide isolated bright spots, with **Bloom Energy** surging on AI infrastructure tailwinds, but this hasn't been enough to lift the broader sector. Until daily signals stabilize, tech exposure warrants a cautious posture."
+      "synopsis": "# Technology Sector Synopsis\n\n**Overall Bias: Bearish with Near-Term Stabilization Attempts**\n\nThe technology sector presents a cautionary picture this week, with longer-term momentum firmly negative despite a nascent daily buy signal emerging on XLK. This timeframe divergence\u2014daily turning constructive while weekly and monthly signals remain in sell territory\u2014suggests we may be witnessing an oversold bounce rather than a sustainable trend reversal. Investors should approach any short-term strength with skepticism until higher timeframes confirm a shift in character.\n\nRecent headlines underscore the sector's crosscurrents, with JPMorgan defending Seagate Technology against algorithmic selling pressure while Morgan Stanley stepped up to support embattled memory names including Sandisk. These analyst interventions hint at valuation support forming, but concentrated positions continue to create volatility, as evidenced by TOPT's 11% drawdown driven largely by its heavy NVIDIA weighting. Tickers worth monitoring include **XLK** for any weekly signal improvement, **CRWD** given its government cloud expansion catalysts, and **SNDK** as a potential mean-reversion candidate if memory sentiment stabilizes."
     },
     {
       "sector": "ETF - UK",
@@ -640,16 +640,16 @@
         "EWU"
       ],
       "signals": {
-        "daily_buy": 0,
+        "daily_buy": 1,
         "weekly_buy": 0,
         "monthly_buy": 1,
         "total": 1
       },
-      "synopsis": "# UK ETF Sector Synopsis\n\n**Overall Bias: Mixed with Near-Term Weakness**\n\nThe UK ETF space presents a classic timeframe divergence this week, with daily and weekly signals both flashing sell while the monthly maintains its bullish posture. This suggests we're navigating a corrective phase within what remains a structurally intact longer-term uptrend. The broader macro backdrop adds complexity\u2014ongoing geopolitical tensions stemming from the Iran conflict continue to accelerate the global pivot toward renewables and EVs, a shift that cuts both ways for UK equities given the nation's energy sector composition and its own green transition ambitions.\n\nEWU, the primary vehicle for UK exposure, exemplifies this push-pull dynamic perfectly, trading heavy on shorter timeframes despite holding monthly support. Investors should watch whether this week's price action finds footing near key moving averages or deteriorates further. The preliminary 2025 results cycle now underway could provide the catalyst for resolution in either direction. For now, patient capital might view weakness as accumulation opportunity, while tactical traders should respect the near-term downside momentum."
+      "synopsis": "# UK ETF Sector Synopsis\n\n**Overall Bias: Mixed with Bullish Undertones**\n\nThe UK ETF space presents a nuanced picture this week, with momentum signals split across timeframes\u2014daily and monthly readings flashing buy while the weekly trend remains in sell territory. This divergence suggests we're potentially witnessing a near-term inflection point within a broader constructive backdrop, though confirmation on the weekly chart remains elusive. The recent oil price surge following escalated Trump-Iran tensions adds a layer of complexity for UK equities, given the FTSE's significant energy sector weighting\u2014a double-edged sword that could provide tailwinds for BP and Shell while pressuring the broader consumer discretionary names.\n\nEWU, the iShares MSCI United Kingdom ETF, perfectly encapsulates this timeframe tension with its buy-sell-buy configuration across daily, weekly, and monthly charts. Traders should watch for a weekly signal flip as potential confirmation of renewed upside momentum. For now, the structural monthly strength keeps us cautiously constructive, but position sizing should reflect the unresolved weekly weakness until clearer directional alignment emerges."
     },
     {
       "sector": "ETF - US Market",
-      "bias": "Distribution",
+      "bias": "Bearish",
       "tickers": [
         "SPY",
         "QQQ",
@@ -661,12 +661,12 @@
         "RSP"
       ],
       "signals": {
-        "daily_buy": 0,
+        "daily_buy": 7,
         "weekly_buy": 0,
-        "monthly_buy": 5,
+        "monthly_buy": 3,
         "total": 8
       },
-      "synopsis": "# US Market ETFs: Sector Synopsis\n\n**Overall Bias: Bearish near-term, mixed intermediate**\n\nThe US equity market is flashing unmistakable caution signals as we enter Q2, with a clean sweep of SELL readings across all eight tracked ETFs on both daily and weekly timeframes. This broad-based deterioration stands in stark contrast to the monthly picture, where five of eight names retain BUY signals\u2014a classic setup that suggests the recent pullback may still be operating within a longer-term constructive structure, at least for now. Notably, SPY, QQQ, and VOO have fully capitulated across all timeframes, while IWM and RSP maintain monthly strength, hinting that equal-weight and small-cap exposures may offer relative resilience if broader conditions stabilize.\n\nMacro crosscurrents remain front and center, with oil surging above $100 amid escalating geopolitical uncertainty and the S&P 500 triggering technical warning signals that have captured headline attention. Watch IWM for early signs of rotation into value-oriented names, and monitor RSP as a barometer of market breadth\u2014if monthly signals begin rolling over here, the defensive posture becomes considerably more urgent."
+      "synopsis": "# ETF - US Market: Weekly Sector Synopsis\n\n**Overall Bias: Mixed with Near-Term Bounce Potential**\n\nThe US market ETF complex presents a classic timeframe divergence this week, with daily signals flashing a strong 7/8 buy reading while weekly and monthly momentum remain decidedly bearish at 0/8 and 3/8 respectively. This suggests we're witnessing a tactical bounce within a broader corrective phase rather than a sustainable trend reversal. Geopolitical headlines continue to whipsaw sentiment, with oil surging above $100 amid Iran tensions while markets attempt to price in potential de-escalation\u2014creating the choppy, news-driven tape we've seen throughout the week.\n\nQQQ stands out as the weakest link, posting sell signals across all three timeframes as chip stocks face sustained pressure, making it a potential short candidate or hedge vehicle. On the constructive side, IWM, MDY, and RSP all show daily buy signals paired with monthly buys, hinting that equal-weight and small-to-mid cap names may be finding relative footing beneath the surface. These divergences bear close monitoring as the intermediate trend attempts to establish direction."
     },
     {
       "sector": "ETF - Utilities",
@@ -675,28 +675,28 @@
         "XLU"
       ],
       "signals": {
-        "daily_buy": 0,
+        "daily_buy": 1,
         "weekly_buy": 1,
         "monthly_buy": 0,
         "total": 1
       },
-      "synopsis": "# Utilities Sector Synopsis\n\n**Overall Bias: Mixed**\n\nThe utilities sector is flashing conflicting signals this week, with a clear weekly buy but neutral readings on both daily and monthly timeframes, suggesting momentum remains unconvinced about a sustained directional move. XLU exemplifies this tension perfectly\u2014holding weekly strength while daily and monthly signals point to sell pressure, a divergence that often precedes either consolidation or a decisive break. This push-pull dynamic reflects broader uncertainty around the sector's trajectory as energy demand narratives compete with rate sensitivity concerns.\n\nRecent headlines underscore the complexity facing utilities. Fortune's analysis highlighting grid infrastructure challenges rather than data center demand as the primary bottleneck offers a nuanced counterpoint to the AI-power-demand bull case, while political headwinds continue swirling around renewable projects following the Trump administration's wind farm interventions. Beyond XLU, investors should monitor FUTY, which has quietly delivered 64% over five years with minimal expense drag\u2014a compelling vehicle if the weekly buy signal gains traction. For now, patience seems warranted until timeframes align more convincingly."
+      "synopsis": "# Utilities Sector Synopsis\n\nThe utilities sector presents a **mixed-to-cautiously-bullish** setup heading into the second week of April, with shorter-term momentum favoring buyers while longer-term trends remain unconvinced. XLU registers BUY signals on both daily and weekly timeframes, yet the monthly chart flashes SELL\u2014a divergence that suggests we may be witnessing a tactical bounce within a broader corrective phase rather than the beginning of a sustained uptrend. Traders should approach with measured optimism and tight risk management until monthly momentum confirms.\n\nRecent headlines underscore the sector's evolving demand dynamics, with Irish regulators implementing new electricity protocols amid data center-driven blackout concerns\u2014a theme that cuts both ways for utilities facing infrastructure strain but also revenue opportunity. The $28 million Series A close by ThinkLabs AI, backed by Edison International, signals continued smart-money interest in grid modernization plays. **XLU** remains the primary vehicle to monitor for broad sector exposure; watch for a monthly signal flip as potential confirmation of stronger conviction. Near-term strength appears tradeable, but longer-term positioning warrants patience."
     },
     {
       "sector": "ETF - Volatility",
-      "bias": "Bullish",
+      "bias": "Accumulation",
       "tickers": [
         "VXX",
         "UVXY",
         "SVXY"
       ],
       "signals": {
-        "daily_buy": 2,
+        "daily_buy": 1,
         "weekly_buy": 2,
-        "monthly_buy": 2,
+        "monthly_buy": 1,
         "total": 3
       },
-      "synopsis": "# ETF - Volatility: Sector Synopsis\n\n**Overall Bias: Bullish**\n\nThe volatility complex is flashing a decidedly risk-off tone heading into Q2, with momentum signals aligning bullishly across all three timeframes\u2014a relatively rare configuration that suggests institutional hedging demand remains elevated. Both VXX and UVXY are registering synchronized BUY signals on daily, weekly, and monthly charts, indicating sustained appetite for long volatility exposure rather than a fleeting spike. The inverse correlation is playing out cleanly, with SVXY showing SELL signals across the board as traders rotate away from short-vol strategies.\n\nMarket context supports this positioning. Headlines questioning whether U.S. indices face a larger selloff, combined with persistent jitters on Dalal Street despite recent rebounds, underscore the fragile sentiment backdrop. VXX remains the primary vehicle to watch for directional conviction, while UVXY offers leveraged exposure for those comfortable with decay dynamics. SVXY's breakdown below key momentum thresholds suggests the short-volatility trade that dominated 2024-2025 may be losing structural support\u2014worth monitoring closely if risk appetite fails to recover."
+      "synopsis": "# ETF - Volatility: Sector Synopsis\n\n**Overall Bias: Mixed with Bullish Tilt**\n\nThe volatility complex is flashing mixed signals this week, though the weekly timeframe's 2/3 BUY reading suggests near-term upside potential remains intact amid elevated market stress. The daily signals have cooled to just 1/3 BUY, reflecting some short-term mean reversion after what appears to be a significant fear spike\u2014notably, the VIX is currently sitting at the 96.5th percentile according to recent analysis. This divergence between daily weakness and weekly strength is characteristic of volatility products consolidating after a sharp move higher, rather than signaling a definitive trend reversal.\n\nThe geopolitical backdrop continues to provide fundamental support for vol exposure, with ongoing Iran conflict headlines and broader equity market fragility keeping hedging demand elevated. **UVXY** stands out with weekly and monthly BUY signals aligned, making it the cleanest long-vol expression for those positioned for continued turbulence. **VXX** shows similar weekly strength but faces monthly headwinds. Meanwhile, **SVXY**'s lonely daily BUY against selling pressure on longer timeframes suggests short-vol strategies remain treacherous\u2014prudent traders should tread carefully here given current tail risk dynamics."
     },
     {
       "sector": "Energy",
@@ -716,12 +716,12 @@
         "HES"
       ],
       "signals": {
-        "daily_buy": 7,
-        "weekly_buy": 7,
-        "monthly_buy": 7,
+        "daily_buy": 3,
+        "weekly_buy": 12,
+        "monthly_buy": 12,
         "total": 12
       },
-      "synopsis": "# Energy Sector Synopsis\n\nThe Energy sector maintains a moderately bullish posture heading into Q2, with 7/12 BUY signals registering across all three timeframes\u2014a notable consistency that suggests underlying momentum remains intact despite elevated geopolitical volatility. The one-month Iran conflict has injected significant uncertainty into crude markets, evidenced by the Dow's nearly 800-point selloff, yet energy names are largely holding their technical footing rather than capitulating. This resilience warrants attention, though the prevalence of ERR signals across several key names indicates choppy price action that's making clean reads difficult.\n\nXOM stands out as the cleanest setup with triple-timeframe BUY alignment, making it the sector's momentum anchor. VLO and HAL also merit watch-list consideration\u2014both showing strength on daily charts with supportive longer-term signals, positioning them well if the geopolitical premium in crude persists. The counternarrative emerging around accelerated energy transition (per Salon's analysis) bears monitoring as a potential headwind, but for now, the tape suggests institutional flows remain constructive on traditional energy exposure."
+      "synopsis": "# Energy Sector Synopsis\n\nThe Energy sector maintains a decisively bullish posture on intermediate and long-term timeframes, with perfect 12/12 BUY signals across both weekly and monthly charts. However, the daily picture tells a more cautious story at just 3/12 BUY, suggesting near-term consolidation within a broader uptrend. This timeframe divergence is evident across the majors\u2014XOM, CVX, COP, and the refining complex (MPC, PSX, VLO) all show daily SELL signals against uniformly bullish weekly and monthly readings, characteristic of a pullback within an intact trend rather than a structural breakdown.\n\nGeopolitical catalysts remain front and center, with oil prices surging amid escalating Iran tensions and continued U.S. military engagement in the region. For momentum traders, SLB, HAL, and HES stand out as the only names holding BUY signals across all three timeframes, making them cleaner expressions of sector strength. The oilfield services duo in particular warrants attention as conflict-driven supply concerns typically flow through to increased drilling activity and service demand."
     },
     {
       "sector": "Financials",
@@ -749,14 +749,14 @@
       "signals": {
         "daily_buy": 16,
         "weekly_buy": 1,
-        "monthly_buy": 5,
+        "monthly_buy": 4,
         "total": 18
       },
-      "synopsis": "# Financials Sector Synopsis\n\n**Overall Bias: Mixed with Near-Term Bounce Potential**\n\nThe Financials sector presents a classic timeframe divergence that warrants careful positioning. While daily signals flash an overwhelming 16/18 BUY\u2014suggesting a tactical bounce is underway\u2014the weekly (1/18 BUY) and monthly (5/18 BUY) readings paint a more cautious intermediate-term picture. This pattern typically indicates a counter-trend rally within a broader consolidation or downtrend, making it a trader's market rather than a conviction hold for longer-duration portfolios.\n\nAmong individual names, Goldman Sachs and Morgan Stanley stand out with daily and monthly alignment, potentially signaling relative strength among the money-center banks\u2014notably, Goldman's recent downgrade of Indian equities to market weight suggests the firm is repositioning defensively, which often precedes domestic reallocation. Citigroup and Schwab also maintain monthly BUY signals worth monitoring for follow-through. Meanwhile, the alternative asset managers\u2014Blackstone, KKR, and Apollo\u2014show uniform weakness across weekly and monthly frames despite the daily bounce, suggesting any rallies there may be opportunities to lighten rather than add."
+      "synopsis": "# Financials Sector Synopsis\n\n**Signal Bias: Mixed with Near-Term Strength**\n\nFinancials present a classic case of tactical versus structural divergence this week. The daily signals flash overwhelmingly bullish at 16 of 18 buys, yet weekly momentum shows just 1 of 18, with monthly readings only marginally better at 4 of 18. This suggests the sector is experiencing a short-term bounce within what remains a challenging intermediate-term trend\u2014potentially a relief rally rather than the start of sustained leadership. The broader macro backdrop remains unsettled, with restructuring activity showing signs of cooling per Houlihan Lokey's recent weakness, which could pressure advisory revenues across the space.\n\nGoldman Sachs and Morgan Stanley warrant attention as the only major names carrying monthly buy signals alongside their daily strength, suggesting relative resilience among the investment banks. Citigroup also shows this pattern and may benefit from ongoing transformation efforts. Conversely, alternative asset managers BX, KKR, and particularly APO\u2014the lone daily sell in the group\u2014appear vulnerable if risk appetite fades. Traders may find tactical opportunities here, but position sizing should reflect the conflicting longer-term signals."
     },
     {
       "sector": "Healthcare",
-      "bias": "Distribution",
+      "bias": "Bearish",
       "tickers": [
         "UNH",
         "JNJ",
@@ -776,12 +776,12 @@
         "HUM"
       ],
       "signals": {
-        "daily_buy": 8,
-        "weekly_buy": 3,
-        "monthly_buy": 10,
+        "daily_buy": 10,
+        "weekly_buy": 2,
+        "monthly_buy": 7,
         "total": 16
       },
-      "synopsis": "# Healthcare Sector Synopsis\n\nThe Healthcare sector presents a notably mixed picture this week, with a clear divergence emerging between timeframes that warrants close attention. While monthly signals remain constructive at 10/16 BUY, weekly momentum has deteriorated significantly to just 3/16 BUY, suggesting the sector may be entering a near-term consolidation phase even as the longer-term structural trend holds. Daily readings sit at a middling 8/16, reflecting the tug-of-war currently playing out.\n\nSeveral heavyweight names are flashing caution signs\u2014UNH remains in full SELL mode across all timeframes, while LLY and AMGN show daily and weekly weakness despite maintaining monthly BUY signals. On the constructive side, JNJ, PFE, and REGN stand out with triple-timeframe BUY alignment, making them the cleaner momentum plays within the space. The rotation narrative into AI-powered biotech flagged by recent headlines may be pulling capital from traditional large-cap pharma, creating pockets of opportunity for nimble positioning. Watch for weekly signals to stabilize before adding significant exposure."
+      "synopsis": "# Healthcare Sector Synopsis\n\n**Overall Bias: Mixed with Near-Term Stabilization**\n\nHealthcare presents a notably fragmented picture this week, with daily signals flashing majority BUY (10/16) while weekly momentum remains decidedly weak (2/16 BUY), suggesting the sector may be attempting to carve out a tactical bottom after sustained selling pressure. The monthly reading at 7/16 BUY indicates longer-term participants remain divided, with no clear directional conviction emerging yet. This timeframe divergence warrants caution\u2014short-term bounces within a broader consolidation phase often prove fleeting without weekly confirmation.\n\nTwo names stand out with full alignment across all timeframes: **MRK** and **PFE**, both registering BUY signals daily through monthly, positioning them as relative strength leaders worth monitoring for continuation. Meanwhile, **LLY** shows intriguing daily strength against weak weekly and monthly backdrops\u2014a potential early reversal candidate or simply a dead-cat bounce. News of institutional rotation into AI-powered biotech could provide selective tailwinds, though the signal data suggests this theme hasn't broadly lifted the mega-cap healthcare complex just yet. We remain neutral with a watchful eye on weekly signal improvement for confirmation."
     },
     {
       "sector": "Industrials",
@@ -801,12 +801,12 @@
         "WM"
       ],
       "signals": {
-        "daily_buy": 3,
-        "weekly_buy": 3,
-        "monthly_buy": 7,
+        "daily_buy": 11,
+        "weekly_buy": 5,
+        "monthly_buy": 11,
         "total": 12
       },
-      "synopsis": "Analysis unavailable this week."
+      "synopsis": "# Industrials Sector Synopsis\n\n**Overall Bias: Bullish with Near-Term Consolidation**\n\nThe Industrials sector presents a constructive setup heading into mid-April, with strong daily (11/12 BUY) and monthly (11/12 BUY) momentum signals pointing to underlying strength, though the weekly timeframe (5/12 BUY) suggests some near-term digestion is underway. This divergence indicates the sector may be working through a pullback within a broader uptrend\u2014a pattern that often resolves favorably for patient positioning. Barclays' upgraded outlook on Caterpillar adds fundamental support to the technical picture, reinforcing confidence in the machinery space despite CAT's weekly SELL signal.\n\nDefense names stand out as particularly compelling, with Lockheed Martin and Northrop Grumman flashing BUY across all three timeframes amid geopolitical headlines including potential shifts in Middle East policy. Honeywell and Waste Management also maintain full alignment, offering diversified industrial exposure with cleaner momentum profiles. The notable outlier remains GE Aerospace, which carries SELL signals across daily, weekly, and monthly readings\u2014a clear laggard worth avoiding until momentum inflects. Transportation names like UNP, FDX, and UPS show daily strength but weekly weakness, suggesting these require patience before committing fresh capital."
     },
     {
       "sector": "Materials",
@@ -820,16 +820,16 @@
         "APD"
       ],
       "signals": {
-        "daily_buy": 2,
-        "weekly_buy": 2,
-        "monthly_buy": 4,
+        "daily_buy": 6,
+        "weekly_buy": 3,
+        "monthly_buy": 6,
         "total": 6
       },
-      "synopsis": "# Materials Sector Synopsis\n\nThe Materials sector presents a mixed-to-cautiously-constructive picture this week, with monthly signals showing relative strength at 4/6 BUY while daily and weekly readings remain tepid at just 2/6 BUY each. This timeframe divergence suggests longer-term structural support may be intact even as near-term momentum struggles to find footing. The macro backdrop isn't helping\u2014copper's recent slide amid West Asian conflict concerns has cast a shadow over industrial metals demand expectations, while broader emerging market weakness, evidenced by South Africa's worst monthly equity performance since 2008, underscores the challenging global environment for commodity-linked names.\n\nAmong individual names, Newmont (NEM) stands out with BUY signals on both daily and monthly timeframes, potentially benefiting from safe-haven flows into gold as geopolitical tensions persist. Air Products (APD) also merits attention with weekly and monthly BUY alignment, showing steadier industrial gas demand dynamics. Freeport-McMoRan (FCX) remains difficult to read given signal errors, but copper-focused traders should monitor it closely as conflict-driven demand narratives evolve."
+      "synopsis": "# Materials Sector Synopsis\n\n**Overall Bias: Bullish with Near-Term Caution**\n\nThe Materials sector presents a constructive setup heading into mid-April, with unanimous daily and monthly buy signals suggesting solid underlying momentum, though the weekly timeframe's 3/6 split warrants attention. This divergence\u2014where shorter-term strength coexists with intermediate hesitation\u2014often reflects consolidation within a broader uptrend rather than trend exhaustion. Headlines around critical minerals supply chains continue to drive investor interest, with nickel-cobalt markets racing toward a projected $35 billion valuation and mounting concerns over strategic metal shortages for defense and tech applications providing a compelling macro tailwind.\n\nAmong individual names, **AA** (Alcoa) stands out with full alignment across all three timeframes, suggesting clean momentum worth riding. The industrial gas leaders **LIN** and **APD** also show synchronized buy signals and tend to offer more defensive exposure within the sector. Conversely, **NEM** and **FCX** flash weekly sell signals against otherwise bullish structures\u2014traders should watch these miners closely for potential re-entry points as weekly momentum stabilizes."
     },
     {
       "sector": "Real Estate",
-      "bias": "Bearish",
+      "bias": "Distribution",
       "tickers": [
         "PLD",
         "AMT",
@@ -839,12 +839,12 @@
         "WELL"
       ],
       "signals": {
-        "daily_buy": 0,
+        "daily_buy": 4,
         "weekly_buy": 1,
-        "monthly_buy": 2,
+        "monthly_buy": 5,
         "total": 6
       },
-      "synopsis": "# Real Estate Sector Synopsis\n\nThe Real Estate sector presents a decidedly bearish near-term picture with notable longer-term divergence worth monitoring. Daily signals show zero buy readings across our coverage universe, while weekly improves marginally to 1/6 and monthly to 2/6\u2014suggesting the sector may be finding a floor at higher timeframes even as short-term momentum remains under pressure. This classic \"selling into potential support\" pattern warrants caution but also attention for those watching for rotation opportunities.\n\nAmong key names, **AMT** stands out negatively with sell signals across all three timeframes, indicating sustained distribution in the tower REIT space. Conversely, **SPG** and **O** flash monthly buy signals despite daily weakness, hinting at accumulation by longer-duration capital. The SL Green refinancing news\u2014securing $1.65 billion for a flagship NYC office tower\u2014offers a modest confidence signal for commercial real estate financing conditions, though office fundamentals remain challenged. **EQIX** deserves a watchlist spot given its weekly buy amid broader sector weakness, potentially benefiting from continued data center demand tailwinds."
+      "synopsis": "# Real Estate Sector Synopsis\n\nThe Real Estate sector presents a cautiously constructive picture, with monthly momentum firmly bullish (5/6 BUY) while weekly signals lag considerably (1/6 BUY), suggesting the sector may be working through a near-term consolidation phase within a broader uptrend. Daily readings have improved to 4/6 BUY, hinting that the weekly weakness could be finding a floor. This timeframe divergence warrants attention\u2014longer-term structural support remains intact, but traders should expect choppy price action in the interim.\n\nEQIX stands out as the cleanest setup, showing green across all three timeframes, reflecting sustained demand for data center REITs amid ongoing digital infrastructure buildout. PLD and WELL both display the classic pattern of monthly strength with weekly pullbacks, potentially offering favorable entry points for swing traders. Notably, AMT and O remain under pressure across the board\u2014the latter's weakness is particularly striking given its historical defensive appeal. With recent headlines highlighting opportunistic plays and capital flows into alternative real estate segments, selective positioning appears warranted over broad sector exposure."
     },
     {
       "sector": "Technology",
@@ -892,12 +892,12 @@
         "U"
       ],
       "signals": {
-        "daily_buy": 12,
-        "weekly_buy": 2,
+        "daily_buy": 20,
+        "weekly_buy": 4,
         "monthly_buy": 12,
         "total": 40
       },
-      "synopsis": "# Technology Sector Synopsis\n\n**Overall Bias: Bearish with Emerging Daily Stabilization**\n\nThe Technology sector remains under significant pressure, with weekly signals flashing a stark 2/40 BUY reading that underscores the intermediate-term downtrend gripping the space. However, daily signals have begun to firm at 12/40, suggesting some near-term stabilization may be taking hold even as the broader weekly trend remains decisively negative. The monthly timeframe shows resilience at 12/40 BUY, indicating longer-term structural support hasn't fully capitulated. Notably, megacap AI plays continue to struggle\u2014NVDA, MSFT, and META are printing sell signals across all three timeframes, reflecting the volatility plaguing AI-related names as highlighted by Oracle's recent weakness amid broader sector rotation.\n\nWithin this challenged landscape, a few names warrant attention. AAPL stands out as the sole megacap showing daily and monthly strength, potentially positioning it as a relative safe haven. Meanwhile, AMD and INTC are both flashing daily and monthly buy signals despite weekly weakness\u2014a divergence pattern that often precedes trend reversals, particularly as photonics and data center infrastructure themes gain traction. Traders should monitor whether daily strength can translate into weekly trend improvement before committing significant capital."
+      "synopsis": "# Technology Sector Synopsis\n\nThe Technology sector presents a decidedly mixed picture this week, with daily momentum showing tentative recovery (20/40 BUY) while weekly signals remain deeply bearish at just 4/40 BUY. This classic divergence suggests we're witnessing early-stage stabilization attempts following sustained selling pressure, though conviction remains elusive. The monthly reading of 12/40 BUY indicates the intermediate trend still leans defensive, and mega-cap bellwethers like MSFT, META, and TSLA remain uniformly bearish across all timeframes\u2014a notable drag on sector sentiment.\n\nAgainst this backdrop, AMD and INTC stand out as rare bright spots with triple-timeframe BUY signals, suggesting legacy chipmakers may be finding footing while AI darlings consolidate. JPMorgan's recent contrarian call to keep buying Seagate despite broader tech weakness reflects selective institutional appetite for beaten-down names. AAPL and GOOGL merit monitoring given their daily-monthly alignment despite weekly softness\u2014potential leaders if broader momentum turns. For now, tactical long exposure appears viable on confirmed strength, but position sizing should respect the prevailing weekly headwinds until we see broader confirmation above 10/40 on intermediate signals."
     }
   ]
 }
