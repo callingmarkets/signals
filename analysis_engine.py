@@ -292,8 +292,7 @@ No bullet points. Flowing prose only.""", max_tokens=700)
             fd = fundamentals.get(t, {})
             fs = f"  Fundamentals: {fd.get('score','?')}/100 ({fd.get('grade','N/A')})" if fd.get("score") is not None else ""
             lines.append(f"  ${t} ({r.get('sector','')}) — Sector: {r.get('sector_bias','')}{fs}")
-        return "
-".join(lines) if lines else "None this week"
+        return "\n".join(lines) if lines else "None this week"
 
     long_setups_detail  = fmt_setup(top_longs)
     short_setups_detail = fmt_setup(top_shorts)
