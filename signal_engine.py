@@ -23,109 +23,32 @@ CRYPTO_TRADE_URL = "https://data.alpaca.markets/v1beta3/crypto/us/latest/trades"
 
 # ── TICKERS ────────────────────────────────────────────────────────────────────
 TICKERS = [
-    # ── BROAD MARKET ETFs ──────────────────────────────────────────
-    ("SPY",  "ETF - US Market"),
-    ("QQQ",  "ETF - US Market"),
-    ("IWM",  "ETF - US Market"),
-    ("DIA",  "ETF - US Market"),
-    ("MDY",  "ETF - US Market"),
-    ("VTI",  "ETF - US Market"),
-    ("VOO",  "ETF - US Market"),
-    ("RSP",  "ETF - US Market"),
-    # ── SECTOR ETFs ────────────────────────────────────────────────
-    ("XLK",  "ETF - Technology"),
-    ("XLF",  "ETF - Financials"),
-    ("XLE",  "ETF - Energy"),
-    ("XLV",  "ETF - Healthcare"),
-    ("XLI",  "ETF - Industrials"),
-    ("XLB",  "ETF - Materials"),
-    ("XLU",  "ETF - Utilities"),
-    ("XLRE", "ETF - Real Estate"),
-    ("XLP",  "ETF - Staples"),
-    ("XLY",  "ETF - Consumer"),
-    ("XLC",  "ETF - Communications"),
-    ("XBI",  "ETF - Biotech"),
-    ("SMH",  "ETF - Semiconductors"),
-    ("SOXX", "ETF - Semiconductors"),
-    ("ARKK", "ETF - Innovation"),
-    ("ARKG", "ETF - Genomics"),
-    ("FINX", "ETF - Fintech"),
-    ("CIBR", "ETF - Cybersecurity"),
-    ("HACK", "ETF - Cybersecurity"),
-    ("ROBO", "ETF - Robotics"),
-    ("BOTZ", "ETF - AI & Robotics"),
-    # ── INTERNATIONAL ETFs ─────────────────────────────────────────
-    ("EFA",  "ETF - International"),
-    ("EEM",  "ETF - Emerging Markets"),
-    ("VEA",  "ETF - Developed Markets"),
-    ("VWO",  "ETF - Emerging Markets"),
-    ("FXI",  "ETF - China"),
-    ("MCHI", "ETF - China"),
-    ("EWJ",  "ETF - Japan"),
-    ("EWZ",  "ETF - Brazil"),
-    ("INDA", "ETF - India"),
-    ("EWG",  "ETF - Germany"),
-    ("EWU",  "ETF - UK"),
-    ("EWC",  "ETF - Canada"),
-    ("EWA",  "ETF - Australia"),
-    ("EWY",  "ETF - South Korea"),
-    ("EWT",  "ETF - Taiwan"),
-    # ── FIXED INCOME ───────────────────────────────────────────────
-    ("TLT",  "ETF - Bonds"),
-    ("IEF",  "ETF - Bonds"),
-    ("SHY",  "ETF - Bonds"),
-    ("BND",  "ETF - Bonds"),
-    ("AGG",  "ETF - Bonds"),
-    ("HYG",  "ETF - High Yield"),
-    ("JNK",  "ETF - High Yield"),
-    ("LQD",  "ETF - Corp Bonds"),
-    ("EMB",  "ETF - EM Bonds"),
-    ("TIP",  "ETF - TIPS"),
-    ("MUB",  "ETF - Municipal"),
-    # ── COMMODITIES ────────────────────────────────────────────────
-    ("GLD",  "Commodity"),
-    ("IAU",  "Commodity"),
-    ("SLV",  "Commodity"),
-    ("PPLT", "Commodity"),
-    ("USO",  "Commodity"),
-    ("BNO",  "Commodity"),
-    ("UNG",  "Commodity"),
-    ("DBA",  "Commodity"),
-    ("CORN", "Commodity"),
-    ("WEAT", "Commodity"),
-    ("SOYB", "Commodity"),
-    ("PDBC", "Commodity"),
-    ("DJP",  "Commodity"),
-    ("GDX",  "Commodity"),
-    ("GDXJ", "Commodity"),
-    ("COPX", "Commodity"),
-    ("URA",  "Commodity"),
-    # ── VOLATILITY & ALTERNATIVES ──────────────────────────────────
-    ("VXX",  "ETF - Volatility"),
-    ("UVXY", "ETF - Volatility"),
-    ("SVXY", "ETF - Volatility"),
-    ("IBIT", "ETF - Bitcoin"),
-    ("FBTC", "ETF - Bitcoin"),
-    ("ETHA", "ETF - Ethereum"),
-    # ── CRYPTO ─────────────────────────────────────────────────────
-    ("BTC/USD",  "Crypto"),
-    ("ETH/USD",  "Crypto"),
-    ("SOL/USD",  "Crypto"),
-    ("XRP/USD",  "Crypto"),
-    ("DOGE/USD", "Crypto"),
-    ("AVAX/USD", "Crypto"),
-    ("LINK/USD", "Crypto"),
-    ("UNI/USD",  "Crypto"),
-    ("AAVE/USD", "Crypto"),
-    ("LTC/USD",  "Crypto"),
-    # ── TECHNOLOGY ─────────────────────────────────────────────────
+
+    # ═══════════════════════════════════════════════════════════════════
+    # BROAD MARKET
+    # Phase ETF: SPY
+    # ═══════════════════════════════════════════════════════════════════
+    ("SPY",  "Broad Market"),
+    ("QQQ",  "Broad Market"),
+    ("IWM",  "Broad Market"),
+    ("DIA",  "Broad Market"),
+    ("MDY",  "Broad Market"),
+    ("VTI",  "Broad Market"),
+    ("VOO",  "Broad Market"),
+    ("RSP",  "Broad Market"),
+    ("SPLG", "Broad Market"),
+    ("SCHB", "Broad Market"),
+    ("ITOT", "Broad Market"),
+
+    # ═══════════════════════════════════════════════════════════════════
+    # TIER 1 — GICS CORE SECTORS
+    # ═══════════════════════════════════════════════════════════════════
+
+    # ── TECHNOLOGY  Phase ETF: XLK ──────────────────────────────────
+    ("XLK",  "Technology"),
     ("AAPL",  "Technology"),
     ("MSFT",  "Technology"),
     ("NVDA",  "Technology"),
-    ("GOOGL", "Technology"),
-    ("META",  "Technology"),
-    ("AMZN",  "Technology"),
-    ("TSLA",  "Technology"),
     ("AVGO",  "Technology"),
     ("ORCL",  "Technology"),
     ("CRM",   "Technology"),
@@ -138,6 +61,10 @@ TICKERS = [
     ("LRCX",  "Technology"),
     ("KLAC",  "Technology"),
     ("MRVL",  "Technology"),
+    ("ADBE",  "Technology"),
+    ("NOW",   "Technology"),
+    ("INTU",  "Technology"),
+    ("WDAY",  "Technology"),
     ("SNOW",  "Technology"),
     ("PLTR",  "Technology"),
     ("CRWD",  "Technology"),
@@ -146,113 +73,422 @@ TICKERS = [
     ("NET",   "Technology"),
     ("DDOG",  "Technology"),
     ("MDB",   "Technology"),
-    ("ADBE",  "Technology"),
-    ("NOW",   "Technology"),
-    ("INTU",  "Technology"),
-    ("WDAY",  "Technology"),
     ("SHOP",  "Technology"),
     ("UBER",  "Technology"),
-    ("LYFT",  "Technology"),
-    ("ABNB",  "Technology"),
-    ("COIN",  "Technology"),
-    ("HOOD",  "Technology"),
-    ("APP",   "Technology"),
-    ("RBLX",  "Technology"),
-    ("U",     "Technology"),
-    # ── FINANCIALS ─────────────────────────────────────────────────
-    ("JPM",  "Financials"),
-    ("BAC",  "Financials"),
-    ("GS",   "Financials"),
-    ("MS",   "Financials"),
-    ("WFC",  "Financials"),
-    ("C",    "Financials"),
-    ("BX",   "Financials"),
-    ("KKR",  "Financials"),
-    ("APO",  "Financials"),
-    ("BLK",  "Financials"),
-    ("SCHW", "Financials"),
-    ("V",    "Financials"),
-    ("MA",   "Financials"),
-    ("AXP",  "Financials"),
-    ("PYPL", "Financials"),
-    ("SQ",   "Financials"),
-    ("NU",   "Financials"),
-    ("SOFI", "Financials"),
-    # ── HEALTHCARE ─────────────────────────────────────────────────
-    ("UNH",  "Healthcare"),
-    ("JNJ",  "Healthcare"),
-    ("LLY",  "Healthcare"),
-    ("ABBV", "Healthcare"),
-    ("MRK",  "Healthcare"),
-    ("PFE",  "Healthcare"),
-    ("AMGN", "Healthcare"),
-    ("GILD", "Healthcare"),
-    ("BIIB", "Healthcare"),
-    ("REGN", "Healthcare"),
-    ("VRTX", "Healthcare"),
-    ("ISRG", "Healthcare"),
-    ("BSX",  "Healthcare"),
-    ("MDT",  "Healthcare"),
-    ("CVS",  "Healthcare"),
-    ("HUM",  "Healthcare"),
-    # ── ENERGY ─────────────────────────────────────────────────────
-    ("XOM",  "Energy"),
-    ("CVX",  "Energy"),
-    ("COP",  "Energy"),
-    ("EOG",  "Energy"),
-    ("SLB",  "Energy"),
-    ("MPC",  "Energy"),
-    ("PSX",  "Energy"),
-    ("VLO",  "Energy"),
-    ("HAL",  "Energy"),
-    ("DVN",  "Energy"),
-    ("OXY",  "Energy"),
-    ("HES",  "Energy"),
-    # ── CONSUMER ───────────────────────────────────────────────────
-    ("COST", "Consumer"),
-    ("WMT",  "Consumer"),
-    ("TGT",  "Consumer"),
-    ("HD",   "Consumer"),
-    ("LOW",  "Consumer"),
-    ("MCD",  "Consumer"),
-    ("SBUX", "Consumer"),
-    ("NKE",  "Consumer"),
-    ("LULU", "Consumer"),
-    ("TJX",  "Consumer"),
-    ("BKNG", "Consumer"),
-    ("MAR",  "Consumer"),
-    ("HLT",  "Consumer"),
-    ("DIS",  "Consumer"),
-    ("NFLX", "Consumer"),
-    ("SPOT", "Consumer"),
-    # ── INDUSTRIALS ────────────────────────────────────────────────
-    ("CAT",  "Industrials"),
-    ("DE",   "Industrials"),
-    ("RTX",  "Industrials"),
-    ("LMT",  "Industrials"),
-    ("NOC",  "Industrials"),
-    ("GE",   "Industrials"),
-    ("HON",  "Industrials"),
-    ("BA",   "Industrials"),
-    ("UNP",  "Industrials"),
-    ("FDX",  "Industrials"),
-    ("UPS",  "Industrials"),
-    ("WM",   "Industrials"),
-    # ── REAL ESTATE ────────────────────────────────────────────────
-    ("PLD",  "Real Estate"),
-    ("AMT",  "Real Estate"),
-    ("EQIX", "Real Estate"),
-    ("SPG",  "Real Estate"),
-    ("O",    "Real Estate"),
-    ("WELL", "Real Estate"),
-    # ── MATERIALS ──────────────────────────────────────────────────
-    ("NEM",  "Materials"),
-    ("FCX",  "Materials"),
-    ("AA",   "Materials"),
-    ("NUE",  "Materials"),
-    ("LIN",  "Materials"),
-    ("APD",  "Materials"),
+    ("HPQ",   "Technology"),
+    ("DELL",  "Technology"),
+
+    # ── COMMUNICATIONS  Phase ETF: XLC ──────────────────────────────
+    ("XLC",   "Communications"),
+    ("GOOGL", "Communications"),
+    ("META",  "Communications"),
+    ("DIS",   "Communications"),
+    ("NFLX",  "Communications"),
+    ("SPOT",  "Communications"),
+    ("APP",   "Communications"),
+    ("RBLX",  "Communications"),
+    ("U",     "Communications"),
+    ("T",     "Communications"),
+    ("VZ",    "Communications"),
+    ("CMCSA", "Communications"),
+    ("CHTR",  "Communications"),
+    ("TMUS",  "Communications"),
+    ("EA",    "Communications"),
+    ("TTWO",  "Communications"),
+    ("PARA",  "Communications"),
+    ("WBD",   "Communications"),
+    ("FOXA",  "Communications"),
+    ("LBRDA", "Communications"),
+
+    # ── CONSUMER DISCRETIONARY  Phase ETF: XLY ──────────────────────
+    ("XLY",   "Consumer Discretionary"),
+    ("AMZN",  "Consumer Discretionary"),
+    ("TSLA",  "Consumer Discretionary"),
+    ("HD",    "Consumer Discretionary"),
+    ("LOW",   "Consumer Discretionary"),
+    ("MCD",   "Consumer Discretionary"),
+    ("SBUX",  "Consumer Discretionary"),
+    ("NKE",   "Consumer Discretionary"),
+    ("LULU",  "Consumer Discretionary"),
+    ("TJX",   "Consumer Discretionary"),
+    ("BKNG",  "Consumer Discretionary"),
+    ("MAR",   "Consumer Discretionary"),
+    ("HLT",   "Consumer Discretionary"),
+    ("TGT",   "Consumer Discretionary"),
+    ("ABNB",  "Consumer Discretionary"),
+    ("LYFT",  "Consumer Discretionary"),
+    ("RCL",   "Consumer Discretionary"),
+    ("CCL",   "Consumer Discretionary"),
+    ("F",     "Consumer Discretionary"),
+    ("GM",    "Consumer Discretionary"),
+
+    # ── CONSUMER STAPLES  Phase ETF: XLP ────────────────────────────
+    ("XLP",   "Consumer Staples"),
+    ("COST",  "Consumer Staples"),
+    ("WMT",   "Consumer Staples"),
+    ("PG",    "Consumer Staples"),
+    ("KO",    "Consumer Staples"),
+    ("PEP",   "Consumer Staples"),
+    ("PM",    "Consumer Staples"),
+    ("MO",    "Consumer Staples"),
+    ("CL",    "Consumer Staples"),
+    ("GIS",   "Consumer Staples"),
+    ("K",     "Consumer Staples"),
+    ("MDLZ",  "Consumer Staples"),
+    ("HSY",   "Consumer Staples"),
+    ("TSN",   "Consumer Staples"),
+    ("SJM",   "Consumer Staples"),
+    ("CAG",   "Consumer Staples"),
+
+    # ── FINANCIALS  Phase ETF: XLF ───────────────────────────────────
+    ("XLF",   "Financials"),
+    ("JPM",   "Financials"),
+    ("BAC",   "Financials"),
+    ("GS",    "Financials"),
+    ("MS",    "Financials"),
+    ("WFC",   "Financials"),
+    ("C",     "Financials"),
+    ("BX",    "Financials"),
+    ("KKR",   "Financials"),
+    ("APO",   "Financials"),
+    ("BLK",   "Financials"),
+    ("SCHW",  "Financials"),
+    ("V",     "Financials"),
+    ("MA",    "Financials"),
+    ("AXP",   "Financials"),
+    ("PYPL",  "Financials"),
+    ("SQ",    "Financials"),
+    ("NU",    "Financials"),
+    ("SOFI",  "Financials"),
+    ("COF",   "Financials"),
+    ("USB",   "Financials"),
+    ("PNC",   "Financials"),
+    ("TFC",   "Financials"),
+    ("AIG",   "Financials"),
+    ("MET",   "Financials"),
+
+    # ── HEALTH CARE  Phase ETF: XLV ──────────────────────────────────
+    ("XLV",   "Health Care"),
+    ("UNH",   "Health Care"),
+    ("JNJ",   "Health Care"),
+    ("LLY",   "Health Care"),
+    ("ABBV",  "Health Care"),
+    ("MRK",   "Health Care"),
+    ("PFE",   "Health Care"),
+    ("AMGN",  "Health Care"),
+    ("GILD",  "Health Care"),
+    ("BIIB",  "Health Care"),
+    ("REGN",  "Health Care"),
+    ("VRTX",  "Health Care"),
+    ("ISRG",  "Health Care"),
+    ("BSX",   "Health Care"),
+    ("MDT",   "Health Care"),
+    ("CVS",   "Health Care"),
+    ("HUM",   "Health Care"),
+    ("ELV",   "Health Care"),
+    ("CI",    "Health Care"),
+    ("ZTS",   "Health Care"),
+    ("DXCM",  "Health Care"),
+    ("IDXX",  "Health Care"),
+
+    # ── ENERGY  Phase ETF: XLE ───────────────────────────────────────
+    ("XLE",   "Energy"),
+    ("XOM",   "Energy"),
+    ("CVX",   "Energy"),
+    ("COP",   "Energy"),
+    ("EOG",   "Energy"),
+    ("SLB",   "Energy"),
+    ("MPC",   "Energy"),
+    ("PSX",   "Energy"),
+    ("VLO",   "Energy"),
+    ("HAL",   "Energy"),
+    ("DVN",   "Energy"),
+    ("OXY",   "Energy"),
+    ("HES",   "Energy"),
+    ("BKR",   "Energy"),
+    ("FANG",  "Energy"),
+    ("MRO",   "Energy"),
+    ("APA",   "Energy"),
+
+    # ── INDUSTRIALS  Phase ETF: XLI ──────────────────────────────────
+    ("XLI",   "Industrials"),
+    ("CAT",   "Industrials"),
+    ("DE",    "Industrials"),
+    ("RTX",   "Industrials"),
+    ("LMT",   "Industrials"),
+    ("NOC",   "Industrials"),
+    ("GE",    "Industrials"),
+    ("HON",   "Industrials"),
+    ("BA",    "Industrials"),
+    ("UNP",   "Industrials"),
+    ("FDX",   "Industrials"),
+    ("UPS",   "Industrials"),
+    ("WM",    "Industrials"),
+    ("MMM",   "Industrials"),
+    ("EMR",   "Industrials"),
+    ("ETN",   "Industrials"),
+    ("PH",    "Industrials"),
+    ("ROK",   "Industrials"),
+    ("CMI",   "Industrials"),
+    ("PCAR",  "Industrials"),
+
+    # ── MATERIALS  Phase ETF: XLB ────────────────────────────────────
+    ("XLB",   "Materials"),
+    ("NEM",   "Materials"),
+    ("FCX",   "Materials"),
+    ("AA",    "Materials"),
+    ("NUE",   "Materials"),
+    ("LIN",   "Materials"),
+    ("APD",   "Materials"),
+    ("ECL",   "Materials"),
+    ("DD",    "Materials"),
+    ("DOW",   "Materials"),
+    ("PPG",   "Materials"),
+    ("VMC",   "Materials"),
+    ("MLM",   "Materials"),
+    ("IP",    "Materials"),
+    ("PKG",   "Materials"),
+    ("ALB",   "Materials"),
+
+    # ── UTILITIES  Phase ETF: XLU ────────────────────────────────────
+    ("XLU",   "Utilities"),
+    ("NEE",   "Utilities"),
+    ("DUK",   "Utilities"),
+    ("SO",    "Utilities"),
+    ("D",     "Utilities"),
+    ("AEP",   "Utilities"),
+    ("EXC",   "Utilities"),
+    ("SRE",   "Utilities"),
+    ("PCG",   "Utilities"),
+    ("ES",    "Utilities"),
+    ("AWK",   "Utilities"),
+    ("ETR",   "Utilities"),
+    ("FE",    "Utilities"),
+    ("PPL",   "Utilities"),
+    ("NI",    "Utilities"),
+    ("CMS",   "Utilities"),
+
+    # ── REAL ESTATE  Phase ETF: XLRE ─────────────────────────────────
+    ("XLRE",  "Real Estate"),
+    ("PLD",   "Real Estate"),
+    ("AMT",   "Real Estate"),
+    ("EQIX",  "Real Estate"),
+    ("SPG",   "Real Estate"),
+    ("O",     "Real Estate"),
+    ("WELL",  "Real Estate"),
+    ("PSA",   "Real Estate"),
+    ("VTR",   "Real Estate"),
+    ("EQR",   "Real Estate"),
+    ("AVB",   "Real Estate"),
+    ("DLR",   "Real Estate"),
+    ("CCI",   "Real Estate"),
+    ("SBAC",  "Real Estate"),
+    ("WY",    "Real Estate"),
+    ("HST",   "Real Estate"),
+
+    # ═══════════════════════════════════════════════════════════════════
+    # TIER 2 — SUB-SECTORS (independent universes, duplication intentional)
+    # ═══════════════════════════════════════════════════════════════════
+
+    # ── SEMICONDUCTORS  Phase ETF: SMH ───────────────────────────────
+    ("SMH",   "Semiconductors"),
+    ("SOXX",  "Semiconductors"),
+    ("NVDA",  "Semiconductors"),
+    ("AMD",   "Semiconductors"),
+    ("INTC",  "Semiconductors"),
+    ("QCOM",  "Semiconductors"),
+    ("MU",    "Semiconductors"),
+    ("AVGO",  "Semiconductors"),
+    ("AMAT",  "Semiconductors"),
+    ("LRCX",  "Semiconductors"),
+    ("KLAC",  "Semiconductors"),
+    ("MRVL",  "Semiconductors"),
+    ("ASML",  "Semiconductors"),
+    ("TSM",   "Semiconductors"),
+    ("MCHP",  "Semiconductors"),
+    ("ON",    "Semiconductors"),
+    ("MPWR",  "Semiconductors"),
+    ("ENTG",  "Semiconductors"),
+    ("ONTO",  "Semiconductors"),
+    ("TER",   "Semiconductors"),
+
+    # ── BIOTECH  Phase ETF: XBI ──────────────────────────────────────
+    ("XBI",   "Biotech"),
+    ("ARKG",  "Biotech"),
+    ("MRNA",  "Biotech"),
+    ("BNTX",  "Biotech"),
+    ("REGN",  "Biotech"),
+    ("VRTX",  "Biotech"),
+    ("BIIB",  "Biotech"),
+    ("AMGN",  "Biotech"),
+    ("GILD",  "Biotech"),
+    ("ILMN",  "Biotech"),
+    ("EXAS",  "Biotech"),
+    ("BMRN",  "Biotech"),
+    ("ALNY",  "Biotech"),
+    ("INCY",  "Biotech"),
+    ("SGEN",  "Biotech"),
+    ("RARE",  "Biotech"),
+
+    # ── CYBERSECURITY  Phase ETF: CIBR ───────────────────────────────
+    ("CIBR",  "Cybersecurity"),
+    ("HACK",  "Cybersecurity"),
+    ("CRWD",  "Cybersecurity"),
+    ("PANW",  "Cybersecurity"),
+    ("ZS",    "Cybersecurity"),
+    ("NET",   "Cybersecurity"),
+    ("FTNT",  "Cybersecurity"),
+    ("OKTA",  "Cybersecurity"),
+    ("S",     "Cybersecurity"),
+    ("TENB",  "Cybersecurity"),
+    ("QLYS",  "Cybersecurity"),
+    ("VRNS",  "Cybersecurity"),
+    ("CSCO",  "Cybersecurity"),
+    ("CHKP",  "Cybersecurity"),
+    ("RPD",   "Cybersecurity"),
+
+    # ── AI & ROBOTICS  Phase ETF: BOTZ ───────────────────────────────
+    ("BOTZ",  "AI & Robotics"),
+    ("ROBO",  "AI & Robotics"),
+    ("NVDA",  "AI & Robotics"),
+    ("MSFT",  "AI & Robotics"),
+    ("GOOGL", "AI & Robotics"),
+    ("META",  "AI & Robotics"),
+    ("PATH",  "AI & Robotics"),
+    ("AI",    "AI & Robotics"),
+    ("BBAI",  "AI & Robotics"),
+    ("SOUN",  "AI & Robotics"),
+    ("CFLT",  "AI & Robotics"),
+    ("GTLB",  "AI & Robotics"),
+    ("AMBA",  "AI & Robotics"),
+    ("TER",   "AI & Robotics"),
+    ("ISRG",  "AI & Robotics"),
+    ("PLTR",  "AI & Robotics"),
+    ("QBTS",  "AI & Robotics"),  # quantum computing — next frontier of AI infrastructure
+
+    # ── FINTECH  Phase ETF: FINX ─────────────────────────────────────
+    ("FINX",  "Fintech"),
+    ("V",     "Fintech"),
+    ("MA",    "Fintech"),
+    ("PYPL",  "Fintech"),
+    ("SQ",    "Fintech"),
+    ("NU",    "Fintech"),
+    ("SOFI",  "Fintech"),
+    ("AFRM",  "Fintech"),
+    ("UPST",  "Fintech"),
+    ("LC",    "Fintech"),
+    ("WEX",   "Fintech"),
+    ("FLYW",  "Fintech"),
+    ("CWAN",  "Fintech"),
+    ("COIN",  "Fintech"),
+    ("HOOD",  "Fintech"),
+
+    # ── CRYPTO  Phase ETF: IBIT ──────────────────────────────────────
+    # ETF wrappers (TradFi access)
+    ("IBIT",      "Crypto"),
+    ("FBTC",      "Crypto"),
+    ("ETHA",      "Crypto"),
+    # Top 25 non-stablecoin crypto by market cap
+    ("BTC/USD",   "Crypto"),   # 1  Bitcoin
+    ("ETH/USD",   "Crypto"),   # 2  Ethereum
+    ("BNB/USD",   "Crypto"),   # 3  BNB
+    ("SOL/USD",   "Crypto"),   # 4  Solana
+    ("XRP/USD",   "Crypto"),   # 5  XRP
+    ("ADA/USD",   "Crypto"),   # 6  Cardano
+    ("AVAX/USD",  "Crypto"),   # 7  Avalanche
+    ("DOGE/USD",  "Crypto"),   # 8  Dogecoin
+    ("DOT/USD",   "Crypto"),   # 9  Polkadot
+    ("MATIC/USD", "Crypto"),   # 10 Polygon
+    ("SHIB/USD",  "Crypto"),   # 11 Shiba Inu
+    ("LINK/USD",  "Crypto"),   # 12 Chainlink
+    ("UNI/USD",   "Crypto"),   # 13 Uniswap
+    ("LTC/USD",   "Crypto"),   # 14 Litecoin
+    ("ATOM/USD",  "Crypto"),   # 15 Cosmos
+    ("XLM/USD",   "Crypto"),   # 16 Stellar
+    ("ALGO/USD",  "Crypto"),   # 17 Algorand
+    ("NEAR/USD",  "Crypto"),   # 18 NEAR Protocol
+    ("ICP/USD",   "Crypto"),   # 19 Internet Computer
+    ("FIL/USD",   "Crypto"),   # 20 Filecoin
+    ("APT/USD",   "Crypto"),   # 21 Aptos
+    ("ARB/USD",   "Crypto"),   # 22 Arbitrum
+    ("OP/USD",    "Crypto"),   # 23 Optimism
+    ("INJ/USD",   "Crypto"),   # 24 Injective
+    ("AAVE/USD",  "Crypto"),   # 25 Aave
+
+    # ── COMMODITIES  Phase ETF: PDBC ─────────────────────────────────
+    ("PDBC",  "Commodities"),
+    ("GLD",   "Commodities"),
+    ("IAU",   "Commodities"),
+    ("SLV",   "Commodities"),
+    ("PPLT",  "Commodities"),
+    ("USO",   "Commodities"),
+    ("BNO",   "Commodities"),
+    ("UNG",   "Commodities"),
+    ("DBA",   "Commodities"),
+    ("CORN",  "Commodities"),
+    ("WEAT",  "Commodities"),
+    ("SOYB",  "Commodities"),
+    ("DJP",   "Commodities"),
+    ("GDX",   "Commodities"),
+    ("GDXJ",  "Commodities"),
+    ("COPX",  "Commodities"),
+    ("URA",   "Commodities"),
+
+    # ── VOLATILITY  Phase ETF: VXX ───────────────────────────────────
+    # VIX futures ETFs + CBOE (exchange that runs VIX) + related products
+    ("VXX",   "Volatility"),
+    ("UVXY",  "Volatility"),
+    ("SVXY",  "Volatility"),
+    ("VIXY",  "Volatility"),
+    ("VIXM",  "Volatility"),
+    ("CBOE",  "Volatility"),  # Chicago Board Options Exchange — the VIX company
+    ("SPXS",  "Volatility"),  # 3x inverse S&P — hedging instrument
+    ("SQQQ",  "Volatility"),  # 3x inverse Nasdaq — hedging instrument
+    ("SH",    "Volatility"),  # simple inverse S&P
+    ("PSQ",   "Volatility"),  # simple inverse Nasdaq
+    ("TAIL",  "Volatility"),  # tail risk hedge ETF
+    ("BTAL",  "Volatility"),  # anti-beta — moves opposite market
+
+    # ── FIXED INCOME  Phase ETF: TLT ─────────────────────────────────
+    ("TLT",   "Fixed Income"),
+    ("IEF",   "Fixed Income"),
+    ("SHY",   "Fixed Income"),
+    ("BND",   "Fixed Income"),
+    ("AGG",   "Fixed Income"),
+    ("HYG",   "Fixed Income"),
+    ("JNK",   "Fixed Income"),
+    ("LQD",   "Fixed Income"),
+    ("EMB",   "Fixed Income"),
+    ("TIP",   "Fixed Income"),
+    ("MUB",   "Fixed Income"),
+
+    # ── INTERNATIONAL DEVELOPED  Phase ETF: EFA ──────────────────────
+    ("EFA",   "International Developed"),
+    ("VEA",   "International Developed"),
+    ("EWJ",   "International Developed"),
+    ("EWG",   "International Developed"),
+    ("EWU",   "International Developed"),
+    ("EWC",   "International Developed"),
+    ("EWA",   "International Developed"),
+    ("EWL",   "International Developed"),
+    ("EWQ",   "International Developed"),
+    ("HEZU",  "International Developed"),
+    ("DXJ",   "International Developed"),
+
+    # ── INTERNATIONAL EMERGING  Phase ETF: EEM ───────────────────────
+    ("EEM",   "International Emerging"),
+    ("VWO",   "International Emerging"),
+    ("FXI",   "International Emerging"),
+    ("MCHI",  "International Emerging"),
+    ("EWZ",   "International Emerging"),
+    ("INDA",  "International Emerging"),
+    ("EWY",   "International Emerging"),
+    ("EWT",   "International Emerging"),
+    ("KWEB",  "International Emerging"),
+    ("GXC",   "International Emerging"),
+    ("INDY",  "International Emerging"),
 ]
+
 
 # ── INDICATOR PARAMS ───────────────────────────────────────────────────────────
 EMA_FAST   = 20
@@ -407,6 +643,51 @@ def compute_signal(df: pd.DataFrame) -> dict:
         "last_close": round(float(src.iloc[-1]), 2),
     }
 
+# ── DEBUG MODE ────────────────────────────────────────────────────────────────
+def debug_ticker(symbol: str, timeframe: str = "1Month"):
+    # Prints detailed indicator values for a ticker to compare with TradingView
+    print(f"\n{'='*60}")
+    print(f"DEBUG: {symbol} — {timeframe}")
+    print(f"{'='*60}")
+
+    df = fetch_bars(symbol, timeframe)
+    if df.empty:
+        print("ERROR: No bars returned")
+        return
+
+    print(f"Bars fetched: {len(df)}")
+    print(f"Date range:   {df.index[0].date()} → {df.index[-1].date()}")
+    print(f"Last close:   {df['close'].iloc[-1]:.4f}")
+    print(f"Prev close:   {df['close'].iloc[-2]:.4f}")
+
+    src = df["close"]
+
+    ema20 = calc_ema(src, EMA_FAST)
+    ema55 = calc_ema(src, EMA_SLOW)
+    print(f"\nEMA20:  {ema20.iloc[-1]:.4f}")
+    print(f"EMA55:  {ema55.iloc[-1]:.4f}")
+    print(f"bull1 (EMA20 > EMA55): {ema20.iloc[-1] > ema55.iloc[-1]}")
+
+    rsi14  = calc_rsi(src, RSI_LEN)
+    rsi_ma = calc_ema(rsi14, RSI_MA_LEN)
+    print(f"\nRSI14:   {rsi14.iloc[-1]:.4f}")
+    print(f"RSI EMA: {rsi_ma.iloc[-1]:.4f}")
+    print(f"bull2 (RSI > RSI EMA): {rsi14.iloc[-1] > rsi_ma.iloc[-1]}")
+
+    macd_line, signal_line = calc_macd(src, MACD_FAST, MACD_SLOW, MACD_SIG)
+    print(f"\nMACD Line:   {macd_line.iloc[-1]:.4f}")
+    print(f"Signal Line: {signal_line.iloc[-1]:.4f}")
+    print(f"bull3 (MACD > Signal): {macd_line.iloc[-1] > signal_line.iloc[-1]}")
+
+    bull1 = bool(ema20.iloc[-1] > ema55.iloc[-1])
+    bull2 = bool(rsi14.iloc[-1] > rsi_ma.iloc[-1])
+    bull3 = bool(macd_line.iloc[-1] > signal_line.iloc[-1])
+    score  = int(bull1) + int(bull2) + int(bull3)
+    signal = "BUY" if score >= 2 else "SELL"
+
+    print(f"\nScore: {score}/3  →  Signal: {signal}")
+    print(f"{'='*60}\n")
+
 # ── MAIN ───────────────────────────────────────────────────────────────────────
 def run():
     tf_map = {
@@ -504,5 +785,13 @@ def run():
     print("Prices:", {r["ticker"]: r["price"] for r in results})
 
 if __name__ == "__main__":
-    print("CallingMarkets Signal Engine\n")
-    run()
+    import sys
+    if len(sys.argv) >= 2 and sys.argv[1] == "debug":
+        # Usage: python signal_engine.py debug XLE 1Month
+        ticker    = sys.argv[2] if len(sys.argv) > 2 else "XLE"
+        timeframe = sys.argv[3] if len(sys.argv) > 3 else "1Month"
+        print("CallingMarkets Signal Engine — Debug Mode")
+        debug_ticker(ticker, timeframe)
+    else:
+        print("CallingMarkets Signal Engine\n")
+        run()
