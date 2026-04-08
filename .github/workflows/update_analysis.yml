@@ -28,6 +28,9 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           NEWSAPI_KEY:       ${{ secrets.NEWSAPI_KEY }}
+          WP_URL:            ${{ secrets.WP_URL }}
+          WP_USERNAME:       ${{ secrets.WP_USERNAME }}
+          WP_APP_PASSWORD:   ${{ secrets.WP_APP_PASSWORD }}
         run: python analysis_engine.py
 
       - name: Commit analysis.json
