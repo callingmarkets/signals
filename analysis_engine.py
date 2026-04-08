@@ -290,7 +290,8 @@ No bullet points. Flowing prose only.""", max_tokens=700)
         for r in rows[:max_n]:
             t  = r["ticker"]
             fd = fundamentals.get(t, {})
-            fs = f"  Fundamentals: {fd.get('score','?')}/100 ({fd.get('grade','N/A')})" if fd.get("score") is not None else ""
+            score_val = fd.get("score", "?")
+            fs = f"  Fundamentals: {score_val}/100 ({fd.get('grade','N/A')})" if fd.get("score") is not None else ""
             lines.append(f"  ${t} ({r.get('sector','')}) — Sector: {r.get('sector_bias','')}{fs}")
         return "\n".join(lines) if lines else "None this week"
 
