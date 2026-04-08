@@ -334,7 +334,8 @@ Tone: sharp, actionable. Like a morning note from a real desk.""", max_tokens=60
             fd = fundamentals.get(t, {})
             grade = fd.get("grade")
             gcolor = {"Strong":"#15803d","Solid":"#1d4ed8","Mixed":"#92620a","Weak":"#b91c1c","Poor":"#6b7280"}.get(grade,"")
-            dot = f'<span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:{gcolor};margin-left:4px;vertical-align:middle;" title="Fundamentals: {fd.get('score','?')} ({grade})"></span>' if grade else ""
+            score_val2 = fd.get("score", "?")
+            dot = (f'<span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:{gcolor};margin-left:4px;vertical-align:middle;" title="Fundamentals: {score_val2} ({grade})"></span>' if grade else "")
             return f'<span style="background:#f3f4f6;padding:2px 8px;border-radius:4px;font-size:12px;font-weight:600;margin:2px;">{t}{dot}</span>'
         tickers_html = " ".join([ticker_badge(t) for t in a.get("tickers", [])[:12] if not t.startswith("ETF") and len(t) <= 5])
         sector_html += f"""
