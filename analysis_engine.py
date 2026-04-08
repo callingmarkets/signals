@@ -7,6 +7,7 @@ posts to WordPress, and saves analysis.json for widget consumption.
 
 import json
 import os
+import base64
 import re
 from datetime import datetime, timedelta
 import requests
@@ -17,6 +18,11 @@ NEWSAPI_KEY       = os.environ["NEWSAPI_KEY"]
 WP_URL            = os.environ["WP_URL"]
 WP_USERNAME       = os.environ["WP_USERNAME"]
 WP_APP_PASSWORD   = os.environ["WP_APP_PASSWORD"]
+
+def wp_auth():
+    credentials = f"{WP_USERNAME}:{WP_APP_PASSWORD}"
+    token = base64.b64encode(credentials.encode()).decode()
+    return {"Authorization": f"Basic {token}"}
 
 ANTHROPIC_URL = "https://api.anthropic.com/v1/messages"
 NEWSAPI_URL   = "https://newsapi.org/v2/everything"
@@ -444,7 +450,7 @@ def post_to_wordpress(title: str, slug: str, content: str, excerpt: str) -> str:
 
     r = requests.post(
         endpoint,
-        auth=(WP_USERNAME, WP_APP_PASSWORD),
+        headers={**wp_auth(), "Content-Type": "application/json"},
         json=payload,
         timeout=30,
     )
@@ -465,12 +471,12 @@ def get_or_create_category(name: str) -> int | None:
     try:
         # Check if exists
         r = requests.get(endpoint, params={"search": name},
-                         auth=(WP_USERNAME, WP_APP_PASSWORD), timeout=10)
+                         headers=wp_auth(), timeout=10)
         cats = r.json()
         if cats:
             return cats[0]["id"]
         # Create it
-        r = requests.post(endpoint, auth=(WP_USERNAME, WP_APP_PASSWORD),
+        r = requests.post(endpoint, headers={**wp_auth(), "Content-Type": "application/json"},
                           json={"name": name}, timeout=10)
         if r.status_code in (200, 201):
             return r.json()["id"]
