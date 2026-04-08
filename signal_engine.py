@@ -327,7 +327,6 @@ TICKERS = [
     ("BMRN",  "Biotech"),
     ("ALNY",  "Biotech"),
     ("INCY",  "Biotech"),
-    ("SGEN",  "Biotech"),
     ("RARE",  "Biotech"),
 
     # ── CYBERSECURITY  Phase ETF: CIBR ───────────────────────────────
@@ -391,7 +390,6 @@ TICKERS = [
     # Top 25 non-stablecoin crypto by market cap
     ("BTC/USD",   "Crypto"),   # 1  Bitcoin
     ("ETH/USD",   "Crypto"),   # 2  Ethereum
-    ("BNB/USD",   "Crypto"),   # 3  BNB
     ("SOL/USD",   "Crypto"),   # 4  Solana
     ("XRP/USD",   "Crypto"),   # 5  XRP
     ("ADA/USD",   "Crypto"),   # 6  Cardano
@@ -399,20 +397,13 @@ TICKERS = [
     ("DOGE/USD",  "Crypto"),   # 8  Dogecoin
     ("DOT/USD",   "Crypto"),   # 9  Polkadot
     ("MATIC/USD", "Crypto"),   # 10 Polygon
-    ("SHIB/USD",  "Crypto"),   # 11 Shiba Inu
     ("LINK/USD",  "Crypto"),   # 12 Chainlink
     ("UNI/USD",   "Crypto"),   # 13 Uniswap
     ("LTC/USD",   "Crypto"),   # 14 Litecoin
-    ("ATOM/USD",  "Crypto"),   # 15 Cosmos
-    ("XLM/USD",   "Crypto"),   # 16 Stellar
     ("ALGO/USD",  "Crypto"),   # 17 Algorand
     ("NEAR/USD",  "Crypto"),   # 18 NEAR Protocol
-    ("ICP/USD",   "Crypto"),   # 19 Internet Computer
     ("FIL/USD",   "Crypto"),   # 20 Filecoin
-    ("APT/USD",   "Crypto"),   # 21 Aptos
     ("ARB/USD",   "Crypto"),   # 22 Arbitrum
-    ("OP/USD",    "Crypto"),   # 23 Optimism
-    ("INJ/USD",   "Crypto"),   # 24 Injective
     ("AAVE/USD",  "Crypto"),   # 25 Aave
 
     # ── COMMODITIES  Phase ETF: PDBC ─────────────────────────────────
