@@ -22,7 +22,24 @@ WP_APP_PASSWORD   = os.environ["WP_APP_PASSWORD"]
 def wp_auth():
     credentials = f"{WP_USERNAME}:{WP_APP_PASSWORD}"
     token = base64.b64encode(credentials.encode()).decode()
-    return {"Authorization": f"Basic {token}"}
+    return {
+        "Authorization": f"Basic {token}",
+        "User-Agent": "CallingMarkets/1.0 (analysis-engine; +https://callingmarkets.ai)",
+    }
+
+
+def wp_post(url, json_data, timeout=30):
+    r = requests.post(url,
+        headers={**wp_auth(), "Content-Type": "application/json"},
+        json=json_data, timeout=timeout)
+    r.raise_for_status()
+    return r.json()
+
+
+def wp_get(url, params=None, timeout=10):
+    r = requests.get(url, headers=wp_auth(), params=params, timeout=timeout)
+    r.raise_for_status()
+    return r.json()
 
 ANTHROPIC_URL = "https://api.anthropic.com/v1/messages"
 NEWSAPI_URL   = "https://newsapi.org/v2/everything"
@@ -432,54 +449,42 @@ Respond ONLY with valid JSON (no markdown):
 
 
 def post_to_wordpress(title: str, slug: str, content: str, excerpt: str) -> str:
-    """Post the article to WordPress and return the post URL."""
+    """Post the article to WordPress. Mirrors news engine publish_to_wordpress exactly."""
     endpoint = f"{WP_URL.rstrip('/')}/wp-json/wp/v2/posts"
+    cat_id   = get_or_create_category("Analysis")
 
-    # Get or create "Weekly Analysis" category
-    cat_id = get_or_create_category("Weekly Analysis")
-
-    payload = {
-        "title":   title,
-        "slug":    slug,
-        "content": content,
-        "excerpt": excerpt,
-        "status":  "publish",
-        "categories": [cat_id] if cat_id else [],
-        "format":  "standard",
+    post_data = {
+        "title":          title,
+        "slug":           slug,
+        "content":        content,
+        "excerpt":        excerpt,
+        "status":         "publish",
+        "categories":     [cat_id] if cat_id else [],
+        "comment_status": "open",
     }
 
-    r = requests.post(
-        endpoint,
-        headers={**wp_auth(), "Content-Type": "application/json"},
-        json=payload,
-        timeout=30,
-    )
-
-    if r.status_code in (200, 201):
-        post = r.json()
+    try:
+        post = wp_post(endpoint, post_data)
         url  = post.get("link", "")
-        print(f"  ✓ Article published: {url}")
+        print(f"  \u2713 Article published: {url}")
         return url
-    else:
-        print(f"  ✗ WordPress post failed: {r.status_code} {r.text[:200]}")
+    except Exception as e:
+        print(f"  \u2717 WordPress post failed: {e}")
         return ""
 
 
 def get_or_create_category(name: str) -> int | None:
-    """Get existing category ID or create it."""
+    """Get existing category ID or create it. Mirrors news engine exactly."""
     endpoint = f"{WP_URL.rstrip('/')}/wp-json/wp/v2/categories"
     try:
-        # Check if exists
-        r = requests.get(endpoint, params={"search": name},
-                         headers=wp_auth(), timeout=10)
-        cats = r.json()
-        if cats:
-            return cats[0]["id"]
-        # Create it
-        r = requests.post(endpoint, headers={**wp_auth(), "Content-Type": "application/json"},
-                          json={"name": name}, timeout=10)
-        if r.status_code in (200, 201):
-            return r.json()["id"]
+        cats = wp_get(endpoint, params={"search": name, "per_page": 10})
+        for cat in cats:
+            if cat["name"].lower() == name.lower():
+                print(f"  Found category '{name}' with ID {cat['id']}")
+                return cat["id"]
+        result = wp_post(endpoint, {"name": name})
+        print(f"  Created category '{name}' with ID {result['id']}")
+        return result["id"]
     except Exception as e:
         print(f"  Category error: {e}")
     return None
