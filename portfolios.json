@@ -1,0 +1,1066 @@
+{
+  "generated": "2026-04-20T02:55:40.593642Z",
+  "portfolios": [
+    {
+      "id": "btc-long-only",
+      "name": "Bitcoin Long-Only",
+      "description": "100% BTC on weekly BUY signal. 100% SGOV (T-bill ETF, ~5% yield) on SELL. Signal: 2-of-3 momentum (EMA20/55, RSI14, MACD) on weekly bars.",
+      "ticker": "BTC/USD",
+      "cash_instrument": "SGOV",
+      "cash_instrument_desc": "iShares 0-3 Month Treasury Bill ETF (~5% annualized yield)",
+      "timeframe": "weekly",
+      "starting_capital": 100000.0,
+      "disclaimer": "Simulated performance based on historical signals. Past performance does not guarantee future results.",
+      "current_signal": "BUY",
+      "current_value": 113011.25,
+      "current_btc_price": 74516.92,
+      "current_sgov_price": 111.1509,
+      "current_sgov_yield": 5.0,
+      "in_position": true,
+      "in_sgov": false,
+      "btc_units": 1.516585,
+      "sgov_units": 0.0,
+      "cash": 0.0,
+      "total_return_pct": 13.01,
+      "total_return_dollar": 13011.25,
+      "cagr_pct": 5.95,
+      "ytd_return_pct": -8.31,
+      "return_1m": -3.16,
+      "return_3m": -2.32,
+      "return_6m": -7.42,
+      "return_1y": -3.59,
+      "max_drawdown_pct": 20.87,
+      "ann_volatility_pct": 24.03,
+      "sharpe_ratio": 0.15,
+      "calmar_ratio": 0.29,
+      "total_trades": 6,
+      "winning_trades": 2,
+      "losing_trades": 4,
+      "win_rate_pct": 33.33,
+      "avg_win_pct": 27.43,
+      "avg_loss_pct": -8.98,
+      "avg_hold_weeks": 7.5,
+      "best_trade_pct": 40.42,
+      "worst_trade_pct": -11.92,
+      "max_win_streak": 2,
+      "max_loss_streak": 2,
+      "sgov_weeks": 63,
+      "btc_weeks": 47,
+      "pct_time_in_market": 42.7,
+      "sgov_contribution_approx": 6057.69,
+      "entry_price": 77095.58,
+      "entry_date": "2026-04-13",
+      "trades": [
+        {
+          "date": "2024-03-25",
+          "action": "BUY",
+          "asset": "BTC/USD",
+          "price": 69896.25,
+          "units": 1.430692,
+          "value": 100000.0,
+          "note": "Weekly BUY signal"
+        },
+        {
+          "date": "2024-04-29",
+          "action": "SELL",
+          "asset": "BTC/USD",
+          "price": 62863.7,
+          "units": 1.430692,
+          "value": 89938.58,
+          "pnl": -10061.42,
+          "pnl_pct": -10.06,
+          "held_weeks": 5,
+          "note": "Weekly SELL signal \u2192 rotating to SGOV"
+        },
+        {
+          "date": "2024-04-29",
+          "action": "BUY SGOV",
+          "asset": "SGOV",
+          "price": 100.675,
+          "units": 893.3555,
+          "value": 89938.58,
+          "note": "T-bill yield while awaiting BUY signal"
+        },
+        {
+          "date": "2024-05-20",
+          "action": "SELL SGOV",
+          "asset": "SGOV",
+          "price": 100.9657,
+          "value": 90198.27,
+          "note": "Rotating into BTC"
+        },
+        {
+          "date": "2024-05-20",
+          "action": "BUY",
+          "asset": "BTC/USD",
+          "price": 68500.85,
+          "units": 1.316747,
+          "value": 90198.27,
+          "note": "Weekly BUY signal"
+        },
+        {
+          "date": "2024-06-24",
+          "action": "SELL",
+          "asset": "BTC/USD",
+          "price": 60333.5,
+          "units": 1.316747,
+          "value": 79443.94,
+          "pnl": -10754.33,
+          "pnl_pct": -11.92,
+          "held_weeks": 5,
+          "note": "Weekly SELL signal \u2192 rotating to SGOV"
+        },
+        {
+          "date": "2024-06-24",
+          "action": "BUY SGOV",
+          "asset": "SGOV",
+          "price": 101.4521,
+          "units": 783.0688,
+          "value": 79443.94,
+          "note": "T-bill yield while awaiting BUY signal"
+        },
+        {
+          "date": "2024-10-28",
+          "action": "SELL SGOV",
+          "asset": "SGOV",
+          "price": 103.2224,
+          "value": 80830.23,
+          "note": "Rotating into BTC"
+        },
+        {
+          "date": "2024-10-28",
+          "action": "BUY",
+          "asset": "BTC/USD",
+          "price": 69476.93,
+          "units": 1.163411,
+          "value": 80830.23,
+          "note": "Weekly BUY signal"
+        },
+        {
+          "date": "2025-02-10",
+          "action": "SELL",
+          "asset": "BTC/USD",
+          "price": 97558.06,
+          "units": 1.163411,
+          "value": 113500.13,
+          "pnl": 32669.9,
+          "pnl_pct": 40.42,
+          "held_weeks": 15,
+          "note": "Weekly SELL signal \u2192 rotating to SGOV"
+        },
+        {
+          "date": "2025-02-10",
+          "action": "BUY SGOV",
+          "asset": "SGOV",
+          "price": 104.7212,
+          "units": 1083.8311,
+          "value": 113500.13,
+          "note": "T-bill yield while awaiting BUY signal"
+        },
+        {
+          "date": "2025-04-21",
+          "action": "SELL SGOV",
+          "asset": "SGOV",
+          "price": 105.7325,
+          "value": 114596.21,
+          "note": "Rotating into BTC"
+        },
+        {
+          "date": "2025-04-21",
+          "action": "BUY",
+          "asset": "BTC/USD",
+          "price": 94690.35,
+          "units": 1.210221,
+          "value": 114596.21,
+          "note": "Weekly BUY signal"
+        },
+        {
+          "date": "2025-08-25",
+          "action": "SELL",
+          "asset": "BTC/USD",
+          "price": 108366.22,
+          "units": 1.210221,
+          "value": 131147.03,
+          "pnl": 16550.82,
+          "pnl_pct": 14.44,
+          "held_weeks": 18,
+          "note": "Weekly SELL signal \u2192 rotating to SGOV"
+        },
+        {
+          "date": "2025-08-25",
+          "action": "BUY SGOV",
+          "asset": "SGOV",
+          "price": 107.5776,
+          "units": 1219.0929,
+          "value": 131147.03,
+          "note": "T-bill yield while awaiting BUY signal"
+        },
+        {
+          "date": "2025-09-29",
+          "action": "SELL SGOV",
+          "asset": "SGOV",
+          "price": 108.0957,
+          "value": 131778.76,
+          "note": "Rotating into BTC"
+        },
+        {
+          "date": "2025-09-29",
+          "action": "BUY",
+          "asset": "BTC/USD",
+          "price": 122330.88,
+          "units": 1.077232,
+          "value": 131778.76,
+          "note": "Weekly BUY signal"
+        },
+        {
+          "date": "2025-10-06",
+          "action": "SELL",
+          "asset": "BTC/USD",
+          "price": 112995.42,
+          "units": 1.077232,
+          "value": 121722.29,
+          "pnl": -10056.47,
+          "pnl_pct": -7.63,
+          "held_weeks": 1,
+          "note": "Weekly SELL signal \u2192 rotating to SGOV"
+        },
+        {
+          "date": "2025-10-06",
+          "action": "BUY SGOV",
+          "asset": "SGOV",
+          "price": 108.1997,
+          "units": 1124.9783,
+          "value": 121722.29,
+          "note": "T-bill yield while awaiting BUY signal"
+        },
+        {
+          "date": "2026-01-12",
+          "action": "SELL SGOV",
+          "asset": "SGOV",
+          "price": 109.6654,
+          "value": 123371.14,
+          "note": "Rotating into BTC"
+        },
+        {
+          "date": "2026-01-12",
+          "action": "BUY",
+          "asset": "BTC/USD",
+          "price": 95510.08,
+          "units": 1.291708,
+          "value": 123371.14,
+          "note": "Weekly BUY signal"
+        },
+        {
+          "date": "2026-01-19",
+          "action": "SELL",
+          "asset": "BTC/USD",
+          "price": 89479.43,
+          "units": 1.291708,
+          "value": 115581.3,
+          "pnl": -7789.84,
+          "pnl_pct": -6.31,
+          "held_weeks": 1,
+          "note": "Weekly SELL signal \u2192 rotating to SGOV"
+        },
+        {
+          "date": "2026-01-19",
+          "action": "BUY SGOV",
+          "asset": "SGOV",
+          "price": 109.7708,
+          "units": 1052.933,
+          "value": 115581.3,
+          "note": "T-bill yield while awaiting BUY signal"
+        },
+        {
+          "date": "2026-04-13",
+          "action": "SELL SGOV",
+          "asset": "SGOV",
+          "price": 111.0441,
+          "value": 116922.01,
+          "note": "Rotating into BTC"
+        },
+        {
+          "date": "2026-04-13",
+          "action": "BUY",
+          "asset": "BTC/USD",
+          "price": 77095.58,
+          "units": 1.516585,
+          "value": 116922.01,
+          "note": "Weekly BUY signal"
+        }
+      ],
+      "equity_curve": [
+        {
+          "date": "2024-03-18",
+          "value": 100000.0,
+          "btc": 63801.6,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-03-25",
+          "value": 100000.0,
+          "btc": 69896.25,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2024-04-01",
+          "value": 97016.72,
+          "btc": 67811.05,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2024-04-08",
+          "value": 96124.16,
+          "btc": 67187.18,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2024-04-15",
+          "value": 91371.46,
+          "btc": 63865.23,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2024-04-22",
+          "value": 91291.96,
+          "btc": 63809.66,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2024-04-29",
+          "value": 89938.58,
+          "btc": 62863.7,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-05-06",
+          "value": 90025.06,
+          "btc": 60812.29,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-05-13",
+          "value": 90111.62,
+          "btc": 67038.77,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-05-20",
+          "value": 90198.27,
+          "btc": 68500.85,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2024-05-27",
+          "value": 88851.97,
+          "btc": 67478.4,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2024-06-03",
+          "value": 91311.25,
+          "btc": 69346.1,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2024-06-10",
+          "value": 86909.74,
+          "btc": 66003.38,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2024-06-17",
+          "value": 84406.03,
+          "btc": 64101.95,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2024-06-24",
+          "value": 79443.94,
+          "btc": 60333.5,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-07-01",
+          "value": 79520.33,
+          "btc": 56696.5,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-07-08",
+          "value": 79596.79,
+          "btc": 57930.75,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-07-15",
+          "value": 79673.32,
+          "btc": 66704.8,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-07-22",
+          "value": 79749.93,
+          "btc": 67924.58,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-07-29",
+          "value": 79826.62,
+          "btc": 61400.79,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-08-05",
+          "value": 79903.37,
+          "btc": 60874.25,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-08-12",
+          "value": 79980.2,
+          "btc": 58896.03,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-08-19",
+          "value": 80057.11,
+          "btc": 64087.38,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-08-26",
+          "value": 80134.08,
+          "btc": 59096.61,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-09-02",
+          "value": 80211.14,
+          "btc": 53953.27,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-09-09",
+          "value": 80288.26,
+          "btc": 60589.73,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-09-16",
+          "value": 80365.46,
+          "btc": 63197.61,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-09-23",
+          "value": 80442.74,
+          "btc": 65761.4,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-09-30",
+          "value": 80520.09,
+          "btc": 62094.99,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-10-07",
+          "value": 80597.51,
+          "btc": 62461.79,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-10-14",
+          "value": 80675.01,
+          "btc": 68438.94,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-10-21",
+          "value": 80752.58,
+          "btc": 66616.95,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2024-10-28",
+          "value": 80830.23,
+          "btc": 69476.93,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2024-11-04",
+          "value": 89095.64,
+          "btc": 76581.4,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2024-11-11",
+          "value": 105988.08,
+          "btc": 91101.14,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2024-11-18",
+          "value": 115153.05,
+          "btc": 98978.82,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2024-11-25",
+          "value": 113423.33,
+          "btc": 97492.05,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2024-12-02",
+          "value": 116298.14,
+          "btc": 99963.07,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2024-12-09",
+          "value": 118079.93,
+          "btc": 101494.59,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2024-12-16",
+          "value": 113693.35,
+          "btc": 97724.15,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2024-12-23",
+          "value": 109616.12,
+          "btc": 94219.59,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2024-12-30",
+          "value": 114124.14,
+          "btc": 98094.42,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-01-06",
+          "value": 110224.2,
+          "btc": 94742.27,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-01-13",
+          "value": 121146.59,
+          "btc": 104130.52,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-01-20",
+          "value": 121990.68,
+          "btc": 104856.04,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-01-27",
+          "value": 119172.3,
+          "btc": 102433.53,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-02-03",
+          "value": 112344.61,
+          "btc": 96564.85,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-02-10",
+          "value": 113500.13,
+          "btc": 97558.06,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-02-17",
+          "value": 113609.26,
+          "btc": 96118.7,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-02-24",
+          "value": 113718.5,
+          "btc": 84377.1,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-03-03",
+          "value": 113827.85,
+          "btc": 86707.46,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-03-10",
+          "value": 113937.3,
+          "btc": 84048.93,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-03-17",
+          "value": 114046.85,
+          "btc": 84046.37,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-03-24",
+          "value": 114156.51,
+          "btc": 84363.2,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-03-31",
+          "value": 114266.28,
+          "btc": 83780.57,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-04-07",
+          "value": 114376.15,
+          "btc": 83431.1,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-04-14",
+          "value": 114486.13,
+          "btc": 84409.65,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-04-21",
+          "value": 114596.21,
+          "btc": 94690.35,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-04-28",
+          "value": 117215.64,
+          "btc": 96854.77,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-05-05",
+          "value": 124704.85,
+          "btc": 103043.07,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-05-12",
+          "value": 125270.41,
+          "btc": 103510.39,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-05-19",
+          "value": 129811.9,
+          "btc": 107263.0,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-05-26",
+          "value": 125932.62,
+          "btc": 104057.57,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-06-02",
+          "value": 126374.24,
+          "btc": 104422.48,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-06-09",
+          "value": 128403.13,
+          "btc": 106098.94,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-06-16",
+          "value": 125036.38,
+          "btc": 103317.01,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-06-23",
+          "value": 129533.13,
+          "btc": 107032.66,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-06-30",
+          "value": 130696.22,
+          "btc": 107993.71,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-07-07",
+          "value": 142295.72,
+          "btc": 117578.34,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-07-14",
+          "value": 142819.64,
+          "btc": 118011.25,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-07-21",
+          "value": 142416.33,
+          "btc": 117677.99,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-07-28",
+          "value": 137091.31,
+          "btc": 113277.96,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-08-04",
+          "value": 141208.75,
+          "btc": 116680.17,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-08-11",
+          "value": 142132.63,
+          "btc": 117443.58,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-08-18",
+          "value": 141521.18,
+          "btc": 116938.33,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-08-25",
+          "value": 131147.03,
+          "btc": 108366.22,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-09-01",
+          "value": 131273.13,
+          "btc": 110700.56,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-09-08",
+          "value": 131399.36,
+          "btc": 116103.75,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-09-15",
+          "value": 131525.7,
+          "btc": 115695.92,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-09-22",
+          "value": 131652.17,
+          "btc": 109695.45,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-09-29",
+          "value": 131778.76,
+          "btc": 122330.88,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2025-10-06",
+          "value": 121722.29,
+          "btc": 112995.42,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-10-13",
+          "value": 121839.33,
+          "btc": 106470.43,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-10-20",
+          "value": 121956.49,
+          "btc": 111021.4,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-10-27",
+          "value": 122073.75,
+          "btc": 109560.2,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-11-03",
+          "value": 122191.13,
+          "btc": 103291.34,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-11-10",
+          "value": 122308.62,
+          "btc": 94500.87,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-11-17",
+          "value": 122426.23,
+          "btc": 85102.85,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-11-24",
+          "value": 122543.95,
+          "btc": 90887.99,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-12-01",
+          "value": 122661.78,
+          "btc": 89338.34,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-12-08",
+          "value": 122779.72,
+          "btc": 90276.66,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-12-15",
+          "value": 122897.78,
+          "btc": 88083.95,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-12-22",
+          "value": 123015.95,
+          "btc": 87287.8,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2025-12-29",
+          "value": 123134.23,
+          "btc": 89962.89,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2026-01-05",
+          "value": 123252.63,
+          "btc": 90526.81,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2026-01-12",
+          "value": 123371.14,
+          "btc": 95510.08,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2026-01-19",
+          "value": 115581.3,
+          "btc": 89479.43,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2026-01-26",
+          "value": 115692.44,
+          "btc": 84141.69,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2026-02-02",
+          "value": 115803.68,
+          "btc": 70524.3,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2026-02-09",
+          "value": 115915.03,
+          "btc": 68828.7,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2026-02-16",
+          "value": 116026.49,
+          "btc": 67998.06,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2026-02-23",
+          "value": 116138.05,
+          "btc": 65863.21,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2026-03-02",
+          "value": 116249.72,
+          "btc": 68108.84,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2026-03-09",
+          "value": 116361.5,
+          "btc": 70928.09,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2026-03-16",
+          "value": 116473.39,
+          "btc": 70504.94,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2026-03-23",
+          "value": 116585.38,
+          "btc": 66356.1,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2026-03-30",
+          "value": 116697.48,
+          "btc": 66961.45,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2026-04-06",
+          "value": 116809.69,
+          "btc": 72988.81,
+          "signal": "SELL",
+          "in_btc": false
+        },
+        {
+          "date": "2026-04-13",
+          "value": 116922.01,
+          "btc": 77095.58,
+          "signal": "BUY",
+          "in_btc": true
+        },
+        {
+          "date": "2026-04-20",
+          "value": 113011.25,
+          "btc": 74516.92,
+          "signal": "BUY",
+          "in_btc": true
+        }
+      ]
+    }
+  ]
+}
