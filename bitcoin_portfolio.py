@@ -377,12 +377,16 @@ def main():
     print(f"Starting capital: ${STARTING_CAPITAL:,.0f}")
 
     print("Fetching BTC/USD weekly bars...")
-    btc = fetch_weekly_crypto("BTC/USD", lookback_days=760)
+    btc = fetch_weekly_crypto("BTC/USD", lookback_days=2400)  # back to Jan 2019
     print(f"  {len(btc)} weeks ({btc.index[0].date()} → {btc.index[-1].date()})")
+
+    # Trim to Jan 2019 start
+    btc = btc[btc.index >= "2019-01-01"]
+    print(f"  Trimmed to {len(btc)} weeks from 2019-01-01")
 
     print("Fetching SGOV weekly bars...")
     try:
-        sgov = fetch_weekly_stock("SGOV", lookback_days=760)
+        sgov = fetch_weekly_stock("SGOV", lookback_days=2400)
         if sgov is not None:
             print(f"  {len(sgov)} weeks of SGOV data")
     except Exception as e:
@@ -408,7 +412,7 @@ def main():
         "portfolios": [{
             "id":              "btc-long-only",
             "name":            "Bitcoin Long-Only",
-            "description":     "100% BTC on weekly BUY signal. 100% SGOV (T-bill ETF, ~5% yield) on SELL. Signal: 2-of-3 momentum (EMA20/55, RSI14, MACD) on weekly bars.",
+            "description":     "100% BTC on weekly BUY signal. 100% SGOV (T-bill ETF, ~5% yield) on SELL. Signal: 2-of-3 momentum (EMA20/55, RSI14, MACD) on weekly bars. Simulated from January 2019.",
             "ticker":          "BTC/USD",
             "cash_instrument": "SGOV",
             "cash_instrument_desc": "iShares 0-3 Month Treasury Bill ETF (~5% annualized yield)",
