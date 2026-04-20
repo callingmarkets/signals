@@ -113,7 +113,7 @@ def fetch_weekly_stock(symbol: str, lookback_days: int = 800) -> pd.Series:
 
 # ── Backtest ──────────────────────────────────────────────────────────────────
 
-def run_backtest(btc_weekly: pd.Series, sgov_weekly: pd.Series | None) -> dict:
+def run_backtest(btc_weekly: pd.Series, sgov_weekly: pd.Series | None, backtest_start: str = "2019-01-01") -> dict:
     signals = compute_signals(btc_weekly)
     if signals is None:
         raise ValueError("Not enough data")
@@ -142,7 +142,19 @@ def run_backtest(btc_weekly: pd.Series, sgov_weekly: pd.Series | None) -> dict:
     trades       = []
     equity_curve = []
 
+    # Pre-warm prev_signal by iterating up to backtest_start without recording anything
+    # This ensures the first real week sees a valid prev_signal context
+    start_ts = pd.Timestamp(backtest_start)
+    for date, _ in btc_weekly.items():
+        if date >= start_ts:
+            break
+        sig = signals.loc[date] if date in signals.index else None
+        if sig is not None:
+            prev_signal = sig
+
     for date, btc_close in btc_weekly.items():
+        if date < start_ts:
+            continue
         sig = signals.loc[date] if date in signals.index else None
         if sig is None:
             continue
@@ -320,8 +332,18 @@ def run_backtest(btc_weekly: pd.Series, sgov_weekly: pd.Series | None) -> dict:
     btc_weeks  = sum(1 for e in equity_curve if e.get("in_btc"))
     pct_in_mkt = round(btc_weeks / max(n_weeks, 1) * 100, 1)
 
+    # ── Buy & Hold comparison ─────────────────────────────────────────────────
+    bah_start   = float(btc_weekly.iloc[0])
+    bah_curve   = [{"date": d.strftime("%Y-%m-%d"), "value": round(STARTING_CAPITAL * (float(v) / bah_start), 2)}
+                   for d, v in btc_weekly.items()]
+    bah_current = round(STARTING_CAPITAL * (float(btc_weekly.iloc[-1]) / bah_start), 2)
+    bah_return  = round((bah_current / STARTING_CAPITAL - 1) * 100, 2)
+
     return {
         "current_signal":      current_signal,
+        "bah_current_value":   bah_current,
+        "bah_return_pct":      bah_return,
+        "bah_equity_curve":    bah_curve,
         "current_value":       round(current_value, 2),
         "current_btc_price":   round(current_btc, 2),
         "current_sgov_price":  round(current_sgov, 4),
@@ -377,12 +399,10 @@ def main():
     print(f"Starting capital: ${STARTING_CAPITAL:,.0f}")
 
     print("Fetching BTC/USD weekly bars...")
-    btc = fetch_weekly_crypto("BTC/USD", lookback_days=2400)  # back to Jan 2019
-    print(f"  {len(btc)} weeks ({btc.index[0].date()} → {btc.index[-1].date()})")
-
-    # Trim to Jan 2019 start
-    btc = btc[btc.index >= "2019-01-01"]
-    print(f"  Trimmed to {len(btc)} weeks from 2019-01-01")
+    # Fetch from ~2016 so indicators are fully warmed up by Jan 2019
+    # EMA55 + MACD26 need ~80+ weeks before producing valid signals
+    btc = fetch_weekly_crypto("BTC/USD", lookback_days=3300)
+    print(f"  {len(btc)} weeks full history ({btc.index[0].date()} → {btc.index[-1].date()})")
 
     print("Fetching SGOV weekly bars...")
     try:
@@ -394,7 +414,7 @@ def main():
         sgov = None
 
     print("Running backtest...")
-    result = run_backtest(btc, sgov)
+    result = run_backtest(btc, sgov, backtest_start="2019-01-01")
 
     print(f"\n── Results ──────────────────────────────────────")
     print(f"  Signal:        {result['current_signal']}")
