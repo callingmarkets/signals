@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-22T03:50:13.537325Z",
+  "generated": "2026-04-22T23:37:43.424361Z",
   "portfolios": [
     {
       "id": "btc-long-only",
@@ -12,8 +12,8 @@
       "starting_capital": 100000.0,
       "disclaimer": "Simulated performance based on historical signals. Past performance does not guarantee future results.",
       "current_signal": "BUY",
-      "bah_current_value": 190942.57,
-      "bah_return_pct": 90.94,
+      "bah_current_value": 192814.04,
+      "bah_return_pct": 92.81,
       "bah_equity_curve": [
         {
           "date": "2021-01-04",
@@ -1121,11 +1121,11 @@
         },
         {
           "date": "2026-04-20",
-          "value": 190942.57
+          "value": 192814.04
         }
       ],
-      "current_value": 226068.0,
-      "current_btc_price": 77566.35,
+      "current_value": 228283.75,
+      "current_btc_price": 78326.6,
       "current_sgov_price": 130.6275,
       "current_sgov_yield": 5.0,
       "in_position": true,
@@ -1133,18 +1133,18 @@
       "btc_units": 2.914511,
       "sgov_units": 0.0,
       "cash": 0.0,
-      "total_return_pct": 126.07,
-      "total_return_dollar": 126068.0,
-      "cagr_pct": 16.48,
-      "ytd_return_pct": -4.56,
-      "return_1m": 0.8,
-      "return_3m": 1.68,
-      "return_6m": -3.64,
-      "return_1y": 0.36,
+      "total_return_pct": 128.28,
+      "total_return_dollar": 128283.75,
+      "cagr_pct": 16.7,
+      "ytd_return_pct": -3.62,
+      "return_1m": 1.79,
+      "return_3m": 2.68,
+      "return_6m": -2.69,
+      "return_1y": 1.34,
       "max_drawdown_pct": 54.29,
       "ann_volatility_pct": 39.91,
-      "sharpe_ratio": 0.45,
-      "calmar_ratio": 0.3,
+      "sharpe_ratio": 0.46,
+      "calmar_ratio": 0.31,
       "total_trades": 17,
       "winning_trades": 5,
       "losing_trades": 12,
@@ -3389,8 +3389,8 @@
         },
         {
           "date": "2026-04-20",
-          "value": 226068.0,
-          "btc": 77566.35,
+          "value": 228283.75,
+          "btc": 78326.6,
           "signal": "BUY",
           "in_btc": true
         }
