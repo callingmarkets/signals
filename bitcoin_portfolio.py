@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Bitcoin Long-Only Portfolio Engine
-- Pulls 2 years of weekly BTC/USD bars from Alpaca
+- Pulls full BTC/USD history from CoinGecko (back to 2013), falls back to Alpaca
 - Applies the exact same 2-of-3 signal logic: EMA20>EMA55, RSI14>RSI_EMA14, MACD>Signal
 - BUY signal  → 100% BTC
 - SELL signal → 100% SGOV (iShares 0-3M T-Bill ETF, ~5% yield)
@@ -117,6 +117,43 @@ def fetch_weekly_stock(symbol: str, lookback_days: int = 800) -> pd.Series:
     except Exception as e:
         print(f"  SGOV fetch error: {e} — using 5% annualized fallback")
         return None
+
+# ── CoinGecko historical fetch (goes back to 2013, free, no key) ─────────────
+
+def fetch_weekly_btc_coingecko() -> pd.Series:
+    """
+    Fetch full BTC/USD daily history from CoinGecko and resample to weekly.
+    Free API, no key, returns up to 2000+ days.
+    Falls back to Alpaca if CoinGecko fails.
+    """
+    print("  Trying CoinGecko for extended history...")
+    try:
+        # Fetch max available history (~10 years)
+        url = "https://api.coingecko.com/api/v3/coins/bitcoin/market_chart"
+        params = {"vs_currency": "usd", "days": "max", "interval": "daily"}
+        r = requests.get(url, params=params, timeout=30,
+                         headers={"Accept": "application/json"})
+        r.raise_for_status()
+        data = r.json()
+        prices = data.get("prices", [])
+        if not prices:
+            raise ValueError("No price data from CoinGecko")
+
+        # Convert to Series
+        df = pd.DataFrame(prices, columns=["ts", "close"])
+        df["date"] = pd.to_datetime(df["ts"], unit="ms", utc=True)
+        df = df.set_index("date").sort_index()
+        series = df["close"]
+
+        # Resample to weekly (Monday)
+        weekly = series.resample("W-MON").last().dropna()
+        print(f"  CoinGecko: {len(weekly)} weeks ({weekly.index[0].date()} → {weekly.index[-1].date()})")
+        return weekly
+
+    except Exception as e:
+        print(f"  CoinGecko failed ({e}), falling back to Alpaca")
+        return None
+
 
 # ── Backtest ──────────────────────────────────────────────────────────────────
 
@@ -342,11 +379,31 @@ def run_backtest(btc_weekly: pd.Series, sgov_weekly: pd.Series | None, backtest_
     pct_in_mkt = round(btc_weeks / max(n_weeks, 1) * 100, 1)
 
     # ── Buy & Hold comparison ─────────────────────────────────────────────────
-    bah_start   = float(btc_weekly.iloc[0])
-    bah_curve   = [{"date": d.strftime("%Y-%m-%d"), "value": round(STARTING_CAPITAL * (float(v) / bah_start), 2)}
-                   for d, v in btc_weekly.items()]
-    bah_current = round(STARTING_CAPITAL * (float(btc_weekly.iloc[-1]) / bah_start), 2)
-    bah_return  = round((bah_current / STARTING_CAPITAL - 1) * 100, 2)
+    # Start B&H from the first BUY trade date — same start point as strategy
+    first_buy_trade = next((t for t in trades if t["action"] == "BUY"), None)
+    if first_buy_trade:
+        first_buy_date = pd.Timestamp(first_buy_trade["date"]).tz_localize("UTC")
+        # Find BTC price on or closest to first buy date
+        bah_mask = btc_weekly.index >= first_buy_date
+        if bah_mask.any():
+            bah_btc_series = btc_weekly[bah_mask]
+            bah_start_price = float(bah_btc_series.iloc[0])
+            bah_curve = [
+                {"date": d.strftime("%Y-%m-%d"),
+                 "value": round(STARTING_CAPITAL * (float(v) / bah_start_price), 2)}
+                for d, v in bah_btc_series.items()
+            ]
+            bah_current = round(STARTING_CAPITAL * (float(btc_weekly.iloc[-1]) / bah_start_price), 2)
+            bah_return  = round((bah_current / STARTING_CAPITAL - 1) * 100, 2)
+        else:
+            bah_curve, bah_current, bah_return = [], STARTING_CAPITAL, 0.0
+    else:
+        # No trades yet — use full series
+        bah_start_price = float(btc_weekly.iloc[0])
+        bah_curve = [{"date": d.strftime("%Y-%m-%d"), "value": round(STARTING_CAPITAL * (float(v) / bah_start_price), 2)}
+                     for d, v in btc_weekly.items()]
+        bah_current = round(STARTING_CAPITAL * (float(btc_weekly.iloc[-1]) / bah_start_price), 2)
+        bah_return  = round((bah_current / STARTING_CAPITAL - 1) * 100, 2)
 
     return {
         "current_signal":      current_signal,
@@ -408,9 +465,12 @@ def main():
     print(f"Starting capital: ${STARTING_CAPITAL:,.0f}")
 
     print("Fetching BTC/USD weekly bars...")
-    # Fetch from ~2016 so indicators are fully warmed up by Jan 2019
-    # EMA55 + MACD26 need ~80+ weeks before producing valid signals
-    btc = fetch_weekly_crypto("BTC/USD", lookback_days=3300)
+    # Try CoinGecko first for full history back to 2013
+    # EMA55 + MACD26 need ~80+ weeks of warmup before producing valid signals
+    btc = fetch_weekly_btc_coingecko()
+    if btc is None or len(btc) < 100:
+        print("  Falling back to Alpaca (limited to ~2020)")
+        btc = fetch_weekly_crypto("BTC/USD", lookback_days=3300)
     print(f"  {len(btc)} weeks full history ({btc.index[0].date()} → {btc.index[-1].date()})")
 
     print("Fetching SGOV weekly bars...")
