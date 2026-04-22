@@ -93,23 +93,30 @@ def fetch_weekly_crypto(symbol: str, lookback_days: int = 800) -> pd.Series:
     return weekly
 
 def fetch_weekly_stock(symbol: str, lookback_days: int = 800) -> pd.Series:
-    """Fetch weekly OHLCV bars for a stock (SGOV)."""
+    """Fetch weekly OHLCV bars for a stock (SGOV). Falls back gracefully on 403."""
     end   = datetime.now(timezone.utc)
     start = end - timedelta(days=lookback_days)
     params = {"symbols": symbol, "timeframe": "1Week",
                "start": start.isoformat(), "end": end.isoformat(),
                "limit": 1000, "sort": "asc", "adjustment": "all"}
-    r = requests.get(STOCKS_URL, headers=ALPACA_HDR, params=params, timeout=30)
-    r.raise_for_status()
-    data = r.json()
-    bars = data.get("bars", {}).get(symbol, [])
-    if not bars:
-        print(f"  WARNING: No SGOV bars — using 5% annualized fallback")
+    try:
+        r = requests.get(STOCKS_URL, headers=ALPACA_HDR, params=params, timeout=30)
+        if r.status_code == 403:
+            print(f"  SGOV: 403 Forbidden (paper keys lack stock data access) — using 5% fallback")
+            return None
+        r.raise_for_status()
+        data = r.json()
+        bars = data.get("bars", {}).get(symbol, [])
+        if not bars:
+            print(f"  WARNING: No SGOV bars — using 5% annualized fallback")
+            return None
+        df = pd.DataFrame(bars)
+        df["t"] = pd.to_datetime(df["t"])
+        df = df.set_index("t").sort_index()
+        return df["c"]
+    except Exception as e:
+        print(f"  SGOV fetch error: {e} — using 5% annualized fallback")
         return None
-    df = pd.DataFrame(bars)
-    df["t"] = pd.to_datetime(df["t"])
-    df = df.set_index("t").sort_index()
-    return df["c"]
 
 # ── Backtest ──────────────────────────────────────────────────────────────────
 
@@ -142,9 +149,11 @@ def run_backtest(btc_weekly: pd.Series, sgov_weekly: pd.Series | None, backtest_
     trades       = []
     equity_curve = []
 
-    # Pre-warm prev_signal by iterating up to backtest_start without recording anything
-    # This ensures the first real week sees a valid prev_signal context
-    start_ts = pd.Timestamp(backtest_start)
+    # Skip warmup rows where signals are still NaN (indicators not yet warm)
+    # Then start the backtest from the first valid signal date
+    start_ts = pd.Timestamp(backtest_start).tz_localize("UTC") if pd.Timestamp(backtest_start).tzinfo is None else pd.Timestamp(backtest_start)
+
+    # Prime prev_signal from any valid signals before backtest_start
     for date, _ in btc_weekly.items():
         if date >= start_ts:
             break
@@ -414,7 +423,12 @@ def main():
         sgov = None
 
     print("Running backtest...")
-    result = run_backtest(btc, sgov, backtest_start="2019-01-01")
+    # Use first date where signals are valid (after indicator warmup)
+    signals_preview = compute_signals(btc)
+    first_valid = signals_preview.dropna().index[0] if signals_preview is not None else btc.index[0]
+    backtest_start = first_valid.strftime("%Y-%m-%d")
+    print(f"  First valid signal date: {backtest_start}")
+    result = run_backtest(btc, sgov, backtest_start=backtest_start)
 
     print(f"\n── Results ──────────────────────────────────────")
     print(f"  Signal:        {result['current_signal']}")
