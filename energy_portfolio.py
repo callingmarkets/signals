@@ -125,20 +125,30 @@ def fetch_tiingo_weekly(ticker, lookback_days=1800):
         return None
 
 def fetch_weekly_stocks(tickers, lookback_days=1800):
+    import time
     all_data = {}
-    for ticker in tickers:
+    for i, ticker in enumerate(tickers):
         series = fetch_tiingo_weekly(ticker, lookback_days)
         if series is not None and len(series) > 20:
             all_data[ticker] = series
         else:
             print(f"  WARNING: No data for {ticker}")
+        # Rate limit: pause every 5 requests to avoid Tiingo throttling
+        if (i + 1) % 5 == 0:
+            time.sleep(1)
     return all_data
 
 def fetch_ige_weekly(lookback_days=1800):
-    series = fetch_tiingo_weekly("IGE", lookback_days)
-    if series is not None:
-        print(f"  IGE benchmark: {len(series)} weeks ({series.index[0].date()} → {series.index[-1].date()})")
-    return series
+    import time
+    for attempt in range(3):
+        series = fetch_tiingo_weekly("IGE", lookback_days)
+        if series is not None and len(series) > 20:
+            print(f"  IGE benchmark: {len(series)} weeks ({series.index[0].date()} → {series.index[-1].date()})")
+            return series
+        print(f"  IGE fetch attempt {attempt+1} failed, retrying...")
+        time.sleep(2)
+    print("  IGE fetch failed after 3 attempts")
+    return None
 
 
 # ── Backtest ──────────────────────────────────────────────────────────────────
@@ -350,12 +360,13 @@ def main():
     print("Natural Resources Alpha Portfolio Engine (vs IGE) — Tiingo data")
     print(f"Universe: {len(TICKERS)} stocks | Starting capital: ${STARTING_CAPITAL:,.0f}")
 
+    # Fetch benchmark FIRST before rate limits kick in
+    print("Fetching IGE benchmark...")
+    ige_prices = fetch_ige_weekly(lookback_days=1800)
+
     print("\nFetching weekly bars...")
     price_data = fetch_weekly_stocks(TICKERS, lookback_days=1800)
     print(f"  Got data for {len(price_data)}/{len(TICKERS)} tickers")
-
-    print("Fetching IGE benchmark...")
-    ige_prices = fetch_ige_weekly(lookback_days=1800)
 
     # Dynamic backtest start
     min_dates = []
