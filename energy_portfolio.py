@@ -370,15 +370,34 @@ def main():
     print(f"  Got data for {len(price_data)}/{len(TICKERS)} tickers")
 
     # Dynamic backtest start
+    # Use the date when at least 20 of 40 stocks have valid signals
+    # This avoids newer stocks (e.g. post-merger tickers) dragging start date forward
     min_dates = []
+    ticker_starts = {}
     for ticker, prices in price_data.items():
         sig = compute_signal(prices)
         if sig is not None:
             valid = sig.dropna()
             if len(valid) > 0:
-                min_dates.append(valid.index[0])
-    backtest_start = max(min_dates).strftime("%Y-%m-%d") if min_dates else "2021-01-01"
-    print(f"  Backtest start: {backtest_start}")
+                d = valid.index[0]
+                min_dates.append(d)
+                ticker_starts[ticker] = d
+
+    if min_dates:
+        min_dates.sort()
+        # Start when at least half the universe has data
+        threshold_idx = max(0, len(min_dates) // 2 - 1)
+        backtest_start = min_dates[threshold_idx].strftime("%Y-%m-%d")
+        n_available = sum(1 for d in min_dates if d <= min_dates[threshold_idx])
+        print(f"  Backtest start: {backtest_start} ({n_available}/{len(TICKERS)} stocks available)")
+        # List any late-start tickers
+        late = {t: d.strftime("%Y-%m-%d") for t, d in ticker_starts.items()
+                if d > min_dates[threshold_idx]}
+        if late:
+            print(f"  Late-starting tickers (not in early backtest): {', '.join(late.keys())}")
+    else:
+        backtest_start = "2006-01-01"
+        print(f"  Backtest start: {backtest_start} (default)")
 
     # Compute weekly IGE benchmark signal — used as macro gate
     ige_weekly_signals = None
