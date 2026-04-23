@@ -94,7 +94,7 @@ def compute_signal(src):
     return score.apply(lambda s: "BUY" if s >= 2 else "SELL")
 
 # ── Fetch (Tiingo) ────────────────────────────────────────────────────────────
-def fetch_tiingo_weekly(ticker, lookback_days=1800):
+def fetch_tiingo_weekly(ticker, lookback_days=7300):
     """Fetch daily prices from Tiingo and resample to weekly."""
     end   = datetime.now(timezone.utc)
     start = end - timedelta(days=lookback_days)
@@ -121,7 +121,7 @@ def fetch_tiingo_weekly(ticker, lookback_days=1800):
     except Exception as e:
         return None
 
-def fetch_weekly_stocks(tickers, lookback_days=1800):
+def fetch_weekly_stocks(tickers, lookback_days=7300):
     """Fetch weekly bars for all tickers via Tiingo."""
     all_data = {}
     for ticker in tickers:
@@ -132,7 +132,7 @@ def fetch_weekly_stocks(tickers, lookback_days=1800):
             print(f"  WARNING: No data for {ticker}")
     return all_data
 
-def fetch_igv_weekly(lookback_days=1800):
+def fetch_igv_weekly(lookback_days=7300):
     """Fetch IGV ETF weekly prices for benchmark."""
     series = fetch_tiingo_weekly("IGV", lookback_days)
     if series is not None:
@@ -329,6 +329,7 @@ def run_backtest(price_data, igv_prices, backtest_start="2021-01-01"):
         "ann_volatility_pct": round(vol, 2),
         "sharpe_ratio":       round(sharpe, 2),
         "calmar_ratio":       round(calmar, 2),
+        "total_trades":       len([t for t in trades if t["action"] == "BUY"]),
         "n_buy_stocks":       len(holdings),
         "n_universe":         len(TICKERS),
         "cash_pct":           round(sgov_val/current_value*100, 1) if current_value > 0 else 100,
@@ -350,11 +351,11 @@ def main():
     print(f"Universe: {len(TICKERS)} stocks | Starting capital: ${STARTING_CAPITAL:,.0f}")
 
     print("\nFetching weekly bars...")
-    price_data = fetch_weekly_stocks(TICKERS, lookback_days=800)
+    price_data = fetch_weekly_stocks(TICKERS, lookback_days=7300)
     print(f"  Got data for {len(price_data)}/{len(TICKERS)} tickers")
 
     print("Fetching IGV benchmark...")
-    igv_prices = fetch_igv_weekly(lookback_days=800)
+    igv_prices = fetch_igv_weekly(lookback_days=7300)
     print(f"  IGV: {len(igv_prices) if igv_prices is not None else 0} weeks")
 
     # Dynamic start — first date all indicators are warmed up
