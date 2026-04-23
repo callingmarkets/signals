@@ -16,10 +16,9 @@ import pandas as pd
 import numpy as np
 import requests
 
-ALPACA_KEY    = os.environ["ALPACA_API_KEY"]
-ALPACA_SECRET = os.environ["ALPACA_SECRET_KEY"]
-ALPACA_HDR    = {"APCA-API-KEY-ID": ALPACA_KEY, "APCA-API-SECRET-KEY": ALPACA_SECRET}
-STOCKS_URL    = "https://data.alpaca.markets/v2/stocks/bars"
+TIINGO_KEY  = os.environ["TIINGO_API_KEY"]
+TIINGO_HDR  = {"Authorization": f"Token {TIINGO_KEY}", "Content-Type": "application/json"}
+TIINGO_URL  = "https://api.tiingo.com/tiingo/daily"
 
 STARTING_CAPITAL = 100_000.0
 MAX_POSITION     = 0.15   # 15% cap per stock
@@ -94,51 +93,51 @@ def compute_signal(src):
     score = (ema20>ema55).astype(int) + (rsi>rma).astype(int) + (macd>sig).astype(int)
     return score.apply(lambda s: "BUY" if s >= 2 else "SELL")
 
-# ── Fetch ─────────────────────────────────────────────────────────────────────
-def fetch_weekly_stocks(tickers, lookback_days=800):
-    end = datetime.now(timezone.utc)
+# ── Fetch (Tiingo) ────────────────────────────────────────────────────────────
+def fetch_tiingo_weekly(ticker, lookback_days=1800):
+    """Fetch daily prices from Tiingo and resample to weekly."""
+    end   = datetime.now(timezone.utc)
     start = end - timedelta(days=lookback_days)
+    params = {
+        "startDate": start.strftime("%Y-%m-%d"),
+        "endDate":   end.strftime("%Y-%m-%d"),
+        "resampleFreq": "weekly",
+        "token": TIINGO_KEY,
+    }
+    try:
+        r = requests.get(f"{TIINGO_URL}/{ticker}/prices",
+                         headers=TIINGO_HDR, params=params, timeout=30)
+        if r.status_code == 404:
+            return None  # ticker not found
+        r.raise_for_status()
+        data = r.json()
+        if not data: return None
+        df = pd.DataFrame(data)
+        df["date"] = pd.to_datetime(df["date"], utc=True)
+        df = df.set_index("date").sort_index()
+        # Use adjClose for split/dividend adjustment
+        col = "adjClose" if "adjClose" in df.columns else "close"
+        return df[col].dropna()
+    except Exception as e:
+        return None
+
+def fetch_weekly_stocks(tickers, lookback_days=1800):
+    """Fetch weekly bars for all tickers via Tiingo."""
     all_data = {}
-    for i in range(0, len(tickers), 10):
-        chunk = tickers[i:i+10]
-        params = {"symbols": ",".join(chunk), "timeframe": "1Week",
-                  "start": start.isoformat(), "end": end.isoformat(),
-                  "limit": 1000, "sort": "asc", "adjustment": "all"}
-        try:
-            r = requests.get(STOCKS_URL, headers=ALPACA_HDR, params=params, timeout=30)
-            if r.status_code == 403:
-                print(f"  403 for {chunk} — check API keys")
-                continue
-            r.raise_for_status()
-            for ticker, bars in r.json().get("bars", {}).items():
-                if not bars: continue
-                df = pd.DataFrame(bars)
-                df["t"] = pd.to_datetime(df["t"])
-                df = df.set_index("t").sort_index()
-                all_data[ticker] = df["c"]
-        except Exception as e:
-            print(f"  Error fetching {chunk}: {e}")
+    for ticker in tickers:
+        series = fetch_tiingo_weekly(ticker, lookback_days)
+        if series is not None and len(series) > 20:
+            all_data[ticker] = series
+        else:
+            print(f"  WARNING: No data for {ticker}")
     return all_data
 
-def fetch_igv_weekly(lookback_days=800):
-    """Fetch IGV ETF price for benchmark comparison."""
-    end = datetime.now(timezone.utc)
-    start = end - timedelta(days=lookback_days)
-    params = {"symbols": "IGV", "timeframe": "1Week",
-              "start": start.isoformat(), "end": end.isoformat(),
-              "limit": 1000, "sort": "asc", "adjustment": "all"}
-    try:
-        r = requests.get(STOCKS_URL, headers=ALPACA_HDR, params=params, timeout=30)
-        r.raise_for_status()
-        bars = r.json().get("bars", {}).get("IGV", [])
-        if not bars: return None
-        df = pd.DataFrame(bars)
-        df["t"] = pd.to_datetime(df["t"])
-        df = df.set_index("t").sort_index()
-        return df["c"]
-    except Exception as e:
-        print(f"  IGV fetch error: {e}")
-        return None
+def fetch_igv_weekly(lookback_days=1800):
+    """Fetch IGV ETF weekly prices for benchmark."""
+    series = fetch_tiingo_weekly("IGV", lookback_days)
+    if series is not None:
+        print(f"  IGV: {len(series)} weeks ({series.index[0].date()} → {series.index[-1].date()})")
+    return series
 
 # ── Backtest ──────────────────────────────────────────────────────────────────
 def run_backtest(price_data, igv_prices, backtest_start="2021-01-01"):
@@ -347,7 +346,7 @@ def run_backtest(price_data, igv_prices, backtest_start="2021-01-01"):
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
-    print("Tech Software Alpha Portfolio Engine (vs IGV)")
+    print("Tech Software Alpha Portfolio Engine (vs IGV) — Tiingo data")
     print(f"Universe: {len(TICKERS)} stocks | Starting capital: ${STARTING_CAPITAL:,.0f}")
 
     print("\nFetching weekly bars...")
