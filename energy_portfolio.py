@@ -140,13 +140,16 @@ def fetch_ige_weekly(lookback_days=1800):
         print(f"  IGE benchmark: {len(series)} weeks ({series.index[0].date()} → {series.index[-1].date()})")
     return series
 
-def fetch_monthly_ige(lookback_days=1800):
-    """Fetch monthly IGE bars for macro gate signal."""
+def fetch_monthly_ige(lookback_days=3600):
+    """
+    Fetch IGE daily data and resample to month-end ourselves.
+    Daily data goes back further than Tiingo's monthly endpoint allows.
+    """
     end   = datetime.now(timezone.utc)
     start = end - timedelta(days=lookback_days)
     params = {"startDate": start.strftime("%Y-%m-%d"),
               "endDate":   end.strftime("%Y-%m-%d"),
-              "resampleFreq": "monthly", "token": TIINGO_KEY}
+              "token": TIINGO_KEY}
     try:
         r = requests.get(f"{TIINGO_URL}/IGE/prices",
                          headers=TIINGO_HDR, params=params, timeout=30)
@@ -157,18 +160,33 @@ def fetch_monthly_ige(lookback_days=1800):
         df["date"] = pd.to_datetime(df["date"], utc=True)
         df = df.set_index("date").sort_index()
         col = "adjClose" if "adjClose" in df.columns else "close"
-        series = df[col].dropna()
-        print(f"  IGE monthly: {len(series)} bars ({series.index[0].date()} to {series.index[-1].date()})")
-        return series
+        daily = df[col].dropna()
+        # Resample to month-end
+        monthly = daily.resample("ME").last().dropna()
+        print(f"  IGE monthly (from daily): {len(monthly)} bars ({monthly.index[0].date()} to {monthly.index[-1].date()})")
+        return monthly
     except Exception as e:
         print(f"  IGE monthly fetch failed: {e}")
         return None
 
 def compute_monthly_gate(monthly_series):
-    """Apply 2-of-3 signal to monthly IGE prices — same logic as weekly."""
-    if monthly_series is None or len(monthly_series) < EMA_SLOW + 5:
+    """
+    Monthly macro gate using shorter EMAs suited for monthly bars.
+    EMA8 > EMA21, RSI14 > RSI_MA14, MACD(5,13,5) — needs only ~25 bars warmup.
+    """
+    if monthly_series is None or len(monthly_series) < 25:
         return None
-    return compute_signal(monthly_series)
+    src = monthly_series
+    # Shorter EMAs for monthly timeframe
+    ema8  = src.ewm(span=8,  adjust=False).mean()
+    ema21 = src.ewm(span=21, adjust=False).mean()
+    rsi   = calc_rsi(src, 14)
+    rma   = calc_ema(rsi, 14)
+    macd  = src.ewm(span=5,  adjust=False).mean() - src.ewm(span=13, adjust=False).mean()
+    sig   = calc_ema(macd, 5)
+    score = (ema8>ema21).astype(int) + (rsi>rma).astype(int) + (macd>sig).astype(int)
+    result = score.apply(lambda s: "BUY" if s >= 2 else "SELL")
+    return result
 
 # ── Backtest ──────────────────────────────────────────────────────────────────
 def run_backtest(price_data, ige_prices, monthly_gate=None, backtest_start="2021-01-01"):
@@ -398,7 +416,7 @@ def main():
     print(f"  Backtest start: {backtest_start}")
 
     print("Fetching IGE monthly bars for macro gate...")
-    ige_monthly  = fetch_monthly_ige(lookback_days=1800)
+    ige_monthly  = fetch_monthly_ige(lookback_days=3600)
     monthly_gate = compute_monthly_gate(ige_monthly)
     if monthly_gate is not None:
         print(f"  Current monthly IGE signal: {monthly_gate.iloc[-1]}")
