@@ -23,8 +23,7 @@ jobs:
 
       - name: Run Tech Software Portfolio Engine
         env:
-          ALPACA_API_KEY:    ${{ secrets.ALPACA_API_KEY }}
-          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
         run: python igv_portfolio.py
 
       - name: Commit portfolios.json
