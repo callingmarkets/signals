@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-22T23:37:43.424361Z",
+  "generated": "2026-04-23T00:32:51.170560Z",
   "portfolios": [
     {
       "id": "btc-long-only",
@@ -3393,6 +3393,4438 @@
           "btc": 78326.6,
           "signal": "BUY",
           "in_btc": true
+        }
+      ]
+    },
+    {
+      "id": "igv-alpha",
+      "name": "Tech Software Alpha",
+      "description": "Equal-weight across top IGV holdings with weekly BUY signal. Max 15% per stock. Cash to SGOV (~5% yield). Rebalances every Monday. Universe: 40 stocks. Benchmark: IGV.",
+      "ticker": "IGV",
+      "benchmark": "IGV",
+      "cash_instrument": "SGOV",
+      "timeframe": "weekly",
+      "starting_capital": 100000.0,
+      "disclaimer": "Simulated performance. Past performance does not guarantee future results.",
+      "current_value": 115352.79,
+      "total_return_pct": 15.35,
+      "total_return_dollar": 15352.79,
+      "cagr_pct": 6.67,
+      "ytd_return_pct": 0.55,
+      "return_1m": 0.52,
+      "return_3m": 3.9,
+      "return_6m": -11.5,
+      "return_1y": -3.42,
+      "max_drawdown_pct": 22.67,
+      "ann_volatility_pct": 22.3,
+      "sharpe_ratio": 0.18,
+      "calmar_ratio": 0.29,
+      "n_buy_stocks": 23,
+      "n_universe": 40,
+      "cash_pct": 0.0,
+      "pct_time_in_market": 99.1,
+      "sgov_weeks": 1,
+      "sgov_yield": 5.0,
+      "current_holdings": [
+        {
+          "ticker": "ORCL",
+          "name": "Oracle Corporation",
+          "price": 187.5,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft Corporation",
+          "price": 432.92,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "PLTR",
+          "name": "Palantir Technologies",
+          "price": 152.62,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "PANW",
+          "name": "Palo Alto Networks",
+          "price": 181.2,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "CDNS",
+          "name": "Cadence Design Systems",
+          "price": 331.61,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "SNPS",
+          "name": "Synopsys Inc.",
+          "price": 477.26,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "FTNT",
+          "name": "Fortinet Inc.",
+          "price": 87.09,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "ANSS",
+          "name": "ANSYS Inc.",
+          "price": 374.3,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "CRWD",
+          "name": "CrowdStrike Holdings",
+          "price": 466.68,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "DDOG",
+          "name": "Datadog Inc.",
+          "price": 132.14,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "HUBS",
+          "name": "HubSpot Inc.",
+          "price": 232.75,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "DOCN",
+          "name": "DigitalOcean Holdings",
+          "price": 95.52,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "PAYC",
+          "name": "Paycom Software",
+          "price": 130.43,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "GWRE",
+          "name": "Guidewire Software",
+          "price": 142.99,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "MANH",
+          "name": "Manhattan Associates",
+          "price": 142.88,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "BSY",
+          "name": "Bentley Systems",
+          "price": 35.22,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "DOCU",
+          "name": "DocuSign Inc.",
+          "price": 47.52,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "IBM",
+          "name": "IBM Corporation",
+          "price": 251.86,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "GDDY",
+          "name": "GoDaddy Inc.",
+          "price": 88.4,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "PAYX",
+          "name": "Paychex Inc.",
+          "price": 93.43,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "VRSN",
+          "name": "VeriSign Inc.",
+          "price": 269.83,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "GRMN",
+          "name": "Garmin Ltd.",
+          "price": 266.59,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "ticker": "APP",
+          "name": "AppLovin Corporation",
+          "price": 483.71,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        }
+      ],
+      "current_signals": {
+        "ORCL": "BUY",
+        "MSFT": "BUY",
+        "PLTR": "BUY",
+        "CRM": "SELL",
+        "PANW": "BUY",
+        "ADBE": "SELL",
+        "NOW": "SELL",
+        "INTU": "SELL",
+        "CDNS": "BUY",
+        "SNPS": "BUY",
+        "FTNT": "BUY",
+        "ANSS": "BUY",
+        "TEAM": "SELL",
+        "WDAY": "SELL",
+        "CRWD": "BUY",
+        "VEEV": "SELL",
+        "DDOG": "BUY",
+        "HUBS": "BUY",
+        "DOCN": "BUY",
+        "PAYC": "BUY",
+        "CSGP": "SELL",
+        "ZS": "SELL",
+        "GWRE": "BUY",
+        "MANH": "BUY",
+        "PCTY": "SELL",
+        "BSY": "BUY",
+        "DOCU": "BUY",
+        "FICO": "SELL",
+        "GEN": "SELL",
+        "VRSK": "SELL",
+        "IBM": "BUY",
+        "GDDY": "BUY",
+        "ACN": "SELL",
+        "PAYX": "BUY",
+        "BR": "SELL",
+        "SSNC": "SELL",
+        "VRSN": "BUY",
+        "GRMN": "BUY",
+        "APP": "BUY"
+      },
+      "bah_return_pct": 4.79,
+      "bah_equity_curve": [
+        {
+          "date": "2024-02-23",
+          "value": 100000.0
+        },
+        {
+          "date": "2024-03-01",
+          "value": 102638.17
+        },
+        {
+          "date": "2024-03-08",
+          "value": 100295.23
+        },
+        {
+          "date": "2024-03-15",
+          "value": 98677.37
+        },
+        {
+          "date": "2024-03-22",
+          "value": 101547.0
+        },
+        {
+          "date": "2024-03-29",
+          "value": 100696.74
+        },
+        {
+          "date": "2024-04-05",
+          "value": 99397.73
+        },
+        {
+          "date": "2024-04-12",
+          "value": 97732.64
+        },
+        {
+          "date": "2024-04-19",
+          "value": 92737.36
+        },
+        {
+          "date": "2024-04-26",
+          "value": 95760.51
+        },
+        {
+          "date": "2024-05-03",
+          "value": 95500.71
+        },
+        {
+          "date": "2024-05-10",
+          "value": 96114.79
+        },
+        {
+          "date": "2024-05-17",
+          "value": 99515.82
+        },
+        {
+          "date": "2024-05-24",
+          "value": 97897.97
+        },
+        {
+          "date": "2024-05-31",
+          "value": 92217.76
+        },
+        {
+          "date": "2024-06-07",
+          "value": 94922.06
+        },
+        {
+          "date": "2024-06-14",
+          "value": 98063.3
+        },
+        {
+          "date": "2024-06-21",
+          "value": 100106.28
+        },
+        {
+          "date": "2024-06-28",
+          "value": 102621.63
+        },
+        {
+          "date": "2024-07-05",
+          "value": 105018.89
+        },
+        {
+          "date": "2024-07-12",
+          "value": 103117.62
+        },
+        {
+          "date": "2024-07-19",
+          "value": 100200.76
+        },
+        {
+          "date": "2024-07-26",
+          "value": 100106.28
+        },
+        {
+          "date": "2024-08-02",
+          "value": 94721.3
+        },
+        {
+          "date": "2024-08-09",
+          "value": 97390.17
+        },
+        {
+          "date": "2024-08-16",
+          "value": 100991.97
+        },
+        {
+          "date": "2024-08-23",
+          "value": 101995.75
+        },
+        {
+          "date": "2024-08-30",
+          "value": 102503.54
+        },
+        {
+          "date": "2024-09-06",
+          "value": 98441.19
+        },
+        {
+          "date": "2024-09-13",
+          "value": 103129.43
+        },
+        {
+          "date": "2024-09-20",
+          "value": 105337.74
+        },
+        {
+          "date": "2024-09-27",
+          "value": 105384.98
+        },
+        {
+          "date": "2024-10-04",
+          "value": 106164.38
+        },
+        {
+          "date": "2024-10-11",
+          "value": 109612.66
+        },
+        {
+          "date": "2024-10-18",
+          "value": 109010.39
+        },
+        {
+          "date": "2024-10-25",
+          "value": 108880.49
+        },
+        {
+          "date": "2024-11-01",
+          "value": 108951.35
+        },
+        {
+          "date": "2024-11-08",
+          "value": 119555.98
+        },
+        {
+          "date": "2024-11-15",
+          "value": 119426.07
+        },
+        {
+          "date": "2024-11-22",
+          "value": 125224.37
+        },
+        {
+          "date": "2024-11-29",
+          "value": 123712.8
+        },
+        {
+          "date": "2024-12-06",
+          "value": 129959.85
+        },
+        {
+          "date": "2024-12-13",
+          "value": 124905.53
+        },
+        {
+          "date": "2024-12-20",
+          "value": 122366.56
+        },
+        {
+          "date": "2024-12-27",
+          "value": 120784.13
+        },
+        {
+          "date": "2025-01-03",
+          "value": 119827.59
+        },
+        {
+          "date": "2025-01-10",
+          "value": 114796.88
+        },
+        {
+          "date": "2025-01-17",
+          "value": 118469.53
+        },
+        {
+          "date": "2025-01-24",
+          "value": 122638.17
+        },
+        {
+          "date": "2025-01-31",
+          "value": 121504.49
+        },
+        {
+          "date": "2025-02-07",
+          "value": 123547.47
+        },
+        {
+          "date": "2025-02-14",
+          "value": 126074.63
+        },
+        {
+          "date": "2025-02-21",
+          "value": 118623.05
+        },
+        {
+          "date": "2025-02-28",
+          "value": 115103.92
+        },
+        {
+          "date": "2025-03-07",
+          "value": 110321.21
+        },
+        {
+          "date": "2025-03-14",
+          "value": 108242.8
+        },
+        {
+          "date": "2025-03-21",
+          "value": 109955.13
+        },
+        {
+          "date": "2025-03-28",
+          "value": 106128.96
+        },
+        {
+          "date": "2025-04-04",
+          "value": 96008.5
+        },
+        {
+          "date": "2025-04-11",
+          "value": 102975.91
+        },
+        {
+          "date": "2025-04-18",
+          "value": 102255.55
+        },
+        {
+          "date": "2025-04-25",
+          "value": 111903.64
+        },
+        {
+          "date": "2025-05-02",
+          "value": 117465.75
+        },
+        {
+          "date": "2025-05-09",
+          "value": 117725.56
+        },
+        {
+          "date": "2025-05-16",
+          "value": 124185.17
+        },
+        {
+          "date": "2025-05-23",
+          "value": 120370.81
+        },
+        {
+          "date": "2025-05-30",
+          "value": 122401.98
+        },
+        {
+          "date": "2025-06-06",
+          "value": 125153.52
+        },
+        {
+          "date": "2025-06-13",
+          "value": 125495.98
+        },
+        {
+          "date": "2025-06-20",
+          "value": 124126.12
+        },
+        {
+          "date": "2025-06-27",
+          "value": 127279.17
+        },
+        {
+          "date": "2025-07-04",
+          "value": 131400.57
+        },
+        {
+          "date": "2025-07-11",
+          "value": 126924.89
+        },
+        {
+          "date": "2025-07-18",
+          "value": 131152.57
+        },
+        {
+          "date": "2025-07-25",
+          "value": 133077.47
+        },
+        {
+          "date": "2025-08-01",
+          "value": 128282.95
+        },
+        {
+          "date": "2025-08-08",
+          "value": 129463.86
+        },
+        {
+          "date": "2025-08-15",
+          "value": 128849.79
+        },
+        {
+          "date": "2025-08-22",
+          "value": 126901.28
+        },
+        {
+          "date": "2025-08-29",
+          "value": 127657.06
+        },
+        {
+          "date": "2025-09-05",
+          "value": 127704.3
+        },
+        {
+          "date": "2025-09-12",
+          "value": 131872.93
+        },
+        {
+          "date": "2025-09-19",
+          "value": 138391.59
+        },
+        {
+          "date": "2025-09-26",
+          "value": 135769.96
+        },
+        {
+          "date": "2025-10-03",
+          "value": 135604.63
+        },
+        {
+          "date": "2025-10-10",
+          "value": 132368.92
+        },
+        {
+          "date": "2025-10-17",
+          "value": 133059.75
+        },
+        {
+          "date": "2025-10-24",
+          "value": 136986.3
+        },
+        {
+          "date": "2025-10-31",
+          "value": 136407.65
+        },
+        {
+          "date": "2025-11-07",
+          "value": 129286.73
+        },
+        {
+          "date": "2025-11-14",
+          "value": 126877.66
+        },
+        {
+          "date": "2025-11-21",
+          "value": 119178.08
+        },
+        {
+          "date": "2025-11-28",
+          "value": 122921.59
+        },
+        {
+          "date": "2025-12-05",
+          "value": 129263.11
+        },
+        {
+          "date": "2025-12-12",
+          "value": 127503.54
+        },
+        {
+          "date": "2025-12-19",
+          "value": 127255.55
+        },
+        {
+          "date": "2025-12-26",
+          "value": 127657.06
+        },
+        {
+          "date": "2026-01-02",
+          "value": 121185.64
+        },
+        {
+          "date": "2026-01-09",
+          "value": 123996.22
+        },
+        {
+          "date": "2026-01-16",
+          "value": 116095.89
+        },
+        {
+          "date": "2026-01-23",
+          "value": 115387.34
+        },
+        {
+          "date": "2026-01-30",
+          "value": 106648.56
+        },
+        {
+          "date": "2026-02-06",
+          "value": 97378.37
+        },
+        {
+          "date": "2026-02-13",
+          "value": 97744.45
+        },
+        {
+          "date": "2026-02-20",
+          "value": 95394.43
+        },
+        {
+          "date": "2026-02-27",
+          "value": 96327.35
+        },
+        {
+          "date": "2026-03-06",
+          "value": 103885.21
+        },
+        {
+          "date": "2026-03-13",
+          "value": 99421.35
+        },
+        {
+          "date": "2026-03-20",
+          "value": 98004.25
+        },
+        {
+          "date": "2026-03-27",
+          "value": 90800.66
+        },
+        {
+          "date": "2026-04-03",
+          "value": 94874.82
+        },
+        {
+          "date": "2026-04-10",
+          "value": 88179.03
+        },
+        {
+          "date": "2026-04-17",
+          "value": 100472.37
+        },
+        {
+          "date": "2026-04-24",
+          "value": 104794.52
+        }
+      ],
+      "equity_curve": [
+        {
+          "date": "2024-02-16",
+          "value": 100000.0,
+          "n_stocks": 0,
+          "cash_pct": 100.0,
+          "buy_tickers": []
+        },
+        {
+          "date": "2024-02-23",
+          "value": 100096.15,
+          "n_stocks": 25,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "CRM",
+            "ADBE",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "SNPS",
+            "ANSS",
+            "WDAY",
+            "VEEV",
+            "CSGP",
+            "GWRE",
+            "MANH",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "GDDY",
+            "ACN",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "VRSN",
+            "GRMN"
+          ]
+        },
+        {
+          "date": "2024-03-01",
+          "value": 101083.17,
+          "n_stocks": 25,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "CRM",
+            "ADBE",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "SNPS",
+            "FTNT",
+            "ANSS",
+            "VEEV",
+            "DDOG",
+            "HUBS",
+            "CSGP",
+            "MANH",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "GDDY",
+            "ACN",
+            "BR",
+            "SSNC",
+            "VRSN",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-03-08",
+          "value": 99923.81,
+          "n_stocks": 24,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "CRM",
+            "ADBE",
+            "INTU",
+            "CDNS",
+            "SNPS",
+            "FTNT",
+            "ANSS",
+            "TEAM",
+            "VEEV",
+            "HUBS",
+            "CSGP",
+            "MANH",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "IBM",
+            "GDDY",
+            "ACN",
+            "BR",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-03-15",
+          "value": 98318.34,
+          "n_stocks": 19,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "CRM",
+            "CDNS",
+            "SNPS",
+            "FTNT",
+            "ANSS",
+            "VEEV",
+            "CSGP",
+            "MANH",
+            "DOCU",
+            "GEN",
+            "IBM",
+            "GDDY",
+            "ACN",
+            "BR",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-03-22",
+          "value": 101259.48,
+          "n_stocks": 18,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "CRM",
+            "CDNS",
+            "SNPS",
+            "FTNT",
+            "ANSS",
+            "VEEV",
+            "HUBS",
+            "CSGP",
+            "MANH",
+            "DOCU",
+            "GEN",
+            "IBM",
+            "GDDY",
+            "BR",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-03-29",
+          "value": 100609.45,
+          "n_stocks": 20,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "CRM",
+            "CDNS",
+            "SNPS",
+            "FTNT",
+            "ANSS",
+            "VEEV",
+            "HUBS",
+            "PAYC",
+            "CSGP",
+            "MANH",
+            "DOCU",
+            "GEN",
+            "IBM",
+            "GDDY",
+            "BR",
+            "SSNC",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-04-05",
+          "value": 100855.18,
+          "n_stocks": 20,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "CRM",
+            "NOW",
+            "CDNS",
+            "SNPS",
+            "FTNT",
+            "ANSS",
+            "VEEV",
+            "HUBS",
+            "PAYC",
+            "CSGP",
+            "MANH",
+            "DOCU",
+            "GEN",
+            "IBM",
+            "GDDY",
+            "BR",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-04-12",
+          "value": 98417.96,
+          "n_stocks": 17,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "CRM",
+            "NOW",
+            "CDNS",
+            "SNPS",
+            "FTNT",
+            "ANSS",
+            "HUBS",
+            "PAYC",
+            "CSGP",
+            "DOCU",
+            "IBM",
+            "GDDY",
+            "BR",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-04-19",
+          "value": 92918.72,
+          "n_stocks": 9,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "HUBS",
+            "PAYC",
+            "CSGP",
+            "DOCU",
+            "GDDY",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-04-26",
+          "value": 96732.47,
+          "n_stocks": 10,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "DDOG",
+            "HUBS",
+            "PAYC",
+            "CSGP",
+            "BSY",
+            "DOCU",
+            "GDDY",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-05-03",
+          "value": 96446.87,
+          "n_stocks": 7,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "HUBS",
+            "CSGP",
+            "BSY",
+            "DOCU",
+            "GDDY",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-05-10",
+          "value": 99837.9,
+          "n_stocks": 9,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "HUBS",
+            "CSGP",
+            "BSY",
+            "DOCU",
+            "GEN",
+            "VRSK",
+            "GDDY",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-05-17",
+          "value": 101203.51,
+          "n_stocks": 17,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PANW",
+            "INTU",
+            "CRWD",
+            "HUBS",
+            "GWRE",
+            "PCTY",
+            "BSY",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "GDDY",
+            "PAYX",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-05-24",
+          "value": 99036.67,
+          "n_stocks": 14,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PANW",
+            "SNPS",
+            "CRWD",
+            "HUBS",
+            "BSY",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "GDDY",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-05-31",
+          "value": 95816.57,
+          "n_stocks": 14,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "MSFT",
+            "PANW",
+            "SNPS",
+            "CRWD",
+            "HUBS",
+            "DOCN",
+            "BSY",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "GDDY",
+            "BR",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-06-07",
+          "value": 97294.35,
+          "n_stocks": 14,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PANW",
+            "SNPS",
+            "CRWD",
+            "DOCN",
+            "GWRE",
+            "BSY",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "GDDY",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-06-14",
+          "value": 98961.99,
+          "n_stocks": 17,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "ADBE",
+            "CDNS",
+            "SNPS",
+            "CRWD",
+            "DOCN",
+            "ZS",
+            "GWRE",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "GDDY",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-06-21",
+          "value": 99910.95,
+          "n_stocks": 18,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "ADBE",
+            "CDNS",
+            "SNPS",
+            "CRWD",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "GDDY",
+            "PAYX",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-06-28",
+          "value": 101583.49,
+          "n_stocks": 20,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "ADBE",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "SNPS",
+            "CRWD",
+            "DDOG",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "GDDY",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-07-05",
+          "value": 104430.23,
+          "n_stocks": 22,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "ADBE",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "SNPS",
+            "TEAM",
+            "CRWD",
+            "DDOG",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "GDDY",
+            "BR",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-07-12",
+          "value": 103349.04,
+          "n_stocks": 22,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "ADBE",
+            "CDNS",
+            "SNPS",
+            "TEAM",
+            "CRWD",
+            "DDOG",
+            "ZS",
+            "GWRE",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "GDDY",
+            "ACN",
+            "BR",
+            "SSNC",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-07-19",
+          "value": 100665.83,
+          "n_stocks": 22,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "ADBE",
+            "CDNS",
+            "SNPS",
+            "TEAM",
+            "CRWD",
+            "DDOG",
+            "ZS",
+            "GWRE",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "GDDY",
+            "ACN",
+            "BR",
+            "SSNC",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-07-26",
+          "value": 99988.37,
+          "n_stocks": 21,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "NOW",
+            "TEAM",
+            "WDAY",
+            "DDOG",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "GDDY",
+            "ACN",
+            "BR",
+            "SSNC",
+            "VRSN",
+            "GRMN"
+          ]
+        },
+        {
+          "date": "2024-08-02",
+          "value": 95876.37,
+          "n_stocks": 19,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "PLTR",
+            "PANW",
+            "NOW",
+            "PAYC",
+            "ZS",
+            "GWRE",
+            "PCTY",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "GDDY",
+            "ACN",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "VRSN",
+            "GRMN"
+          ]
+        },
+        {
+          "date": "2024-08-09",
+          "value": 97441.59,
+          "n_stocks": 18,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "PLTR",
+            "PANW",
+            "NOW",
+            "FTNT",
+            "PAYC",
+            "ZS",
+            "GWRE",
+            "PCTY",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "GDDY",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-08-16",
+          "value": 100301.87,
+          "n_stocks": 24,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "PLTR",
+            "CRM",
+            "PANW",
+            "ADBE",
+            "NOW",
+            "INTU",
+            "FTNT",
+            "WDAY",
+            "VEEV",
+            "DOCN",
+            "PAYC",
+            "ZS",
+            "GWRE",
+            "PCTY",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "GDDY",
+            "ACN",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-08-23",
+          "value": 101895.87,
+          "n_stocks": 25,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "PLTR",
+            "CRM",
+            "PANW",
+            "ADBE",
+            "NOW",
+            "FTNT",
+            "WDAY",
+            "VEEV",
+            "DOCN",
+            "PAYC",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "PCTY",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "GDDY",
+            "ACN",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-08-30",
+          "value": 103654.82,
+          "n_stocks": 27,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "PLTR",
+            "PANW",
+            "ADBE",
+            "NOW",
+            "FTNT",
+            "WDAY",
+            "VEEV",
+            "DOCN",
+            "PAYC",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "PCTY",
+            "BSY",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "GDDY",
+            "ACN",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "VRSN",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-09-06",
+          "value": 100046.79,
+          "n_stocks": 27,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "PLTR",
+            "PANW",
+            "ADBE",
+            "NOW",
+            "FTNT",
+            "TEAM",
+            "WDAY",
+            "VEEV",
+            "DOCN",
+            "PAYC",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "PCTY",
+            "BSY",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "IBM",
+            "GDDY",
+            "ACN",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-09-13",
+          "value": 105342.29,
+          "n_stocks": 29,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "PLTR",
+            "CRM",
+            "PANW",
+            "ADBE",
+            "NOW",
+            "INTU",
+            "FTNT",
+            "TEAM",
+            "WDAY",
+            "VEEV",
+            "DOCN",
+            "PAYC",
+            "CSGP",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "PCTY",
+            "BSY",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "IBM",
+            "GDDY",
+            "ACN",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-09-20",
+          "value": 107115.86,
+          "n_stocks": 28,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "PLTR",
+            "CRM",
+            "PANW",
+            "ADBE",
+            "NOW",
+            "INTU",
+            "FTNT",
+            "TEAM",
+            "WDAY",
+            "VEEV",
+            "HUBS",
+            "DOCN",
+            "PAYC",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "PCTY",
+            "BSY",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "IBM",
+            "GDDY",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-09-27",
+          "value": 106896.69,
+          "n_stocks": 27,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "PLTR",
+            "CRM",
+            "PANW",
+            "NOW",
+            "FTNT",
+            "TEAM",
+            "WDAY",
+            "VEEV",
+            "HUBS",
+            "DOCN",
+            "PAYC",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "PCTY",
+            "BSY",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "IBM",
+            "ACN",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "VRSN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-10-04",
+          "value": 109157.22,
+          "n_stocks": 27,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "PLTR",
+            "CRM",
+            "PANW",
+            "NOW",
+            "FTNT",
+            "TEAM",
+            "WDAY",
+            "DDOG",
+            "HUBS",
+            "DOCN",
+            "PAYC",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "PCTY",
+            "BSY",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "IBM",
+            "ACN",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "VRSN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-10-11",
+          "value": 113122.96,
+          "n_stocks": 30,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "PLTR",
+            "CRM",
+            "PANW",
+            "NOW",
+            "FTNT",
+            "ANSS",
+            "TEAM",
+            "WDAY",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "HUBS",
+            "DOCN",
+            "PAYC",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "PCTY",
+            "BSY",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "IBM",
+            "ACN",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "VRSN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-10-18",
+          "value": 113211.15,
+          "n_stocks": 30,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "PLTR",
+            "CRM",
+            "PANW",
+            "NOW",
+            "FTNT",
+            "TEAM",
+            "WDAY",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "HUBS",
+            "DOCN",
+            "PAYC",
+            "CSGP",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "PCTY",
+            "BSY",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "IBM",
+            "ACN",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "VRSN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-10-25",
+          "value": 111389.72,
+          "n_stocks": 25,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "PLTR",
+            "CRM",
+            "PANW",
+            "NOW",
+            "FTNT",
+            "TEAM",
+            "CRWD",
+            "DDOG",
+            "HUBS",
+            "DOCN",
+            "PAYC",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "PCTY",
+            "BSY",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "IBM",
+            "ACN",
+            "PAYX",
+            "BR",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-11-01",
+          "value": 112956.0,
+          "n_stocks": 27,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "PLTR",
+            "CRM",
+            "PANW",
+            "NOW",
+            "CDNS",
+            "FTNT",
+            "TEAM",
+            "CRWD",
+            "DDOG",
+            "HUBS",
+            "DOCN",
+            "PAYC",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "PCTY",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "ACN",
+            "PAYX",
+            "BR",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-11-08",
+          "value": 125676.14,
+          "n_stocks": 34,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "PLTR",
+            "CRM",
+            "PANW",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "SNPS",
+            "FTNT",
+            "ANSS",
+            "TEAM",
+            "WDAY",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "HUBS",
+            "DOCN",
+            "PAYC",
+            "CSGP",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "PCTY",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "GDDY",
+            "ACN",
+            "PAYX",
+            "BR",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-11-15",
+          "value": 124326.93,
+          "n_stocks": 29,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "PLTR",
+            "CRM",
+            "PANW",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "FTNT",
+            "TEAM",
+            "WDAY",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "HUBS",
+            "PAYC",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "PCTY",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "GDDY",
+            "ACN",
+            "PAYX",
+            "BR",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-11-22",
+          "value": 129907.2,
+          "n_stocks": 32,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "PLTR",
+            "CRM",
+            "PANW",
+            "NOW",
+            "CDNS",
+            "SNPS",
+            "FTNT",
+            "ANSS",
+            "TEAM",
+            "WDAY",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "HUBS",
+            "DOCN",
+            "PAYC",
+            "CSGP",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "PCTY",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "GDDY",
+            "ACN",
+            "PAYX",
+            "BR",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-11-29",
+          "value": 129618.23,
+          "n_stocks": 33,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "CRM",
+            "PANW",
+            "NOW",
+            "CDNS",
+            "SNPS",
+            "FTNT",
+            "ANSS",
+            "TEAM",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "HUBS",
+            "PAYC",
+            "CSGP",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "PCTY",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "GDDY",
+            "ACN",
+            "PAYX",
+            "BR",
+            "VRSN",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-12-06",
+          "value": 134714.6,
+          "n_stocks": 35,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "CRM",
+            "PANW",
+            "ADBE",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "FTNT",
+            "ANSS",
+            "TEAM",
+            "WDAY",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "HUBS",
+            "DOCN",
+            "PAYC",
+            "ZS",
+            "MANH",
+            "PCTY",
+            "BSY",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "GDDY",
+            "ACN",
+            "PAYX",
+            "BR",
+            "VRSN",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-12-13",
+          "value": 130131.81,
+          "n_stocks": 33,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "CRM",
+            "PANW",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "FTNT",
+            "ANSS",
+            "TEAM",
+            "WDAY",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "HUBS",
+            "PAYC",
+            "ZS",
+            "MANH",
+            "PCTY",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "GDDY",
+            "ACN",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "VRSN",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-12-20",
+          "value": 127357.05,
+          "n_stocks": 28,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "MSFT",
+            "PLTR",
+            "CRM",
+            "PANW",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "FTNT",
+            "ANSS",
+            "TEAM",
+            "WDAY",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "HUBS",
+            "PAYC",
+            "MANH",
+            "PCTY",
+            "DOCU",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "GDDY",
+            "ACN",
+            "BR",
+            "VRSN",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2024-12-27",
+          "value": 126115.41,
+          "n_stocks": 24,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "MSFT",
+            "PLTR",
+            "CRM",
+            "PANW",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "FTNT",
+            "ANSS",
+            "TEAM",
+            "WDAY",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "HUBS",
+            "PAYC",
+            "PCTY",
+            "DOCU",
+            "GDDY",
+            "ACN",
+            "BR",
+            "VRSN",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-01-03",
+          "value": 125477.0,
+          "n_stocks": 20,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "MSFT",
+            "PLTR",
+            "CRM",
+            "PANW",
+            "NOW",
+            "CDNS",
+            "FTNT",
+            "ANSS",
+            "TEAM",
+            "CRWD",
+            "DDOG",
+            "HUBS",
+            "PAYC",
+            "PCTY",
+            "DOCU",
+            "GDDY",
+            "BR",
+            "VRSN",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-01-10",
+          "value": 121454.25,
+          "n_stocks": 16,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "PLTR",
+            "CRM",
+            "NOW",
+            "CDNS",
+            "FTNT",
+            "ANSS",
+            "TEAM",
+            "CRWD",
+            "DDOG",
+            "HUBS",
+            "PCTY",
+            "DOCU",
+            "GDDY",
+            "VRSN",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-01-17",
+          "value": 124637.61,
+          "n_stocks": 14,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "PLTR",
+            "CDNS",
+            "ANSS",
+            "TEAM",
+            "CRWD",
+            "DDOG",
+            "HUBS",
+            "DOCU",
+            "GDDY",
+            "PAYX",
+            "SSNC",
+            "VRSN",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-01-24",
+          "value": 128648.46,
+          "n_stocks": 22,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "NOW",
+            "CDNS",
+            "SNPS",
+            "ANSS",
+            "TEAM",
+            "CRWD",
+            "HUBS",
+            "GWRE",
+            "MANH",
+            "PCTY",
+            "DOCU",
+            "GDDY",
+            "ACN",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "VRSN",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-01-31",
+          "value": 128587.23,
+          "n_stocks": 27,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "PLTR",
+            "CRM",
+            "PANW",
+            "CDNS",
+            "SNPS",
+            "FTNT",
+            "ANSS",
+            "TEAM",
+            "WDAY",
+            "CRWD",
+            "VEEV",
+            "HUBS",
+            "DOCN",
+            "CSGP",
+            "ZS",
+            "GWRE",
+            "PCTY",
+            "DOCU",
+            "VRSK",
+            "IBM",
+            "GDDY",
+            "ACN",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "VRSN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-02-07",
+          "value": 132005.0,
+          "n_stocks": 26,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "PLTR",
+            "PANW",
+            "CDNS",
+            "SNPS",
+            "FTNT",
+            "ANSS",
+            "TEAM",
+            "WDAY",
+            "CRWD",
+            "VEEV",
+            "HUBS",
+            "DOCN",
+            "CSGP",
+            "ZS",
+            "GWRE",
+            "PCTY",
+            "VRSK",
+            "IBM",
+            "GDDY",
+            "ACN",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "VRSN",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-02-14",
+          "value": 134545.74,
+          "n_stocks": 21,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "PLTR",
+            "PANW",
+            "SNPS",
+            "FTNT",
+            "ANSS",
+            "TEAM",
+            "CRWD",
+            "VEEV",
+            "HUBS",
+            "DOCN",
+            "ZS",
+            "GWRE",
+            "PCTY",
+            "VRSK",
+            "IBM",
+            "ACN",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "VRSN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-02-21",
+          "value": 127098.52,
+          "n_stocks": 21,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "PLTR",
+            "PANW",
+            "FTNT",
+            "TEAM",
+            "CRWD",
+            "VEEV",
+            "HUBS",
+            "DOCN",
+            "PAYC",
+            "CSGP",
+            "ZS",
+            "GWRE",
+            "VRSK",
+            "IBM",
+            "ACN",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "VRSN",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-02-28",
+          "value": 125019.58,
+          "n_stocks": 18,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "PLTR",
+            "PANW",
+            "FTNT",
+            "TEAM",
+            "WDAY",
+            "CRWD",
+            "HUBS",
+            "DOCN",
+            "PAYC",
+            "CSGP",
+            "GWRE",
+            "VRSK",
+            "IBM",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "VRSN",
+            "GRMN"
+          ]
+        },
+        {
+          "date": "2025-03-07",
+          "value": 119632.7,
+          "n_stocks": 14,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "PLTR",
+            "ADBE",
+            "FTNT",
+            "VEEV",
+            "DOCN",
+            "CSGP",
+            "ZS",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "VRSN"
+          ]
+        },
+        {
+          "date": "2025-03-14",
+          "value": 114024.38,
+          "n_stocks": 6,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "VEEV",
+            "CSGP",
+            "VRSK",
+            "IBM",
+            "SSNC",
+            "VRSN"
+          ]
+        },
+        {
+          "date": "2025-03-21",
+          "value": 114321.78,
+          "n_stocks": 7,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "VEEV",
+            "PAYC",
+            "CSGP",
+            "ZS",
+            "IBM",
+            "SSNC",
+            "VRSN"
+          ]
+        },
+        {
+          "date": "2025-03-28",
+          "value": 114873.67,
+          "n_stocks": 5,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "VEEV",
+            "PAYC",
+            "CSGP",
+            "ZS",
+            "VRSN"
+          ]
+        },
+        {
+          "date": "2025-04-04",
+          "value": 104171.12,
+          "n_stocks": 1,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "VRSN"
+          ]
+        },
+        {
+          "date": "2025-04-11",
+          "value": 107176.56,
+          "n_stocks": 4,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "CRWD",
+            "CSGP",
+            "FICO",
+            "VRSN"
+          ]
+        },
+        {
+          "date": "2025-04-18",
+          "value": 108051.98,
+          "n_stocks": 5,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "CRWD",
+            "PAYC",
+            "CSGP",
+            "FICO",
+            "VRSN"
+          ]
+        },
+        {
+          "date": "2025-04-25",
+          "value": 115579.24,
+          "n_stocks": 11,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "PLTR",
+            "PANW",
+            "NOW",
+            "INTU",
+            "CRWD",
+            "HUBS",
+            "PAYC",
+            "CSGP",
+            "ZS",
+            "FICO",
+            "VRSN"
+          ]
+        },
+        {
+          "date": "2025-05-02",
+          "value": 119431.49,
+          "n_stocks": 17,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "FTNT",
+            "CRWD",
+            "VEEV",
+            "HUBS",
+            "PAYC",
+            "ZS",
+            "GWRE",
+            "BSY",
+            "FICO",
+            "VRSN"
+          ]
+        },
+        {
+          "date": "2025-05-09",
+          "value": 119388.57,
+          "n_stocks": 23,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "SNPS",
+            "CRWD",
+            "VEEV",
+            "PAYC",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "PCTY",
+            "BSY",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "PAYX",
+            "VRSN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-05-16",
+          "value": 124831.14,
+          "n_stocks": 31,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "ADBE",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "SNPS",
+            "ANSS",
+            "WDAY",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "HUBS",
+            "PAYC",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "PCTY",
+            "BSY",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "GDDY",
+            "PAYX",
+            "BR",
+            "VRSN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-05-23",
+          "value": 120929.55,
+          "n_stocks": 26,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "ADBE",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "SNPS",
+            "ANSS",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "PAYC",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "PCTY",
+            "BSY",
+            "FICO",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "PAYX",
+            "VRSN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-05-30",
+          "value": 123698.47,
+          "n_stocks": 28,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "ADBE",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "SNPS",
+            "ANSS",
+            "WDAY",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "PAYC",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "BSY",
+            "DOCU",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "VRSN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-06-06",
+          "value": 127017.9,
+          "n_stocks": 30,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "ADBE",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "SNPS",
+            "ANSS",
+            "WDAY",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "PAYC",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "PCTY",
+            "BSY",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "ACN",
+            "PAYX",
+            "BR",
+            "SSNC",
+            "VRSN",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-06-13",
+          "value": 125628.05,
+          "n_stocks": 26,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "ADBE",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "SNPS",
+            "ANSS",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "PAYC",
+            "CSGP",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "BSY",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "ACN",
+            "PAYX",
+            "VRSN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-06-20",
+          "value": 123533.42,
+          "n_stocks": 23,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "SNPS",
+            "ANSS",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "PAYC",
+            "CSGP",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "BSY",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "VRSN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-06-27",
+          "value": 126490.36,
+          "n_stocks": 24,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "ADBE",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "SNPS",
+            "ANSS",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "CSGP",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "BSY",
+            "GEN",
+            "VRSK",
+            "IBM",
+            "SSNC",
+            "VRSN",
+            "GRMN"
+          ]
+        },
+        {
+          "date": "2025-07-04",
+          "value": 130423.97,
+          "n_stocks": 27,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "CRM",
+            "PANW",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "SNPS",
+            "FTNT",
+            "ANSS",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "CSGP",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "BSY",
+            "FICO",
+            "GEN",
+            "IBM",
+            "ACN",
+            "BR",
+            "SSNC",
+            "VRSN",
+            "GRMN"
+          ]
+        },
+        {
+          "date": "2025-07-11",
+          "value": 125849.3,
+          "n_stocks": 21,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "SNPS",
+            "ANSS",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "CSGP",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "BSY",
+            "GEN",
+            "IBM",
+            "SSNC",
+            "GRMN"
+          ]
+        },
+        {
+          "date": "2025-07-18",
+          "value": 128963.97,
+          "n_stocks": 25,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "SNPS",
+            "FTNT",
+            "ANSS",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "DOCN",
+            "CSGP",
+            "ZS",
+            "MANH",
+            "PCTY",
+            "BSY",
+            "DOCU",
+            "GEN",
+            "IBM",
+            "SSNC",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-07-25",
+          "value": 130991.86,
+          "n_stocks": 27,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "CRM",
+            "PANW",
+            "NOW",
+            "INTU",
+            "CDNS",
+            "SNPS",
+            "ANSS",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "DOCN",
+            "CSGP",
+            "ZS",
+            "MANH",
+            "PCTY",
+            "BSY",
+            "DOCU",
+            "GEN",
+            "IBM",
+            "BR",
+            "SSNC",
+            "VRSN",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-08-01",
+          "value": 126476.57,
+          "n_stocks": 18,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "INTU",
+            "CDNS",
+            "SNPS",
+            "ANSS",
+            "VEEV",
+            "DDOG",
+            "CSGP",
+            "ZS",
+            "MANH",
+            "BSY",
+            "GEN",
+            "BR",
+            "SSNC",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-08-08",
+          "value": 129625.96,
+          "n_stocks": 18,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "INTU",
+            "CDNS",
+            "SNPS",
+            "ANSS",
+            "VEEV",
+            "DDOG",
+            "DOCN",
+            "CSGP",
+            "MANH",
+            "BSY",
+            "GEN",
+            "BR",
+            "SSNC",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-08-15",
+          "value": 127845.12,
+          "n_stocks": 17,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "CDNS",
+            "SNPS",
+            "ANSS",
+            "VEEV",
+            "DDOG",
+            "DOCN",
+            "CSGP",
+            "MANH",
+            "BSY",
+            "GEN",
+            "BR",
+            "SSNC",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-08-22",
+          "value": 127968.25,
+          "n_stocks": 20,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "ADBE",
+            "CDNS",
+            "SNPS",
+            "ANSS",
+            "VEEV",
+            "DDOG",
+            "DOCN",
+            "CSGP",
+            "MANH",
+            "PCTY",
+            "BSY",
+            "GEN",
+            "BR",
+            "SSNC",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-08-29",
+          "value": 127669.98,
+          "n_stocks": 19,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "ADBE",
+            "CDNS",
+            "SNPS",
+            "ANSS",
+            "DDOG",
+            "DOCN",
+            "CSGP",
+            "MANH",
+            "BSY",
+            "DOCU",
+            "GEN",
+            "BR",
+            "SSNC",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-09-05",
+          "value": 127348.68,
+          "n_stocks": 17,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "PANW",
+            "CDNS",
+            "SNPS",
+            "ANSS",
+            "DDOG",
+            "DOCN",
+            "CSGP",
+            "GWRE",
+            "MANH",
+            "BSY",
+            "DOCU",
+            "GEN",
+            "BR",
+            "SSNC",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-09-12",
+          "value": 128646.66,
+          "n_stocks": 15,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "PANW",
+            "NOW",
+            "CDNS",
+            "ANSS",
+            "DDOG",
+            "DOCN",
+            "CSGP",
+            "GWRE",
+            "MANH",
+            "DOCU",
+            "BR",
+            "SSNC",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-09-19",
+          "value": 131807.8,
+          "n_stocks": 21,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "ADBE",
+            "NOW",
+            "CDNS",
+            "ANSS",
+            "WDAY",
+            "CRWD",
+            "DDOG",
+            "HUBS",
+            "DOCN",
+            "ZS",
+            "GWRE",
+            "MANH",
+            "DOCU",
+            "IBM",
+            "SSNC",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-09-26",
+          "value": 130002.64,
+          "n_stocks": 21,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "PLTR",
+            "PANW",
+            "ADBE",
+            "NOW",
+            "CDNS",
+            "ANSS",
+            "WDAY",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "HUBS",
+            "DOCN",
+            "ZS",
+            "GWRE",
+            "DOCU",
+            "FICO",
+            "IBM",
+            "SSNC",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-10-03",
+          "value": 131081.17,
+          "n_stocks": 17,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "PANW",
+            "CDNS",
+            "ANSS",
+            "WDAY",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "DOCN",
+            "ZS",
+            "BSY",
+            "DOCU",
+            "FICO",
+            "IBM",
+            "SSNC",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-10-10",
+          "value": 126996.84,
+          "n_stocks": 12,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "PANW",
+            "ANSS",
+            "WDAY",
+            "CRWD",
+            "DDOG",
+            "DOCN",
+            "ZS",
+            "FICO",
+            "IBM",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-10-17",
+          "value": 127614.54,
+          "n_stocks": 12,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "PANW",
+            "ANSS",
+            "WDAY",
+            "CRWD",
+            "DDOG",
+            "DOCN",
+            "GWRE",
+            "FICO",
+            "IBM",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-10-24",
+          "value": 130891.59,
+          "n_stocks": 20,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "CRM",
+            "PANW",
+            "ADBE",
+            "NOW",
+            "ANSS",
+            "WDAY",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "DOCN",
+            "ZS",
+            "GWRE",
+            "FICO",
+            "IBM",
+            "ACN",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-10-31",
+          "value": 130348.85,
+          "n_stocks": 18,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "PLTR",
+            "CRM",
+            "PANW",
+            "ADBE",
+            "NOW",
+            "FTNT",
+            "ANSS",
+            "TEAM",
+            "WDAY",
+            "CRWD",
+            "DDOG",
+            "HUBS",
+            "DOCN",
+            "ZS",
+            "FICO",
+            "IBM",
+            "ACN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-11-07",
+          "value": 127812.36,
+          "n_stocks": 12,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "PANW",
+            "ANSS",
+            "TEAM",
+            "CRWD",
+            "VEEV",
+            "DDOG",
+            "DOCN",
+            "ZS",
+            "FICO",
+            "IBM",
+            "ACN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-11-14",
+          "value": 124087.32,
+          "n_stocks": 9,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "CRM",
+            "PANW",
+            "ANSS",
+            "CRWD",
+            "DDOG",
+            "DOCN",
+            "FICO",
+            "IBM",
+            "ACN"
+          ]
+        },
+        {
+          "date": "2025-11-21",
+          "value": 118162.15,
+          "n_stocks": 7,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ANSS",
+            "CRWD",
+            "DDOG",
+            "DOCN",
+            "FICO",
+            "IBM",
+            "ACN"
+          ]
+        },
+        {
+          "date": "2025-11-28",
+          "value": 120010.04,
+          "n_stocks": 8,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ANSS",
+            "CRWD",
+            "DDOG",
+            "DOCN",
+            "FICO",
+            "IBM",
+            "ACN",
+            "SSNC"
+          ]
+        },
+        {
+          "date": "2025-12-05",
+          "value": 121929.52,
+          "n_stocks": 17,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "CRM",
+            "ADBE",
+            "INTU",
+            "CDNS",
+            "FTNT",
+            "ANSS",
+            "TEAM",
+            "CRWD",
+            "DDOG",
+            "DOCN",
+            "FICO",
+            "GEN",
+            "IBM",
+            "ACN",
+            "BR",
+            "SSNC",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-12-12",
+          "value": 121277.03,
+          "n_stocks": 13,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "CRM",
+            "ADBE",
+            "INTU",
+            "FTNT",
+            "ANSS",
+            "TEAM",
+            "DOCN",
+            "FICO",
+            "GEN",
+            "IBM",
+            "ACN",
+            "BR",
+            "SSNC"
+          ]
+        },
+        {
+          "date": "2025-12-19",
+          "value": 120074.62,
+          "n_stocks": 15,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "PLTR",
+            "CRM",
+            "ADBE",
+            "INTU",
+            "ANSS",
+            "TEAM",
+            "DOCN",
+            "PCTY",
+            "FICO",
+            "GEN",
+            "IBM",
+            "GDDY",
+            "ACN",
+            "SSNC",
+            "APP"
+          ]
+        },
+        {
+          "date": "2025-12-26",
+          "value": 120795.62,
+          "n_stocks": 17,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "CRM",
+            "ADBE",
+            "INTU",
+            "SNPS",
+            "FTNT",
+            "ANSS",
+            "TEAM",
+            "DOCN",
+            "PCTY",
+            "DOCU",
+            "FICO",
+            "GEN",
+            "IBM",
+            "GDDY",
+            "ACN",
+            "SSNC",
+            "APP"
+          ]
+        },
+        {
+          "date": "2026-01-02",
+          "value": 114724.78,
+          "n_stocks": 8,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "CRM",
+            "SNPS",
+            "ANSS",
+            "TEAM",
+            "DOCN",
+            "VRSK",
+            "ACN",
+            "SSNC"
+          ]
+        },
+        {
+          "date": "2026-01-09",
+          "value": 118492.74,
+          "n_stocks": 12,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "CRM",
+            "CDNS",
+            "SNPS",
+            "ANSS",
+            "DOCN",
+            "PCTY",
+            "GEN",
+            "VRSK",
+            "ACN",
+            "PAYX",
+            "VRSN",
+            "GRMN"
+          ]
+        },
+        {
+          "date": "2026-01-16",
+          "value": 115542.76,
+          "n_stocks": 8,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "SNPS",
+            "ANSS",
+            "DOCN",
+            "VRSK",
+            "ACN",
+            "PAYX",
+            "VRSN",
+            "GRMN"
+          ]
+        },
+        {
+          "date": "2026-01-23",
+          "value": 114033.84,
+          "n_stocks": 8,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "SNPS",
+            "FTNT",
+            "ANSS",
+            "DOCN",
+            "PCTY",
+            "VRSK",
+            "ACN",
+            "VRSN"
+          ]
+        },
+        {
+          "date": "2026-01-30",
+          "value": 111024.83,
+          "n_stocks": 4,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "FTNT",
+            "ANSS",
+            "DOCN",
+            "VRSK"
+          ]
+        },
+        {
+          "date": "2026-02-06",
+          "value": 110494.2,
+          "n_stocks": 3,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "FTNT",
+            "ANSS",
+            "DOCN"
+          ]
+        },
+        {
+          "date": "2026-02-13",
+          "value": 114807.64,
+          "n_stocks": 4,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "FTNT",
+            "ANSS",
+            "DOCN",
+            "GRMN"
+          ]
+        },
+        {
+          "date": "2026-02-20",
+          "value": 115600.71,
+          "n_stocks": 3,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ANSS",
+            "DOCN",
+            "GRMN"
+          ]
+        },
+        {
+          "date": "2026-02-27",
+          "value": 111624.83,
+          "n_stocks": 3,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ANSS",
+            "DOCN",
+            "GRMN"
+          ]
+        },
+        {
+          "date": "2026-03-06",
+          "value": 109180.22,
+          "n_stocks": 7,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "PLTR",
+            "FTNT",
+            "ANSS",
+            "CRWD",
+            "DOCN",
+            "VRSK",
+            "GRMN"
+          ]
+        },
+        {
+          "date": "2026-03-13",
+          "value": 111515.04,
+          "n_stocks": 7,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "FTNT",
+            "ANSS",
+            "CRWD",
+            "DOCN",
+            "BSY",
+            "VRSK",
+            "GRMN"
+          ]
+        },
+        {
+          "date": "2026-03-20",
+          "value": 113018.88,
+          "n_stocks": 7,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "FTNT",
+            "ANSS",
+            "DOCN",
+            "BSY",
+            "VRSK",
+            "VRSN",
+            "GRMN"
+          ]
+        },
+        {
+          "date": "2026-03-27",
+          "value": 109601.68,
+          "n_stocks": 4,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ANSS",
+            "DOCN",
+            "VRSN",
+            "GRMN"
+          ]
+        },
+        {
+          "date": "2026-04-03",
+          "value": 114753.74,
+          "n_stocks": 9,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "FTNT",
+            "ANSS",
+            "HUBS",
+            "DOCN",
+            "PAYC",
+            "GWRE",
+            "VRSK",
+            "VRSN",
+            "GRMN"
+          ]
+        },
+        {
+          "date": "2026-04-10",
+          "value": 104869.34,
+          "n_stocks": 5,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ANSS",
+            "DOCN",
+            "PAYC",
+            "VRSN",
+            "GRMN"
+          ]
+        },
+        {
+          "date": "2026-04-17",
+          "value": 112130.14,
+          "n_stocks": 12,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "PLTR",
+            "FTNT",
+            "ANSS",
+            "DOCN",
+            "PAYC",
+            "BSY",
+            "IBM",
+            "GDDY",
+            "VRSN",
+            "GRMN",
+            "APP"
+          ]
+        },
+        {
+          "date": "2026-04-24",
+          "value": 115352.79,
+          "n_stocks": 23,
+          "cash_pct": 0.0,
+          "buy_tickers": [
+            "ORCL",
+            "MSFT",
+            "PLTR",
+            "PANW",
+            "CDNS",
+            "SNPS",
+            "FTNT",
+            "ANSS",
+            "CRWD",
+            "DDOG",
+            "HUBS",
+            "DOCN",
+            "PAYC",
+            "GWRE",
+            "MANH",
+            "BSY",
+            "DOCU",
+            "IBM",
+            "GDDY",
+            "PAYX",
+            "VRSN",
+            "GRMN",
+            "APP"
+          ]
+        }
+      ],
+      "trades": [
+        {
+          "date": "2026-04-10",
+          "action": "SELL",
+          "ticker": "VRSK",
+          "price": 164.28,
+          "value": 11317.48
+        },
+        {
+          "date": "2026-04-10",
+          "action": "SELL",
+          "ticker": "VRSN",
+          "price": 259.78,
+          "value": 12746.98
+        },
+        {
+          "date": "2026-04-10",
+          "action": "SELL",
+          "ticker": "GRMN",
+          "price": 256.89,
+          "value": 13782.68
+        },
+        {
+          "date": "2026-04-10",
+          "action": "BUY",
+          "ticker": "ANSS",
+          "name": "ANSYS Inc.",
+          "price": 374.3,
+          "shares": 56.0349,
+          "value": 20973.87,
+          "weight": 20.0,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-10",
+          "action": "BUY",
+          "ticker": "DOCN",
+          "name": "DigitalOcean Holdings",
+          "price": 75.59,
+          "shares": 277.4688,
+          "value": 20973.87,
+          "weight": 20.0,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-10",
+          "action": "BUY",
+          "ticker": "PAYC",
+          "name": "Paycom Software",
+          "price": 113.59,
+          "shares": 184.6454,
+          "value": 20973.87,
+          "weight": 20.0,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-10",
+          "action": "BUY",
+          "ticker": "VRSN",
+          "name": "VeriSign Inc.",
+          "price": 259.78,
+          "shares": 80.737,
+          "value": 20973.87,
+          "weight": 20.0,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-10",
+          "action": "BUY",
+          "ticker": "GRMN",
+          "name": "Garmin Ltd.",
+          "price": 256.89,
+          "shares": 81.6453,
+          "value": 20973.87,
+          "weight": 20.0,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-17",
+          "action": "SELL",
+          "ticker": "ANSS",
+          "price": 374.3,
+          "value": 20973.87
+        },
+        {
+          "date": "2026-04-17",
+          "action": "SELL",
+          "ticker": "DOCN",
+          "price": 85.63,
+          "value": 23759.65
+        },
+        {
+          "date": "2026-04-17",
+          "action": "SELL",
+          "ticker": "PAYC",
+          "price": 126.93,
+          "value": 23437.04
+        },
+        {
+          "date": "2026-04-17",
+          "action": "SELL",
+          "ticker": "VRSN",
+          "price": 274.05,
+          "value": 22125.99
+        },
+        {
+          "date": "2026-04-17",
+          "action": "SELL",
+          "ticker": "GRMN",
+          "price": 267.42,
+          "value": 21833.59
+        },
+        {
+          "date": "2026-04-17",
+          "action": "BUY",
+          "ticker": "ORCL",
+          "name": "Oracle Corporation",
+          "price": 175.06,
+          "shares": 53.377,
+          "value": 9344.18,
+          "weight": 8.33,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-17",
+          "action": "BUY",
+          "ticker": "PLTR",
+          "name": "Palantir Technologies",
+          "price": 146.39,
+          "shares": 63.8307,
+          "value": 9344.18,
+          "weight": 8.33,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-17",
+          "action": "BUY",
+          "ticker": "FTNT",
+          "name": "Fortinet Inc.",
+          "price": 81.84,
+          "shares": 114.1762,
+          "value": 9344.18,
+          "weight": 8.33,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-17",
+          "action": "BUY",
+          "ticker": "ANSS",
+          "name": "ANSYS Inc.",
+          "price": 374.3,
+          "shares": 24.9644,
+          "value": 9344.18,
+          "weight": 8.33,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-17",
+          "action": "BUY",
+          "ticker": "DOCN",
+          "name": "DigitalOcean Holdings",
+          "price": 85.63,
+          "shares": 109.1227,
+          "value": 9344.18,
+          "weight": 8.33,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-17",
+          "action": "BUY",
+          "ticker": "PAYC",
+          "name": "Paycom Software",
+          "price": 126.93,
+          "shares": 73.6168,
+          "value": 9344.18,
+          "weight": 8.33,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-17",
+          "action": "BUY",
+          "ticker": "BSY",
+          "name": "Bentley Systems",
+          "price": 35.08,
+          "shares": 266.3677,
+          "value": 9344.18,
+          "weight": 8.33,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-17",
+          "action": "BUY",
+          "ticker": "IBM",
+          "name": "IBM Corporation",
+          "price": 253.47,
+          "shares": 36.865,
+          "value": 9344.18,
+          "weight": 8.33,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-17",
+          "action": "BUY",
+          "ticker": "GDDY",
+          "name": "GoDaddy Inc.",
+          "price": 85.72,
+          "shares": 109.0081,
+          "value": 9344.18,
+          "weight": 8.33,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-17",
+          "action": "BUY",
+          "ticker": "VRSN",
+          "name": "VeriSign Inc.",
+          "price": 274.05,
+          "shares": 34.0966,
+          "value": 9344.18,
+          "weight": 8.33,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-17",
+          "action": "BUY",
+          "ticker": "GRMN",
+          "name": "Garmin Ltd.",
+          "price": 267.42,
+          "shares": 34.942,
+          "value": 9344.18,
+          "weight": 8.33,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-17",
+          "action": "BUY",
+          "ticker": "APP",
+          "name": "AppLovin Corporation",
+          "price": 477.2,
+          "shares": 19.5813,
+          "value": 9344.18,
+          "weight": 8.33,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "SELL",
+          "ticker": "ORCL",
+          "price": 187.5,
+          "value": 10008.19
+        },
+        {
+          "date": "2026-04-24",
+          "action": "SELL",
+          "ticker": "PLTR",
+          "price": 152.62,
+          "value": 9741.84
+        },
+        {
+          "date": "2026-04-24",
+          "action": "SELL",
+          "ticker": "FTNT",
+          "price": 87.09,
+          "value": 9943.6
+        },
+        {
+          "date": "2026-04-24",
+          "action": "SELL",
+          "ticker": "ANSS",
+          "price": 374.3,
+          "value": 9344.18
+        },
+        {
+          "date": "2026-04-24",
+          "action": "SELL",
+          "ticker": "DOCN",
+          "price": 95.52,
+          "value": 10423.4
+        },
+        {
+          "date": "2026-04-24",
+          "action": "SELL",
+          "ticker": "PAYC",
+          "price": 130.43,
+          "value": 9601.84
+        },
+        {
+          "date": "2026-04-24",
+          "action": "SELL",
+          "ticker": "BSY",
+          "price": 35.22,
+          "value": 9381.47
+        },
+        {
+          "date": "2026-04-24",
+          "action": "SELL",
+          "ticker": "IBM",
+          "price": 251.86,
+          "value": 9284.83
+        },
+        {
+          "date": "2026-04-24",
+          "action": "SELL",
+          "ticker": "GDDY",
+          "price": 88.4,
+          "value": 9636.32
+        },
+        {
+          "date": "2026-04-24",
+          "action": "SELL",
+          "ticker": "VRSN",
+          "price": 269.83,
+          "value": 9200.29
+        },
+        {
+          "date": "2026-04-24",
+          "action": "SELL",
+          "ticker": "GRMN",
+          "price": 266.59,
+          "value": 9315.18
+        },
+        {
+          "date": "2026-04-24",
+          "action": "SELL",
+          "ticker": "APP",
+          "price": 483.71,
+          "value": 9471.65
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "ORCL",
+          "name": "Oracle Corporation",
+          "price": 187.5,
+          "shares": 26.7485,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "MSFT",
+          "name": "Microsoft Corporation",
+          "price": 432.92,
+          "shares": 11.5849,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "PLTR",
+          "name": "Palantir Technologies",
+          "price": 152.62,
+          "shares": 32.8616,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "PANW",
+          "name": "Palo Alto Networks",
+          "price": 181.2,
+          "shares": 27.6785,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "CDNS",
+          "name": "Cadence Design Systems",
+          "price": 331.61,
+          "shares": 15.1242,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "SNPS",
+          "name": "Synopsys Inc.",
+          "price": 477.26,
+          "shares": 10.5086,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "FTNT",
+          "name": "Fortinet Inc.",
+          "price": 87.09,
+          "shares": 57.588,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "ANSS",
+          "name": "ANSYS Inc.",
+          "price": 374.3,
+          "shares": 13.3992,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "CRWD",
+          "name": "CrowdStrike Holdings",
+          "price": 466.68,
+          "shares": 10.7468,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "DDOG",
+          "name": "Datadog Inc.",
+          "price": 132.14,
+          "shares": 37.9547,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "HUBS",
+          "name": "HubSpot Inc.",
+          "price": 232.75,
+          "shares": 21.5482,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "DOCN",
+          "name": "DigitalOcean Holdings",
+          "price": 95.52,
+          "shares": 52.5056,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "PAYC",
+          "name": "Paycom Software",
+          "price": 130.43,
+          "shares": 38.4523,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "GWRE",
+          "name": "Guidewire Software",
+          "price": 142.99,
+          "shares": 35.0748,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "MANH",
+          "name": "Manhattan Associates",
+          "price": 142.88,
+          "shares": 35.1018,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "BSY",
+          "name": "Bentley Systems",
+          "price": 35.22,
+          "shares": 142.4003,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "DOCU",
+          "name": "DocuSign Inc.",
+          "price": 47.52,
+          "shares": 105.5416,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "IBM",
+          "name": "IBM Corporation",
+          "price": 251.86,
+          "shares": 19.9132,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "GDDY",
+          "name": "GoDaddy Inc.",
+          "price": 88.4,
+          "shares": 56.7346,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "PAYX",
+          "name": "Paychex Inc.",
+          "price": 93.43,
+          "shares": 53.6802,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "VRSN",
+          "name": "VeriSign Inc.",
+          "price": 269.83,
+          "shares": 18.587,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "GRMN",
+          "name": "Garmin Ltd.",
+          "price": 266.59,
+          "shares": 18.8129,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        },
+        {
+          "date": "2026-04-24",
+          "action": "BUY",
+          "ticker": "APP",
+          "name": "AppLovin Corporation",
+          "price": 483.71,
+          "shares": 10.3685,
+          "value": 5015.34,
+          "weight": 4.35,
+          "signal": "BUY"
+        }
+      ],
+      "universe": [
+        {
+          "ticker": "ORCL",
+          "name": "Oracle Corporation"
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft Corporation"
+        },
+        {
+          "ticker": "PLTR",
+          "name": "Palantir Technologies"
+        },
+        {
+          "ticker": "CRM",
+          "name": "Salesforce Inc."
+        },
+        {
+          "ticker": "PANW",
+          "name": "Palo Alto Networks"
+        },
+        {
+          "ticker": "ADBE",
+          "name": "Adobe Inc."
+        },
+        {
+          "ticker": "NOW",
+          "name": "ServiceNow Inc."
+        },
+        {
+          "ticker": "INTU",
+          "name": "Intuit Inc."
+        },
+        {
+          "ticker": "CDNS",
+          "name": "Cadence Design Systems"
+        },
+        {
+          "ticker": "SNPS",
+          "name": "Synopsys Inc."
+        },
+        {
+          "ticker": "FTNT",
+          "name": "Fortinet Inc."
+        },
+        {
+          "ticker": "ANSS",
+          "name": "ANSYS Inc."
+        },
+        {
+          "ticker": "TEAM",
+          "name": "Atlassian Corporation"
+        },
+        {
+          "ticker": "WDAY",
+          "name": "Workday Inc."
+        },
+        {
+          "ticker": "CRWD",
+          "name": "CrowdStrike Holdings"
+        },
+        {
+          "ticker": "VEEV",
+          "name": "Veeva Systems"
+        },
+        {
+          "ticker": "DDOG",
+          "name": "Datadog Inc."
+        },
+        {
+          "ticker": "HUBS",
+          "name": "HubSpot Inc."
+        },
+        {
+          "ticker": "DOCN",
+          "name": "DigitalOcean Holdings"
+        },
+        {
+          "ticker": "PAYC",
+          "name": "Paycom Software"
+        },
+        {
+          "ticker": "CSGP",
+          "name": "CoStar Group"
+        },
+        {
+          "ticker": "ZS",
+          "name": "Zscaler Inc."
+        },
+        {
+          "ticker": "GWRE",
+          "name": "Guidewire Software"
+        },
+        {
+          "ticker": "MANH",
+          "name": "Manhattan Associates"
+        },
+        {
+          "ticker": "PCTY",
+          "name": "Paylocity Holding"
+        },
+        {
+          "ticker": "MTTR",
+          "name": "Matterport Inc."
+        },
+        {
+          "ticker": "BSY",
+          "name": "Bentley Systems"
+        },
+        {
+          "ticker": "DOCU",
+          "name": "DocuSign Inc."
+        },
+        {
+          "ticker": "FICO",
+          "name": "Fair Isaac Corporation"
+        },
+        {
+          "ticker": "GEN",
+          "name": "Gen Digital Inc."
+        },
+        {
+          "ticker": "VRSK",
+          "name": "Verisk Analytics"
+        },
+        {
+          "ticker": "IBM",
+          "name": "IBM Corporation"
+        },
+        {
+          "ticker": "GDDY",
+          "name": "GoDaddy Inc."
+        },
+        {
+          "ticker": "ACN",
+          "name": "Accenture plc"
+        },
+        {
+          "ticker": "PAYX",
+          "name": "Paychex Inc."
+        },
+        {
+          "ticker": "BR",
+          "name": "Broadridge Financial"
+        },
+        {
+          "ticker": "SSNC",
+          "name": "SS&C Technologies"
+        },
+        {
+          "ticker": "VRSN",
+          "name": "VeriSign Inc."
+        },
+        {
+          "ticker": "GRMN",
+          "name": "Garmin Ltd."
+        },
+        {
+          "ticker": "APP",
+          "name": "AppLovin Corporation"
         }
       ]
     }
