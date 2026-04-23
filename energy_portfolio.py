@@ -103,7 +103,7 @@ def compute_signal(src):
     return score.apply(lambda s: "BUY" if s >= 2 else "SELL")
 
 # ── Fetch (Tiingo) ────────────────────────────────────────────────────────────
-def fetch_tiingo_weekly(ticker, lookback_days=1800):
+def fetch_tiingo_weekly(ticker, lookback_days=7300):
     end   = datetime.now(timezone.utc)
     start = end - timedelta(days=lookback_days)
     params = {"startDate": start.strftime("%Y-%m-%d"),
@@ -124,7 +124,7 @@ def fetch_tiingo_weekly(ticker, lookback_days=1800):
     except Exception:
         return None
 
-def fetch_weekly_stocks(tickers, lookback_days=1800):
+def fetch_weekly_stocks(tickers, lookback_days=7300):
     import time
     all_data = {}
     for i, ticker in enumerate(tickers):
@@ -138,7 +138,7 @@ def fetch_weekly_stocks(tickers, lookback_days=1800):
             time.sleep(2)
     return all_data
 
-def fetch_ige_weekly(lookback_days=1800):
+def fetch_ige_weekly(lookback_days=7300):
     import time
     for attempt in range(3):
         series = fetch_tiingo_weekly("IGE", lookback_days)
@@ -363,10 +363,10 @@ def main():
 
     # Fetch benchmark FIRST before rate limits kick in
     print("Fetching IGE benchmark...")
-    ige_prices = fetch_ige_weekly(lookback_days=1800)
+    ige_prices = fetch_ige_weekly(lookback_days=7300)
 
     print("\nFetching weekly bars...")
-    price_data = fetch_weekly_stocks(TICKERS, lookback_days=1800)
+    price_data = fetch_weekly_stocks(TICKERS, lookback_days=7300)
     print(f"  Got data for {len(price_data)}/{len(TICKERS)} tickers")
 
     # Dynamic backtest start
