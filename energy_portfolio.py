@@ -3,8 +3,8 @@
 Natural Resources Alpha Portfolio (vs IGE)
 - Universe: Top 40 IGE holdings by weight
 - Signal: 2-of-3 weekly momentum (EMA20>EMA55, RSI14>RSI_MA, MACD>Signal)
-- Macro gate: Monthly IGE signal must be BUY — if SELL, 100% SGOV regardless of stock signals
-- Entry: Weekly BUY signal per stock (only when macro gate is open)
+- Benchmark gate: Weekly IGE signal must be BUY — if SELL, 100% SGOV regardless of stock signals
+- Entry: Weekly BUY signal per stock (only when IGE weekly is BUY)
 - Weighting: Equal weight among BUY stocks, max 20% per position
 - Cash: SGOV (~5% yield) for unfilled slots
 - Benchmark: IGE buy-and-hold
@@ -140,56 +140,9 @@ def fetch_ige_weekly(lookback_days=1800):
         print(f"  IGE benchmark: {len(series)} weeks ({series.index[0].date()} → {series.index[-1].date()})")
     return series
 
-def fetch_monthly_ige(lookback_days=3600):
-    """
-    Fetch IGE daily data and resample to month-end ourselves.
-    Daily data goes back further than Tiingo's monthly endpoint allows.
-    """
-    end   = datetime.now(timezone.utc)
-    start = end - timedelta(days=lookback_days)
-    params = {"startDate": start.strftime("%Y-%m-%d"),
-              "endDate":   end.strftime("%Y-%m-%d"),
-              "token": TIINGO_KEY}
-    try:
-        r = requests.get(f"{TIINGO_URL}/IGE/prices",
-                         headers=TIINGO_HDR, params=params, timeout=30)
-        r.raise_for_status()
-        data = r.json()
-        if not data: return None
-        df = pd.DataFrame(data)
-        df["date"] = pd.to_datetime(df["date"], utc=True)
-        df = df.set_index("date").sort_index()
-        col = "adjClose" if "adjClose" in df.columns else "close"
-        daily = df[col].dropna()
-        # Resample to month-end
-        monthly = daily.resample("ME").last().dropna()
-        print(f"  IGE monthly (from daily): {len(monthly)} bars ({monthly.index[0].date()} to {monthly.index[-1].date()})")
-        return monthly
-    except Exception as e:
-        print(f"  IGE monthly fetch failed: {e}")
-        return None
-
-def compute_monthly_gate(monthly_series):
-    """
-    Monthly macro gate using shorter EMAs suited for monthly bars.
-    EMA8 > EMA21, RSI14 > RSI_MA14, MACD(5,13,5) — needs only ~25 bars warmup.
-    """
-    if monthly_series is None or len(monthly_series) < 25:
-        return None
-    src = monthly_series
-    # Shorter EMAs for monthly timeframe
-    ema8  = src.ewm(span=8,  adjust=False).mean()
-    ema21 = src.ewm(span=21, adjust=False).mean()
-    rsi   = calc_rsi(src, 14)
-    rma   = calc_ema(rsi, 14)
-    macd  = src.ewm(span=5,  adjust=False).mean() - src.ewm(span=13, adjust=False).mean()
-    sig   = calc_ema(macd, 5)
-    score = (ema8>ema21).astype(int) + (rsi>rma).astype(int) + (macd>sig).astype(int)
-    result = score.apply(lambda s: "BUY" if s >= 2 else "SELL")
-    return result
 
 # ── Backtest ──────────────────────────────────────────────────────────────────
-def run_backtest(price_data, ige_prices, monthly_gate=None, backtest_start="2021-01-01"):
+def run_backtest(price_data, ige_prices, ige_weekly_signals=None, backtest_start="2021-01-01"):
     signals = {}
     for ticker, prices in price_data.items():
         sig = compute_signal(prices)
@@ -226,13 +179,13 @@ def run_backtest(price_data, ige_prices, monthly_gate=None, backtest_start="2021
         weekly_rets.append((port_val/prev_val)-1 if prev_val > 0 else 0)
         prev_val  = port_val
 
-        # Macro gate: monthly IGE signal must be BUY to deploy capital
+        # Benchmark gate: weekly IGE signal must be BUY to deploy capital
         macro_signal = "BUY"
         macro_open   = True
-        if monthly_gate is not None:
-            gate_mask = monthly_gate.index <= date
+        if ige_weekly_signals is not None:
+            gate_mask = ige_weekly_signals.index <= date
             if gate_mask.any():
-                macro_signal = monthly_gate[gate_mask].iloc[-1]
+                macro_signal = ige_weekly_signals[gate_mask].iloc[-1]
                 macro_open   = (macro_signal == "BUY")
 
         buy_tickers = []
@@ -245,7 +198,7 @@ def run_backtest(price_data, ige_prices, monthly_gate=None, backtest_start="2021
                     s = signals[ticker][mask].iloc[-1]
                     sig_snap[ticker] = s
                     if s == "BUY": buy_tickers.append(ticker)
-        # Gate closed → buy_tickers stays empty → 100% SGOV
+        # IGE weekly SELL → buy_tickers stays empty → 100% SGOV
 
         if buy_tickers:
             base_w = 1.0 / len(buy_tickers)
@@ -287,7 +240,7 @@ def run_backtest(price_data, ige_prices, monthly_gate=None, backtest_start="2021
         port_val  = cash + sgov_val + stock_val
         equity_curve.append({"date": date.strftime("%Y-%m-%d"), "value": round(port_val,2),
                              "n_stocks": len(holdings), "cash_pct": round(cash_w*100,1),
-                             "buy_tickers": buy_tickers, "macro_signal": macro_signal})
+                             "buy_tickers": buy_tickers, "macro_signal": macro_signal, "ige_gate": macro_signal})
 
     # ── Metrics ───────────────────────────────────────────────────────────────
     eq_vals = [e["value"] for e in equity_curve]
@@ -415,16 +368,20 @@ def main():
     backtest_start = max(min_dates).strftime("%Y-%m-%d") if min_dates else "2021-01-01"
     print(f"  Backtest start: {backtest_start}")
 
-    print("Fetching IGE monthly bars for macro gate...")
-    ige_monthly  = fetch_monthly_ige(lookback_days=3600)
-    monthly_gate = compute_monthly_gate(ige_monthly)
-    if monthly_gate is not None:
-        print(f"  Current monthly IGE signal: {monthly_gate.iloc[-1]}")
+    # Compute weekly IGE benchmark signal — used as macro gate
+    ige_weekly_signals = None
+    if ige_prices is not None and len(ige_prices) > EMA_SLOW + 10:
+        ige_weekly_signals = compute_signal(ige_prices)
+        if ige_weekly_signals is not None:
+            current_ige_sig = ige_weekly_signals.iloc[-1]
+            print(f"  IGE weekly signal (gate): {current_ige_sig}")
+        else:
+            print("  IGE weekly signal unavailable — running without gate")
     else:
-        print("  Monthly gate unavailable — running without macro filter")
+        print("  Not enough IGE data for gate — running without")
 
     print("\nRunning backtest...")
-    result = run_backtest(price_data, ige_prices, monthly_gate=monthly_gate, backtest_start=backtest_start)
+    result = run_backtest(price_data, ige_prices, ige_weekly_signals=ige_weekly_signals, backtest_start=backtest_start)
 
     print(f"\n── Results ─────────────────────────────────────────")
     print(f"  Portfolio:     ${result['current_value']:,.2f}")
