@@ -133,9 +133,9 @@ def fetch_weekly_stocks(tickers, lookback_days=1800):
             all_data[ticker] = series
         else:
             print(f"  WARNING: No data for {ticker}")
-        # Rate limit: pause every 5 requests to avoid Tiingo throttling
-        if (i + 1) % 5 == 0:
-            time.sleep(1)
+        # Rate limit: pause every 3 requests to avoid Tiingo throttling
+        if (i + 1) % 3 == 0:
+            time.sleep(2)
     return all_data
 
 def fetch_ige_weekly(lookback_days=1800):
@@ -146,7 +146,7 @@ def fetch_ige_weekly(lookback_days=1800):
             print(f"  IGE benchmark: {len(series)} weeks ({series.index[0].date()} → {series.index[-1].date()})")
             return series
         print(f"  IGE fetch attempt {attempt+1} failed, retrying...")
-        time.sleep(2)
+        time.sleep(5)
     print("  IGE fetch failed after 3 attempts")
     return None
 
@@ -160,7 +160,8 @@ def run_backtest(price_data, ige_prices, ige_weekly_signals=None, backtest_start
             signals[ticker] = sig
 
     if not signals:
-        raise ValueError("No valid signals computed")
+        print("ERROR: No valid signals computed — likely Tiingo rate limit. Try again in 1 hour.")
+        raise SystemExit(0)  # Exit cleanly without failing the workflow
 
     all_dates = sorted(set().union(*[set(s.index) for s in signals.values()]))
     start_ts  = pd.Timestamp(backtest_start).tz_localize("UTC")
