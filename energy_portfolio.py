@@ -3,7 +3,8 @@
 Natural Resources Alpha Portfolio (vs IGE)
 - Universe: Top 40 IGE holdings by weight
 - Signal: 2-of-3 weekly momentum (EMA20>EMA55, RSI14>RSI_MA, MACD>Signal)
-- Entry: Weekly BUY signal per stock
+- Macro gate: Monthly IGE signal must be BUY — if SELL, 100% SGOV regardless of stock signals
+- Entry: Weekly BUY signal per stock (only when macro gate is open)
 - Weighting: Equal weight among BUY stocks, max 20% per position
 - Cash: SGOV (~5% yield) for unfilled slots
 - Benchmark: IGE buy-and-hold
@@ -139,8 +140,38 @@ def fetch_ige_weekly(lookback_days=1800):
         print(f"  IGE benchmark: {len(series)} weeks ({series.index[0].date()} → {series.index[-1].date()})")
     return series
 
+def fetch_monthly_ige(lookback_days=1800):
+    """Fetch monthly IGE bars for macro gate signal."""
+    end   = datetime.now(timezone.utc)
+    start = end - timedelta(days=lookback_days)
+    params = {"startDate": start.strftime("%Y-%m-%d"),
+              "endDate":   end.strftime("%Y-%m-%d"),
+              "resampleFreq": "monthly", "token": TIINGO_KEY}
+    try:
+        r = requests.get(f"{TIINGO_URL}/IGE/prices",
+                         headers=TIINGO_HDR, params=params, timeout=30)
+        r.raise_for_status()
+        data = r.json()
+        if not data: return None
+        df = pd.DataFrame(data)
+        df["date"] = pd.to_datetime(df["date"], utc=True)
+        df = df.set_index("date").sort_index()
+        col = "adjClose" if "adjClose" in df.columns else "close"
+        series = df[col].dropna()
+        print(f"  IGE monthly: {len(series)} bars ({series.index[0].date()} to {series.index[-1].date()})")
+        return series
+    except Exception as e:
+        print(f"  IGE monthly fetch failed: {e}")
+        return None
+
+def compute_monthly_gate(monthly_series):
+    """Apply 2-of-3 signal to monthly IGE prices — same logic as weekly."""
+    if monthly_series is None or len(monthly_series) < EMA_SLOW + 5:
+        return None
+    return compute_signal(monthly_series)
+
 # ── Backtest ──────────────────────────────────────────────────────────────────
-def run_backtest(price_data, ige_prices, backtest_start="2021-01-01"):
+def run_backtest(price_data, ige_prices, monthly_gate=None, backtest_start="2021-01-01"):
     signals = {}
     for ticker, prices in price_data.items():
         sig = compute_signal(prices)
@@ -177,15 +208,26 @@ def run_backtest(price_data, ige_prices, backtest_start="2021-01-01"):
         weekly_rets.append((port_val/prev_val)-1 if prev_val > 0 else 0)
         prev_val  = port_val
 
+        # Macro gate: monthly IGE signal must be BUY to deploy capital
+        macro_signal = "BUY"
+        macro_open   = True
+        if monthly_gate is not None:
+            gate_mask = monthly_gate.index <= date
+            if gate_mask.any():
+                macro_signal = monthly_gate[gate_mask].iloc[-1]
+                macro_open   = (macro_signal == "BUY")
+
         buy_tickers = []
-        sig_snap = {}
-        for ticker in TICKERS:
-            if ticker not in signals: continue
-            mask = signals[ticker].index <= date
-            if mask.any():
-                s = signals[ticker][mask].iloc[-1]
-                sig_snap[ticker] = s
-                if s == "BUY": buy_tickers.append(ticker)
+        sig_snap    = {}
+        if macro_open:
+            for ticker in TICKERS:
+                if ticker not in signals: continue
+                mask = signals[ticker].index <= date
+                if mask.any():
+                    s = signals[ticker][mask].iloc[-1]
+                    sig_snap[ticker] = s
+                    if s == "BUY": buy_tickers.append(ticker)
+        # Gate closed → buy_tickers stays empty → 100% SGOV
 
         if buy_tickers:
             base_w = 1.0 / len(buy_tickers)
@@ -227,7 +269,7 @@ def run_backtest(price_data, ige_prices, backtest_start="2021-01-01"):
         port_val  = cash + sgov_val + stock_val
         equity_curve.append({"date": date.strftime("%Y-%m-%d"), "value": round(port_val,2),
                              "n_stocks": len(holdings), "cash_pct": round(cash_w*100,1),
-                             "buy_tickers": buy_tickers})
+                             "buy_tickers": buy_tickers, "macro_signal": macro_signal})
 
     # ── Metrics ───────────────────────────────────────────────────────────────
     eq_vals = [e["value"] for e in equity_curve]
@@ -321,6 +363,8 @@ def run_backtest(price_data, ige_prices, backtest_start="2021-01-01"):
         "pct_time_in_market": pct_in_mkt,
         "sgov_weeks":         sgov_weeks,
         "sgov_yield":         5.0,
+        "macro_signal":       macro_signal,
+        "macro_gate_open":    macro_open,
         "current_holdings":   current_holdings,
         "current_signals":    {t:v for t,v in current_signals.items()},
         "bah_return_pct":     bah_return,
@@ -353,8 +397,16 @@ def main():
     backtest_start = max(min_dates).strftime("%Y-%m-%d") if min_dates else "2021-01-01"
     print(f"  Backtest start: {backtest_start}")
 
+    print("Fetching IGE monthly bars for macro gate...")
+    ige_monthly  = fetch_monthly_ige(lookback_days=1800)
+    monthly_gate = compute_monthly_gate(ige_monthly)
+    if monthly_gate is not None:
+        print(f"  Current monthly IGE signal: {monthly_gate.iloc[-1]}")
+    else:
+        print("  Monthly gate unavailable — running without macro filter")
+
     print("\nRunning backtest...")
-    result = run_backtest(price_data, ige_prices, backtest_start=backtest_start)
+    result = run_backtest(price_data, ige_prices, monthly_gate=monthly_gate, backtest_start=backtest_start)
 
     print(f"\n── Results ─────────────────────────────────────────")
     print(f"  Portfolio:     ${result['current_value']:,.2f}")
@@ -365,6 +417,8 @@ def main():
     print(f"  Max Drawdown:  -{result['max_drawdown_pct']:.2f}%")
     print(f"  Stocks in BUY: {result['n_buy_stocks']}/{result['n_universe']}")
     print(f"  Cash (SGOV):   {result['cash_pct']:.1f}%")
+    gate_status = "OPEN" if result.get('macro_gate_open') else "CLOSED - 100% SGOV"
+    print(f"  Monthly Gate:  {result.get('macro_signal','--')} ({gate_status})")
     print(f"\n  Current Holdings:")
     for h in result["current_holdings"][:8]:
         print(f"    {h['ticker']:6s} {h['weight']:5.1f}%  ${h['value']:>10,.2f}")
