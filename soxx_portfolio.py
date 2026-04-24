@@ -3,8 +3,8 @@
 Semiconductor Alpha Portfolio (vs SOXX)
 - Universe: Top 30 SOXX holdings — integrated, fabless, equipment, EDA
 - Signal: 2-of-3 weekly momentum (EMA20>EMA55, RSI14>RSI_EMA14, MACD>Signal)
-- Entry: Dollar-volume weighted across all stocks with weekly BUY signals
-- Cash: 100% SGOV only when zero stocks have BUY signals
+- Benchmark gate: Weekly SOXX signal must be BUY — if SELL, 100% SGOV
+- Entry: Dollar-volume weighted across stocks with weekly BUY signals (gate open only)
 - Cash: 100% SGOV (~5% yield) when gate is SELL
 - Benchmark: SOXX buy-and-hold
 - Rebalance: Every Monday
@@ -178,19 +178,26 @@ def run_backtest(price_data, dvol_data, soxx_prices, soxx_weekly_signals=None, b
         weekly_rets.append((port_val/prev_val)-1 if prev_val > 0 else 0)
         prev_val  = port_val
 
-        # No benchmark gate — dollar-volume weighted across individual BUY signals
-        macro_signal = "N/A"
+        # Benchmark gate: weekly SOXX signal must be BUY to deploy capital
+        macro_signal = "BUY"
         macro_open   = True
+        if soxx_weekly_signals is not None:
+            gate_mask = soxx_weekly_signals.index <= date
+            if gate_mask.any():
+                macro_signal = soxx_weekly_signals[gate_mask].iloc[-1]
+                macro_open   = (macro_signal == "BUY")
+
         buy_tickers = []
         sig_snap    = {}
-        for ticker in TICKERS:
-            if ticker not in signals: continue
-            mask = signals[ticker].index <= date
-            if mask.any():
-                s = signals[ticker][mask].iloc[-1]
-                sig_snap[ticker] = s
-                if s == "BUY": buy_tickers.append(ticker)
-        # 100% SGOV only when zero stocks have BUY signals
+        if macro_open:
+            for ticker in TICKERS:
+                if ticker not in signals: continue
+                mask = signals[ticker].index <= date
+                if mask.any():
+                    s = signals[ticker][mask].iloc[-1]
+                    sig_snap[ticker] = s
+                    if s == "BUY": buy_tickers.append(ticker)
+        # SOXX weekly SELL → 100% SGOV regardless of individual signals
 
         if buy_tickers:
             # Dollar-volume weighting: proxy for historical market cap
@@ -357,7 +364,11 @@ def main():
     print("Fetching SOXX benchmark...")
     soxx_prices = fetch_soxx_weekly(lookback_days=4380)
 
-    soxx_weekly_signals = None  # gate disabled
+    soxx_weekly_signals = None
+    if soxx_prices is not None and len(soxx_prices) > EMA_SLOW + 10:
+        soxx_weekly_signals = compute_signal(soxx_prices)
+        if soxx_weekly_signals is not None:
+            print(f"  SOXX weekly signal (gate): {soxx_weekly_signals.iloc[-1]}")
 
     print("\nFetching weekly bars...")
     price_data, dvol_data = fetch_weekly_stocks(TICKERS, lookback_days=4380)
@@ -400,9 +411,11 @@ def main():
     print(f"  CAGR:          {result['cagr_pct']:+.2f}%")
     print(f"  Sharpe:        {result['sharpe_ratio']:.2f}")
     print(f"  Max Drawdown:  -{result['max_drawdown_pct']:.2f}%")
-    print(f"  Stocks in BUY: {result['n_buy_stocks']}/{result['n_universe']}")
+    gate_status = "OPEN" if result.get("macro_gate_open") else "CLOSED - 100% SGOV"
+    print(f"  Weekly Gate:   {result.get('macro_signal','--')} ({gate_status})")
     print(f"  Cash (SGOV):   {result['cash_pct']:.1f}%")
-    print(f"  Stocks in BUY: {result['n_buy_stocks']}/{result['n_universe']}")
+    gate_status = "OPEN" if result.get("macro_gate_open") else "CLOSED - 100% SGOV"
+    print(f"  Weekly Gate:   {result.get('macro_signal','--')} ({gate_status})")
     print(f"\n  Current Holdings:")
     for h in result["current_holdings"][:8]:
         print(f"    {h['ticker']:6s} {h['weight']:5.1f}%  ${h['value']:>10,.2f}")
