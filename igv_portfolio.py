@@ -173,6 +173,8 @@ def run_backtest(price_data, igv_prices, igv_weekly_signals=None, backtest_start
     trades       = []
     weekly_rets  = []
     prev_val     = STARTING_CAPITAL
+    macro_signal = "BUY"  # default until loop runs
+    macro_open   = True
 
     for date in all_dates:
         # Current prices
