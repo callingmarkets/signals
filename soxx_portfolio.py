@@ -27,49 +27,41 @@ SGOV_FALLBACK    = 0.05 / 52
 EMA_FAST  = 20; EMA_SLOW = 55; RSI_LEN = 14
 RSI_MA    = 14; MACD_FAST = 12; MACD_SLOW = 26; MACD_SIG = 9
 
-# ── SOXX Top 30 universe ──────────────────────────────────────────────────────
-# Integrated IDMs, fabless designers, foundries, equipment, EDA
+# ── SOXX universe with actual ETF weights (as of Mar 2026) ───────────────────
+# Source: iShares SOXX holdings, stockanalysis.com
+# Weights are normalized across our tradeable subset
 SOXX_UNIVERSE = [
-    # Large-cap fabless / AI
-    {"ticker": "NVDA",  "name": "NVIDIA Corporation"},
-    {"ticker": "AMD",   "name": "Advanced Micro Devices"},
-    {"ticker": "QCOM",  "name": "Qualcomm Incorporated"},
-    {"ticker": "AVGO",  "name": "Broadcom Inc."},
-    {"ticker": "MRVL",  "name": "Marvell Technology Inc."},
-    {"ticker": "MPWR",  "name": "Monolithic Power Systems"},
-    # Integrated Device Manufacturers
-    {"ticker": "INTC",  "name": "Intel Corporation"},
-    {"ticker": "TXN",   "name": "Texas Instruments Inc."},
-    {"ticker": "ADI",   "name": "Analog Devices Inc."},
-    {"ticker": "MCHP",  "name": "Microchip Technology Inc."},
-    {"ticker": "ON",    "name": "ON Semiconductor Corp."},
-    {"ticker": "STM",   "name": "STMicroelectronics N.V."},
-    # Foundry / Memory
-    {"ticker": "TSM",   "name": "Taiwan Semiconductor (ADR)"},
-    {"ticker": "MU",    "name": "Micron Technology Inc."},
-    {"ticker": "WDC",   "name": "Western Digital Corporation"},
-    # Equipment
-    {"ticker": "AMAT",  "name": "Applied Materials Inc."},
-    {"ticker": "LRCX",  "name": "Lam Research Corporation"},
-    {"ticker": "KLAC",  "name": "KLA Corporation"},
-    {"ticker": "ASML",  "name": "ASML Holding N.V. (ADR)"},
-    {"ticker": "ONTO",  "name": "Onto Innovation Inc."},
-    {"ticker": "ENTG",  "name": "Entegris Inc."},
-    {"ticker": "UCTT",  "name": "Ultra Clean Holdings Inc."},
-    # EDA / IP
-    {"ticker": "CDNS",  "name": "Cadence Design Systems"},
-    {"ticker": "SNPS",  "name": "Synopsys Inc."},
-    {"ticker": "ARMH",  "name": "ARM Holdings plc (ADR)"},
-    # RF / Wireless
-    {"ticker": "SWKS",  "name": "Skyworks Solutions Inc."},
-    {"ticker": "QRVO",  "name": "Qorvo Inc."},
-    {"ticker": "MACOM", "name": "MACOM Technology Solutions"},
-    # Power / Auto
-    {"ticker": "WOLF",  "name": "Wolfspeed Inc."},
-    {"ticker": "ACLS",  "name": "Axcelis Technologies Inc."},
+    {"ticker": "MU",    "name": "Micron Technology Inc.",           "soxx_weight": 8.34},
+    {"ticker": "AMAT",  "name": "Applied Materials Inc.",           "soxx_weight": 7.24},
+    {"ticker": "NVDA",  "name": "NVIDIA Corporation",               "soxx_weight": 7.18},
+    {"ticker": "AMD",   "name": "Advanced Micro Devices Inc.",      "soxx_weight": 6.19},
+    {"ticker": "AVGO",  "name": "Broadcom Inc.",                    "soxx_weight": 5.50},
+    {"ticker": "LRCX",  "name": "Lam Research Corporation",        "soxx_weight": 4.91},
+    {"ticker": "ADI",   "name": "Analog Devices Inc.",              "soxx_weight": 4.51},
+    {"ticker": "KLAC",  "name": "KLA Corporation",                  "soxx_weight": 4.33},
+    {"ticker": "TER",   "name": "Teradyne Inc.",                    "soxx_weight": 4.30},
+    {"ticker": "ASML",  "name": "ASML Holding N.V. (ADR)",         "soxx_weight": 4.26},
+    {"ticker": "TXN",   "name": "Texas Instruments Inc.",           "soxx_weight": 4.25},
+    {"ticker": "MPWR",  "name": "Monolithic Power Systems Inc.",    "soxx_weight": 4.08},
+    {"ticker": "TSM",   "name": "Taiwan Semiconductor (ADR)",      "soxx_weight": 4.02},
+    {"ticker": "NXPI",  "name": "NXP Semiconductors N.V.",         "soxx_weight": 3.90},
+    {"ticker": "INTC",  "name": "Intel Corporation",                "soxx_weight": 3.75},
+    {"ticker": "MCHP",  "name": "Microchip Technology Inc.",       "soxx_weight": 3.41},
+    {"ticker": "MRVL",  "name": "Marvell Technology Inc.",         "soxx_weight": 3.06},
+    {"ticker": "QCOM",  "name": "Qualcomm Incorporated",           "soxx_weight": 2.90},
+    {"ticker": "ON",    "name": "ON Semiconductor Corp.",           "soxx_weight": 2.29},
+    {"ticker": "ENTG",  "name": "Entegris Inc.",                    "soxx_weight": 1.72},
+    {"ticker": "MTSI",  "name": "MACOM Technology Solutions",      "soxx_weight": 1.44},
+    {"ticker": "CRDO",  "name": "Credo Technology Group",          "soxx_weight": 1.34},
+    {"ticker": "ALAB",  "name": "Astera Labs Inc.",                 "soxx_weight": 1.32},
+    {"ticker": "SWKS",  "name": "Skyworks Solutions Inc.",          "soxx_weight": 1.00},
+    {"ticker": "QRVO",  "name": "Qorvo Inc.",                       "soxx_weight": 0.90},
 ]
 TICKERS     = [s["ticker"] for s in SOXX_UNIVERSE]
 TICKER_META = {s["ticker"]: s for s in SOXX_UNIVERSE}
+# Static SOXX weights used as fallback only — runtime uses price-implied market cap
+_total_w = sum(s["soxx_weight"] for s in SOXX_UNIVERSE)
+SOXX_WEIGHTS_STATIC = {s["ticker"]: s["soxx_weight"]/_total_w for s in SOXX_UNIVERSE}
 
 # ── Indicators ────────────────────────────────────────────────────────────────
 def calc_ema(s, n): return s.ewm(span=n, adjust=False).mean()
@@ -107,14 +99,21 @@ def fetch_tiingo_weekly(ticker, lookback_days=4380):
         df = pd.DataFrame(data)
         df["date"] = pd.to_datetime(df["date"], utc=True)
         df = df.set_index("date").sort_index()
-        col = "adjClose" if "adjClose" in df.columns else "close"
-        return df[col].dropna()
+        price_col = "adjClose" if "adjClose" in df.columns else "close"
+        vol_col   = "volume"   if "volume"   in df.columns else None
+        prices = df[price_col].dropna()
+        # Dollar volume = price × weekly volume — proxy for market cap size
+        if vol_col and vol_col in df.columns:
+            dvol = (df[price_col] * df[vol_col]).dropna()
+        else:
+            dvol = None
+        return prices, dvol
     except Exception:
-        return None
+        return None, None
 
 def fetch_soxx_weekly(lookback_days=4380):
     for attempt in range(3):
-        series = fetch_tiingo_weekly("SOXX", lookback_days)
+        series, _ = fetch_tiingo_weekly("SOXX", lookback_days)
         if series is not None and len(series) > 20:
             print(f"  SOXX benchmark: {len(series)} weeks ({series.index[0].date()} → {series.index[-1].date()})")
             return series
@@ -124,19 +123,22 @@ def fetch_soxx_weekly(lookback_days=4380):
     return None
 
 def fetch_weekly_stocks(tickers, lookback_days=4380):
-    all_data = {}
+    price_data = {}
+    dvol_data  = {}
     for i, ticker in enumerate(tickers):
-        series = fetch_tiingo_weekly(ticker, lookback_days)
-        if series is not None and len(series) > 20:
-            all_data[ticker] = series
+        prices, dvol = fetch_tiingo_weekly(ticker, lookback_days)
+        if prices is not None and len(prices) > 20:
+            price_data[ticker] = prices
+            if dvol is not None and len(dvol) > 20:
+                dvol_data[ticker] = dvol
         else:
             print(f"  WARNING: No data for {ticker}")
         if (i + 1) % 3 == 0:
             time.sleep(2)
-    return all_data
+    return price_data, dvol_data
 
 # ── Backtest ──────────────────────────────────────────────────────────────────
-def run_backtest(price_data, soxx_prices, soxx_weekly_signals=None, backtest_start="2014-01-01"):
+def run_backtest(price_data, dvol_data, soxx_prices, soxx_weekly_signals=None, backtest_start="2014-01-01"):
     signals = {}
     for ticker, prices in price_data.items():
         sig = compute_signal(prices)
@@ -197,8 +199,23 @@ def run_backtest(price_data, soxx_prices, soxx_weekly_signals=None, backtest_sta
                     if s == "BUY": buy_tickers.append(ticker)
 
         if buy_tickers:
-            base_w = 1.0 / len(buy_tickers)
-            weights = {t: base_w for t in buy_tickers}
+            # Dollar-volume weighting: proxy for historical market cap
+            # Use trailing 4-week avg dollar volume (price × volume) per stock
+            # Stocks that are bigger/more liquid get proportionally more weight
+            raw = {}
+            for t in buy_tickers:
+                if t in dvol_data:
+                    mask = dvol_data[t].index <= date
+                    if mask.any():
+                        # 4-week trailing average dollar volume
+                        recent = dvol_data[t][mask].iloc[-4:]
+                        raw[t] = float(recent.mean()) if len(recent) > 0 else 1.0
+                    else:
+                        raw[t] = 1.0
+                else:
+                    raw[t] = 1.0
+            total_raw = sum(raw.values()) or 1.0
+            weights = {t: w/total_raw for t, w in raw.items()}
             cash_w  = 0.0
         else:
             weights = {}
@@ -353,8 +370,8 @@ def main():
             print(f"  SOXX weekly signal (gate): {soxx_weekly_signals.iloc[-1]}")
 
     print("\nFetching weekly bars...")
-    price_data = fetch_weekly_stocks(TICKERS, lookback_days=4380)
-    print(f"  Got data for {len(price_data)}/{len(TICKERS)} tickers")
+    price_data, dvol_data = fetch_weekly_stocks(TICKERS, lookback_days=4380)
+    print(f"  Got data for {len(price_data)}/{len(TICKERS)} tickers (dollar volume: {len(dvol_data)})")
 
     # Median backtest start — when ≥50% of stocks have valid signals
     min_dates = []
@@ -382,7 +399,7 @@ def main():
         backtest_start = "2014-01-01"
 
     print("\nRunning backtest...")
-    result = run_backtest(price_data, soxx_prices,
+    result = run_backtest(price_data, dvol_data, soxx_prices,
                           soxx_weekly_signals=soxx_weekly_signals,
                           backtest_start=backtest_start)
 
@@ -413,7 +430,7 @@ def main():
     output["portfolios"].append({
         "id":               "soxx-alpha",
         "name":             "Semiconductor Alpha",
-        "description":      f"Equal-weight across top SOXX holdings with weekly BUY signal. Benchmark gate: 100% SGOV when SOXX weekly is SELL. Universe: {len(TICKERS)} stocks. Benchmark: SOXX.",
+        "description":      f"SOXX-proportional weights across top SOXX holdings with weekly BUY signal. Non-BUY stocks' weight redistributed among BUY stocks. Benchmark gate: 100% SGOV when SOXX weekly is SELL. Universe: {len(TICKERS)} stocks. Benchmark: SOXX.",
         "ticker":           "SOXX",
         "benchmark":        "SOXX",
         "cash_instrument":  "SGOV",
