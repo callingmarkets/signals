@@ -84,11 +84,18 @@ def compute_signal(src):
 
 # ── Fetch ─────────────────────────────────────────────────────────────────────
 def fetch_tiingo_weekly(ticker, lookback_days=4380):
+    """
+    Fetch daily data and resample to weekly.
+    Price = week-end adjClose.
+    Dollar volume = sum of daily (adjClose × volume) across the week.
+    This gives true weekly dollar volume, not just Friday's volume.
+    """
     end   = datetime.now(timezone.utc)
     start = end - timedelta(days=lookback_days)
+    # Fetch DAILY data so we can sum volume properly
     params = {"startDate": start.strftime("%Y-%m-%d"),
               "endDate":   end.strftime("%Y-%m-%d"),
-              "resampleFreq": "weekly", "token": TIINGO_KEY}
+              "token": TIINGO_KEY}
     try:
         r = requests.get(f"{TIINGO_URL}/{ticker}/prices",
                          headers=TIINGO_HDR, params=params, timeout=30)
@@ -101,12 +108,18 @@ def fetch_tiingo_weekly(ticker, lookback_days=4380):
         df = df.set_index("date").sort_index()
         price_col = "adjClose" if "adjClose" in df.columns else "close"
         vol_col   = "volume"   if "volume"   in df.columns else None
-        prices = df[price_col].dropna()
-        # Dollar volume = price × weekly volume — proxy for market cap size
+
+        # Resample price to weekly (last trading day of week)
+        prices = df[price_col].dropna().resample("W-FRI").last().dropna()
+
+        # Dollar volume = sum of daily (price × volume) across each week
         if vol_col and vol_col in df.columns:
-            dvol = (df[price_col] * df[vol_col]).dropna()
+            daily_dvol = (df[price_col] * df[vol_col]).dropna()
+            dvol = daily_dvol.resample("W-FRI").sum()
+            dvol = dvol[dvol > 0].dropna()
         else:
             dvol = None
+
         return prices, dvol
     except Exception:
         return None, None
