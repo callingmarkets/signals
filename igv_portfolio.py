@@ -21,7 +21,6 @@ TIINGO_HDR  = {"Authorization": f"Token {TIINGO_KEY}", "Content-Type": "applicat
 TIINGO_URL  = "https://api.tiingo.com/tiingo/daily"
 
 STARTING_CAPITAL = 100_000.0
-MAX_POSITION     = 0.15   # 15% cap per stock
 SGOV_FALLBACK    = 0.05 / 52
 
 EMA_FAST  = 20; EMA_SLOW  = 55; RSI_LEN = 14
@@ -94,7 +93,7 @@ def compute_signal(src):
     return score.apply(lambda s: "BUY" if s >= 2 else "SELL")
 
 # ── Fetch (Tiingo) ────────────────────────────────────────────────────────────
-def fetch_tiingo_weekly(ticker, lookback_days=7300):
+def fetch_tiingo_weekly(ticker, lookback_days=4750):
     """Fetch daily prices from Tiingo and resample to weekly."""
     end   = datetime.now(timezone.utc)
     start = end - timedelta(days=lookback_days)
@@ -121,26 +120,35 @@ def fetch_tiingo_weekly(ticker, lookback_days=7300):
     except Exception as e:
         return None
 
-def fetch_weekly_stocks(tickers, lookback_days=7300):
+def fetch_weekly_stocks(tickers, lookback_days=4750):
     """Fetch weekly bars for all tickers via Tiingo."""
+    import time
     all_data = {}
-    for ticker in tickers:
+    for i, ticker in enumerate(tickers):
         series = fetch_tiingo_weekly(ticker, lookback_days)
         if series is not None and len(series) > 20:
             all_data[ticker] = series
         else:
             print(f"  WARNING: No data for {ticker}")
+        if (i + 1) % 3 == 0:
+            time.sleep(2)
     return all_data
 
-def fetch_igv_weekly(lookback_days=7300):
-    """Fetch IGV ETF weekly prices for benchmark."""
-    series = fetch_tiingo_weekly("IGV", lookback_days)
-    if series is not None:
-        print(f"  IGV: {len(series)} weeks ({series.index[0].date()} → {series.index[-1].date()})")
-    return series
+def fetch_igv_weekly(lookback_days=4750):
+    """Fetch IGV ETF weekly prices for benchmark, with retry."""
+    import time
+    for attempt in range(3):
+        series = fetch_tiingo_weekly("IGV", lookback_days)
+        if series is not None and len(series) > 20:
+            print(f"  IGV benchmark: {len(series)} weeks ({series.index[0].date()} → {series.index[-1].date()})")
+            return series
+        print(f"  IGV fetch attempt {attempt+1} failed, retrying...")
+        time.sleep(5)
+    print("  IGV fetch failed after 3 attempts")
+    return None
 
 # ── Backtest ──────────────────────────────────────────────────────────────────
-def run_backtest(price_data, igv_prices, backtest_start="2021-01-01"):
+def run_backtest(price_data, igv_prices, igv_weekly_signals=None, backtest_start="2021-01-01"):
     # Compute signals
     signals = {}
     for ticker, prices in price_data.items():
@@ -149,7 +157,8 @@ def run_backtest(price_data, igv_prices, backtest_start="2021-01-01"):
             signals[ticker] = sig
 
     if not signals:
-        raise ValueError("No valid signals computed")
+        print("ERROR: No valid signals — likely Tiingo rate limit. Try again in 1 hour.")
+        raise SystemExit(0)
 
     # Common weekly dates from backtest start
     all_dates = sorted(set().union(*[set(s.index) for s in signals.values()]))
@@ -193,15 +202,11 @@ def run_backtest(price_data, igv_prices, backtest_start="2021-01-01"):
                 sig_snap[ticker] = s
                 if s == "BUY": buy_tickers.append(ticker)
 
-        # Equal weight with 15% cap
+        # Pure equal weight — 100% invested when gate open, 100% SGOV when closed
         if buy_tickers:
             base_w = 1.0 / len(buy_tickers)
-            weights = {t: min(base_w, MAX_POSITION) for t in buy_tickers}
-            total_w = sum(weights.values())
-            # Renormalize if any were capped
-            if total_w < 0.9999:
-                weights = {t: w/total_w for t, w in weights.items()}
-            cash_w = max(0.0, 1.0 - sum(weights.values()))
+            weights = {t: base_w for t in buy_tickers}
+            cash_w = 0.0
         else:
             weights = {}
             cash_w  = 1.0
@@ -336,6 +341,8 @@ def run_backtest(price_data, igv_prices, backtest_start="2021-01-01"):
         "pct_time_in_market": pct_in_mkt,
         "sgov_weeks":         sgov_weeks,
         "sgov_yield":         5.0,
+        "macro_signal":       macro_signal,
+        "macro_gate_open":    macro_open,
         "current_holdings":   current_holdings,
         "current_signals":    {t: v for t, v in current_signals.items()},
         "bah_return_pct":     bah_return,
@@ -350,27 +357,48 @@ def main():
     print("Tech Software Alpha Portfolio Engine (vs IGV) — Tiingo data")
     print(f"Universe: {len(TICKERS)} stocks | Starting capital: ${STARTING_CAPITAL:,.0f}")
 
+    # Fetch benchmark FIRST before rate limits kick in
+    print("Fetching IGV benchmark...")
+    igv_prices = fetch_igv_weekly(lookback_days=4750)
+
+    # Compute weekly IGV benchmark signal — used as macro gate
+    igv_weekly_signals = None
+    if igv_prices is not None and len(igv_prices) > EMA_SLOW + 10:
+        igv_weekly_signals = compute_signal(igv_prices)
+        if igv_weekly_signals is not None:
+            print(f"  IGV weekly signal (gate): {igv_weekly_signals.iloc[-1]}")
+
     print("\nFetching weekly bars...")
-    price_data = fetch_weekly_stocks(TICKERS, lookback_days=7300)
+    price_data = fetch_weekly_stocks(TICKERS, lookback_days=4750)
     print(f"  Got data for {len(price_data)}/{len(TICKERS)} tickers")
 
-    print("Fetching IGV benchmark...")
-    igv_prices = fetch_igv_weekly(lookback_days=7300)
-    print(f"  IGV: {len(igv_prices) if igv_prices is not None else 0} weeks")
-
-    # Dynamic start — first date all indicators are warmed up
+    # Median backtest start — when ≥50% of stocks have valid signals
     min_dates = []
+    ticker_starts = {}
     for ticker, prices in price_data.items():
         sig = compute_signal(prices)
         if sig is not None:
             valid = sig.dropna()
             if len(valid) > 0:
-                min_dates.append(valid.index[0])
-    backtest_start = max(min_dates).strftime("%Y-%m-%d") if min_dates else "2021-01-01"
-    print(f"  Backtest start: {backtest_start}")
+                d = valid.index[0]
+                min_dates.append(d)
+                ticker_starts[ticker] = d
+
+    if min_dates:
+        min_dates.sort()
+        threshold_idx = max(0, len(min_dates) // 2 - 1)
+        backtest_start = min_dates[threshold_idx].strftime("%Y-%m-%d")
+        n_available = sum(1 for d in min_dates if d <= min_dates[threshold_idx])
+        print(f"  Backtest start: {backtest_start} ({n_available}/{len(TICKERS)} stocks available)")
+        late = {t: d.strftime("%Y-%m-%d") for t, d in ticker_starts.items()
+                if d > min_dates[threshold_idx]}
+        if late:
+            print(f"  Late-starting tickers: {', '.join(late.keys())}")
+    else:
+        backtest_start = "2006-01-01"
 
     print("\nRunning backtest...")
-    result = run_backtest(price_data, igv_prices, backtest_start=backtest_start)
+    result = run_backtest(price_data, igv_prices, igv_weekly_signals=igv_weekly_signals, backtest_start=backtest_start)
 
     print(f"\n── Results ────────────────────────────────────")
     print(f"  Portfolio:     ${result['current_value']:,.2f}")
@@ -381,6 +409,8 @@ def main():
     print(f"  Max Drawdown:  -{result['max_drawdown_pct']:.2f}%")
     print(f"  Stocks in BUY: {result['n_buy_stocks']}/{result['n_universe']}")
     print(f"  Cash (SGOV):   {result['cash_pct']:.1f}%")
+    gate_status = "OPEN" if result.get("macro_gate_open") else "CLOSED - 100% SGOV"
+    print(f"  Weekly Gate:   {result.get('macro_signal','--')} ({gate_status})")
     print(f"\n  Current Holdings:")
     for h in result["current_holdings"][:10]:
         print(f"    {h['ticker']:6s} {h['weight']:5.1f}%  ${h['value']:>10,.2f}")
