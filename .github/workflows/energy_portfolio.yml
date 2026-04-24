@@ -2,7 +2,7 @@ name: Natural Resources Portfolio
 
 on:
   workflow_run:
-    workflows: ["Update Signals"]
+    workflows: ["Tech Software Portfolio"]   # Runs after IGV completes
     types: [completed]
   workflow_dispatch:
 
