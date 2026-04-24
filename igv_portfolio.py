@@ -193,16 +193,27 @@ def run_backtest(price_data, igv_prices, igv_weekly_signals=None, backtest_start
         weekly_rets.append((port_val / prev_val) - 1 if prev_val > 0 else 0)
         prev_val = port_val
 
-        # Determine BUY stocks this week
+        # Benchmark gate: weekly IGV signal must be BUY to deploy capital
+        macro_signal = "BUY"
+        macro_open   = True
+        if igv_weekly_signals is not None:
+            gate_mask = igv_weekly_signals.index <= date
+            if gate_mask.any():
+                macro_signal = igv_weekly_signals[gate_mask].iloc[-1]
+                macro_open   = (macro_signal == "BUY")
+
+        # Determine BUY stocks — only when gate is open
         buy_tickers = []
         sig_snap    = {}
-        for ticker in TICKERS:
-            if ticker not in signals: continue
-            mask = signals[ticker].index <= date
-            if mask.any():
-                s = signals[ticker][mask].iloc[-1]
-                sig_snap[ticker] = s
-                if s == "BUY": buy_tickers.append(ticker)
+        if macro_open:
+            for ticker in TICKERS:
+                if ticker not in signals: continue
+                mask = signals[ticker].index <= date
+                if mask.any():
+                    s = signals[ticker][mask].iloc[-1]
+                    sig_snap[ticker] = s
+                    if s == "BUY": buy_tickers.append(ticker)
+        # IGV weekly SELL → buy_tickers stays empty → 100% SGOV
 
         # Pure equal weight — 100% invested when gate open, 100% SGOV when closed
         if buy_tickers:
@@ -244,7 +255,7 @@ def run_backtest(price_data, igv_prices, igv_weekly_signals=None, backtest_start
 
         equity_curve.append({"date": date.strftime("%Y-%m-%d"), "value": round(port_val, 2),
                               "n_stocks": len(holdings), "cash_pct": round(cash_w*100, 1),
-                              "buy_tickers": buy_tickers})
+                              "buy_tickers": buy_tickers, "macro_signal": macro_signal})
 
     # ── Performance metrics ──────────────────────────────────────────────────
     eq_vals = [e["value"] for e in equity_curve]
