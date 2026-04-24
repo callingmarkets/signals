@@ -193,27 +193,19 @@ def run_backtest(price_data, igv_prices, igv_weekly_signals=None, backtest_start
         weekly_rets.append((port_val / prev_val) - 1 if prev_val > 0 else 0)
         prev_val = port_val
 
-        # Benchmark gate: weekly IGV signal must be BUY to deploy capital
-        macro_signal = "BUY"
+        # No benchmark gate — equal weight all stocks with weekly BUY signals
+        macro_signal = "N/A"
         macro_open   = True
-        if igv_weekly_signals is not None:
-            gate_mask = igv_weekly_signals.index <= date
-            if gate_mask.any():
-                macro_signal = igv_weekly_signals[gate_mask].iloc[-1]
-                macro_open   = (macro_signal == "BUY")
-
-        # Determine BUY stocks — only when gate is open
         buy_tickers = []
         sig_snap    = {}
-        if macro_open:
-            for ticker in TICKERS:
-                if ticker not in signals: continue
-                mask = signals[ticker].index <= date
-                if mask.any():
-                    s = signals[ticker][mask].iloc[-1]
-                    sig_snap[ticker] = s
-                    if s == "BUY": buy_tickers.append(ticker)
-        # IGV weekly SELL → buy_tickers stays empty → 100% SGOV
+        for ticker in TICKERS:
+            if ticker not in signals: continue
+            mask = signals[ticker].index <= date
+            if mask.any():
+                s = signals[ticker][mask].iloc[-1]
+                sig_snap[ticker] = s
+                if s == "BUY": buy_tickers.append(ticker)
+        # 100% SGOV only when zero stocks have BUY signals
 
         # Pure equal weight — 100% invested when gate open, 100% SGOV when closed
         if buy_tickers:
@@ -374,12 +366,7 @@ def main():
     print("Fetching IGV benchmark...")
     igv_prices = fetch_igv_weekly(lookback_days=4750)
 
-    # Compute weekly IGV benchmark signal — used as macro gate
-    igv_weekly_signals = None
-    if igv_prices is not None and len(igv_prices) > EMA_SLOW + 10:
-        igv_weekly_signals = compute_signal(igv_prices)
-        if igv_weekly_signals is not None:
-            print(f"  IGV weekly signal (gate): {igv_weekly_signals.iloc[-1]}")
+    igv_weekly_signals = None  # gate disabled
 
     print("\nFetching weekly bars...")
     price_data = fetch_weekly_stocks(TICKERS, lookback_days=4750)
@@ -422,8 +409,7 @@ def main():
     print(f"  Max Drawdown:  -{result['max_drawdown_pct']:.2f}%")
     print(f"  Stocks in BUY: {result['n_buy_stocks']}/{result['n_universe']}")
     print(f"  Cash (SGOV):   {result['cash_pct']:.1f}%")
-    gate_status = "OPEN" if result.get("macro_gate_open") else "CLOSED - 100% SGOV"
-    print(f"  Weekly Gate:   {result.get('macro_signal','--')} ({gate_status})")
+    print(f"  Stocks in BUY: {result['n_buy_stocks']}/{result['n_universe']}")
     print(f"\n  Current Holdings:")
     for h in result["current_holdings"][:10]:
         print(f"    {h['ticker']:6s} {h['weight']:5.1f}%  ${h['value']:>10,.2f}")
