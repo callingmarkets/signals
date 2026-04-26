@@ -99,14 +99,14 @@ def fetch_tiingo_monthly(ticker, lookback_days=7300):
         return None
 
 def fetch_btc_monthly(lookback_days=7300):
-    """Fetch BTC via Tiingo crypto endpoint, resample to monthly."""
+    """Fetch BTC daily via Tiingo crypto endpoint, resample to monthly."""
     end   = datetime.now(timezone.utc)
     start = end - timedelta(days=lookback_days)
+    # Use daily endpoint — no resampleFreq param for crypto
     params = {
-        "startDate":   start.strftime("%Y-%m-%d"),
-        "endDate":     end.strftime("%Y-%m-%d"),
-        "resampleFreq":"monthly",
-        "token":       TIINGO_KEY
+        "startDate": start.strftime("%Y-%m-%d"),
+        "endDate":   end.strftime("%Y-%m-%d"),
+        "token":     TIINGO_KEY
     }
     try:
         r = requests.get(
@@ -123,7 +123,8 @@ def fetch_btc_monthly(lookback_days=7300):
         df["date"] = pd.to_datetime(df["date"], utc=True)
         df = df.set_index("date").sort_index()
         col = "close"
-        monthly = df[col].dropna().resample("ME").last().dropna()
+        daily   = df[col].dropna()
+        monthly = daily.resample("ME").last().dropna()
         print(f"  BTC monthly: {len(monthly)} bars ({monthly.index[0].date()} → {monthly.index[-1].date()})")
         return monthly
     except Exception as e:
