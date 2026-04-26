@@ -99,37 +99,72 @@ def fetch_tiingo_monthly(ticker, lookback_days=7300):
         return None
 
 def fetch_btc_monthly(lookback_days=7300):
-    """Fetch BTC daily via Tiingo crypto endpoint, resample to monthly."""
+    """
+    Fetch BTC via Tiingo standard daily endpoint (BTCUSD is listed as a regular ticker).
+    Resample daily closes to monthly.
+    """
     end   = datetime.now(timezone.utc)
     start = end - timedelta(days=lookback_days)
-    # Use daily endpoint — no resampleFreq param for crypto
     params = {
         "startDate": start.strftime("%Y-%m-%d"),
         "endDate":   end.strftime("%Y-%m-%d"),
         "token":     TIINGO_KEY
     }
+    # Try standard daily endpoint first (BTCUSD listed as equity-style ticker)
+    for ticker_sym in ["BTCUSD", "BTC"]:
+        try:
+            r = requests.get(
+                f"{TIINGO_URL}/{ticker_sym}/prices",
+                headers=TIINGO_HDR,
+                params=params,
+                timeout=30
+            )
+            if r.status_code == 404:
+                continue
+            r.raise_for_status()
+            data = r.json()
+            if not data:
+                continue
+            df = pd.DataFrame(data)
+            df["date"] = pd.to_datetime(df["date"], utc=True)
+            df = df.set_index("date").sort_index()
+            col = "adjClose" if "adjClose" in df.columns else "close"
+            daily   = df[col].dropna()
+            monthly = daily.resample("ME").last().dropna()
+            if len(monthly) > 10:
+                print(f"  BTC monthly: {len(monthly)} bars ({monthly.index[0].date()} → {monthly.index[-1].date()})")
+                return monthly
+        except Exception:
+            continue
+
+    # Fallback: crypto endpoint with 1day resample
     try:
         r = requests.get(
             "https://api.tiingo.com/tiingo/crypto/prices",
             headers=TIINGO_HDR,
-            params={"tickers": "btcusd", **params},
+            params={"tickers": "btcusd", "resampleFreq": "1Day",
+                    "startDate": start.strftime("%Y-%m-%d"),
+                    "endDate":   end.strftime("%Y-%m-%d"),
+                    "token": TIINGO_KEY},
             timeout=30
         )
         r.raise_for_status()
         data = r.json()
-        if not data or not data[0].get("priceData"): return None
-        rows = data[0]["priceData"]
-        df = pd.DataFrame(rows)
-        df["date"] = pd.to_datetime(df["date"], utc=True)
-        df = df.set_index("date").sort_index()
-        col = "close"
-        daily   = df[col].dropna()
-        monthly = daily.resample("ME").last().dropna()
-        print(f"  BTC monthly: {len(monthly)} bars ({monthly.index[0].date()} → {monthly.index[-1].date()})")
-        return monthly
+        if data and data[0].get("priceData"):
+            rows = data[0]["priceData"]
+            df = pd.DataFrame(rows)
+            df["date"] = pd.to_datetime(df["date"], utc=True)
+            df = df.set_index("date").sort_index()
+            daily   = df["close"].dropna()
+            monthly = daily.resample("ME").last().dropna()
+            if len(monthly) > 10:
+                print(f"  BTC monthly (crypto API): {len(monthly)} bars ({monthly.index[0].date()} → {monthly.index[-1].date()})")
+                return monthly
     except Exception as e:
-        print(f"  BTC fetch failed: {e}")
-        return None
+        print(f"  BTC crypto fallback failed: {e}")
+
+    print("  BTC: no data available from any endpoint")
+    return None
 
 def fetch_all_monthly(lookback_days=7300):
     """Fetch monthly bars for all assets."""
