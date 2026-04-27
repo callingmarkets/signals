@@ -49,6 +49,8 @@ UNIVERSE = [
     {"ticker": "IAU",  "name": "iShares Gold Trust",                     "aum": "74B",   "tracks": "Physical Gold"},
     # Crypto
     {"ticker": "BTC",  "name": "Bitcoin",                                "aum": "N/A",   "tracks": "Bitcoin"},
+    {"ticker": "ETH",  "name": "Ethereum",                               "aum": "N/A",   "tracks": "Ethereum"},
+    {"ticker": "XRP",  "name": "XRP",                                    "aum": "N/A",   "tracks": "XRP"},
 ]
 TICKERS     = [s["ticker"] for s in UNIVERSE]
 TICKER_META = {s["ticker"]: s for s in UNIVERSE}
@@ -98,20 +100,23 @@ def fetch_tiingo_monthly(ticker, lookback_days=7300):
     except Exception:
         return None
 
-def fetch_btc_monthly(lookback_days=7300):
+def fetch_crypto_monthly(ticker, lookback_days=7300):
     """
-    Fetch BTC via Tiingo standard daily endpoint (BTCUSD is listed as a regular ticker).
-    Resample daily closes to monthly.
+    Fetch crypto (BTC, ETH, XRP) via Tiingo.
+    Tries standard daily endpoint first (BTCUSD style), then crypto endpoint.
+    Resamples daily closes to monthly.
     """
     end   = datetime.now(timezone.utc)
     start = end - timedelta(days=lookback_days)
+    pair  = f"{ticker.lower()}usd"
     params = {
         "startDate": start.strftime("%Y-%m-%d"),
         "endDate":   end.strftime("%Y-%m-%d"),
         "token":     TIINGO_KEY
     }
-    # Try standard daily endpoint first (BTCUSD listed as equity-style ticker)
-    for ticker_sym in ["BTCUSD", "BTC"]:
+
+    # Try standard daily endpoint (works for BTC, sometimes ETH)
+    for ticker_sym in [f"{ticker}USD", ticker]:
         try:
             r = requests.get(
                 f"{TIINGO_URL}/{ticker_sym}/prices",
@@ -132,17 +137,17 @@ def fetch_btc_monthly(lookback_days=7300):
             daily   = df[col].dropna()
             monthly = daily.resample("ME").last().dropna()
             if len(monthly) > 10:
-                print(f"  BTC monthly: {len(monthly)} bars ({monthly.index[0].date()} → {monthly.index[-1].date()})")
+                print(f"  {ticker} monthly: {len(monthly)} bars ({monthly.index[0].date()} → {monthly.index[-1].date()})")
                 return monthly
         except Exception:
             continue
 
-    # Fallback: crypto endpoint with 1day resample
+    # Fallback: crypto endpoint with 1Day resample
     try:
         r = requests.get(
             "https://api.tiingo.com/tiingo/crypto/prices",
             headers=TIINGO_HDR,
-            params={"tickers": "btcusd", "resampleFreq": "1Day",
+            params={"tickers": pair, "resampleFreq": "1Day",
                     "startDate": start.strftime("%Y-%m-%d"),
                     "endDate":   end.strftime("%Y-%m-%d"),
                     "token": TIINGO_KEY},
@@ -158,20 +163,20 @@ def fetch_btc_monthly(lookback_days=7300):
             daily   = df["close"].dropna()
             monthly = daily.resample("ME").last().dropna()
             if len(monthly) > 10:
-                print(f"  BTC monthly (crypto API): {len(monthly)} bars ({monthly.index[0].date()} → {monthly.index[-1].date()})")
+                print(f"  {ticker} monthly (crypto API): {len(monthly)} bars ({monthly.index[0].date()} → {monthly.index[-1].date()})")
                 return monthly
     except Exception as e:
-        print(f"  BTC crypto fallback failed: {e}")
+        print(f"  {ticker} crypto fallback failed: {e}")
 
-    print("  BTC: no data available from any endpoint")
+    print(f"  {ticker}: no data available from any endpoint")
     return None
 
 def fetch_all_monthly(lookback_days=7300):
     """Fetch monthly bars for all assets."""
     price_data = {}
     for i, ticker in enumerate(TICKERS):
-        if ticker == "BTC":
-            series = fetch_btc_monthly(lookback_days)
+        if ticker in ("BTC", "ETH", "XRP"):
+            series = fetch_crypto_monthly(ticker, lookback_days)
         else:
             series = fetch_tiingo_monthly(ticker, lookback_days)
         if series is not None and len(series) > 20:
@@ -443,7 +448,7 @@ def main():
     output["portfolios"].append({
         "id":               "macro-rotation",
         "name":             "Global Macro Rotation",
-        "description":      f"Equal-weight across {len(TICKERS)} global asset classes — equities, bonds, gold, and Bitcoin — using monthly BUY signals. Only holds assets in active monthly uptrends. Rotates to SGOV when assets flip SELL. Rebalances monthly.",
+        "description":      f"Equal-weight across {len(TICKERS)} global asset classes — equities, bonds, gold, Bitcoin, Ethereum, and XRP — using monthly BUY signals. Only holds assets in active monthly uptrends. Rotates to SGOV when assets flip SELL. Rebalances monthly.",
         "ticker":           "IVV",
         "benchmark":        "IVV",
         "cash_instrument":  "SGOV",
