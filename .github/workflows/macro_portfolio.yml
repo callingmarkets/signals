@@ -1,13 +1,17 @@
 name: Global Macro Portfolio
 
 on:
+  workflow_run:
+    workflows: ["Semiconductor Portfolio"]   # Runs last in the weekly chain
+    types: [completed]
   schedule:
-    - cron: '0 8 1 * *'   # 1st of every month at 8am UTC
+    - cron: '0 8 1 * *'   # Also runs independently on 1st of month at 8am UTC
   workflow_dispatch:
 
 jobs:
   update-portfolio:
     runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' || github.event.workflow_run.conclusion == 'success' }}
 
     steps:
       - uses: actions/checkout@v4
