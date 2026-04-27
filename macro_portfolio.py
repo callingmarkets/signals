@@ -243,31 +243,98 @@ def run_backtest(price_data, backtest_start="2006-01-01"):
             weights = {}
             cash_w  = 1.0
 
-        # Rebalance
-        proceeds = cash + sgov_val
+        # ── Tax-aware smart rebalance ─────────────────────────────────────────
+        # Only trade when signals change or drift exceeds threshold.
+        # Assets staying in BUY are held — no unnecessary taxable events.
+        DRIFT_THRESHOLD = 0.05  # rebalance if weight drifts >5% from target
+
+        prev_buy_set = set(holdings.keys())
+        new_buy_set  = set(weights.keys())
+        entered = new_buy_set - prev_buy_set   # flipped to BUY
+        exited  = prev_buy_set - new_buy_set   # flipped to SELL
+        stayed  = prev_buy_set & new_buy_set   # stayed in BUY — prefer not to sell
+
+        # Step 1: Sell exited positions → proceeds go to cash pool
+        for ticker in exited:
+            shares = holdings.pop(ticker, 0)
+            p = prices_now.get(ticker, 0)
+            val = shares * p
+            cash += val
+            sgov_val = 0.0  # liquidate SGOV too, will redistribute
+            trades.append({"date": date.strftime("%Y-%m-%d"),
+                           "action": "SELL", "ticker": ticker,
+                           "name": TICKER_META[ticker]["name"],
+                           "price": round(p,2), "value": round(val,2),
+                           "reason": "Signal flipped SELL"})
+
+        # Also liquidate SGOV into cash pool for redistribution
+        cash += sgov_val
+        sgov_val = 0.0
+
+        # Step 2: Compute current portfolio value
+        port_val_now = cash
         for ticker, shares in holdings.items():
-            p = prices_now.get(ticker, 0)
-            proceeds += shares * p
-            if shares > 0:
-                trades.append({"date": date.strftime("%Y-%m-%d"),
-                               "action": "SELL", "ticker": ticker,
-                               "price": round(p,2), "value": round(shares*p,2)})
+            port_val_now += shares * prices_now.get(ticker, 0)
 
-        holdings = {}
+        # Step 3: Check drift on staying positions — only rebalance if drifted
+        if new_buy_set and port_val_now > 0:
+            target_w = 1.0 / len(new_buy_set)
+            for ticker in list(stayed):
+                p = prices_now.get(ticker, 0)
+                if p <= 0: continue
+                cur_val = holdings.get(ticker, 0) * p
+                cur_w   = cur_val / port_val_now
+                drift   = abs(cur_w - target_w)
+                if drift > DRIFT_THRESHOLD:
+                    # Sell back to target — only the excess
+                    target_val = port_val_now * target_w
+                    excess_val = cur_val - target_val
+                    if excess_val > 0:
+                        shares_to_sell = excess_val / p
+                        holdings[ticker] = holdings.get(ticker, 0) - shares_to_sell
+                        cash += excess_val
+                        trades.append({"date": date.strftime("%Y-%m-%d"),
+                                       "action": "TRIM", "ticker": ticker,
+                                       "name": TICKER_META[ticker]["name"],
+                                       "price": round(p,2), "value": round(excess_val,2),
+                                       "reason": f"Drift rebalance ({cur_w*100:.1f}% → {target_w*100:.1f}%)"})
+
+        # Step 4: Recompute port value after trims
+        port_val_now = cash
+        for ticker, shares in holdings.items():
+            port_val_now += shares * prices_now.get(ticker, 0)
+
+        # Step 5: Deploy cash — buy entered positions + top up underweight stayed
+        if new_buy_set and port_val_now > 0:
+            target_w = 1.0 / len(new_buy_set)
+            for ticker in new_buy_set:
+                p = prices_now.get(ticker, 0)
+                if p <= 0: continue
+                cur_val    = holdings.get(ticker, 0) * p
+                target_val = port_val_now * target_w
+                buy_val    = target_val - cur_val
+                if buy_val > 1.0 and cash >= buy_val:
+                    new_shares = buy_val / p
+                    holdings[ticker] = holdings.get(ticker, 0) + new_shares
+                    cash -= buy_val
+                    if ticker in entered:
+                        trades.append({"date": date.strftime("%Y-%m-%d"), "action": "BUY",
+                                       "ticker": ticker, "name": TICKER_META[ticker]["name"],
+                                       "price": round(p,4), "shares": round(new_shares,6),
+                                       "value": round(buy_val,2), "weight": round(target_w*100,2),
+                                       "signal": sig_snap.get(ticker,"—"),
+                                       "reason": "Signal flipped BUY"})
+
+        # Step 6: Remaining cash → SGOV
+        sgov_val = cash
         cash     = 0.0
-        sgov_val = proceeds * cash_w
 
-        for ticker, w in weights.items():
-            alloc = proceeds * w
-            p = prices_now.get(ticker, 0)
-            if p > 0:
-                shares = alloc / p
-                holdings[ticker] = shares
-                trades.append({"date": date.strftime("%Y-%m-%d"), "action": "BUY",
-                               "ticker": ticker, "name": TICKER_META[ticker]["name"],
-                               "price": round(p,2), "shares": round(shares,6),
-                               "value": round(alloc,2), "weight": round(w*100,2),
-                               "signal": sig_snap.get(ticker,"—")})
+        # Log HOLD when no signal changes occurred
+        if not entered and not exited and new_buy_set:
+            trades.append({"date": date.strftime("%Y-%m-%d"), "action": "HOLD",
+                           "tickers": sorted(list(new_buy_set)),
+                           "n": len(new_buy_set),
+                           "note": f"No changes — {len(new_buy_set)} assets held"})
 
         stock_val = sum(holdings.get(t,0)*prices_now.get(t,0) for t in TICKERS)
         port_val  = cash + sgov_val + stock_val
