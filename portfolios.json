@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-28T03:22:46.658389Z",
+  "generated": "2026-04-28T03:31:21.571056Z",
   "portfolios": [
     {
       "id": "btc-long-only",
@@ -90092,7 +90092,7 @@
         },
         {
           "date": "2026-04-24",
-          "value": 1821860.98,
+          "value": 1821335.31,
           "n_buy": 6,
           "universe_size": 10,
           "buy_tickers": [
@@ -90103,7 +90103,7 @@
             "TRX",
             "LINK"
           ],
-          "cash_pct": -0.0
+          "cash_pct": 0.0
         }
       ],
       "trades": [
@@ -94911,8 +94911,8 @@
           "date": "2026-04-24",
           "action": "SELL",
           "ticker": "SOL",
-          "price": 84.12,
-          "value": 223558.57,
+          "price": 84.03,
+          "value": 223319.39,
           "reason": "Signal \u2192 SELL"
         },
         {
@@ -94924,69 +94924,77 @@
           "reason": "Signal \u2192 SELL"
         }
       ],
-      "total_return_pct": 1721.86,
-      "total_return_dollar": 1721860.98,
+      "total_return_pct": 1721.34,
+      "total_return_dollar": 1721335.31,
       "cagr_pct": 8.36,
       "sharpe_ratio": 0.41,
       "max_drawdown_pct": 64.68,
-      "final_value": 1821860.98,
-      "current_value": 1821860.98,
+      "final_value": 1821335.31,
+      "current_value": 1821335.31,
       "n_months": 434,
       "n_buy_stocks": 6,
       "n_universe": 10,
-      "btc_bah_pct": 915.63,
+      "btc_bah_pct": 915.55,
+      "return_1y": 5.68,
+      "return_3y": 269.57,
+      "return_5y": 332.49,
+      "return_10y": null,
+      "bah_return_1y": -20.89,
+      "bah_return_3y": 177.96,
+      "bah_return_5y": 33.51,
+      "bah_return_10y": 16838.53,
       "current_holdings": [
         {
           "ticker": "BTC",
           "name": "BTC",
-          "shares": 3.955159097009623,
-          "price": 76771.5,
-          "value": 303643.5,
+          "shares": 3.954332099870068,
+          "price": 76765.4,
+          "value": 303555.89,
           "weight": 16.67,
           "signal": "BUY"
         },
         {
           "ticker": "ETH",
           "name": "ETH",
-          "shares": 132.89777030539975,
-          "price": 2284.79,
-          "value": 303643.5,
+          "shares": 132.86349547400368,
+          "price": 2284.72,
+          "value": 303555.89,
           "weight": 16.67,
           "signal": "BUY"
         },
         {
           "ticker": "XRP",
           "name": "XRP",
-          "shares": 218239.73939760827,
-          "price": 1.3913,
-          "value": 303643.5,
+          "shares": 218459.39661566552,
+          "price": 1.3895,
+          "value": 303555.89,
           "weight": 16.67,
           "signal": "BUY"
         },
         {
           "ticker": "DOGE",
           "name": "DOGE",
-          "shares": 3061783.4715214693,
-          "price": 0.0992,
-          "value": 303643.5,
+          "shares": 3064317.4732803935,
+          "price": 0.0991,
+          "value": 303555.89,
           "weight": 16.67,
           "signal": "BUY"
         },
         {
           "ticker": "TRX",
           "name": "TRX",
-          "shares": 936327.435200604,
-          "price": 0.3243,
-          "value": 303643.5,
+          "shares": 935535.1150307289,
+          "price": 0.3245,
+          "value": 303555.89,
           "weight": 16.67,
           "signal": "BUY"
         },
         {
           "ticker": "LINK",
           "name": "LINK",
-          "shares": 32803.66283357489,
-          "price": 9.2564,
-          "value": 303643.5,
+          "shares": 32770.05329463174,
+          "price": 9.2632,
+          "value": 303555.89,
           "weight": 16.67,
           "signal": "BUY"
         }
