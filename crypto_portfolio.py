@@ -56,7 +56,7 @@ def calc_rsi(s, n=14):
 
 def compute_signal(monthly_close):
     """2-of-3 monthly momentum signal."""
-    if len(monthly_close) < 60: return None
+    if len(monthly_close) < 30: return None
     ema20 = calc_ema(monthly_close, 20)
     ema55 = calc_ema(monthly_close, 55)
     rsi   = calc_rsi(monthly_close, 14)
@@ -68,31 +68,59 @@ def compute_signal(monthly_close):
 
 # ── Fetch Kraken daily OHLC and resample to monthly ───────────────────────────
 def fetch_kraken_monthly(ticker):
+    """
+    Fetch full Kraken OHLC history by paginating backwards.
+    Kraken returns 720 bars max per call (daily = ~2 years).
+    We paginate using the 'since' parameter to get full history back to 2018.
+    """
     pair = KRAKEN_PAIRS.get(ticker)
     if not pair: return None
+    
+    all_bars = []
+    # Start from a fixed early date: 2017-01-01 in unix timestamp
+    since = 1483228800  
+    
     try:
-        # Kraken returns max 720 daily bars — need to paginate for full history
-        # Use since=0 to get oldest available data (Kraken returns 720 most recent)
-        # For daily: interval=1440 minutes
-        r = requests.get(
-            f"{KRAKEN_BASE}/OHLC",
-            params={"pair": pair, "interval": 1440},
-            timeout=20
-        )
-        data = r.json()
-        if data.get("error"): return None
-        result = data.get("result", {})
-        # Kraken returns pair name as key (may differ from input)
-        key = [k for k in result if k != "last"]
-        if not key: return None
-        bars = result[key[0]]
-        df = pd.DataFrame(bars, columns=["time","open","high","low","close","vwap","volume","count"])
+        for attempt in range(6):  # up to 6 pages = ~12 years of daily data
+            r = requests.get(
+                f"{KRAKEN_BASE}/OHLC",
+                params={"pair": pair, "interval": 1440, "since": since},
+                timeout=20
+            )
+            if r.status_code != 200:
+                break
+            data = r.json()
+            if data.get("error"):
+                break
+            result_data = data.get("result", {})
+            key = [k for k in result_data if k != "last"]
+            if not key:
+                break
+            bars = result_data[key[0]]
+            if not bars:
+                break
+            all_bars.extend(bars)
+            # next_since is the timestamp of the last bar + 1 day
+            last_ts = int(bars[-1][0])
+            next_since = result_data.get("last", last_ts)
+            if next_since <= since:
+                break  # no progress
+            since = next_since
+            # If we got fewer than 600 bars, we've hit the end
+            if len(bars) < 600:
+                break
+            time.sleep(0.5)
+        
+        if not all_bars:
+            return None
+        
+        df = pd.DataFrame(all_bars, columns=["time","open","high","low","close","vwap","volume","count"])
         df["date"]  = pd.to_datetime(df["time"].astype(int), unit="s", utc=True)
         df["close"] = df["close"].astype(float)
-        df = df.set_index("date").sort_index()
-        # Resample to month-end
+        df = df.drop_duplicates(subset=["date"]).set_index("date").sort_index()
         monthly = df["close"].resample("ME").last().dropna()
-        return monthly
+        return monthly if len(monthly) >= 12 else None
+        
     except Exception as e:
         print(f"  Error fetching {ticker}: {e}")
         return None
@@ -326,8 +354,7 @@ def main():
     print(f"    SELL ({len(sell)}): {', '.join(sorted(sell))}")
 
     # Save result
-    with open("/home/claude/crypto_backtest_result.json", "w") as f:
-        json.dump(result, f, indent=2, default=str)
+    # result saved to portfolios.json below
     print(f"\n✓ Results saved to crypto_backtest_result.json")
 
 if __name__ == "__main__":
