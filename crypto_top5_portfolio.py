@@ -257,6 +257,7 @@ def run_backtest(price_data):
         stock_val = sum(holdings.get(t,0)*prices_now.get(t,0) for t in holdings)
         port_val  = cash + stock_val
 
+        # Track inline for drawdown (redundant with post-hoc but kept for consistency)
         equity_curve.append({
             "date":        date.strftime("%Y-%m-%d"),
             "value":       round(port_val,2),
@@ -278,11 +279,12 @@ def run_backtest(price_data):
     arr    = np.array(weekly_rets[1:])
     sharpe = float(np.mean(arr)/np.std(arr)*np.sqrt(52)) if np.std(arr)>0 else 0
 
-    # Drawdown: start peak from first actual equity value, not starting capital
-    # This avoids false peaks during EMA warmup period
-    peak   = eq_vals[0] if eq_vals else STARTING_CAPITAL
+    # Drawdown: computed inline using pre-rebalance portfolio values
+    # (these represent true mark-to-market before any rebalancing occurs)
+    peak   = STARTING_CAPITAL
     max_dd = 0.0
-    for v in eq_vals:
+    for e in equity_curve:
+        v = e["value"]
         if v > peak: peak = v
         if peak > 0:
             dd = (peak - v) / peak * 100
@@ -376,7 +378,6 @@ def main():
     result["timeframe"]           = "weekly"
 
     # Period returns — portfolio (total, widget annualises them)
-    import datetime
     now = pd.Timestamp.now(tz="UTC")
     def port_return_for_days(days):
         cutoff = now - pd.Timedelta(days=days)
@@ -442,7 +443,7 @@ def main():
             else:
                 time.sleep(2)
 
-    output["generated"] = datetime.utcnow().isoformat() + "Z"
+    output["generated"] = datetime.now(timezone.utc).isoformat()
     output["portfolios"].append({
         "id":          "crypto-top5",
         "name":        "Crypto Top 5 + Gold",
