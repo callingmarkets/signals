@@ -304,6 +304,30 @@ def run_backtest(price_data):
         "n_buy_stocks":        len([t for t,s in {t:signals[t].iloc[-1] for t in get_universe(pd.Timestamp.now(tz="UTC")) if t in signals and len(signals[t])>0}.items() if s=="BUY"]),
         "n_universe":         len(get_universe(pd.Timestamp.now(tz="UTC"))),
         "btc_bah_pct":        bah,
+
+        # Period returns — portfolio
+        "return_1y":  (lambda v: round((eq_vals[-1]/v-1)*100,2) if v else None)(
+                       next((e["value"] for e in reversed(equity_curve)
+                             if (pd.Timestamp.now(tz="UTC") - pd.Timestamp(e["date"]).tz_localize("UTC")).days >= 365), None)),
+        "return_3y":  (lambda v: round((eq_vals[-1]/v-1)*100,2) if v else None)(
+                       next((e["value"] for e in reversed(equity_curve)
+                             if (pd.Timestamp.now(tz="UTC") - pd.Timestamp(e["date"]).tz_localize("UTC")).days >= 365*3), None)),
+        "return_5y":  (lambda v: round((eq_vals[-1]/v-1)*100,2) if v else None)(
+                       next((e["value"] for e in reversed(equity_curve)
+                             if (pd.Timestamp.now(tz="UTC") - pd.Timestamp(e["date"]).tz_localize("UTC")).days >= 365*5), None)),
+        "return_10y": (lambda v: round((eq_vals[-1]/v-1)*100,2) if v else None)(
+                       next((e["value"] for e in reversed(equity_curve)
+                             if (pd.Timestamp.now(tz="UTC") - pd.Timestamp(e["date"]).tz_localize("UTC")).days >= 365*10), None)),
+
+        # Period returns — BTC benchmark (annualised for each period)
+        "bah_return_1y":  (lambda btc: round((float(btc.iloc[-1])/float(btc[btc.index >= pd.Timestamp.now(tz="UTC")-pd.Timedelta(days=365)].iloc[0])-1)*100,2)
+                           if "BTC" in price_data and len(price_data["BTC"][price_data["BTC"].index >= pd.Timestamp.now(tz="UTC")-pd.Timedelta(days=365)])>0 else None)(price_data.get("BTC")),
+        "bah_return_3y":  (lambda btc: round((float(btc.iloc[-1])/float(btc[btc.index >= pd.Timestamp.now(tz="UTC")-pd.Timedelta(days=365*3)].iloc[0])-1)*100,2)
+                           if "BTC" in price_data and len(price_data["BTC"][price_data["BTC"].index >= pd.Timestamp.now(tz="UTC")-pd.Timedelta(days=365*3)])>0 else None)(price_data.get("BTC")),
+        "bah_return_5y":  (lambda btc: round((float(btc.iloc[-1])/float(btc[btc.index >= pd.Timestamp.now(tz="UTC")-pd.Timedelta(days=365*5)].iloc[0])-1)*100,2)
+                           if "BTC" in price_data and len(price_data["BTC"][price_data["BTC"].index >= pd.Timestamp.now(tz="UTC")-pd.Timedelta(days=365*5)])>0 else None)(price_data.get("BTC")),
+        "bah_return_10y": (lambda btc: round((float(btc.iloc[-1])/float(btc[btc.index >= pd.Timestamp.now(tz="UTC")-pd.Timedelta(days=365*10)].iloc[0])-1)*100,2)
+                           if "BTC" in price_data and len(price_data["BTC"][price_data["BTC"].index >= pd.Timestamp.now(tz="UTC")-pd.Timedelta(days=365*10)])>0 else None)(price_data.get("BTC")),
         "current_holdings":   (lambda h: h)([
                                 {"ticker": t,
                                  "name":   t,
