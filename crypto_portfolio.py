@@ -19,15 +19,17 @@ STARTING_CAPITAL = 100_000.0
 KRAKEN_BASE      = "https://api.kraken.com/0/public"
 
 # ── Universe snapshots (survivorship-bias-free) ────────────────────────────────
+# Top 10 by market cap per year (excluding stables/exchange tokens/dead coins)
+# Keeping more assets but adding BTC gate for downside protection
 UNIVERSE_BY_YEAR = {
-    2018: ["BTC","ETH","XRP","BCH","ADA","LTC","XEM","MIOTA","DASH","XMR","ETC","QTUM","ZEC","EOS","NANO","OMG"],
-    2019: ["BTC","XRP","ETH","EOS","BCH","LTC","XLM","TRX","ADA","XMR","DASH","ETC","ZEC","DOGE","OMG"],
-    2020: ["BTC","ETH","XRP","BCH","LTC","EOS","XLM","ADA","TRX","XMR","LINK","DASH","ETC","ZEC","OMG"],
-    2021: ["BTC","ETH","XRP","LTC","BCH","LINK","ADA","DOT","XLM","EOS","DOGE","TRX","XMR","ATOM","UNI"],
-    2022: ["BTC","ETH","SOL","ADA","XRP","DOT","DOGE","AVAX","MATIC","LTC","NEAR","ALGO","TRX"],
-    2023: ["BTC","ETH","XRP","DOGE","ADA","MATIC","SOL","DOT","LTC","TRX","AVAX","UNI","LINK","ATOM"],
-    2024: ["BTC","ETH","SOL","XRP","ADA","AVAX","DOGE","TRX","DOT","LINK","MATIC","TON","ICP","LTC","BCH"],
-    2025: ["BTC","ETH","XRP","SOL","DOGE","ADA","TRX","AVAX","LINK","SUI","TON","HBAR","XLM","BCH"],
+    2018: ["BTC","ETH","XRP","BCH","ADA","LTC","XMR","ETC","ZEC","DASH"],
+    2019: ["BTC","ETH","XRP","LTC","BCH","XLM","ADA","TRX","XMR","DOGE"],
+    2020: ["BTC","ETH","XRP","BCH","LTC","XLM","ADA","LINK","TRX","XMR"],
+    2021: ["BTC","ETH","XRP","ADA","LTC","DOT","LINK","DOGE","BCH","UNI"],
+    2022: ["BTC","ETH","SOL","ADA","XRP","DOT","DOGE","AVAX","LTC","TRX"],
+    2023: ["BTC","ETH","XRP","DOGE","ADA","SOL","LTC","TRX","AVAX","LINK"],
+    2024: ["BTC","ETH","SOL","XRP","ADA","AVAX","DOGE","TRX","LINK","LTC"],
+    2025: ["BTC","ETH","XRP","SOL","DOGE","ADA","TRX","AVAX","LINK","BCH"],
 }
 
 KRAKEN_PAIRS = {
@@ -56,7 +58,7 @@ def calc_rsi(s, n=14):
 
 def compute_signal(monthly_close):
     """2-of-3 monthly momentum signal."""
-    if len(monthly_close) < 30: return None
+    if len(monthly_close) < 60: return None  # need 60+ weeks for EMA55 warmup
     ema20 = calc_ema(monthly_close, 20)
     ema55 = calc_ema(monthly_close, 55)
     rsi   = calc_rsi(monthly_close, 14)
@@ -97,9 +99,9 @@ def fetch_kraken_monthly(ticker):
         df["date"]  = pd.to_datetime(df["time"].astype(int), unit="s", utc=True)
         df["close"] = df["close"].astype(float)
         df = df.drop_duplicates(subset=["date"]).set_index("date").sort_index()
-        # Resample weekly to month-end
-        monthly = df["close"].resample("ME").last().dropna()
-        return monthly if len(monthly) >= 12 else None
+        # Resample to weekly Friday close
+        weekly = df["close"].resample("W-FRI").last().dropna()
+        return weekly if len(weekly) >= 52 else None
     except Exception as e:
         print(f"  Error fetching {ticker}: {e}")
         return None
@@ -137,12 +139,12 @@ def run_backtest(price_data):
         if sig is not None:
             signals[ticker] = sig
 
-    # Build monthly date range: 2018-01 to present
-    start = pd.Timestamp("2018-01-31", tz="UTC")
+    # Build weekly date range: 2018-01 to present
+    start = pd.Timestamp("2018-01-05", tz="UTC")
     end   = pd.Timestamp.now(tz="UTC").normalize()
 
-    # All month-end dates in range
-    all_months = pd.date_range(start, end, freq="ME")
+    # All weekly Friday dates
+    all_months = pd.date_range(start, end, freq="W-FRI")
 
     capital      = STARTING_CAPITAL
     holdings     = {}   # {ticker: shares}
@@ -164,24 +166,33 @@ def run_backtest(price_data):
                 if mask.any():
                     prices_now[t] = float(price_data[t][mask].iloc[-1])
 
-        # Apply SGOV yield equivalent to cash (conservative 0% for crypto — no yield)
+        # No yield on USDT cash in this model
         stock_val = sum(holdings.get(t,0)*prices_now.get(t,0) for t in holdings)
         port_val  = cash + stock_val
         monthly_rets.append((port_val/prev_val)-1 if prev_val > 0 else 0)
         prev_val  = port_val
 
+        # BTC gate: if BTC signal is SELL, go 100% USDT regardless
+        btc_signal = "BUY"
+        if "BTC" in signals:
+            btc_mask = signals["BTC"].index <= date
+            if btc_mask.any():
+                btc_signal = signals["BTC"][btc_mask].iloc[-1]
+
         # Signals — only for tickers in current universe with data
         buy_tickers = []
         sig_snap    = {}
-        for ticker in universe:
-            if ticker not in signals or ticker not in prices_now:
-                continue
-            mask = signals[ticker].index <= date
-            if mask.any():
-                s = signals[ticker][mask].iloc[-1]
-                sig_snap[ticker] = s
-                if s == "BUY":
-                    buy_tickers.append(ticker)
+        if btc_signal == "BUY":
+            for ticker in universe:
+                if ticker not in signals or ticker not in prices_now:
+                    continue
+                mask = signals[ticker].index <= date
+                if mask.any():
+                    s = signals[ticker][mask].iloc[-1]
+                    sig_snap[ticker] = s
+                    if s == "BUY":
+                        buy_tickers.append(ticker)
+        # If BTC is SELL, buy_tickers stays empty → 100% USDT
 
         # Detect universe changes — force-sell anything no longer in universe
         for ticker in list(holdings.keys()):
@@ -297,6 +308,44 @@ def run_backtest(price_data):
                                 if t in signals and len(signals[t])>0},
     }
 
+
+def export_csv(result):
+    """Export full trade history + weekly allocation CSV matching macro portfolio format."""
+    import csv, io
+
+    all_tickers = sorted(set(
+        t for e in result["equity_curve"]
+        for t in e.get("buy_tickers", [])
+    ))
+
+    rows = []
+    rows.append(["TRADE HISTORY"])
+    rows.append(["Date","Action","Ticker","Name","Price","Shares","Value","Weight %"])
+    for t in result["trades"]:
+        if t.get("action") in ("BUY","SELL"):
+            rows.append([
+                t.get("date",""), t.get("action",""),
+                t.get("ticker",""), t.get("ticker",""),
+                t.get("price",""), t.get("shares",""),
+                t.get("value",""), t.get("weight",""),
+            ])
+
+    rows.append([])
+    rows.append(["WEEKLY PORTFOLIO VALUE & ALLOCATION"])
+    rows.append(["Date","Portfolio Value","Assets in BUY","Cash %"] + all_tickers)
+
+    for e in result["equity_curve"]:
+        buy_set = set(e.get("buy_tickers", []))
+        n       = len(buy_set)
+        cp      = e.get("cash_pct", 0)
+        eq_pct  = round((100-cp)/n, 2) if n > 0 else 0
+        rows.append([e["date"], e["value"], n, cp] +
+                    [eq_pct if t in buy_set else 0 for t in all_tickers])
+
+    buf = io.StringIO()
+    csv.writer(buf).writerows(rows)
+    return buf.getvalue()
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
     print("DMG Capital — Crypto Rotation Backtest")
@@ -332,9 +381,41 @@ def main():
     print(f"    BUY  ({len(buy)}): {', '.join(sorted(buy))}")
     print(f"    SELL ({len(sell)}): {', '.join(sorted(sell))}")
 
-    # Save result
-    # result saved to portfolios.json below
-    print(f"\n✓ Results saved to crypto_backtest_result.json")
+    # Write CSV export matching macro portfolio format
+    csv_data = export_csv(result)
+    with open("crypto-rotation-full-history.csv", "w") as f:
+        f.write(csv_data)
+    print("\n✓ crypto-rotation-full-history.csv written")
+
+    # Merge into portfolios.json — retry loop guards against race conditions
+    for attempt in range(3):
+        try:
+            with open("portfolios.json","r") as f:
+                output = json.load(f)
+            # Validate it's a real portfolios file, not truncated
+            if "portfolios" not in output:
+                raise ValueError("Invalid portfolios.json")
+            output["portfolios"] = [p for p in output["portfolios"] if p["id"] != "crypto-rotation"]
+            break
+        except (FileNotFoundError, json.JSONDecodeError, ValueError):
+            if attempt == 2:
+                output = {"portfolios": []}
+            else:
+                time.sleep(2)
+
+    output["generated"] = datetime.utcnow().isoformat() + "Z"
+    output["portfolios"].append({
+        "id":               "crypto-rotation",
+        "name":             "Crypto Rotation",
+        "description":      f"Survivorship-bias-free weekly rotation across top-10 crypto by market cap (yearly rebalanced universe). BTC gate: 100% USDT when BTC signal SELL. Weekly 2-of-3 momentum signal. Equal-weight BUY assets.",
+        "timeframe":        "weekly",
+        "starting_capital": STARTING_CAPITAL,
+        **result,
+    })
+
+    with open("portfolios.json","w") as f:
+        json.dump(output, f, indent=2, default=str)
+    print("✓ portfolios.json updated")
 
 if __name__ == "__main__":
     main()
