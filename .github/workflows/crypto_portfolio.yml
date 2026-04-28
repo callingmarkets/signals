@@ -1,13 +1,18 @@
 name: Crypto Rotation Portfolio
 
 on:
+  workflow_run:
+    workflows: ["Global Macro Portfolio"]   # Runs last in the chain
+    types: [completed]
   schedule:
-    - cron: '0 9 1 * *'   # 1st of every month at 9am UTC
+    - cron: '0 10 1 * *'   # Also runs independently on 1st of month at 10am UTC
   workflow_dispatch:
 
 jobs:
   update-portfolio:
     runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' || github.event.workflow_run.conclusion == 'success' }}
+
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -15,12 +20,12 @@ jobs:
           python-version: "3.11"
       - name: Install dependencies
         run: pip install requests pandas numpy
-      - name: Run Crypto Portfolio Backtest
+      - name: Run Crypto Rotation Portfolio
         run: python crypto_portfolio.py
-      - name: Commit portfolios.json
+      - name: Commit results
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add portfolios.json
+          git add portfolios.json crypto-rotation-full-history.csv
           git diff --cached --quiet || git commit -m "chore: update crypto portfolio [skip ci]"
           git push
