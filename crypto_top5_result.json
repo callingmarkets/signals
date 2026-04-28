@@ -1,11 +1,11 @@
 {
-  "total_return_pct": 767.03,
-  "cagr_pct": 29.54,
+  "total_return_pct": 771.93,
+  "cagr_pct": 29.62,
   "sharpe_ratio": 0.72,
   "max_drawdown_pct": 73.9,
-  "final_value": 867033.8,
-  "current_value": 867033.8,
-  "btc_bah_pct": 408.53,
+  "final_value": 871934.04,
+  "current_value": 871934.04,
+  "btc_bah_pct": 411.04,
   "n_weeks": 434,
   "n_weeks_crypto": 226,
   "n_weeks_paxg": 90,
@@ -4997,7 +4997,7 @@
     },
     {
       "date": "2026-04-24",
-      "value": 867033.8,
+      "value": 871934.04,
       "btc_signal": "BUY",
       "paxg_signal": "SELL",
       "defensive": null,
@@ -9101,16 +9101,16 @@
       "date": "2026-04-24",
       "action": "SELL",
       "ticker": "XRP",
-      "price": 1.3745,
-      "value": 170452.27,
+      "price": 1.3819,
+      "value": 171362.47,
       "reason": "Signal SELL or universe exit"
     },
     {
       "date": "2026-04-24",
       "action": "SELL",
       "ticker": "SOL",
-      "price": 83.48,
-      "value": 170240.73,
+      "price": 83.88,
+      "value": 171056.45,
       "reason": "Signal SELL or universe exit"
     }
   ],
@@ -9121,5 +9121,47 @@
     "SOL": "SELL",
     "DOGE": "BUY",
     "PAXG": "SELL"
-  }
+  },
+  "total_return_dollar": 771934.04,
+  "n_buy_stocks": 2,
+  "n_universe": 5,
+  "starting_capital": 100000.0,
+  "timeframe": "weekly",
+  "return_1y": 33.24,
+  "return_3y": 231.59,
+  "return_5y": 115.26,
+  "return_10y": null,
+  "bah_return_1y": -18.97,
+  "bah_return_3y": 162.93,
+  "bah_return_5y": 39.05,
+  "bah_return_10y": 16947.25,
+  "current_holdings": [
+    {
+      "ticker": "BTC",
+      "name": "BTC",
+      "shares": 3.807359,
+      "price": 76337.6,
+      "value": 290644.68,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "ticker": "ETH",
+      "name": "ETH",
+      "shares": 126.433218,
+      "price": 2298.8,
+      "value": 290644.68,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "ticker": "DOGE",
+      "name": "DOGE",
+      "shares": 2913509.162284,
+      "price": 0.0998,
+      "value": 290644.68,
+      "weight": 33.33,
+      "signal": "BUY"
+    }
+  ]
 }
