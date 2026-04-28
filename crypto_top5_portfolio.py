@@ -329,7 +329,7 @@ def run_backtest(price_data):
     print(f"    BUY  ({len(buy)}): {', '.join(sorted(buy))}")
     print(f"    SELL ({len(sell)}): {', '.join(sorted(sell))}")
 
-    return {
+    return holdings, {
         "total_return_pct":   round(total_r, 2),
         "cagr_pct":           round(cagr, 2),
         "sharpe_ratio":       round(sharpe, 2),
@@ -359,11 +359,96 @@ def main():
     if "PAXG" not in price_data:
         print("WARNING: PAXG not available — defensive allocation will be 100% USDT")
 
-    result = run_backtest(price_data)
+    holdings, result = run_backtest(price_data)
 
+    # Enrich result with standard fields the widget expects
+    eq = result["equity_curve"]
+    final = result["final_value"]
+    result["current_value"]      = final
+    result["total_return_dollar"] = round(final - STARTING_CAPITAL, 2)
+    result["n_buy_stocks"]        = len([t for t,s in result["current_signals"].items() if s=="BUY" and t not in ("BTC","PAXG")])
+    result["n_universe"]          = 5
+    result["starting_capital"]    = STARTING_CAPITAL
+    result["timeframe"]           = "weekly"
+
+    # Period returns — portfolio (total, widget annualises them)
+    import datetime
+    now = pd.Timestamp.now(tz="UTC")
+    def port_return_for_days(days):
+        cutoff = now - pd.Timedelta(days=days)
+        past = [e for e in eq if pd.Timestamp(e["date"]).tz_localize("UTC") <= cutoff]
+        if not past: return None
+        return round((final / past[-1]["value"] - 1) * 100, 2)
+
+    result["return_1y"]  = port_return_for_days(365)
+    result["return_3y"]  = port_return_for_days(365*3)
+    result["return_5y"]  = port_return_for_days(365*5)
+    result["return_10y"] = port_return_for_days(365*10)
+
+    # BTC period returns
+    def btc_return_for_days(days):
+        if "BTC" not in price_data: return None
+        btc = price_data["BTC"]
+        cutoff = now - pd.Timedelta(days=days)
+        past = btc[btc.index <= cutoff]
+        if past.empty: return None
+        return round((float(btc.iloc[-1]) / float(past.iloc[-1]) - 1) * 100, 2)
+
+    result["bah_return_1y"]  = btc_return_for_days(365)
+    result["bah_return_3y"]  = btc_return_for_days(365*3)
+    result["bah_return_5y"]  = btc_return_for_days(365*5)
+    result["bah_return_10y"] = btc_return_for_days(365*10)
+
+    # Current holdings with weight
+    holdings_out = []
+    for ticker, shares in holdings.items():
+        p = float(price_data[ticker].iloc[-1]) if ticker in price_data else 0
+        val = shares * p
+        holdings_out.append({
+            "ticker": ticker, "name": ticker,
+            "shares": round(shares, 6),
+            "price":  round(p, 4),
+            "value":  round(val, 2),
+            "weight": round(val / final * 100, 2) if final > 0 else 0,
+            "signal": "BUY",
+        })
+    result["current_holdings"] = holdings_out
+
+    # Save standalone result
     with open("crypto_top5_result.json", "w") as f:
         json.dump(result, f, indent=2, default=str)
     print("\n✓ Results saved to crypto_top5_result.json")
+
+    # Pull latest before merging to avoid stale reads
+    import subprocess
+    subprocess.run(["git", "pull", "--rebase", "--quiet"], capture_output=True)
+
+    # Merge into portfolios.json
+    for attempt in range(3):
+        try:
+            with open("portfolios.json", "r") as f:
+                output = json.load(f)
+            if "portfolios" not in output:
+                raise ValueError("Invalid portfolios.json")
+            output["portfolios"] = [p for p in output["portfolios"] if p["id"] != "crypto-top5"]
+            break
+        except (FileNotFoundError, json.JSONDecodeError, ValueError):
+            if attempt == 2:
+                output = {"portfolios": []}
+            else:
+                time.sleep(2)
+
+    output["generated"] = datetime.utcnow().isoformat() + "Z"
+    output["portfolios"].append({
+        "id":          "crypto-top5",
+        "name":        "Crypto Top 5 + Gold",
+        "description": "Top-5 crypto by market cap (yearly rebalanced universe). BTC gate: rotate to PAXG gold when BTC SELL+PAXG BUY, else USDT. Weekly 2-of-3 momentum signal.",
+        **result,
+    })
+
+    with open("portfolios.json", "w") as f:
+        json.dump(output, f, indent=2, default=str)
+    print("✓ portfolios.json updated")
 
 if __name__ == "__main__":
     main()
