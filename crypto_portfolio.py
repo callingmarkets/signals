@@ -58,7 +58,7 @@ def calc_rsi(s, n=14):
 
 def compute_signal(monthly_close):
     """2-of-3 monthly momentum signal."""
-    if len(monthly_close) < 30: return None
+    if len(monthly_close) < 60: return None
     ema20 = calc_ema(monthly_close, 20)
     ema55 = calc_ema(monthly_close, 55)
     rsi   = calc_rsi(monthly_close, 14)
@@ -100,8 +100,8 @@ def fetch_kraken_monthly(ticker):
         df["close"] = df["close"].astype(float)
         df = df.drop_duplicates(subset=["date"]).set_index("date").sort_index()
         # Resample to weekly Friday close
-        monthly = df["close"].resample("ME").last().dropna()
-        return monthly if len(monthly) >= 12 else None
+        weekly = df["close"].resample("W-FRI").last().dropna()
+        return weekly if len(weekly) >= 52 else None
     except Exception as e:
         print(f"  Error fetching {ticker}: {e}")
         return None
@@ -140,11 +140,11 @@ def run_backtest(price_data):
             signals[ticker] = sig
 
     # Build weekly date range: 2018-01 to present
-    start = pd.Timestamp("2018-01-31", tz="UTC")
+    start = pd.Timestamp("2018-01-05", tz="UTC")
     end   = pd.Timestamp.now(tz="UTC").normalize()
 
     # All weekly Friday dates
-    all_months = pd.date_range(start, end, freq="ME")
+    all_months = pd.date_range(start, end, freq="W-FRI")
 
     capital      = STARTING_CAPITAL
     holdings     = {}   # {ticker: shares}
@@ -335,7 +335,7 @@ def export_csv(result):
             ])
 
     rows.append([])
-    rows.append(["MONTHLY PORTFOLIO VALUE & ALLOCATION"])
+    rows.append(["WEEKLY PORTFOLIO VALUE & ALLOCATION"])
     rows.append(["Date","Portfolio Value","Assets in BUY","Cash %"] + all_tickers)
 
     for e in result["equity_curve"]:
@@ -412,7 +412,7 @@ def main():
         "id":               "crypto-rotation",
         "name":             "Crypto Rotation",
         "description":      f"Survivorship-bias-free weekly rotation across top-10 crypto by market cap (yearly rebalanced universe). BTC gate: 100% USDT when BTC signal SELL. Weekly 2-of-3 momentum signal. Equal-weight BUY assets.",
-        "timeframe":        "monthly",
+        "timeframe":        "weekly",
         "starting_capital": STARTING_CAPITAL,
         **result,
     })
