@@ -304,9 +304,15 @@ def run_backtest(price_data):
         "n_buy_stocks":        len([t for t,s in {t:signals[t].iloc[-1] for t in get_universe(pd.Timestamp.now(tz="UTC")) if t in signals and len(signals[t])>0}.items() if s=="BUY"]),
         "n_universe":         len(get_universe(pd.Timestamp.now(tz="UTC"))),
         "btc_bah_pct":        bah,
-        "current_holdings":   [{"ticker": t, "shares": s,
-                                 "value": round(s*list(price_data[t])[-1] if t in price_data else 0, 2)}
-                                for t,s in holdings.items()],
+        "current_holdings":   (lambda h: h)([
+                                {"ticker": t,
+                                 "name":   t,
+                                 "shares": s,
+                                 "price":  round(float(price_data[t].iloc[-1]), 4) if t in price_data else 0,
+                                 "value":  round(s * float(price_data[t].iloc[-1]), 2) if t in price_data else 0,
+                                 "weight": round(s * float(price_data[t].iloc[-1]) / final * 100, 2) if t in price_data and final > 0 else 0,
+                                 "signal": "BUY"}
+                                for t,s in holdings.items() if s > 0]),
         "current_signals":    {t: signals[t].iloc[-1]
                                 for t in get_universe(pd.Timestamp.now(tz="UTC"))
                                 if t in signals and len(signals[t])>0},
