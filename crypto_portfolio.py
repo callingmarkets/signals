@@ -69,58 +69,37 @@ def compute_signal(monthly_close):
 # ── Fetch Kraken daily OHLC and resample to monthly ───────────────────────────
 def fetch_kraken_monthly(ticker):
     """
-    Fetch full Kraken OHLC history by paginating backwards.
-    Kraken returns 720 bars max per call (daily = ~2 years).
-    We paginate using the 'since' parameter to get full history back to 2018.
+    Fetch Kraken OHLC using WEEKLY bars (interval=10080 minutes).
+    720 weekly bars = ~13.8 years — covers the full 2018-2026 backtest in one call.
+    Resample weekly closes to monthly.
     """
     pair = KRAKEN_PAIRS.get(ticker)
     if not pair: return None
-    
-    all_bars = []
-    # Start from a fixed early date: 2017-01-01 in unix timestamp
-    since = 1483228800  
-    
     try:
-        for attempt in range(6):  # up to 6 pages = ~12 years of daily data
-            r = requests.get(
-                f"{KRAKEN_BASE}/OHLC",
-                params={"pair": pair, "interval": 1440, "since": since},
-                timeout=20
-            )
-            if r.status_code != 200:
-                break
-            data = r.json()
-            if data.get("error"):
-                break
-            result_data = data.get("result", {})
-            key = [k for k in result_data if k != "last"]
-            if not key:
-                break
-            bars = result_data[key[0]]
-            if not bars:
-                break
-            all_bars.extend(bars)
-            # next_since is the timestamp of the last bar + 1 day
-            last_ts = int(bars[-1][0])
-            next_since = result_data.get("last", last_ts)
-            if next_since <= since:
-                break  # no progress
-            since = next_since
-            # If we got fewer than 600 bars, we've hit the end
-            if len(bars) < 600:
-                break
-            time.sleep(0.5)
-        
-        if not all_bars:
+        r = requests.get(
+            f"{KRAKEN_BASE}/OHLC",
+            params={"pair": pair, "interval": 10080},  # 10080 = 1 week in minutes
+            timeout=30
+        )
+        if r.status_code != 200:
             return None
-        
-        df = pd.DataFrame(all_bars, columns=["time","open","high","low","close","vwap","volume","count"])
+        data = r.json()
+        if data.get("error"):
+            return None
+        result_data = data.get("result", {})
+        key = [k for k in result_data if k != "last"]
+        if not key:
+            return None
+        bars = result_data[key[0]]
+        if not bars:
+            return None
+        df = pd.DataFrame(bars, columns=["time","open","high","low","close","vwap","volume","count"])
         df["date"]  = pd.to_datetime(df["time"].astype(int), unit="s", utc=True)
         df["close"] = df["close"].astype(float)
         df = df.drop_duplicates(subset=["date"]).set_index("date").sort_index()
+        # Resample weekly to month-end
         monthly = df["close"].resample("ME").last().dropna()
         return monthly if len(monthly) >= 12 else None
-        
     except Exception as e:
         print(f"  Error fetching {ticker}: {e}")
         return None
