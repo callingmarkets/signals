@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-28T03:04:55.253050Z",
+  "generated": "2026-04-28T03:08:50.538734Z",
   "portfolios": [
     {
       "id": "btc-long-only",
@@ -87451,7 +87451,7 @@
       "n_months": 99,
       "n_buy_stocks": 1,
       "n_universe": 10,
-      "btc_bah_pct": 660.5,
+      "btc_bah_pct": 659.53,
       "current_holdings": [],
       "current_signals": {
         "BTC": "SELL",
