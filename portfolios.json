@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-28T02:54:07.465335Z",
+  "generated": "2026-04-28T02:59:48.704998Z",
   "portfolios": [
     {
       "id": "btc-long-only",
@@ -90092,7 +90092,7 @@
         },
         {
           "date": "2026-04-24",
-          "value": 1823358.64,
+          "value": 1823754.56,
           "n_buy": 6,
           "universe_size": 10,
           "buy_tickers": [
@@ -94911,56 +94911,60 @@
           "date": "2026-04-24",
           "action": "SELL",
           "ticker": "SOL",
-          "price": 84.13,
-          "value": 223585.15,
+          "price": 84.18,
+          "value": 223718.03,
           "reason": "Signal \u2192 SELL"
         },
         {
           "date": "2026-04-24",
           "action": "SELL",
           "ticker": "AVAX",
-          "price": 9.21,
-          "value": 227567.25,
+          "price": 9.22,
+          "value": 227814.34,
           "reason": "Signal \u2192 SELL"
         }
       ],
-      "total_return_pct": 1723.36,
+      "total_return_pct": 1723.75,
+      "total_return_dollar": 1723754.56,
       "cagr_pct": 8.36,
       "sharpe_ratio": 0.41,
       "max_drawdown_pct": 64.68,
-      "final_value": 1823358.64,
+      "final_value": 1823754.56,
+      "current_value": 1823754.56,
       "n_months": 434,
-      "btc_bah_pct": 916.31,
+      "n_buy_stocks": 6,
+      "n_universe": 10,
+      "btc_bah_pct": 917.11,
       "current_holdings": [
         {
           "ticker": "BTC",
-          "shares": 3.955756836321327,
-          "value": 303893.11
+          "shares": 3.953512569796402,
+          "value": 303959.09
         },
         {
           "ticker": "ETH",
-          "shares": 132.85293054100362,
-          "value": 303893.11
+          "shares": 132.7819344027625,
+          "value": 303959.09
         },
         {
           "ticker": "XRP",
-          "shares": 218108.75357006933,
-          "value": 303893.11
+          "shares": 218132.62882137106,
+          "value": 303959.09
         },
         {
           "ticker": "DOGE",
-          "shares": 3063602.263394247,
-          "value": 303893.11
+          "shares": 3064319.991908983,
+          "value": 303959.09
         },
         {
           "ticker": "TRX",
-          "shares": 936334.8927048438,
-          "value": 303893.11
+          "shares": 936688.2779794015,
+          "value": 303959.09
         },
         {
           "ticker": "LINK",
-          "shares": 32759.210293967848,
-          "value": 303893.11
+          "shares": 32810.889171427334,
+          "value": 303959.09
         }
       ],
       "current_signals": {
