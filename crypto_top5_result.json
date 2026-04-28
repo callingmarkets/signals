@@ -1,0 +1,9125 @@
+{
+  "total_return_pct": 767.03,
+  "cagr_pct": 29.54,
+  "sharpe_ratio": 0.72,
+  "max_drawdown_pct": 73.9,
+  "final_value": 867033.8,
+  "current_value": 867033.8,
+  "btc_bah_pct": 408.53,
+  "n_weeks": 434,
+  "n_weeks_crypto": 226,
+  "n_weeks_paxg": 90,
+  "n_weeks_usdt": 118,
+  "equity_curve": [
+    {
+      "date": "2018-01-05",
+      "value": 100000.0,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2018-01-12",
+      "value": 72093.63,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2018-01-19",
+      "value": 72106.26,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2018-01-26",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-02-02",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-02-09",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-02-16",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-02-23",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-03-02",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-03-09",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-03-16",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-03-23",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-03-30",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-04-06",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-04-13",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-04-20",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-04-27",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-05-04",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-05-11",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-05-18",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-05-25",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-06-01",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-06-08",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-06-15",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-06-22",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-06-29",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-07-06",
+      "value": 65345.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-07-13",
+      "value": 65345.87,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2018-07-20",
+      "value": 72429.13,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2018-07-27",
+      "value": 67445.3,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2018-08-03",
+      "value": 55664.7,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-08-10",
+      "value": 55664.7,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-08-17",
+      "value": 55664.7,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-08-24",
+      "value": 55664.7,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2018-08-31",
+      "value": 53000.64,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-09-07",
+      "value": 53000.64,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-09-14",
+      "value": 53000.64,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-09-21",
+      "value": 53000.64,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-09-28",
+      "value": 53000.64,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-10-05",
+      "value": 53000.64,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2018-10-12",
+      "value": 52938.64,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-10-19",
+      "value": 52938.64,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-10-26",
+      "value": 52938.64,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-11-02",
+      "value": 52938.64,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2018-11-09",
+      "value": 42629.85,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-11-16",
+      "value": 42629.85,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-11-23",
+      "value": 42629.85,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-11-30",
+      "value": 42629.85,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-12-07",
+      "value": 42629.85,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-12-14",
+      "value": 42629.85,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-12-21",
+      "value": 42629.85,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2018-12-28",
+      "value": 42629.85,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-01-04",
+      "value": 42629.85,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-01-11",
+      "value": 42629.85,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-01-18",
+      "value": 42629.85,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-01-25",
+      "value": 42629.85,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-02-01",
+      "value": 42629.85,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-02-08",
+      "value": 42629.85,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-02-15",
+      "value": 42629.85,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "BCH"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2019-02-22",
+      "value": 38886.26,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "BCH"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2019-03-01",
+      "value": 41465.22,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC",
+        "BCH"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2019-03-08",
+      "value": 40835.58,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "BCH"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2019-03-15",
+      "value": 45307.13,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC",
+        "BCH"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2019-03-22",
+      "value": 45940.83,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "BCH"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2019-03-29",
+      "value": 63804.0,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC",
+        "BCH"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2019-04-05",
+      "value": 67065.67,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC",
+        "BCH"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2019-04-12",
+      "value": 64101.89,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC",
+        "BCH"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2019-04-19",
+      "value": 60989.61,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "BCH"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2019-04-26",
+      "value": 59239.3,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "BCH"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2019-05-03",
+      "value": 63131.78,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "BCH"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2019-05-10",
+      "value": 89422.24,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC",
+        "BCH"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2019-05-17",
+      "value": 81000.28,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC",
+        "BCH"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2019-05-24",
+      "value": 96079.37,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC",
+        "BCH"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2019-05-31",
+      "value": 86181.58,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC",
+        "BCH"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2019-06-07",
+      "value": 93636.03,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC",
+        "BCH"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2019-06-14",
+      "value": 99090.74,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC",
+        "BCH"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2019-06-21",
+      "value": 115277.25,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC",
+        "BCH"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2019-06-28",
+      "value": 104065.65,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC",
+        "BCH"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2019-07-05",
+      "value": 97059.76,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2019-07-12",
+      "value": 76674.09,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2019-07-19",
+      "value": 78678.58,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2019-07-26",
+      "value": 81258.03,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2019-08-02",
+      "value": 96338.54,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2019-08-09",
+      "value": 80677.4,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2019-08-16",
+      "value": 81539.09,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2019-08-23",
+      "value": 78246.12,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-08-30",
+      "value": 78246.12,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-09-06",
+      "value": 78246.12,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-09-13",
+      "value": 78246.12,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-09-20",
+      "value": 78246.12,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-09-27",
+      "value": 78246.12,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-10-04",
+      "value": 78246.12,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-10-11",
+      "value": 78246.12,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-10-18",
+      "value": 78246.12,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-10-25",
+      "value": 78246.12,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-11-01",
+      "value": 78246.12,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-11-08",
+      "value": 78246.12,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-11-15",
+      "value": 78246.12,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-11-22",
+      "value": 78246.12,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-11-29",
+      "value": 78246.12,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-12-06",
+      "value": 78246.12,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-12-13",
+      "value": 78246.12,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-12-20",
+      "value": 78246.12,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2019-12-27",
+      "value": 78246.12,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-01-03",
+      "value": 82929.6,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-01-10",
+      "value": 90837.67,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-01-17",
+      "value": 91023.36,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-01-24",
+      "value": 94936.64,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2020-01-31",
+      "value": 109834.05,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-02-07",
+      "value": 124566.65,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2020-02-14",
+      "value": 111321.77,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2020-02-21",
+      "value": 95806.51,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-02-28",
+      "value": 95715.41,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-03-06",
+      "value": 82320.75,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-03-13",
+      "value": 56120.67,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-03-20",
+      "value": 61617.88,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-03-27",
+      "value": 62003.14,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-04-03",
+      "value": 62386.5,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-04-10",
+      "value": 64898.06,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-04-17",
+      "value": 65088.23,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-04-24",
+      "value": 64990.68,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-05-01",
+      "value": 63793.32,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-05-08",
+      "value": 63235.11,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-05-15",
+      "value": 64687.53,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2020-05-22",
+      "value": 63566.62,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-05-29",
+      "value": 68844.0,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-06-05",
+      "value": 69218.91,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-06-12",
+      "value": 65654.61,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-06-19",
+      "value": 65191.13,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-06-26",
+      "value": 64547.63,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-07-03",
+      "value": 67480.99,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-07-10",
+      "value": 65021.61,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-07-17",
+      "value": 68633.44,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2020-07-24",
+      "value": 82230.1,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-07-31",
+      "value": 92882.84,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2020-08-07",
+      "value": 88773.91,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-08-14",
+      "value": 93379.61,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2020-08-21",
+      "value": 88781.94,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-08-28",
+      "value": 90387.41,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2020-09-04",
+      "value": 76527.95,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-09-11",
+      "value": 80718.59,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-09-18",
+      "value": 73102.05,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2020-09-25",
+      "value": 73102.05,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2020-10-02",
+      "value": 73102.05,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2020-10-09",
+      "value": 73102.05,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-10-16",
+      "value": 77819.86,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "XRP",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-10-23",
+      "value": 79791.26,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-10-30",
+      "value": 78310.3,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-11-06",
+      "value": 87323.39,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-11-13",
+      "value": 95377.48,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-11-20",
+      "value": 131148.27,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2020-11-27",
+      "value": 133866.27,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-12-04",
+      "value": 123952.01,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-12-11",
+      "value": 139082.74,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-12-18",
+      "value": 123497.01,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2020-12-25",
+      "value": 142351.74,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "BCH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-01-01",
+      "value": 149055.12,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-01-08",
+      "value": 139871.4,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2021-01-15",
+      "value": 153386.09,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-01-22",
+      "value": 130702.02,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-01-29",
+      "value": 172191.15,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2021-02-05",
+      "value": 234251.5,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2021-02-12",
+      "value": 259075.3,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-02-19",
+      "value": 241037.36,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-02-26",
+      "value": 247211.36,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-03-05",
+      "value": 261054.98,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2021-03-12",
+      "value": 278548.81,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2021-03-19",
+      "value": 245339.06,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2021-03-26",
+      "value": 282558.5,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-04-02",
+      "value": 320885.58,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-04-09",
+      "value": 441823.57,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-04-16",
+      "value": 377696.63,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-04-23",
+      "value": 405069.15,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-04-30",
+      "value": 485934.5,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-05-07",
+      "value": 492869.0,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-05-14",
+      "value": 503848.4,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-05-21",
+      "value": 515368.93,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-05-28",
+      "value": 516581.04,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-06-04",
+      "value": 511710.93,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-06-11",
+      "value": 494735.88,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-06-18",
+      "value": 480883.11,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-06-25",
+      "value": 480001.08,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-07-02",
+      "value": 489716.96,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2021-07-09",
+      "value": 489716.96,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-07-16",
+      "value": 482218.13,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2021-07-23",
+      "value": 482218.13,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-07-30",
+      "value": 479060.47,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-08-06",
+      "value": 552790.14,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-08-13",
+      "value": 576203.86,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-08-20",
+      "value": 640705.57,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-08-27",
+      "value": 679511.51,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-09-03",
+      "value": 624959.59,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2021-09-10",
+      "value": 645283.28,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-09-17",
+      "value": 568631.64,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2021-09-24",
+      "value": 524945.91,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-10-01",
+      "value": 630974.6,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-10-08",
+      "value": 640392.58,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2021-10-15",
+      "value": 718372.34,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2021-10-22",
+      "value": 639717.94,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-10-29",
+      "value": 726569.19,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2021-11-05",
+      "value": 777177.75,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "LTC"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2021-11-12",
+      "value": 710563.42,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-11-19",
+      "value": 679034.55,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-11-26",
+      "value": 692473.43,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "LTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-12-03",
+      "value": 609569.76,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-12-10",
+      "value": 606389.51,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2021-12-17",
+      "value": 606389.51,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-12-24",
+      "value": 608365.86,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2021-12-31",
+      "value": 611162.33,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-01-07",
+      "value": 615911.61,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-01-14",
+      "value": 620213.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-01-21",
+      "value": 616230.92,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-01-28",
+      "value": 609589.31,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-02-04",
+      "value": 618603.88,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-02-11",
+      "value": 603047.86,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-02-18",
+      "value": 616873.34,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-02-25",
+      "value": 617190.69,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-03-04",
+      "value": 602187.41,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-03-11",
+      "value": 583343.04,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-03-18",
+      "value": 587321.87,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-03-25",
+      "value": 634272.74,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-04-01",
+      "value": 582067.85,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "ADA",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-04-08",
+      "value": 555101.2,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-04-15",
+      "value": 550460.38,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-04-22",
+      "value": 532231.37,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-04-29",
+      "value": 530191.88,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2022-05-06",
+      "value": 530191.88,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2022-05-13",
+      "value": 530191.88,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2022-05-20",
+      "value": 530191.88,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2022-05-27",
+      "value": 530191.88,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2022-06-03",
+      "value": 530191.88,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2022-06-10",
+      "value": 530191.88,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2022-06-17",
+      "value": 530191.88,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2022-06-24",
+      "value": 530191.88,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2022-07-01",
+      "value": 530191.88,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2022-07-08",
+      "value": 530191.88,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2022-07-15",
+      "value": 530191.88,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2022-07-22",
+      "value": 530191.88,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2022-07-29",
+      "value": 530191.88,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2022-08-05",
+      "value": 530191.88,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "ADA",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-08-12",
+      "value": 520846.01,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "ADA",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-08-19",
+      "value": 462895.49,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2022-08-26",
+      "value": 462895.49,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2022-09-02",
+      "value": 462895.49,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2022-09-09",
+      "value": 462895.49,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2022-09-16",
+      "value": 462895.49,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2022-09-23",
+      "value": 462895.49,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "SOL",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-09-30",
+      "value": 486371.56,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "SOL",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-10-07",
+      "value": 464430.74,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-10-14",
+      "value": 446394.31,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-10-21",
+      "value": 474665.04,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "ADA",
+        "XRP"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2022-10-28",
+      "value": 459390.38,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "ADA",
+        "XRP"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2022-11-04",
+      "value": 323696.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2022-11-11",
+      "value": 323696.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-11-18",
+      "value": 318524.65,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-11-25",
+      "value": 322684.4,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-12-02",
+      "value": 308857.74,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-12-09",
+      "value": 321845.12,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-12-16",
+      "value": 296839.95,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-12-23",
+      "value": 291338.36,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2022-12-30",
+      "value": 296750.67,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-01-06",
+      "value": 214712.32,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "DOGE",
+        "ADA"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2023-01-13",
+      "value": 227186.91,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "DOGE",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-01-20",
+      "value": 250337.62,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "DOGE",
+        "ADA"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2023-01-27",
+      "value": 259707.81,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "DOGE",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-02-03",
+      "value": 253812.68,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "DOGE",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-02-10",
+      "value": 260820.53,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "DOGE",
+        "ADA"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2023-02-17",
+      "value": 252777.71,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "DOGE",
+        "ADA"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2023-02-24",
+      "value": 244979.56,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-03-03",
+      "value": 222113.86,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-03-10",
+      "value": 227628.77,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-03-17",
+      "value": 246873.72,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2023-03-24",
+      "value": 272457.62,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2023-03-31",
+      "value": 273858.21,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "DOGE",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-04-07",
+      "value": 273502.19,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "DOGE",
+        "ADA"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2023-04-14",
+      "value": 275161.92,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "DOGE",
+        "ADA"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2023-04-21",
+      "value": 261308.44,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-04-28",
+      "value": 262954.77,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-05-05",
+      "value": 249088.52,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-05-12",
+      "value": 243216.9,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-05-19",
+      "value": 240675.74,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-05-26",
+      "value": 240574.48,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2023-06-02",
+      "value": 240574.48,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2023-06-09",
+      "value": 240574.48,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2023-06-16",
+      "value": 240574.48,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2023-06-23",
+      "value": 240574.48,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-06-30",
+      "value": 243890.28,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-07-07",
+      "value": 243030.75,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-07-14",
+      "value": 239171.24,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-07-21",
+      "value": 221752.03,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "XRP",
+        "DOGE"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-07-28",
+      "value": 214405.62,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2023-08-04",
+      "value": 214405.62,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2023-08-11",
+      "value": 214405.62,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2023-08-18",
+      "value": 214405.62,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2023-08-25",
+      "value": 214405.62,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2023-09-01",
+      "value": 214405.62,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2023-09-08",
+      "value": 214405.62,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2023-09-15",
+      "value": 214405.62,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-09-22",
+      "value": 209884.52,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2023-09-29",
+      "value": 209884.52,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-10-06",
+      "value": 202849.61,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2023-10-13",
+      "value": 202849.61,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-10-20",
+      "value": 246911.53,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "XRP",
+        "DOGE",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-10-27",
+      "value": 260897.42,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "DOGE",
+        "ADA"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2023-11-03",
+      "value": 282496.85,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "DOGE",
+        "ADA"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2023-11-10",
+      "value": 292153.04,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "DOGE",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-11-17",
+      "value": 287890.36,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "DOGE",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-11-24",
+      "value": 291234.27,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "DOGE",
+        "ADA"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2023-12-01",
+      "value": 328791.8,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "DOGE",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-12-08",
+      "value": 361424.78,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "DOGE",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2023-12-15",
+      "value": 347477.7,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "DOGE",
+        "ADA"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2023-12-22",
+      "value": 361583.69,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "DOGE",
+        "ADA"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2023-12-29",
+      "value": 331888.96,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-01-05",
+      "value": 362108.62,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "ADA"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2024-01-12",
+      "value": 346565.07,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-01-19",
+      "value": 311292.71,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-01-26",
+      "value": 328290.93,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-02-02",
+      "value": 341178.75,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-02-09",
+      "value": 394376.54,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-02-16",
+      "value": 394854.79,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-02-23",
+      "value": 446949.6,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "XRP",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-03-01",
+      "value": 493250.76,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "XRP",
+        "ADA"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2024-03-08",
+      "value": 549779.29,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "XRP",
+        "ADA"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2024-03-15",
+      "value": 516775.67,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "XRP",
+        "ADA"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2024-03-22",
+      "value": 516917.95,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "XRP",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-03-29",
+      "value": 486932.1,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-04-05",
+      "value": 505356.28,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-04-12",
+      "value": 413592.61,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-04-19",
+      "value": 443827.21,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "SOL"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-04-26",
+      "value": 403220.0,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-05-03",
+      "value": 400692.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-05-10",
+      "value": 415902.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-05-17",
+      "value": 417297.69,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-05-24",
+      "value": 407441.21,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-05-31",
+      "value": 412143.69,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-06-07",
+      "value": 404231.55,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-06-14",
+      "value": 406067.39,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2024-06-21",
+      "value": 406067.39,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2024-06-28",
+      "value": 406067.39,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2024-07-05",
+      "value": 406067.39,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2024-07-12",
+      "value": 406067.39,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-07-19",
+      "value": 397658.8,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2024-07-26",
+      "value": 397658.8,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-08-02",
+      "value": 387620.13,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2024-08-09",
+      "value": 387620.13,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2024-08-16",
+      "value": 387620.13,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-08-23",
+      "value": 388038.81,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-08-30",
+      "value": 387702.31,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-09-06",
+      "value": 389628.23,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-09-13",
+      "value": 399631.5,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-09-20",
+      "value": 403250.19,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "SOL",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-09-27",
+      "value": 380416.87,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-10-04",
+      "value": 372174.26,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-10-11",
+      "value": 380344.37,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "ADA"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2024-10-18",
+      "value": 385420.35,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "SOL",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-10-25",
+      "value": 401492.78,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-11-01",
+      "value": 417898.21,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-11-08",
+      "value": 534323.68,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "XRP",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-11-15",
+      "value": 649759.23,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "XRP",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-11-22",
+      "value": 758287.55,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "XRP",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-11-29",
+      "value": 880252.28,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "XRP",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-12-06",
+      "value": 870096.1,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "XRP",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-12-13",
+      "value": 817567.88,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "XRP",
+        "ADA"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2024-12-20",
+      "value": 793215.44,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "XRP",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2024-12-27",
+      "value": 778729.96,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "XRP",
+        "ADA"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-01-03",
+      "value": 628885.66,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "DOGE"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-01-10",
+      "value": 714537.54,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "DOGE"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-01-17",
+      "value": 700499.87,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "SOL",
+        "DOGE"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2025-01-24",
+      "value": 659357.45,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "XRP",
+        "SOL"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-01-31",
+      "value": 564189.28,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-02-07",
+      "value": 578810.97,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-02-14",
+      "value": 583435.88,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-02-21",
+      "value": 580032.01,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-02-28",
+      "value": 580449.58,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-03-07",
+      "value": 583156.85,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-03-14",
+      "value": 606277.46,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-03-21",
+      "value": 597478.84,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-03-28",
+      "value": 631161.37,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-04-04",
+      "value": 613156.45,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-04-11",
+      "value": 669629.1,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-04-18",
+      "value": 660341.67,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "SOL"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-04-25",
+      "value": 654386.51,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "SOL"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-05-02",
+      "value": 663536.81,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "SOL"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-05-09",
+      "value": 751967.73,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "SOL",
+        "DOGE"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-05-16",
+      "value": 746618.52,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "DOGE"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-05-23",
+      "value": 740931.82,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "DOGE"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-05-30",
+      "value": 682656.62,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-06-06",
+      "value": 717097.99,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-06-13",
+      "value": 665857.46,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-06-20",
+      "value": 657446.62,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-06-27",
+      "value": 687562.18,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-07-04",
+      "value": 717694.84,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "SOL"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2025-07-11",
+      "value": 835143.59,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "SOL",
+        "DOGE"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2025-07-18",
+      "value": 893064.81,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "SOL",
+        "DOGE"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2025-07-25",
+      "value": 868722.88,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "SOL",
+        "DOGE"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-08-01",
+      "value": 832318.3,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "SOL",
+        "DOGE"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2025-08-08",
+      "value": 973592.43,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "SOL",
+        "DOGE"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-08-15",
+      "value": 891169.26,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "SOL",
+        "DOGE"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-08-22",
+      "value": 906603.49,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2025-08-29",
+      "value": 906603.49,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-09-05",
+      "value": 922711.07,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-09-12",
+      "value": 931117.11,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-09-19",
+      "value": 952351.44,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-09-26",
+      "value": 981454.55,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-10-03",
+      "value": 1022815.74,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL",
+        "DOGE"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2025-10-10",
+      "value": 867914.58,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-10-17",
+      "value": 837923.52,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-10-24",
+      "value": 808824.11,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-10-31",
+      "value": 812304.83,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-11-07",
+      "value": 854926.29,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-11-14",
+      "value": 837598.35,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-11-21",
+      "value": 851893.44,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-11-28",
+      "value": 862006.35,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-12-05",
+      "value": 867254.02,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-12-12",
+      "value": 890670.16,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-12-19",
+      "value": 918824.74,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2025-12-26",
+      "value": 885109.59,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2026-01-02",
+      "value": 914949.32,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2026-01-09",
+      "value": 946502.82,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2026-01-16",
+      "value": 858234.48,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2026-01-23",
+      "value": 990371.02,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2026-01-30",
+      "value": 897879.38,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2026-02-06",
+      "value": 907558.47,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2026-02-13",
+      "value": 890629.9,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2026-02-20",
+      "value": 926265.4,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2026-02-27",
+      "value": 926576.71,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2026-03-06",
+      "value": 919602.76,
+      "btc_signal": "SELL",
+      "paxg_signal": "BUY",
+      "defensive": "PAXG",
+      "buy_tickers": [],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2026-03-13",
+      "value": 864102.76,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2026-03-20",
+      "value": 864102.76,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2026-03-27",
+      "value": 864102.76,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2026-04-03",
+      "value": 864102.76,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2026-04-10",
+      "value": 864102.76,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2026-04-17",
+      "value": 886381.57,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "SOL",
+        "DOGE"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2026-04-24",
+      "value": 867033.8,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "DOGE"
+      ],
+      "cash_pct": 0.0
+    }
+  ],
+  "trades": [
+    {
+      "date": "2018-01-05",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 14937.6,
+      "shares": 1.338903,
+      "value": 20000.0,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2018-01-05",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 1245.02,
+      "shares": 16.063999,
+      "value": 20000.0,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2018-01-05",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 1.9498,
+      "shares": 10257.409696,
+      "value": 20000.0,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2018-01-05",
+      "action": "BUY",
+      "ticker": "BCH",
+      "price": 2859.6,
+      "shares": 6.993985,
+      "value": 20000.0,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2018-01-05",
+      "action": "BUY",
+      "ticker": "LTC",
+      "price": 251.83,
+      "shares": 79.418655,
+      "value": 20000.0,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2018-01-12",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2018-01-19",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2018-01-26",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 10101.6,
+      "value": 12756.59,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2018-01-26",
+      "action": "SELL",
+      "ticker": "ETH",
+      "price": 1105.3,
+      "value": 14984.26,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2018-01-26",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 1.1202,
+      "value": 11905.06,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2018-01-26",
+      "action": "SELL",
+      "ticker": "BCH",
+      "price": 1469.6,
+      "value": 12767.92,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2018-01-26",
+      "action": "SELL",
+      "ticker": "LTC",
+      "price": 162.3,
+      "value": 12932.04,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2018-02-02",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-02-09",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-02-16",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-02-23",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-03-02",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-03-09",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-03-16",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-03-23",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-03-30",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-04-06",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-04-13",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-04-20",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-04-27",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-05-04",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-05-11",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-05-18",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-05-25",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-06-01",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-06-08",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-06-15",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-06-22",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-06-29",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-07-06",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-07-13",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 7367.4,
+      "shares": 8.869597,
+      "value": 65345.87,
+      "weight": 100.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2018-07-20",
+      "action": "HOLD",
+      "note": "No changes \u2014 1 assets"
+    },
+    {
+      "date": "2018-07-27",
+      "action": "HOLD",
+      "note": "No changes \u2014 1 assets"
+    },
+    {
+      "date": "2018-08-03",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 6275.9,
+      "value": 55664.7,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2018-08-10",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-08-17",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-08-24",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 7022.7,
+      "shares": 7.926396,
+      "value": 55664.7,
+      "weight": 100.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2018-08-31",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 6686.6,
+      "value": 53000.64,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2018-09-07",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-09-14",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-09-21",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-09-28",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-10-05",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 6530.5,
+      "shares": 4.057931,
+      "value": 26500.32,
+      "weight": 50.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2018-10-05",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.4589,
+      "shares": 57748.742319,
+      "value": 26500.32,
+      "weight": 50.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2018-10-12",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 6442.5,
+      "value": 26143.22,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2018-10-12",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.464,
+      "value": 26795.42,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2018-10-19",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-10-26",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-11-02",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 6503.3,
+      "shares": 1.628055,
+      "value": 10587.73,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2018-11-02",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 216.95,
+      "shares": 48.802617,
+      "value": 10587.73,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2018-11-02",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.5351,
+      "shares": 19786.446961,
+      "value": 10587.73,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2018-11-02",
+      "action": "BUY",
+      "ticker": "BCH",
+      "price": 613.9,
+      "shares": 17.246665,
+      "value": 10587.73,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2018-11-02",
+      "action": "BUY",
+      "ticker": "LTC",
+      "price": 53.88,
+      "shares": 196.505712,
+      "value": 10587.73,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2018-11-09",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 5600.9,
+      "value": 9118.57,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2018-11-09",
+      "action": "SELL",
+      "ticker": "ETH",
+      "price": 177.8,
+      "value": 8677.11,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2018-11-09",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.4579,
+      "value": 9060.61,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2018-11-09",
+      "action": "SELL",
+      "ticker": "BCH",
+      "price": 427.5,
+      "value": 7372.95,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2018-11-09",
+      "action": "SELL",
+      "ticker": "LTC",
+      "price": 42.75,
+      "value": 8400.62,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2018-11-16",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-11-23",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-11-30",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-12-07",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-12-14",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-12-21",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2018-12-28",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-01-04",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-01-11",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-01-18",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-01-25",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-02-01",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-02-08",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-02-15",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 3942.0,
+      "shares": 2.703568,
+      "value": 10657.46,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2019-02-15",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 147.29,
+      "shares": 72.357008,
+      "value": 10657.46,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2019-02-15",
+      "action": "BUY",
+      "ticker": "LTC",
+      "price": 51.13,
+      "shares": 208.438563,
+      "value": 10657.46,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2019-02-15",
+      "action": "BUY",
+      "ticker": "BCH",
+      "price": 145.5,
+      "shares": 73.247173,
+      "value": 10657.46,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2019-02-22",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2019-03-01",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.3156,
+      "shares": 26279.569643,
+      "value": 8293.04,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2019-03-08",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.3129,
+      "value": 8223.14,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2019-03-15",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.3167,
+      "shares": 28613.825709,
+      "value": 9061.43,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2019-03-22",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.3088,
+      "value": 8834.8,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2019-03-29",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.3421,
+      "shares": 37305.735813,
+      "value": 12760.8,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2019-04-05",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2019-04-12",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2019-04-19",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.301,
+      "value": 11506.8,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2019-04-26",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2019-05-03",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2019-05-10",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.4594,
+      "shares": 38927.47275,
+      "value": 17884.45,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2019-05-17",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2019-05-24",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2019-05-31",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2019-06-07",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2019-06-14",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2019-06-21",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2019-06-28",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2019-07-05",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.3611,
+      "value": 18517.54,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2019-07-05",
+      "action": "SELL",
+      "ticker": "BCH",
+      "price": 388.3,
+      "value": 19160.12,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2019-07-12",
+      "action": "SELL",
+      "ticker": "ETH",
+      "price": 211.5,
+      "value": 23721.53,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2019-07-19",
+      "action": "SELL",
+      "ticker": "LTC",
+      "price": 94.45,
+      "value": 40081.18,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2019-07-26",
+      "action": "HOLD",
+      "note": "No changes \u2014 1 assets"
+    },
+    {
+      "date": "2019-08-02",
+      "action": "HOLD",
+      "note": "No changes \u2014 1 assets"
+    },
+    {
+      "date": "2019-08-09",
+      "action": "HOLD",
+      "note": "No changes \u2014 1 assets"
+    },
+    {
+      "date": "2019-08-16",
+      "action": "HOLD",
+      "note": "No changes \u2014 1 assets"
+    },
+    {
+      "date": "2019-08-23",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 9716.1,
+      "value": 78246.12,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2019-08-30",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-09-06",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-09-13",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-09-20",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-09-27",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-10-04",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-10-11",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-10-18",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-10-25",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-11-01",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-11-08",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-11-15",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-11-22",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-11-29",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-12-06",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-12-13",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-12-20",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2019-12-27",
+      "action": "BUY",
+      "ticker": "PAXG",
+      "price": 1512.47,
+      "shares": 51.733999,
+      "value": 78246.12,
+      "weight": 100.0,
+      "reason": "BTC gate SELL, PAXG BUY"
+    },
+    {
+      "date": "2020-01-03",
+      "action": "SELL",
+      "ticker": "PAXG",
+      "price": 1603.0,
+      "value": 82929.6,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2020-01-03",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 8043.3,
+      "shares": 10.310395,
+      "value": 82929.6,
+      "weight": 100.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2020-01-10",
+      "action": "BUY",
+      "ticker": "BCH",
+      "price": 339.7,
+      "shares": 89.135191,
+      "value": 30279.22,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2020-01-10",
+      "action": "BUY",
+      "ticker": "LTC",
+      "price": 58.12,
+      "shares": 520.977709,
+      "value": 30279.22,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2020-01-17",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 167.66,
+      "shares": 108.58089,
+      "value": 18204.67,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2020-01-17",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.2366,
+      "shares": 76926.566495,
+      "value": 18204.67,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2020-01-24",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2020-01-31",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2020-02-07",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2020-02-14",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2020-02-21",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.2289,
+      "value": 18523.69,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2020-02-21",
+      "action": "SELL",
+      "ticker": "BCH",
+      "price": 317.1,
+      "value": 18628.04,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2020-02-28",
+      "action": "HOLD",
+      "note": "No changes \u2014 3 assets"
+    },
+    {
+      "date": "2020-03-06",
+      "action": "SELL",
+      "ticker": "ETH",
+      "price": 194.81,
+      "value": 27688.17,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2020-03-06",
+      "action": "SELL",
+      "ticker": "LTC",
+      "price": 48.56,
+      "value": 25697.69,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2020-03-13",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 5415.2,
+      "value": 56120.67,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2020-03-13",
+      "action": "BUY",
+      "ticker": "PAXG",
+      "price": 1484.38,
+      "shares": 37.807482,
+      "value": 56120.67,
+      "weight": 100.0,
+      "reason": "BTC gate SELL, PAXG BUY"
+    },
+    {
+      "date": "2020-03-20",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2020-03-27",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2020-04-03",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2020-04-10",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2020-04-17",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2020-04-24",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2020-05-01",
+      "action": "SELL",
+      "ticker": "PAXG",
+      "price": 1687.32,
+      "value": 63793.32,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2020-05-01",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 9166.1,
+      "shares": 2.319901,
+      "value": 21264.44,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2020-05-01",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 199.48,
+      "shares": 106.59936,
+      "value": 21264.44,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2020-05-01",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.2117,
+      "shares": 100455.59467,
+      "value": 21264.44,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2020-05-08",
+      "action": "HOLD",
+      "note": "No changes \u2014 3 assets"
+    },
+    {
+      "date": "2020-05-15",
+      "action": "BUY",
+      "ticker": "LTC",
+      "price": 44.18,
+      "shares": 366.045313,
+      "value": 16171.88,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2020-05-22",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2020-05-29",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2020-06-05",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2020-06-12",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.1931,
+      "value": 16492.53,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2020-06-12",
+      "action": "SELL",
+      "ticker": "LTC",
+      "price": 44.04,
+      "value": 16322.56,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2020-06-19",
+      "action": "HOLD",
+      "note": "No changes \u2014 2 assets"
+    },
+    {
+      "date": "2020-06-26",
+      "action": "HOLD",
+      "note": "No changes \u2014 2 assets"
+    },
+    {
+      "date": "2020-07-03",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.2055,
+      "shares": 82105.644641,
+      "value": 16870.25,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2020-07-03",
+      "action": "BUY",
+      "ticker": "LTC",
+      "price": 45.34,
+      "shares": 372.083079,
+      "value": 16870.25,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2020-07-10",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2020-07-17",
+      "action": "BUY",
+      "ticker": "BCH",
+      "price": 239.4,
+      "shares": 57.337881,
+      "value": 13726.69,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2020-07-24",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2020-07-31",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2020-08-07",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2020-08-14",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2020-08-21",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2020-08-28",
+      "action": "SELL",
+      "ticker": "BCH",
+      "price": 264.0,
+      "value": 17015.2,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2020-09-04",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.2392,
+      "value": 19582.3,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2020-09-04",
+      "action": "SELL",
+      "ticker": "LTC",
+      "price": 47.86,
+      "value": 18614.21,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2020-09-11",
+      "action": "HOLD",
+      "note": "No changes \u2014 2 assets"
+    },
+    {
+      "date": "2020-09-18",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 10230.7,
+      "value": 37704.32,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2020-09-18",
+      "action": "SELL",
+      "ticker": "ETH",
+      "price": 320.12,
+      "value": 35397.73,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2020-09-25",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2020-10-02",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2020-10-09",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 11433.1,
+      "shares": 3.196948,
+      "value": 36551.03,
+      "weight": 50.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2020-10-09",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.2494,
+      "shares": 146573.472227,
+      "value": 36551.03,
+      "weight": 50.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2020-10-16",
+      "action": "BUY",
+      "ticker": "BCH",
+      "price": 259.19,
+      "shares": 75.060632,
+      "value": 19454.97,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2020-10-16",
+      "action": "BUY",
+      "ticker": "LTC",
+      "price": 53.13,
+      "shares": 366.176646,
+      "value": 19454.97,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2020-10-23",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.2456,
+      "value": 19000.81,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2020-10-30",
+      "action": "SELL",
+      "ticker": "BCH",
+      "price": 241.28,
+      "value": 23905.18,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2020-10-30",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 402.68,
+      "shares": 64.824262,
+      "value": 26103.43,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2020-11-06",
+      "action": "BUY",
+      "ticker": "BCH",
+      "price": 256.9,
+      "shares": 84.977996,
+      "value": 21830.85,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2020-11-13",
+      "action": "SELL",
+      "ticker": "BCH",
+      "price": 247.2,
+      "value": 21006.56,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2020-11-13",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.2937,
+      "shares": 81197.201007,
+      "value": 23844.37,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2020-11-20",
+      "action": "BUY",
+      "ticker": "BCH",
+      "price": 313.63,
+      "shares": 83.632477,
+      "value": 26229.65,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2020-11-27",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2020-12-04",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2020-12-11",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2020-12-18",
+      "action": "SELL",
+      "ticker": "BCH",
+      "price": 275.23,
+      "value": 24481.8,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2020-12-25",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.2114,
+      "value": 25099.8,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2020-12-25",
+      "action": "BUY",
+      "ticker": "BCH",
+      "price": 359.27,
+      "shares": 99.05624,
+      "value": 35587.94,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2021-01-01",
+      "action": "SELL",
+      "ticker": "BCH",
+      "price": 0,
+      "value": 0.0,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2021-01-01",
+      "action": "BUY",
+      "ticker": "ADA",
+      "price": 0.3342,
+      "shares": 111499.09988,
+      "value": 37263.78,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2021-01-08",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2021-01-15",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2021-01-22",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2021-01-29",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.398,
+      "shares": 86534.736991,
+      "value": 34438.23,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2021-02-05",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2021-02-12",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2021-02-19",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2021-02-26",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2021-03-05",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2021-03-12",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2021-03-19",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2021-03-26",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2021-04-02",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2021-04-09",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2021-04-16",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2021-04-23",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2021-04-30",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 57497.1,
+      "value": 84847.35,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2021-04-30",
+      "action": "SELL",
+      "ticker": "ETH",
+      "price": 3527.69,
+      "value": 103954.87,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2021-04-30",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 1.6135,
+      "value": 96114.79,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2021-04-30",
+      "action": "SELL",
+      "ticker": "ADA",
+      "price": 1.48,
+      "value": 89526.06,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2021-04-30",
+      "action": "SELL",
+      "ticker": "LTC",
+      "price": 356.23,
+      "value": 111491.43,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2021-04-30",
+      "action": "BUY",
+      "ticker": "PAXG",
+      "price": 1796.02,
+      "shares": 270.561854,
+      "value": 485934.5,
+      "weight": 100.0,
+      "reason": "BTC gate SELL, PAXG BUY"
+    },
+    {
+      "date": "2021-05-07",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2021-05-14",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2021-05-21",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2021-05-28",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2021-06-04",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2021-06-11",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2021-06-18",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2021-06-25",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2021-07-02",
+      "action": "SELL",
+      "ticker": "PAXG",
+      "price": 1810.0,
+      "value": 489716.96,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2021-07-09",
+      "action": "BUY",
+      "ticker": "PAXG",
+      "price": 1834.44,
+      "shares": 266.957195,
+      "value": 489716.96,
+      "weight": 100.0,
+      "reason": "BTC gate SELL, PAXG BUY"
+    },
+    {
+      "date": "2021-07-16",
+      "action": "SELL",
+      "ticker": "PAXG",
+      "price": 1806.35,
+      "value": 482218.13,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2021-07-23",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 40011.0,
+      "shares": 12.052139,
+      "value": 482218.13,
+      "weight": 100.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2021-07-30",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 2724.91,
+      "shares": 87.903907,
+      "value": 239530.23,
+      "weight": 50.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2021-08-06",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 1.0121,
+      "shares": 109231.952353,
+      "value": 110558.03,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2021-08-06",
+      "action": "BUY",
+      "ticker": "ADA",
+      "price": 1.8,
+      "shares": 61421.160931,
+      "value": 110558.03,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2021-08-06",
+      "action": "BUY",
+      "ticker": "LTC",
+      "price": 170.88,
+      "shares": 646.992207,
+      "value": 110558.03,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2021-08-13",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2021-08-20",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2021-08-27",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2021-09-03",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2021-09-10",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2021-09-17",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2021-09-24",
+      "action": "SELL",
+      "ticker": "ETH",
+      "price": 2850.86,
+      "value": 105351.39,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2021-09-24",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.9275,
+      "value": 105203.52,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2021-09-24",
+      "action": "SELL",
+      "ticker": "LTC",
+      "price": 144.76,
+      "value": 101988.75,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2021-10-01",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 3575.26,
+      "shares": 35.296711,
+      "value": 126194.92,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2021-10-01",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 1.0768,
+      "shares": 117191.125227,
+      "value": 126194.92,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2021-10-01",
+      "action": "BUY",
+      "ticker": "LTC",
+      "price": 178.71,
+      "shares": 706.143581,
+      "value": 126194.92,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2021-10-08",
+      "action": "SELL",
+      "ticker": "ADA",
+      "price": 2.1868,
+      "value": 124799.11,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2021-10-15",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2021-10-22",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.9943,
+      "value": 156005.27,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2021-10-29",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 1.2112,
+      "shares": 149971.348485,
+      "value": 181642.3,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2021-11-05",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2021-11-12",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 1.0966,
+      "value": 178628.0,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2021-11-19",
+      "action": "HOLD",
+      "note": "No changes \u2014 3 assets"
+    },
+    {
+      "date": "2021-11-26",
+      "action": "HOLD",
+      "note": "No changes \u2014 3 assets"
+    },
+    {
+      "date": "2021-12-03",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 50515.1,
+      "value": 203713.3,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2021-12-03",
+      "action": "SELL",
+      "ticker": "ETH",
+      "price": 4439.83,
+      "value": 223350.5,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2021-12-03",
+      "action": "SELL",
+      "ticker": "LTC",
+      "price": 165.25,
+      "value": 182505.96,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2021-12-03",
+      "action": "BUY",
+      "ticker": "PAXG",
+      "price": 1786.4,
+      "shares": 341.228032,
+      "value": 609569.76,
+      "weight": 100.0,
+      "reason": "BTC gate SELL, PAXG BUY"
+    },
+    {
+      "date": "2021-12-10",
+      "action": "SELL",
+      "ticker": "PAXG",
+      "price": 1777.08,
+      "value": 606389.51,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2021-12-17",
+      "action": "BUY",
+      "ticker": "PAXG",
+      "price": 1804.12,
+      "shares": 336.113735,
+      "value": 606389.51,
+      "weight": 100.0,
+      "reason": "BTC gate SELL, PAXG BUY"
+    },
+    {
+      "date": "2021-12-24",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2021-12-31",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2022-01-07",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2022-01-14",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2022-01-21",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2022-01-28",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2022-02-04",
+      "action": "SELL",
+      "ticker": "PAXG",
+      "price": 1840.46,
+      "value": 618603.88,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-02-04",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 44420.0,
+      "shares": 6.963123,
+      "value": 309301.94,
+      "weight": 50.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-02-04",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.8709,
+      "shares": 355135.763619,
+      "value": 309301.94,
+      "weight": 50.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-02-11",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 43873.1,
+      "value": 305493.81,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-02-11",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.8379,
+      "value": 297554.05,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-02-11",
+      "action": "BUY",
+      "ticker": "PAXG",
+      "price": 1881.27,
+      "shares": 320.553594,
+      "value": 603047.86,
+      "weight": 100.0,
+      "reason": "BTC gate SELL, PAXG BUY"
+    },
+    {
+      "date": "2022-02-18",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2022-02-25",
+      "action": "SELL",
+      "ticker": "PAXG",
+      "price": 1925.39,
+      "value": 617190.69,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-02-25",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 43922.5,
+      "shares": 7.025906,
+      "value": 308595.34,
+      "weight": 50.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-02-25",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.7689,
+      "shares": 401336.085202,
+      "value": 308595.34,
+      "weight": 50.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-03-04",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 41965.3,
+      "value": 294844.24,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-03-04",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.7658,
+      "value": 307343.17,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-03-04",
+      "action": "BUY",
+      "ticker": "PAXG",
+      "price": 1996.28,
+      "shares": 301.654785,
+      "value": 602187.41,
+      "weight": 100.0,
+      "reason": "BTC gate SELL, PAXG BUY"
+    },
+    {
+      "date": "2022-03-11",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2022-03-18",
+      "action": "SELL",
+      "ticker": "PAXG",
+      "price": 1947.0,
+      "value": 587321.87,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-03-18",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 42910.3,
+      "shares": 4.5624,
+      "value": 195773.96,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-03-18",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 3036.71,
+      "shares": 64.469098,
+      "value": 195773.96,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-03-18",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.8378,
+      "shares": 233679.031048,
+      "value": 195773.96,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-03-25",
+      "action": "BUY",
+      "ticker": "SOL",
+      "price": 120.83,
+      "shares": 1312.324634,
+      "value": 158568.19,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-04-01",
+      "action": "SELL",
+      "ticker": "SOL",
+      "price": 113.02,
+      "value": 148318.93,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-04-01",
+      "action": "BUY",
+      "ticker": "ADA",
+      "price": 1.0534,
+      "shares": 138138.697338,
+      "value": 145516.96,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-04-08",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 41150.0,
+      "value": 138677.77,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-04-08",
+      "action": "SELL",
+      "ticker": "ETH",
+      "price": 3117.99,
+      "value": 143199.94,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-04-08",
+      "action": "SELL",
+      "ticker": "ADA",
+      "price": 0.9747,
+      "value": 134639.64,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-04-08",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.7236,
+      "value": 138583.84,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-04-08",
+      "action": "BUY",
+      "ticker": "PAXG",
+      "price": 1976.0,
+      "shares": 280.921661,
+      "value": 555101.2,
+      "weight": 100.0,
+      "reason": "BTC gate SELL, PAXG BUY"
+    },
+    {
+      "date": "2022-04-15",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2022-04-22",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2022-04-29",
+      "action": "SELL",
+      "ticker": "PAXG",
+      "price": 1887.33,
+      "value": 530191.88,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-05-06",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2022-05-13",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2022-05-20",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2022-05-27",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2022-06-03",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2022-06-10",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2022-06-17",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2022-06-24",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2022-07-01",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2022-07-08",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2022-07-15",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2022-07-22",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2022-07-29",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2022-08-05",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 23958.8,
+      "shares": 4.425863,
+      "value": 106038.38,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-08-05",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 1853.82,
+      "shares": 57.199931,
+      "value": 106038.38,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-08-05",
+      "action": "BUY",
+      "ticker": "SOL",
+      "price": 42.49,
+      "shares": 2495.607809,
+      "value": 106038.38,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-08-05",
+      "action": "BUY",
+      "ticker": "ADA",
+      "price": 0.5377,
+      "shares": 197207.686432,
+      "value": 106038.38,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-08-05",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.3811,
+      "shares": 278264.822176,
+      "value": 106038.38,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-08-12",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2022-08-19",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 21375.1,
+      "value": 95415.15,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-08-19",
+      "action": "SELL",
+      "ticker": "ETH",
+      "price": 1656.64,
+      "value": 94146.68,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-08-19",
+      "action": "SELL",
+      "ticker": "SOL",
+      "price": 34.89,
+      "value": 89739.84,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-08-19",
+      "action": "SELL",
+      "ticker": "ADA",
+      "price": 0.4582,
+      "value": 88718.28,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-08-19",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.3455,
+      "value": 94875.54,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-08-26",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2022-09-02",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2022-09-09",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2022-09-16",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2022-09-23",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 19400.0,
+      "shares": 7.953531,
+      "value": 154298.5,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-09-23",
+      "action": "BUY",
+      "ticker": "SOL",
+      "price": 33.25,
+      "shares": 4640.556247,
+      "value": 154298.5,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-09-23",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.4489,
+      "shares": 343725.763468,
+      "value": 154298.5,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-09-30",
+      "action": "HOLD",
+      "note": "No changes \u2014 3 assets"
+    },
+    {
+      "date": "2022-10-07",
+      "action": "SELL",
+      "ticker": "SOL",
+      "price": 31.17,
+      "value": 148411.18,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-10-14",
+      "action": "HOLD",
+      "note": "No changes \u2014 2 assets"
+    },
+    {
+      "date": "2022-10-21",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 1566.32,
+      "shares": 60.608948,
+      "value": 94933.01,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-10-21",
+      "action": "BUY",
+      "ticker": "SOL",
+      "price": 31.29,
+      "shares": 3033.972743,
+      "value": 94933.01,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-10-21",
+      "action": "BUY",
+      "ticker": "ADA",
+      "price": 0.4035,
+      "shares": 235272.122233,
+      "value": 94933.01,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-10-28",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2022-11-04",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 15863.7,
+      "value": 72321.25,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-11-04",
+      "action": "SELL",
+      "ticker": "ETH",
+      "price": 1098.32,
+      "value": 66432.43,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-11-04",
+      "action": "SELL",
+      "ticker": "SOL",
+      "price": 13.99,
+      "value": 41746.49,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-11-04",
+      "action": "SELL",
+      "ticker": "ADA",
+      "price": 0.3162,
+      "value": 75318.14,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-11-04",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.3326,
+      "value": 67878.56,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-11-11",
+      "action": "BUY",
+      "ticker": "PAXG",
+      "price": 1767.99,
+      "shares": 183.087502,
+      "value": 323696.87,
+      "weight": 100.0,
+      "reason": "BTC gate SELL, PAXG BUY"
+    },
+    {
+      "date": "2022-11-18",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2022-11-25",
+      "action": "SELL",
+      "ticker": "PAXG",
+      "price": 1762.46,
+      "value": 322684.4,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-11-25",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 17166.9,
+      "shares": 6.265631,
+      "value": 107561.47,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-11-25",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 1294.37,
+      "shares": 83.099474,
+      "value": 107561.47,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-11-25",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.4079,
+      "shares": 263721.538145,
+      "value": 107561.47,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-12-02",
+      "action": "HOLD",
+      "note": "No changes \u2014 3 assets"
+    },
+    {
+      "date": "2022-12-09",
+      "action": "HOLD",
+      "note": "No changes \u2014 3 assets"
+    },
+    {
+      "date": "2022-12-16",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.3447,
+      "value": 95862.43,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-12-23",
+      "action": "SELL",
+      "ticker": "ETH",
+      "price": 1189.29,
+      "value": 145456.52,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2022-12-30",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 1256.32,
+      "shares": 78.735425,
+      "value": 98916.89,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2022-12-30",
+      "action": "BUY",
+      "ticker": "SOL",
+      "price": 13.44,
+      "shares": 7359.8876,
+      "value": 98916.89,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2023-01-06",
+      "action": "SELL",
+      "ticker": "SOL",
+      "price": 0,
+      "value": 0.0,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2023-01-06",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.3729,
+      "shares": 115155.035754,
+      "value": 42942.46,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2023-01-06",
+      "action": "BUY",
+      "ticker": "DOGE",
+      "price": 0.0781,
+      "shares": 549518.647025,
+      "value": 42942.46,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2023-01-06",
+      "action": "BUY",
+      "ticker": "ADA",
+      "price": 0.323,
+      "shares": 132967.742722,
+      "value": 42942.46,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2023-01-13",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2023-01-20",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2023-01-27",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2023-02-03",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2023-02-10",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2023-02-17",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2023-02-24",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.3835,
+      "value": 49071.21,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2023-02-24",
+      "action": "SELL",
+      "ticker": "DOGE",
+      "price": 0.082,
+      "value": 48467.15,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2023-03-03",
+      "action": "SELL",
+      "ticker": "ETH",
+      "price": 1532.26,
+      "value": 75139.7,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2023-03-03",
+      "action": "SELL",
+      "ticker": "ADA",
+      "price": 0.3177,
+      "value": 72002.6,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2023-03-03",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.389,
+      "shares": 285500.734154,
+      "value": 111056.93,
+      "weight": 50.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2023-03-10",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.3604,
+      "value": 102888.75,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2023-03-10",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 1656.38,
+      "shares": 68.712727,
+      "value": 113814.39,
+      "weight": 50.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2023-03-17",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.4222,
+      "shares": 146189.845484,
+      "value": 61718.43,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2023-03-17",
+      "action": "BUY",
+      "ticker": "ADA",
+      "price": 0.3603,
+      "shares": 171313.974342,
+      "value": 61718.43,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2023-03-24",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2023-03-31",
+      "action": "BUY",
+      "ticker": "DOGE",
+      "price": 0.0927,
+      "shares": 590696.693433,
+      "value": 54771.64,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2023-04-07",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2023-04-14",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2023-04-21",
+      "action": "SELL",
+      "ticker": "DOGE",
+      "price": 0.0786,
+      "value": 49157.04,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2023-04-28",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2023-05-05",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 27617.8,
+      "value": 62533.65,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2023-05-05",
+      "action": "SELL",
+      "ticker": "ETH",
+      "price": 1842.0,
+      "value": 63564.66,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2023-05-05",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.4305,
+      "value": 61102.27,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2023-05-05",
+      "action": "SELL",
+      "ticker": "ADA",
+      "price": 0.3708,
+      "value": 61887.95,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2023-05-05",
+      "action": "BUY",
+      "ticker": "PAXG",
+      "price": 2041.79,
+      "shares": 121.995172,
+      "value": 249088.52,
+      "weight": 100.0,
+      "reason": "BTC gate SELL, PAXG BUY"
+    },
+    {
+      "date": "2023-05-12",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2023-05-19",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2023-05-26",
+      "action": "SELL",
+      "ticker": "PAXG",
+      "price": 1972.0,
+      "value": 240574.48,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2023-06-02",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2023-06-09",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2023-06-16",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2023-06-23",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 30088.1,
+      "shares": 7.995669,
+      "value": 240574.48,
+      "weight": 100.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2023-06-30",
+      "action": "HOLD",
+      "note": "No changes \u2014 1 assets"
+    },
+    {
+      "date": "2023-07-07",
+      "action": "HOLD",
+      "note": "No changes \u2014 1 assets"
+    },
+    {
+      "date": "2023-07-14",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.82,
+      "shares": 145836.122058,
+      "value": 119585.62,
+      "weight": 50.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2023-07-21",
+      "action": "BUY",
+      "ticker": "DOGE",
+      "price": 0.0779,
+      "shares": 948430.380188,
+      "value": 73917.34,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2023-07-28",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 29152.3,
+      "value": 73454.23,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2023-07-28",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.6842,
+      "value": 70599.96,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2023-07-28",
+      "action": "SELL",
+      "ticker": "DOGE",
+      "price": 0.0742,
+      "value": 70351.44,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2023-08-04",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2023-08-11",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2023-08-18",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2023-08-25",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2023-09-01",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2023-09-08",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2023-09-15",
+      "action": "BUY",
+      "ticker": "PAXG",
+      "price": 1922.54,
+      "shares": 111.522061,
+      "value": 214405.62,
+      "weight": 100.0,
+      "reason": "BTC gate SELL, PAXG BUY"
+    },
+    {
+      "date": "2023-09-22",
+      "action": "SELL",
+      "ticker": "PAXG",
+      "price": 1882.0,
+      "value": 209884.52,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2023-09-29",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 27800.0,
+      "shares": 7.549803,
+      "value": 209884.52,
+      "weight": 100.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2023-10-06",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 26868.2,
+      "value": 202849.61,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2023-10-13",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 28335.1,
+      "shares": 7.158952,
+      "value": 202849.61,
+      "weight": 100.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2023-10-20",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.5554,
+      "shares": 111141.307189,
+      "value": 61727.88,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2023-10-20",
+      "action": "BUY",
+      "ticker": "DOGE",
+      "price": 0.0684,
+      "shares": 902987.759036,
+      "value": 61727.88,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2023-10-20",
+      "action": "BUY",
+      "ticker": "ADA",
+      "price": 0.2807,
+      "shares": 219871.705685,
+      "value": 61727.88,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2023-10-27",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 1847.43,
+      "shares": 28.244363,
+      "value": 52179.48,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2023-11-03",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2023-11-10",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2023-11-17",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2023-11-24",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2023-12-01",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2023-12-08",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2023-12-15",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2023-12-22",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2023-12-29",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.5825,
+      "value": 66387.12,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2023-12-29",
+      "action": "SELL",
+      "ticker": "DOGE",
+      "price": 0.082,
+      "value": 63473.15,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2024-01-05",
+      "action": "BUY",
+      "ticker": "SOL",
+      "price": 102.04,
+      "shares": 887.173221,
+      "value": 90527.16,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2024-01-12",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2024-01-19",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2024-01-26",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2024-02-02",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2024-02-09",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2024-02-16",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2024-02-23",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.5756,
+      "shares": 155293.283456,
+      "value": 89389.92,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2024-03-01",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2024-03-08",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2024-03-15",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2024-03-22",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2024-03-29",
+      "action": "SELL",
+      "ticker": "ADA",
+      "price": 0.5694,
+      "value": 90890.07,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2024-04-05",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2024-04-12",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.4951,
+      "value": 101304.5,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2024-04-19",
+      "action": "SELL",
+      "ticker": "ETH",
+      "price": 3138.84,
+      "value": 144949.98,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2024-04-26",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 58272.2,
+      "value": 201137.54,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2024-04-26",
+      "action": "SELL",
+      "ticker": "SOL",
+      "price": 134.51,
+      "value": 202082.45,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2024-04-26",
+      "action": "BUY",
+      "ticker": "PAXG",
+      "price": 2304.0,
+      "shares": 175.008679,
+      "value": 403220.0,
+      "weight": 100.0,
+      "reason": "BTC gate SELL, PAXG BUY"
+    },
+    {
+      "date": "2024-05-03",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2024-05-10",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2024-05-17",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2024-05-24",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2024-05-31",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2024-06-07",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2024-06-14",
+      "action": "SELL",
+      "ticker": "PAXG",
+      "price": 2320.27,
+      "value": 406067.39,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2024-06-21",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2024-06-28",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2024-07-05",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2024-07-12",
+      "action": "BUY",
+      "ticker": "PAXG",
+      "price": 2437.78,
+      "shares": 166.572614,
+      "value": 406067.39,
+      "weight": 100.0,
+      "reason": "BTC gate SELL, PAXG BUY"
+    },
+    {
+      "date": "2024-07-19",
+      "action": "SELL",
+      "ticker": "PAXG",
+      "price": 2387.3,
+      "value": 397658.8,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2024-07-26",
+      "action": "BUY",
+      "ticker": "PAXG",
+      "price": 2434.2,
+      "shares": 163.363241,
+      "value": 397658.8,
+      "weight": 100.0,
+      "reason": "BTC gate SELL, PAXG BUY"
+    },
+    {
+      "date": "2024-08-02",
+      "action": "SELL",
+      "ticker": "PAXG",
+      "price": 2372.75,
+      "value": 387620.13,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2024-08-09",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2024-08-16",
+      "action": "BUY",
+      "ticker": "PAXG",
+      "price": 2499.72,
+      "shares": 155.065419,
+      "value": 387620.13,
+      "weight": 100.0,
+      "reason": "BTC gate SELL, PAXG BUY"
+    },
+    {
+      "date": "2024-08-23",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2024-08-30",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2024-09-06",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2024-09-13",
+      "action": "SELL",
+      "ticker": "PAXG",
+      "price": 2577.18,
+      "value": 399631.5,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2024-09-13",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 61777.7,
+      "shares": 3.234432,
+      "value": 199815.75,
+      "weight": 50.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2024-09-13",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.5855,
+      "shares": 341297.012302,
+      "value": 199815.75,
+      "weight": 50.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2024-09-20",
+      "action": "BUY",
+      "ticker": "SOL",
+      "price": 148.06,
+      "shares": 907.853107,
+      "value": 134416.73,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2024-09-27",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 60635.3,
+      "value": 129086.19,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2024-09-27",
+      "action": "SELL",
+      "ticker": "SOL",
+      "price": 140.15,
+      "value": 127235.61,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2024-09-27",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 0.5384,
+      "value": 124095.07,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2024-09-27",
+      "action": "BUY",
+      "ticker": "PAXG",
+      "price": 2675.92,
+      "shares": 142.163021,
+      "value": 380416.87,
+      "weight": 100.0,
+      "reason": "BTC gate SELL, PAXG BUY"
+    },
+    {
+      "date": "2024-10-04",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2024-10-11",
+      "action": "SELL",
+      "ticker": "PAXG",
+      "price": 2675.41,
+      "value": 380344.37,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2024-10-11",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 67589.9,
+      "shares": 1.406809,
+      "value": 95086.09,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2024-10-11",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 2610.42,
+      "shares": 36.425591,
+      "value": 95086.09,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2024-10-11",
+      "action": "BUY",
+      "ticker": "SOL",
+      "price": 154.14,
+      "shares": 616.881355,
+      "value": 95086.09,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2024-10-11",
+      "action": "BUY",
+      "ticker": "ADA",
+      "price": 0.352,
+      "shares": 270130.175963,
+      "value": 95086.09,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2024-10-18",
+      "action": "SELL",
+      "ticker": "ETH",
+      "price": 2523.56,
+      "value": 91922.17,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2024-10-25",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 2656.19,
+      "shares": 37.788409,
+      "value": 100373.2,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2024-11-01",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2024-11-08",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 0.6909,
+      "shares": 154663.486115,
+      "value": 106864.74,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2024-11-15",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2024-11-22",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2024-11-29",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2024-12-06",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2024-12-13",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2024-12-20",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2024-12-27",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2025-01-03",
+      "action": "SELL",
+      "ticker": "SOL",
+      "price": 197.48,
+      "value": 158687.02,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2025-01-03",
+      "action": "SELL",
+      "ticker": "ADA",
+      "price": 0,
+      "value": 0.0,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2025-01-03",
+      "action": "BUY",
+      "ticker": "DOGE",
+      "price": 0.3421,
+      "shares": 459531.961475,
+      "value": 157221.42,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2025-01-10",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2025-01-17",
+      "action": "BUY",
+      "ticker": "SOL",
+      "price": 257.5,
+      "shares": 544.077566,
+      "value": 140099.97,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2025-01-24",
+      "action": "SELL",
+      "ticker": "ETH",
+      "price": 3113.22,
+      "value": 134644.93,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2025-01-24",
+      "action": "SELL",
+      "ticker": "DOGE",
+      "price": 0.3238,
+      "value": 125141.43,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2025-01-31",
+      "action": "SELL",
+      "ticker": "SOL",
+      "price": 195.94,
+      "value": 188889.13,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2025-02-07",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 97874.0,
+      "value": 285744.62,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2025-02-07",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 2.4732,
+      "value": 293066.35,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2025-02-07",
+      "action": "BUY",
+      "ticker": "PAXG",
+      "price": 2924.77,
+      "shares": 197.899654,
+      "value": 578810.97,
+      "weight": 100.0,
+      "reason": "BTC gate SELL, PAXG BUY"
+    },
+    {
+      "date": "2025-02-14",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-02-21",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-02-28",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-03-07",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-03-14",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-03-21",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-03-28",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-04-04",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-04-11",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-04-18",
+      "action": "SELL",
+      "ticker": "PAXG",
+      "price": 3336.75,
+      "value": 660341.67,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2025-04-18",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 93677.0,
+      "shares": 3.524567,
+      "value": 330170.83,
+      "weight": 50.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2025-04-18",
+      "action": "BUY",
+      "ticker": "SOL",
+      "price": 151.2,
+      "shares": 2183.669542,
+      "value": 330170.83,
+      "weight": 50.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2025-04-25",
+      "action": "HOLD",
+      "note": "No changes \u2014 2 assets"
+    },
+    {
+      "date": "2025-05-02",
+      "action": "HOLD",
+      "note": "No changes \u2014 2 assets"
+    },
+    {
+      "date": "2025-05-09",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 2610.35,
+      "shares": 57.614322,
+      "value": 150393.55,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2025-05-09",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 2.5524,
+      "shares": 58922.173829,
+      "value": 150393.55,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2025-05-09",
+      "action": "BUY",
+      "ticker": "DOGE",
+      "price": 0.2326,
+      "shares": 646519.994203,
+      "value": 150393.55,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2025-05-16",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 2.3964,
+      "value": 141201.69,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2025-05-23",
+      "action": "HOLD",
+      "note": "No changes \u2014 4 assets"
+    },
+    {
+      "date": "2025-05-30",
+      "action": "SELL",
+      "ticker": "DOGE",
+      "price": 0.1881,
+      "value": 157855.73,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2025-06-06",
+      "action": "HOLD",
+      "note": "No changes \u2014 3 assets"
+    },
+    {
+      "date": "2025-06-13",
+      "action": "HOLD",
+      "note": "No changes \u2014 3 assets"
+    },
+    {
+      "date": "2025-06-20",
+      "action": "HOLD",
+      "note": "No changes \u2014 3 assets"
+    },
+    {
+      "date": "2025-06-27",
+      "action": "HOLD",
+      "note": "No changes \u2014 3 assets"
+    },
+    {
+      "date": "2025-07-04",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 2.4048,
+      "shares": 74611.898505,
+      "value": 179423.71,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2025-07-11",
+      "action": "BUY",
+      "ticker": "DOGE",
+      "price": 0.2126,
+      "shares": 785756.440493,
+      "value": 167028.72,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2025-07-18",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2025-07-25",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2025-08-01",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2025-08-08",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2025-08-15",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2025-08-22",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 111268.6,
+      "value": 173563.47,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2025-08-22",
+      "action": "SELL",
+      "ticker": "ETH",
+      "price": 4506.04,
+      "value": 185266.6,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2025-08-22",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 2.9682,
+      "value": 179254.49,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2025-08-22",
+      "action": "SELL",
+      "ticker": "SOL",
+      "price": 202.91,
+      "value": 192471.69,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2025-08-22",
+      "action": "SELL",
+      "ticker": "DOGE",
+      "price": 0.2188,
+      "value": 176047.24,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2025-08-29",
+      "action": "BUY",
+      "ticker": "PAXG",
+      "price": 3577.43,
+      "shares": 253.423126,
+      "value": 906603.49,
+      "weight": 100.0,
+      "reason": "BTC gate SELL, PAXG BUY"
+    },
+    {
+      "date": "2025-09-05",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-09-12",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-09-19",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-09-26",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-10-03",
+      "action": "SELL",
+      "ticker": "PAXG",
+      "price": 4036.0,
+      "value": 1022815.74,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2025-10-03",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 123329.7,
+      "shares": 2.073336,
+      "value": 255703.93,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2025-10-03",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 4526.57,
+      "shares": 56.489557,
+      "value": 255703.93,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2025-10-03",
+      "action": "BUY",
+      "ticker": "SOL",
+      "price": 229.04,
+      "shares": 1116.416059,
+      "value": 255703.93,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2025-10-03",
+      "action": "BUY",
+      "ticker": "DOGE",
+      "price": 0.2555,
+      "shares": 1000609.41189,
+      "value": 255703.93,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2025-10-10",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 110781.9,
+      "value": 229688.13,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2025-10-10",
+      "action": "SELL",
+      "ticker": "ETH",
+      "price": 3987.78,
+      "value": 225267.93,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2025-10-10",
+      "action": "SELL",
+      "ticker": "SOL",
+      "price": 193.95,
+      "value": 216528.89,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2025-10-10",
+      "action": "SELL",
+      "ticker": "DOGE",
+      "price": 0.1963,
+      "value": 196429.63,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2025-10-10",
+      "action": "BUY",
+      "ticker": "PAXG",
+      "price": 4243.92,
+      "shares": 204.507762,
+      "value": 867914.58,
+      "weight": 100.0,
+      "reason": "BTC gate SELL, PAXG BUY"
+    },
+    {
+      "date": "2025-10-17",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-10-24",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-10-31",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-11-07",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-11-14",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-11-21",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-11-28",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-12-05",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-12-12",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-12-19",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2025-12-26",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2026-01-02",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2026-01-09",
+      "action": "SELL",
+      "ticker": "PAXG",
+      "price": 4628.2,
+      "value": 946502.82,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2026-01-09",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 96933.3,
+      "shares": 3.254825,
+      "value": 315500.94,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2026-01-09",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 3354.58,
+      "shares": 94.050802,
+      "value": 315500.94,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2026-01-09",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 2.1388,
+      "shares": 147514.443198,
+      "value": 315500.94,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "date": "2026-01-16",
+      "action": "SELL",
+      "ticker": "BTC",
+      "price": 89372.9,
+      "value": 290893.16,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2026-01-16",
+      "action": "SELL",
+      "ticker": "ETH",
+      "price": 2979.9,
+      "value": 280261.99,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2026-01-16",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 1.9461,
+      "value": 287079.33,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2026-01-16",
+      "action": "BUY",
+      "ticker": "PAXG",
+      "price": 4796.99,
+      "shares": 178.911042,
+      "value": 858234.48,
+      "weight": 100.0,
+      "reason": "BTC gate SELL, PAXG BUY"
+    },
+    {
+      "date": "2026-01-23",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2026-01-30",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2026-02-06",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2026-02-13",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2026-02-20",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2026-02-27",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2026-03-06",
+      "action": "HOLD",
+      "note": "No changes \u2014 PAXG defensive"
+    },
+    {
+      "date": "2026-03-13",
+      "action": "SELL",
+      "ticker": "PAXG",
+      "price": 4829.79,
+      "value": 864102.76,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2026-03-20",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2026-03-27",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2026-04-03",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2026-04-10",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 74810.1,
+      "shares": 5.775308,
+      "value": 432051.38,
+      "weight": 50.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2026-04-10",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 2360.32,
+      "shares": 183.047799,
+      "value": 432051.38,
+      "weight": 50.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2026-04-17",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 1.4296,
+      "shares": 124005.871652,
+      "value": 177276.31,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2026-04-17",
+      "action": "BUY",
+      "ticker": "SOL",
+      "price": 86.93,
+      "shares": 2039.299597,
+      "value": 177276.31,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2026-04-17",
+      "action": "BUY",
+      "ticker": "DOGE",
+      "price": 0.0957,
+      "shares": 1853267.214493,
+      "value": 177276.31,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2026-04-24",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 1.3745,
+      "value": 170452.27,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2026-04-24",
+      "action": "SELL",
+      "ticker": "SOL",
+      "price": 83.48,
+      "value": 170240.73,
+      "reason": "Signal SELL or universe exit"
+    }
+  ],
+  "current_signals": {
+    "BTC": "BUY",
+    "ETH": "BUY",
+    "XRP": "SELL",
+    "SOL": "SELL",
+    "DOGE": "BUY",
+    "PAXG": "SELL"
+  }
+}
