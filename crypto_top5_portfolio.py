@@ -278,11 +278,15 @@ def run_backtest(price_data):
     arr    = np.array(weekly_rets[1:])
     sharpe = float(np.mean(arr)/np.std(arr)*np.sqrt(52)) if np.std(arr)>0 else 0
 
-    peak, max_dd = STARTING_CAPITAL, 0.0
+    # Drawdown: start peak from first actual equity value, not starting capital
+    # This avoids false peaks during EMA warmup period
+    peak   = eq_vals[0] if eq_vals else STARTING_CAPITAL
+    max_dd = 0.0
     for v in eq_vals:
         if v > peak: peak = v
-        dd = (peak-v)/peak*100
-        if dd > max_dd: max_dd = dd
+        if peak > 0:
+            dd = (peak - v) / peak * 100
+            if dd > max_dd: max_dd = dd
 
     # BTC B&H benchmark
     btc_bah = None
