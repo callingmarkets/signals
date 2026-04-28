@@ -1,0 +1,30 @@
+name: Crypto Top5 Portfolio
+
+on:
+  workflow_run:
+    workflows: ["Crypto Rotation Portfolio"]
+    types: [completed]
+  schedule:
+    - cron: '0 11 1 * *'
+  workflow_dispatch:
+
+jobs:
+  update-portfolio:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' || github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install requests pandas numpy
+      - name: Run Top5 Crypto + PAXG Backtest
+        run: python crypto_top5_portfolio.py
+      - name: Commit results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add portfolios.json crypto_top5_result.json
+          git diff --cached --quiet || git commit -m "chore: update crypto top5 portfolio [skip ci]"
+          git push
