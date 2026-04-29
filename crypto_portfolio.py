@@ -345,6 +345,24 @@ def run_backtest(price_data):
         past = btc[btc.index <= cutoff]
         return round((float(btc.iloc[-1])/float(past.iloc[-1])-1)*100, 2) if not past.empty else None
 
+    # Build real BTC B&H equity curve — $100K invested in BTC from start date
+    btc_eq_curve = []
+    if "BTC" in price_data and btc_s is not None:
+        btc_prices = price_data["BTC"]
+        btc_start_price = float(btc_s.iloc[0])
+        for e in equity_curve:
+            try:
+                ts   = pd.Timestamp(e["date"]).tz_localize("UTC")
+                mask = btc_prices.index <= ts
+                if mask.any():
+                    btc_price = float(btc_prices[mask].iloc[-1])
+                    btc_eq_curve.append({
+                        "date":  e["date"],
+                        "value": round(100000 * btc_price / btc_start_price, 2)
+                    })
+            except Exception:
+                pass
+
     return holdings, {
         "total_return_pct":   round(total_r, 2),
         "cagr_pct":           round(cagr, 2),
@@ -355,13 +373,7 @@ def run_backtest(price_data):
         "total_return_dollar": round(final - STARTING_CAPITAL, 2),
         "btc_bah_pct":        btc_bah,
         # Real BTC weekly equity curve — $100K invested in BTC from start date
-        "btc_equity_curve":   (lambda btc: [
-            {"date": e["date"], "value": round(100000 * float(btc[btc.index <= pd.Timestamp(e["date"]).tz_localize("UTC")].iloc[-1]) / float(btc_s.iloc[0]), 2)}
-            for e in equity_curve
-            if btc[btc.index <= pd.Timestamp(e["date"]).tz_localize("UTC")].shape[0] > 0
-        ] if "BTC" in price_data and btc_s is not None else [])(
-            price_data.get("BTC", pd.Series(dtype=float))
-        ),
+        "btc_equity_curve":   btc_eq_curve,
         "n_weeks":            n_weeks,
         "n_buy_stocks":       len(buy),
         "n_universe":         len(universe_now),
