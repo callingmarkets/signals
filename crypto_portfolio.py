@@ -290,6 +290,7 @@ def run_backtest(price_data):
 
     # BTC B&H benchmark
     btc_bah = None
+    btc_s   = None
     if "BTC" in price_data:
         btc = price_data["BTC"]
         mask = btc.index >= pd.Timestamp("2018-01-05", tz="UTC")
@@ -353,6 +354,14 @@ def run_backtest(price_data):
         "current_value":      round(final, 2),
         "total_return_dollar": round(final - STARTING_CAPITAL, 2),
         "btc_bah_pct":        btc_bah,
+        # Real BTC weekly equity curve — $100K invested in BTC from start date
+        "btc_equity_curve":   (lambda btc: [
+            {"date": e["date"], "value": round(100000 * float(btc[btc.index <= pd.Timestamp(e["date"]).tz_localize("UTC")].iloc[-1]) / float(btc_s.iloc[0]), 2)}
+            for e in equity_curve
+            if btc[btc.index <= pd.Timestamp(e["date"]).tz_localize("UTC")].shape[0] > 0
+        ] if "BTC" in price_data and btc_s is not None else [])(
+            price_data.get("BTC", pd.Series(dtype=float))
+        ),
         "n_weeks":            n_weeks,
         "n_buy_stocks":       len(buy),
         "n_universe":         len(universe_now),
