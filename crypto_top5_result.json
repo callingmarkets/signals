@@ -5,7 +5,7 @@
   "max_drawdown_pct": 73.9,
   "final_value": 744500.4,
   "current_value": 744500.4,
-  "btc_bah_pct": 292.08,
+  "btc_bah_pct": 290.62,
   "n_weeks": 443,
   "n_weeks_crypto": 230,
   "n_weeks_paxg": 90,
@@ -9316,9 +9316,9 @@
   "return_3y": 205.26,
   "return_5y": 52.03,
   "return_10y": null,
-  "bah_return_1y": -46.19,
-  "bah_return_3y": 92.01,
-  "bah_return_5y": 72.84,
-  "bah_return_10y": 8549.7,
+  "bah_return_1y": -46.39,
+  "bah_return_3y": 91.29,
+  "bah_return_5y": 72.2,
+  "bah_return_10y": 8517.63,
   "current_holdings": []
 }
