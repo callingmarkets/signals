@@ -1,15 +1,15 @@
 {
-  "total_return_pct": 715.54,
-  "cagr_pct": 28.22,
-  "sharpe_ratio": 0.71,
+  "total_return_pct": 644.5,
+  "cagr_pct": 26.57,
+  "sharpe_ratio": 0.69,
   "max_drawdown_pct": 73.9,
-  "final_value": 815540.24,
-  "current_value": 815540.24,
-  "btc_bah_pct": 376.04,
-  "n_weeks": 439,
+  "final_value": 744500.4,
+  "current_value": 744500.4,
+  "btc_bah_pct": 292.08,
+  "n_weeks": 443,
   "n_weeks_crypto": 230,
   "n_weeks_paxg": 90,
-  "n_weeks_usdt": 119,
+  "n_weeks_usdt": 123,
   "equity_curve": [
     {
       "date": "2018-01-05",
@@ -5065,7 +5065,43 @@
     },
     {
       "date": "2026-05-29",
-      "value": 815540.24,
+      "value": 744500.4,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2026-06-05",
+      "value": 744500.4,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2026-06-12",
+      "value": 744500.4,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2026-06-19",
+      "value": 744500.4,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2026-06-26",
+      "value": 744500.4,
       "btc_signal": "SELL",
       "paxg_signal": "SELL",
       "defensive": null,
@@ -9230,39 +9266,59 @@
       "date": "2026-05-29",
       "action": "SELL",
       "ticker": "BTC",
-      "price": 71108.4,
-      "value": 402158.8,
+      "price": 64035.8,
+      "value": 362159.19,
       "reason": "Signal SELL or universe exit"
     },
     {
       "date": "2026-05-29",
       "action": "SELL",
       "ticker": "DOGE",
-      "price": 0.0987,
-      "value": 413381.43,
+      "price": 0.0913,
+      "value": 382341.21,
       "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2026-06-05",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2026-06-12",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2026-06-19",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2026-06-26",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
     }
   ],
   "current_signals": {
     "BTC": "SELL",
     "ETH": "SELL",
     "XRP": "SELL",
-    "SOL": "SELL",
-    "DOGE": "BUY",
+    "SOL": "BUY",
+    "DOGE": "SELL",
     "PAXG": "SELL"
   },
-  "total_return_dollar": 715540.24,
+  "total_return_dollar": 644500.4,
   "n_buy_stocks": 1,
   "n_universe": 5,
   "starting_capital": 100000.0,
   "timeframe": "weekly",
-  "return_1y": 19.47,
-  "return_3y": 239.0,
-  "return_5y": 57.87,
+  "return_1y": 8.28,
+  "return_3y": 205.26,
+  "return_5y": 52.03,
   "return_10y": null,
-  "bah_return_1y": -32.11,
-  "bah_return_3y": 169.84,
-  "bah_return_5y": 89.29,
-  "bah_return_10y": 12120.04,
+  "bah_return_1y": -46.19,
+  "bah_return_3y": 92.01,
+  "bah_return_5y": 72.84,
+  "bah_return_10y": 8549.7,
   "current_holdings": []
 }
