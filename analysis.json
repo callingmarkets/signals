@@ -1,19 +1,19 @@
 {
-  "generated": "2026-06-29T15:50:43.141248Z",
-  "week_of": "June 29, 2026",
+  "generated": "2026-07-06T15:35:51.579241Z",
+  "week_of": "July 06, 2026",
   "bias_method": "sector_etf",
-  "post_url": "https://callingmarkets.ai/weekly-market-analysis-june-29-2026-broad-market-bullish/",
+  "post_url": "https://callingmarkets.ai/weekly-market-analysis-july-6-2026-biotech-staples-bullish-energy-bearish/",
   "takeaways": [
-    "Rotate into broad market ETFs and consumer staples as bullish momentum supports defensive growth positioning.",
-    "Accumulate quality financials and healthcare names on dips while institutional buying builds steady bases.",
-    "Reduce semiconductor exposure as distribution signals potential near-term weakness despite tech sector strength.",
-    "Avoid AI, robotics, and biotech sectors as bearish sentiment indicates continued downside pressure ahead.",
-    "Trim crypto and commodities positions immediately as bearish conditions suggest capital preservation over speculation."
+    "Overweight biotech and healthcare positions as bullish sector bias signals strong near-term upside potential.",
+    "Accumulate technology and fintech names on pullbacks while the sector builds a constructive base.",
+    "Reduce exposure to energy and communications stocks facing bearish headwinds this week.",
+    "Avoid adding to crypto and volatility positions as distribution patterns suggest continued weakness ahead.",
+    "Rotate fixed income holdings into consumer staples and financials for better risk-adjusted returns."
   ],
   "sectors": [
     {
       "sector": "AI & Robotics",
-      "bias": "Bearish",
+      "bias": "Distribution",
       "bias_etf": "BOTZ",
       "bias_method": "etf",
       "tickers": [
@@ -36,21 +36,21 @@
         "QBTS"
       ],
       "etf_signals": {
-        "daily": "SELL",
-        "weekly": "ERR",
-        "monthly": "ERR"
+        "daily": "BUY",
+        "weekly": "SELL",
+        "monthly": "BUY"
       },
       "signals": {
-        "daily_buy": 1,
-        "weekly_buy": 1,
-        "monthly_buy": 1,
+        "daily_buy": 11,
+        "weekly_buy": 7,
+        "monthly_buy": 7,
         "total": 17
       },
-      "synopsis": "**AI & Robotics: Bearish Pressure Intensifies Amid Signal Chaos**\n\nThe sector tilts decidedly bearish this week as BOTZ flashes a daily sell signal while the broader tape drowns in error readings across timeframes\u2014a technical fog that typically precedes directional resolution, and rarely to the upside. Individual names paint an equally grim picture: NVDA carries a weekly sell, MSFT and AI show monthly sells, while META and SOUN trigger daily exits. The lone bright spot is CFLT with a weekly buy signal, diverging sharply from the pack and warranting close attention for sector rotation plays.\n\nFundamental crosscurrents offer little clarity. NVIDIA garners headlines for powering France's AI ambitions, yet the stock can't catch a bid domestically. Mark Cuban's broadside urging AI companies to prioritize people over data centers hints at growing political headwinds. Watch NVDA for breakdown confirmation, CFLT for relative strength continuation, and PATH as its weekly sell meets monthly void."
+      "synopsis": "**AI & Robotics: Distribution Pressure Mounts Amid Philosophical Rifts**\n\nThe sector shows clear distribution bias as weekly selling overwhelms daily bounce attempts. A notable divergence emerges between BOTZ's monthly bullish stance and the broad weekly deterioration across heavyweights\u2014NVDA and ROBO both flash daily and weekly sell signals despite maintaining monthly uptrends, suggesting institutional rotation rather than outright capitulation. Meanwhile, MSFT stands apart with daily and weekly buy alignment, hinting at relative strength worth monitoring.\n\nIndustry tension surfaced as Palantir's Alex Karp publicly torched OpenAI and Anthropic's token-based approach, declaring \"something has gone completely wrong\"\u2014a shot across the bow that underscores deepening fractures in AI monetization strategies. Chamath's $135 million 8090 raise signals fresh capital still chasing the space despite distribution signals. Watch PATH and CFLT for continuation strength given their clean daily-weekly buy alignment, while NVDA bears watching for potential monthly trend breakdown if weekly selling persists."
     },
     {
       "sector": "Biotech",
-      "bias": "Bearish",
+      "bias": "Bullish",
       "bias_etf": "XBI",
       "bias_method": "etf",
       "tickers": [
@@ -72,16 +72,16 @@
       ],
       "etf_signals": {
         "daily": "BUY",
-        "weekly": "ERR",
-        "monthly": "ERR"
+        "weekly": "BUY",
+        "monthly": "BUY"
       },
       "signals": {
-        "daily_buy": 4,
-        "weekly_buy": 5,
-        "monthly_buy": 4,
+        "daily_buy": 15,
+        "weekly_buy": 14,
+        "monthly_buy": 11,
         "total": 15
       },
-      "synopsis": "**Biotech: Bearish Bias Persists Despite Scattered Buy Signals**\n\nThe sector maintains a bearish stance heading into month-end, though the signal landscape reveals notable fragmentation. XBI flashes a daily buy against weekly and monthly errors, suggesting any bounce remains tactical rather than structural. Individual names tell a similar story of confusion\u2014VRTX stands out with weekly and monthly buy signals intact, while MRNA and AMGN show monthly buy triggers that conflict with shorter-term weakness. This divergence between the ETF and single-stock signals typically precedes continued chop rather than directional resolution.\n\nWith no meaningful headlines driving price action, biotech trades on technicals and rotation flows alone. Watch VRTX for relative strength leadership if bulls attempt a stand, and monitor REGN's daily buy signal for potential short-term momentum. BNTX, showing errors across all timeframes, reflects the sector's broader indecision and remains vulnerable to further downside."
+      "synopsis": "**Biotech Sector: Bullish Momentum Builds Across Multiple Timeframes**\n\nThe biotech sector flashes a decisive bullish bias this week, with the XBI ETF delivering a clean sweep of buy signals across daily, weekly, and monthly charts. This broad-based strength reflects renewed institutional appetite for the space, though individual names reveal subtle fractures beneath the surface. BNTX and GILD both show monthly sell signals despite near-term strength, suggesting lingering overhead resistance from prior distribution, while REGN carries weekly and monthly sells that warrant caution for swing traders.\n\nThe absence of headline catalysts this week makes the technical alignment all the more notable\u2014this is positioning-driven buying rather than news-chasing. MRNA and VRTX stand out with triple-timeframe buy signals and cleaner structural setups, making them primary watch-list candidates. ILMN also merits attention as genomics momentum rebuilds. Traders should respect the sector's bullish tilt while monitoring REGN and BNTX for potential laggard-to-leader rotations."
     },
     {
       "sector": "Broad Market",
@@ -102,21 +102,21 @@
         "ITOT"
       ],
       "etf_signals": {
-        "daily": "SELL",
+        "daily": "BUY",
         "weekly": "BUY",
         "monthly": "BUY"
       },
       "signals": {
-        "daily_buy": 3,
+        "daily_buy": 9,
         "weekly_buy": 11,
         "monthly_buy": 11,
         "total": 11
       },
-      "synopsis": "**Broad Market: Bullish Bias Holds Despite Daily Wobbles**\n\nThe broad market maintains its bullish posture with weekly and monthly signals uniformly green across all major ETFs, though daily timeframes flash caution with SPY, QQQ, DIA, and VTI all showing sell signals. This divergence suggests near-term consolidation within a larger uptrend rather than a structural breakdown. Small and mid-caps are outperforming\u2014IWM and MDY register buy signals across all three timeframes, signaling healthy risk appetite and broadening participation beyond mega-cap tech.\n\nJPMorgan's upgraded outlook tempered by flash crash warnings on crowded positioning captures the current mood perfectly: bullish but nervous. Meanwhile, chatter about an AI \"blow-off phase\" before any bubble pop suggests the final leg higher could be violent and profitable for nimble traders. Watch IWM for continued rotation leadership, QQQ for tech's near-term direction, and MDY as the mid-cap bellwether confirming breadth expansion."
+      "synopsis": "**Bullish Momentum Holds Despite Tech Turbulence**\n\nThe broad market maintains a decisively bullish posture heading into mid-July, with SPY flashing buy signals across all timeframes and the equal-weight RSP confirming broad participation beyond mega-cap leadership. Small-caps via IWM show particular strength with aligned buy signals, suggesting risk appetite remains intact despite headline noise. The divergence worth watching sits in QQQ and MDY, both flipping to daily sell signals while holding weekly and monthly bullish reads\u2014a classic short-term pullback within an uptrend rather than structural breakdown.\n\nChipmaker weakness dragged indexes lower mid-week per Barchart reporting, yet signs of economic resilience quickly lifted sentiment, underscoring the market's buy-the-dip reflexes. JPMorgan's fresh strong buy picks signal institutional confidence in the rally's durability. Watch QQQ for a daily signal reversal as the tell for tech's next leg, while IWM and DIA merit attention as rotation beneficiaries if semiconductor pressure persists."
     },
     {
       "sector": "Commodities",
-      "bias": "Bearish",
+      "bias": "Distribution",
       "bias_etf": "PDBC",
       "bias_method": "etf",
       "tickers": [
@@ -140,16 +140,16 @@
       ],
       "etf_signals": {
         "daily": "SELL",
-        "weekly": "ERR",
-        "monthly": "ERR"
+        "weekly": "SELL",
+        "monthly": "BUY"
       },
       "signals": {
-        "daily_buy": 0,
+        "daily_buy": 8,
         "weekly_buy": 1,
-        "monthly_buy": 4,
+        "monthly_buy": 8,
         "total": 17
       },
-      "synopsis": "**Commodities: Bearish Bias Dominates Amid Signal Fragmentation**\n\nThe commodities complex flashes bearish this week, with the PDBC sector ETF posting a daily sell signal while individual components paint a contradictory picture. Gold presents a notable divergence\u2014GLD showing weekly sell pressure while IAU maintains a monthly buy signal, suggesting institutional positioning may be splitting between short-term hedging and longer-term accumulation. Energy names USO and BNO offer little clarity, though natural gas outlier UNG bucks the trend with a weekly buy signal as summer demand narratives build.\n\nThe appearance of open-sourced P/E ratio calculations on Hacker News underscores growing investor frustration with valuation opacity across asset classes\u2014a sentiment bleeding into commodities where pricing models face similar scrutiny. Watch UNG for continued momentum divergence, SLV for resolution between its daily sell and monthly buy conflict, and WEAT as agricultural commodities test support amid harvest uncertainty."
+      "synopsis": "**Commodities: Distribution Dominates Amid Mixed Signals**\n\nThe commodities complex maintains a clear distribution bias as PDBC flashes sell signals across daily and weekly timeframes, with only monthly support providing a floor. A notable divergence emerges between the broad ETF's weakness and pockets of daily strength in precious metals and agriculture\u2014GLD, IAU, PPLT, DBA, CORN, and WEAT all show daily buy signals even as weekly selling pressure persists. This suggests short-term bounces within a broader downtrend rather than genuine accumulation.\n\nEnergy names USO and BNO remain firmly in distribution mode across daily and weekly charts, while natural gas outlier UNG bucks the trend with weekly strength. Without meaningful headlines driving sentiment, technicals rule the tape. Watch GLD for whether daily strength can challenge weekly resistance, UNG for continued momentum divergence from the energy complex, and WEAT as the sole ticker showing alignment on both daily and monthly buy signals."
     },
     {
       "sector": "Communications",
@@ -179,17 +179,17 @@
         "LBRDA"
       ],
       "etf_signals": {
-        "daily": "SELL",
+        "daily": "BUY",
         "weekly": "SELL",
         "monthly": "SELL"
       },
       "signals": {
-        "daily_buy": 11,
-        "weekly_buy": 5,
-        "monthly_buy": 2,
+        "daily_buy": 14,
+        "weekly_buy": 7,
+        "monthly_buy": 4,
         "total": 20
       },
-      "synopsis": "**Communications: Bearish Tide Meets Pockets of Resistance**\n\nThe sector remains firmly bearish with XLC flashing sell signals across all timeframes, dragging legacy media and streaming names lower. Disney, Netflix, and Spotify show no signs of relief with unanimous sell readings, while Meta and Alphabet register errors that suggest technical breakdowns worth monitoring closely. Yet divergence emerges in the gaming and telecom corners\u2014Roblox and Unity both print daily and weekly buy signals, carving out relative strength even as Unity's monthly trend stays negative. Verizon's monthly buy offers a rare longer-term anchor amid the wreckage.\n\nThe SpaceX IPO buzz has thrust satellite communications into the spotlight, drawing attention to the direct-to-phone network race and potential disruption ahead. Watch RBLX for continued momentum, T for a possible weekly reversal setup, and keep GOOGL on the radar once those error signals resolve\u2014clarity there could dictate sector direction into July."
+      "synopsis": "**Communications: Bearish Bias Meets Selective Strength**\n\nThe communications sector maintains a bearish tilt despite a flurry of daily buy signals, with XLC flashing sell on both weekly and monthly timeframes. The divergence between the ETF and individual names tells the real story\u2014streaming and gaming plays like NFLX, SPOT, and RBLX are catching weekly bids while legacy telecom drags the sector lower. T and VZ remain in full capitulation mode across all timeframes, weighed down by European contagion fears as SpaceX disruption concerns hammer continental telecoms according to Financial Post reporting.\n\nThe names to watch are Unity, sporting the rare triple-buy alignment, and GOOGL, where daily strength butts against weekly distribution but monthly structure holds. META's monthly sell keeps it suspect despite the bounce. Until the telecom anchors find footing, sector longs remain a stock-picker's game rather than an ETF trade."
     },
     {
       "sector": "Consumer Discretionary",
@@ -219,17 +219,17 @@
         "GM"
       ],
       "etf_signals": {
-        "daily": "SELL",
+        "daily": "BUY",
         "weekly": "BUY",
         "monthly": "SELL"
       },
       "signals": {
-        "daily_buy": 9,
-        "weekly_buy": 11,
+        "daily_buy": 10,
+        "weekly_buy": 12,
         "monthly_buy": 9,
         "total": 20
       },
-      "synopsis": "**Consumer Discretionary: Accumulation Bias Meets Brutal Crosscurrents**\n\nThe sector carries an accumulation bias, but the tape tells a messier story. XLY flashes weekly buy against daily and monthly sells\u2014a setup demanding patience rather than conviction. Individual names skew heavily negative: TSLA, MCD, and NKE all show triple-timeframe sell signals, while only SBUX delivers clean alignment with buys across daily, weekly, and monthly charts. The divergence between ETF and components suggests rotational churn rather than broad sector strength.\n\nMacro headwinds loom large as the Hang Seng China Enterprises Index approaches bear territory on contracting consumer spending\u2014a direct threat to multinationals with China exposure. Watch SBUX for continuation given its rare triple-buy structure, HD for near-term momentum with daily and weekly buys, and NKE as a potential capitulation candidate if selling pressure exhausts. Selectivity remains paramount here."
+      "synopsis": "**Consumer Discretionary: Accumulation Bias Masks Underlying Fragmentation**\n\nThe sector carries an accumulation bias this week, but the ETF-to-stock divergence tells a more cautious story. XLY flashes daily and weekly buy signals while the monthly remains in sell territory\u2014a setup suggesting near-term strength within a longer-term downtrend. Individual names paint an uneven picture: HD and SBUX stand out with triple-timeframe alignment to the upside, while TSLA and TJX show persistent weakness across all frames. AMZN's mixed signals\u2014daily buy against weekly sell\u2014reflect the push-pull dynamic defining much of this space.\n\nHoliday-shortened trading kept volume thin as retailers stayed open through the July 4 weekend, per Ibtimes coverage. Watch HD for continued momentum given its clean technical setup, and monitor TSLA for any stabilization attempts after sustained selling pressure. LULU warrants attention as daily strength tests weekly and monthly resistance."
     },
     {
       "sector": "Consumer Staples",
@@ -260,12 +260,12 @@
         "monthly": "BUY"
       },
       "signals": {
-        "daily_buy": 12,
-        "weekly_buy": 9,
-        "monthly_buy": 8,
+        "daily_buy": 13,
+        "weekly_buy": 11,
+        "monthly_buy": 10,
         "total": 16
       },
-      "synopsis": "**Consumer Staples: Bullish Bias Holds Despite Retail Drag**\n\nThe sector maintains its bullish stance with XLP flashing buy signals across all timeframes, yet a notable divergence emerges beneath the surface. Retail heavyweights Costco and Walmart are pulling against the tide, posting sell signals on daily, weekly, and monthly charts\u2014a rare unified bearish alignment that warrants attention. This split between the ETF's strength and its largest components suggests defensive rotation may be favoring non-retail staples over big-box names.\n\nTobacco and household products carry the torch this week. Coca-Cola and Colgate-Palmolive remain the cleanest setups with triple-timeframe buy alignment, while Altria mirrors that strength. Watch KO and CL for continuation plays as institutional money seeks yield-oriented defensives. PepsiCo's mixed signals\u2014daily buy against weekly and monthly sells\u2014make it a potential inflection point worth monitoring for directional confirmation in the sessions ahead."
+      "synopsis": "**Consumer Staples: Bullish Bias Holds Despite Retail Drag**\n\nThe sector maintains its bullish stance with XLP flashing buy signals across all timeframes, yet a notable divergence emerges between the ETF and key components. Retail heavyweights Costco and Walmart are both signaling sell across daily, weekly, and monthly charts, suggesting the sector's strength lies elsewhere. The defensive core\u2014Procter & Gamble, Coca-Cola, and Altria\u2014carries the weight with uniform buy signals, reflecting investor appetite for yield and stability.\n\nWithout fresh headlines driving sentiment, technicals dominate the narrative. Watch PG and KO as bellwethers for continued defensive rotation, while COST warrants attention as a potential contrarian setup if broader market risk appetite fades. Philip Morris shows monthly weakness beneath its shorter-term strength, hinting at possible exhaustion ahead. The retail-versus-staples split within XLP demands selective positioning rather than blanket sector exposure."
     },
     {
       "sector": "Crypto",
@@ -295,21 +295,21 @@
         "AAVE/USD"
       ],
       "etf_signals": {
-        "daily": "ERR",
-        "weekly": "ERR",
-        "monthly": "ERR"
+        "daily": "BUY",
+        "weekly": "SELL",
+        "monthly": "SELL"
       },
       "signals": {
-        "daily_buy": 1,
-        "weekly_buy": 1,
+        "daily_buy": 17,
+        "weekly_buy": 7,
         "monthly_buy": 0,
         "total": 20
       },
-      "synopsis": "**Crypto \u2013 Bearish**\n\nThe crypto sector remains under heavy pressure as Bitcoin plunges to 21-month lows, dragging the broader market into what analysts are calling a zone of \"extreme fear.\" Signal data is fragmented with widespread ERR readings, but the directional calls that do register\u2014SELL flags on IBIT, FBTC, ETH/USD, SOL/USD, and DOGE/USD\u2014confirm the bearish thesis. The lone outlier is AVAX/USD flashing a daily BUY, though weekly and monthly data remain unreliable, making any contrarian play high-risk at best.\n\nForbes reports expiring crypto derivatives threaten additional forced selling, while Bitcoin's failure to hold $60,000 signals deeper capitulation may be ahead. ETF products like IBIT and FBTC are tracking the underlying weakness with no meaningful divergence to exploit. Watch BTC/USD for any stabilization above key support, AVAX/USD for that anomalous strength, and DOGE/USD as retail sentiment's canary in the coal mine."
+      "synopsis": "**Crypto: Bearish Bias Persists Despite Daily Bounce**\n\nThe sector maintains a bearish posture with BTC/USD flashing weekly and monthly sell signals even as Bitcoin clings to the $60,000 level. A notable divergence emerges between the major ETFs\u2014IBIT, FBTC, and ETHA all show daily buy signals against weekly sells\u2014suggesting short-term relief within a deteriorating trend. Traders remain on edge with TheStreet reporting preparations for a potential slide toward $45,000, a move that would confirm the broader bearish thesis.\n\nBright spots exist in the altcoin complex where SOL/USD, XRP/USD, and AVAX/USD hold weekly buy signals, diverging from Bitcoin's weakness. Aave's strongest network growth in nearly five years signals renewed DeFi appetite that could support select tokens. Watch BTC/USD for a decisive break below $60,000, SOL/USD for continued relative strength, and ETHA as institutional Ethereum sentiment wavers."
     },
     {
       "sector": "Cybersecurity",
-      "bias": "Bearish",
+      "bias": "Bullish",
       "bias_etf": "CIBR",
       "bias_method": "etf",
       "tickers": [
@@ -330,17 +330,17 @@
         "RPD"
       ],
       "etf_signals": {
-        "daily": "SELL",
-        "weekly": "ERR",
-        "monthly": "ERR"
+        "daily": "BUY",
+        "weekly": "BUY",
+        "monthly": "BUY"
       },
       "signals": {
-        "daily_buy": 3,
-        "weekly_buy": 4,
-        "monthly_buy": 2,
+        "daily_buy": 12,
+        "weekly_buy": 14,
+        "monthly_buy": 10,
         "total": 15
       },
-      "synopsis": "**Cybersecurity: Bearish Bias Masks Underlying Divergence**\n\nThe sector carries a bearish tilt heading into the week, with the CIBR ETF flashing a daily sell signal that sets a cautious tone. Yet beneath the surface, individual names tell a more fractured story\u2014ZS, OKTA, and S all register daily buy signals, suggesting pockets of strength that contradict the broader weakness. This ETF-versus-components split typically signals rotation rather than outright capitulation, with money flowing selectively toward names showing relative momentum.\n\nWithout fresh headlines driving sentiment, technicals take the wheel. CRWD and FTNT deserve attention on the long side given their monthly buy signals, indicating structural support despite near-term noise. Conversely, QLYS sits exposed with a monthly sell, making it vulnerable if sector pressure intensifies. Watch how the daily buy names hold their bids\u2014if ZS and OKTA can sustain strength through midweek, this bearish call may prove premature."
+      "synopsis": "**Cybersecurity: Bullish Bias Holds Firm Despite Notable Cracks**\n\nThe cybersecurity sector maintains its bullish posture heading into mid-July, with CIBR flashing buy signals across all timeframes and the broader HACK ETF confirming the trend. However, beneath the surface consensus lies meaningful divergence worth monitoring. CrowdStrike stands out as the clear laggard, posting sell signals on daily and weekly charts\u2014a stark contrast to peers like Palo Alto Networks and Cloudflare, which show uniform strength across all periods. Zscaler presents a mixed picture, with short-term momentum intact but monthly signals flashing caution.\n\nWithout fresh headlines driving price action, technicals are steering the ship. Traders should watch CRWD closely for potential mean reversion or further breakdown, while PANW and NET offer cleaner setups for momentum plays. Fortinet's daily weakness amid weekly and monthly strength suggests a potential pullback entry for patient buyers."
     },
     {
       "sector": "Energy",
@@ -367,21 +367,21 @@
         "APA"
       ],
       "etf_signals": {
-        "daily": "ERR",
+        "daily": "SELL",
         "weekly": "SELL",
-        "monthly": "ERR"
+        "monthly": "SELL"
       },
       "signals": {
-        "daily_buy": 2,
-        "weekly_buy": 0,
-        "monthly_buy": 4,
+        "daily_buy": 4,
+        "weekly_buy": 3,
+        "monthly_buy": 14,
         "total": 17
       },
-      "synopsis": "**Energy: Bearish Bias Meets Muddled Signals**\n\nThe sector carries a bearish tilt this week, though signal quality remains frustratingly poor across the board. XLE flashes a weekly sell while monthly data errors out entirely\u2014hardly a confidence builder. The divergence between the ETF and individual names is notable: XOM and CVX both show monthly buy signals even as their shorter timeframes glitch or trend negative, suggesting institutional accumulation beneath surface weakness. Refiners present the cleanest reads, with VLO posting a daily buy that stands alone against the sea of red and errors.\n\nHeadlines point to opportunity amid chaos. Chevron's Microsoft partnership repositions natural gas as an AI infrastructure play, a thesis worth tracking as data center demand reshapes energy economics. Meanwhile, geopolitical premium from Iran tensions has paradoxically boosted non-US EV plays rather than crude. Watch CVX for that tech-energy convergence, VLO for refining momentum, and DVN as a pure-play casualty of the weekly sell signal."
+      "synopsis": "**Energy: Bearish Bias Persists Despite Monthly Divergence**\n\nThe energy sector remains firmly bearish with XLE flashing sell signals across all timeframes, dragging majors like XOM, CVX, and COP into synchronized daily and weekly downtrends. However, a notable divergence emerges: while the ETF shows monthly weakness, most individual names retain monthly buy signals, suggesting longer-term accumulation zones may be forming beneath the near-term carnage. Refiners buck the trend entirely\u2014MPC stands alone with triple buy signals while PSX and VLO show daily strength despite weekly selling pressure.\n\nExxon's South Africa LNG positioning reinforces its dividend aristocrat appeal for patient capital, though near-term momentum argues against chasing. Shell's continued fossil fuel focus signals sector conviction at the corporate level even as traders flee. Watch MPC for continued relative strength, DVN as the weakest link with sells across all frames, and XOM for potential monthly support tests that could offer asymmetric entries."
     },
     {
       "sector": "Financials",
-      "bias": "Accumulation",
+      "bias": "Bullish",
       "bias_etf": "XLF",
       "bias_method": "etf",
       "tickers": [
@@ -414,19 +414,19 @@
       "etf_signals": {
         "daily": "BUY",
         "weekly": "BUY",
-        "monthly": "SELL"
+        "monthly": "BUY"
       },
       "signals": {
-        "daily_buy": 8,
-        "weekly_buy": 12,
-        "monthly_buy": 5,
+        "daily_buy": 18,
+        "weekly_buy": 22,
+        "monthly_buy": 14,
         "total": 25
       },
-      "synopsis": "**Financials: Accumulation Bias Holds Despite Mixed Signals**\n\nThe sector maintains an accumulation stance as XLF flashes daily and weekly buy signals, though the monthly sell warns this rally faces overhead resistance. Traditional banks lead the charge\u2014JPM, BAC, WFC, and C all print daily and weekly buys, with BAC and C showing the cleanest profiles with monthly buy confirmation. The divergence worth watching: Goldman and Morgan Stanley have flipped to daily sells even as weekly strength persists, suggesting near-term profit-taking in investment banking names.\n\nAlternative asset managers tell a different story entirely. BX sits in full distribution mode across all timeframes while KKR and APO throw errors, signaling technical breakdowns or liquidity concerns. The TheStreet's crash warning and Livemint's \"markets in flux\" commentary capture the unease beneath the surface. Watch BAC for continuation strength, JPM for a monthly reversal setup, and avoid BX until sellers exhaust themselves."
+      "synopsis": "**Financials: Bullish Bias Holds Despite Internal Fractures**\n\nThe sector maintains its bullish stance with XLF flashing green across all timeframes, but cracks are forming beneath the surface. Traditional banking giants JPM and BAC remain the cleanest longs, aligned on daily, weekly, and monthly signals, while investment banks GS, MS, and C show daily weakness suggesting near-term profit-taking even as longer trends hold firm. The divergence grows more pronounced in alternatives\u2014APO and BLK are outright sells across the board, signaling institutional rotation away from asset managers despite the broader sector strength.\n\nGoldman's retreat from its \"lost decade\" thesis, as reported by Business Insider, reflects renewed optimism in equity markets that should buoy transaction-heavy names. Meanwhile, concerns over an AI bubble could trigger defensive flows into financials as a relative safe haven. Watch JPM for continued leadership, GS for a daily reversal entry, and avoid BLK until monthly structure repairs."
     },
     {
       "sector": "Fintech",
-      "bias": "Bearish",
+      "bias": "Accumulation",
       "bias_etf": "FINX",
       "bias_method": "etf",
       "tickers": [
@@ -447,21 +447,21 @@
         "HOOD"
       ],
       "etf_signals": {
-        "daily": "ERR",
-        "weekly": "ERR",
-        "monthly": "ERR"
+        "daily": "BUY",
+        "weekly": "BUY",
+        "monthly": "SELL"
       },
       "signals": {
-        "daily_buy": 3,
-        "weekly_buy": 4,
-        "monthly_buy": 1,
+        "daily_buy": 14,
+        "weekly_buy": 13,
+        "monthly_buy": 4,
         "total": 15
       },
-      "synopsis": "**Fintech: Bearish Bias Meets Signal Static**\n\nThe sector carries a bearish tilt into the week, though the signal picture is unusually fractured\u2014FINX prints errors across all timeframes, leaving traders without a clean ETF read while individual names flash contradictory signals. That divergence demands caution. Visa and LendingClub show daily buy triggers, while Mastercard and SoFi find weekly support, but PayPal's monthly sell and Nu Holdings' weekly sell suggest underlying weakness hasn't washed out. When the basket breaks down but components scatter, conviction trades become treacherous.\n\nMeta's $900 million stake in an Indian fintech player signals big tech still sees growth runway abroad even as domestic names struggle for direction. Meanwhile, pre-IPO access plays like Payward's Bending Spoons deal hint at capital hunting for exits rather than fresh deployment. Watch NU for its cross-timeframe conflict and PYPL as the clearest directional signal in the group."
+      "synopsis": "**Fintech: Accumulation Bias Holds as Daily Strength Builds**\n\nThe sector leans accumulation with broad daily buy signals across the board, though monthly timeframes reveal lingering structural weakness in names like MA, PYPL, and SOFI. The FINX ETF mirrors this tension\u2014daily and weekly buyers stepping in while the monthly sell signal suggests the rally lacks full conviction. Piper Sandler's overweight initiation on Visa underscores institutional appetite for payments leaders, and V stands out as the cleanest setup with buy signals across all three timeframes.\n\nWatch V for continued momentum as analyst coverage builds, while AFRM and LC offer speculative upside with triple-buy alignment. The X Money \"super app\" narrative adds a wildcard element that could lift sentiment across digital payments plays. SQ's missing daily signal warrants caution despite weekly and monthly strength\u2014wait for confirmation before adding exposure."
     },
     {
       "sector": "Fixed Income",
-      "bias": "Accumulation",
+      "bias": "Bearish",
       "bias_etf": "TLT",
       "bias_method": "etf",
       "tickers": [
@@ -478,21 +478,21 @@
         "MUB"
       ],
       "etf_signals": {
-        "daily": "ERR",
-        "weekly": "BUY",
-        "monthly": "ERR"
+        "daily": "SELL",
+        "weekly": "SELL",
+        "monthly": "SELL"
       },
       "signals": {
-        "daily_buy": 2,
-        "weekly_buy": 1,
-        "monthly_buy": 1,
+        "daily_buy": 1,
+        "weekly_buy": 2,
+        "monthly_buy": 2,
         "total": 11
       },
-      "synopsis": "**Fixed Income: Accumulation Bias Meets Hawkish Crosscurrents**\n\nThe accumulation stance on fixed income faces immediate headwinds as the Fed's hawkish posture collides with sticky inflation\u2014PCE climbing to 4.1% year-over-year marks the hottest print since April 2023, validating Chair Warsh's cautious approach. TLT flashes a weekly buy signal, yet the broader complex tells a fractured story: JNK screams sell across daily and monthly timeframes while HYG confirms monthly weakness, suggesting credit stress beneath the surface. The divergence between duration plays and junk speaks volumes about where smart money sees risk accumulating.\n\nWatch MUB for defensive positioning as its monthly buy signal offers tax-advantaged shelter, while EMB's daily buy hints at selective emerging-market appetite despite the hawkish Fed challenge flagged by analysts. JNK remains the canary\u2014if high-yield cracks further, the accumulation thesis demands serious revision."
+      "synopsis": "**Fixed Income: Bearish Tide Sweeps Across the Board**\n\nThe bond market flashes an unambiguous bearish signal this week, with virtually every major fixed income ETF aligned in sell mode across daily, weekly, and monthly timeframes. TLT, IEF, and the broad aggregate funds BND and AGG all confirm the downtrend, while high-yield plays HYG and JNK offer no refuge. The sole divergence worth noting sits in emerging market debt\u2014EMB shows weekly and monthly buy signals despite daily weakness\u2014and municipal bonds, where MUB stands alone with buy signals across all frames.\n\nThe Fed finds itself boxed in, facing pressure to hike rates even as Atlanta Fed's GDPNow estimate plunges, signaling economic cooling that typically warrants accommodation. Meanwhile, yen carry trade unwinding threatens additional volatility spillover into Treasuries. Watch TLT for trend continuation, MUB as a potential defensive rotation, and EMB for contrarian opportunity if the weekly signal holds."
     },
     {
       "sector": "Health Care",
-      "bias": "Accumulation",
+      "bias": "Bullish",
       "bias_etf": "XLV",
       "bias_method": "etf",
       "tickers": [
@@ -520,21 +520,21 @@
         "IDXX"
       ],
       "etf_signals": {
-        "daily": "ERR",
+        "daily": "BUY",
         "weekly": "BUY",
-        "monthly": "ERR"
+        "monthly": "BUY"
       },
       "signals": {
-        "daily_buy": 3,
-        "weekly_buy": 4,
-        "monthly_buy": 5,
+        "daily_buy": 20,
+        "weekly_buy": 17,
+        "monthly_buy": 14,
         "total": 22
       },
-      "synopsis": "**Health Care: Accumulation Bias Holds Amid Signal Fragmentation**\n\nThe sector maintains an accumulation stance, though signal quality deteriorated sharply this week with ERR readings dominating across timeframes. XLV flashes a weekly BUY, but individual names tell a fractured story\u2014monthly BUY signals on defensive stalwarts UNH, MRK, and AMGN contrast with daily BUY triggers on growth plays LLY and REGN, suggesting rotational rather than broad-based conviction. ABBV and BIIB carry weekly BUY signals, carving out a middle ground for traders seeking intermediate positioning.\n\nNo sector-specific catalysts emerged, with global risk appetite instead driven by the sharp rally in Indian equities as banking and IT stocks powered the Sensex higher by 790 points. That momentum spillover could lift multinational pharma names with emerging market exposure. Watch LLY for continued daily momentum, ABBV for weekly follow-through, and UNH as the monthly anchor\u2014these three bracket the opportunity set across timeframes."
+      "synopsis": "**Health Care Enters July With Strong Bullish Momentum**\n\nThe health care sector maintains a decisively bullish bias heading into the second week of July, with XLV flashing buy signals across daily, weekly, and monthly timeframes. The sector's heavyweights are marching in lockstep\u2014UNH, JNJ, LLY, ABBV, and MRK all show triple-timeframe buy alignment, suggesting institutional conviction remains robust. However, notable divergence emerges at the individual stock level: PFE stands as the sector's clear laggard with sell signals across all timeframes, while REGN and GILD show monthly weakness beneath near-term strength.\n\nGlobal market jitters, including the geopolitical tensions dragging India's Sensex below key levels, haven't dented health care's defensive appeal stateside. Watch LLY for continued momentum leadership given its clean signal structure, monitor PFE for potential mean-reversion setups if sentiment shifts, and keep GILD on radar as its monthly sell signal could eventually infect shorter timeframes."
     },
     {
       "sector": "Industrials",
-      "bias": "Bearish",
+      "bias": "Bullish",
       "bias_etf": "XLI",
       "bias_method": "etf",
       "tickers": [
@@ -561,20 +561,20 @@
       ],
       "etf_signals": {
         "daily": "BUY",
-        "weekly": "ERR",
-        "monthly": "ERR"
+        "weekly": "BUY",
+        "monthly": "BUY"
       },
       "signals": {
-        "daily_buy": 6,
-        "weekly_buy": 5,
-        "monthly_buy": 6,
+        "daily_buy": 14,
+        "weekly_buy": 16,
+        "monthly_buy": 17,
         "total": 20
       },
-      "synopsis": "**Industrials: Bearish Bias Holds Amid Signal Chaos**\n\nThe industrials sector maintains a bearish tilt this week despite XLI flashing a daily buy signal\u2014a divergence that warrants skepticism given the sea of errors flooding weekly and monthly timeframes across major names. Defense contractors show the clearest split: RTX stands out with buy signals on daily and monthly charts, while NOC prints the sector's lone sell signal on the daily. BA remains a technical void with errors across all timeframes, reflecting persistent uncertainty around the aerospace giant.\n\nNews flow offers modest catalysts, with the autonomous imaging drone market projected to breach $40 billion by 2030 as AI-driven aerial intelligence gains traction\u2014a tailwind for defense-adjacent industrials. Meanwhile, FDX's weekly sell signal amid broader logistics softness deserves attention. Watch RTX for relative strength, NOC for continued weakness, and CAT where the weekly buy could signal a near-term bounce if daily signals confirm."
+      "synopsis": "**Industrials: Bullish Momentum Holds Despite Pockets of Weakness**\n\nThe industrials sector maintains its bullish posture with XLI flashing buy signals across all timeframes, supported by broad strength in defense and aerospace names. RTX, LMT, GE, and BA all show triple-timeframe alignment, while divergence emerges at the edges\u2014CAT posts a daily sell against longer-term strength, and NOC looks increasingly troubled with weekly and monthly sell signals. FDX remains the clearest laggard, struggling on both daily and weekly charts even as the monthly trend holds.\n\nDefense-related catalysts continue driving sentiment, with autonomous drone technology attracting billions in fresh capital as drones-as-a-service models gain traction globally. This tailwind favors names like RTX and LMT over legacy industrial plays. Watch DE for continuation strength, NOC for potential breakdown confirmation, and CAT for whether daily weakness infects the weekly setup. The sector rewards selectivity here."
     },
     {
       "sector": "International Developed",
-      "bias": "Bearish",
+      "bias": "Distribution",
       "bias_etf": "EFA",
       "bias_method": "etf",
       "tickers": [
@@ -591,21 +591,21 @@
         "DXJ"
       ],
       "etf_signals": {
-        "daily": "ERR",
-        "weekly": "ERR",
-        "monthly": "ERR"
+        "daily": "BUY",
+        "weekly": "SELL",
+        "monthly": "BUY"
       },
       "signals": {
-        "daily_buy": 0,
-        "weekly_buy": 1,
-        "monthly_buy": 1,
+        "daily_buy": 5,
+        "weekly_buy": 6,
+        "monthly_buy": 10,
         "total": 11
       },
-      "synopsis": "**International Developed: Bearish Bias Persists Amid Mixed Signals**\n\nThe international developed space maintains a bearish stance heading into month-end, with the flagship EFA showing system errors across all timeframes\u2014a technical void that leaves traders navigating without a clear benchmark. Individual country ETFs paint a decisively negative picture: VEA, EWU, EWC, and EWA all flash daily sell signals, while EWL and EWQ confirm weekly weakness in Switzerland and France respectively. Germany's EWG adds a monthly sell to the mix, underscoring structural concerns in Europe's core.\n\nThe lone bright spot emerges from Japan, where EWJ posts a weekly buy and the hedged DXJ remains neutral, suggesting currency-adjusted opportunities may exist. HEZU's monthly buy signal hints that euro-hedged European exposure could outperform unhedged peers. Indian markets rebounded on global cues per BusinessLine, though contagion risks remain. Watch EWJ for continuation, EWG for breakdown confirmation, and VEA as the broad bellwether."
+      "synopsis": "**International Developed: Distribution Bias Signals Rotation Under the Surface**\n\nThe distribution bias across international developed markets masks a notable divergence between the broad ETF and individual country exposures. EFA flashes a daily buy against a weekly sell, while Switzerland (EWL) and France (EWQ) run clean with buy signals across all three timeframes\u2014rare alignment in a choppy tape. Meanwhile, Canada (EWC) and Australia (EWA) show daily and weekly sells stacked against monthly buys, suggesting near-term weakness within a longer uptrend.\n\nThe capital flow story adds context: Crypto Briefing reports $17 billion fleeing U.S. stocks for overseas markets, a rotation theme that 24/7 Wall St. echoes with warnings about overconcentration in American equities. Watch EWL and EWQ for continuation plays given their signal strength, and monitor EWC for a potential daily reversal that could confirm the monthly bid. Distribution dominates, but selective accumulation is emerging underneath."
     },
     {
       "sector": "International Emerging",
-      "bias": "Bearish",
+      "bias": "Bullish",
       "bias_etf": "EEM",
       "bias_method": "etf",
       "tickers": [
@@ -623,20 +623,20 @@
       ],
       "etf_signals": {
         "daily": "SELL",
-        "weekly": "ERR",
-        "monthly": "ERR"
+        "weekly": "BUY",
+        "monthly": "BUY"
       },
       "signals": {
-        "daily_buy": 1,
-        "weekly_buy": 2,
-        "monthly_buy": 1,
+        "daily_buy": 4,
+        "weekly_buy": 5,
+        "monthly_buy": 5,
         "total": 11
       },
-      "synopsis": "**International Emerging: Bearish Tide Meets Scattered Resistance**\n\nThe emerging markets complex carries a bearish bias into the week, with the benchmark EEM flashing a daily sell signal against a backdrop of system errors clouding the longer-term picture. Yet beneath the surface, notable divergences emerge\u2014VWO and INDA buck the trend with weekly buy signals, while EWY prints a rare monthly buy, suggesting selective resilience in India and South Korea even as the broader sector falters.\n\nChina remains the epicenter of weakness. FXI and INDY both register monthly sells, while MCHI and KWEB add daily sell pressure, painting a grim picture for mainland and tech exposure. Brazil's EWZ offers a contrarian glint with a daily buy amid the carnage. AllianceBernstein's monthly portfolio update may shed light on institutional positioning shifts. Watch KWEB for China tech capitulation, INDA for continued relative strength, and EWZ for bounce potential."
+      "synopsis": "**International Emerging Markets: Bullish Bias Masks Underlying Fractures**\n\nThe sector maintains a bullish stance, but the headline ETF signal diverges sharply from constituent reality. EEM flashes weekly and monthly buy signals, yet the underlying breakdown tells a different story\u2014China exposure remains toxic with FXI, MCHI, and GXC all triple-sell across timeframes, dragging on broader emerging market sentiment. The 24/7 Wall St. piece warning that 90% of investor capital is concentrated in American assets underscores the tactical case for EM diversification, though execution demands precision given the regional dispersion.\n\nIndia emerges as the clear bright spot, with INDA and INDY both holding daily and weekly buys despite monthly weakness\u2014momentum is building from the bottom up. Taiwan and South Korea show similar weekly strength in EWT and EWY. Watch INDA for continuation, EWZ for a Brazil reversal setup, and avoid China names until weekly signals flip."
     },
     {
       "sector": "Materials",
-      "bias": "Bearish",
+      "bias": "Accumulation",
       "bias_etf": "XLB",
       "bias_method": "etf",
       "tickers": [
@@ -658,21 +658,21 @@
         "ALB"
       ],
       "etf_signals": {
-        "daily": "ERR",
-        "weekly": "ERR",
+        "daily": "SELL",
+        "weekly": "BUY",
         "monthly": "SELL"
       },
       "signals": {
-        "daily_buy": 1,
-        "weekly_buy": 2,
-        "monthly_buy": 4,
+        "daily_buy": 7,
+        "weekly_buy": 11,
+        "monthly_buy": 10,
         "total": 16
       },
-      "synopsis": "**Materials: Bearish Bias Holds Amid Supply Chain Turbulence**\n\nThe materials sector maintains a bearish stance as XLB flashes a monthly sell signal, though the picture grows murky with ERR readings dominating daily and weekly timeframes across most tickers. A notable divergence emerges between the sector ETF's weakness and pockets of monthly strength in NUE, DD, and DOW\u2014suggesting selective accumulation even as the broader tape deteriorates.\n\nChina's antimony export restrictions are rattling supply chains hard, with prices spiking 2,600% according to OilPrice.com, and rare earths appear next in Beijing's crosshairs. This geopolitical squeeze creates asymmetric risk for miners and chemical producers alike. Watch FCX and APD, both printing daily sell signals that could accelerate if China escalates further. ECL stands out with a weekly buy\u2014a potential relative strength play if defensive rotation into specialty chemicals gains traction. Tread carefully here; signal quality remains compromised."
+      "synopsis": "**Materials: Accumulation Amid Cross-Currents**\n\nThe Materials sector carries an accumulation bias this week, though the path forward demands selectivity. XLB flashes a notable divergence\u2014daily and monthly signals at sell bracket a weekly buy, suggesting near-term chop within a broader bottoming process. The metals complex tells a cautionary tale: NEM, FCX, AA, and DOW all show daily and weekly weakness despite constructive monthly setups, indicating these names need more time to base. Meanwhile, the specialty chemicals cohort demonstrates clear leadership, with LIN, APD, DD, and PPG aligned across all three timeframes.\n\nEl Ni\u00f1o conditions continue casting uncertainty over agricultural and industrial commodities, per BusinessLine reporting, adding a macro headwind to weather-sensitive names. Watch LIN and APD as defensive accumulation candidates given their triple-buy alignment, while NUE merits attention as its weekly signal flips constructive ahead of the monthly\u2014a potential early rotation tell if steel sentiment improves."
     },
     {
       "sector": "Real Estate",
-      "bias": "Accumulation",
+      "bias": "Bullish",
       "bias_etf": "XLRE",
       "bias_method": "etf",
       "tickers": [
@@ -694,21 +694,21 @@
         "HST"
       ],
       "etf_signals": {
-        "daily": "ERR",
+        "daily": "BUY",
         "weekly": "BUY",
-        "monthly": "ERR"
+        "monthly": "BUY"
       },
       "signals": {
-        "daily_buy": 3,
-        "weekly_buy": 6,
-        "monthly_buy": 4,
+        "daily_buy": 8,
+        "weekly_buy": 9,
+        "monthly_buy": 10,
         "total": 16
       },
-      "synopsis": "**Real Estate: Accumulation Bias Holds Despite Signal Fragmentation**\n\nThe sector maintains its accumulation stance, though signal quality deteriorated sharply this week with ERR readings dominating across timeframes. XLRE's weekly buy signal provides the clearest directional read, but the monthly ERR flags potential structural uncertainty. Individual names show scattered strength rather than coordinated momentum\u2014SPG stands out with confirmed weekly and monthly buy signals, while O, EQR, and AVB echo the ETF's weekly bullish tilt without longer-term confirmation.\n\nThe open-sourcing of P/E ratio calculations on GitHub underscores growing investor skepticism toward inconsistent valuation data, a relevant concern for yield-sensitive REIT positioning. Watch SPG for retail real estate leadership, EQIX for data center exposure given its daily buy trigger, and WELL for healthcare REIT momentum after its monthly signal fired. The divergence between ETF clarity and single-stock noise suggests selective positioning over broad sector bets."
+      "synopsis": "**Real Estate: Bullish Bias Holds Despite Mixed Signals**\n\nThe sector maintains its bullish stance with XLRE flashing buy across all timeframes, but notable divergence emerges beneath the surface. Industrial and data center names PLD, AMT, and EQIX are selling off on daily and weekly charts, suggesting rotation away from pandemic-era darlings toward traditional retail and healthcare REITs. SPG, O, WELL, and PSA show uniform strength, reflecting investor appetite for yield and defensive positioning as rate expectations stabilize.\n\nRealty Income draws attention after Scotiabank and Jefferies revised their outlooks amid broader REIT valuation debates\u2014yet O's triple-buy signal suggests the street may be underestimating momentum. The Russell 2000 reshuffle adding UMH Properties signals small-cap manufactured housing is gaining institutional notice. Watch O for continued income-driven inflows, SPG for consumer resilience reads, and WELL as healthcare demographics play out. Avoid chasing AMT until weekly signals turn."
     },
     {
       "sector": "Semiconductors",
-      "bias": "Distribution",
+      "bias": "Bullish",
       "bias_etf": "SMH",
       "bias_method": "etf",
       "tickers": [
@@ -734,17 +734,17 @@
         "TER"
       ],
       "etf_signals": {
-        "daily": "ERR",
-        "weekly": "ERR",
+        "daily": "SELL",
+        "weekly": "BUY",
         "monthly": "BUY"
       },
       "signals": {
-        "daily_buy": 3,
-        "weekly_buy": 3,
-        "monthly_buy": 7,
+        "daily_buy": 2,
+        "weekly_buy": 13,
+        "monthly_buy": 19,
         "total": 20
       },
-      "synopsis": "**Semiconductors: Distribution Pressure Mounts Amid AI Spending Doubts**\n\nThe sector flashes clear distribution as institutional money rotates out despite the monthly timeframe still clinging to accumulation signals. SMH holds a monthly BUY but the weekly and daily frames have gone dark with errors, suggesting violent chop that's breaking model continuity. Individual names paint a fractured picture\u2014MU stands alone with a daily BUY while heavyweights NVDA and AVGO print weekly SELL signals, and KLAC joins QCOM in daily distribution.\n\nHeadlines confirm the technical deterioration. BBC's coverage of AI spending concerns captures the fundamental catalyst driving this rotation, while the South Korean market whipsaw\u2014SK Hynix surging on Nasdaq listing plans before Korean stocks plunged on overvaluation fears\u2014illustrates the bipolar sentiment gripping the space. Watch MU for relative strength leadership, NVDA as the bellwether now under pressure, and AVGO where weekly selling could accelerate if support fails."
+      "synopsis": "**Semiconductors \u2014 Bullish Bias Holds Despite Daily Carnage**\n\nThe sector maintains its bullish stance on weekly and monthly timeframes, but daily signals flash uniform red across nearly every name\u2014a classic pullback within a larger uptrend. SMH and SOXX both show the same D=SELL, W=BUY, M=BUY pattern, suggesting this week's selling represents consolidation rather than trend reversal. The outlier demanding attention is KLAC, which has rolled over across all three timeframes into full SELL mode, signaling potential structural weakness beyond the broader sector noise.\n\nHeadlines drove much of the pain: Bank of America's \"bubble risk\" warning hammered Intel, AMD, and TSM with single-day drops between 5-7%, while Michael Burry's disclosed short against Nvidia added psychological pressure to an already skittish tape. Watch AMAT closely\u2014it's the lone name printing BUY across daily, weekly, and monthly, showing relative strength worth respecting. NVDA and AVGO, both weekly sells, need to reclaim that timeframe before rejoining leadership."
     },
     {
       "sector": "Technology",
@@ -791,16 +791,16 @@
         "monthly": "SELL"
       },
       "signals": {
-        "daily_buy": 7,
-        "weekly_buy": 15,
-        "monthly_buy": 10,
+        "daily_buy": 17,
+        "weekly_buy": 23,
+        "monthly_buy": 17,
         "total": 32
       },
-      "synopsis": "**Technology: Accumulation Amid Crosscurrents**\n\nThe sector carries an accumulation bias despite a messy signal environment, with XLK flashing weekly strength against daily and monthly headwinds. That ETF-level divergence mirrors the fractured internals beneath\u2014AAPL holds a constructive weekly-monthly setup while heavyweights NVDA and AVGO show weekly distribution and ORCL and CRM remain uniformly bearish across all timeframes. The signal errors plaguing MSFT and AMD suggest algorithmic indecision at critical inflection points.\n\nMicron's blowout quarter and 16% surge injected fresh optimism into the semiconductor complex, countering the broader \"AI bubble\" narrative now gaining mainstream traction via NPR's pointed coverage. That tension\u2014between earnings delivery and valuation anxiety\u2014defines the current trading regime. Watch AAPL for leadership confirmation on its clean multi-timeframe alignment, TXN for defensive semi exposure with weekly-monthly buy signals intact, and AMD where the weekly buy against error flags could resolve sharply in either direction."
+      "synopsis": "**Technology: Accumulation Amid Cross-Currents**\n\nThe sector carries an accumulation bias despite a conflicted ETF picture\u2014XLK flashing weekly buy against daily and monthly sells\u2014while heavyweight divergence tells the real story. Apple and Microsoft anchor strength with daily and weekly buy signals intact, yet the semiconductor complex stumbles near-term as Nvidia and Broadcom post daily and weekly sells even as monthly trends hold bullish. Citi's fresh warning on semiconductor and hyperscaler stocks adds fundamental weight to the technical caution, while Morningstar's 30% crash call on AI names demands attention from momentum chasers.\n\nWatch AAPL for continued leadership as the cleanest triple-buy signal in the group. AMD and Intel present intriguing setups\u2014daily weakness meeting weekly and monthly strength suggests potential accumulation zones forming. The AI optics narrative emerging from MarketBeat hints at where the next rotation may land once chip consolidation runs its course."
     },
     {
       "sector": "Utilities",
-      "bias": "Bearish",
+      "bias": "Accumulation",
       "bias_etf": "XLU",
       "bias_method": "etf",
       "tickers": [
@@ -823,16 +823,16 @@
       ],
       "etf_signals": {
         "daily": "BUY",
-        "weekly": "ERR",
-        "monthly": "ERR"
+        "weekly": "BUY",
+        "monthly": "SELL"
       },
       "signals": {
-        "daily_buy": 6,
-        "weekly_buy": 2,
-        "monthly_buy": 4,
+        "daily_buy": 16,
+        "weekly_buy": 13,
+        "monthly_buy": 13,
         "total": 16
       },
-      "synopsis": "**Utilities: Bearish Bias Masks Selective Opportunities**\n\nThe utilities sector carries a bearish tilt this week, though the signal landscape is more fractured than directional. XLU flashes a daily buy against monthly and weekly errors, while individual names scatter across the map\u2014NEE prints a weekly sell, DUK shows monthly weakness, yet SO stands out with aligned daily and monthly buy signals. This ETF-component divergence suggests rotational churn rather than sector-wide conviction, with traders picking spots rather than painting broad strokes.\n\nNews flow reinforces the bifurcation. A prominent short-seller's AI energy bubble call pressures speculative grid plays, while Sunrun's 26% surge on a 16-gigawatt virtual power plant partnership with Tesla highlights where capital is actually flowing\u2014distributed infrastructure over traditional generation. Watch SO for relative strength, NEE for continued deterioration, and SRE's weekly buy as a potential momentum pivot if grid modernization headlines persist."
+      "synopsis": "**Utilities: Accumulation Bias Strengthens Amid Energy Buildout**\n\nThe utilities sector flashes a clear accumulation signal this week, with XLU showing daily and weekly buy alignment despite monthly selling pressure. Individual names tell an even stronger story\u2014DUK, SO, D, AEP, EXC, PCG, and ES all carry triple-timeframe buy signals, a rare show of broad conviction. NEE and SRE diverge slightly with weekly sells, suggesting rotation rather than retreat. This ETF-to-stock divergence favors stock-pickers over index riders.\n\nNews flow reinforces the bullish posture. Barchart highlights a global utility trading at deep value while deploying nearly $2 billion into U.S. energy infrastructure, underscoring capital's steady march into the grid buildout theme. PCG earns mention among top EV charging plays, tying defensive utilities to secular growth. Watch DUK and SO for continued momentum on their perfect signal alignment, and keep PCG on radar as electrification narratives accelerate."
     },
     {
       "sector": "Volatility",
@@ -854,17 +854,17 @@
         "BTAL"
       ],
       "etf_signals": {
-        "daily": "ERR",
-        "weekly": "ERR",
+        "daily": "SELL",
+        "weekly": "SELL",
         "monthly": "SELL"
       },
       "signals": {
         "daily_buy": 4,
-        "weekly_buy": 0,
-        "monthly_buy": 0,
+        "weekly_buy": 1,
+        "monthly_buy": 2,
         "total": 12
       },
-      "synopsis": "**Volatility: Bearish Bias Masks Short-Term Stress**\n\nThe volatility sector carries a bearish bias this week, yet the signal landscape reveals notable tension between timeframes. The primary ETF VXX flashes a monthly sell while daily readings on leveraged plays tell a different story\u2014UVXY and SPXS both trigger daily buys, suggesting traders are grabbing short-term hedges even as the broader trend points lower. This divergence warrants caution for anyone positioned directionally.\n\nHeadlines reinforce the crosscurrents: VIX call options have surged to 2026 highs as investors scramble for downside protection, while the fear gauge itself spiked above 19 amid a deepening tech selloff. South Korean markets added to global jitters with record volatility tied to AI sector doubts. Watch UVXY for continued daily momentum, PSQ for its conflicting daily buy against monthly sell, and SVXY as the inverse play showing daily weakness. Near-term hedging demand could persist despite the overarching bearish tilt."
+      "synopsis": "**Volatility: Bearish**\n\nThe volatility complex flashes uniformly bearish across all timeframes, with VXX, UVXY, and VIXY locked in triple-sell configurations while inverse play SVXY runs triple-buy\u2014classic risk-on positioning. The signal cohesion is striking: no meaningful divergence between the ETF benchmark and underlying tickers, suggesting institutional conviction that the fear trade has exhausted itself for now. Even hedging stalwart TAIL can't catch a bid.\n\nYet the headlines whisper caution beneath the calm. 24/7 Wall St. flagged \"the market's biggest warning signal in 23 years,\" a contrarian note worth filing as complacency builds. The RMD forced-selling story underscores structural vulnerability when conditions turn. Watch SVXY for momentum continuation, SQQQ for any daily-timeframe divergence attempting to assert itself, and CBOE as the pure-play on volatility infrastructure\u2014its persistent weakness confirms traders aren't paying up for optionality here."
     }
   ]
 }
