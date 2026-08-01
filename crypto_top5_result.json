@@ -1,15 +1,15 @@
 {
-  "total_return_pct": 644.5,
-  "cagr_pct": 26.57,
-  "sharpe_ratio": 0.69,
+  "total_return_pct": 603.77,
+  "cagr_pct": 25.42,
+  "sharpe_ratio": 0.67,
   "max_drawdown_pct": 73.9,
-  "final_value": 744500.4,
-  "current_value": 744500.4,
-  "btc_bah_pct": 292.63,
-  "n_weeks": 443,
-  "n_weeks_crypto": 230,
+  "final_value": 703769.62,
+  "current_value": 703769.62,
+  "btc_bah_pct": 322.01,
+  "n_weeks": 448,
+  "n_weeks_crypto": 233,
   "n_weeks_paxg": 90,
-  "n_weeks_usdt": 123,
+  "n_weeks_usdt": 125,
   "equity_curve": [
     {
       "date": "2018-01-05",
@@ -5107,6 +5107,64 @@
       "defensive": null,
       "buy_tickers": [],
       "cash_pct": 100.0
+    },
+    {
+      "date": "2026-07-03",
+      "value": 744500.4,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2026-07-10",
+      "value": 744500.4,
+      "btc_signal": "SELL",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [],
+      "cash_pct": 100.0
+    },
+    {
+      "date": "2026-07-17",
+      "value": 744500.4,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "SOL"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2026-07-24",
+      "value": 714286.95,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2026-07-31",
+      "value": 703769.62,
+      "btc_signal": "BUY",
+      "paxg_signal": "SELL",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL"
+      ],
+      "cash_pct": 0.0
     }
   ],
   "trades": [
@@ -9297,28 +9355,119 @@
       "date": "2026-06-26",
       "action": "HOLD",
       "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2026-07-03",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2026-07-10",
+      "action": "HOLD",
+      "note": "No changes \u2014 100% USDT"
+    },
+    {
+      "date": "2026-07-17",
+      "action": "BUY",
+      "ticker": "BTC",
+      "price": 66072.5,
+      "shares": 2.816983,
+      "value": 186125.1,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2026-07-17",
+      "action": "BUY",
+      "ticker": "ETH",
+      "price": 1933.37,
+      "shares": 96.269778,
+      "value": 186125.1,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2026-07-17",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 1.1416,
+      "shares": 163033.09366,
+      "value": 186125.1,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2026-07-17",
+      "action": "BUY",
+      "ticker": "SOL",
+      "price": 77.92,
+      "shares": 2388.669161,
+      "value": 186125.1,
+      "weight": 25.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2026-07-24",
+      "action": "SELL",
+      "ticker": "XRP",
+      "price": 1.0724,
+      "value": 174841.58,
+      "reason": "Signal SELL or universe exit"
+    },
+    {
+      "date": "2026-07-31",
+      "action": "HOLD",
+      "note": "No changes \u2014 3 assets"
     }
   ],
   "current_signals": {
-    "BTC": "SELL",
-    "ETH": "SELL",
+    "BTC": "BUY",
+    "ETH": "BUY",
     "XRP": "SELL",
     "SOL": "BUY",
     "DOGE": "SELL",
     "PAXG": "SELL"
   },
-  "total_return_dollar": 644500.4,
-  "n_buy_stocks": 1,
+  "total_return_dollar": 603769.62,
+  "n_buy_stocks": 2,
   "n_universe": 5,
   "starting_capital": 100000.0,
   "timeframe": "weekly",
-  "return_1y": 8.28,
-  "return_3y": 205.26,
-  "return_5y": 52.03,
+  "return_1y": -15.44,
+  "return_3y": 228.24,
+  "return_5y": 46.91,
   "return_10y": null,
-  "bah_return_1y": -46.12,
-  "bah_return_3y": 92.28,
-  "bah_return_5y": 73.08,
-  "bah_return_10y": 8561.88,
-  "current_holdings": []
+  "bah_return_1y": -45.19,
+  "bah_return_3y": 116.24,
+  "bah_return_5y": 58.59,
+  "bah_return_10y": 10963.34,
+  "current_holdings": [
+    {
+      "ticker": "BTC",
+      "name": "BTC",
+      "shares": 3.721351,
+      "price": 63038.9,
+      "value": 234589.87,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "ticker": "ETH",
+      "name": "ETH",
+      "shares": 125.613032,
+      "price": 1867.56,
+      "value": 234589.87,
+      "weight": 33.33,
+      "signal": "BUY"
+    },
+    {
+      "ticker": "SOL",
+      "name": "SOL",
+      "shares": 3218.851177,
+      "price": 72.88,
+      "value": 234589.87,
+      "weight": 33.33,
+      "signal": "BUY"
+    }
+  ]
 }
