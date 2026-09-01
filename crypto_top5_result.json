@@ -1,13 +1,13 @@
 {
-  "total_return_pct": 603.31,
-  "cagr_pct": 25.41,
-  "sharpe_ratio": 0.67,
+  "total_return_pct": 837.88,
+  "cagr_pct": 29.37,
+  "sharpe_ratio": 0.72,
   "max_drawdown_pct": 73.9,
-  "final_value": 703307.71,
-  "current_value": 703307.71,
-  "btc_bah_pct": 321.92,
-  "n_weeks": 448,
-  "n_weeks_crypto": 233,
+  "final_value": 937875.58,
+  "current_value": 937875.58,
+  "btc_bah_pct": 422.03,
+  "n_weeks": 452,
+  "n_weeks_crypto": 237,
   "n_weeks_paxg": 90,
   "n_weeks_usdt": 125,
   "equity_curve": [
@@ -5155,9 +5155,9 @@
     },
     {
       "date": "2026-07-31",
-      "value": 703307.71,
+      "value": 718033.24,
       "btc_signal": "BUY",
-      "paxg_signal": "SELL",
+      "paxg_signal": "BUY",
       "defensive": null,
       "buy_tickers": [
         "BTC",
@@ -5165,6 +5165,64 @@
         "SOL"
       ],
       "cash_pct": 0.0
+    },
+    {
+      "date": "2026-08-07",
+      "value": 715178.53,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "SOL"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2026-08-14",
+      "value": 815496.2,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "SOL",
+        "DOGE"
+      ],
+      "cash_pct": -0.0
+    },
+    {
+      "date": "2026-08-21",
+      "value": 963413.71,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "SOL",
+        "DOGE"
+      ],
+      "cash_pct": 0.0
+    },
+    {
+      "date": "2026-08-28",
+      "value": 937875.58,
+      "btc_signal": "BUY",
+      "paxg_signal": "BUY",
+      "defensive": null,
+      "buy_tickers": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "SOL",
+        "DOGE"
+      ],
+      "cash_pct": -0.0
     }
   ],
   "trades": [
@@ -9418,55 +9476,108 @@
       "date": "2026-07-31",
       "action": "HOLD",
       "note": "No changes \u2014 3 assets"
+    },
+    {
+      "date": "2026-08-07",
+      "action": "HOLD",
+      "note": "No changes \u2014 3 assets"
+    },
+    {
+      "date": "2026-08-14",
+      "action": "BUY",
+      "ticker": "XRP",
+      "price": 1.1054,
+      "shares": 147551.716184,
+      "value": 163099.24,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2026-08-14",
+      "action": "BUY",
+      "ticker": "DOGE",
+      "price": 0.075,
+      "shares": 2175062.551926,
+      "value": 163099.24,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "date": "2026-08-21",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
+    },
+    {
+      "date": "2026-08-28",
+      "action": "HOLD",
+      "note": "No changes \u2014 5 assets"
     }
   ],
   "current_signals": {
     "BTC": "BUY",
     "ETH": "BUY",
-    "XRP": "SELL",
+    "XRP": "BUY",
     "SOL": "BUY",
-    "DOGE": "SELL",
-    "PAXG": "SELL"
+    "DOGE": "BUY",
+    "PAXG": "BUY"
   },
-  "total_return_dollar": 603307.71,
-  "n_buy_stocks": 2,
+  "total_return_dollar": 837875.58,
+  "n_buy_stocks": 4,
   "n_universe": 5,
   "starting_capital": 100000.0,
   "timeframe": "weekly",
-  "return_1y": -15.5,
-  "return_3y": 228.03,
-  "return_5y": 46.81,
+  "return_1y": 3.45,
+  "return_3y": 337.43,
+  "return_5y": 38.02,
   "return_10y": null,
-  "bah_return_1y": -45.2,
-  "bah_return_3y": 116.19,
-  "bah_return_5y": 58.56,
-  "bah_return_10y": 10960.9,
+  "bah_return_1y": -30.23,
+  "bah_return_3y": 202.67,
+  "bah_return_5y": 59.56,
+  "bah_return_10y": 12532.24,
   "current_holdings": [
     {
       "ticker": "BTC",
       "name": "BTC",
-      "shares": 3.719729,
-      "price": 63025.0,
-      "value": 234435.9,
-      "weight": 33.33,
+      "shares": 2.405463,
+      "price": 77978.8,
+      "value": 187575.12,
+      "weight": 20.0,
       "signal": "BUY"
     },
     {
       "ticker": "ETH",
       "name": "ETH",
-      "shares": 125.664491,
-      "price": 1865.57,
-      "value": 234435.9,
-      "weight": 33.33,
+      "shares": 76.715956,
+      "price": 2445.06,
+      "value": 187575.12,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "ticker": "XRP",
+      "name": "XRP",
+      "shares": 136814.28154,
+      "price": 1.371,
+      "value": 187575.12,
+      "weight": 20.0,
       "signal": "BUY"
     },
     {
       "ticker": "SOL",
       "name": "SOL",
-      "shares": 3218.946923,
-      "price": 72.83,
-      "value": 234435.9,
-      "weight": 33.33,
+      "shares": 1839.152037,
+      "price": 101.99,
+      "value": 187575.12,
+      "weight": 20.0,
+      "signal": "BUY"
+    },
+    {
+      "ticker": "DOGE",
+      "name": "DOGE",
+      "shares": 2268844.323776,
+      "price": 0.0827,
+      "value": 187575.12,
+      "weight": 20.0,
       "signal": "BUY"
     }
   ]
