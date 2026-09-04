@@ -1,14 +1,14 @@
 {
-  "generated": "2026-09-03T23:08:57.858330Z",
+  "generated": "2026-09-04T22:56:51.203691Z",
   "signals": [
     {
       "ticker": "SPY",
       "sector": "Broad Market",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -19,16 +19,16 @@
           "previous": "BUY"
         }
       },
-      "price": 771.91
+      "price": 769.92
     },
     {
       "ticker": "QQQ",
       "sector": "Broad Market",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -39,12 +39,12 @@
           "previous": "BUY"
         }
       },
-      "price": 717.16
+      "price": 717.87
     },
     {
       "ticker": "IWM",
       "sector": "Broad Market",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -59,16 +59,16 @@
           "previous": "BUY"
         }
       },
-      "price": 294.97
+      "price": 295.75
     },
     {
       "ticker": "DIA",
       "sector": "Broad Market",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -79,15 +79,15 @@
           "previous": "BUY"
         }
       },
-      "price": 536.78
+      "price": 532.66
     },
     {
       "ticker": "MDY",
       "sector": "Broad Market",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -99,16 +99,16 @@
           "previous": "BUY"
         }
       },
-      "price": 688.12
+      "price": 665.66
     },
     {
       "ticker": "VTI",
       "sector": "Broad Market",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -119,16 +119,16 @@
           "previous": "BUY"
         }
       },
-      "price": 378.4
+      "price": 380.08
     },
     {
       "ticker": "VOO",
       "sector": "Broad Market",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -139,12 +139,12 @@
           "previous": "BUY"
         }
       },
-      "price": 710.35
+      "price": 707.76
     },
     {
       "ticker": "RSP",
       "sector": "Broad Market",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -159,12 +159,12 @@
           "previous": "BUY"
         }
       },
-      "price": 219.6
+      "price": 212.18
     },
     {
       "ticker": "SPLG",
       "sector": "Broad Market",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -184,11 +184,11 @@
     {
       "ticker": "SCHB",
       "sector": "Broad Market",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -199,16 +199,16 @@
           "previous": "BUY"
         }
       },
-      "price": 29.84
+      "price": 29.74
     },
     {
       "ticker": "ITOT",
       "sector": "Broad Market",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -219,16 +219,16 @@
           "previous": "BUY"
         }
       },
-      "price": 162.91
+      "price": 168.9
     },
     {
       "ticker": "XLK",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -239,19 +239,19 @@
           "previous": "SELL"
         }
       },
-      "price": 179.72
+      "price": 187.12
     },
     {
       "ticker": "AAPL",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "SELL"
         },
         "monthly": {
@@ -259,16 +259,16 @@
           "previous": "BUY"
         }
       },
-      "price": 324.85
+      "price": 321.8
     },
     {
       "ticker": "MSFT",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -279,16 +279,16 @@
           "previous": "ERR"
         }
       },
-      "price": 486.2
+      "price": 500.03
     },
     {
       "ticker": "NVDA",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -299,12 +299,12 @@
           "previous": null
         }
       },
-      "price": 225.93
+      "price": 219.49
     },
     {
       "ticker": "AVGO",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -319,16 +319,16 @@
           "previous": null
         }
       },
-      "price": 355.62
+      "price": 359.56
     },
     {
       "ticker": "ORCL",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -339,12 +339,12 @@
           "previous": "SELL"
         }
       },
-      "price": 155.28
+      "price": 157.98
     },
     {
       "ticker": "CRM",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -359,15 +359,15 @@
           "previous": "SELL"
         }
       },
-      "price": 267.11
+      "price": 247.64
     },
     {
       "ticker": "AMD",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -379,16 +379,16 @@
           "previous": null
         }
       },
-      "price": 430.28
+      "price": 447.38
     },
     {
       "ticker": "INTC",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -399,12 +399,12 @@
           "previous": null
         }
       },
-      "price": 91.19
+      "price": 94.31
     },
     {
       "ticker": "QCOM",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -419,12 +419,12 @@
           "previous": null
         }
       },
-      "price": 168.58
+      "price": 160.55
     },
     {
       "ticker": "TXN",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -439,16 +439,16 @@
           "previous": "BUY"
         }
       },
-      "price": 237.5
+      "price": 260.15
     },
     {
       "ticker": "MU",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -459,16 +459,16 @@
           "previous": null
         }
       },
-      "price": 957.11
+      "price": 1010.65
     },
     {
       "ticker": "AMAT",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -479,12 +479,12 @@
           "previous": null
         }
       },
-      "price": 410.4
+      "price": 435.81
     },
     {
       "ticker": "LRCX",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -499,16 +499,16 @@
           "previous": null
         }
       },
-      "price": 275.38
+      "price": 286.59
     },
     {
       "ticker": "KLAC",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -519,15 +519,15 @@
           "previous": null
         }
       },
-      "price": 171.51
+      "price": 176.38
     },
     {
       "ticker": "MRVL",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -539,16 +539,16 @@
           "previous": null
         }
       },
-      "price": 208.53
+      "price": 220.32
     },
     {
       "ticker": "ADBE",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -559,12 +559,12 @@
           "previous": "SELL"
         }
       },
-      "price": 285.69
+      "price": 266.83
     },
     {
       "ticker": "NOW",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -579,12 +579,12 @@
           "previous": "SELL"
         }
       },
-      "price": 139.19
+      "price": 141.66
     },
     {
       "ticker": "INTU",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -599,36 +599,36 @@
           "previous": "SELL"
         }
       },
-      "price": 344.62
+      "price": 334.63
     },
     {
       "ticker": "WDAY",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "monthly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "SELL"
         }
       },
-      "price": 198.04
+      "price": 188.57
     },
     {
       "ticker": "SNOW",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -639,16 +639,16 @@
           "previous": "BUY"
         }
       },
-      "price": 359.18
+      "price": 341.91
     },
     {
       "ticker": "PLTR",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -659,16 +659,16 @@
           "previous": "ERR"
         }
       },
-      "price": 182.97
+      "price": 174.11
     },
     {
       "ticker": "CRWD",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -679,12 +679,12 @@
           "previous": null
         }
       },
-      "price": 212.81
+      "price": 201.87
     },
     {
       "ticker": "PANW",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -699,16 +699,16 @@
           "previous": null
         }
       },
-      "price": 326.52
+      "price": 333.88
     },
     {
       "ticker": "ZS",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -719,12 +719,12 @@
           "previous": null
         }
       },
-      "price": 178.25
+      "price": 161.3
     },
     {
       "ticker": "NET",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -744,7 +744,7 @@
     {
       "ticker": "DDOG",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -759,12 +759,12 @@
           "previous": "BUY"
         }
       },
-      "price": 203.53
+      "price": 212.51
     },
     {
       "ticker": "MDB",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -779,12 +779,12 @@
           "previous": "BUY"
         }
       },
-      "price": 383.17
+      "price": 371.73
     },
     {
       "ticker": "SHOP",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -799,12 +799,12 @@
           "previous": "BUY"
         }
       },
-      "price": 145.97
+      "price": 144.91
     },
     {
       "ticker": "UBER",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -819,12 +819,12 @@
           "previous": "SELL"
         }
       },
-      "price": 75.83
+      "price": 76.53
     },
     {
       "ticker": "HPQ",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -839,12 +839,12 @@
           "previous": "BUY"
         }
       },
-      "price": 30.75
+      "price": 30.76
     },
     {
       "ticker": "DELL",
       "sector": "Technology",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -859,12 +859,12 @@
           "previous": "BUY"
         }
       },
-      "price": 490.48
+      "price": 523.25
     },
     {
       "ticker": "XLC",
       "sector": "Communications",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -879,16 +879,16 @@
           "previous": "SELL"
         }
       },
-      "price": 109.88
+      "price": 109.46
     },
     {
       "ticker": "GOOGL",
       "sector": "Communications",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -899,16 +899,16 @@
           "previous": null
         }
       },
-      "price": 323.36
+      "price": 342.15
     },
     {
       "ticker": "META",
       "sector": "Communications",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -919,12 +919,12 @@
           "previous": "SELL"
         }
       },
-      "price": 617.12
+      "price": 612.26
     },
     {
       "ticker": "DIS",
       "sector": "Communications",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -939,15 +939,15 @@
           "previous": "SELL"
         }
       },
-      "price": 108.33
+      "price": 100.89
     },
     {
       "ticker": "NFLX",
       "sector": "Communications",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -959,12 +959,12 @@
           "previous": "SELL"
         }
       },
-      "price": 82.38
+      "price": 79.08
     },
     {
       "ticker": "SPOT",
       "sector": "Communications",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -979,12 +979,12 @@
           "previous": "SELL"
         }
       },
-      "price": 566.73
+      "price": 515.28
     },
     {
       "ticker": "APP",
       "sector": "Communications",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -999,12 +999,12 @@
           "previous": "SELL"
         }
       },
-      "price": 313.83
+      "price": 318.56
     },
     {
       "ticker": "RBLX",
       "sector": "Communications",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1019,12 +1019,12 @@
           "previous": "SELL"
         }
       },
-      "price": 39.31
+      "price": 41.04
     },
     {
       "ticker": "U",
       "sector": "Communications",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1039,15 +1039,15 @@
           "previous": "BUY"
         }
       },
-      "price": 41.73
+      "price": 41.52
     },
     {
       "ticker": "T",
       "sector": "Communications",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -1059,15 +1059,15 @@
           "previous": "SELL"
         }
       },
-      "price": 26.05
+      "price": 25.89
     },
     {
       "ticker": "VZ",
       "sector": "Communications",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -1079,12 +1079,12 @@
           "previous": "BUY"
         }
       },
-      "price": 47.77
+      "price": 47.78
     },
     {
       "ticker": "CMCSA",
       "sector": "Communications",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1099,16 +1099,16 @@
           "previous": "SELL"
         }
       },
-      "price": 26.63
+      "price": 26.52
     },
     {
       "ticker": "CHTR",
       "sector": "Communications",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -1119,15 +1119,15 @@
           "previous": "SELL"
         }
       },
-      "price": 151.32
+      "price": 142.5
     },
     {
       "ticker": "TMUS",
       "sector": "Communications",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -1139,12 +1139,12 @@
           "previous": "SELL"
         }
       },
-      "price": 178.02
+      "price": 181.39
     },
     {
       "ticker": "EA",
       "sector": "Communications",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1164,7 +1164,7 @@
     {
       "ticker": "TTWO",
       "sector": "Communications",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1179,12 +1179,12 @@
           "previous": "SELL"
         }
       },
-      "price": 215.5
+      "price": 205.06
     },
     {
       "ticker": "PARA",
       "sector": "Communications",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1199,12 +1199,12 @@
           "previous": "SELL"
         }
       },
-      "price": 0.91
+      "price": 0.86
     },
     {
       "ticker": "WBD",
       "sector": "Communications",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1219,12 +1219,12 @@
           "previous": "N/A"
         }
       },
-      "price": 28.41
+      "price": 28.33
     },
     {
       "ticker": "FOXA",
       "sector": "Communications",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1239,12 +1239,12 @@
           "previous": "SELL"
         }
       },
-      "price": 67.69
+      "price": 65.02
     },
     {
       "ticker": "LBRDA",
       "sector": "Communications",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1264,7 +1264,7 @@
     {
       "ticker": "XLY",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1279,12 +1279,12 @@
           "previous": "SELL"
         }
       },
-      "price": 113.08
+      "price": 111.7
     },
     {
       "ticker": "AMZN",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1299,15 +1299,15 @@
           "previous": "BUY"
         }
       },
-      "price": 243.31
+      "price": 258.95
     },
     {
       "ticker": "TSLA",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -1319,12 +1319,12 @@
           "previous": "SELL"
         }
       },
-      "price": 380.88
+      "price": 355.02
     },
     {
       "ticker": "HD",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1339,12 +1339,12 @@
           "previous": "SELL"
         }
       },
-      "price": 318.15
+      "price": 299.72
     },
     {
       "ticker": "LOW",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1359,12 +1359,12 @@
           "previous": "SELL"
         }
       },
-      "price": 201.31
+      "price": 203.05
     },
     {
       "ticker": "MCD",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1379,12 +1379,12 @@
           "previous": "SELL"
         }
       },
-      "price": 255.56
+      "price": 245.27
     },
     {
       "ticker": "SBUX",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1399,12 +1399,12 @@
           "previous": "BUY"
         }
       },
-      "price": 105.99
+      "price": 105.62
     },
     {
       "ticker": "NKE",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1419,19 +1419,19 @@
           "previous": "SELL"
         }
       },
-      "price": 37.12
+      "price": 36.3
     },
     {
       "ticker": "LULU",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "monthly": {
@@ -1439,12 +1439,12 @@
           "previous": "SELL"
         }
       },
-      "price": 98.21
+      "price": 95.41
     },
     {
       "ticker": "TJX",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1459,12 +1459,12 @@
           "previous": "SELL"
         }
       },
-      "price": 131.63
+      "price": 131.9
     },
     {
       "ticker": "BKNG",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1479,12 +1479,12 @@
           "previous": "SELL"
         }
       },
-      "price": 196.0
+      "price": 194.37
     },
     {
       "ticker": "MAR",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1499,12 +1499,12 @@
           "previous": "BUY"
         }
       },
-      "price": 334.7
+      "price": 335.52
     },
     {
       "ticker": "HLT",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1519,12 +1519,12 @@
           "previous": "BUY"
         }
       },
-      "price": 294.5
+      "price": 289.94
     },
     {
       "ticker": "TGT",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1539,12 +1539,12 @@
           "previous": "BUY"
         }
       },
-      "price": 163.76
+      "price": 163.03
     },
     {
       "ticker": "ABNB",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1559,12 +1559,12 @@
           "previous": "BUY"
         }
       },
-      "price": 174.33
+      "price": 182.79
     },
     {
       "ticker": "LYFT",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1579,12 +1579,12 @@
           "previous": "BUY"
         }
       },
-      "price": 16.86
+      "price": 16.7
     },
     {
       "ticker": "RCL",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1599,12 +1599,12 @@
           "previous": "SELL"
         }
       },
-      "price": 264.25
+      "price": 266.65
     },
     {
       "ticker": "CCL",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1619,16 +1619,16 @@
           "previous": "SELL"
         }
       },
-      "price": 22.13
+      "price": 23.45
     },
     {
       "ticker": "F",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -1644,11 +1644,11 @@
     {
       "ticker": "GM",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -1659,19 +1659,19 @@
           "previous": "BUY"
         }
       },
-      "price": 82.77
+      "price": 81.7
     },
     {
       "ticker": "XLP",
       "sector": "Consumer Staples",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "monthly": {
@@ -1679,12 +1679,12 @@
           "previous": "BUY"
         }
       },
-      "price": 85.41
+      "price": 84.58
     },
     {
       "ticker": "COST",
       "sector": "Consumer Staples",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1699,16 +1699,16 @@
           "previous": "SELL"
         }
       },
-      "price": 927.83
+      "price": 924.37
     },
     {
       "ticker": "WMT",
       "sector": "Consumer Staples",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -1719,12 +1719,12 @@
           "previous": "SELL"
         }
       },
-      "price": 107.91
+      "price": 108.13
     },
     {
       "ticker": "PG",
       "sector": "Consumer Staples",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1739,12 +1739,12 @@
           "previous": "SELL"
         }
       },
-      "price": 139.65
+      "price": 146.29
     },
     {
       "ticker": "KO",
       "sector": "Consumer Staples",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1759,12 +1759,12 @@
           "previous": "BUY"
         }
       },
-      "price": 88.12
+      "price": 83.89
     },
     {
       "ticker": "PEP",
       "sector": "Consumer Staples",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1779,12 +1779,12 @@
           "previous": "SELL"
         }
       },
-      "price": 133
+      "price": 130.72
     },
     {
       "ticker": "PM",
       "sector": "Consumer Staples",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1799,16 +1799,16 @@
           "previous": "BUY"
         }
       },
-      "price": 187.49
+      "price": 183.38
     },
     {
       "ticker": "MO",
       "sector": "Consumer Staples",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -1819,12 +1819,12 @@
           "previous": null
         }
       },
-      "price": 69.72
+      "price": 69.35
     },
     {
       "ticker": "CL",
       "sector": "Consumer Staples",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1839,16 +1839,16 @@
           "previous": null
         }
       },
-      "price": 89.96
+      "price": 89.79
     },
     {
       "ticker": "GIS",
       "sector": "Consumer Staples",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -1859,12 +1859,12 @@
           "previous": null
         }
       },
-      "price": 39.16
+      "price": 38.7
     },
     {
       "ticker": "K",
       "sector": "Consumer Staples",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1884,11 +1884,11 @@
     {
       "ticker": "MDLZ",
       "sector": "Consumer Staples",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -1899,12 +1899,12 @@
           "previous": null
         }
       },
-      "price": 58.43
+      "price": 61.19
     },
     {
       "ticker": "HSY",
       "sector": "Consumer Staples",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1919,16 +1919,16 @@
           "previous": null
         }
       },
-      "price": 173.88
+      "price": 174.51
     },
     {
       "ticker": "TSN",
       "sector": "Consumer Staples",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1939,15 +1939,15 @@
           "previous": null
         }
       },
-      "price": 51.7
+      "price": 48.56
     },
     {
       "ticker": "SJM",
       "sector": "Consumer Staples",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -1959,16 +1959,16 @@
           "previous": null
         }
       },
-      "price": 120.84
+      "price": 126.99
     },
     {
       "ticker": "CAG",
       "sector": "Consumer Staples",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -1979,16 +1979,16 @@
           "previous": null
         }
       },
-      "price": 14.88
+      "price": 14.72
     },
     {
       "ticker": "XLF",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -1999,16 +1999,16 @@
           "previous": null
         }
       },
-      "price": 58.58
+      "price": 58.31
     },
     {
       "ticker": "JPM",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -2019,16 +2019,16 @@
           "previous": "BUY"
         }
       },
-      "price": 358.71
+      "price": 361.14
     },
     {
       "ticker": "BAC",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -2039,16 +2039,16 @@
           "previous": null
         }
       },
-      "price": 62.84
+      "price": 62.66
     },
     {
       "ticker": "GS",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2059,16 +2059,16 @@
           "previous": "BUY"
         }
       },
-      "price": 982.18
+      "price": 1034.14
     },
     {
       "ticker": "MS",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2079,16 +2079,16 @@
           "previous": null
         }
       },
-      "price": 217.06
+      "price": 204.53
     },
     {
       "ticker": "WFC",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -2099,16 +2099,16 @@
           "previous": "SELL"
         }
       },
-      "price": 89.56
+      "price": 88.97
     },
     {
       "ticker": "C",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2119,16 +2119,16 @@
           "previous": null
         }
       },
-      "price": 130.85
+      "price": 136.67
     },
     {
       "ticker": "BX",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -2139,16 +2139,16 @@
           "previous": "BUY"
         }
       },
-      "price": 137.32
+      "price": 129.04
     },
     {
       "ticker": "KKR",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -2159,16 +2159,16 @@
           "previous": null
         }
       },
-      "price": 108.86
+      "price": 108.5
     },
     {
       "ticker": "APO",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -2179,36 +2179,36 @@
           "previous": "BUY"
         }
       },
-      "price": 136.57
+      "price": 133.1
     },
     {
       "ticker": "BLK",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
           "previous": null
         },
         "monthly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": null
         }
       },
-      "price": 1047.84
+      "price": 1142.96
     },
     {
       "ticker": "SCHW",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -2219,12 +2219,12 @@
           "previous": "BUY"
         }
       },
-      "price": 109.75
+      "price": 108.65
     },
     {
       "ticker": "V",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2239,52 +2239,12 @@
           "previous": null
         }
       },
-      "price": 360.17
+      "price": 372.69
     },
     {
       "ticker": "MA",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 591.3
-    },
-    {
-      "ticker": "AXP",
-      "sector": "Financials",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 331.57
-    },
-    {
-      "ticker": "PYPL",
-      "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2299,16 +2259,56 @@
           "previous": null
         }
       },
-      "price": 55.96
+      "price": 581.91
+    },
+    {
+      "ticker": "AXP",
+      "sector": "Financials",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 310.61
+    },
+    {
+      "ticker": "PYPL",
+      "sector": "Financials",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 52.13
     },
     {
       "ticker": "SQ",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "N/A",
-          "previous": "ERR"
+          "previous": "N/A"
         },
         "weekly": {
           "signal": "BUY",
@@ -2324,7 +2324,7 @@
     {
       "ticker": "NU",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2339,16 +2339,16 @@
           "previous": null
         }
       },
-      "price": 15.4
+      "price": 15.41
     },
     {
       "ticker": "SOFI",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -2359,16 +2359,16 @@
           "previous": null
         }
       },
-      "price": 18.39
+      "price": 18.19
     },
     {
       "ticker": "COF",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -2379,16 +2379,16 @@
           "previous": null
         }
       },
-      "price": 206.15
+      "price": 219.92
     },
     {
       "ticker": "USB",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -2404,11 +2404,11 @@
     {
       "ticker": "PNC",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2419,16 +2419,16 @@
           "previous": null
         }
       },
-      "price": 229.53
+      "price": 243.22
     },
     {
       "ticker": "TFC",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2439,16 +2439,16 @@
           "previous": null
         }
       },
-      "price": 48.96
+      "price": 51.82
     },
     {
       "ticker": "AIG",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2459,16 +2459,16 @@
           "previous": null
         }
       },
-      "price": 76.44
+      "price": 71.71
     },
     {
       "ticker": "MET",
       "sector": "Financials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -2479,16 +2479,16 @@
           "previous": null
         }
       },
-      "price": 93.59
+      "price": 98.33
     },
     {
       "ticker": "XLV",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -2499,16 +2499,16 @@
           "previous": null
         }
       },
-      "price": 172.19
+      "price": 171.62
     },
     {
       "ticker": "UNH",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2519,16 +2519,16 @@
           "previous": null
         }
       },
-      "price": 400.24
+      "price": 377.29
     },
     {
       "ticker": "JNJ",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -2539,12 +2539,12 @@
           "previous": null
         }
       },
-      "price": 275.03
+      "price": 276.91
     },
     {
       "ticker": "LLY",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2559,16 +2559,16 @@
           "previous": null
         }
       },
-      "price": 1145.24
+      "price": 1154.61
     },
     {
       "ticker": "ABBV",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -2579,15 +2579,15 @@
           "previous": null
         }
       },
-      "price": 260.94
+      "price": 243.19
     },
     {
       "ticker": "MRK",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -2599,16 +2599,16 @@
           "previous": null
         }
       },
-      "price": 151.03
+      "price": 150.79
     },
     {
       "ticker": "PFE",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -2619,16 +2619,16 @@
           "previous": null
         }
       },
-      "price": 28.8
+      "price": 27.15
     },
     {
       "ticker": "AMGN",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -2639,12 +2639,12 @@
           "previous": null
         }
       },
-      "price": 441.23
+      "price": 434.76
     },
     {
       "ticker": "GILD",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2659,12 +2659,12 @@
           "previous": null
         }
       },
-      "price": 141.41
+      "price": 141.36
     },
     {
       "ticker": "BIIB",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2679,16 +2679,16 @@
           "previous": null
         }
       },
-      "price": 211.85
+      "price": 209.47
     },
     {
       "ticker": "REGN",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -2699,16 +2699,16 @@
           "previous": null
         }
       },
-      "price": 836.01
+      "price": 832.17
     },
     {
       "ticker": "VRTX",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -2719,16 +2719,16 @@
           "previous": null
         }
       },
-      "price": 522.07
+      "price": 549.44
     },
     {
       "ticker": "ISRG",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -2739,16 +2739,16 @@
           "previous": null
         }
       },
-      "price": 347.7
+      "price": 347.76
     },
     {
       "ticker": "BSX",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -2759,16 +2759,16 @@
           "previous": null
         }
       },
-      "price": 45.29
+      "price": 47.97
     },
     {
       "ticker": "MDT",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -2779,16 +2779,16 @@
           "previous": null
         }
       },
-      "price": 91.71
+      "price": 94.43
     },
     {
       "ticker": "CVS",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -2799,12 +2799,12 @@
           "previous": null
         }
       },
-      "price": 91.53
+      "price": 97.09
     },
     {
       "ticker": "HUM",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2819,16 +2819,16 @@
           "previous": null
         }
       },
-      "price": 405.29
+      "price": 400.82
     },
     {
       "ticker": "ELV",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -2839,12 +2839,12 @@
           "previous": null
         }
       },
-      "price": 403.43
+      "price": 404.15
     },
     {
       "ticker": "CI",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2859,16 +2859,16 @@
           "previous": null
         }
       },
-      "price": 268.61
+      "price": 285.04
     },
     {
       "ticker": "ZTS",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -2879,12 +2879,12 @@
           "previous": null
         }
       },
-      "price": 72.64
+      "price": 71.25
     },
     {
       "ticker": "DXCM",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2899,16 +2899,16 @@
           "previous": null
         }
       },
-      "price": 90.13
+      "price": 88.71
     },
     {
       "ticker": "IDXX",
       "sector": "Health Care",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2919,12 +2919,12 @@
           "previous": null
         }
       },
-      "price": 536.21
+      "price": 533.48
     },
     {
       "ticker": "XLE",
       "sector": "Energy",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2939,16 +2939,16 @@
           "previous": null
         }
       },
-      "price": 64.91
+      "price": 64.16
     },
     {
       "ticker": "XOM",
       "sector": "Energy",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -2959,12 +2959,12 @@
           "previous": null
         }
       },
-      "price": 164.51
+      "price": 160.68
     },
     {
       "ticker": "CVX",
       "sector": "Energy",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2979,16 +2979,16 @@
           "previous": null
         }
       },
-      "price": 201.4
+      "price": 204.96
     },
     {
       "ticker": "COP",
       "sector": "Energy",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -2999,16 +2999,16 @@
           "previous": "BUY"
         }
       },
-      "price": 136.09
+      "price": 133.3
     },
     {
       "ticker": "EOG",
       "sector": "Energy",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -3019,16 +3019,16 @@
           "previous": null
         }
       },
-      "price": 140.61
+      "price": 137.37
     },
     {
       "ticker": "SLB",
       "sector": "Energy",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3039,16 +3039,16 @@
           "previous": null
         }
       },
-      "price": 55.29
+      "price": 56.92
     },
     {
       "ticker": "MPC",
       "sector": "Energy",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3059,16 +3059,16 @@
           "previous": null
         }
       },
-      "price": 396.36
+      "price": 364.85
     },
     {
       "ticker": "PSX",
       "sector": "Energy",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3079,16 +3079,16 @@
           "previous": null
         }
       },
-      "price": 257.5
+      "price": 239.58
     },
     {
       "ticker": "VLO",
       "sector": "Energy",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3099,12 +3099,12 @@
           "previous": null
         }
       },
-      "price": 355.2
+      "price": 368.57
     },
     {
       "ticker": "HAL",
       "sector": "Energy",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -3119,32 +3119,12 @@
           "previous": null
         }
       },
-      "price": 37.5
+      "price": 37.15
     },
     {
       "ticker": "DVN",
       "sector": "Energy",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 49.27
-    },
-    {
-      "ticker": "OXY",
-      "sector": "Energy",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -3159,16 +3139,36 @@
           "previous": null
         }
       },
-      "price": 61.05
+      "price": 48.03
+    },
+    {
+      "ticker": "OXY",
+      "sector": "Energy",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "BUY"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 60.14
     },
     {
       "ticker": "HES",
       "sector": "Energy",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "N/A",
-          "previous": "ERR"
+          "previous": "N/A"
         },
         "weekly": {
           "signal": "BUY",
@@ -3184,11 +3184,11 @@
     {
       "ticker": "BKR",
       "sector": "Energy",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -3199,19 +3199,19 @@
           "previous": null
         }
       },
-      "price": 61.05
+      "price": 62.89
     },
     {
       "ticker": "FANG",
       "sector": "Energy",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": null
         },
         "monthly": {
@@ -3219,16 +3219,16 @@
           "previous": "BUY"
         }
       },
-      "price": 203.44
+      "price": 198.63
     },
     {
       "ticker": "MRO",
       "sector": "Energy",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "N/A",
-          "previous": "ERR"
+          "previous": "N/A"
         },
         "weekly": {
           "signal": "BUY",
@@ -3244,11 +3244,11 @@
     {
       "ticker": "APA",
       "sector": "Energy",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3259,16 +3259,16 @@
           "previous": "BUY"
         }
       },
-      "price": 44.38
+      "price": 43.28
     },
     {
       "ticker": "XLI",
       "sector": "Industrials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3279,16 +3279,16 @@
           "previous": null
         }
       },
-      "price": 173.65
+      "price": 174.62
     },
     {
       "ticker": "CAT",
       "sector": "Industrials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3299,16 +3299,16 @@
           "previous": "ERR"
         }
       },
-      "price": 798.02
+      "price": 813.39
     },
     {
       "ticker": "DE",
       "sector": "Industrials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3319,16 +3319,16 @@
           "previous": null
         }
       },
-      "price": 695.42
+      "price": 694.61
     },
     {
       "ticker": "RTX",
       "sector": "Industrials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -3339,36 +3339,36 @@
           "previous": "ERR"
         }
       },
-      "price": 202.48
+      "price": 201.32
     },
     {
       "ticker": "LMT",
       "sector": "Industrials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
           "previous": null
         },
         "monthly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": null
         }
       },
-      "price": 534.55
+      "price": 531.34
     },
     {
       "ticker": "NOC",
       "sector": "Industrials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3379,16 +3379,16 @@
           "previous": "SELL"
         }
       },
-      "price": 527.46
+      "price": 488.86
     },
     {
       "ticker": "GE",
       "sector": "Industrials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3399,16 +3399,16 @@
           "previous": null
         }
       },
-      "price": 314.45
+      "price": 333.99
     },
     {
       "ticker": "HON",
       "sector": "Industrials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3419,16 +3419,16 @@
           "previous": "BUY"
         }
       },
-      "price": 207.61
+      "price": 208.12
     },
     {
       "ticker": "BA",
       "sector": "Industrials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3439,16 +3439,16 @@
           "previous": null
         }
       },
-      "price": 210.38
+      "price": 209.79
     },
     {
       "ticker": "UNP",
       "sector": "Industrials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -3459,16 +3459,16 @@
           "previous": "ERR"
         }
       },
-      "price": 289.99
+      "price": 289.09
     },
     {
       "ticker": "FDX",
       "sector": "Industrials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3479,16 +3479,16 @@
           "previous": null
         }
       },
-      "price": 301.17
+      "price": 323.15
     },
     {
       "ticker": "UPS",
       "sector": "Industrials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -3499,16 +3499,16 @@
           "previous": "BUY"
         }
       },
-      "price": 103.63
+      "price": 97.85
     },
     {
       "ticker": "WM",
       "sector": "Industrials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3519,16 +3519,16 @@
           "previous": null
         }
       },
-      "price": 219.04
+      "price": 218.63
     },
     {
       "ticker": "MMM",
       "sector": "Industrials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -3539,12 +3539,12 @@
           "previous": "BUY"
         }
       },
-      "price": 159.6
+      "price": 167.21
     },
     {
       "ticker": "EMR",
       "sector": "Industrials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3559,36 +3559,36 @@
           "previous": null
         }
       },
-      "price": 150.75
+      "price": 155.12
     },
     {
       "ticker": "ETN",
       "sector": "Industrials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
           "previous": null
         },
         "monthly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": null
         }
       },
-      "price": 395.61
+      "price": 408.86
     },
     {
       "ticker": "PH",
       "sector": "Industrials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -3599,15 +3599,15 @@
           "previous": null
         }
       },
-      "price": 893.27
+      "price": 950.18
     },
     {
       "ticker": "ROK",
       "sector": "Industrials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -3619,16 +3619,16 @@
           "previous": null
         }
       },
-      "price": 389.5
+      "price": 404.7
     },
     {
       "ticker": "CMI",
       "sector": "Industrials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3639,12 +3639,12 @@
           "previous": null
         }
       },
-      "price": 547.35
+      "price": 557.35
     },
     {
       "ticker": "PCAR",
       "sector": "Industrials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3659,16 +3659,16 @@
           "previous": null
         }
       },
-      "price": 116.52
+      "price": 124.98
     },
     {
       "ticker": "XLB",
       "sector": "Materials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -3679,12 +3679,12 @@
           "previous": null
         }
       },
-      "price": 51.02
+      "price": 52.53
     },
     {
       "ticker": "NEM",
       "sector": "Materials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3699,16 +3699,16 @@
           "previous": null
         }
       },
-      "price": 121.79
+      "price": 126.78
     },
     {
       "ticker": "FCX",
       "sector": "Materials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -3719,15 +3719,15 @@
           "previous": null
         }
       },
-      "price": 72.43
+      "price": 73.09
     },
     {
       "ticker": "AA",
       "sector": "Materials",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -3739,472 +3739,12 @@
           "previous": null
         }
       },
-      "price": 48.3
+      "price": 50.16
     },
     {
       "ticker": "NUE",
       "sector": "Materials",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 264.56
-    },
-    {
-      "ticker": "LIN",
-      "sector": "Materials",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 460.34
-    },
-    {
-      "ticker": "APD",
-      "sector": "Materials",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 289.32
-    },
-    {
-      "ticker": "ECL",
-      "sector": "Materials",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 273.21
-    },
-    {
-      "ticker": "DD",
-      "sector": "Materials",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 124.45
-    },
-    {
-      "ticker": "DOW",
-      "sector": "Materials",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 30.43
-    },
-    {
-      "ticker": "PPG",
-      "sector": "Materials",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 110.47
-    },
-    {
-      "ticker": "VMC",
-      "sector": "Materials",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 262.58
-    },
-    {
-      "ticker": "MLM",
-      "sector": "Materials",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 507.64
-    },
-    {
-      "ticker": "IP",
-      "sector": "Materials",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 36.7
-    },
-    {
-      "ticker": "PKG",
-      "sector": "Materials",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 231.68
-    },
-    {
-      "ticker": "ALB",
-      "sector": "Materials",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 133.12
-    },
-    {
-      "ticker": "XLU",
-      "sector": "Utilities",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 41.42
-    },
-    {
-      "ticker": "NEE",
-      "sector": "Utilities",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 79.04
-    },
-    {
-      "ticker": "DUK",
-      "sector": "Utilities",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 120.51
-    },
-    {
-      "ticker": "SO",
-      "sector": "Utilities",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 88.57
-    },
-    {
-      "ticker": "D",
-      "sector": "Utilities",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 66.39
-    },
-    {
-      "ticker": "AEP",
-      "sector": "Utilities",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": "ERR"
-        }
-      },
-      "price": 123.66
-    },
-    {
-      "ticker": "EXC",
-      "sector": "Utilities",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 41.67
-    },
-    {
-      "ticker": "SRE",
-      "sector": "Utilities",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 84.62
-    },
-    {
-      "ticker": "PCG",
-      "sector": "Utilities",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 13.89
-    },
-    {
-      "ticker": "ES",
-      "sector": "Utilities",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 72.39
-    },
-    {
-      "ticker": "AWK",
-      "sector": "Utilities",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 140.17
-    },
-    {
-      "ticker": "ETR",
-      "sector": "Utilities",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4219,16 +3759,476 @@
           "previous": null
         }
       },
-      "price": 107.28
+      "price": 259.51
+    },
+    {
+      "ticker": "LIN",
+      "sector": "Materials",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 454.1
+    },
+    {
+      "ticker": "APD",
+      "sector": "Materials",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 299.56
+    },
+    {
+      "ticker": "ECL",
+      "sector": "Materials",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 282.4
+    },
+    {
+      "ticker": "DD",
+      "sector": "Materials",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 131.34
+    },
+    {
+      "ticker": "DOW",
+      "sector": "Materials",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 29.4
+    },
+    {
+      "ticker": "PPG",
+      "sector": "Materials",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 112.25
+    },
+    {
+      "ticker": "VMC",
+      "sector": "Materials",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 248.54
+    },
+    {
+      "ticker": "MLM",
+      "sector": "Materials",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 509.49
+    },
+    {
+      "ticker": "IP",
+      "sector": "Materials",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": "ERR"
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 37.39
+    },
+    {
+      "ticker": "PKG",
+      "sector": "Materials",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 237.64
+    },
+    {
+      "ticker": "ALB",
+      "sector": "Materials",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 120.12
+    },
+    {
+      "ticker": "XLU",
+      "sector": "Utilities",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "BUY",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 41.92
+    },
+    {
+      "ticker": "NEE",
+      "sector": "Utilities",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "BUY",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 79.51
+    },
+    {
+      "ticker": "DUK",
+      "sector": "Utilities",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 121.15
+    },
+    {
+      "ticker": "SO",
+      "sector": "Utilities",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 83.74
+    },
+    {
+      "ticker": "D",
+      "sector": "Utilities",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 66.08
+    },
+    {
+      "ticker": "AEP",
+      "sector": "Utilities",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "BUY",
+          "previous": "BUY"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": "ERR"
+        }
+      },
+      "price": 124.79
+    },
+    {
+      "ticker": "EXC",
+      "sector": "Utilities",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 43.88
+    },
+    {
+      "ticker": "SRE",
+      "sector": "Utilities",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "BUY",
+          "previous": "BUY"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 84.41
+    },
+    {
+      "ticker": "PCG",
+      "sector": "Utilities",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 14.11
+    },
+    {
+      "ticker": "ES",
+      "sector": "Utilities",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "BUY",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 71.6
+    },
+    {
+      "ticker": "AWK",
+      "sector": "Utilities",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "BUY",
+          "previous": "BUY"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 139.72
+    },
+    {
+      "ticker": "ETR",
+      "sector": "Utilities",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "BUY",
+          "previous": "BUY"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 107.03
     },
     {
       "ticker": "FE",
       "sector": "Utilities",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -4239,15 +4239,15 @@
           "previous": null
         }
       },
-      "price": 43.59
+      "price": 46.83
     },
     {
       "ticker": "PPL",
       "sector": "Utilities",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -4259,16 +4259,16 @@
           "previous": null
         }
       },
-      "price": 35.2
+      "price": 34.95
     },
     {
       "ticker": "NI",
       "sector": "Utilities",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -4279,16 +4279,16 @@
           "previous": null
         }
       },
-      "price": 39.69
+      "price": 40.95
     },
     {
       "ticker": "CMS",
       "sector": "Utilities",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -4299,16 +4299,16 @@
           "previous": null
         }
       },
-      "price": 68.16
+      "price": 68.4
     },
     {
       "ticker": "XLRE",
       "sector": "Real Estate",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4319,12 +4319,12 @@
           "previous": null
         }
       },
-      "price": 42.53
+      "price": 42.68
     },
     {
       "ticker": "PLD",
       "sector": "Real Estate",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4339,16 +4339,16 @@
           "previous": null
         }
       },
-      "price": 129.11
+      "price": 137.49
     },
     {
       "ticker": "AMT",
       "sector": "Real Estate",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -4359,12 +4359,12 @@
           "previous": null
         }
       },
-      "price": 166.93
+      "price": 165.15
     },
     {
       "ticker": "EQIX",
       "sector": "Real Estate",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4379,16 +4379,16 @@
           "previous": null
         }
       },
-      "price": 1034.35
+      "price": 989.42
     },
     {
       "ticker": "SPG",
       "sector": "Real Estate",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4399,12 +4399,12 @@
           "previous": null
         }
       },
-      "price": 199.69
+      "price": 209.98
     },
     {
       "ticker": "O",
       "sector": "Real Estate",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4419,19 +4419,19 @@
           "previous": null
         }
       },
-      "price": 61.64
+      "price": 61.51
     },
     {
       "ticker": "WELL",
       "sector": "Real Estate",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": null
         },
         "monthly": {
@@ -4439,12 +4439,12 @@
           "previous": null
         }
       },
-      "price": 227.05
+      "price": 225.35
     },
     {
       "ticker": "PSA",
       "sector": "Real Estate",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4459,16 +4459,16 @@
           "previous": null
         }
       },
-      "price": 304.74
+      "price": 301.42
     },
     {
       "ticker": "VTR",
       "sector": "Real Estate",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4479,12 +4479,12 @@
           "previous": null
         }
       },
-      "price": 87.08
+      "price": 85.05
     },
     {
       "ticker": "EQR",
       "sector": "Real Estate",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4504,11 +4504,11 @@
     {
       "ticker": "AVB",
       "sector": "Real Estate",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4524,10 +4524,10 @@
     {
       "ticker": "DLR",
       "sector": "Real Estate",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -4539,16 +4539,16 @@
           "previous": null
         }
       },
-      "price": 187.09
+      "price": 191.19
     },
     {
       "ticker": "CCI",
       "sector": "Real Estate",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -4559,16 +4559,16 @@
           "previous": null
         }
       },
-      "price": 76.78
+      "price": 75.44
     },
     {
       "ticker": "SBAC",
       "sector": "Real Estate",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -4579,16 +4579,16 @@
           "previous": null
         }
       },
-      "price": 192.02
+      "price": 179.96
     },
     {
       "ticker": "WY",
       "sector": "Real Estate",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4599,12 +4599,12 @@
           "previous": null
         }
       },
-      "price": 23.03
+      "price": 22.89
     },
     {
       "ticker": "HST",
       "sector": "Real Estate",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4619,16 +4619,16 @@
           "previous": null
         }
       },
-      "price": 22.13
+      "price": 22.21
     },
     {
       "ticker": "SMH",
       "sector": "Semiconductors",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4639,12 +4639,12 @@
           "previous": null
         }
       },
-      "price": 550.02
+      "price": 565.82
     },
     {
       "ticker": "SOXX",
       "sector": "Semiconductors",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4659,16 +4659,16 @@
           "previous": null
         }
       },
-      "price": 501.33
+      "price": 503.78
     },
     {
       "ticker": "NVDA",
       "sector": "Semiconductors",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -4679,15 +4679,15 @@
           "previous": null
         }
       },
-      "price": 225.93
+      "price": 219.49
     },
     {
       "ticker": "AMD",
       "sector": "Semiconductors",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -4699,16 +4699,16 @@
           "previous": null
         }
       },
-      "price": 430.28
+      "price": 447.38
     },
     {
       "ticker": "INTC",
       "sector": "Semiconductors",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -4719,12 +4719,12 @@
           "previous": null
         }
       },
-      "price": 91.19
+      "price": 94.31
     },
     {
       "ticker": "QCOM",
       "sector": "Semiconductors",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4739,16 +4739,16 @@
           "previous": null
         }
       },
-      "price": 168.58
+      "price": 160.55
     },
     {
       "ticker": "MU",
       "sector": "Semiconductors",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -4759,12 +4759,12 @@
           "previous": null
         }
       },
-      "price": 957.11
+      "price": 1010.65
     },
     {
       "ticker": "AVGO",
       "sector": "Semiconductors",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4779,16 +4779,16 @@
           "previous": null
         }
       },
-      "price": 355.62
+      "price": 359.56
     },
     {
       "ticker": "AMAT",
       "sector": "Semiconductors",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4799,12 +4799,12 @@
           "previous": null
         }
       },
-      "price": 410.4
+      "price": 435.81
     },
     {
       "ticker": "LRCX",
       "sector": "Semiconductors",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4819,16 +4819,16 @@
           "previous": null
         }
       },
-      "price": 275.38
+      "price": 286.59
     },
     {
       "ticker": "KLAC",
       "sector": "Semiconductors",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4839,15 +4839,15 @@
           "previous": null
         }
       },
-      "price": 171.51
+      "price": 176.38
     },
     {
       "ticker": "MRVL",
       "sector": "Semiconductors",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -4859,16 +4859,16 @@
           "previous": null
         }
       },
-      "price": 208.53
+      "price": 220.32
     },
     {
       "ticker": "ASML",
       "sector": "Semiconductors",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4879,16 +4879,16 @@
           "previous": "ERR"
         }
       },
-      "price": 1643.84
+      "price": 1712.6
     },
     {
       "ticker": "TSM",
       "sector": "Semiconductors",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4899,16 +4899,16 @@
           "previous": null
         }
       },
-      "price": 355.36
+      "price": 421.4
     },
     {
       "ticker": "MCHP",
       "sector": "Semiconductors",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4919,16 +4919,16 @@
           "previous": "ERR"
         }
       },
-      "price": 69.18
+      "price": 73.68
     },
     {
       "ticker": "ON",
       "sector": "Semiconductors",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -4939,16 +4939,16 @@
           "previous": null
         }
       },
-      "price": 69.6
+      "price": 74.09
     },
     {
       "ticker": "MPWR",
       "sector": "Semiconductors",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4959,16 +4959,16 @@
           "previous": "BUY"
         }
       },
-      "price": 1209.74
+      "price": 1161.85
     },
     {
       "ticker": "ENTG",
       "sector": "Semiconductors",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4979,16 +4979,16 @@
           "previous": null
         }
       },
-      "price": 122.56
+      "price": 129.59
     },
     {
       "ticker": "ONTO",
       "sector": "Semiconductors",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4999,16 +4999,16 @@
           "previous": "BUY"
         }
       },
-      "price": 252.19
+      "price": 232.25
     },
     {
       "ticker": "TER",
       "sector": "Semiconductors",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -5019,12 +5019,12 @@
           "previous": "BUY"
         }
       },
-      "price": 323.25
+      "price": 353.2
     },
     {
       "ticker": "XBI",
       "sector": "Biotech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5039,16 +5039,16 @@
           "previous": null
         }
       },
-      "price": 163.66
+      "price": 159.37
     },
     {
       "ticker": "ARKG",
       "sector": "Biotech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -5059,12 +5059,12 @@
           "previous": null
         }
       },
-      "price": 47.06
+      "price": 45.1
     },
     {
       "ticker": "MRNA",
       "sector": "Biotech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5079,16 +5079,16 @@
           "previous": null
         }
       },
-      "price": 149.25
+      "price": 145.55
     },
     {
       "ticker": "BNTX",
       "sector": "Biotech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -5099,16 +5099,16 @@
           "previous": null
         }
       },
-      "price": 89.54
+      "price": 88.15
     },
     {
       "ticker": "REGN",
       "sector": "Biotech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -5119,16 +5119,16 @@
           "previous": null
         }
       },
-      "price": 836.01
+      "price": 832.17
     },
     {
       "ticker": "VRTX",
       "sector": "Biotech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -5139,12 +5139,12 @@
           "previous": null
         }
       },
-      "price": 522.07
+      "price": 549.44
     },
     {
       "ticker": "BIIB",
       "sector": "Biotech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5159,16 +5159,16 @@
           "previous": null
         }
       },
-      "price": 211.85
+      "price": 209.47
     },
     {
       "ticker": "AMGN",
       "sector": "Biotech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -5179,12 +5179,12 @@
           "previous": null
         }
       },
-      "price": 441.23
+      "price": 434.76
     },
     {
       "ticker": "GILD",
       "sector": "Biotech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5199,16 +5199,16 @@
           "previous": null
         }
       },
-      "price": 141.41
+      "price": 141.36
     },
     {
       "ticker": "ILMN",
       "sector": "Biotech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -5219,12 +5219,12 @@
           "previous": null
         }
       },
-      "price": 220.2
+      "price": 204.25
     },
     {
       "ticker": "EXAS",
       "sector": "Biotech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5244,147 +5244,7 @@
     {
       "ticker": "BMRN",
       "sector": "Biotech",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 66.47
-    },
-    {
-      "ticker": "ALNY",
-      "sector": "Biotech",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 264.62
-    },
-    {
-      "ticker": "INCY",
-      "sector": "Biotech",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 122.37
-    },
-    {
-      "ticker": "RARE",
-      "sector": "Biotech",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": "BUY"
-        }
-      },
-      "price": 14.68
-    },
-    {
-      "ticker": "CIBR",
-      "sector": "Cybersecurity",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 92.33
-    },
-    {
-      "ticker": "HACK",
-      "sector": "Cybersecurity",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 112.49
-    },
-    {
-      "ticker": "CRWD",
-      "sector": "Cybersecurity",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 212.81
-    },
-    {
-      "ticker": "PANW",
-      "sector": "Cybersecurity",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5399,16 +5259,156 @@
           "previous": null
         }
       },
-      "price": 326.52
+      "price": 62.83
+    },
+    {
+      "ticker": "ALNY",
+      "sector": "Biotech",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "BUY",
+          "previous": "BUY"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 267.1
+    },
+    {
+      "ticker": "INCY",
+      "sector": "Biotech",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 121.58
+    },
+    {
+      "ticker": "RARE",
+      "sector": "Biotech",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": "BUY"
+        }
+      },
+      "price": 15.23
+    },
+    {
+      "ticker": "CIBR",
+      "sector": "Cybersecurity",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 94.97
+    },
+    {
+      "ticker": "HACK",
+      "sector": "Cybersecurity",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 107.67
+    },
+    {
+      "ticker": "CRWD",
+      "sector": "Cybersecurity",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "BUY",
+          "previous": "BUY"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 201.87
+    },
+    {
+      "ticker": "PANW",
+      "sector": "Cybersecurity",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 333.88
     },
     {
       "ticker": "ZS",
       "sector": "Cybersecurity",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -5419,12 +5419,12 @@
           "previous": null
         }
       },
-      "price": 178.25
+      "price": 161.3
     },
     {
       "ticker": "NET",
       "sector": "Cybersecurity",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5444,11 +5444,11 @@
     {
       "ticker": "FTNT",
       "sector": "Cybersecurity",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -5459,12 +5459,12 @@
           "previous": null
         }
       },
-      "price": 147.72
+      "price": 157.93
     },
     {
       "ticker": "OKTA",
       "sector": "Cybersecurity",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5479,16 +5479,16 @@
           "previous": null
         }
       },
-      "price": 159.92
+      "price": 170.9
     },
     {
       "ticker": "S",
       "sector": "Cybersecurity",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -5499,12 +5499,12 @@
           "previous": null
         }
       },
-      "price": 18.65
+      "price": 19.81
     },
     {
       "ticker": "TENB",
       "sector": "Cybersecurity",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5519,16 +5519,16 @@
           "previous": null
         }
       },
-      "price": 34.3
+      "price": 35.07
     },
     {
       "ticker": "QLYS",
       "sector": "Cybersecurity",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -5539,12 +5539,12 @@
           "previous": null
         }
       },
-      "price": 171.65
+      "price": 173.57
     },
     {
       "ticker": "VRNS",
       "sector": "Cybersecurity",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5559,16 +5559,16 @@
           "previous": null
         }
       },
-      "price": 39.71
+      "price": 46.47
     },
     {
       "ticker": "CSCO",
       "sector": "Cybersecurity",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -5579,16 +5579,16 @@
           "previous": "ERR"
         }
       },
-      "price": 108.65
+      "price": 109.25
     },
     {
       "ticker": "CHKP",
       "sector": "Cybersecurity",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -5599,16 +5599,16 @@
           "previous": null
         }
       },
-      "price": 137.85
+      "price": 136.22
     },
     {
       "ticker": "RPD",
       "sector": "Cybersecurity",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -5619,16 +5619,16 @@
           "previous": "BUY"
         }
       },
-      "price": 11.34
+      "price": 10.94
     },
     {
       "ticker": "BOTZ",
       "sector": "AI & Robotics",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -5639,16 +5639,16 @@
           "previous": null
         }
       },
-      "price": 35.56
+      "price": 35.65
     },
     {
       "ticker": "ROBO",
       "sector": "AI & Robotics",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -5659,16 +5659,16 @@
           "previous": "BUY"
         }
       },
-      "price": 77.03
+      "price": 81.21
     },
     {
       "ticker": "NVDA",
       "sector": "AI & Robotics",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -5679,16 +5679,16 @@
           "previous": null
         }
       },
-      "price": 225.93
+      "price": 219.49
     },
     {
       "ticker": "MSFT",
       "sector": "AI & Robotics",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -5699,16 +5699,16 @@
           "previous": "ERR"
         }
       },
-      "price": 486.2
+      "price": 500.03
     },
     {
       "ticker": "GOOGL",
       "sector": "AI & Robotics",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -5719,16 +5719,16 @@
           "previous": null
         }
       },
-      "price": 323.36
+      "price": 342.15
     },
     {
       "ticker": "META",
       "sector": "AI & Robotics",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -5739,16 +5739,16 @@
           "previous": "SELL"
         }
       },
-      "price": 617.12
+      "price": 612.26
     },
     {
       "ticker": "PATH",
       "sector": "AI & Robotics",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -5759,16 +5759,16 @@
           "previous": null
         }
       },
-      "price": 17.24
+      "price": 14.64
     },
     {
       "ticker": "AI",
       "sector": "AI & Robotics",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -5779,12 +5779,12 @@
           "previous": "ERR"
         }
       },
-      "price": 9.39
+      "price": 10.49
     },
     {
       "ticker": "BBAI",
       "sector": "AI & Robotics",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5799,16 +5799,16 @@
           "previous": null
         }
       },
-      "price": 2.58
+      "price": 2.96
     },
     {
       "ticker": "SOUN",
       "sector": "AI & Robotics",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -5819,16 +5819,16 @@
           "previous": "ERR"
         }
       },
-      "price": 5.76
+      "price": 6.72
     },
     {
       "ticker": "CFLT",
       "sector": "AI & Robotics",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -5844,11 +5844,11 @@
     {
       "ticker": "GTLB",
       "sector": "AI & Robotics",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -5859,12 +5859,12 @@
           "previous": null
         }
       },
-      "price": 47.26
+      "price": 50.0
     },
     {
       "ticker": "AMBA",
       "sector": "AI & Robotics",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5879,16 +5879,16 @@
           "previous": null
         }
       },
-      "price": 63.65
+      "price": 62.82
     },
     {
       "ticker": "TER",
       "sector": "AI & Robotics",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -5899,16 +5899,16 @@
           "previous": "BUY"
         }
       },
-      "price": 323.25
+      "price": 353.2
     },
     {
       "ticker": "ISRG",
       "sector": "AI & Robotics",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -5919,16 +5919,16 @@
           "previous": null
         }
       },
-      "price": 347.7
+      "price": 347.76
     },
     {
       "ticker": "PLTR",
       "sector": "AI & Robotics",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -5939,16 +5939,16 @@
           "previous": "ERR"
         }
       },
-      "price": 182.97
+      "price": 174.11
     },
     {
       "ticker": "QBTS",
       "sector": "AI & Robotics",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -5959,16 +5959,16 @@
           "previous": null
         }
       },
-      "price": 14.53
+      "price": 16.57
     },
     {
       "ticker": "FINX",
       "sector": "Fintech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -5979,12 +5979,12 @@
           "previous": null
         }
       },
-      "price": 26.84
+      "price": 27.31
     },
     {
       "ticker": "V",
       "sector": "Fintech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5999,32 +5999,12 @@
           "previous": null
         }
       },
-      "price": 360.17
+      "price": 372.69
     },
     {
       "ticker": "MA",
       "sector": "Fintech",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 591.3
-    },
-    {
-      "ticker": "PYPL",
-      "sector": "Fintech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6039,16 +6019,36 @@
           "previous": null
         }
       },
-      "price": 55.96
+      "price": 581.91
+    },
+    {
+      "ticker": "PYPL",
+      "sector": "Fintech",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 52.13
     },
     {
       "ticker": "SQ",
       "sector": "Fintech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "N/A",
-          "previous": "ERR"
+          "previous": "N/A"
         },
         "weekly": {
           "signal": "BUY",
@@ -6064,7 +6064,7 @@
     {
       "ticker": "NU",
       "sector": "Fintech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6079,16 +6079,16 @@
           "previous": null
         }
       },
-      "price": 15.4
+      "price": 15.41
     },
     {
       "ticker": "SOFI",
       "sector": "Fintech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -6099,12 +6099,12 @@
           "previous": null
         }
       },
-      "price": 18.39
+      "price": 18.19
     },
     {
       "ticker": "AFRM",
       "sector": "Fintech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6119,16 +6119,16 @@
           "previous": null
         }
       },
-      "price": 74.43
+      "price": 72.52
     },
     {
       "ticker": "UPST",
       "sector": "Fintech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -6139,12 +6139,12 @@
           "previous": null
         }
       },
-      "price": 24.35
+      "price": 27.79
     },
     {
       "ticker": "LC",
       "sector": "Fintech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6164,27 +6164,7 @@
     {
       "ticker": "WEX",
       "sector": "Fintech",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 174.03
-    },
-    {
-      "ticker": "FLYW",
-      "sector": "Fintech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6199,16 +6179,36 @@
           "previous": null
         }
       },
-      "price": 16.31
+      "price": 192.72
+    },
+    {
+      "ticker": "FLYW",
+      "sector": "Fintech",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 17.38
     },
     {
       "ticker": "CWAN",
       "sector": "Fintech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -6224,7 +6224,7 @@
     {
       "ticker": "COIN",
       "sector": "Fintech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6239,16 +6239,16 @@
           "previous": null
         }
       },
-      "price": 183.6
+      "price": 184.64
     },
     {
       "ticker": "HOOD",
       "sector": "Fintech",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -6259,12 +6259,12 @@
           "previous": null
         }
       },
-      "price": 123.61
+      "price": 122.83
     },
     {
       "ticker": "IBIT",
       "sector": "Crypto",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6279,32 +6279,12 @@
           "previous": null
         }
       },
-      "price": 46.19
+      "price": 45.16
     },
     {
       "ticker": "FBTC",
       "sector": "Crypto",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "N/A",
-          "previous": null
-        }
-      },
-      "price": 71.09
-    },
-    {
-      "ticker": "ETHA",
-      "sector": "Crypto",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6319,32 +6299,52 @@
           "previous": null
         }
       },
-      "price": 18.91
+      "price": 66.93
+    },
+    {
+      "ticker": "ETHA",
+      "sector": "Crypto",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "BUY",
+          "previous": "BUY"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "N/A",
+          "previous": null
+        }
+      },
+      "price": 18.51
     },
     {
       "ticker": "BTC/USD",
       "sector": "Crypto",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
           "previous": null
         },
         "monthly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": null
         }
       },
-      "price": 81171.14
+      "price": 79679.9
     },
     {
       "ticker": "ETH/USD",
       "sector": "Crypto",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6359,16 +6359,16 @@
           "previous": null
         }
       },
-      "price": 2498.91
+      "price": 2453.47
     },
     {
       "ticker": "SOL/USD",
       "sector": "Crypto",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -6379,16 +6379,16 @@
           "previous": null
         }
       },
-      "price": 104.27
+      "price": 101.7
     },
     {
       "ticker": "XRP/USD",
       "sector": "Crypto",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -6399,16 +6399,16 @@
           "previous": null
         }
       },
-      "price": 1.46
+      "price": 1.4
     },
     {
       "ticker": "ADA/USD",
       "sector": "Crypto",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "N/A",
@@ -6419,16 +6419,16 @@
           "previous": null
         }
       },
-      "price": 0.22
+      "price": 0.21
     },
     {
       "ticker": "AVAX/USD",
       "sector": "Crypto",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -6439,16 +6439,16 @@
           "previous": null
         }
       },
-      "price": 7.54
+      "price": 7.41
     },
     {
       "ticker": "DOGE/USD",
       "sector": "Crypto",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -6459,16 +6459,16 @@
           "previous": null
         }
       },
-      "price": 0.09
+      "price": 0.08
     },
     {
       "ticker": "DOT/USD",
       "sector": "Crypto",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -6479,16 +6479,16 @@
           "previous": null
         }
       },
-      "price": 0.89
+      "price": 0.87
     },
     {
       "ticker": "MATIC/USD",
       "sector": "Crypto",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "N/A",
-          "previous": "ERR"
+          "previous": "N/A"
         },
         "weekly": {
           "signal": "SELL",
@@ -6504,7 +6504,7 @@
     {
       "ticker": "LINK/USD",
       "sector": "Crypto",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6519,16 +6519,16 @@
           "previous": null
         }
       },
-      "price": 11.77
+      "price": 11.61
     },
     {
       "ticker": "UNI/USD",
       "sector": "Crypto",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -6539,16 +6539,16 @@
           "previous": null
         }
       },
-      "price": 6.4
+      "price": 6.11
     },
     {
       "ticker": "LTC/USD",
       "sector": "Crypto",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -6559,16 +6559,16 @@
           "previous": null
         }
       },
-      "price": 51.46
+      "price": 50.88
     },
     {
       "ticker": "ALGO/USD",
       "sector": "Crypto",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "N/A",
-          "previous": "ERR"
+          "previous": "N/A"
         },
         "weekly": {
           "signal": "SELL",
@@ -6584,7 +6584,7 @@
     {
       "ticker": "NEAR/USD",
       "sector": "Crypto",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "N/A",
@@ -6604,11 +6604,11 @@
     {
       "ticker": "FIL/USD",
       "sector": "Crypto",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "N/A",
@@ -6619,12 +6619,12 @@
           "previous": null
         }
       },
-      "price": 0.8
+      "price": 0.75
     },
     {
       "ticker": "ARB/USD",
       "sector": "Crypto",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6639,16 +6639,16 @@
           "previous": null
         }
       },
-      "price": 0.14
+      "price": 0.13
     },
     {
       "ticker": "AAVE/USD",
       "sector": "Crypto",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -6659,12 +6659,12 @@
           "previous": null
         }
       },
-      "price": 134.9
+      "price": 131.51
     },
     {
       "ticker": "PDBC",
       "sector": "Commodities",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6679,16 +6679,16 @@
           "previous": null
         }
       },
-      "price": 19.05
+      "price": 18.9
     },
     {
       "ticker": "GLD",
       "sector": "Commodities",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -6699,12 +6699,12 @@
           "previous": null
         }
       },
-      "price": 410.7
+      "price": 392.54
     },
     {
       "ticker": "IAU",
       "sector": "Commodities",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6719,16 +6719,16 @@
           "previous": null
         }
       },
-      "price": 84.19
+      "price": 82.97
     },
     {
       "ticker": "SLV",
       "sector": "Commodities",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -6739,16 +6739,16 @@
           "previous": null
         }
       },
-      "price": 60.63
+      "price": 59.78
     },
     {
       "ticker": "PPLT",
       "sector": "Commodities",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -6759,16 +6759,16 @@
           "previous": null
         }
       },
-      "price": 16.11
+      "price": 16.46
     },
     {
       "ticker": "USO",
       "sector": "Commodities",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -6779,12 +6779,12 @@
           "previous": null
         }
       },
-      "price": 141.92
+      "price": 142.25
     },
     {
       "ticker": "BNO",
       "sector": "Commodities",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6799,16 +6799,16 @@
           "previous": null
         }
       },
-      "price": 55.57
+      "price": 56.31
     },
     {
       "ticker": "UNG",
       "sector": "Commodities",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -6819,12 +6819,12 @@
           "previous": null
         }
       },
-      "price": 10.5
+      "price": 10.58
     },
     {
       "ticker": "DBA",
       "sector": "Commodities",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6839,16 +6839,16 @@
           "previous": null
         }
       },
-      "price": 28.86
+      "price": 29.05
     },
     {
       "ticker": "CORN",
       "sector": "Commodities",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -6859,56 +6859,16 @@
           "previous": null
         }
       },
-      "price": 20.05
+      "price": 20.13
     },
     {
       "ticker": "WEAT",
       "sector": "Commodities",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 27.09
-    },
-    {
-      "ticker": "SOYB",
-      "sector": "Commodities",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
           "signal": "BUY",
           "previous": "BUY"
-        }
-      },
-      "price": 27.73
-    },
-    {
-      "ticker": "DJP",
-      "sector": "Commodities",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
         },
         "weekly": {
           "signal": "BUY",
@@ -6916,299 +6876,139 @@
         },
         "monthly": {
           "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 51.91
-    },
-    {
-      "ticker": "GDX",
-      "sector": "Commodities",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 101.46
-    },
-    {
-      "ticker": "GDXJ",
-      "sector": "Commodities",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 131.6
-    },
-    {
-      "ticker": "COPX",
-      "sector": "Commodities",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 91.3
-    },
-    {
-      "ticker": "URA",
-      "sector": "Commodities",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 45.61
-    },
-    {
-      "ticker": "VXX",
-      "sector": "Volatility",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 17.71
-    },
-    {
-      "ticker": "UVXY",
-      "sector": "Volatility",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 17.42
-    },
-    {
-      "ticker": "SVXY",
-      "sector": "Volatility",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": null
-        }
-      },
-      "price": 63.25
-    },
-    {
-      "ticker": "VIXY",
-      "sector": "Volatility",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 17.01
-    },
-    {
-      "ticker": "VIXM",
-      "sector": "Volatility",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 13.32
-    },
-    {
-      "ticker": "CBOE",
-      "sector": "Volatility",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
-        }
-      },
-      "price": 298.78
-    },
-    {
-      "ticker": "SPXS",
-      "sector": "Volatility",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 24.19
-    },
-    {
-      "ticker": "SQQQ",
-      "sector": "Volatility",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 38.41
-    },
-    {
-      "ticker": "SH",
-      "sector": "Volatility",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "SELL",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 32.23
-    },
-    {
-      "ticker": "PSQ",
-      "sector": "Volatility",
-      "updated": "Sep 3, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
           "previous": null
         }
       },
       "price": 25.81
     },
     {
-      "ticker": "TAIL",
-      "sector": "Volatility",
-      "updated": "Sep 3, 2026",
+      "ticker": "SOYB",
+      "sector": "Commodities",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "BUY",
+          "previous": "BUY"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": "BUY"
+        }
+      },
+      "price": 26.8
+    },
+    {
+      "ticker": "DJP",
+      "sector": "Commodities",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "BUY",
+          "previous": "BUY"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 51.52
+    },
+    {
+      "ticker": "GDX",
+      "sector": "Commodities",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 99.31
+    },
+    {
+      "ticker": "GDXJ",
+      "sector": "Commodities",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 129.29
+    },
+    {
+      "ticker": "COPX",
+      "sector": "Commodities",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 87.69
+    },
+    {
+      "ticker": "URA",
+      "sector": "Commodities",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "BUY",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 45.89
+    },
+    {
+      "ticker": "VXX",
+      "sector": "Volatility",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -7219,16 +7019,216 @@
           "previous": null
         }
       },
-      "price": 9.7
+      "price": 17.12
+    },
+    {
+      "ticker": "UVXY",
+      "sector": "Volatility",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 17.52
+    },
+    {
+      "ticker": "SVXY",
+      "sector": "Volatility",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "BUY",
+          "previous": "BUY"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": null
+        }
+      },
+      "price": 62.03
+    },
+    {
+      "ticker": "VIXY",
+      "sector": "Volatility",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 16.43
+    },
+    {
+      "ticker": "VIXM",
+      "sector": "Volatility",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 13.13
+    },
+    {
+      "ticker": "CBOE",
+      "sector": "Volatility",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "BUY",
+          "previous": "BUY"
+        }
+      },
+      "price": 294.74
+    },
+    {
+      "ticker": "SPXS",
+      "sector": "Volatility",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "BUY",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 24.46
+    },
+    {
+      "ticker": "SQQQ",
+      "sector": "Volatility",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 38.34
+    },
+    {
+      "ticker": "SH",
+      "sector": "Volatility",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "BUY",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 32.36
+    },
+    {
+      "ticker": "PSQ",
+      "sector": "Volatility",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 25.8
+    },
+    {
+      "ticker": "TAIL",
+      "sector": "Volatility",
+      "updated": "Sep 4, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "SELL",
+          "previous": null
+        },
+        "monthly": {
+          "signal": "SELL",
+          "previous": null
+        }
+      },
+      "price": 10.34
     },
     {
       "ticker": "BTAL",
       "sector": "Volatility",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -7239,16 +7239,16 @@
           "previous": null
         }
       },
-      "price": 12.34
+      "price": 11.69
     },
     {
       "ticker": "TLT",
       "sector": "Fixed Income",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -7259,16 +7259,16 @@
           "previous": null
         }
       },
-      "price": 82.07
+      "price": 82.22
     },
     {
       "ticker": "IEF",
       "sector": "Fixed Income",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -7279,16 +7279,16 @@
           "previous": null
         }
       },
-      "price": 92.25
+      "price": 92.22
     },
     {
       "ticker": "SHY",
       "sector": "Fixed Income",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -7299,12 +7299,12 @@
           "previous": null
         }
       },
-      "price": 81.7
+      "price": 81.68
     },
     {
       "ticker": "BND",
       "sector": "Fixed Income",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7319,16 +7319,16 @@
           "previous": null
         }
       },
-      "price": 72.03
+      "price": 71.94
     },
     {
       "ticker": "AGG",
       "sector": "Fixed Income",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -7339,12 +7339,12 @@
           "previous": null
         }
       },
-      "price": 97.14
+      "price": 94.04
     },
     {
       "ticker": "HYG",
       "sector": "Fixed Income",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7359,16 +7359,16 @@
           "previous": null
         }
       },
-      "price": 79.2
+      "price": 78.99
     },
     {
       "ticker": "JNK",
       "sector": "Fixed Income",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -7379,12 +7379,12 @@
           "previous": null
         }
       },
-      "price": 95.19
+      "price": 95.17
     },
     {
       "ticker": "LQD",
       "sector": "Fixed Income",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7399,16 +7399,16 @@
           "previous": null
         }
       },
-      "price": 105.46
+      "price": 105.5
     },
     {
       "ticker": "EMB",
       "sector": "Fixed Income",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -7419,16 +7419,16 @@
           "previous": "ERR"
         }
       },
-      "price": 91.45
+      "price": 91.32
     },
     {
       "ticker": "TIP",
       "sector": "Fixed Income",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -7439,16 +7439,16 @@
           "previous": null
         }
       },
-      "price": 107.0
+      "price": 106.94
     },
     {
       "ticker": "MUB",
       "sector": "Fixed Income",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -7459,16 +7459,16 @@
           "previous": "ERR"
         }
       },
-      "price": 105.72
+      "price": 104.94
     },
     {
       "ticker": "EFA",
       "sector": "International Developed",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -7479,16 +7479,16 @@
           "previous": null
         }
       },
-      "price": 108.06
+      "price": 108.16
     },
     {
       "ticker": "VEA",
       "sector": "International Developed",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -7499,12 +7499,12 @@
           "previous": "BUY"
         }
       },
-      "price": 73.4
+      "price": 73.73
     },
     {
       "ticker": "EWJ",
       "sector": "International Developed",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -7519,16 +7519,16 @@
           "previous": null
         }
       },
-      "price": 98.05
+      "price": 98.25
     },
     {
       "ticker": "EWG",
       "sector": "International Developed",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -7539,16 +7539,16 @@
           "previous": "SELL"
         }
       },
-      "price": 44.02
+      "price": 43.62
     },
     {
       "ticker": "EWU",
       "sector": "International Developed",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -7559,16 +7559,16 @@
           "previous": null
         }
       },
-      "price": 48.41
+      "price": 46.94
     },
     {
       "ticker": "EWC",
       "sector": "International Developed",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -7579,16 +7579,16 @@
           "previous": "BUY"
         }
       },
-      "price": 62.48
+      "price": 62.58
     },
     {
       "ticker": "EWA",
       "sector": "International Developed",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -7599,16 +7599,16 @@
           "previous": null
         }
       },
-      "price": 30.34
+      "price": 30.29
     },
     {
       "ticker": "EWL",
       "sector": "International Developed",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "ERR"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -7619,16 +7619,16 @@
           "previous": "ERR"
         }
       },
-      "price": 61.1
+      "price": 63.22
     },
     {
       "ticker": "EWQ",
       "sector": "International Developed",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -7639,16 +7639,16 @@
           "previous": null
         }
       },
-      "price": 41.84
+      "price": 46.91
     },
     {
       "ticker": "HEZU",
       "sector": "International Developed",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -7659,16 +7659,16 @@
           "previous": "ERR"
         }
       },
-      "price": 47.93
+      "price": 48.03
     },
     {
       "ticker": "DXJ",
       "sector": "International Developed",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -7679,16 +7679,16 @@
           "previous": null
         }
       },
-      "price": 178.83
+      "price": 173.14
     },
     {
       "ticker": "EEM",
       "sector": "International Emerging",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -7699,16 +7699,16 @@
           "previous": "BUY"
         }
       },
-      "price": 67.47
+      "price": 68.78
     },
     {
       "ticker": "VWO",
       "sector": "International Emerging",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -7719,16 +7719,16 @@
           "previous": null
         }
       },
-      "price": 60.99
+      "price": 61.47
     },
     {
       "ticker": "FXI",
       "sector": "International Emerging",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -7739,16 +7739,16 @@
           "previous": "SELL"
         }
       },
-      "price": 35.3
+      "price": 35.9
     },
     {
       "ticker": "MCHI",
       "sector": "International Emerging",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -7759,16 +7759,16 @@
           "previous": null
         }
       },
-      "price": 54.44
+      "price": 54.92
     },
     {
       "ticker": "EWZ",
       "sector": "International Emerging",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -7779,16 +7779,16 @@
           "previous": null
         }
       },
-      "price": 38.09
+      "price": 37.91
     },
     {
       "ticker": "INDA",
       "sector": "International Emerging",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -7799,19 +7799,19 @@
           "previous": null
         }
       },
-      "price": 49.96
+      "price": 49.9
     },
     {
       "ticker": "EWY",
       "sector": "International Emerging",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": null
         },
         "monthly": {
@@ -7819,16 +7819,16 @@
           "previous": null
         }
       },
-      "price": 180.12
+      "price": 188.09
     },
     {
       "ticker": "EWT",
       "sector": "International Emerging",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -7839,19 +7839,19 @@
           "previous": null
         }
       },
-      "price": 110.19
+      "price": 111.97
     },
     {
       "ticker": "KWEB",
       "sector": "International Emerging",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": null
         },
         "monthly": {
@@ -7859,16 +7859,16 @@
           "previous": "ERR"
         }
       },
-      "price": 25.59
+      "price": 26.06
     },
     {
       "ticker": "GXC",
       "sector": "International Emerging",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -7879,16 +7879,16 @@
           "previous": null
         }
       },
-      "price": 89.7
+      "price": 90.63
     },
     {
       "ticker": "INDY",
       "sector": "International Emerging",
-      "updated": "Sep 3, 2026",
+      "updated": "Sep 4, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "ERR"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -7899,7 +7899,7 @@
           "previous": null
         }
       },
-      "price": 42.35
+      "price": 44.13
     }
   ]
 }
