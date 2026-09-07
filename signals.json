@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-04T22:56:51.203691Z",
+  "generated": "2026-09-07T23:25:03.619674Z",
   "signals": [
     {
       "ticker": "SPY",
       "sector": "Broad Market",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -24,7 +24,7 @@
     {
       "ticker": "QQQ",
       "sector": "Broad Market",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -44,7 +44,7 @@
     {
       "ticker": "IWM",
       "sector": "Broad Market",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -64,11 +64,11 @@
     {
       "ticker": "DIA",
       "sector": "Broad Market",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -84,15 +84,15 @@
     {
       "ticker": "MDY",
       "sector": "Broad Market",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -104,7 +104,7 @@
     {
       "ticker": "VTI",
       "sector": "Broad Market",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -124,7 +124,7 @@
     {
       "ticker": "VOO",
       "sector": "Broad Market",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -144,7 +144,7 @@
     {
       "ticker": "RSP",
       "sector": "Broad Market",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -164,7 +164,7 @@
     {
       "ticker": "SPLG",
       "sector": "Broad Market",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -184,7 +184,7 @@
     {
       "ticker": "SCHB",
       "sector": "Broad Market",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -204,7 +204,7 @@
     {
       "ticker": "ITOT",
       "sector": "Broad Market",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -224,7 +224,7 @@
     {
       "ticker": "XLK",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -244,7 +244,7 @@
     {
       "ticker": "AAPL",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -264,7 +264,7 @@
     {
       "ticker": "MSFT",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -272,7 +272,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -284,7 +284,7 @@
     {
       "ticker": "NVDA",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -292,7 +292,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -304,7 +304,7 @@
     {
       "ticker": "AVGO",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -312,7 +312,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -324,7 +324,7 @@
     {
       "ticker": "ORCL",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -332,7 +332,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -344,7 +344,7 @@
     {
       "ticker": "CRM",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -364,15 +364,15 @@
     {
       "ticker": "AMD",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -384,7 +384,7 @@
     {
       "ticker": "INTC",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -392,7 +392,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -404,7 +404,7 @@
     {
       "ticker": "QCOM",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -412,7 +412,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -424,7 +424,7 @@
     {
       "ticker": "TXN",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -444,7 +444,7 @@
     {
       "ticker": "MU",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -452,7 +452,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -464,7 +464,7 @@
     {
       "ticker": "AMAT",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -472,7 +472,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -484,7 +484,7 @@
     {
       "ticker": "LRCX",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -492,7 +492,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -504,15 +504,15 @@
     {
       "ticker": "KLAC",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -524,15 +524,15 @@
     {
       "ticker": "MRVL",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -544,7 +544,7 @@
     {
       "ticker": "ADBE",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -564,7 +564,7 @@
     {
       "ticker": "NOW",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -584,7 +584,7 @@
     {
       "ticker": "INTU",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -604,11 +604,11 @@
     {
       "ticker": "WDAY",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -624,11 +624,11 @@
     {
       "ticker": "SNOW",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -644,7 +644,7 @@
     {
       "ticker": "PLTR",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -652,7 +652,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -664,7 +664,7 @@
     {
       "ticker": "CRWD",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -672,7 +672,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -684,7 +684,7 @@
     {
       "ticker": "PANW",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -692,7 +692,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -704,7 +704,7 @@
     {
       "ticker": "ZS",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -712,7 +712,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -724,7 +724,7 @@
     {
       "ticker": "NET",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -732,7 +732,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -744,7 +744,7 @@
     {
       "ticker": "DDOG",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -764,7 +764,7 @@
     {
       "ticker": "MDB",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -784,7 +784,7 @@
     {
       "ticker": "SHOP",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -804,7 +804,7 @@
     {
       "ticker": "UBER",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -824,7 +824,7 @@
     {
       "ticker": "HPQ",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -844,7 +844,7 @@
     {
       "ticker": "DELL",
       "sector": "Technology",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -864,7 +864,7 @@
     {
       "ticker": "XLC",
       "sector": "Communications",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -884,7 +884,7 @@
     {
       "ticker": "GOOGL",
       "sector": "Communications",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -892,7 +892,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -904,7 +904,7 @@
     {
       "ticker": "META",
       "sector": "Communications",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -912,7 +912,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -924,7 +924,7 @@
     {
       "ticker": "DIS",
       "sector": "Communications",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -944,11 +944,11 @@
     {
       "ticker": "NFLX",
       "sector": "Communications",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -964,7 +964,7 @@
     {
       "ticker": "SPOT",
       "sector": "Communications",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -984,7 +984,7 @@
     {
       "ticker": "APP",
       "sector": "Communications",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1004,7 +1004,7 @@
     {
       "ticker": "RBLX",
       "sector": "Communications",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1012,7 +1012,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -1024,7 +1024,7 @@
     {
       "ticker": "U",
       "sector": "Communications",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1044,11 +1044,11 @@
     {
       "ticker": "T",
       "sector": "Communications",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -1064,11 +1064,11 @@
     {
       "ticker": "VZ",
       "sector": "Communications",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -1084,7 +1084,7 @@
     {
       "ticker": "CMCSA",
       "sector": "Communications",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1104,7 +1104,7 @@
     {
       "ticker": "CHTR",
       "sector": "Communications",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1124,11 +1124,11 @@
     {
       "ticker": "TMUS",
       "sector": "Communications",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -1144,7 +1144,7 @@
     {
       "ticker": "EA",
       "sector": "Communications",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1164,7 +1164,7 @@
     {
       "ticker": "TTWO",
       "sector": "Communications",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1172,7 +1172,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -1184,7 +1184,7 @@
     {
       "ticker": "PARA",
       "sector": "Communications",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1204,7 +1204,7 @@
     {
       "ticker": "WBD",
       "sector": "Communications",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1224,7 +1224,7 @@
     {
       "ticker": "FOXA",
       "sector": "Communications",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1244,7 +1244,7 @@
     {
       "ticker": "LBRDA",
       "sector": "Communications",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1264,7 +1264,7 @@
     {
       "ticker": "XLY",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1284,7 +1284,7 @@
     {
       "ticker": "AMZN",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1304,11 +1304,11 @@
     {
       "ticker": "TSLA",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -1324,7 +1324,7 @@
     {
       "ticker": "HD",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1332,7 +1332,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -1344,7 +1344,7 @@
     {
       "ticker": "LOW",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1352,7 +1352,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -1364,7 +1364,7 @@
     {
       "ticker": "MCD",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1372,7 +1372,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -1384,7 +1384,7 @@
     {
       "ticker": "SBUX",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1392,7 +1392,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -1404,7 +1404,7 @@
     {
       "ticker": "NKE",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1424,15 +1424,15 @@
     {
       "ticker": "LULU",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -1444,7 +1444,7 @@
     {
       "ticker": "TJX",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1464,7 +1464,7 @@
     {
       "ticker": "BKNG",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1484,7 +1484,7 @@
     {
       "ticker": "MAR",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1504,7 +1504,7 @@
     {
       "ticker": "HLT",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1524,7 +1524,7 @@
     {
       "ticker": "TGT",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1544,7 +1544,7 @@
     {
       "ticker": "ABNB",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1564,7 +1564,7 @@
     {
       "ticker": "LYFT",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1584,7 +1584,7 @@
     {
       "ticker": "RCL",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1592,7 +1592,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -1604,7 +1604,7 @@
     {
       "ticker": "CCL",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1624,7 +1624,7 @@
     {
       "ticker": "F",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1644,7 +1644,7 @@
     {
       "ticker": "GM",
       "sector": "Consumer Discretionary",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1664,7 +1664,7 @@
     {
       "ticker": "XLP",
       "sector": "Consumer Staples",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1672,7 +1672,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -1684,7 +1684,7 @@
     {
       "ticker": "COST",
       "sector": "Consumer Staples",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1704,7 +1704,7 @@
     {
       "ticker": "WMT",
       "sector": "Consumer Staples",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1724,7 +1724,7 @@
     {
       "ticker": "PG",
       "sector": "Consumer Staples",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1744,7 +1744,7 @@
     {
       "ticker": "KO",
       "sector": "Consumer Staples",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1764,7 +1764,7 @@
     {
       "ticker": "PEP",
       "sector": "Consumer Staples",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1784,7 +1784,7 @@
     {
       "ticker": "PM",
       "sector": "Consumer Staples",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1792,7 +1792,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -1804,7 +1804,7 @@
     {
       "ticker": "MO",
       "sector": "Consumer Staples",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1812,7 +1812,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -1824,7 +1824,7 @@
     {
       "ticker": "CL",
       "sector": "Consumer Staples",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1844,7 +1844,7 @@
     {
       "ticker": "GIS",
       "sector": "Consumer Staples",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1852,7 +1852,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -1864,7 +1864,7 @@
     {
       "ticker": "K",
       "sector": "Consumer Staples",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1872,7 +1872,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -1884,7 +1884,7 @@
     {
       "ticker": "MDLZ",
       "sector": "Consumer Staples",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1892,7 +1892,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -1904,7 +1904,7 @@
     {
       "ticker": "HSY",
       "sector": "Consumer Staples",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1912,7 +1912,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -1924,7 +1924,7 @@
     {
       "ticker": "TSN",
       "sector": "Consumer Staples",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1932,7 +1932,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -1944,15 +1944,15 @@
     {
       "ticker": "SJM",
       "sector": "Consumer Staples",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -1964,7 +1964,7 @@
     {
       "ticker": "CAG",
       "sector": "Consumer Staples",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1972,7 +1972,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -1984,15 +1984,15 @@
     {
       "ticker": "XLF",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2004,15 +2004,15 @@
     {
       "ticker": "JPM",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2024,15 +2024,15 @@
     {
       "ticker": "BAC",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2044,7 +2044,7 @@
     {
       "ticker": "GS",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2052,7 +2052,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -2064,7 +2064,7 @@
     {
       "ticker": "MS",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2072,7 +2072,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -2084,7 +2084,7 @@
     {
       "ticker": "WFC",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2092,7 +2092,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2104,7 +2104,7 @@
     {
       "ticker": "C",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2112,7 +2112,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -2124,7 +2124,7 @@
     {
       "ticker": "BX",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2132,7 +2132,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2144,15 +2144,15 @@
     {
       "ticker": "KKR",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -2164,7 +2164,7 @@
     {
       "ticker": "APO",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2172,7 +2172,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2184,7 +2184,7 @@
     {
       "ticker": "BLK",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2192,7 +2192,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -2204,7 +2204,7 @@
     {
       "ticker": "SCHW",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2212,7 +2212,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2224,7 +2224,7 @@
     {
       "ticker": "V",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2232,7 +2232,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2244,7 +2244,7 @@
     {
       "ticker": "MA",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2252,7 +2252,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2264,7 +2264,7 @@
     {
       "ticker": "AXP",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2272,7 +2272,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -2284,7 +2284,7 @@
     {
       "ticker": "PYPL",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2292,7 +2292,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2304,7 +2304,7 @@
     {
       "ticker": "SQ",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "N/A",
@@ -2312,7 +2312,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2324,7 +2324,7 @@
     {
       "ticker": "NU",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2332,7 +2332,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "N/A",
@@ -2344,15 +2344,15 @@
     {
       "ticker": "SOFI",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -2364,7 +2364,7 @@
     {
       "ticker": "COF",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2372,7 +2372,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2384,7 +2384,7 @@
     {
       "ticker": "USB",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2392,7 +2392,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2404,7 +2404,7 @@
     {
       "ticker": "PNC",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2412,7 +2412,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -2424,7 +2424,7 @@
     {
       "ticker": "TFC",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2432,7 +2432,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -2444,15 +2444,15 @@
     {
       "ticker": "AIG",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -2464,7 +2464,7 @@
     {
       "ticker": "MET",
       "sector": "Financials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2484,7 +2484,7 @@
     {
       "ticker": "XLV",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2492,7 +2492,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2504,7 +2504,7 @@
     {
       "ticker": "UNH",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2524,7 +2524,7 @@
     {
       "ticker": "JNJ",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2532,7 +2532,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2544,7 +2544,7 @@
     {
       "ticker": "LLY",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2552,7 +2552,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -2564,7 +2564,7 @@
     {
       "ticker": "ABBV",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2572,7 +2572,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2584,15 +2584,15 @@
     {
       "ticker": "MRK",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2604,7 +2604,7 @@
     {
       "ticker": "PFE",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2612,7 +2612,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2624,7 +2624,7 @@
     {
       "ticker": "AMGN",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2632,7 +2632,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2644,7 +2644,7 @@
     {
       "ticker": "GILD",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2652,7 +2652,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2664,7 +2664,7 @@
     {
       "ticker": "BIIB",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2672,7 +2672,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2684,7 +2684,7 @@
     {
       "ticker": "REGN",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2692,7 +2692,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2704,15 +2704,15 @@
     {
       "ticker": "VRTX",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2724,7 +2724,7 @@
     {
       "ticker": "ISRG",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2732,7 +2732,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -2744,7 +2744,7 @@
     {
       "ticker": "BSX",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2752,7 +2752,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -2764,7 +2764,7 @@
     {
       "ticker": "MDT",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2772,7 +2772,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -2784,7 +2784,7 @@
     {
       "ticker": "CVS",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2792,7 +2792,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -2804,7 +2804,7 @@
     {
       "ticker": "HUM",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2812,7 +2812,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2824,7 +2824,7 @@
     {
       "ticker": "ELV",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2832,7 +2832,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2844,7 +2844,7 @@
     {
       "ticker": "CI",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2852,7 +2852,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -2864,7 +2864,7 @@
     {
       "ticker": "ZTS",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2872,7 +2872,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -2884,7 +2884,7 @@
     {
       "ticker": "DXCM",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2892,7 +2892,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2904,7 +2904,7 @@
     {
       "ticker": "IDXX",
       "sector": "Health Care",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2912,7 +2912,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -2924,7 +2924,7 @@
     {
       "ticker": "XLE",
       "sector": "Energy",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2932,7 +2932,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -2944,7 +2944,7 @@
     {
       "ticker": "XOM",
       "sector": "Energy",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2952,7 +2952,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2964,7 +2964,7 @@
     {
       "ticker": "CVX",
       "sector": "Energy",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2972,7 +2972,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -2984,15 +2984,15 @@
     {
       "ticker": "COP",
       "sector": "Energy",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3004,7 +3004,7 @@
     {
       "ticker": "EOG",
       "sector": "Energy",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3012,7 +3012,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3024,7 +3024,7 @@
     {
       "ticker": "SLB",
       "sector": "Energy",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -3032,7 +3032,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3044,7 +3044,7 @@
     {
       "ticker": "MPC",
       "sector": "Energy",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -3052,7 +3052,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3064,7 +3064,7 @@
     {
       "ticker": "PSX",
       "sector": "Energy",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -3072,7 +3072,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3084,7 +3084,7 @@
     {
       "ticker": "VLO",
       "sector": "Energy",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -3092,7 +3092,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3104,7 +3104,7 @@
     {
       "ticker": "HAL",
       "sector": "Energy",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -3112,7 +3112,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3124,7 +3124,7 @@
     {
       "ticker": "DVN",
       "sector": "Energy",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -3132,7 +3132,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3144,15 +3144,15 @@
     {
       "ticker": "OXY",
       "sector": "Energy",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3164,7 +3164,7 @@
     {
       "ticker": "HES",
       "sector": "Energy",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "N/A",
@@ -3172,7 +3172,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3184,7 +3184,7 @@
     {
       "ticker": "BKR",
       "sector": "Energy",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3192,7 +3192,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3204,7 +3204,7 @@
     {
       "ticker": "FANG",
       "sector": "Energy",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3212,7 +3212,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -3224,7 +3224,7 @@
     {
       "ticker": "MRO",
       "sector": "Energy",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "N/A",
@@ -3232,7 +3232,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3244,15 +3244,15 @@
     {
       "ticker": "APA",
       "sector": "Energy",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3264,7 +3264,7 @@
     {
       "ticker": "XLI",
       "sector": "Industrials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3272,7 +3272,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -3284,15 +3284,15 @@
     {
       "ticker": "CAT",
       "sector": "Industrials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -3304,7 +3304,7 @@
     {
       "ticker": "DE",
       "sector": "Industrials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -3312,7 +3312,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3324,7 +3324,7 @@
     {
       "ticker": "RTX",
       "sector": "Industrials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3332,7 +3332,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3344,7 +3344,7 @@
     {
       "ticker": "LMT",
       "sector": "Industrials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3352,7 +3352,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -3364,7 +3364,7 @@
     {
       "ticker": "NOC",
       "sector": "Industrials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3372,7 +3372,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -3384,7 +3384,7 @@
     {
       "ticker": "GE",
       "sector": "Industrials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3392,7 +3392,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -3404,7 +3404,7 @@
     {
       "ticker": "HON",
       "sector": "Industrials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3412,7 +3412,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -3424,7 +3424,7 @@
     {
       "ticker": "BA",
       "sector": "Industrials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3432,7 +3432,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -3444,7 +3444,7 @@
     {
       "ticker": "UNP",
       "sector": "Industrials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3452,7 +3452,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3464,7 +3464,7 @@
     {
       "ticker": "FDX",
       "sector": "Industrials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3472,7 +3472,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -3484,15 +3484,15 @@
     {
       "ticker": "UPS",
       "sector": "Industrials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -3504,7 +3504,7 @@
     {
       "ticker": "WM",
       "sector": "Industrials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3512,7 +3512,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -3524,7 +3524,7 @@
     {
       "ticker": "MMM",
       "sector": "Industrials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3532,7 +3532,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3544,7 +3544,7 @@
     {
       "ticker": "EMR",
       "sector": "Industrials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3552,7 +3552,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3564,7 +3564,7 @@
     {
       "ticker": "ETN",
       "sector": "Industrials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3572,7 +3572,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -3584,7 +3584,7 @@
     {
       "ticker": "PH",
       "sector": "Industrials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3592,7 +3592,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3604,15 +3604,15 @@
     {
       "ticker": "ROK",
       "sector": "Industrials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -3624,7 +3624,7 @@
     {
       "ticker": "CMI",
       "sector": "Industrials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3632,7 +3632,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -3644,7 +3644,7 @@
     {
       "ticker": "PCAR",
       "sector": "Industrials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3652,7 +3652,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3664,7 +3664,7 @@
     {
       "ticker": "XLB",
       "sector": "Materials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3672,7 +3672,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -3684,7 +3684,7 @@
     {
       "ticker": "NEM",
       "sector": "Materials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3692,7 +3692,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3704,7 +3704,7 @@
     {
       "ticker": "FCX",
       "sector": "Materials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3712,7 +3712,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3724,15 +3724,15 @@
     {
       "ticker": "AA",
       "sector": "Materials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -3744,7 +3744,7 @@
     {
       "ticker": "NUE",
       "sector": "Materials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -3752,7 +3752,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -3764,7 +3764,7 @@
     {
       "ticker": "LIN",
       "sector": "Materials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3772,7 +3772,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -3784,7 +3784,7 @@
     {
       "ticker": "APD",
       "sector": "Materials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3792,7 +3792,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3804,7 +3804,7 @@
     {
       "ticker": "ECL",
       "sector": "Materials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3812,7 +3812,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -3824,7 +3824,7 @@
     {
       "ticker": "DD",
       "sector": "Materials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3832,7 +3832,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3844,7 +3844,7 @@
     {
       "ticker": "DOW",
       "sector": "Materials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3852,7 +3852,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -3864,7 +3864,7 @@
     {
       "ticker": "PPG",
       "sector": "Materials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3872,7 +3872,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -3884,7 +3884,7 @@
     {
       "ticker": "VMC",
       "sector": "Materials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3892,7 +3892,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -3904,7 +3904,7 @@
     {
       "ticker": "MLM",
       "sector": "Materials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3912,7 +3912,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -3924,7 +3924,7 @@
     {
       "ticker": "IP",
       "sector": "Materials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3932,7 +3932,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": "ERR"
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -3944,7 +3944,7 @@
     {
       "ticker": "PKG",
       "sector": "Materials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3952,7 +3952,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -3964,7 +3964,7 @@
     {
       "ticker": "ALB",
       "sector": "Materials",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3972,7 +3972,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -3984,15 +3984,15 @@
     {
       "ticker": "XLU",
       "sector": "Utilities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -4004,15 +4004,15 @@
     {
       "ticker": "NEE",
       "sector": "Utilities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -4024,7 +4024,7 @@
     {
       "ticker": "DUK",
       "sector": "Utilities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4032,7 +4032,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -4044,7 +4044,7 @@
     {
       "ticker": "SO",
       "sector": "Utilities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4052,7 +4052,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -4064,7 +4064,7 @@
     {
       "ticker": "D",
       "sector": "Utilities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4072,7 +4072,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4084,7 +4084,7 @@
     {
       "ticker": "AEP",
       "sector": "Utilities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4092,7 +4092,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -4104,7 +4104,7 @@
     {
       "ticker": "EXC",
       "sector": "Utilities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4112,7 +4112,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -4124,7 +4124,7 @@
     {
       "ticker": "SRE",
       "sector": "Utilities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4132,7 +4132,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -4144,7 +4144,7 @@
     {
       "ticker": "PCG",
       "sector": "Utilities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4152,7 +4152,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -4164,15 +4164,15 @@
     {
       "ticker": "ES",
       "sector": "Utilities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4184,7 +4184,7 @@
     {
       "ticker": "AWK",
       "sector": "Utilities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4192,7 +4192,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -4204,7 +4204,7 @@
     {
       "ticker": "ETR",
       "sector": "Utilities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4212,7 +4212,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4224,7 +4224,7 @@
     {
       "ticker": "FE",
       "sector": "Utilities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4232,7 +4232,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -4244,15 +4244,15 @@
     {
       "ticker": "PPL",
       "sector": "Utilities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -4264,7 +4264,7 @@
     {
       "ticker": "NI",
       "sector": "Utilities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4272,7 +4272,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -4284,7 +4284,7 @@
     {
       "ticker": "CMS",
       "sector": "Utilities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4292,7 +4292,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -4304,7 +4304,7 @@
     {
       "ticker": "XLRE",
       "sector": "Real Estate",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4312,7 +4312,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4324,7 +4324,7 @@
     {
       "ticker": "PLD",
       "sector": "Real Estate",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4332,7 +4332,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4344,15 +4344,15 @@
     {
       "ticker": "AMT",
       "sector": "Real Estate",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -4364,7 +4364,7 @@
     {
       "ticker": "EQIX",
       "sector": "Real Estate",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4372,7 +4372,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4384,7 +4384,7 @@
     {
       "ticker": "SPG",
       "sector": "Real Estate",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4392,7 +4392,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4404,7 +4404,7 @@
     {
       "ticker": "O",
       "sector": "Real Estate",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4412,7 +4412,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4424,15 +4424,15 @@
     {
       "ticker": "WELL",
       "sector": "Real Estate",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4444,7 +4444,7 @@
     {
       "ticker": "PSA",
       "sector": "Real Estate",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4452,7 +4452,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4464,7 +4464,7 @@
     {
       "ticker": "VTR",
       "sector": "Real Estate",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4472,7 +4472,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4484,7 +4484,7 @@
     {
       "ticker": "EQR",
       "sector": "Real Estate",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4492,7 +4492,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -4504,7 +4504,7 @@
     {
       "ticker": "AVB",
       "sector": "Real Estate",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4512,7 +4512,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -4524,15 +4524,15 @@
     {
       "ticker": "DLR",
       "sector": "Real Estate",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4544,7 +4544,7 @@
     {
       "ticker": "CCI",
       "sector": "Real Estate",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4552,7 +4552,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -4564,7 +4564,7 @@
     {
       "ticker": "SBAC",
       "sector": "Real Estate",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4572,7 +4572,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4584,7 +4584,7 @@
     {
       "ticker": "WY",
       "sector": "Real Estate",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4592,7 +4592,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -4604,7 +4604,7 @@
     {
       "ticker": "HST",
       "sector": "Real Estate",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4612,7 +4612,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4624,15 +4624,15 @@
     {
       "ticker": "SMH",
       "sector": "Semiconductors",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4644,7 +4644,7 @@
     {
       "ticker": "SOXX",
       "sector": "Semiconductors",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4652,7 +4652,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4664,7 +4664,7 @@
     {
       "ticker": "NVDA",
       "sector": "Semiconductors",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4672,7 +4672,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -4684,15 +4684,15 @@
     {
       "ticker": "AMD",
       "sector": "Semiconductors",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4704,7 +4704,7 @@
     {
       "ticker": "INTC",
       "sector": "Semiconductors",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4712,7 +4712,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4724,7 +4724,7 @@
     {
       "ticker": "QCOM",
       "sector": "Semiconductors",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4732,7 +4732,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -4744,7 +4744,7 @@
     {
       "ticker": "MU",
       "sector": "Semiconductors",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4752,7 +4752,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4764,7 +4764,7 @@
     {
       "ticker": "AVGO",
       "sector": "Semiconductors",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4772,7 +4772,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -4784,7 +4784,7 @@
     {
       "ticker": "AMAT",
       "sector": "Semiconductors",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4792,7 +4792,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4804,7 +4804,7 @@
     {
       "ticker": "LRCX",
       "sector": "Semiconductors",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4812,7 +4812,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4824,15 +4824,15 @@
     {
       "ticker": "KLAC",
       "sector": "Semiconductors",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -4844,15 +4844,15 @@
     {
       "ticker": "MRVL",
       "sector": "Semiconductors",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4864,15 +4864,15 @@
     {
       "ticker": "ASML",
       "sector": "Semiconductors",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4884,15 +4884,15 @@
     {
       "ticker": "TSM",
       "sector": "Semiconductors",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4904,15 +4904,15 @@
     {
       "ticker": "MCHP",
       "sector": "Semiconductors",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -4924,7 +4924,7 @@
     {
       "ticker": "ON",
       "sector": "Semiconductors",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4932,7 +4932,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4944,7 +4944,7 @@
     {
       "ticker": "MPWR",
       "sector": "Semiconductors",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4952,7 +4952,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4964,7 +4964,7 @@
     {
       "ticker": "ENTG",
       "sector": "Semiconductors",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4972,7 +4972,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -4984,7 +4984,7 @@
     {
       "ticker": "ONTO",
       "sector": "Semiconductors",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4992,7 +4992,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -5004,7 +5004,7 @@
     {
       "ticker": "TER",
       "sector": "Semiconductors",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5012,7 +5012,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -5024,7 +5024,7 @@
     {
       "ticker": "XBI",
       "sector": "Biotech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5032,7 +5032,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5044,7 +5044,7 @@
     {
       "ticker": "ARKG",
       "sector": "Biotech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5052,7 +5052,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5064,7 +5064,7 @@
     {
       "ticker": "MRNA",
       "sector": "Biotech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5072,7 +5072,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5084,7 +5084,7 @@
     {
       "ticker": "BNTX",
       "sector": "Biotech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5092,7 +5092,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5104,7 +5104,7 @@
     {
       "ticker": "REGN",
       "sector": "Biotech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5112,7 +5112,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5124,15 +5124,15 @@
     {
       "ticker": "VRTX",
       "sector": "Biotech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5144,7 +5144,7 @@
     {
       "ticker": "BIIB",
       "sector": "Biotech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5152,7 +5152,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5164,7 +5164,7 @@
     {
       "ticker": "AMGN",
       "sector": "Biotech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5172,7 +5172,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5184,7 +5184,7 @@
     {
       "ticker": "GILD",
       "sector": "Biotech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5192,7 +5192,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5204,15 +5204,15 @@
     {
       "ticker": "ILMN",
       "sector": "Biotech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5224,7 +5224,7 @@
     {
       "ticker": "EXAS",
       "sector": "Biotech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5232,7 +5232,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5244,7 +5244,7 @@
     {
       "ticker": "BMRN",
       "sector": "Biotech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5252,7 +5252,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5264,7 +5264,7 @@
     {
       "ticker": "ALNY",
       "sector": "Biotech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5272,7 +5272,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -5284,7 +5284,7 @@
     {
       "ticker": "INCY",
       "sector": "Biotech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5292,7 +5292,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5304,7 +5304,7 @@
     {
       "ticker": "RARE",
       "sector": "Biotech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5312,7 +5312,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -5324,7 +5324,7 @@
     {
       "ticker": "CIBR",
       "sector": "Cybersecurity",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5332,7 +5332,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5344,7 +5344,7 @@
     {
       "ticker": "HACK",
       "sector": "Cybersecurity",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5352,7 +5352,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5364,7 +5364,7 @@
     {
       "ticker": "CRWD",
       "sector": "Cybersecurity",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5372,7 +5372,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -5384,7 +5384,7 @@
     {
       "ticker": "PANW",
       "sector": "Cybersecurity",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5392,7 +5392,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5404,7 +5404,7 @@
     {
       "ticker": "ZS",
       "sector": "Cybersecurity",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5412,7 +5412,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -5424,7 +5424,7 @@
     {
       "ticker": "NET",
       "sector": "Cybersecurity",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5432,7 +5432,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5444,7 +5444,7 @@
     {
       "ticker": "FTNT",
       "sector": "Cybersecurity",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5452,7 +5452,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -5464,7 +5464,7 @@
     {
       "ticker": "OKTA",
       "sector": "Cybersecurity",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5472,7 +5472,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5484,7 +5484,7 @@
     {
       "ticker": "S",
       "sector": "Cybersecurity",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5492,7 +5492,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "N/A",
@@ -5504,7 +5504,7 @@
     {
       "ticker": "TENB",
       "sector": "Cybersecurity",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5512,7 +5512,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5524,7 +5524,7 @@
     {
       "ticker": "QLYS",
       "sector": "Cybersecurity",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5532,7 +5532,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5544,7 +5544,7 @@
     {
       "ticker": "VRNS",
       "sector": "Cybersecurity",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5552,7 +5552,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5564,7 +5564,7 @@
     {
       "ticker": "CSCO",
       "sector": "Cybersecurity",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5572,7 +5572,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -5584,7 +5584,7 @@
     {
       "ticker": "CHKP",
       "sector": "Cybersecurity",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5592,7 +5592,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -5604,7 +5604,7 @@
     {
       "ticker": "RPD",
       "sector": "Cybersecurity",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5612,7 +5612,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5624,7 +5624,7 @@
     {
       "ticker": "BOTZ",
       "sector": "AI & Robotics",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5632,7 +5632,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -5644,7 +5644,7 @@
     {
       "ticker": "ROBO",
       "sector": "AI & Robotics",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5652,7 +5652,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -5664,7 +5664,7 @@
     {
       "ticker": "NVDA",
       "sector": "AI & Robotics",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5672,7 +5672,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5684,7 +5684,7 @@
     {
       "ticker": "MSFT",
       "sector": "AI & Robotics",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5692,7 +5692,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5704,7 +5704,7 @@
     {
       "ticker": "GOOGL",
       "sector": "AI & Robotics",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5712,7 +5712,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -5724,7 +5724,7 @@
     {
       "ticker": "META",
       "sector": "AI & Robotics",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5732,7 +5732,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -5744,15 +5744,15 @@
     {
       "ticker": "PATH",
       "sector": "AI & Robotics",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5764,7 +5764,7 @@
     {
       "ticker": "AI",
       "sector": "AI & Robotics",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5772,7 +5772,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -5784,7 +5784,7 @@
     {
       "ticker": "BBAI",
       "sector": "AI & Robotics",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5792,7 +5792,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -5804,7 +5804,7 @@
     {
       "ticker": "SOUN",
       "sector": "AI & Robotics",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5812,7 +5812,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "N/A",
@@ -5824,7 +5824,7 @@
     {
       "ticker": "CFLT",
       "sector": "AI & Robotics",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5832,7 +5832,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "N/A",
@@ -5844,7 +5844,7 @@
     {
       "ticker": "GTLB",
       "sector": "AI & Robotics",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5852,7 +5852,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "N/A",
@@ -5864,7 +5864,7 @@
     {
       "ticker": "AMBA",
       "sector": "AI & Robotics",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5872,7 +5872,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -5884,7 +5884,7 @@
     {
       "ticker": "TER",
       "sector": "AI & Robotics",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5892,7 +5892,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -5904,7 +5904,7 @@
     {
       "ticker": "ISRG",
       "sector": "AI & Robotics",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5912,7 +5912,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -5924,7 +5924,7 @@
     {
       "ticker": "PLTR",
       "sector": "AI & Robotics",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5932,7 +5932,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -5944,15 +5944,16 @@
     {
       "ticker": "QBTS",
       "sector": "AI & Robotics",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=QBTS&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "SELL",
@@ -5964,27 +5965,7 @@
     {
       "ticker": "FINX",
       "sector": "Fintech",
-      "updated": "Sep 4, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "BUY"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 27.31
-    },
-    {
-      "ticker": "V",
-      "sector": "Fintech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5992,7 +5973,28 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
+        },
+        "monthly": {
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=FINX&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
+        }
+      },
+      "price": 27.31
+    },
+    {
+      "ticker": "V",
+      "sector": "Fintech",
+      "updated": "Sep 7, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "BUY",
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -6004,15 +6006,16 @@
     {
       "ticker": "MA",
       "sector": "Fintech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MA&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -6024,15 +6027,16 @@
     {
       "ticker": "PYPL",
       "sector": "Fintech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=PYPL&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "BUY",
@@ -6044,15 +6048,16 @@
     {
       "ticker": "SQ",
       "sector": "Fintech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "N/A",
-          "previous": "N/A"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SQ&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -6064,15 +6069,16 @@
     {
       "ticker": "NU",
       "sector": "Fintech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=NU&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "N/A",
@@ -6084,27 +6090,7 @@
     {
       "ticker": "SOFI",
       "sector": "Fintech",
-      "updated": "Sep 4, 2026",
-      "timeframes": {
-        "daily": {
-          "signal": "SELL",
-          "previous": "BUY"
-        },
-        "weekly": {
-          "signal": "BUY",
-          "previous": null
-        },
-        "monthly": {
-          "signal": "SELL",
-          "previous": null
-        }
-      },
-      "price": 18.19
-    },
-    {
-      "ticker": "AFRM",
-      "sector": "Fintech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6112,7 +6098,29 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
+        },
+        "monthly": {
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SOFI&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
+        }
+      },
+      "price": 18.19
+    },
+    {
+      "ticker": "AFRM",
+      "sector": "Fintech",
+      "updated": "Sep 7, 2026",
+      "timeframes": {
+        "daily": {
+          "signal": "SELL",
+          "previous": "SELL"
+        },
+        "weekly": {
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=AFRM&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "BUY",
@@ -6124,7 +6132,7 @@
     {
       "ticker": "UPST",
       "sector": "Fintech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6132,11 +6140,12 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=UPST&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 27.79
@@ -6144,7 +6153,7 @@
     {
       "ticker": "LC",
       "sector": "Fintech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6152,7 +6161,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -6164,19 +6173,21 @@
     {
       "ticker": "WEX",
       "sector": "Fintech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=WEX&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=WEX&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 192.72
@@ -6184,7 +6195,7 @@
     {
       "ticker": "FLYW",
       "sector": "Fintech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6192,7 +6203,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -6204,15 +6215,16 @@
     {
       "ticker": "CWAN",
       "sector": "Fintech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=CWAN&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "N/A",
@@ -6224,15 +6236,16 @@
     {
       "ticker": "COIN",
       "sector": "Fintech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=COIN&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "SELL",
@@ -6244,7 +6257,7 @@
     {
       "ticker": "HOOD",
       "sector": "Fintech",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6252,11 +6265,12 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
-          "signal": "N/A",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HOOD&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 122.83
@@ -6264,15 +6278,16 @@
     {
       "ticker": "IBIT",
       "sector": "Crypto",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=IBIT&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "N/A",
@@ -6284,7 +6299,7 @@
     {
       "ticker": "FBTC",
       "sector": "Crypto",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6292,11 +6307,12 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
-          "signal": "N/A",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=FBTC&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 66.93
@@ -6304,7 +6320,7 @@
     {
       "ticker": "ETHA",
       "sector": "Crypto",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6312,7 +6328,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "N/A",
@@ -6324,27 +6340,29 @@
     {
       "ticker": "BTC/USD",
       "sector": "Crypto",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v1beta3/crypto/us/bars?symbols=BTC%2FUSD&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v1beta3/crypto/us/bars?symbols=BTC%2FUSD&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
-      "price": 79679.9
+      "price": 79076.24
     },
     {
       "ticker": "ETH/USD",
       "sector": "Crypto",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6352,47 +6370,49 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
           "previous": null
         }
       },
-      "price": 2453.47
+      "price": 2486.22
     },
     {
       "ticker": "SOL/USD",
       "sector": "Crypto",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v1beta3/crypto/us/bars?symbols=SOL%2FUSD&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "N/A",
           "previous": null
         }
       },
-      "price": 101.7
+      "price": 103.35
     },
     {
       "ticker": "XRP/USD",
       "sector": "Crypto",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v1beta3/crypto/us/bars?symbols=XRP%2FUSD&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "N/A",
@@ -6404,67 +6424,70 @@
     {
       "ticker": "ADA/USD",
       "sector": "Crypto",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "BUY"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "N/A",
-          "previous": null
+          "previous": "N/A"
         },
         "monthly": {
-          "signal": "N/A",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v1beta3/crypto/us/bars?symbols=ADA%2FUSD&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
-      "price": 0.21
+      "price": 0.22
     },
     {
       "ticker": "AVAX/USD",
       "sector": "Crypto",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "BUY"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "N/A",
           "previous": null
         }
       },
-      "price": 7.41
+      "price": 8.12
     },
     {
       "ticker": "DOGE/USD",
       "sector": "Crypto",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v1beta3/crypto/us/bars?symbols=DOGE%2FUSD&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v1beta3/crypto/us/bars?symbols=DOGE%2FUSD&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
-      "price": 0.08
+      "price": 0.09
     },
     {
       "ticker": "DOT/USD",
       "sector": "Crypto",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6472,31 +6495,33 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "N/A",
           "previous": null
         }
       },
-      "price": 0.87
+      "price": 1.05
     },
     {
       "ticker": "MATIC/USD",
       "sector": "Crypto",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "N/A",
-          "previous": "N/A"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v1beta3/crypto/us/bars?symbols=MATIC%2FUSD&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
-          "signal": "N/A",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v1beta3/crypto/us/bars?symbols=MATIC%2FUSD&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 0.68
@@ -6504,67 +6529,69 @@
     {
       "ticker": "LINK/USD",
       "sector": "Crypto",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
           "previous": null
         }
       },
-      "price": 11.61
+      "price": 12.76
     },
     {
       "ticker": "UNI/USD",
       "sector": "Crypto",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v1beta3/crypto/us/bars?symbols=UNI%2FUSD&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
           "previous": null
         }
       },
-      "price": 6.11
+      "price": 6.82
     },
     {
       "ticker": "LTC/USD",
       "sector": "Crypto",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v1beta3/crypto/us/bars?symbols=LTC%2FUSD&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "SELL",
           "previous": null
         }
       },
-      "price": 50.88
+      "price": 55.58
     },
     {
       "ticker": "ALGO/USD",
       "sector": "Crypto",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "N/A",
@@ -6572,11 +6599,12 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
-          "signal": "N/A",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v1beta3/crypto/us/bars?symbols=ALGO%2FUSD&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 1.0
@@ -6584,15 +6612,16 @@
     {
       "ticker": "NEAR/USD",
       "sector": "Crypto",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "N/A",
           "previous": "N/A"
         },
         "weekly": {
-          "signal": "N/A",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v1beta3/crypto/us/bars?symbols=NEAR%2FUSD&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "N/A",
@@ -6604,67 +6633,71 @@
     {
       "ticker": "FIL/USD",
       "sector": "Crypto",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v1beta3/crypto/us/bars?symbols=FIL%2FUSD&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "N/A",
-          "previous": null
+          "previous": "N/A"
         },
         "monthly": {
           "signal": "N/A",
           "previous": null
         }
       },
-      "price": 0.75
+      "price": 0.87
     },
     {
       "ticker": "ARB/USD",
       "sector": "Crypto",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "N/A",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v1beta3/crypto/us/bars?symbols=ARB%2FUSD&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "N/A",
           "previous": null
         }
       },
-      "price": 0.13
+      "price": 0.17
     },
     {
       "ticker": "AAVE/USD",
       "sector": "Crypto",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v1beta3/crypto/us/bars?symbols=AAVE%2FUSD&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
-          "signal": "N/A",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v1beta3/crypto/us/bars?symbols=AAVE%2FUSD&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
-      "price": 131.51
+      "price": 131.62
     },
     {
       "ticker": "PDBC",
       "sector": "Commodities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6672,7 +6705,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -6684,7 +6717,7 @@
     {
       "ticker": "GLD",
       "sector": "Commodities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6692,7 +6725,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -6704,19 +6737,21 @@
     {
       "ticker": "IAU",
       "sector": "Commodities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=IAU&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=IAU&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 82.97
@@ -6724,7 +6759,7 @@
     {
       "ticker": "SLV",
       "sector": "Commodities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6732,7 +6767,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -6744,15 +6779,16 @@
     {
       "ticker": "PPLT",
       "sector": "Commodities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=PPLT&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -6764,15 +6800,16 @@
     {
       "ticker": "USO",
       "sector": "Commodities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=USO&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "BUY",
@@ -6784,7 +6821,7 @@
     {
       "ticker": "BNO",
       "sector": "Commodities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6792,11 +6829,12 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BNO&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 56.31
@@ -6804,15 +6842,16 @@
     {
       "ticker": "UNG",
       "sector": "Commodities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=UNG&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "SELL",
@@ -6824,7 +6863,7 @@
     {
       "ticker": "DBA",
       "sector": "Commodities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6832,11 +6871,12 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=DBA&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 29.05
@@ -6844,7 +6884,7 @@
     {
       "ticker": "CORN",
       "sector": "Commodities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6852,7 +6892,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -6864,15 +6904,16 @@
     {
       "ticker": "WEAT",
       "sector": "Commodities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=WEAT&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -6884,15 +6925,16 @@
     {
       "ticker": "SOYB",
       "sector": "Commodities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SOYB&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "BUY",
@@ -6904,7 +6946,7 @@
     {
       "ticker": "DJP",
       "sector": "Commodities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6912,11 +6954,12 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=DJP&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 51.52
@@ -6924,15 +6967,16 @@
     {
       "ticker": "GDX",
       "sector": "Commodities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=GDX&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "BUY",
@@ -6944,7 +6988,7 @@
     {
       "ticker": "GDXJ",
       "sector": "Commodities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6952,11 +6996,12 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=GDXJ&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 129.29
@@ -6964,7 +7009,7 @@
     {
       "ticker": "COPX",
       "sector": "Commodities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6972,7 +7017,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -6984,15 +7029,15 @@
     {
       "ticker": "URA",
       "sector": "Commodities",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -7004,15 +7049,16 @@
     {
       "ticker": "VXX",
       "sector": "Volatility",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=VXX&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -7024,7 +7070,7 @@
     {
       "ticker": "UVXY",
       "sector": "Volatility",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7032,7 +7078,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -7044,15 +7090,16 @@
     {
       "ticker": "SVXY",
       "sector": "Volatility",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SVXY&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -7064,15 +7111,16 @@
     {
       "ticker": "VIXY",
       "sector": "Volatility",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=VIXY&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "SELL",
@@ -7084,7 +7132,7 @@
     {
       "ticker": "VIXM",
       "sector": "Volatility",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7092,11 +7140,12 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=VIXM&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 13.13
@@ -7104,15 +7153,16 @@
     {
       "ticker": "CBOE",
       "sector": "Volatility",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=CBOE&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "BUY",
@@ -7124,19 +7174,20 @@
     {
       "ticker": "SPXS",
       "sector": "Volatility",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SPXS&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 24.46
@@ -7144,7 +7195,7 @@
     {
       "ticker": "SQQQ",
       "sector": "Volatility",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7152,7 +7203,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -7164,19 +7215,21 @@
     {
       "ticker": "SH",
       "sector": "Volatility",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SH&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SH&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 32.36
@@ -7184,7 +7237,7 @@
     {
       "ticker": "PSQ",
       "sector": "Volatility",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7192,7 +7245,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -7204,15 +7257,16 @@
     {
       "ticker": "TAIL",
       "sector": "Volatility",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=TAIL&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -7224,15 +7278,16 @@
     {
       "ticker": "BTAL",
       "sector": "Volatility",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=BTAL&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "SELL",
@@ -7244,15 +7299,16 @@
     {
       "ticker": "TLT",
       "sector": "Fixed Income",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=TLT&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -7264,15 +7320,16 @@
     {
       "ticker": "IEF",
       "sector": "Fixed Income",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=IEF&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "SELL",
@@ -7284,7 +7341,7 @@
     {
       "ticker": "SHY",
       "sector": "Fixed Income",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7292,11 +7349,12 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=SHY&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 81.68
@@ -7304,7 +7362,7 @@
     {
       "ticker": "BND",
       "sector": "Fixed Income",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7312,7 +7370,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -7324,15 +7382,16 @@
     {
       "ticker": "AGG",
       "sector": "Fixed Income",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=AGG&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -7344,15 +7403,16 @@
     {
       "ticker": "HYG",
       "sector": "Fixed Income",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=HYG&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "SELL",
@@ -7364,7 +7424,7 @@
     {
       "ticker": "JNK",
       "sector": "Fixed Income",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7372,11 +7432,12 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=JNK&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 95.17
@@ -7384,15 +7445,16 @@
     {
       "ticker": "LQD",
       "sector": "Fixed Income",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=LQD&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "SELL",
@@ -7404,7 +7466,7 @@
     {
       "ticker": "EMB",
       "sector": "Fixed Income",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7412,11 +7474,12 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "ERR"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=EMB&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 91.32
@@ -7424,7 +7487,7 @@
     {
       "ticker": "TIP",
       "sector": "Fixed Income",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -7432,7 +7495,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -7444,15 +7507,16 @@
     {
       "ticker": "MUB",
       "sector": "Fixed Income",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=MUB&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "SELL",
@@ -7464,15 +7528,16 @@
     {
       "ticker": "EFA",
       "sector": "International Developed",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=EFA&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "BUY",
@@ -7484,15 +7549,16 @@
     {
       "ticker": "VEA",
       "sector": "International Developed",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=VEA&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -7504,15 +7570,16 @@
     {
       "ticker": "EWJ",
       "sector": "International Developed",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=EWJ&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "BUY",
@@ -7524,7 +7591,7 @@
     {
       "ticker": "EWG",
       "sector": "International Developed",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7532,11 +7599,12 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=EWG&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 43.62
@@ -7544,15 +7612,16 @@
     {
       "ticker": "EWU",
       "sector": "International Developed",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=EWU&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "BUY",
@@ -7564,19 +7633,20 @@
     {
       "ticker": "EWC",
       "sector": "International Developed",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": "BUY"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=EWC&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 62.58
@@ -7584,7 +7654,7 @@
     {
       "ticker": "EWA",
       "sector": "International Developed",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -7592,7 +7662,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -7604,15 +7674,16 @@
     {
       "ticker": "EWL",
       "sector": "International Developed",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=EWL&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "BUY",
@@ -7624,7 +7695,7 @@
     {
       "ticker": "EWQ",
       "sector": "International Developed",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7632,11 +7703,12 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=EWQ&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 46.91
@@ -7644,7 +7716,7 @@
     {
       "ticker": "HEZU",
       "sector": "International Developed",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7652,7 +7724,7 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
           "signal": "BUY",
@@ -7664,7 +7736,7 @@
     {
       "ticker": "DXJ",
       "sector": "International Developed",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -7672,11 +7744,12 @@
         },
         "weekly": {
           "signal": "SELL",
-          "previous": null
+          "previous": "SELL"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=DXJ&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 173.14
@@ -7684,7 +7757,7 @@
     {
       "ticker": "EEM",
       "sector": "International Emerging",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -7692,7 +7765,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "BUY",
@@ -7704,15 +7777,16 @@
     {
       "ticker": "VWO",
       "sector": "International Emerging",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=VWO&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "BUY",
@@ -7724,15 +7798,15 @@
     {
       "ticker": "FXI",
       "sector": "International Emerging",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -7744,15 +7818,15 @@
     {
       "ticker": "MCHI",
       "sector": "International Emerging",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -7764,15 +7838,16 @@
     {
       "ticker": "EWZ",
       "sector": "International Emerging",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=EWZ&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "BUY",
@@ -7784,7 +7859,7 @@
     {
       "ticker": "INDA",
       "sector": "International Emerging",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -7792,11 +7867,12 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
-          "signal": "SELL",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=INDA&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 49.9
@@ -7804,15 +7880,16 @@
     {
       "ticker": "EWY",
       "sector": "International Emerging",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=EWY&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "BUY",
@@ -7824,7 +7901,7 @@
     {
       "ticker": "EWT",
       "sector": "International Emerging",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -7832,11 +7909,12 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=EWT&timeframe=1Month&start=1996-09-14&limit=1000&sort=asc"
         }
       },
       "price": 111.97
@@ -7844,7 +7922,7 @@
     {
       "ticker": "KWEB",
       "sector": "International Emerging",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7852,7 +7930,7 @@
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -7864,15 +7942,16 @@
     {
       "ticker": "GXC",
       "sector": "International Emerging",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "SELL"
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=GXC&timeframe=1Day&start=2025-04-25&limit=1000&sort=asc"
         },
         "weekly": {
           "signal": "BUY",
-          "previous": null
+          "previous": "BUY"
         },
         "monthly": {
           "signal": "SELL",
@@ -7884,15 +7963,16 @@
     {
       "ticker": "INDY",
       "sector": "International Emerging",
-      "updated": "Sep 4, 2026",
+      "updated": "Sep 7, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=INDY&timeframe=1Week&start=2019-12-23&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "SELL",
