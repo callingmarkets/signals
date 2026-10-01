@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01T16:58:33.182637+00:00",
+  "generated": "2026-10-01T17:16:59.336032+00:00",
   "portfolios": [
     {
       "id": "btc-long-only",
@@ -71394,7 +71394,7 @@
       "max_drawdown_pct": 73.9,
       "final_value": 1042376.11,
       "current_value": 1042376.11,
-      "btc_bah_pct": 463.17,
+      "btc_bah_pct": 465.71,
       "n_weeks": 456,
       "n_weeks_crypto": 241,
       "n_weeks_paxg": 90,
@@ -80999,54 +80999,54 @@
       "return_3y": 396.64,
       "return_5y": 65.2,
       "return_10y": null,
-      "bah_return_1y": -29.07,
-      "bah_return_3y": 202.61,
-      "bah_return_5y": 51.99,
-      "bah_return_10y": 13581.04,
+      "bah_return_1y": -28.75,
+      "bah_return_3y": 203.97,
+      "bah_return_5y": 52.67,
+      "bah_return_10y": 13642.67,
       "current_holdings": [
         {
           "ticker": "BTC",
           "name": "BTC",
           "shares": 2.494776,
-          "price": 84124.7,
-          "value": 209872.3,
-          "weight": 20.13,
+          "price": 84503.7,
+          "value": 210817.82,
+          "weight": 20.22,
           "signal": "BUY"
         },
         {
           "ticker": "ETH",
           "name": "ETH",
           "shares": 77.670148,
-          "price": 2677.6,
-          "value": 207969.59,
-          "weight": 19.95,
+          "price": 2692.22,
+          "value": 209105.13,
+          "weight": 20.06,
           "signal": "BUY"
         },
         {
           "ticker": "XRP",
           "name": "XRP",
           "shares": 140016.80515,
-          "price": 1.4807,
-          "value": 207328.48,
-          "weight": 19.89,
+          "price": 1.4931,
+          "value": 209061.89,
+          "weight": 20.06,
           "signal": "BUY"
         },
         {
           "ticker": "SOL",
           "name": "SOL",
           "shares": 1765.841281,
-          "price": 117.01,
-          "value": 206621.09,
-          "weight": 19.82,
+          "price": 117.8,
+          "value": 208016.1,
+          "weight": 19.96,
           "signal": "BUY"
         },
         {
           "ticker": "DOGE",
           "name": "DOGE",
           "shares": 2206196.728213,
-          "price": 0.0938,
-          "value": 206845.72,
-          "weight": 19.84,
+          "price": 0.0944,
+          "value": 208344.39,
+          "weight": 19.99,
           "signal": "BUY"
         }
       ]
