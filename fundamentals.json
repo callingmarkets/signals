@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-09T02:12:50.908556Z",
+  "generated": "2026-11-16T02:29:06.764998Z",
   "scored": 242,
   "skipped": 114,
   "errors": 7,
   "grades": {
-    "Strong": 144,
-    "Solid": 75,
+    "Strong": 142,
+    "Solid": 77,
     "Mixed": 18,
     "Weak": 5,
     "Poor": 0
@@ -24,7 +24,7 @@
       "pe": 6.9,
       "debt_equity": 0.58,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "AAPL": {
@@ -37,10 +37,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 38.1,
+      "pe": 39.7,
       "debt_equity": 0.84,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "ABBV": {
@@ -53,10 +53,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": null,
-      "pe": 50.1,
+      "pe": 50.7,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "ABNB": {
@@ -69,10 +69,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 35.6,
+      "pe": 35.0,
       "debt_equity": 0.27,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "ADBE": {
@@ -85,10 +85,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 13.4,
+      "pe": 13.6,
       "debt_equity": 0.58,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "AEP": {
@@ -101,10 +101,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 20.7,
+      "pe": 21.1,
       "debt_equity": 1.62,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "AFRM": {
@@ -117,10 +117,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 11.8,
+      "pe": 11.3,
       "debt_equity": 1.82,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "AI": {
@@ -136,24 +136,24 @@
       "pe": null,
       "debt_equity": 0.09,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": null
     },
     "AIG": {
       "ticker": "AIG",
       "sector": "Financials",
-      "score": 100,
+      "score": 80,
       "grade": "Strong",
       "revenue_growth": true,
       "earnings_growth": true,
       "fcf_positive": true,
-      "pe_vs_sector": "below",
+      "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 12.7,
+      "pe": 13.5,
       "debt_equity": 0.27,
       "error": null,
-      "updated": "2026-11-09",
-      "pe_vs_sector_ok": true
+      "updated": "2026-11-16",
+      "pe_vs_sector_ok": false
     },
     "ALB": {
       "ticker": "ALB",
@@ -165,10 +165,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 23.9,
+      "pe": 22.5,
       "debt_equity": 0.18,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "ALNY": {
@@ -181,10 +181,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 7.9,
+      "pe": 8.3,
       "debt_equity": 0.83,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "AMAT": {
@@ -197,10 +197,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 28.7,
-      "debt_equity": 0.29,
+      "pe": 29.4,
+      "debt_equity": 0.25,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "AMBA": {
@@ -213,10 +213,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 55.5,
+      "pe": 57.0,
       "debt_equity": 0.02,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "AMD": {
@@ -229,10 +229,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 95.9,
+      "pe": 114.1,
       "debt_equity": 0.13,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "AMGN": {
@@ -245,10 +245,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": false,
-      "pe": 26.7,
+      "pe": 27.0,
       "debt_equity": 3.76,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "AMT": {
@@ -261,10 +261,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": false,
-      "pe": 26.6,
+      "pe": 27.0,
       "debt_equity": 4.64,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "AMZN": {
@@ -277,10 +277,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 21.0,
+      "pe": 21.6,
       "debt_equity": 0.5,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "APA": {
@@ -293,10 +293,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 7.3,
+      "pe": 7.9,
       "debt_equity": 0.42,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "APD": {
@@ -309,10 +309,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 127.5,
+      "pe": 132.4,
       "debt_equity": 1.06,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "APO": {
@@ -325,10 +325,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 11.0,
+      "pe": 11.7,
       "debt_equity": 1.24,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "APP": {
@@ -341,10 +341,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 26.3,
+      "pe": 27.5,
       "debt_equity": 1.07,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "AVB": {
@@ -360,7 +360,7 @@
       "pe": 25.2,
       "debt_equity": 0.75,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "AVGO": {
@@ -373,10 +373,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 37.5,
+      "pe": 44.3,
       "debt_equity": 0.6,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "AWK": {
@@ -389,10 +389,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 26.0,
+      "pe": 25.9,
       "debt_equity": 1.38,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "AXP": {
@@ -408,7 +408,7 @@
       "pe": 18.1,
       "debt_equity": 1.68,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "BA": {
@@ -421,10 +421,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": false,
-      "pe": 17.9,
+      "pe": 17.7,
       "debt_equity": 7.39,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "BAC": {
@@ -437,10 +437,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": null,
-      "pe": 11.8,
+      "pe": 12.2,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "BBAI": {
@@ -456,7 +456,7 @@
       "pe": null,
       "debt_equity": 0.03,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": null
     },
     "BIIB": {
@@ -469,10 +469,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 107.5,
+      "pe": 109.7,
       "debt_equity": 0.41,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "BKNG": {
@@ -485,10 +485,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": null,
-      "pe": 17.4,
+      "pe": 17.3,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "BKR": {
@@ -501,10 +501,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 16.5,
+      "pe": 17.0,
       "debt_equity": 0.89,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "BLK": {
@@ -517,10 +517,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 26.8,
+      "pe": 27.8,
       "debt_equity": 0.22,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "BMRN": {
@@ -533,10 +533,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 8.8,
+      "pe": 9.0,
       "debt_equity": 0.67,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "BNTX": {
@@ -552,7 +552,7 @@
       "pe": null,
       "debt_equity": 0.02,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": null
     },
     "BSX": {
@@ -565,10 +565,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 18.0,
+      "pe": 18.7,
       "debt_equity": 0.46,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "BX": {
@@ -581,10 +581,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 26.6,
+      "pe": 26.8,
       "debt_equity": 0.74,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "C": {
@@ -597,10 +597,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "below",
       "debt_equity_ok": null,
-      "pe": 11.6,
+      "pe": 12.1,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "CAG": {
@@ -613,27 +613,27 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 10.2,
+      "pe": 9.8,
       "debt_equity": 1.21,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "CAT": {
       "ticker": "CAT",
       "sector": "Industrials",
-      "score": 80,
-      "grade": "Strong",
+      "score": 60,
+      "grade": "Solid",
       "revenue_growth": true,
       "earnings_growth": true,
       "fcf_positive": true,
-      "pe_vs_sector": "below",
+      "pe_vs_sector": "above",
       "debt_equity_ok": false,
-      "pe": 21.9,
+      "pe": 23.6,
       "debt_equity": 2.1,
       "error": null,
-      "updated": "2026-11-09",
-      "pe_vs_sector_ok": true
+      "updated": "2026-11-16",
+      "pe_vs_sector_ok": false
     },
     "CBOE": {
       "ticker": "CBOE",
@@ -645,10 +645,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 25.1,
+      "pe": 26.7,
       "debt_equity": 0.27,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "CCI": {
@@ -661,10 +661,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": null,
-      "pe": 35.6,
+      "pe": 36.5,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "CCL": {
@@ -677,10 +677,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 13.0,
+      "pe": 12.9,
       "debt_equity": 1.77,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "CHKP": {
@@ -693,10 +693,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 17.3,
+      "pe": 17.7,
       "debt_equity": 0.75,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "CHTR": {
@@ -709,10 +709,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": false,
-      "pe": 11.1,
+      "pe": 13.0,
       "debt_equity": 3.69,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "CI": {
@@ -725,10 +725,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 12.9,
+      "pe": 13.1,
       "debt_equity": 0.71,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "CL": {
@@ -741,10 +741,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": false,
-      "pe": 37.6,
+      "pe": 38.8,
       "debt_equity": 12.06,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "CMCSA": {
@@ -757,10 +757,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 7.7,
+      "pe": 8.0,
       "debt_equity": 0.94,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "CMI": {
@@ -773,10 +773,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 18.8,
-      "debt_equity": 0.52,
+      "pe": 18.9,
+      "debt_equity": 0.57,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "CMS": {
@@ -789,10 +789,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 24.7,
+      "pe": 25.1,
       "debt_equity": 1.96,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "COF": {
@@ -805,10 +805,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": null,
-      "pe": 12.4,
+      "pe": 12.0,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "COIN": {
@@ -821,10 +821,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 55.2,
+      "pe": 52.0,
       "debt_equity": 0.49,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "COP": {
@@ -837,10 +837,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 14.4,
+      "pe": 15.0,
       "debt_equity": 0.35,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "COST": {
@@ -853,10 +853,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 50.7,
+      "pe": 53.3,
       "debt_equity": 0.28,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "CRM": {
@@ -869,10 +869,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 19.5,
+      "pe": 19.9,
       "debt_equity": 1.1,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "CRWD": {
@@ -885,10 +885,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 3615.0,
+      "pe": 3776.8,
       "debt_equity": 0.16,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "CSCO": {
@@ -901,26 +901,26 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 28.2,
-      "debt_equity": 0.62,
+      "pe": 25.4,
+      "debt_equity": 0.58,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "CVS": {
       "ticker": "CVS",
       "sector": "Health Care",
-      "score": 80,
+      "score": 100,
       "grade": "Strong",
       "revenue_growth": true,
-      "earnings_growth": false,
+      "earnings_growth": true,
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 9.7,
+      "pe": 10.4,
       "debt_equity": 0.93,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "CVX": {
@@ -933,10 +933,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 15.6,
+      "pe": 16.1,
       "debt_equity": 0.17,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "CWAN": {
@@ -952,7 +952,7 @@
       "pe": 28.0,
       "debt_equity": 0.42,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "D": {
@@ -965,10 +965,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 22.6,
+      "pe": 22.3,
       "debt_equity": 1.62,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "DD": {
@@ -981,10 +981,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 51.1,
+      "pe": 53.6,
       "debt_equity": 0.23,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "DDOG": {
@@ -997,10 +997,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 248.7,
+      "pe": 255.8,
       "debt_equity": 0.28,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "DE": {
@@ -1013,10 +1013,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": false,
-      "pe": 37.3,
+      "pe": 37.4,
       "debt_equity": 2.3,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "DELL": {
@@ -1029,10 +1029,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": null,
-      "pe": 19.1,
+      "pe": 20.0,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "DIS": {
@@ -1045,10 +1045,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 24.1,
+      "pe": 24.5,
       "debt_equity": 0.39,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "DLR": {
@@ -1061,10 +1061,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 73.5,
+      "pe": 75.9,
       "debt_equity": 0.69,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "DOW": {
@@ -1077,10 +1077,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 17.1,
+      "pe": 18.0,
       "debt_equity": 1.08,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "DUK": {
@@ -1093,10 +1093,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 18.7,
+      "pe": 18.9,
       "debt_equity": 1.63,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "DVN": {
@@ -1109,10 +1109,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 9.9,
+      "pe": 10.9,
       "debt_equity": 0.27,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "DXCM": {
@@ -1125,10 +1125,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 31.3,
+      "pe": 32.8,
       "debt_equity": 0.55,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "EA": {
@@ -1144,7 +1144,7 @@
       "pe": 59.7,
       "debt_equity": 0.26,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "ECL": {
@@ -1157,10 +1157,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 40.9,
+      "pe": 42.1,
       "debt_equity": 1.33,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "ELV": {
@@ -1173,10 +1173,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 18.1,
+      "pe": 18.2,
       "debt_equity": 0.69,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "EMR": {
@@ -1189,10 +1189,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 33.9,
-      "debt_equity": 0.59,
+      "pe": 34.7,
+      "debt_equity": 0.62,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "ENTG": {
@@ -1205,10 +1205,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 49.8,
+      "pe": 57.4,
       "debt_equity": 0.78,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "EOG": {
@@ -1221,10 +1221,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 9.5,
+      "pe": 10.2,
       "debt_equity": 0.25,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "EQIX": {
@@ -1237,10 +1237,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 60.8,
+      "pe": 63.3,
       "debt_equity": 1.81,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "EQR": {
@@ -1256,7 +1256,7 @@
       "pe": 28.7,
       "debt_equity": 0.79,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "ES": {
@@ -1269,10 +1269,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 18.4,
-      "debt_equity": 1.81,
+      "pe": 18.9,
+      "debt_equity": 1.76,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "ETN": {
@@ -1285,10 +1285,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 34.1,
+      "pe": 35.3,
       "debt_equity": 1.0,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "ETR": {
@@ -1301,10 +1301,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 25.3,
+      "pe": 25.4,
       "debt_equity": 1.73,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "EXC": {
@@ -1317,10 +1317,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 17.8,
+      "pe": 18.1,
       "debt_equity": 1.77,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "F": {
@@ -1333,10 +1333,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "below",
       "debt_equity_ok": false,
-      "pe": 6.6,
+      "pe": 6.4,
       "debt_equity": 4.48,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "FANG": {
@@ -1349,10 +1349,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 24.1,
+      "pe": 24.9,
       "debt_equity": 0.29,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "FCX": {
@@ -1365,10 +1365,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 25.0,
+      "pe": 24.9,
       "debt_equity": 0.31,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "FDX": {
@@ -1381,10 +1381,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 16.6,
+      "pe": 17.5,
       "debt_equity": 0.99,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "FE": {
@@ -1397,10 +1397,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 22.4,
+      "pe": 22.7,
       "debt_equity": 2.07,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "FLYW": {
@@ -1413,10 +1413,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 35.4,
+      "pe": 36.5,
       "debt_equity": 0.0,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "FOXA": {
@@ -1429,10 +1429,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 14.2,
+      "pe": 14.6,
       "debt_equity": 0.6,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "FTNT": {
@@ -1445,10 +1445,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 38.8,
+      "pe": 41.6,
       "debt_equity": 0.25,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "GE": {
@@ -1461,10 +1461,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 36.9,
+      "pe": 37.9,
       "debt_equity": 1.16,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "GILD": {
@@ -1477,10 +1477,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": false,
-      "pe": 16.5,
+      "pe": 16.6,
       "debt_equity": 2.02,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "GIS": {
@@ -1493,10 +1493,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 11.3,
+      "pe": 10.9,
       "debt_equity": 1.82,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "GM": {
@@ -1509,10 +1509,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": false,
-      "pe": 18.9,
+      "pe": 18.8,
       "debt_equity": 2.03,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "GOOGL": {
@@ -1525,27 +1525,27 @@
       "fcf_positive": false,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 14.9,
+      "pe": 15.4,
       "debt_equity": 0.22,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "GS": {
       "ticker": "GS",
       "sector": "Financials",
-      "score": 60,
-      "grade": "Solid",
+      "score": 40,
+      "grade": "Mixed",
       "revenue_growth": true,
       "earnings_growth": true,
       "fcf_positive": false,
-      "pe_vs_sector": "below",
+      "pe_vs_sector": "above",
       "debt_equity_ok": false,
-      "pe": 12.4,
+      "pe": 13.2,
       "debt_equity": 7.56,
       "error": null,
-      "updated": "2026-11-09",
-      "pe_vs_sector_ok": true
+      "updated": "2026-11-16",
+      "pe_vs_sector_ok": false
     },
     "GTLB": {
       "ticker": "GTLB",
@@ -1557,10 +1557,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": null,
-      "pe": 46.3,
+      "pe": 46.0,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "HAL": {
@@ -1573,10 +1573,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 13.4,
+      "pe": 14.2,
       "debt_equity": 0.73,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "HD": {
@@ -1589,10 +1589,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": false,
-      "pe": 24.0,
+      "pe": 24.4,
       "debt_equity": 3.8,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "HLT": {
@@ -1605,10 +1605,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": null,
-      "pe": 50.0,
+      "pe": 50.3,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "HON": {
@@ -1621,10 +1621,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 10.9,
+      "pe": 11.0,
       "debt_equity": 0.76,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "HOOD": {
@@ -1637,10 +1637,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": false,
-      "pe": 37.3,
+      "pe": 35.9,
       "debt_equity": 2.24,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "HPQ": {
@@ -1653,10 +1653,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": null,
-      "pe": 10.9,
+      "pe": 11.2,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "HST": {
@@ -1669,27 +1669,27 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 18.2,
+      "pe": 18.9,
       "debt_equity": 0.86,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "HSY": {
       "ticker": "HSY",
       "sector": "Consumer Staples",
-      "score": 80,
+      "score": 100,
       "grade": "Strong",
       "revenue_growth": true,
       "earnings_growth": true,
       "fcf_positive": true,
-      "pe_vs_sector": "above",
+      "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 20.1,
+      "pe": 19.7,
       "debt_equity": 1.11,
       "error": null,
-      "updated": "2026-11-09",
-      "pe_vs_sector_ok": false
+      "updated": "2026-11-16",
+      "pe_vs_sector_ok": true
     },
     "HUM": {
       "ticker": "HUM",
@@ -1701,10 +1701,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 42.3,
+      "pe": 43.9,
       "debt_equity": 0.71,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "IDXX": {
@@ -1717,10 +1717,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 45.6,
+      "pe": 47.5,
       "debt_equity": 0.52,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "ILMN": {
@@ -1733,10 +1733,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 36.7,
+      "pe": 35.6,
       "debt_equity": 0.74,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "INCY": {
@@ -1749,10 +1749,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 61.0,
+      "pe": 61.7,
       "debt_equity": 0.01,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "INTC": {
@@ -1765,10 +1765,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 31.4,
+      "pe": 33.3,
       "debt_equity": 0.38,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "INTU": {
@@ -1781,10 +1781,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 20.7,
+      "pe": 20.8,
       "debt_equity": 0.44,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "IP": {
@@ -1797,10 +1797,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 12.6,
+      "pe": 12.5,
       "debt_equity": 0.79,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "ISRG": {
@@ -1813,10 +1813,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": null,
-      "pe": 54.8,
+      "pe": 53.6,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "JNJ": {
@@ -1829,10 +1829,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 41.9,
+      "pe": 43.4,
       "debt_equity": 0.55,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "JPM": {
@@ -1845,26 +1845,26 @@
       "fcf_positive": false,
       "pe_vs_sector": "above",
       "debt_equity_ok": null,
-      "pe": 14.0,
+      "pe": 14.5,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "KKR": {
       "ticker": "KKR",
       "sector": "Financials",
-      "score": 80,
-      "grade": "Strong",
-      "revenue_growth": true,
+      "score": 60,
+      "grade": "Solid",
+      "revenue_growth": false,
       "earnings_growth": true,
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 30.8,
-      "debt_equity": 0.7,
+      "pe": 28.8,
+      "debt_equity": 0.71,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "KLAC": {
@@ -1877,10 +1877,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 34.7,
+      "pe": 38.2,
       "debt_equity": 0.92,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "KO": {
@@ -1893,10 +1893,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 28.2,
+      "pe": 29.3,
       "debt_equity": 1.07,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "LBRDA": {
@@ -1912,7 +1912,7 @@
       "pe": 6.1,
       "debt_equity": 0.38,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "LIN": {
@@ -1925,10 +1925,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 34.2,
+      "pe": 34.9,
       "debt_equity": 0.65,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "LLY": {
@@ -1941,10 +1941,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 43.9,
+      "pe": 46.9,
       "debt_equity": 1.23,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "LMT": {
@@ -1957,10 +1957,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": false,
-      "pe": 20.1,
+      "pe": 21.2,
       "debt_equity": 2.04,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "LOW": {
@@ -1973,10 +1973,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": null,
-      "pe": 19.0,
+      "pe": 19.3,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "LRCX": {
@@ -1989,10 +1989,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 29.9,
+      "pe": 33.7,
       "debt_equity": 0.27,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "LULU": {
@@ -2005,10 +2005,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 9.1,
+      "pe": 8.7,
       "debt_equity": 0.45,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "LYFT": {
@@ -2024,7 +2024,7 @@
       "pe": 2.5,
       "debt_equity": 0.43,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "MA": {
@@ -2037,10 +2037,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 34.2,
+      "pe": 34.6,
       "debt_equity": 3.55,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "MAR": {
@@ -2053,10 +2053,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": null,
-      "pe": 41.5,
+      "pe": 42.2,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "MCD": {
@@ -2069,10 +2069,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": null,
-      "pe": 21.9,
+      "pe": 21.5,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "MCHP": {
@@ -2085,10 +2085,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 43.9,
+      "pe": 46.4,
       "debt_equity": 0.84,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "MDB": {
@@ -2101,10 +2101,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 434.5,
+      "pe": 464.2,
       "debt_equity": 0.02,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "MDLZ": {
@@ -2117,10 +2117,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 20.8,
+      "pe": 21.3,
       "debt_equity": 0.84,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "MDT": {
@@ -2133,27 +2133,27 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 25.0,
+      "pe": 25.3,
       "debt_equity": 0.55,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "MET": {
       "ticker": "MET",
       "sector": "Financials",
-      "score": 80,
-      "grade": "Strong",
+      "score": 60,
+      "grade": "Solid",
       "revenue_growth": true,
       "earnings_growth": true,
       "fcf_positive": false,
-      "pe_vs_sector": "below",
+      "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 12.8,
+      "pe": 13.4,
       "debt_equity": 2.24,
       "error": null,
-      "updated": "2026-11-09",
-      "pe_vs_sector_ok": true
+      "updated": "2026-11-16",
+      "pe_vs_sector_ok": false
     },
     "META": {
       "ticker": "META",
@@ -2165,10 +2165,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 20.8,
+      "pe": 21.9,
       "debt_equity": 0.42,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "MLM": {
@@ -2181,10 +2181,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 38.7,
+      "pe": 38.3,
       "debt_equity": 0.75,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "MMM": {
@@ -2197,10 +2197,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": false,
-      "pe": 27.6,
+      "pe": 27.4,
       "debt_equity": 3.04,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "MO": {
@@ -2213,10 +2213,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": null,
-      "pe": 15.7,
+      "pe": 16.2,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "MPC": {
@@ -2229,10 +2229,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 7.4,
+      "pe": 8.2,
       "debt_equity": 1.15,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "MPWR": {
@@ -2245,10 +2245,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 65.3,
+      "pe": 76.2,
       "debt_equity": 0.01,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "MRK": {
@@ -2261,10 +2261,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 148.2,
+      "pe": 149.3,
       "debt_equity": 1.2,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "MRNA": {
@@ -2280,7 +2280,7 @@
       "pe": null,
       "debt_equity": 0.62,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": null
     },
     "MRVL": {
@@ -2293,10 +2293,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 46.4,
+      "pe": 51.6,
       "debt_equity": 0.29,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "MS": {
@@ -2309,10 +2309,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 14.4,
+      "pe": 15.1,
       "debt_equity": 4.9,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "MSFT": {
@@ -2325,10 +2325,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 27.7,
+      "pe": 27.3,
       "debt_equity": 0.28,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "MU": {
@@ -2341,10 +2341,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 9.3,
+      "pe": 10.5,
       "debt_equity": 0.04,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "NEE": {
@@ -2357,10 +2357,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 15.7,
+      "pe": 15.3,
       "debt_equity": 1.53,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "NEM": {
@@ -2373,10 +2373,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 14.0,
+      "pe": 13.1,
       "debt_equity": 0.16,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "NET": {
@@ -2389,10 +2389,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": false,
-      "pe": 146.8,
+      "pe": 164.1,
       "debt_equity": 3.21,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "NFLX": {
@@ -2405,10 +2405,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 18.3,
+      "pe": 18.0,
       "debt_equity": 0.6,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "NI": {
@@ -2421,10 +2421,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 22.6,
+      "pe": 23.6,
       "debt_equity": 1.53,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "NKE": {
@@ -2437,10 +2437,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 18.6,
+      "pe": 18.3,
       "debt_equity": 0.73,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "NOC": {
@@ -2453,10 +2453,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 16.6,
+      "pe": 17.4,
       "debt_equity": 0.93,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "NOW": {
@@ -2469,10 +2469,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 73.4,
+      "pe": 73.6,
       "debt_equity": 0.64,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "NU": {
@@ -2488,7 +2488,7 @@
       "pe": 16.5,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "NUE": {
@@ -2501,10 +2501,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 15.6,
+      "pe": 16.0,
       "debt_equity": 0.29,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "NVDA": {
@@ -2517,10 +2517,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 23.6,
+      "pe": 20.6,
       "debt_equity": 0.17,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "O": {
@@ -2533,10 +2533,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 40.4,
+      "pe": 40.3,
       "debt_equity": 0.75,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "OKTA": {
@@ -2549,10 +2549,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 101.6,
+      "pe": 110.2,
       "debt_equity": 0.01,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "ON": {
@@ -2565,10 +2565,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 37.0,
+      "pe": 41.6,
       "debt_equity": 0.62,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "ONTO": {
@@ -2581,10 +2581,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 65.1,
-      "debt_equity": 0.77,
+      "pe": 67.0,
+      "debt_equity": 0.74,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "ORCL": {
@@ -2597,10 +2597,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "below",
       "debt_equity_ok": false,
-      "pe": 18.2,
+      "pe": 19.6,
       "debt_equity": 2.52,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "OXY": {
@@ -2613,10 +2613,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 16.0,
-      "debt_equity": 0.35,
+      "pe": 13.1,
+      "debt_equity": 0.29,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "PANW": {
@@ -2629,10 +2629,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 784.6,
+      "pe": 805.6,
       "debt_equity": 0.09,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "PARA": {
@@ -2648,7 +2648,7 @@
       "pe": null,
       "debt_equity": 0.55,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": null
     },
     "PATH": {
@@ -2661,10 +2661,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 19.4,
+      "pe": 19.8,
       "debt_equity": 0.04,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "PCAR": {
@@ -2677,10 +2677,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 19.5,
+      "pe": 20.4,
       "debt_equity": 0.72,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "PCG": {
@@ -2693,10 +2693,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 9.6,
+      "pe": 9.8,
       "debt_equity": 1.88,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "PEP": {
@@ -2709,10 +2709,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": false,
-      "pe": 17.8,
+      "pe": 18.3,
       "debt_equity": 2.31,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "PFE": {
@@ -2725,10 +2725,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 42.0,
+      "pe": 41.3,
       "debt_equity": 0.71,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "PG": {
@@ -2741,10 +2741,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 24.9,
+      "pe": 25.6,
       "debt_equity": 0.7,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "PH": {
@@ -2757,10 +2757,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 31.5,
+      "pe": 32.8,
       "debt_equity": 1.09,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "PKG": {
@@ -2773,10 +2773,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 30.8,
+      "pe": 31.0,
       "debt_equity": 0.92,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "PLD": {
@@ -2789,10 +2789,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 28.0,
+      "pe": 28.3,
       "debt_equity": 0.62,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "PLTR": {
@@ -2805,10 +2805,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 112.9,
+      "pe": 118.3,
       "debt_equity": 0.02,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "PM": {
@@ -2821,10 +2821,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": null,
-      "pe": 28.9,
+      "pe": 29.0,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "PNC": {
@@ -2837,10 +2837,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": null,
-      "pe": 12.0,
+      "pe": 12.4,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "PPG": {
@@ -2856,7 +2856,7 @@
       "pe": 17.2,
       "debt_equity": 0.87,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "PPL": {
@@ -2869,27 +2869,27 @@
       "fcf_positive": false,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 20.6,
-      "debt_equity": 1.37,
+      "pe": 20.5,
+      "debt_equity": 1.38,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "PSA": {
       "ticker": "PSA",
       "sector": "Real Estate",
-      "score": 60,
-      "grade": "Solid",
+      "score": 80,
+      "grade": "Strong",
       "revenue_growth": true,
       "earnings_growth": false,
       "fcf_positive": true,
-      "pe_vs_sector": "above",
+      "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 35.5,
+      "pe": 35.0,
       "debt_equity": 0.8,
       "error": null,
-      "updated": "2026-11-09",
-      "pe_vs_sector_ok": false
+      "updated": "2026-11-16",
+      "pe_vs_sector_ok": true
     },
     "PSX": {
       "ticker": "PSX",
@@ -2901,10 +2901,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 7.9,
+      "pe": 8.5,
       "debt_equity": 0.52,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "PYPL": {
@@ -2920,23 +2920,23 @@
       "pe": 11.3,
       "debt_equity": 0.73,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "QBTS": {
       "ticker": "QBTS",
       "sector": "AI & Robotics",
-      "score": 50,
-      "grade": "Mixed",
-      "revenue_growth": false,
+      "score": 75,
+      "grade": "Solid",
+      "revenue_growth": true,
       "earnings_growth": true,
       "fcf_positive": false,
       "pe_vs_sector": "n/a",
       "debt_equity_ok": true,
       "pe": null,
-      "debt_equity": 0.04,
+      "debt_equity": 0.05,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": null
     },
     "QCOM": {
@@ -2949,10 +2949,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 13.0,
+      "pe": 13.6,
       "debt_equity": 0.53,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "QLYS": {
@@ -2965,10 +2965,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 33.0,
-      "debt_equity": 0.09,
+      "pe": 28.8,
+      "debt_equity": 0.08,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "RARE": {
@@ -2981,10 +2981,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "below",
       "debt_equity_ok": null,
-      "pe": 13.8,
+      "pe": 11.2,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "RBLX": {
@@ -3000,7 +3000,7 @@
       "pe": null,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": null
     },
     "RCL": {
@@ -3013,42 +3013,42 @@
       "fcf_positive": false,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 19.4,
+      "pe": 19.1,
       "debt_equity": 1.94,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "REGN": {
       "ticker": "REGN",
       "sector": "Health Care",
-      "score": 100,
+      "score": 80,
       "grade": "Strong",
       "revenue_growth": true,
       "earnings_growth": true,
       "fcf_positive": true,
-      "pe_vs_sector": "below",
+      "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 20.0,
+      "pe": 21.1,
       "debt_equity": 0.08,
       "error": null,
-      "updated": "2026-11-09",
-      "pe_vs_sector_ok": true
+      "updated": "2026-11-16",
+      "pe_vs_sector_ok": false
     },
     "ROK": {
       "ticker": "ROK",
       "sector": "Industrials",
-      "score": 60,
-      "grade": "Solid",
+      "score": 80,
+      "grade": "Strong",
       "revenue_growth": true,
       "earnings_growth": true,
-      "fcf_positive": false,
+      "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 30.0,
-      "debt_equity": 1.0,
+      "pe": 32.1,
+      "debt_equity": 1.02,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "RPD": {
@@ -3061,10 +3061,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": false,
-      "pe": 69.9,
+      "pe": 68.6,
       "debt_equity": 4.34,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "RTX": {
@@ -3077,10 +3077,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 30.8,
+      "pe": 32.3,
       "debt_equity": 0.55,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "S": {
@@ -3093,10 +3093,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": null,
-      "pe": 47.2,
+      "pe": 48.2,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "SBAC": {
@@ -3109,10 +3109,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": null,
-      "pe": 20.5,
+      "pe": 20.4,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "SBUX": {
@@ -3125,10 +3125,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": null,
-      "pe": 47.7,
+      "pe": 48.2,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "SCHW": {
@@ -3141,10 +3141,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 15.6,
+      "pe": 15.9,
       "debt_equity": 1.51,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "SHOP": {
@@ -3157,10 +3157,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 91.4,
+      "pe": 90.2,
       "debt_equity": 0.01,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "SJM": {
@@ -3173,10 +3173,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 61.0,
+      "pe": 62.0,
       "debt_equity": 1.21,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "SLB": {
@@ -3189,10 +3189,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 24.2,
+      "pe": 25.1,
       "debt_equity": 0.47,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "SNOW": {
@@ -3205,10 +3205,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 90.7,
+      "pe": 95.0,
       "debt_equity": 1.29,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "SO": {
@@ -3221,10 +3221,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 21.1,
+      "pe": 21.4,
       "debt_equity": 1.68,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "SOFI": {
@@ -3237,26 +3237,26 @@
       "fcf_positive": false,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 29.5,
+      "pe": 28.0,
       "debt_equity": 0.35,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "SOUN": {
       "ticker": "SOUN",
       "sector": "AI & Robotics",
-      "score": 75,
-      "grade": "Solid",
+      "score": 100,
+      "grade": "Strong",
       "revenue_growth": true,
       "earnings_growth": true,
-      "fcf_positive": false,
+      "fcf_positive": true,
       "pe_vs_sector": "n/a",
       "debt_equity_ok": true,
       "pe": null,
       "debt_equity": 0.01,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": null
     },
     "SPG": {
@@ -3269,10 +3269,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": false,
-      "pe": 16.5,
+      "pe": 16.8,
       "debt_equity": 5.4,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "SPOT": {
@@ -3285,27 +3285,27 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 36.7,
+      "pe": 37.3,
       "debt_equity": 0.05,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "SRE": {
       "ticker": "SRE",
       "sector": "Utilities",
-      "score": 80,
-      "grade": "Strong",
+      "score": 60,
+      "grade": "Solid",
       "revenue_growth": true,
       "earnings_growth": true,
       "fcf_positive": false,
-      "pe_vs_sector": "below",
+      "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 16.7,
+      "pe": 17.0,
       "debt_equity": 0.85,
       "error": null,
-      "updated": "2026-11-09",
-      "pe_vs_sector_ok": true
+      "updated": "2026-11-16",
+      "pe_vs_sector_ok": false
     },
     "T": {
       "ticker": "T",
@@ -3317,10 +3317,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 11.6,
+      "pe": 11.9,
       "debt_equity": 1.45,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "TENB": {
@@ -3333,10 +3333,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": null,
-      "pe": 324.1,
+      "pe": 313.5,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "TER": {
@@ -3349,10 +3349,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 25.1,
+      "pe": 28.7,
       "debt_equity": 0.04,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "TFC": {
@@ -3365,10 +3365,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "below",
       "debt_equity_ok": null,
-      "pe": 12.7,
+      "pe": 12.9,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "TGT": {
@@ -3381,10 +3381,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 16.4,
+      "pe": 16.8,
       "debt_equity": 1.08,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "TJX": {
@@ -3397,10 +3397,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 25.1,
+      "pe": 24.9,
       "debt_equity": 1.34,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "TMUS": {
@@ -3413,10 +3413,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": false,
-      "pe": 15.6,
+      "pe": 16.4,
       "debt_equity": 2.11,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "TSLA": {
@@ -3429,10 +3429,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 393.6,
+      "pe": 428.8,
       "debt_equity": 0.18,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "TSN": {
@@ -3445,26 +3445,26 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 36.8,
+      "pe": 36.3,
       "debt_equity": 0.44,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "TTWO": {
       "ticker": "TTWO",
       "sector": "Communications",
-      "score": 80,
-      "grade": "Strong",
-      "revenue_growth": true,
+      "score": 60,
+      "grade": "Solid",
+      "revenue_growth": false,
       "earnings_growth": true,
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 21.1,
-      "debt_equity": 0.82,
+      "pe": 22.6,
+      "debt_equity": 0.79,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "TXN": {
@@ -3477,27 +3477,27 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 36.0,
+      "pe": 39.4,
       "debt_equity": 0.71,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "U": {
       "ticker": "U",
       "sector": "Communications",
-      "score": 80,
+      "score": 100,
       "grade": "Strong",
       "revenue_growth": true,
       "earnings_growth": true,
       "fcf_positive": true,
-      "pe_vs_sector": "above",
+      "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 20.6,
+      "pe": 20.0,
       "debt_equity": 0.66,
       "error": null,
-      "updated": "2026-11-09",
-      "pe_vs_sector_ok": false
+      "updated": "2026-11-16",
+      "pe_vs_sector_ok": true
     },
     "UBER": {
       "ticker": "UBER",
@@ -3509,10 +3509,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 40.3,
+      "pe": 41.0,
       "debt_equity": 0.61,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "UNH": {
@@ -3525,10 +3525,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 22.5,
+      "pe": 23.3,
       "debt_equity": 0.7,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "UNP": {
@@ -3541,10 +3541,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 22.6,
+      "pe": 23.6,
       "debt_equity": 1.41,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "UPS": {
@@ -3557,10 +3557,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": false,
-      "pe": 20.9,
+      "pe": 21.7,
       "debt_equity": 2.03,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "UPST": {
@@ -3573,10 +3573,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": false,
-      "pe": 35.9,
+      "pe": 32.1,
       "debt_equity": 2.38,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "USB": {
@@ -3589,10 +3589,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": null,
-      "pe": 11.6,
+      "pe": 11.9,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "V": {
@@ -3605,10 +3605,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 34.3,
+      "pe": 34.6,
       "debt_equity": 0.64,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "VLO": {
@@ -3621,10 +3621,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 7.9,
+      "pe": 8.6,
       "debt_equity": 0.35,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "VMC": {
@@ -3637,10 +3637,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 33.5,
+      "pe": 33.0,
       "debt_equity": 0.63,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "VRNS": {
@@ -3653,10 +3653,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 114.6,
+      "pe": 114.9,
       "debt_equity": 1.22,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "VRTX": {
@@ -3669,10 +3669,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 35.2,
+      "pe": 34.7,
       "debt_equity": 0.31,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "VTR": {
@@ -3685,10 +3685,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 170.7,
+      "pe": 171.0,
       "debt_equity": 0.77,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "VZ": {
@@ -3701,10 +3701,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 11.7,
+      "pe": 11.8,
       "debt_equity": 1.82,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "WBD": {
@@ -3720,7 +3720,7 @@
       "pe": null,
       "debt_equity": 0.94,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": null
     },
     "WDAY": {
@@ -3733,10 +3733,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 39.3,
+      "pe": 40.0,
       "debt_equity": 0.58,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "WELL": {
@@ -3749,10 +3749,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 103.8,
+      "pe": 103.6,
       "debt_equity": 0.42,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "WEX": {
@@ -3765,10 +3765,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": false,
-      "pe": 15.7,
+      "pe": 15.6,
       "debt_equity": 4.62,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "WFC": {
@@ -3781,10 +3781,10 @@
       "fcf_positive": false,
       "pe_vs_sector": "below",
       "debt_equity_ok": null,
-      "pe": 11.8,
+      "pe": 12.1,
       "debt_equity": null,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "WM": {
@@ -3797,10 +3797,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": false,
-      "pe": 31.0,
+      "pe": 32.0,
       "debt_equity": 2.37,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "WMT": {
@@ -3813,10 +3813,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 45.5,
+      "pe": 46.4,
       "debt_equity": 0.72,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "WY": {
@@ -3829,10 +3829,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": true,
-      "pe": 33.3,
+      "pe": 33.0,
       "debt_equity": 0.57,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     },
     "XOM": {
@@ -3845,10 +3845,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 17.1,
+      "pe": 17.6,
       "debt_equity": 0.13,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "ZS": {
@@ -3861,10 +3861,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "above",
       "debt_equity_ok": true,
-      "pe": 35.2,
+      "pe": 34.2,
       "debt_equity": 0.72,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": false
     },
     "ZTS": {
@@ -3877,10 +3877,10 @@
       "fcf_positive": true,
       "pe_vs_sector": "below",
       "debt_equity_ok": false,
-      "pe": 13.5,
+      "pe": 14.3,
       "debt_equity": 2.8,
       "error": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-16",
       "pe_vs_sector_ok": true
     }
   }
