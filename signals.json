@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-18T02:51:29.668038Z",
+  "generated": "2026-11-19T02:26:21.123638Z",
   "signals": [
     {
       "ticker": "SPY",
       "sector": "Broad Market",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -19,12 +19,12 @@
           "previous": "BUY"
         }
       },
-      "price": 731.16
+      "price": 733.47
     },
     {
       "ticker": "QQQ",
       "sector": "Broad Market",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -39,12 +39,12 @@
           "previous": "BUY"
         }
       },
-      "price": 656.44
+      "price": 660.39
     },
     {
       "ticker": "IWM",
       "sector": "Broad Market",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -59,12 +59,12 @@
           "previous": "BUY"
         }
       },
-      "price": 261.17
+      "price": 270.04
     },
     {
       "ticker": "DIA",
       "sector": "Broad Market",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -79,12 +79,12 @@
           "previous": "BUY"
         }
       },
-      "price": 505.95
+      "price": 500.37
     },
     {
       "ticker": "MDY",
       "sector": "Broad Market",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -99,12 +99,12 @@
           "previous": "BUY"
         }
       },
-      "price": 633.57
+      "price": 637.98
     },
     {
       "ticker": "VTI",
       "sector": "Broad Market",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -119,12 +119,12 @@
           "previous": "BUY"
         }
       },
-      "price": 359.97
+      "price": 360.71
     },
     {
       "ticker": "VOO",
       "sector": "Broad Market",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -139,12 +139,12 @@
           "previous": "BUY"
         }
       },
-      "price": 651.77
+      "price": 674.03
     },
     {
       "ticker": "RSP",
       "sector": "Broad Market",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -159,12 +159,12 @@
           "previous": "BUY"
         }
       },
-      "price": 217.44
+      "price": 215.61
     },
     {
       "ticker": "SPLG",
       "sector": "Broad Market",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -184,7 +184,7 @@
     {
       "ticker": "SCHB",
       "sector": "Broad Market",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -199,12 +199,12 @@
           "previous": "BUY"
         }
       },
-      "price": 27.26
+      "price": 28.21
     },
     {
       "ticker": "ITOT",
       "sector": "Broad Market",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -219,12 +219,12 @@
           "previous": "BUY"
         }
       },
-      "price": 159.57
+      "price": 154.97
     },
     {
       "ticker": "XLK",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -239,12 +239,12 @@
           "previous": "SELL"
         }
       },
-      "price": 162.17
+      "price": 163.13
     },
     {
       "ticker": "AAPL",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -259,12 +259,12 @@
           "previous": "BUY"
         }
       },
-      "price": 335.01
+      "price": 351.83
     },
     {
       "ticker": "MSFT",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -279,12 +279,12 @@
           "previous": null
         }
       },
-      "price": 504.5
+      "price": 479.27
     },
     {
       "ticker": "NVDA",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -299,12 +299,12 @@
           "previous": null
         }
       },
-      "price": 158.87
+      "price": 144.91
     },
     {
       "ticker": "AVGO",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -315,16 +315,16 @@
           "previous": null
         },
         "monthly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": null
         }
       },
-      "price": 335.81
+      "price": 356.0
     },
     {
       "ticker": "ORCL",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -339,12 +339,12 @@
           "previous": "SELL"
         }
       },
-      "price": 110.56
+      "price": 114.12
     },
     {
       "ticker": "CRM",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -359,15 +359,15 @@
           "previous": "SELL"
         }
       },
-      "price": 195.62
+      "price": 188.84
     },
     {
       "ticker": "AMD",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -379,12 +379,12 @@
           "previous": null
         }
       },
-      "price": 502.61
+      "price": 530.79
     },
     {
       "ticker": "INTC",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -399,12 +399,12 @@
           "previous": null
         }
       },
-      "price": 55.19
+      "price": 51.5
     },
     {
       "ticker": "QCOM",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -419,19 +419,19 @@
           "previous": null
         }
       },
-      "price": 166.38
+      "price": 158.94
     },
     {
       "ticker": "TXN",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "SELL"
         },
         "monthly": {
@@ -439,12 +439,12 @@
           "previous": "BUY"
         }
       },
-      "price": 294.0
+      "price": 294.53
     },
     {
       "ticker": "MU",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -459,15 +459,15 @@
           "previous": null
         }
       },
-      "price": 676.27
+      "price": 669.18
     },
     {
       "ticker": "AMAT",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -479,12 +479,12 @@
           "previous": null
         }
       },
-      "price": 344.23
+      "price": 334.62
     },
     {
       "ticker": "LRCX",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -499,16 +499,16 @@
           "previous": null
         }
       },
-      "price": 199.21
+      "price": 210.06
     },
     {
       "ticker": "KLAC",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -519,12 +519,12 @@
           "previous": null
         }
       },
-      "price": 143.43
+      "price": 135.9
     },
     {
       "ticker": "MRVL",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -539,12 +539,12 @@
           "previous": null
         }
       },
-      "price": 139.27
+      "price": 138.27
     },
     {
       "ticker": "ADBE",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -559,12 +559,12 @@
           "previous": "SELL"
         }
       },
-      "price": 236.18
+      "price": 216.7
     },
     {
       "ticker": "NOW",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -579,19 +579,19 @@
           "previous": "SELL"
         }
       },
-      "price": 92.77
+      "price": 84.88
     },
     {
       "ticker": "INTU",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "SELL"
         },
         "monthly": {
@@ -599,12 +599,12 @@
           "previous": "SELL"
         }
       },
-      "price": 324.79
+      "price": 298.79
     },
     {
       "ticker": "WDAY",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -619,12 +619,12 @@
           "previous": "SELL"
         }
       },
-      "price": 183.83
+      "price": 181.62
     },
     {
       "ticker": "SNOW",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -639,12 +639,12 @@
           "previous": "BUY"
         }
       },
-      "price": 274.91
+      "price": 277.16
     },
     {
       "ticker": "PLTR",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -659,19 +659,19 @@
           "previous": null
         }
       },
-      "price": 155.56
+      "price": 155.69
     },
     {
       "ticker": "CRWD",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": null
         },
         "monthly": {
@@ -679,12 +679,12 @@
           "previous": null
         }
       },
-      "price": 218.94
+      "price": 237.31
     },
     {
       "ticker": "PANW",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -699,15 +699,15 @@
           "previous": null
         }
       },
-      "price": 308.77
+      "price": 340.56
     },
     {
       "ticker": "ZS",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -715,20 +715,20 @@
           "previous": null
         },
         "monthly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": null
         }
       },
-      "price": 175.75
+      "price": 198.97
     },
     {
       "ticker": "NET",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "BUY"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -739,12 +739,12 @@
           "previous": null
         }
       },
-      "price": 266.47
+      "price": 303.07
     },
     {
       "ticker": "DDOG",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -759,12 +759,12 @@
           "previous": "BUY"
         }
       },
-      "price": 166.56
+      "price": 167.23
     },
     {
       "ticker": "MDB",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -779,12 +779,12 @@
           "previous": "BUY"
         }
       },
-      "price": 285.11
+      "price": 306.89
     },
     {
       "ticker": "SHOP",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -799,16 +799,16 @@
           "previous": "BUY"
         }
       },
-      "price": 142.88
+      "price": 141.04
     },
     {
       "ticker": "UBER",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -819,12 +819,12 @@
           "previous": "SELL"
         }
       },
-      "price": 65.79
+      "price": 69.47
     },
     {
       "ticker": "HPQ",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -839,12 +839,12 @@
           "previous": "BUY"
         }
       },
-      "price": 26.98
+      "price": 28.91
     },
     {
       "ticker": "DELL",
       "sector": "Technology",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -859,16 +859,16 @@
           "previous": "BUY"
         }
       },
-      "price": 303.84
+      "price": 313.07
     },
     {
       "ticker": "XLC",
       "sector": "Communications",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "BUY"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -879,15 +879,15 @@
           "previous": "SELL"
         }
       },
-      "price": 105.53
+      "price": 102.27
     },
     {
       "ticker": "GOOGL",
       "sector": "Communications",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -899,16 +899,16 @@
           "previous": null
         }
       },
-      "price": 283.48
+      "price": 282.77
     },
     {
       "ticker": "META",
       "sector": "Communications",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -919,12 +919,12 @@
           "previous": null
         }
       },
-      "price": 624.9
+      "price": 588.92
     },
     {
       "ticker": "DIS",
       "sector": "Communications",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -939,12 +939,12 @@
           "previous": "SELL"
         }
       },
-      "price": 115.73
+      "price": 117.17
     },
     {
       "ticker": "NFLX",
       "sector": "Communications",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -959,16 +959,16 @@
           "previous": "SELL"
         }
       },
-      "price": 60.03
+      "price": 59.61
     },
     {
       "ticker": "SPOT",
       "sector": "Communications",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -979,12 +979,12 @@
           "previous": "SELL"
         }
       },
-      "price": 560.98
+      "price": 608.71
     },
     {
       "ticker": "APP",
       "sector": "Communications",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -999,19 +999,19 @@
           "previous": "SELL"
         }
       },
-      "price": 397.41
+      "price": 394.63
     },
     {
       "ticker": "RBLX",
       "sector": "Communications",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "BUY"
         },
         "monthly": {
@@ -1019,12 +1019,12 @@
           "previous": "SELL"
         }
       },
-      "price": 44.44
+      "price": 46.62
     },
     {
       "ticker": "U",
       "sector": "Communications",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1039,12 +1039,12 @@
           "previous": "BUY"
         }
       },
-      "price": 50.55
+      "price": 45.88
     },
     {
       "ticker": "T",
       "sector": "Communications",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1059,19 +1059,19 @@
           "previous": "SELL"
         }
       },
-      "price": 22.46
+      "price": 20.99
     },
     {
       "ticker": "VZ",
       "sector": "Communications",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "BUY"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "BUY"
         },
         "monthly": {
@@ -1079,12 +1079,12 @@
           "previous": "BUY"
         }
       },
-      "price": 43.79
+      "price": 43.13
     },
     {
       "ticker": "CMCSA",
       "sector": "Communications",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1099,12 +1099,12 @@
           "previous": "SELL"
         }
       },
-      "price": 25.3
+      "price": 23.89
     },
     {
       "ticker": "CHTR",
       "sector": "Communications",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1119,15 +1119,15 @@
           "previous": "SELL"
         }
       },
-      "price": 139.53
+      "price": 140.12
     },
     {
       "ticker": "TMUS",
       "sector": "Communications",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -1139,12 +1139,12 @@
           "previous": "SELL"
         }
       },
-      "price": 169.1
+      "price": 164.66
     },
     {
       "ticker": "EA",
       "sector": "Communications",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1164,10 +1164,10 @@
     {
       "ticker": "TTWO",
       "sector": "Communications",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -1179,12 +1179,12 @@
           "previous": "SELL"
         }
       },
-      "price": 205.5
+      "price": 217.25
     },
     {
       "ticker": "PARA",
       "sector": "Communications",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1199,12 +1199,12 @@
           "previous": "SELL"
         }
       },
-      "price": 0.07
+      "price": 0.06
     },
     {
       "ticker": "WBD",
       "sector": "Communications",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1224,10 +1224,10 @@
     {
       "ticker": "FOXA",
       "sector": "Communications",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -1239,12 +1239,12 @@
           "previous": "SELL"
         }
       },
-      "price": 63.36
+      "price": 63.08
     },
     {
       "ticker": "LBRDA",
       "sector": "Communications",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1264,11 +1264,11 @@
     {
       "ticker": "XLY",
       "sector": "Consumer Discretionary",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -1279,19 +1279,19 @@
           "previous": "SELL"
         }
       },
-      "price": 113.83
+      "price": 119.65
     },
     {
       "ticker": "AMZN",
       "sector": "Consumer Discretionary",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "monthly": {
@@ -1299,12 +1299,12 @@
           "previous": "BUY"
         }
       },
-      "price": 244.42
+      "price": 251.37
     },
     {
       "ticker": "TSLA",
       "sector": "Consumer Discretionary",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1319,16 +1319,16 @@
           "previous": "SELL"
         }
       },
-      "price": 375.86
+      "price": 385.02
     },
     {
       "ticker": "HD",
       "sector": "Consumer Discretionary",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -1339,16 +1339,16 @@
           "previous": "SELL"
         }
       },
-      "price": 341.32
+      "price": 321.15
     },
     {
       "ticker": "LOW",
       "sector": "Consumer Discretionary",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -1359,15 +1359,15 @@
           "previous": "SELL"
         }
       },
-      "price": 205.06
+      "price": 223.81
     },
     {
       "ticker": "MCD",
       "sector": "Consumer Discretionary",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -1379,16 +1379,16 @@
           "previous": "SELL"
         }
       },
-      "price": 277.52
+      "price": 273.26
     },
     {
       "ticker": "SBUX",
       "sector": "Consumer Discretionary",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -1399,19 +1399,19 @@
           "previous": "BUY"
         }
       },
-      "price": 107.84
+      "price": 109.06
     },
     {
       "ticker": "NKE",
       "sector": "Consumer Discretionary",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "monthly": {
@@ -1419,15 +1419,15 @@
           "previous": "SELL"
         }
       },
-      "price": 35.47
+      "price": 36.48
     },
     {
       "ticker": "LULU",
       "sector": "Consumer Discretionary",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -1439,19 +1439,19 @@
           "previous": "SELL"
         }
       },
-      "price": 104.42
+      "price": 110.4
     },
     {
       "ticker": "TJX",
       "sector": "Consumer Discretionary",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "monthly": {
@@ -1459,12 +1459,12 @@
           "previous": "SELL"
         }
       },
-      "price": 123.53
+      "price": 141.29
     },
     {
       "ticker": "BKNG",
       "sector": "Consumer Discretionary",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1479,12 +1479,12 @@
           "previous": "SELL"
         }
       },
-      "price": 155.47
+      "price": 146.87
     },
     {
       "ticker": "MAR",
       "sector": "Consumer Discretionary",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1499,12 +1499,12 @@
           "previous": "BUY"
         }
       },
-      "price": 426.47
+      "price": 421.72
     },
     {
       "ticker": "HLT",
       "sector": "Consumer Discretionary",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1519,19 +1519,19 @@
           "previous": "BUY"
         }
       },
-      "price": 376.1
+      "price": 376.17
     },
     {
       "ticker": "TGT",
       "sector": "Consumer Discretionary",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "BUY"
         },
         "monthly": {
@@ -1539,12 +1539,12 @@
           "previous": "BUY"
         }
       },
-      "price": 150.1
+      "price": 167.26
     },
     {
       "ticker": "ABNB",
       "sector": "Consumer Discretionary",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1559,15 +1559,15 @@
           "previous": "BUY"
         }
       },
-      "price": 182.45
+      "price": 169.1
     },
     {
       "ticker": "LYFT",
       "sector": "Consumer Discretionary",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -1579,12 +1579,12 @@
           "previous": "SELL"
         }
       },
-      "price": 16.66
+      "price": 16.85
     },
     {
       "ticker": "RCL",
       "sector": "Consumer Discretionary",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1599,12 +1599,12 @@
           "previous": "SELL"
         }
       },
-      "price": 309.34
+      "price": 321.36
     },
     {
       "ticker": "CCL",
       "sector": "Consumer Discretionary",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1615,16 +1615,16 @@
           "previous": "SELL"
         },
         "monthly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         }
       },
-      "price": 27.75
+      "price": 27.79
     },
     {
       "ticker": "F",
       "sector": "Consumer Discretionary",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1639,12 +1639,12 @@
           "previous": "BUY"
         }
       },
-      "price": 11.34
+      "price": 11.05
     },
     {
       "ticker": "GM",
       "sector": "Consumer Discretionary",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1659,15 +1659,15 @@
           "previous": "BUY"
         }
       },
-      "price": 80.56
+      "price": 82.86
     },
     {
       "ticker": "XLP",
       "sector": "Consumer Staples",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -1679,12 +1679,12 @@
           "previous": null
         }
       },
-      "price": 91.94
+      "price": 91.34
     },
     {
       "ticker": "COST",
       "sector": "Consumer Staples",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1699,16 +1699,16 @@
           "previous": null
         }
       },
-      "price": 1050.7
+      "price": 1049.72
     },
     {
       "ticker": "WMT",
       "sector": "Consumer Staples",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -1719,12 +1719,12 @@
           "previous": null
         }
       },
-      "price": 124.67
+      "price": 125.39
     },
     {
       "ticker": "PG",
       "sector": "Consumer Staples",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1739,12 +1739,12 @@
           "previous": null
         }
       },
-      "price": 171.04
+      "price": 170.35
     },
     {
       "ticker": "KO",
       "sector": "Consumer Staples",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1759,12 +1759,12 @@
           "previous": null
         }
       },
-      "price": 93.65
+      "price": 92.86
     },
     {
       "ticker": "PEP",
       "sector": "Consumer Staples",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1779,12 +1779,12 @@
           "previous": null
         }
       },
-      "price": 143.29
+      "price": 133.19
     },
     {
       "ticker": "PM",
       "sector": "Consumer Staples",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1799,16 +1799,16 @@
           "previous": null
         }
       },
-      "price": 195.76
+      "price": 193.55
     },
     {
       "ticker": "MO",
       "sector": "Consumer Staples",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -1819,12 +1819,12 @@
           "previous": null
         }
       },
-      "price": 74.11
+      "price": 77.09
     },
     {
       "ticker": "CL",
       "sector": "Consumer Staples",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1839,15 +1839,15 @@
           "previous": null
         }
       },
-      "price": 99.88
+      "price": 97.6
     },
     {
       "ticker": "GIS",
       "sector": "Consumer Staples",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -1859,12 +1859,12 @@
           "previous": null
         }
       },
-      "price": 35.25
+      "price": 32.41
     },
     {
       "ticker": "K",
       "sector": "Consumer Staples",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -1884,10 +1884,10 @@
     {
       "ticker": "MDLZ",
       "sector": "Consumer Staples",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -1899,12 +1899,12 @@
           "previous": null
         }
       },
-      "price": 63.47
+      "price": 63.41
     },
     {
       "ticker": "HSY",
       "sector": "Consumer Staples",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1919,12 +1919,12 @@
           "previous": null
         }
       },
-      "price": 173.51
+      "price": 174.4
     },
     {
       "ticker": "TSN",
       "sector": "Consumer Staples",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1939,12 +1939,12 @@
           "previous": null
         }
       },
-      "price": 64.7
+      "price": 63.6
     },
     {
       "ticker": "SJM",
       "sector": "Consumer Staples",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -1959,16 +1959,16 @@
           "previous": null
         }
       },
-      "price": 132.88
+      "price": 132.76
     },
     {
       "ticker": "CAG",
       "sector": "Consumer Staples",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -1979,32 +1979,32 @@
           "previous": null
         }
       },
-      "price": 13.9
+      "price": 14.61
     },
     {
       "ticker": "XLF",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": null
         },
         "monthly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": null
         }
       },
-      "price": 55.43
+      "price": 56.81
     },
     {
       "ticker": "JPM",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2019,16 +2019,16 @@
           "previous": null
         }
       },
-      "price": 333.12
+      "price": 310.89
     },
     {
       "ticker": "BAC",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2039,12 +2039,12 @@
           "previous": null
         }
       },
-      "price": 47.1
+      "price": 49.34
     },
     {
       "ticker": "GS",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2059,12 +2059,12 @@
           "previous": null
         }
       },
-      "price": 869.18
+      "price": 832.4
     },
     {
       "ticker": "MS",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2079,16 +2079,16 @@
           "previous": null
         }
       },
-      "price": 183.59
+      "price": 173.54
     },
     {
       "ticker": "WFC",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2099,12 +2099,12 @@
           "previous": null
         }
       },
-      "price": 78.33
+      "price": 81.84
     },
     {
       "ticker": "C",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2119,12 +2119,12 @@
           "previous": null
         }
       },
-      "price": 114.47
+      "price": 111.15
     },
     {
       "ticker": "BX",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2139,12 +2139,12 @@
           "previous": null
         }
       },
-      "price": 116.78
+      "price": 109.44
     },
     {
       "ticker": "KKR",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2159,16 +2159,16 @@
           "previous": null
         }
       },
-      "price": 94.99
+      "price": 86.62
     },
     {
       "ticker": "APO",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2179,16 +2179,16 @@
           "previous": null
         }
       },
-      "price": 109.07
+      "price": 117.5
     },
     {
       "ticker": "BLK",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -2199,12 +2199,12 @@
           "previous": null
         }
       },
-      "price": 1125.75
+      "price": 1189.76
     },
     {
       "ticker": "SCHW",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2219,12 +2219,12 @@
           "previous": null
         }
       },
-      "price": 91.34
+      "price": 92.53
     },
     {
       "ticker": "V",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2239,12 +2239,12 @@
           "previous": null
         }
       },
-      "price": 417.92
+      "price": 414.85
     },
     {
       "ticker": "MA",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2259,12 +2259,12 @@
           "previous": null
         }
       },
-      "price": 621.77
+      "price": 608
     },
     {
       "ticker": "AXP",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2279,12 +2279,12 @@
           "previous": null
         }
       },
-      "price": 318.1
+      "price": 315.18
     },
     {
       "ticker": "PYPL",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2299,12 +2299,12 @@
           "previous": null
         }
       },
-      "price": 58.61
+      "price": 57.75
     },
     {
       "ticker": "SQ",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "N/A",
@@ -2324,7 +2324,7 @@
     {
       "ticker": "NU",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2339,12 +2339,12 @@
           "previous": null
         }
       },
-      "price": 11.77
+      "price": 12.08
     },
     {
       "ticker": "SOFI",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2359,12 +2359,12 @@
           "previous": null
         }
       },
-      "price": 14.39
+      "price": 14.05
     },
     {
       "ticker": "COF",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2379,16 +2379,16 @@
           "previous": null
         }
       },
-      "price": 177.69
+      "price": 187.22
     },
     {
       "ticker": "USB",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2399,12 +2399,12 @@
           "previous": null
         }
       },
-      "price": 60.33
+      "price": 56.05
     },
     {
       "ticker": "PNC",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2419,16 +2419,16 @@
           "previous": null
         }
       },
-      "price": 224.2
+      "price": 226.11
     },
     {
       "ticker": "TFC",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2439,16 +2439,16 @@
           "previous": null
         }
       },
-      "price": 49.03
+      "price": 45.73
     },
     {
       "ticker": "AIG",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -2459,16 +2459,16 @@
           "previous": null
         }
       },
-      "price": 81.73
+      "price": 82.31
     },
     {
       "ticker": "MET",
       "sector": "Financials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2479,12 +2479,12 @@
           "previous": null
         }
       },
-      "price": 95.46
+      "price": 100.27
     },
     {
       "ticker": "XLV",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2499,39 +2499,39 @@
           "previous": null
         }
       },
-      "price": 185.95
+      "price": 181.23
     },
     {
       "ticker": "UNH",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
           "previous": null
         },
         "monthly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": null
         }
       },
-      "price": 391.57
+      "price": 348.08
     },
     {
       "ticker": "JNJ",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": null
         },
         "monthly": {
@@ -2539,16 +2539,16 @@
           "previous": null
         }
       },
-      "price": 264.39
+      "price": 276.62
     },
     {
       "ticker": "LLY",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -2559,12 +2559,12 @@
           "previous": null
         }
       },
-      "price": 1343.3
+      "price": 1391.74
     },
     {
       "ticker": "ABBV",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2579,12 +2579,12 @@
           "previous": null
         }
       },
-      "price": 291.1
+      "price": 275.51
     },
     {
       "ticker": "MRK",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2599,12 +2599,12 @@
           "previous": null
         }
       },
-      "price": 135.84
+      "price": 138.63
     },
     {
       "ticker": "PFE",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2619,12 +2619,12 @@
           "previous": null
         }
       },
-      "price": 28.63
+      "price": 28.19
     },
     {
       "ticker": "AMGN",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2639,12 +2639,12 @@
           "previous": null
         }
       },
-      "price": 460.28
+      "price": 419.37
     },
     {
       "ticker": "GILD",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2659,12 +2659,12 @@
           "previous": null
         }
       },
-      "price": 160.21
+      "price": 161.97
     },
     {
       "ticker": "BIIB",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2679,12 +2679,12 @@
           "previous": null
         }
       },
-      "price": 235.85
+      "price": 249.86
     },
     {
       "ticker": "REGN",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2699,12 +2699,12 @@
           "previous": null
         }
       },
-      "price": 951.83
+      "price": 947.75
     },
     {
       "ticker": "VRTX",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2719,12 +2719,12 @@
           "previous": null
         }
       },
-      "price": 531.58
+      "price": 512.67
     },
     {
       "ticker": "ISRG",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2739,12 +2739,12 @@
           "previous": null
         }
       },
-      "price": 431.77
+      "price": 424.84
     },
     {
       "ticker": "BSX",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2759,16 +2759,16 @@
           "previous": null
         }
       },
-      "price": 43.22
+      "price": 43.66
     },
     {
       "ticker": "MDT",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -2779,16 +2779,16 @@
           "previous": null
         }
       },
-      "price": 96.9
+      "price": 101.59
     },
     {
       "ticker": "CVS",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -2799,19 +2799,19 @@
           "previous": null
         }
       },
-      "price": 81.13
+      "price": 81.31
     },
     {
       "ticker": "HUM",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": null
         },
         "monthly": {
@@ -2819,19 +2819,19 @@
           "previous": null
         }
       },
-      "price": 448.42
+      "price": 386.13
     },
     {
       "ticker": "ELV",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": null
         },
         "monthly": {
@@ -2839,12 +2839,12 @@
           "previous": null
         }
       },
-      "price": 404.6
+      "price": 373.4
     },
     {
       "ticker": "CI",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2859,16 +2859,16 @@
           "previous": null
         }
       },
-      "price": 297.53
+      "price": 289.35
     },
     {
       "ticker": "ZTS",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "BUY"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -2879,12 +2879,12 @@
           "previous": null
         }
       },
-      "price": 79.51
+      "price": 85.97
     },
     {
       "ticker": "DXCM",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2899,12 +2899,12 @@
           "previous": null
         }
       },
-      "price": 76.27
+      "price": 82.34
     },
     {
       "ticker": "IDXX",
       "sector": "Health Care",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -2919,12 +2919,12 @@
           "previous": null
         }
       },
-      "price": 692.35
+      "price": 696.57
     },
     {
       "ticker": "XLE",
       "sector": "Energy",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2939,12 +2939,12 @@
           "previous": null
         }
       },
-      "price": 63.43
+      "price": 61.45
     },
     {
       "ticker": "XOM",
       "sector": "Energy",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2959,19 +2959,19 @@
           "previous": null
         }
       },
-      "price": 158.27
+      "price": 162.29
     },
     {
       "ticker": "CVX",
       "sector": "Energy",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": null
         },
         "monthly": {
@@ -2979,12 +2979,12 @@
           "previous": null
         }
       },
-      "price": 217.5
+      "price": 197.39
     },
     {
       "ticker": "COP",
       "sector": "Energy",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -2999,12 +2999,12 @@
           "previous": null
         }
       },
-      "price": 141.0
+      "price": 135.75
     },
     {
       "ticker": "EOG",
       "sector": "Energy",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3019,12 +3019,12 @@
           "previous": null
         }
       },
-      "price": 143.43
+      "price": 143.04
     },
     {
       "ticker": "SLB",
       "sector": "Energy",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3039,12 +3039,12 @@
           "previous": null
         }
       },
-      "price": 49.87
+      "price": 46.34
     },
     {
       "ticker": "MPC",
       "sector": "Energy",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3059,12 +3059,12 @@
           "previous": null
         }
       },
-      "price": 391.29
+      "price": 372.9
     },
     {
       "ticker": "PSX",
       "sector": "Energy",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3079,12 +3079,12 @@
           "previous": null
         }
       },
-      "price": 259.49
+      "price": 249.72
     },
     {
       "ticker": "VLO",
       "sector": "Energy",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3099,12 +3099,12 @@
           "previous": null
         }
       },
-      "price": 367.48
+      "price": 326.51
     },
     {
       "ticker": "HAL",
       "sector": "Energy",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3119,12 +3119,12 @@
           "previous": null
         }
       },
-      "price": 32.44
+      "price": 31.51
     },
     {
       "ticker": "DVN",
       "sector": "Energy",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3139,12 +3139,12 @@
           "previous": null
         }
       },
-      "price": 41.54
+      "price": 42.05
     },
     {
       "ticker": "OXY",
       "sector": "Energy",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3159,12 +3159,12 @@
           "previous": null
         }
       },
-      "price": 56.66
+      "price": 54.38
     },
     {
       "ticker": "HES",
       "sector": "Energy",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "N/A",
@@ -3184,7 +3184,7 @@
     {
       "ticker": "BKR",
       "sector": "Energy",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3199,12 +3199,12 @@
           "previous": null
         }
       },
-      "price": 47.83
+      "price": 47.31
     },
     {
       "ticker": "FANG",
       "sector": "Energy",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3219,12 +3219,12 @@
           "previous": null
         }
       },
-      "price": 177.87
+      "price": 165.34
     },
     {
       "ticker": "MRO",
       "sector": "Energy",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "N/A",
@@ -3244,14 +3244,14 @@
     {
       "ticker": "APA",
       "sector": "Energy",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": null
         },
         "monthly": {
@@ -3259,12 +3259,12 @@
           "previous": null
         }
       },
-      "price": 47.2
+      "price": 45.53
     },
     {
       "ticker": "XLI",
       "sector": "Industrials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3279,15 +3279,15 @@
           "previous": null
         }
       },
-      "price": 164.62
+      "price": 159.33
     },
     {
       "ticker": "CAT",
       "sector": "Industrials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -3299,16 +3299,16 @@
           "previous": null
         }
       },
-      "price": 566.98
+      "price": 565.0
     },
     {
       "ticker": "DE",
       "sector": "Industrials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -3319,12 +3319,12 @@
           "previous": null
         }
       },
-      "price": 647.86
+      "price": 605.62
     },
     {
       "ticker": "RTX",
       "sector": "Industrials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3339,12 +3339,12 @@
           "previous": null
         }
       },
-      "price": 195.8
+      "price": 195.9
     },
     {
       "ticker": "LMT",
       "sector": "Industrials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3359,16 +3359,16 @@
           "previous": null
         }
       },
-      "price": 590.5
+      "price": 542.42
     },
     {
       "ticker": "NOC",
       "sector": "Industrials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3379,16 +3379,16 @@
           "previous": null
         }
       },
-      "price": 550.37
+      "price": 545.32
     },
     {
       "ticker": "GE",
       "sector": "Industrials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -3399,12 +3399,12 @@
           "previous": null
         }
       },
-      "price": 324.21
+      "price": 326.33
     },
     {
       "ticker": "HON",
       "sector": "Industrials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3419,12 +3419,12 @@
           "previous": null
         }
       },
-      "price": 210.36
+      "price": 222.65
     },
     {
       "ticker": "BA",
       "sector": "Industrials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3439,19 +3439,19 @@
           "previous": null
         }
       },
-      "price": 164.65
+      "price": 163.56
     },
     {
       "ticker": "UNP",
       "sector": "Industrials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": null
         },
         "monthly": {
@@ -3459,12 +3459,12 @@
           "previous": null
         }
       },
-      "price": 285.95
+      "price": 293.34
     },
     {
       "ticker": "FDX",
       "sector": "Industrials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -3479,16 +3479,16 @@
           "previous": null
         }
       },
-      "price": 303.05
+      "price": 318.27
     },
     {
       "ticker": "UPS",
       "sector": "Industrials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -3499,15 +3499,15 @@
           "previous": null
         }
       },
-      "price": 111.1
+      "price": 110.45
     },
     {
       "ticker": "WM",
       "sector": "Industrials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -3519,12 +3519,12 @@
           "previous": null
         }
       },
-      "price": 228.19
+      "price": 241.05
     },
     {
       "ticker": "MMM",
       "sector": "Industrials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3539,12 +3539,12 @@
           "previous": null
         }
       },
-      "price": 179.16
+      "price": 179.18
     },
     {
       "ticker": "EMR",
       "sector": "Industrials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3559,12 +3559,12 @@
           "previous": null
         }
       },
-      "price": 158.38
+      "price": 149.49
     },
     {
       "ticker": "ETN",
       "sector": "Industrials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3579,12 +3579,12 @@
           "previous": null
         }
       },
-      "price": 321.1
+      "price": 336.46
     },
     {
       "ticker": "PH",
       "sector": "Industrials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3599,12 +3599,12 @@
           "previous": null
         }
       },
-      "price": 920.31
+      "price": 922.45
     },
     {
       "ticker": "ROK",
       "sector": "Industrials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3619,12 +3619,12 @@
           "previous": null
         }
       },
-      "price": 369.03
+      "price": 394.79
     },
     {
       "ticker": "CMI",
       "sector": "Industrials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3639,12 +3639,12 @@
           "previous": null
         }
       },
-      "price": 437.34
+      "price": 428.35
     },
     {
       "ticker": "PCAR",
       "sector": "Industrials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -3659,19 +3659,19 @@
           "previous": null
         }
       },
-      "price": 104.78
+      "price": 98.8
     },
     {
       "ticker": "XLB",
       "sector": "Materials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": null
         },
         "monthly": {
@@ -3679,12 +3679,12 @@
           "previous": null
         }
       },
-      "price": 49.6
+      "price": 50.35
     },
     {
       "ticker": "NEM",
       "sector": "Materials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3699,12 +3699,12 @@
           "previous": null
         }
       },
-      "price": 110.65
+      "price": 103.14
     },
     {
       "ticker": "FCX",
       "sector": "Materials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3719,12 +3719,12 @@
           "previous": null
         }
       },
-      "price": 55.64
+      "price": 52.03
     },
     {
       "ticker": "AA",
       "sector": "Materials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3739,12 +3739,12 @@
           "previous": null
         }
       },
-      "price": 37.34
+      "price": 35.81
     },
     {
       "ticker": "NUE",
       "sector": "Materials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3759,12 +3759,12 @@
           "previous": null
         }
       },
-      "price": 251.54
+      "price": 251.58
     },
     {
       "ticker": "LIN",
       "sector": "Materials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3779,12 +3779,12 @@
           "previous": null
         }
       },
-      "price": 491.24
+      "price": 511.53
     },
     {
       "ticker": "APD",
       "sector": "Materials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3799,12 +3799,12 @@
           "previous": null
         }
       },
-      "price": 289.88
+      "price": 296.04
     },
     {
       "ticker": "ECL",
       "sector": "Materials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3819,15 +3819,15 @@
           "previous": null
         }
       },
-      "price": 282.39
+      "price": 302.05
     },
     {
       "ticker": "DD",
       "sector": "Materials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -3839,19 +3839,19 @@
           "previous": null
         }
       },
-      "price": 145.98
+      "price": 149.83
     },
     {
       "ticker": "DOW",
       "sector": "Materials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": null
         },
         "monthly": {
@@ -3859,12 +3859,12 @@
           "previous": null
         }
       },
-      "price": 31.23
+      "price": 30.41
     },
     {
       "ticker": "PPG",
       "sector": "Materials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3879,12 +3879,12 @@
           "previous": null
         }
       },
-      "price": 114.56
+      "price": 123.83
     },
     {
       "ticker": "VMC",
       "sector": "Materials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3899,12 +3899,12 @@
           "previous": null
         }
       },
-      "price": 275.0
+      "price": 277.91
     },
     {
       "ticker": "MLM",
       "sector": "Materials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3919,12 +3919,12 @@
           "previous": null
         }
       },
-      "price": 467.97
+      "price": 489.97
     },
     {
       "ticker": "IP",
       "sector": "Materials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3939,12 +3939,12 @@
           "previous": null
         }
       },
-      "price": 32.59
+      "price": 30.86
     },
     {
       "ticker": "PKG",
       "sector": "Materials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3959,12 +3959,12 @@
           "previous": null
         }
       },
-      "price": 244.6
+      "price": 225.19
     },
     {
       "ticker": "ALB",
       "sector": "Materials",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -3979,16 +3979,16 @@
           "previous": null
         }
       },
-      "price": 84.36
+      "price": 86.66
     },
     {
       "ticker": "XLU",
       "sector": "Utilities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -3999,12 +3999,12 @@
           "previous": null
         }
       },
-      "price": 43.65
+      "price": 42.33
     },
     {
       "ticker": "NEE",
       "sector": "Utilities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4019,16 +4019,16 @@
           "previous": null
         }
       },
-      "price": 79.25
+      "price": 83.96
     },
     {
       "ticker": "DUK",
       "sector": "Utilities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "BUY"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -4039,16 +4039,16 @@
           "previous": null
         }
       },
-      "price": 129.72
+      "price": 121.86
     },
     {
       "ticker": "SO",
       "sector": "Utilities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -4059,12 +4059,12 @@
           "previous": null
         }
       },
-      "price": 88.66
+      "price": 88.27
     },
     {
       "ticker": "D",
       "sector": "Utilities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4079,16 +4079,16 @@
           "previous": null
         }
       },
-      "price": 67.08
+      "price": 67.03
     },
     {
       "ticker": "AEP",
       "sector": "Utilities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -4099,32 +4099,32 @@
           "previous": null
         }
       },
-      "price": 126.36
+      "price": 118.75
     },
     {
       "ticker": "EXC",
       "sector": "Utilities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
           "previous": null
         },
         "monthly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": null
         }
       },
-      "price": 45.86
+      "price": 45.48
     },
     {
       "ticker": "SRE",
       "sector": "Utilities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4139,12 +4139,12 @@
           "previous": null
         }
       },
-      "price": 72.2
+      "price": 75.62
     },
     {
       "ticker": "PCG",
       "sector": "Utilities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4159,12 +4159,12 @@
           "previous": null
         }
       },
-      "price": 13.59
+      "price": 13.63
     },
     {
       "ticker": "ES",
       "sector": "Utilities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4179,16 +4179,16 @@
           "previous": null
         }
       },
-      "price": 66.52
+      "price": 70.22
     },
     {
       "ticker": "AWK",
       "sector": "Utilities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -4199,12 +4199,12 @@
           "previous": null
         }
       },
-      "price": 147.27
+      "price": 133.03
     },
     {
       "ticker": "ETR",
       "sector": "Utilities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4219,16 +4219,16 @@
           "previous": null
         }
       },
-      "price": 107.46
+      "price": 102.79
     },
     {
       "ticker": "FE",
       "sector": "Utilities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "BUY"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -4239,16 +4239,16 @@
           "previous": null
         }
       },
-      "price": 46.89
+      "price": 44.95
     },
     {
       "ticker": "PPL",
       "sector": "Utilities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -4259,16 +4259,16 @@
           "previous": null
         }
       },
-      "price": 33.58
+      "price": 33.2
     },
     {
       "ticker": "NI",
       "sector": "Utilities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -4279,16 +4279,16 @@
           "previous": null
         }
       },
-      "price": 45.31
+      "price": 43.61
     },
     {
       "ticker": "CMS",
       "sector": "Utilities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -4299,16 +4299,16 @@
           "previous": null
         }
       },
-      "price": 65.82
+      "price": 65.3
     },
     {
       "ticker": "XLRE",
       "sector": "Real Estate",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -4319,12 +4319,12 @@
           "previous": null
         }
       },
-      "price": 43.67
+      "price": 43.49
     },
     {
       "ticker": "PLD",
       "sector": "Real Estate",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4339,19 +4339,19 @@
           "previous": null
         }
       },
-      "price": 126.05
+      "price": 117.8
     },
     {
       "ticker": "AMT",
       "sector": "Real Estate",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": null
         },
         "monthly": {
@@ -4359,12 +4359,12 @@
           "previous": null
         }
       },
-      "price": 172.06
+      "price": 184.38
     },
     {
       "ticker": "EQIX",
       "sector": "Real Estate",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4379,12 +4379,12 @@
           "previous": null
         }
       },
-      "price": 989.9
+      "price": 1027.45
     },
     {
       "ticker": "SPG",
       "sector": "Real Estate",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4399,19 +4399,19 @@
           "previous": null
         }
       },
-      "price": 218.5
+      "price": 233.96
     },
     {
       "ticker": "O",
       "sector": "Real Estate",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": null
         },
         "monthly": {
@@ -4419,12 +4419,12 @@
           "previous": null
         }
       },
-      "price": 55
+      "price": 57.61
     },
     {
       "ticker": "WELL",
       "sector": "Real Estate",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4439,12 +4439,12 @@
           "previous": null
         }
       },
-      "price": 244.17
+      "price": 238.89
     },
     {
       "ticker": "PSA",
       "sector": "Real Estate",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4459,12 +4459,12 @@
           "previous": null
         }
       },
-      "price": 312.51
+      "price": 331.91
     },
     {
       "ticker": "VTR",
       "sector": "Real Estate",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4479,12 +4479,12 @@
           "previous": null
         }
       },
-      "price": 79.42
+      "price": 87.91
     },
     {
       "ticker": "EQR",
       "sector": "Real Estate",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4504,7 +4504,7 @@
     {
       "ticker": "AVB",
       "sector": "Real Estate",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4524,7 +4524,7 @@
     {
       "ticker": "DLR",
       "sector": "Real Estate",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4539,12 +4539,12 @@
           "previous": null
         }
       },
-      "price": 165.43
+      "price": 161.5
     },
     {
       "ticker": "CCI",
       "sector": "Real Estate",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4559,12 +4559,12 @@
           "previous": null
         }
       },
-      "price": 86.93
+      "price": 84.16
     },
     {
       "ticker": "SBAC",
       "sector": "Real Estate",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4579,16 +4579,16 @@
           "previous": null
         }
       },
-      "price": 176.86
+      "price": 174.17
     },
     {
       "ticker": "WY",
       "sector": "Real Estate",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -4599,12 +4599,12 @@
           "previous": null
         }
       },
-      "price": 19.04
+      "price": 19.94
     },
     {
       "ticker": "HST",
       "sector": "Real Estate",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4619,12 +4619,12 @@
           "previous": null
         }
       },
-      "price": 25.61
+      "price": 25.69
     },
     {
       "ticker": "SMH",
       "sector": "Semiconductors",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4639,12 +4639,12 @@
           "previous": null
         }
       },
-      "price": 457.1
+      "price": 444.15
     },
     {
       "ticker": "SOXX",
       "sector": "Semiconductors",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4659,12 +4659,12 @@
           "previous": null
         }
       },
-      "price": 142.86
+      "price": 141.15
     },
     {
       "ticker": "NVDA",
       "sector": "Semiconductors",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4679,15 +4679,15 @@
           "previous": null
         }
       },
-      "price": 158.87
+      "price": 144.91
     },
     {
       "ticker": "AMD",
       "sector": "Semiconductors",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -4699,12 +4699,12 @@
           "previous": null
         }
       },
-      "price": 502.61
+      "price": 530.79
     },
     {
       "ticker": "INTC",
       "sector": "Semiconductors",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4719,12 +4719,12 @@
           "previous": null
         }
       },
-      "price": 55.19
+      "price": 51.5
     },
     {
       "ticker": "QCOM",
       "sector": "Semiconductors",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4739,12 +4739,12 @@
           "previous": null
         }
       },
-      "price": 166.38
+      "price": 158.94
     },
     {
       "ticker": "MU",
       "sector": "Semiconductors",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4759,12 +4759,12 @@
           "previous": null
         }
       },
-      "price": 676.27
+      "price": 669.18
     },
     {
       "ticker": "AVGO",
       "sector": "Semiconductors",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4775,19 +4775,19 @@
           "previous": null
         },
         "monthly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": null
         }
       },
-      "price": 335.81
+      "price": 356.0
     },
     {
       "ticker": "AMAT",
       "sector": "Semiconductors",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -4799,12 +4799,12 @@
           "previous": null
         }
       },
-      "price": 344.23
+      "price": 334.62
     },
     {
       "ticker": "LRCX",
       "sector": "Semiconductors",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4819,16 +4819,16 @@
           "previous": null
         }
       },
-      "price": 199.21
+      "price": 210.06
     },
     {
       "ticker": "KLAC",
       "sector": "Semiconductors",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -4839,12 +4839,12 @@
           "previous": null
         }
       },
-      "price": 143.43
+      "price": 135.9
     },
     {
       "ticker": "MRVL",
       "sector": "Semiconductors",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4859,12 +4859,12 @@
           "previous": null
         }
       },
-      "price": 139.27
+      "price": 138.27
     },
     {
       "ticker": "ASML",
       "sector": "Semiconductors",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4879,12 +4879,12 @@
           "previous": null
         }
       },
-      "price": 1378.12
+      "price": 1398.4
     },
     {
       "ticker": "TSM",
       "sector": "Semiconductors",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4899,12 +4899,12 @@
           "previous": null
         }
       },
-      "price": 357.38
+      "price": 360.99
     },
     {
       "ticker": "MCHP",
       "sector": "Semiconductors",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4919,12 +4919,12 @@
           "previous": null
         }
       },
-      "price": 59.54
+      "price": 56.52
     },
     {
       "ticker": "ON",
       "sector": "Semiconductors",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -4939,12 +4939,12 @@
           "previous": null
         }
       },
-      "price": 66.98
+      "price": 63.96
     },
     {
       "ticker": "MPWR",
       "sector": "Semiconductors",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4959,15 +4959,15 @@
           "previous": null
         }
       },
-      "price": 1330.85
+      "price": 1298.31
     },
     {
       "ticker": "ENTG",
       "sector": "Semiconductors",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -4979,12 +4979,12 @@
           "previous": null
         }
       },
-      "price": 133.74
+      "price": 135.83
     },
     {
       "ticker": "ONTO",
       "sector": "Semiconductors",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -4999,16 +4999,16 @@
           "previous": null
         }
       },
-      "price": 200.76
+      "price": 188.52
     },
     {
       "ticker": "TER",
       "sector": "Semiconductors",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -5019,12 +5019,12 @@
           "previous": null
         }
       },
-      "price": 234.24
+      "price": 230.9
     },
     {
       "ticker": "XBI",
       "sector": "Biotech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5039,12 +5039,12 @@
           "previous": null
         }
       },
-      "price": 145.16
+      "price": 145.09
     },
     {
       "ticker": "ARKG",
       "sector": "Biotech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5059,12 +5059,12 @@
           "previous": null
         }
       },
-      "price": 40.45
+      "price": 41.52
     },
     {
       "ticker": "MRNA",
       "sector": "Biotech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5079,12 +5079,12 @@
           "previous": null
         }
       },
-      "price": 206.94
+      "price": 198.59
     },
     {
       "ticker": "BNTX",
       "sector": "Biotech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5099,12 +5099,12 @@
           "previous": null
         }
       },
-      "price": 85.33
+      "price": 84.46
     },
     {
       "ticker": "REGN",
       "sector": "Biotech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5119,12 +5119,12 @@
           "previous": null
         }
       },
-      "price": 951.83
+      "price": 947.75
     },
     {
       "ticker": "VRTX",
       "sector": "Biotech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5139,12 +5139,12 @@
           "previous": null
         }
       },
-      "price": 531.58
+      "price": 512.67
     },
     {
       "ticker": "BIIB",
       "sector": "Biotech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5159,12 +5159,12 @@
           "previous": null
         }
       },
-      "price": 235.85
+      "price": 249.86
     },
     {
       "ticker": "AMGN",
       "sector": "Biotech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5179,12 +5179,12 @@
           "previous": null
         }
       },
-      "price": 460.28
+      "price": 419.37
     },
     {
       "ticker": "GILD",
       "sector": "Biotech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5199,12 +5199,12 @@
           "previous": null
         }
       },
-      "price": 160.21
+      "price": 161.97
     },
     {
       "ticker": "ILMN",
       "sector": "Biotech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5215,16 +5215,16 @@
           "previous": null
         },
         "monthly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": null
         }
       },
-      "price": 200.63
+      "price": 209.83
     },
     {
       "ticker": "EXAS",
       "sector": "Biotech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5244,7 +5244,7 @@
     {
       "ticker": "BMRN",
       "sector": "Biotech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5259,16 +5259,16 @@
           "previous": null
         }
       },
-      "price": 57.86
+      "price": 61.5
     },
     {
       "ticker": "ALNY",
       "sector": "Biotech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
-          "previous": "SELL"
+          "signal": "SELL",
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -5279,15 +5279,15 @@
           "previous": null
         }
       },
-      "price": 158.3
+      "price": 141.16
     },
     {
       "ticker": "INCY",
       "sector": "Biotech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -5299,16 +5299,16 @@
           "previous": null
         }
       },
-      "price": 119.64
+      "price": 112.57
     },
     {
       "ticker": "RARE",
       "sector": "Biotech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -5319,12 +5319,12 @@
           "previous": null
         }
       },
-      "price": 14.33
+      "price": 14.95
     },
     {
       "ticker": "CIBR",
       "sector": "Cybersecurity",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5339,15 +5339,15 @@
           "previous": null
         }
       },
-      "price": 91.62
+      "price": 96.1
     },
     {
       "ticker": "HACK",
       "sector": "Cybersecurity",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -5359,19 +5359,19 @@
           "previous": null
         }
       },
-      "price": 113.36
+      "price": 119.47
     },
     {
       "ticker": "CRWD",
       "sector": "Cybersecurity",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": null
         },
         "monthly": {
@@ -5379,12 +5379,12 @@
           "previous": null
         }
       },
-      "price": 218.94
+      "price": 237.31
     },
     {
       "ticker": "PANW",
       "sector": "Cybersecurity",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5399,15 +5399,15 @@
           "previous": null
         }
       },
-      "price": 308.77
+      "price": 340.56
     },
     {
       "ticker": "ZS",
       "sector": "Cybersecurity",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -5415,20 +5415,20 @@
           "previous": null
         },
         "monthly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": null
         }
       },
-      "price": 175.75
+      "price": 198.97
     },
     {
       "ticker": "NET",
       "sector": "Cybersecurity",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "BUY"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -5439,15 +5439,15 @@
           "previous": null
         }
       },
-      "price": 266.47
+      "price": 303.07
     },
     {
       "ticker": "FTNT",
       "sector": "Cybersecurity",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -5459,15 +5459,15 @@
           "previous": null
         }
       },
-      "price": 116.09
+      "price": 132.62
     },
     {
       "ticker": "OKTA",
       "sector": "Cybersecurity",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -5479,15 +5479,15 @@
           "previous": null
         }
       },
-      "price": 175.06
+      "price": 185.42
     },
     {
       "ticker": "S",
       "sector": "Cybersecurity",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -5499,15 +5499,15 @@
           "previous": null
         }
       },
-      "price": 20.17
+      "price": 21.98
     },
     {
       "ticker": "TENB",
       "sector": "Cybersecurity",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -5519,15 +5519,15 @@
           "previous": null
         }
       },
-      "price": 33.7
+      "price": 44.4
     },
     {
       "ticker": "QLYS",
       "sector": "Cybersecurity",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -5539,16 +5539,16 @@
           "previous": null
         }
       },
-      "price": 147.48
+      "price": 170.17
     },
     {
       "ticker": "VRNS",
       "sector": "Cybersecurity",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
-          "previous": "BUY"
+          "signal": "BUY",
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "BUY",
@@ -5559,12 +5559,12 @@
           "previous": null
         }
       },
-      "price": 42.16
+      "price": 42.14
     },
     {
       "ticker": "CSCO",
       "sector": "Cybersecurity",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5579,16 +5579,16 @@
           "previous": null
         }
       },
-      "price": 89.77
+      "price": 96.66
     },
     {
       "ticker": "CHKP",
       "sector": "Cybersecurity",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -5599,19 +5599,19 @@
           "previous": null
         }
       },
-      "price": 147.62
+      "price": 152.78
     },
     {
       "ticker": "RPD",
       "sector": "Cybersecurity",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": null
         },
         "monthly": {
@@ -5619,12 +5619,12 @@
           "previous": null
         }
       },
-      "price": 13.87
+      "price": 15.3
     },
     {
       "ticker": "BOTZ",
       "sector": "AI & Robotics",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5639,12 +5639,12 @@
           "previous": null
         }
       },
-      "price": 29.81
+      "price": 29.3
     },
     {
       "ticker": "ROBO",
       "sector": "AI & Robotics",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5659,12 +5659,12 @@
           "previous": null
         }
       },
-      "price": 68.18
+      "price": 68.44
     },
     {
       "ticker": "NVDA",
       "sector": "AI & Robotics",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5679,12 +5679,12 @@
           "previous": null
         }
       },
-      "price": 158.87
+      "price": 144.91
     },
     {
       "ticker": "MSFT",
       "sector": "AI & Robotics",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5699,15 +5699,15 @@
           "previous": null
         }
       },
-      "price": 504.5
+      "price": 479.27
     },
     {
       "ticker": "GOOGL",
       "sector": "AI & Robotics",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -5719,16 +5719,16 @@
           "previous": null
         }
       },
-      "price": 283.48
+      "price": 282.77
     },
     {
       "ticker": "META",
       "sector": "AI & Robotics",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -5739,12 +5739,12 @@
           "previous": null
         }
       },
-      "price": 624.9
+      "price": 588.92
     },
     {
       "ticker": "PATH",
       "sector": "AI & Robotics",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5759,12 +5759,12 @@
           "previous": null
         }
       },
-      "price": 12.47
+      "price": 11.14
     },
     {
       "ticker": "AI",
       "sector": "AI & Robotics",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5779,12 +5779,12 @@
           "previous": null
         }
       },
-      "price": 9.87
+      "price": 10.06
     },
     {
       "ticker": "BBAI",
       "sector": "AI & Robotics",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5799,12 +5799,12 @@
           "previous": null
         }
       },
-      "price": 1.81
+      "price": 1.77
     },
     {
       "ticker": "SOUN",
       "sector": "AI & Robotics",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5819,12 +5819,12 @@
           "previous": null
         }
       },
-      "price": 2.68
+      "price": 2.99
     },
     {
       "ticker": "CFLT",
       "sector": "AI & Robotics",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -5844,7 +5844,7 @@
     {
       "ticker": "GTLB",
       "sector": "AI & Robotics",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5859,12 +5859,12 @@
           "previous": null
         }
       },
-      "price": 45.03
+      "price": 44.11
     },
     {
       "ticker": "AMBA",
       "sector": "AI & Robotics",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5879,16 +5879,16 @@
           "previous": null
         }
       },
-      "price": 52.66
+      "price": 54.42
     },
     {
       "ticker": "TER",
       "sector": "AI & Robotics",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "SELL",
@@ -5899,12 +5899,12 @@
           "previous": null
         }
       },
-      "price": 234.24
+      "price": 230.9
     },
     {
       "ticker": "ISRG",
       "sector": "AI & Robotics",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5919,12 +5919,12 @@
           "previous": null
         }
       },
-      "price": 431.77
+      "price": 424.84
     },
     {
       "ticker": "PLTR",
       "sector": "AI & Robotics",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5939,12 +5939,12 @@
           "previous": null
         }
       },
-      "price": 155.56
+      "price": 155.69
     },
     {
       "ticker": "QBTS",
       "sector": "AI & Robotics",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5959,12 +5959,12 @@
           "previous": null
         }
       },
-      "price": 6.88
+      "price": 7.69
     },
     {
       "ticker": "FINX",
       "sector": "Fintech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5979,12 +5979,12 @@
           "previous": null
         }
       },
-      "price": 21.23
+      "price": 21.57
     },
     {
       "ticker": "V",
       "sector": "Fintech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -5999,12 +5999,12 @@
           "previous": null
         }
       },
-      "price": 417.92
+      "price": 414.85
     },
     {
       "ticker": "MA",
       "sector": "Fintech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6019,12 +6019,12 @@
           "previous": null
         }
       },
-      "price": 621.77
+      "price": 608
     },
     {
       "ticker": "PYPL",
       "sector": "Fintech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6039,12 +6039,12 @@
           "previous": null
         }
       },
-      "price": 58.61
+      "price": 57.75
     },
     {
       "ticker": "SQ",
       "sector": "Fintech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "N/A",
@@ -6064,7 +6064,7 @@
     {
       "ticker": "NU",
       "sector": "Fintech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6079,12 +6079,12 @@
           "previous": null
         }
       },
-      "price": 11.77
+      "price": 12.08
     },
     {
       "ticker": "SOFI",
       "sector": "Fintech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6099,12 +6099,12 @@
           "previous": null
         }
       },
-      "price": 14.39
+      "price": 14.05
     },
     {
       "ticker": "AFRM",
       "sector": "Fintech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6119,12 +6119,12 @@
           "previous": null
         }
       },
-      "price": 59.53
+      "price": 59.17
     },
     {
       "ticker": "UPST",
       "sector": "Fintech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6139,12 +6139,12 @@
           "previous": null
         }
       },
-      "price": 18.27
+      "price": 18.16
     },
     {
       "ticker": "LC",
       "sector": "Fintech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6164,11 +6164,11 @@
     {
       "ticker": "WEX",
       "sector": "Fintech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -6179,12 +6179,12 @@
           "previous": null
         }
       },
-      "price": 181.43
+      "price": 171.81
     },
     {
       "ticker": "FLYW",
       "sector": "Fintech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6199,12 +6199,12 @@
           "previous": null
         }
       },
-      "price": 21.24
+      "price": 17.81
     },
     {
       "ticker": "CWAN",
       "sector": "Fintech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6224,7 +6224,7 @@
     {
       "ticker": "COIN",
       "sector": "Fintech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6239,12 +6239,12 @@
           "previous": null
         }
       },
-      "price": 109.52
+      "price": 110.94
     },
     {
       "ticker": "HOOD",
       "sector": "Fintech",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6259,12 +6259,12 @@
           "previous": null
         }
       },
-      "price": 68.92
+      "price": 69.11
     },
     {
       "ticker": "IBIT",
       "sector": "Crypto",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6279,12 +6279,12 @@
           "previous": null
         }
       },
-      "price": 36.41
+      "price": 35.23
     },
     {
       "ticker": "FBTC",
       "sector": "Crypto",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6299,12 +6299,12 @@
           "previous": null
         }
       },
-      "price": 55.26
+      "price": 54.42
     },
     {
       "ticker": "ETHA",
       "sector": "Crypto",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6319,12 +6319,12 @@
           "previous": null
         }
       },
-      "price": 40.07
+      "price": 39.7
     },
     {
       "ticker": "BTC/USD",
       "sector": "Crypto",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6339,12 +6339,12 @@
           "previous": null
         }
       },
-      "price": 64388.43
+      "price": 62755.04
     },
     {
       "ticker": "ETH/USD",
       "sector": "Crypto",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6359,12 +6359,12 @@
           "previous": null
         }
       },
-      "price": 1801.48
+      "price": 1773.61
     },
     {
       "ticker": "SOL/USD",
       "sector": "Crypto",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6379,12 +6379,12 @@
           "previous": null
         }
       },
-      "price": 74.43
+      "price": 73.32
     },
     {
       "ticker": "XRP/USD",
       "sector": "Crypto",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6399,12 +6399,12 @@
           "previous": null
         }
       },
-      "price": 0.97
+      "price": 0.96
     },
     {
       "ticker": "ADA/USD",
       "sector": "Crypto",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6424,7 +6424,7 @@
     {
       "ticker": "AVAX/USD",
       "sector": "Crypto",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6439,12 +6439,12 @@
           "previous": null
         }
       },
-      "price": 7.16
+      "price": 6.99
     },
     {
       "ticker": "DOGE/USD",
       "sector": "Crypto",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6464,7 +6464,7 @@
     {
       "ticker": "DOT/USD",
       "sector": "Crypto",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6479,12 +6479,12 @@
           "previous": null
         }
       },
-      "price": 0.73
+      "price": 0.72
     },
     {
       "ticker": "MATIC/USD",
       "sector": "Crypto",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "N/A",
@@ -6504,7 +6504,7 @@
     {
       "ticker": "LINK/USD",
       "sector": "Crypto",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6519,12 +6519,12 @@
           "previous": null
         }
       },
-      "price": 9.2
+      "price": 9.09
     },
     {
       "ticker": "UNI/USD",
       "sector": "Crypto",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6539,12 +6539,12 @@
           "previous": null
         }
       },
-      "price": 5.21
+      "price": 5.18
     },
     {
       "ticker": "LTC/USD",
       "sector": "Crypto",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6559,12 +6559,12 @@
           "previous": null
         }
       },
-      "price": 44.71
+      "price": 43.89
     },
     {
       "ticker": "ALGO/USD",
       "sector": "Crypto",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "N/A",
@@ -6584,7 +6584,7 @@
     {
       "ticker": "NEAR/USD",
       "sector": "Crypto",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "N/A",
@@ -6604,7 +6604,7 @@
     {
       "ticker": "FIL/USD",
       "sector": "Crypto",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6619,12 +6619,12 @@
           "previous": null
         }
       },
-      "price": 0.61
+      "price": 0.57
     },
     {
       "ticker": "ARB/USD",
       "sector": "Crypto",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6644,7 +6644,7 @@
     {
       "ticker": "AAVE/USD",
       "sector": "Crypto",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6659,12 +6659,12 @@
           "previous": null
         }
       },
-      "price": 112.07
+      "price": 109.2
     },
     {
       "ticker": "PDBC",
       "sector": "Commodities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6679,12 +6679,12 @@
           "previous": null
         }
       },
-      "price": 17.97
+      "price": 17.63
     },
     {
       "ticker": "GLD",
       "sector": "Commodities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6699,12 +6699,12 @@
           "previous": null
         }
       },
-      "price": 353.85
+      "price": 342.87
     },
     {
       "ticker": "IAU",
       "sector": "Commodities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6719,12 +6719,12 @@
           "previous": null
         }
       },
-      "price": 72.56
+      "price": 70.31
     },
     {
       "ticker": "SLV",
       "sector": "Commodities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6739,12 +6739,12 @@
           "previous": null
         }
       },
-      "price": 41.6
+      "price": 40.72
     },
     {
       "ticker": "PPLT",
       "sector": "Commodities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6759,12 +6759,12 @@
           "previous": null
         }
       },
-      "price": 12.86
+      "price": 12.38
     },
     {
       "ticker": "USO",
       "sector": "Commodities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6779,12 +6779,12 @@
           "previous": null
         }
       },
-      "price": 139.71
+      "price": 132.61
     },
     {
       "ticker": "BNO",
       "sector": "Commodities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6799,12 +6799,12 @@
           "previous": null
         }
       },
-      "price": 58.98
+      "price": 56.54
     },
     {
       "ticker": "UNG",
       "sector": "Commodities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6819,15 +6819,15 @@
           "previous": null
         }
       },
-      "price": 10.02
+      "price": 10.59
     },
     {
       "ticker": "DBA",
       "sector": "Commodities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -6839,15 +6839,15 @@
           "previous": null
         }
       },
-      "price": 26.48
+      "price": 25.42
     },
     {
       "ticker": "CORN",
       "sector": "Commodities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": "BUY"
         },
         "weekly": {
@@ -6859,12 +6859,12 @@
           "previous": null
         }
       },
-      "price": 16.76
+      "price": 16.47
     },
     {
       "ticker": "WEAT",
       "sector": "Commodities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6879,12 +6879,12 @@
           "previous": null
         }
       },
-      "price": 21.22
+      "price": 21.32
     },
     {
       "ticker": "SOYB",
       "sector": "Commodities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -6899,12 +6899,12 @@
           "previous": null
         }
       },
-      "price": 25.89
+      "price": 25.75
     },
     {
       "ticker": "DJP",
       "sector": "Commodities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6919,12 +6919,12 @@
           "previous": null
         }
       },
-      "price": 47.5
+      "price": 46.45
     },
     {
       "ticker": "GDX",
       "sector": "Commodities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6939,12 +6939,12 @@
           "previous": null
         }
       },
-      "price": 78.72
+      "price": 73.56
     },
     {
       "ticker": "GDXJ",
       "sector": "Commodities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6959,12 +6959,12 @@
           "previous": null
         }
       },
-      "price": 96.32
+      "price": 90.19
     },
     {
       "ticker": "COPX",
       "sector": "Commodities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6979,12 +6979,12 @@
           "previous": null
         }
       },
-      "price": 65.24
+      "price": 59.28
     },
     {
       "ticker": "URA",
       "sector": "Commodities",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -6999,12 +6999,12 @@
           "previous": null
         }
       },
-      "price": 29.86
+      "price": 28.55
     },
     {
       "ticker": "VXX",
       "sector": "Volatility",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -7019,16 +7019,16 @@
           "previous": null
         }
       },
-      "price": 22.07
+      "price": 21.33
     },
     {
       "ticker": "UVXY",
       "sector": "Volatility",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
-          "previous": "SELL"
+          "previous": "BUY"
         },
         "weekly": {
           "signal": "BUY",
@@ -7039,12 +7039,12 @@
           "previous": null
         }
       },
-      "price": 22.91
+      "price": 21.7
     },
     {
       "ticker": "SVXY",
       "sector": "Volatility",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7059,12 +7059,12 @@
           "previous": null
         }
       },
-      "price": 54.1
+      "price": 54.86
     },
     {
       "ticker": "VIXY",
       "sector": "Volatility",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -7079,12 +7079,12 @@
           "previous": null
         }
       },
-      "price": 21.13
+      "price": 20.46
     },
     {
       "ticker": "VIXM",
       "sector": "Volatility",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -7095,16 +7095,16 @@
           "previous": null
         },
         "monthly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": null
         }
       },
-      "price": 14.36
+      "price": 13.96
     },
     {
       "ticker": "CBOE",
       "sector": "Volatility",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -7119,12 +7119,12 @@
           "previous": null
         }
       },
-      "price": 370.47
+      "price": 345.32
     },
     {
       "ticker": "SPXS",
       "sector": "Volatility",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -7135,16 +7135,16 @@
           "previous": null
         },
         "monthly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": null
         }
       },
-      "price": 27.81
+      "price": 28.01
     },
     {
       "ticker": "SQQQ",
       "sector": "Volatility",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -7159,12 +7159,12 @@
           "previous": null
         }
       },
-      "price": 46.64
+      "price": 46.53
     },
     {
       "ticker": "SH",
       "sector": "Volatility",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -7179,12 +7179,12 @@
           "previous": null
         }
       },
-      "price": 33.94
+      "price": 34.03
     },
     {
       "ticker": "PSQ",
       "sector": "Volatility",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -7199,15 +7199,15 @@
           "previous": null
         }
       },
-      "price": 27.87
+      "price": 27.8
     },
     {
       "ticker": "TAIL",
       "sector": "Volatility",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": "SELL"
         },
         "weekly": {
@@ -7219,12 +7219,12 @@
           "previous": null
         }
       },
-      "price": 10.3
+      "price": 9.68
     },
     {
       "ticker": "BTAL",
       "sector": "Volatility",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -7239,12 +7239,12 @@
           "previous": null
         }
       },
-      "price": 13.59
+      "price": 13.54
     },
     {
       "ticker": "TLT",
       "sector": "Fixed Income",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7259,12 +7259,12 @@
           "previous": null
         }
       },
-      "price": 79.59
+      "price": 80.16
     },
     {
       "ticker": "IEF",
       "sector": "Fixed Income",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7279,12 +7279,12 @@
           "previous": null
         }
       },
-      "price": 90.38
+      "price": 90.63
     },
     {
       "ticker": "SHY",
       "sector": "Fixed Income",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7299,12 +7299,12 @@
           "previous": null
         }
       },
-      "price": 81.31
+      "price": 81.33
     },
     {
       "ticker": "BND",
       "sector": "Fixed Income",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7319,12 +7319,12 @@
           "previous": null
         }
       },
-      "price": 70.67
+      "price": 70.85
     },
     {
       "ticker": "AGG",
       "sector": "Fixed Income",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7339,12 +7339,12 @@
           "previous": null
         }
       },
-      "price": 95.23
+      "price": 95.38
     },
     {
       "ticker": "HYG",
       "sector": "Fixed Income",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7359,12 +7359,12 @@
           "previous": null
         }
       },
-      "price": 76.69
+      "price": 76.67
     },
     {
       "ticker": "JNK",
       "sector": "Fixed Income",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7379,19 +7379,19 @@
           "previous": null
         }
       },
-      "price": 92.0
+      "price": 89.01
     },
     {
       "ticker": "LQD",
       "sector": "Fixed Income",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
+          "signal": "BUY",
           "previous": null
         },
         "monthly": {
@@ -7399,12 +7399,12 @@
           "previous": null
         }
       },
-      "price": 102.75
+      "price": 103.02
     },
     {
       "ticker": "EMB",
       "sector": "Fixed Income",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7419,12 +7419,12 @@
           "previous": null
         }
       },
-      "price": 87.88
+      "price": 88
     },
     {
       "ticker": "TIP",
       "sector": "Fixed Income",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7439,12 +7439,12 @@
           "previous": null
         }
       },
-      "price": 104.83
+      "price": 104.91
     },
     {
       "ticker": "MUB",
       "sector": "Fixed Income",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7459,12 +7459,12 @@
           "previous": null
         }
       },
-      "price": 100.37
+      "price": 97.97
     },
     {
       "ticker": "EFA",
       "sector": "International Developed",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7479,12 +7479,12 @@
           "previous": null
         }
       },
-      "price": 102.19
+      "price": 100.66
     },
     {
       "ticker": "VEA",
       "sector": "International Developed",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7499,12 +7499,12 @@
           "previous": null
         }
       },
-      "price": 67.41
+      "price": 66.65
     },
     {
       "ticker": "EWJ",
       "sector": "International Developed",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7515,20 +7515,20 @@
           "previous": null
         },
         "monthly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": null
         }
       },
-      "price": 88.31
+      "price": 88.02
     },
     {
       "ticker": "EWG",
       "sector": "International Developed",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
-          "previous": "BUY"
+          "previous": "SELL"
         },
         "weekly": {
           "signal": "SELL",
@@ -7539,12 +7539,12 @@
           "previous": null
         }
       },
-      "price": 41.91
+      "price": 38.88
     },
     {
       "ticker": "EWU",
       "sector": "International Developed",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7559,12 +7559,12 @@
           "previous": null
         }
       },
-      "price": 45.52
+      "price": 46.25
     },
     {
       "ticker": "EWC",
       "sector": "International Developed",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7575,16 +7575,16 @@
           "previous": null
         },
         "monthly": {
-          "signal": "BUY",
+          "signal": "SELL",
           "previous": null
         }
       },
-      "price": 58.72
+      "price": 54.13
     },
     {
       "ticker": "EWA",
       "sector": "International Developed",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7599,12 +7599,12 @@
           "previous": null
         }
       },
-      "price": 28.41
+      "price": 27.8
     },
     {
       "ticker": "EWL",
       "sector": "International Developed",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7624,7 +7624,7 @@
     {
       "ticker": "EWQ",
       "sector": "International Developed",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7639,12 +7639,12 @@
           "previous": null
         }
       },
-      "price": 42.08
+      "price": 42.47
     },
     {
       "ticker": "HEZU",
       "sector": "International Developed",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -7659,12 +7659,12 @@
           "previous": null
         }
       },
-      "price": 48.5
+      "price": 47.89
     },
     {
       "ticker": "DXJ",
       "sector": "International Developed",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -7679,12 +7679,12 @@
           "previous": null
         }
       },
-      "price": 55.16
+      "price": 55.33
     },
     {
       "ticker": "EEM",
       "sector": "International Emerging",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7699,12 +7699,12 @@
           "previous": null
         }
       },
-      "price": 58.39
+      "price": 57.75
     },
     {
       "ticker": "VWO",
       "sector": "International Emerging",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7719,12 +7719,12 @@
           "previous": null
         }
       },
-      "price": 52.8
+      "price": 55.3
     },
     {
       "ticker": "FXI",
       "sector": "International Emerging",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7739,12 +7739,12 @@
           "previous": null
         }
       },
-      "price": 32.91
+      "price": 32.37
     },
     {
       "ticker": "MCHI",
       "sector": "International Emerging",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7759,12 +7759,12 @@
           "previous": null
         }
       },
-      "price": 47.09
+      "price": 48.47
     },
     {
       "ticker": "EWZ",
       "sector": "International Emerging",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7779,12 +7779,12 @@
           "previous": null
         }
       },
-      "price": 31.07
+      "price": 30.18
     },
     {
       "ticker": "INDA",
       "sector": "International Emerging",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -7799,12 +7799,12 @@
           "previous": null
         }
       },
-      "price": 51.72
+      "price": 51.41
     },
     {
       "ticker": "EWY",
       "sector": "International Emerging",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7819,12 +7819,12 @@
           "previous": null
         }
       },
-      "price": 134.84
+      "price": 136.66
     },
     {
       "ticker": "EWT",
       "sector": "International Emerging",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7839,12 +7839,12 @@
           "previous": null
         }
       },
-      "price": 88.69
+      "price": 88.41
     },
     {
       "ticker": "KWEB",
       "sector": "International Emerging",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
@@ -7859,32 +7859,33 @@
           "previous": null
         }
       },
-      "price": 22.22
+      "price": 21.8
     },
     {
       "ticker": "GXC",
       "sector": "International Emerging",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "SELL",
           "previous": "SELL"
         },
         "weekly": {
-          "signal": "SELL",
-          "previous": null
+          "signal": "ERR",
+          "previous": null,
+          "error": "429 Client Error: Too Many Requests for url: https://data.alpaca.markets/v2/stocks/bars?symbols=GXC&timeframe=1Week&start=2020-03-05&limit=1000&sort=asc"
         },
         "monthly": {
           "signal": "SELL",
           "previous": null
         }
       },
-      "price": 80.22
+      "price": 76.07
     },
     {
       "ticker": "INDY",
       "sector": "International Emerging",
-      "updated": "Nov 18, 2026",
+      "updated": "Nov 19, 2026",
       "timeframes": {
         "daily": {
           "signal": "BUY",
@@ -7899,7 +7900,7 @@
           "previous": null
         }
       },
-      "price": 42.32
+      "price": 44.94
     }
   ]
 }
